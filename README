@@ -1,0 +1,20 @@
+This project contains the source files for fonts in the Google Font
+Directory. Please see http://code.google.com/webfonts for access to
+those fonts through the Google Font API.
+
+Each subdirectory contains fonts from a single designer. The .ttf font
+files at the top level of each directory represent the files served
+through the API. Various source files are often present in a src/
+directory under that. Each directory also contains a METADATA file
+(in simple Java properties file format, but UTF-8 encoding) with
+metadata for the file.
+
+Most fonts use the SIL Open Font License, version 1.1. A few fonts use
+the Apache 2 license. Each directory contains the appropriate license
+file for the fonts in that directory.
+
+Since all the fonts in this project are open source, many have
+open source projects elsewhere. As with most open source
+distributions, best practice is always to merge changes upstream.
+
+Enjoy the fonts!
