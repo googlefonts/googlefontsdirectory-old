@@ -1,0 +1,29 @@
+Changes (2010-July-28):
+
+- Support for Latin-Extended-A with the exception of one or two historical shapes; so most Western languages should be supported now
+- Serifs are all the same now within one weight/style. In fact, they're a bit sturdier and longer than they were before
+- Added a ton of f-ligatures to each weight/style
+- The roman versions already contain old style numerals and small caps (experimental); italics will follow soon
+- Started Greek in the Roman Regular (very experimental)
+- Fixed up some italic letters
+- Used FontForge's autospacing on all fonts; the results are, obviously, terrible.
+- Experimenting with a lc "f" with shorter terminal for overlapping cases. Implemented as an almost-correctly working calt-feature in the Roman Regular. I favour this approach over ligatures, actually
+
+You see there's a lot left to do. I hopefully don't have to deter you from using it publicly (yet) to save you some embarassment.
+
+If you can help with ...
+
+- positioning diacritics
+- improving spacing and kerning
+- adding math characters
+- advice of any sort
+- improving the greek shapes
+- creating flourishes or ornaments
+- scripting FontForge to speed up tedious work
+- creating Multiple Master templates so we can have optical scaling
+- encouraging ego boosts
+- anything else
+
+... fire me an email at sebastian@aldusleaf.org. Thanks.
+
+Crimson Text is released under the terms of the Open Font License, available at SIL.
