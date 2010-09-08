@@ -1,11 +1,17 @@
 designer: Friedrich Althausen
 url: http://friedrichalthausen.de/2006/01/01/vollkorn/
 license: OFL
-description: <p>Vollkorn is my first serious font. I wanted to create a restrained, \
-  well-functioning font for reading &mdash; with the resulting high demands on word image, \
-  line binding and readability. For this I have defined a large x-height that is almost \
-  to the upper length ratio of 2:3.</p>
-  <p>Vollkorn will work as written mainly in consultation and read size. Therefore, \
-  it is designed as a whole and in detail relatively robust, strong, healthy and dark. \
-  In support for the eyes the serifs on the center line level are increasingly easy and 
-  unobtrusive.</p>
+description: <p>Vollkorn came into being as my first type designing attempt. I \
+  published the Regular in 2005 under a Creative-Commons-License. Until the \
+  counter finally collapsed two years later it had been downloaded thousands \
+  of times and used for web and print matters. It intends to be a quiet, \ 
+  modest and well working text face for bread and butter use. Unlike its \
+  examples in the book faces from the renaissance until today, it has dark and \
+  meaty serifs and a bouncing and healthy look. It might be used as body type \
+  as well as for headlines or titles. »Vollkorn« (pronounced »Follkorn«) is \
+  German for »wholemeal« which refers to the old term »Brotschrift«. It stood \\  for the small fonts for every day use in hand setting times.</p>
+
+font.Vollkorn-Italic.ttf.style: italic
+font.Vollkorn-Bold.ttf.weight: bold
+font.Vollkorn-BoldItalic.ttf.weight: bold
+font.Vollkorn-BoldItalic.ttf.style: italic
