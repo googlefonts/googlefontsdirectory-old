@@ -1,0 +1,26 @@
+visibility: INTERNAL
+# TODO: multiple designers?
+# designer: Khaled Hosny
+url: http://projects.arabeyes.org/project.php?proj=Khotot
+license: OFL
+
+approved: true
+# TODO: not sure of this category, the Courier latin is *monospace* serif. - DC
+# category: serif
+subsets: latin, arabic
+
+family: Thabit
+# family.ar: ثابت 
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+description: <p>Thabit (from Arabic ثابت; fixed) is a fixed width OpenType \
+  font family that is supports Arabic script. It is developed by \
+  <a href="http://arabeyes.org">Arabeyes.org</a> as part of the Khotot \
+  project.</p>
+
+# TODO: DEFINITELY need to check this is right, I think its right, but I have 
+# little experience with arabic text. 
+description.ar: <p>ثابت هو عائلة خطوط أوبن تيب ثابتة العرض تدعم \
+  نظام الكتابة العربي. تطور كجزء من مشروع \ 
+  "خطوط" عيون العرب. \

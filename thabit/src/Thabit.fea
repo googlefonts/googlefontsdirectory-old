@@ -1,0 +1,203 @@
+# GSUB 
+
+lookup rligTashkilLigatures {
+  lookupflag RightToLeft;
+    sub \shaddah \fathatan  by \shaddahfathatan;
+    sub \shaddah \dammatan  by \shaddahdammatan;
+    sub \shaddah \fathah  by \shaddahfathah;
+    sub \shaddah \dammah  by \shaddahdammah;
+} rligTashkilLigatures;
+
+lookup InitialForms {
+  lookupflag RightToLeft;
+    sub \yehwithhamzaabove by \yehwithhamzaaboveinitial ;
+    sub \beh by \behinitial ;
+    sub \teh by \tehinitial ;
+    sub \theh by \thehinitial ;
+    sub \jeem by \jeeminitial ;
+    sub \hah by \hahinitial ;
+    sub \khah by \khahinitial ;
+    sub \seen by \seeninitial ;
+    sub \sheen by \sheeninitial ;
+    sub \sad by \sadinitial ;
+    sub \dad by \dadinitial ;
+    sub \tah by \tahinitial ;
+    sub \zah by \zahinitial ;
+    sub \ain by \aininitial ;
+    sub \ghain by \ghaininitial ;
+    sub \feh by \fehinitial ;
+    sub \qaf by \qafinitial ;
+    sub \arabickaf by \kafinitial ;
+    sub \lam by \laminitial ;
+    sub \meem by \meeminitial ;
+    sub \noon by \nooninitial ;
+    sub \heh by \hehinitial ;
+    sub \yeh by \yehinitial ;
+    sub \tehring by \tehring.init ;
+    sub \peh by \uniFB58 ;
+    sub \hahhamza by \hahhamza.init ;
+    sub \hah3dots by \hah3dots.init ;
+    sub \tcheh by \uniFB7C ;
+    sub \seendotabvblw by \seendotabvblw.init ;
+    sub \noonring by \noonring.init ;
+    sub \uni06D0 by \uniFBE6 ;
+    sub \uni06CC by \uniFBFE ;
+    sub \keheh by \uniFB90 ;
+    sub \kafring by \kafring.init ;
+    sub \gaf by \uniFB94 ;
+    sub \afii57505 by \uniFB6C ;
+    sub \afii57511 by \uniFB68 ;
+    sub \uni06BE by \uniFBAC ;
+} InitialForms;
+
+lookup MedialForms {
+  lookupflag RightToLeft;
+    sub \yehwithhamzaabove by \yehwithhamzaabovemedial ;
+    sub \beh by \behmedial ;
+    sub \teh by \tehmedial ;
+    sub \theh by \thehmedial ;
+    sub \jeem by \jeemmedial ;
+    sub \hah by \hahmedial ;
+    sub \khah by \khahmedial ;
+    sub \seen by \seenmedial ;
+    sub \sheen by \sheenmedial ;
+    sub \sad by \sadmedial ;
+    sub \dad by \dadmedial ;
+    sub \tah by \tahmedial ;
+    sub \zah by \zahmedial ;
+    sub \ain by \ainmedial ;
+    sub \ghain by \ghainmedial ;
+    sub \feh by \fehmedial ;
+    sub \qaf by \qafmedial ;
+    sub \arabickaf by \kafmedial ;
+    sub \lam by \lammedial ;
+    sub \meem by \meemmedial ;
+    sub \noon by \noonmedial ;
+    sub \heh by \hehmedial ;
+    sub \yeh by \yehmedial ;
+    sub \tehring by \tehring.medi ;
+    sub \peh by \uniFB59 ;
+    sub \hahhamza by \hahhamza.medi ;
+    sub \hah3dots by \hah3dots.medi ;
+    sub \tcheh by \uniFB7D ;
+    sub \seendotabvblw by \seendotabvblw.medi ;
+    sub \noonring by \noonring.medi ;
+    sub \uni06D0 by \uniFBE7 ;
+    sub \uni06CC by \uniFBFF ;
+    sub \keheh by \uniFB91 ;
+    sub \kafring by \kafring.medi ;
+    sub \gaf by \uniFB95 ;
+    sub \afii57505 by \uniFB6D ;
+    sub \afii57511 by \uniFB69 ;
+    sub \uni06BE by \uniFBAD ;
+} MedialForms;
+
+lookup FinalForms {
+  lookupflag RightToLeft;
+    sub \alefwithmaddaabove by \alefwithmaddaabovefinal ;
+    sub \alefwithhamzaabove by \alefwithhamzaabovefinal ;
+    sub \wawwithhamzaabove by \wawwithhamzaabovefinal ;
+    sub \alefwithhamzabelow by \alefwithhamzabelowfinal ;
+    sub \yehwithhamzaabove by \yehwithhamzaabovefinal ;
+    sub \arabicalef by \aleffinal ;
+    sub \beh by \behfinal ;
+    sub \tehmarbuta by \tehmarbutafinal ;
+    sub \teh by \tehfinal ;
+    sub \theh by \thehfinal ;
+    sub \jeem by \jeemfinal ;
+    sub \hah by \hahfinal ;
+    sub \khah by \khahfinal ;
+    sub \dal by \dalfinal ;
+    sub \thal by \thalfinal ;
+    sub \reh by \rehfinal ;
+    sub \zain by \zainfinal ;
+    sub \seen by \seenfinal ;
+    sub \sheen by \sheenfinal ;
+    sub \sad by \sadfinal ;
+    sub \dad by \dadfinal ;
+    sub \tah by \tahfinal ;
+    sub \zah by \zahfinal ;
+    sub \ain by \ainfinal ;
+    sub \ghain by \ghainfinal ;
+    sub \feh by \fehfinal ;
+    sub \qaf by \qaffinal ;
+    sub \arabickaf by \arabickaffinal ;
+    sub \lam by \lamfinal ;
+    sub \meem by \meemfinal ;
+    sub \noon by \noonfinal ;
+    sub \heh by \hehfinal ;
+    sub \waw by \wawfinal ;
+    sub \alefmaksura by \alefmaksurafinal ;
+    sub \yeh by \yehfinal ;
+    sub \tehring by \tehring.fina ;
+    sub \peh by \uniFB57 ;
+    sub \hahhamza by \hahhamza.fina ;
+    sub \tcheh by \uniFB7B ;
+    sub \hah3dots by \hah3dots.fina ;
+    sub \dalring by \dalring.fina ;
+    sub \rehring by \rehring.fina ;
+    sub \rehdotabvblw by \rehdotabvblw.fina ;
+    sub \jeh by \uniFB8B ;
+    sub \seendotabvblw by \seendotabvblw.fina ;
+    sub \noonring by \noonring.fina ;
+    sub \uni06D0 by \uniFBE5 ;
+    sub \uni06CC by \uniFBFD ;
+    sub \uni06CD by \yehtail.fina ;
+    sub \hehhamza by \hehhamza.fina ;
+    sub \keheh by \uniFB8F ;
+    sub \kafring by \kafring.fina ;
+    sub \gaf by \uniFB93 ;
+    sub \afii57505 by \uniFB6B ;
+    sub \afii57511 by \uniFB67 ;
+    sub \afii57512 by \uniFB89 ;
+    sub \afii57514 by \uniFB9F ;
+    sub \uni06BE by \uniFBAB ;
+} FinalForms;
+
+lookup ligaLamAlef {
+  lookupflag RightToLeft, IgnoreMarks;
+    sub \laminitial \alefwithmaddaabovefinal  by \lamwithalefmaddaaboveisolatedd;
+    sub \lammedial \alefwithmaddaabovefinal  by \lamwithalefmaddaabovefinal;
+    sub \laminitial \alefwithhamzaabovefinal  by \lamwithalefhamzaaboveisolatedd;
+    sub \lammedial \alefwithhamzaabovefinal  by \lamwithalefhamzaabovefinal;
+    sub \laminitial \alefwithhamzabelowfinal  by \lamwithalefhamzabelowisolated;
+    sub \lammedial \alefwithhamzabelowfinal  by \lamwithalefhamzabelowfinal;
+    sub \laminitial \aleffinal  by \lamwithalefisolated;
+    sub \lammedial \aleffinal  by \lamwithaleffinal;
+} ligaLamAlef;
+
+feature rlig {
+
+  script arab;
+     language dflt ;
+      lookup rligTashkilLigatures;
+} rlig;
+
+feature init {
+
+  script arab;
+     language dflt ;
+      lookup InitialForms;
+} init;
+
+feature medi {
+
+  script arab;
+     language dflt ;
+      lookup MedialForms;
+} medi;
+
+feature fina {
+
+  script arab;
+     language dflt ;
+      lookup FinalForms;
+} fina;
+
+feature liga {
+
+  script arab;
+     language dflt ;
+      lookup ligaLamAlef;
+} liga;
+
