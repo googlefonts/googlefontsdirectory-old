@@ -1,0 +1,43 @@
+visibility: INTERNAL
+# TODO: multiple designers?
+# designer: SIL
+url: http://scripts.sil.org/andika
+license: OFL
+
+approved: false
+category: sans-serif
+subsets: latin
+
+family: Andika
+font.Andika-BasicRegular.ttf.subfamily: Basic
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+description: <p>Andika ("Write!" in Swahili) is a sans serif, \
+  Unicode-compliant font designed especially for literacy use, taking into \
+  account the needs of beginning readers. The focus is on clear, \
+  easy-to-perceive letterforms that will not be easily confused with one \
+  another.</p><p>A sans serif font is preferred by some literacy personnel \
+  for teaching people to read. Its forms are simpler and less cluttered than \
+  some serif fonts can be. For years, literacy workers have had to make do \
+  with fonts that were available but not really suitable for beginning \
+  readers and writers. In some cases, literacy specialists have had to \
+  tediously cobble together letters from a variety of fonts in order to get \
+  the all of characters they need for their particular language project, \
+  resulting in confusing and unattractive publications. Andika addresses \
+  those issues.</p><p>After receiving many insightful comments on the Design \
+  Review fonts, SIL has refined Andika's final letterforms, with alternate \
+  shapes still available for some characters.</p>
+font.Andika-BasicRegular.ttf.description: <p>Andika Basic Regular is \
+  released as the foundation for the Andika font family and italic, bold, \
+  and bold italic are yet to come.</p><p>SIL's "Basic" Roman fonts -- Andika \
+  Basic, Gentium Basic, and Gentium Book Basic -- have a limited character \
+  set, supporting only the Basic Latin and Latin-1 Supplement Unicode \
+  ranges, plus a selection of the more commonly used extended Latin \
+  characters, with miscellaneous diacritical marks, symbols and \
+  punctuation.</p><p>A much more complete character set, comparable to \
+  Charis SIL and Doulos SIL, will be supported in a future version of \
+  Andika. This "Basic" font is intended to provide an Andika with stable \
+  letterforms for both default and alternate glyphs. No need to request \
+  additional glyphs or characters to be supported in the Basic fonts - \
+  such support will become available in the full font in the future.</p>
