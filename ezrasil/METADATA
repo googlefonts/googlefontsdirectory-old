@@ -6,7 +6,9 @@ license: OFL
 
 approved: true
 category: serif
-subsets: latin, hebrew
+# The font supports a latin subset, but we've determined that we don't want
+# it to appear in the latin list for now. We may revise this later.
+subsets: hebrew
 
 family: Ezra SIL
 # TODO: SR is very short, what does it stand for?
