@@ -1,14 +1,16 @@
-visibility: INTERNAL
 designer: Peter Martin
-# We can only accommodate a single designer in our current scheme. The named
-# designers in the fontlog are Peter Martin, Joan Wardell, Christopher Samuel,
-# John Hudson, and Ralph Hancock, with SIL International as maintainer.
+# Profiles/photos needed from Peter Martin, Joan Wardell, 
+# Christopher Samuel, and a founry profile of SIL International
 url: http://scripts.sil.org/EzraSIL_Home
 license: OFL
 
 approved: true
 category: serif
 subsets: latin, hebrew
+
+family: Ezra SIL
+# TODO: SR is very short, what does it stand for?
+font.Ezra-SIL-SR.ttf.subfamily: SR
 
 description: <p>Ezra SIL is \
   fashioned after the square letter forms of the typography of the Biblia \
@@ -17,9 +19,10 @@ description: <p>Ezra SIL is \
   characters needed for Biblical Hebrew texts following the typeface and \
   traditions of the Biblia Hebraica Stuttgartensia. You should expect to get \
   the same typographic features and diacritic placement as is found in the \
-  printed Biblia Hebraica Stuttgartensia 1967/77, 1983.</p><p>If you require \
-  a different style of typography, you should use a different font or you may \
-  make your own, under the terms of the OFL. Please do not request of SIL \
+  printed Biblia Hebraica Stuttgartensia 1967/77, 1983.</p><p>Ezra SIL SR \
+  is a more contemporary version, with standard-shaped marks as used in \
+  normal copies of the Tanakh. So the SR variation is more suitable for \
+  general usage.</p><p>Please do not request of SIL \
   changes to the font that are not found in the BHS. Anyone can make their \
   own modified version of Ezra SIL (using a different name), but SIL \
   International will continue to maintain and develop the canonical version \
@@ -27,4 +30,40 @@ description: <p>Ezra SIL is \
   or modify, consult the OFL and OFL-FAQ.</p><p>At this point SIL is not \
   actively soliciting contributions to the project. Although they remain \
   the package maintainer, they do not currently plan major upgrades, but \
-  will gratefully accept bug reports.</p>
+  will gratefully accept bug reports.</p> \
+  <p><a href="http://www.hancock.dircon.co.uk">Ralph Hancock</a> was born \
+  in London in 1948 and still lives there. He has \
+  been working on fonts, keyboards and screen displays for ancient Greek and \
+  non-roman scripts since the early 1980s, the era of DOS and 8-pin dot \
+  matrix printers.</p><p>Work with TrueType fonts began when Windows 3 \
+  became obsolete, so that it was no longer possible to use the popular \
+  classical Greek writing system WinGreek. With the programmer Neil \
+  Beshoori he developed its Windows 95 successor, Son of WinGreek, and \
+  for this program he designed the Greek Old Face font, and several \
+  other Greek fonts using the same 8-bit character set.</p><p>With the \
+  arrival of Unicode, he worked with the programmer Denis Liégeois to \
+  create Antioch, an add-on for Microsoft Word for writing classical \
+  Greek and Biblical Hebrew. This uses his standard Unicode roman, Greek \
+  and Hebrew font called Vusillus. He has also designed other fonts for \
+  roman and Greek only, such as Mediolanum; and a Hebrew font for use \
+  with the Fluent Languages program, which places vowel points by means \
+  of the Mac AAT system.</p><p>Later versions of Antioch have allowed the \
+  full use of Hebrew cantillation marks as well as vowel points, so \
+  that even the ultra-complex <em>Biblia Hebraica Stuttgartensia</em> \
+  text of the Old Testament can be rendered correctly in every detail. \
+  For this purpose he developed the first full OpenType instruction set \
+  for placing cantillation marks on Hebrew letters, including the multiple \
+  marks demanded by the BHS. The first font of this type was Ezra SIL, \
+  made specifically for the BHS; there is also a version for use with \
+  other, more normal versions of the text, called Ezra SIL SR. The \
+  Vusillus font issued with Antioch has the same OpenType system as \
+  Ezra SIL SR for its Hebrew letters.</p><p>After Ralph began the \
+  development of the OpenType layout features in Ezra SIL, John Hudson \
+  borrowed the OpenType parts from him and adapted them to his own font, \
+  <a href="http://www.sbl-site.org/educational/BiblicalFonts_SBLHebrew.aspx"> \
+  SBL Hebrew</a>. They then passed back and forth improvements and \
+  suggestions as they worked on their separate projects, so that it was \
+  no longer possible to say whose data was whose. Shared copyright and \
+  MIT licensing was the best way to formalise this relationship and \
+  enable to kinds of use of the layout intelligence that they wanted to \
+  see, i.e. free use by anyone for any purpose without restriction.</p>
