@@ -1,8 +1,7 @@
-visibility: INTERNAL
 # The designers are Alexandra Korolkova, Olga Umpeleva and Vladimir Yefimov.
 # Our current schema handles multiple designers poorly, so our policy is to
-# index by first-named designer.
-designer: Alexandra Korolkova
+# use the string "multiple designers"
+designer: multiple designers
 url: http://paratype.com/public/
 license: OFL
 

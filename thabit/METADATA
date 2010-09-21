@@ -5,9 +5,8 @@ url: http://projects.arabeyes.org/project.php?proj=Khotot
 license: OFL
 
 approved: true
-# TODO: not sure of this category, the Courier latin is *monospace* serif. - DC
-# category: serif
-subsets: latin, arabic
+category: serif
+subsets: arabic
 
 family: Thabit
 # family.ar: ثابت 
@@ -23,7 +22,6 @@ description: <p>Thabit (from Arabic ثابت; fixed) is a fixed width OpenType \
 # little experience with arabic text. 
 description.ar: <p>ثابت هو عائلة خطوط أوبن تيب ثابتة العرض تدعم \
   نظام الكتابة العربي. تطور كجزء من مشروع \ 
-  "عربآيز" عيون العرب. \
-
+  "عربآيز" عيون العرب.</p>
 
 

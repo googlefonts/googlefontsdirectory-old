@@ -1,0 +1,21 @@
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in the word for "Khmer script", and also the ligatures needed for correct
+# shaping. After running "fontforge -script menusubset.ff", do "mv
+# Hanuman.menu.ttf Hanuman.menu".
+Open("Hanuman.ttf")
+Select(0u1797)
+SelectMore(0u17b6)
+SelectMore(0u179f)
+SelectMore(0u17b6)
+SelectMore(0u1781)
+SelectMore(0u17d2)
+SelectMore(0u1798)
+SelectMore(0u17c2)
+SelectMore(0u179a)
+SelectMore(65694)
+SelectMore(65902)
+SelectMore(65564)
+SelectMore(65894)
+SelectInvert()
+Clear()
+Generate("Hanuman.menu.ttf")
