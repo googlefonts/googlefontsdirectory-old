@@ -6,3 +6,4 @@ description: <p>Molengo is a Latin typeface for documents. It is multilingual an
   <p>The font is produced with FontForge. The glyphs are designed in a CFF file but the production \
   file is a TTF file with hinting instructions made with Xgridfit.</p>
 category: sans-serif
+subsets: latin,menu

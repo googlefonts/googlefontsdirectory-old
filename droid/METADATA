@@ -10,6 +10,7 @@ font.DroidSans.ttf.description: <p>Droid Sans is a humanist sans serif typeface 
   <p>More information on the Droid Fonts can be found at \
   <a href="http://www.droidfonts.com">http://www.droidfonts.com</a>.</p>
 font.DroidSans.ttf.category: sans-serif
+font.DroidSans.ttf.subsets: latin,menu
 
 font.DroidSansMono.ttf.description: <p>Droid Sans Mono is a fixed width version of Droid Sans. \
   The Droid Sans Mono typefaces were designed by Steve Matteson of \
@@ -20,6 +21,7 @@ font.DroidSansMono.ttf.description: <p>Droid Sans Mono is a fixed width version 
   <p>More information on the Droid Fonts can be found at \
   <a href="http://www.droidfonts.com">http://www.droidfonts.com</a>.</p>
 font.DroidSansMono.ttf.category: sans-serif
+font.DroidSansMono.ttf.subsets: latin,menu
 
 font.DroidSerif.ttf.description: <p>The Droid Serif font family \
   features a contemporary appearance and was designed for comfortable reading \
@@ -31,6 +33,7 @@ font.DroidSerif.ttf.description: <p>The Droid Serif font family \
   four fonts: Regular, Italic, Bold & Bold Italic.</p><p>More information on the \
   Droid Fonts can be found at <a href="http://www.droidfonts.com">http://www.droidfonts.com</a>.</p>
 font.DroidSerif.ttf.category: serif
+font.DroidSerif.ttf.subsets: latin,menu
 
 font.DroidSans-Bold.ttf.description: N/A
 
