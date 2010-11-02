@@ -1,10 +1,11 @@
 visibility: INTERNAL
 designer: Sandoll Communication
+# it is really a foundry? Naver should probably be mentioned
 license: OFL
 subsets: korean,menu
-description: Nanum font (Korean : 나눔글꼴) is a unicode font designed especially for the \
+description: <p>Nanum font (Korean : 나눔글꼴) is a unicode font designed especially for the \
   Korean-language script, designed by Sandoll Communications (Korean : 산돌 커뮤니케이션) and \
   Fontrix (Korean : 폰트릭스). The publisher is Naver. Nanum Gothic is a contemporary sans-serif \
-  with a warm touch and is expertly hinted for screen use
+  with a warm touch and is expertly hinted for screen use. </p>
 
 font.NanumGothicExtraBold.ttf.weight: 800
