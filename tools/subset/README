@@ -1,0 +1,35 @@
+This directory contains a simple tool for subsetting fonts. It's most
+useful for creating Latin subsets but can probably be extended to other
+scripts.
+
+Usage is subset.py (--options) <input-font.ttf> <output-font.ttf>
+
+Options include:
+
+  --new: create subset by creating new blank font and copying over
+    relevant fields. This _definitely_ has the risk of missing things
+    that are important. When not used, it deletes unused glyphs from
+    the font.
+
+  --string=: Generate subset for just the specified string. Useful for
+    creating a menu subset. Generally we use subset.pl from Font
+    Optimizer for this, however.
+
+  --simplify: Strip out hints and do curve optimization. Can make
+    fonts much smaller but generally a quality degradation on Windows
+    machines.
+
+  --strip_names: Strips most name tables from the font. Use with
+    caution, as the result may not satisfy adequate attribution and
+    licensing.
+
+  --script: Run the subset as a separate .pe (pfaedit)
+    file. Conceptually it should make no difference, but it's a
+    workaround for fontforge segfaults in the Python interface.
+
+Things to watch for:
+
+The kerning tables (and very likely other OpenType tables) are
+sometimes left with hanging references to deleted glyphs. Generally
+that's fairly harmless, but it does increase file size and create
+warnings.
