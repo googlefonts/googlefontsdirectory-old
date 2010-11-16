@@ -1,0 +1,17 @@
+visibility: INTERNAL 
+
+license: OFL
+url: http://www.ascendercorp.com
+category: serif
+# TODO subsets: menu,latin,coptic,cyrillic,greek,greekpolytonic,venda,igboonwu,ipa,pinyin,vietnamese
+subsets: menu,latin
+
+family: Tinos
+# TODO family names in coptic,cyrillic,greek,venda,igboonwu,pinyin,vietnamese ?
+
+designer: Steve Matteson
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Tinos was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Times New Roman™. Tinos offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.</p>
