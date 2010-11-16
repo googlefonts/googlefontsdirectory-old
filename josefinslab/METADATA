@@ -1,0 +1,38 @@
+visibility: INTERNAL 
+license: OFL
+url: http://typemade.mx/
+category: serif
+subsets: menu,latin
+
+family: Josefin Slab
+
+designer: Santiago Orozco
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+# TODO 2010-11-17 DC this needs filling out
+description: <p>Josefin Slab is a companion for Josefin Sans.</p>
+# TODO 
+# description.es: 
+
+# TODO ask for these
+# font.NAME.ttf.description: <p>about this font
+
+font.JosefinSlab-BoldItalic.ttf.style: italic
+font.JosefinSlab-SemiBoldItalic.ttf: italic
+font.JosefinSlab-Italic.ttf.style: italic
+font.JosefinSlab-LightItalic.ttf.style: italic
+font.JosefinSlab-ThinItalic.ttf.style: italic
+
+font.JosefinSlab-ThinItalic.ttf.weight: 100
+font.JosefinSlab-Thin.ttf.weight: 100
+font.JosefinSlab-LightItalic.ttf.weight: 300
+font.JosefinSlab-Light.ttf.weight: 300
+font.JosefinSlab-Italic.ttf.weight: 400
+font.JosefinSlab-Regular.ttf.weight: 400
+font.JosefinSlab-SemiBoldItalic.ttf.weight: 600
+font.JosefinSlab-SemiBold.ttf.weight: 600
+font.JosefinSlab-BoldItalic.ttf.weight: 700
+font.JosefinSlab-Bold.ttf.weight: 700
+
