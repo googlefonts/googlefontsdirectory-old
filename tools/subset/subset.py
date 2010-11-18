@@ -45,6 +45,11 @@ def subset_font(font_in, font_out, unicodes, opts):
     print >> pe, 'Open("' + font_in + '")'
     for i in unicodes:
         select_with_refs(font, i, font, pe)
+    if '--nmr' in opts:
+        font.selection.select(('more',), 'nonmarkingreturn')
+        if pe:
+            print >> pe, 'SelectMore("%s")' % 'nonmarkingreturn'
+
 
     flags = ()
 
@@ -83,6 +88,14 @@ def subset_font(font_in, font_out, unicodes, opts):
         os.system("fontforge -script " + pe_fn)
     else:
         font.generate(font_out, flags = flags)
+    font.close()
+
+    if '--roundtrip' in opts:
+        # FontForge apparently contains a bug where it incorrectly calculates
+        # the advanceWidthMax in the hhea table, and a workaround is to open
+        # and re-generate
+        font2 = fontforge.open(font_out)
+        font2.generate(font_out, flags = flags)
 
 
 def default_unicodes():
@@ -94,7 +107,8 @@ def default_unicodes():
 
 def main(argv):
     optlist, args = getopt.gnu_getopt(argv, '', ['string=', 'strip_names',
-                                                 'simplify', 'new', 'script'])
+                                                 'simplify', 'new', 'script',
+                                                 'nmr', 'roundtrip'])
     font_in, font_out = args
     opts = dict(optlist)
     if '--string' in opts:
