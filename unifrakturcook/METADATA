@@ -5,18 +5,16 @@ url: http://unifraktur.sourceforge.net
 category: handwriting
 subsets: menu,latin
 
-family: Cook
+family: Unifraktur Cook
 
-# Designer wants lowercase name
+# 2010-11-22 DC Designer wants lowercase name
 designer: j. 'mach' wust
 originaldesigner: Peter Wiegel
 
 # profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 # profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 # TODO email j_mach_wust@shared-files.de for approval
-# TODO  the upstream KochFraktur font is released under OFL by Peter Wiegel: relicensing is not allowed by the author. This must be verified seriously. 
-
-
+# TODO 2010-11-22 NS The upstream KochFraktur font is released under OFL by Peter Wiegel: relicensing is not allowed by the author. This must be verified seriously. 
 approved: false
 description: <p>Unifraktur Cook has been created in order to provide a Fraktur typeface that may be used on websites. It is in accordance with the Unicode standard. </p><p>Unifraktur Cook is a modification of Peter Wiegel's font <a href="http://www.peter-wiegel.de/KochFraktur.html">Koch Fette Deutsche Schrift</a>, version 1.000 2009 initial release.</p><p>Unifraktur Cook is basically identical to Wiegel's font, but the glyphs are given other codepoints so they are in accordance with the Unicode standard. Additionally, smart font rendering has been added in order to generate the font's ligatures. Unifraktur Cook is basically identical to Wiegel's font, but the glyphs are given other codepoints so they are in accordance with the Unicode standard. Additionally, smart font rendering has been added in order to generate the font's ligatures.</p>
 

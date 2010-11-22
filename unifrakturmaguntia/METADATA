@@ -5,9 +5,9 @@ url: http://unifraktur.sourceforge.net
 category: handwriting
 subsets: menu,latin
 
-family: Maguntia
+family: Unifraktur Maguntia
 
-# Designer wants lowercase name
+# 2010-11-22 DC Designer wants lowercase name
 designer: j. 'mach' wust
 originaldesigner: Peter Wiegel
 
@@ -15,6 +15,6 @@ originaldesigner: Peter Wiegel
 # profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 # TODO email j_mach_wust@shared-files.de for approval
 approved: false
-description: <p>UnifrakturMaguntia is based on Peter Wiegel’s font Berthold Mainzer Fraktur. The main differences from Peter Wiegel’s font are the following: UnifrakturMaguntia uses the widest possible range of modern smart font technologies for displaying the font’s ligatures, OpenType, Apple Advanced Typography (AAT) and SIL Graphite. The ligature display still depends on the application, but by including these technologies, chances are maximized that they will be displayed.</p><p>UnifrakturMaguntia is optimized for @font-face linking on the internet.</p><p>This font has been edited with FontForge, the libre (BSD-licensed) font editor. OpenType features have been added with FontForge directly. AAT features have been added with ftxenhancer of the Apple Font Tools. Graphite has been added with the Graphite Compiler. For more information about AAT and Graphite, you may want to check out <a href="http://freetengwar.sourceforge.net/adding_graphite_and_aat.html">Adding Graphite and AAT to a font.</a></p>
+description: <p>Unifraktur Maguntia is based on Peter Wiegel’s font Berthold Mainzer Fraktur. The main differences from Peter Wiegel’s font are the following: Unifraktur Maguntia uses the widest possible range of modern smart font technologies for displaying the font’s ligatures, OpenType, Apple Advanced Typography (AAT) and SIL Graphite. The ligature display still depends on the application, but by including these technologies, chances are maximized that they will be displayed.</p><p>Unifraktur Maguntia is optimized for @font-face linking on the internet.</p><p>This font has been edited with FontForge, the libre outline font editor. OpenType features have been added with FontForge directly. AAT features have been added with ftxenhancer of the Apple Font Tools. Graphite has been added with the Graphite Compiler. For more information about AAT and Graphite, you may want to check out the <a href="http://freetengwar.sourceforge.net/adding_graphite_and_aat.html">Free Tengwar Font Project: Adding Graphite and AAT to a font</a>.</p>
 
 conversion: Latin created with subset.py
