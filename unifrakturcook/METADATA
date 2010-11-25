@@ -1,23 +1,25 @@
 visibility: INTERNAL 
 
 license: OFL
-url: http://unifraktur.sourceforge.net
+url: http://j-mach-wust.users.sourceforge.net
+# 2010-11-25 DC this category is really inappropriate and we should add 'blackletter'
+# category: blackletter
 category: handwriting
 subsets: menu,latin
 
-family: Unifraktur Cook
+family: UnifrakturCook
 
 # 2010-11-22 DC Designer wants lowercase name
 designer: j. 'mach' wust
 originaldesigner: Peter Wiegel
 
-# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
-# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
-# TODO email j_mach_wust@shared-files.de for approval
-# TODO 2010-11-22 NS The upstream KochFraktur font is released under OFL by Peter Wiegel: relicensing is not allowed by the author. This must be verified seriously. 
-approved: false
-description: <p>Unifraktur Cook has been created in order to provide a Fraktur typeface that may be used on websites. It is in accordance with the Unicode standard. </p><p>Unifraktur Cook is a modification of Peter Wiegel's font <a href="http://www.peter-wiegel.de/KochFraktur.html">Koch Fette Deutsche Schrift</a>, version 1.000 2009 initial release.</p><p>Unifraktur Cook is basically identical to Wiegel's font, but the glyphs are given other codepoints so they are in accordance with the Unicode standard. Additionally, smart font rendering has been added in order to generate the font's ligatures. Unifraktur Cook is basically identical to Wiegel's font, but the glyphs are given other codepoints so they are in accordance with the Unicode standard. Additionally, smart font rendering has been added in order to generate the font's ligatures.</p>
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>UnifrakturCook is based on Peter Wiegel’s font <a href="http://www.peter-wiegel.de/KochFraktur.html">Koch fette deutsche Schrift</a> which is in turn based on a 1910 typeface by Rudolf Koch. While the glyph design of Peter Wiegel’s font has hardly been changed at all, UnifrakturCook uses smart font technologies for displaying the font’s ligatures (OpenType, Apple Advanced Typography and SIL Graphite). An experimental feature is the distinction of good blackletter typography between required ligatures ‹ch, ck, ſt, tz› that must be kept when letterspacing is increased, and regular ligatures (for instance, ‹fi, fl›) that are broken up when letterspacing is increased.</p><p>UnifrakturCook is optimized for @font-face linking on the internet by combining standards compliance with a permissive license.</p><p>UnifrakturCook has first been published in 2010 at <a href="http://unifraktur.sourceforge.net/cook.html">UnifrakturCook</a>. It has been edited with FontForge, the libre outline font editor. OpenType features have been added with FontForge directly. AAT features have been added with ftxenhancer of the Apple Font Tools. Graphite has been added with the Graphite Compiler. For more information about AAT and Graphite, you may want to check out the <a href="http://freetengwar.sourceforge.net/adding_graphite_and_aat.html">Free Tengwar Font Project: Adding Graphite and AAT to a font</a>.</p>
 
 font.Cook-Bold-Latin.ttf.weight: bold
 
 conversion: Latin created with subset.py
+
+profile: <p>J. 'mach' wust lives in Switzerland. His main interests are scripts of all kinds, especially their linguistic aspects. He came to type design because he noticed that the powerful capabilities provided by Unicode and smart font technologies were largely ignored.</p><p>The first font related project by j. 'mach' wust is the <a href="http://freetengwar.sourceforge.net/">Free Tengwar Font Project</a>. It combines Unicode compatibility with smart font technologies.</p><p>The second font related project by j. 'mach' wust is the <a href="http://unifraktur.sourceforge.net/">Unifraktur</a> project. He created it because most fraktur fonts he could find outrightly violated the Unicode standard by using private letter assignments, and none used smart font technologies for displaying the ligatures.</p>
