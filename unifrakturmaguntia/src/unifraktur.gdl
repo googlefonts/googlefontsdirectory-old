@@ -1,19 +1,8 @@
-// Graphite description language file for UniFraktur Maguntia
-// Copyright: Copyleft 2010 j. 'mach' wust
-// Version: 2010-08-17
+// Graphite description language file for UniFraktur fonts, Version 2010-11-24
 //
-// This is free software: you can redistribute it and/or
-// modify it under the terms of the GNU General Public License as
-// published by the Free Software Foundation, either version 3 of
-// the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-// 
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+// Copyright (c) 2010 j. 'mach' wust
+// This Font Software is licensed under the SIL Open Font License, Version 1.1.
+// This license is also available with a FAQ at: http://scripts.sil.org/OFL
 
 #define ps postscript
 #define LG_USENG 0x0409
@@ -191,6 +180,7 @@ table(glyph)
   l_l = (postscript("l_l"));
   m_macroncomb = (postscript("m_uni0304"));
   n_macroncomb = (postscript("n_uni0304"));
+  longs_j = (postscript("longs_j"));
   longs_k = (postscript("longs_k"));
   longs_h = (postscript("longs_h"));
   longs_longs_i = (postscript("longs_longs_i"));
@@ -200,7 +190,7 @@ table(glyph)
   longs_longs_k = (postscript("longs_longs_k"));
   zwj = (postscript("afii301"));
 
-  anyletter = ( A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, msmall, n, o, p, q, r, s, t, u, v, w, x, y, z, gravecomb, acutecomb, circumflexcomb, tildecomb, macroncomb, diaeresiscomb, caroncomb, cedillacomb, ringcomb, Agrave, Aacute, Acircumflex, Atilde, Adieresis, Aring, AE, Ccedilla, Egrave, Eacute, Ecircumflex, Edieresis, Igrave, Iacute, Icircumflex, Idieresis, Eth, Ntilde, Ograve, Oacute, Ocircumflex, Otilde, Odieresis, Oslash, Ugrave, Uacute, Ucircumflex, Udieresis, Yacute, Ydieresis, OE, Scaron, Zcaron, agrave, aacute, acircumflex, atilde, adieresis, aring, ae, ccedilla, egrave, eacute, ecircumflex, edieresis, igrave, iacute, icircumflex, idieresis, eth, ntilde, ograve, oacute, ocircumflex, otilde, odieresis, oslash, ugrave, uacute, ucircumflex, udieresis, yacute, ydieresis, oe, scaron, zcaron, germandbls, longs, germandblS, rrotunda, f_f, f_i, f_l, f_f_i, f_f_l, longs_t, longs_c_h, longs_s, t_z, f_t, longs_longs, longs_i, c_k, c_h, t_t, longs_longs_t, f_f_t, l_l, m_macroncomb, n_macroncomb, longs_k, longs_h, longs_longs_i, longs_l, longs_longs_l, f_j, longs_longs_k );
+  anyletter = ( A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, a, b, c, d, e, f, g, h, i, j, k, l, msmall, n, o, p, q, r, s, t, u, v, w, x, y, z, gravecomb, acutecomb, circumflexcomb, tildecomb, macroncomb, diaeresiscomb, caroncomb, cedillacomb, ringcomb, Agrave, Aacute, Acircumflex, Atilde, Adieresis, Aring, AE, Ccedilla, Egrave, Eacute, Ecircumflex, Edieresis, Igrave, Iacute, Icircumflex, Idieresis, Eth, Ntilde, Ograve, Oacute, Ocircumflex, Otilde, Odieresis, Oslash, Ugrave, Uacute, Ucircumflex, Udieresis, Yacute, Ydieresis, OE, Scaron, Zcaron, agrave, aacute, acircumflex, atilde, adieresis, aring, ae, ccedilla, egrave, eacute, ecircumflex, edieresis, igrave, iacute, icircumflex, idieresis, eth, ntilde, ograve, oacute, ocircumflex, otilde, odieresis, oslash, ugrave, uacute, ucircumflex, udieresis, yacute, ydieresis, oe, scaron, zcaron, germandbls, longs, germandblS, rrotunda, f_f, f_i, f_l, f_f_i, f_f_l, longs_t, longs_c_h, longs_s, t_z, f_t, longs_longs, longs_i, c_k, c_h, t_t, longs_longs_t, f_f_t, l_l, m_macroncomb, n_macroncomb, longs_j, longs_k, longs_h, longs_longs_i, longs_l, longs_longs_l, f_j, longs_longs_k );
 
   triggerRrotunda = ( b, d, o, p, v, w, odieresis, oacute, ocircumflex, otilde );
 
@@ -248,6 +238,7 @@ table(substitution)
     l l > l_l:(1 2) _ ;
     msmall macroncomb > m_macroncomb:(1 2) _ ;
     n macroncomb > n_macroncomb:(1 2) _ ;
+    longs j > longs_j:(1 2) _ ;
     longs k > longs_k:(1 2) _ ;
     longs h > longs_h:(1 2) _ ;
     longs l > longs_l:(1 2) _ ;
@@ -276,6 +267,7 @@ table(substitution)
     l zwj l > l_l:(1 2 3) _ _ ;
     longs zwj h > longs_h:(1 2 3) _ _ ;
     longs zwj i > longs_i:(1 2 3) _ _ ;
+    longs zwj j > longs_j:(1 2 3) _ _ ;
     longs zwj k > longs_k:(1 2 3) _ _ ;
     longs zwj l > longs_l:(1 2 3) _ _ ;
     longs zwj longs > longs_longs:(1 2 3) _ _ ;

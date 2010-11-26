@@ -1,19 +1,8 @@
-// Morph input file for UniFraktur Maguntia
-// Copyright: Copyleft 2010 j. 'mach' wust
-// Version: 2010-08-17
+// Morph input file for UniFraktur fonts, Version 2010-11-24
 //
-// This is free software: you can redistribute it and/or
-// modify it under the terms of the GNU General Public License as
-// published by the Free Software Foundation, either version 3 of
-// the License, or (at your option) any later version.
-//
-// This program is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-// 
-// You should have received a copy of the GNU General Public License
-// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+// Copyright (c) 2010 j. 'mach' wust
+// This Font Software is licensed under the SIL Open Font License, Version 1.1.
+// This license is also available with a FAQ at: http://scripts.sil.org/OFL
 
 Type           Contextual
 Name           Intelligent features
@@ -159,6 +148,7 @@ List
   longs_i longs afii301 i
   t_t t afii301 t
   l_l l afii301 l
+  longs_j longs afii301 j
   longs_k longs afii301 k
   longs_h longs afii301 h
   longs_l longs afii301 l
@@ -229,6 +219,7 @@ List
   longs_i longs i
   t_t t t
   l_l l l
+  longs_j longs j
   longs_k longs k
   longs_h longs h
   longs_l longs l
