@@ -1,0 +1,207 @@
+
+# GSUB 
+
+
+lookup rligRequiredLigaturesinLatinloo {
+  lookupflag 0;
+    sub \longs \afii301 \c \afii301 \h  by \longs_c_h;
+    sub \longs \afii301 \s  by \longs_s;
+    sub \t \afii301 \z  by \t_z;
+    sub \t \z  by \t_z;
+    sub \f \afii301 \t  by \f_t;
+    sub \f \afii301 \l  by \uniFB02;
+    sub \f \afii301 \i  by \uniFB01;
+    sub \f \afii301 \f  by \uniFB00;
+    sub \longs \afii301 \z  by \germandbls;
+    sub \longs \afii301 \longs  by \longs_longs;
+    sub \longs \afii301 \i  by \longs_i;
+    sub \longs \t  by \uniFB05;
+    sub \longs \afii301 \t  by \uniFB05;
+    sub \c \k  by \c_k;
+    sub \c \afii301 \k  by \c_k;
+    sub \c \afii301 \h  by \c_h;
+    sub \c \h  by \c_h;
+    sub \a \afii301 \e  by \ae;
+    sub \A \afii301 \E  by \AE;
+    sub \O \afii301 \E  by \OE;
+    sub \o \afii301 \e  by \oe;
+    sub \t \afii301 \t  by \t_t;
+    sub \longs \afii301 \longs \afii301 \t  by \longs_longs_t;
+    sub \f \afii301 \f \afii301 \l  by \uniFB04;
+    sub \f \afii301 \f \afii301 \t  by \f_f_t;
+    sub \f \afii301 \f \afii301 \i  by \uniFB03;
+    sub \longs \afii301 \j  by \longs_j;
+    sub \longs \afii301 \k  by \longs_k;
+    sub \longs \afii301 \h  by \longs_h;
+    sub \longs \afii301 \longs \afii301 \i  by \longs_longs_i;
+    sub \S \afii301 \Z  by \uni1E9E;
+    sub \longs \afii301 \l  by \longs_l;
+    sub \longs \afii301 \longs \afii301 \l  by \longs_longs_l;
+    sub \f \afii301 \j  by \f_j;
+    sub \longs \afii301 \longs \afii301 \k  by \longs_longs_k;
+} rligRequiredLigaturesinLatinloo;
+
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \longs \c \h  by \longs_c_h;
+    sub \longs \c_h  by \longs_c_h;
+    sub \longs \s  by \longs_s;
+    sub \t \z  by \t_z;
+    sub \f \t  by \f_t;
+    sub \f \l  by \uniFB02;
+    sub \f \i  by \uniFB01;
+    sub \f \f  by \uniFB00;
+    sub \longs \longs  by \longs_longs;
+    sub \longs \i  by \longs_i;
+    sub \longs \t  by \uniFB05;
+    sub \c \k  by \c_k;
+    sub \c \h  by \c_h;
+    sub \t \t  by \t_t;
+    sub \longs \longs \t  by \longs_longs_t;
+    sub \f \f \l  by \uniFB04;
+    sub \f \f \t  by \f_f_t;
+    sub \l \l  by \l_l;
+    sub \m \uni0304  by \m_uni0304;
+    sub \n \uni0304  by \n_uni0304;
+    sub \f \f \i  by \uniFB03;
+    sub \longs \j  by \longs_j;
+    sub \longs \k  by \longs_k;
+    sub \longs \h  by \longs_h;
+    sub \longs \longs \i  by \longs_longs_i;
+    sub \longs \l  by \longs_l;
+    sub \longs \longs \l  by \longs_longs_l;
+    sub \f \j  by \f_j;
+    sub \longs \longs \k  by \longs_longs_k;
+} ligaStandardLigatureslookup0;
+
+lookup dligDiscretionaryLigatureslooku {
+  lookupflag 0;
+    sub \m \m  by \m_uni0304;
+    sub \n \n  by \n_uni0304;
+} dligDiscretionaryLigatureslooku;
+
+feature rlig {
+
+  script DFLT;
+     language dflt ;
+      lookup rligRequiredLigaturesinLatinloo;
+
+  script latn;
+     language dflt ;
+      lookup rligRequiredLigaturesinLatinloo;
+} rlig;
+
+feature liga {
+
+  script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+  script hani;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+  script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
+
+feature dlig {
+
+  script DFLT;
+     language dflt ;
+      lookup dligDiscretionaryLigatureslooku;
+
+  script hani;
+     language dflt ;
+      lookup dligDiscretionaryLigatureslooku;
+
+  script latn;
+     language dflt ;
+      lookup dligDiscretionaryLigatureslooku;
+} dlig;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinloo {
+  lookupflag 0;
+    pos \t \z -180;
+    pos \t \t -100;
+    pos \Y \Z -80;
+    pos \W \X -240;
+    pos \R \G -140;
+    pos \R \S -80;
+    pos \Q \R -120;
+    pos \O \A -120;
+    pos \O \R -160;
+    pos \O \U -180;
+    pos \M \B -80;
+    pos \N \A -120;
+    pos \N \S -80;
+    pos \I \J -80;
+    pos \H \A -200;
+    pos \H \B -120;
+    pos \B \U -160;
+    pos \f \t -120;
+    pos \c \h -300;
+    pos \c \k -320;
+    pos \l \longs -64;
+    pos \l \f -100;
+    pos \k \o -120;
+    pos \k \t -40;
+    pos \i \f_t -48;
+    pos \longs \longs -40;
+    pos \longs \c -60;
+    pos \longs \p -32;
+    pos \longs \z -120;
+    pos \longs \t -100;
+    pos \e \longs -60;
+    pos \e \f -60;
+} kernHorizontalKerninginLatinloo;
+
+feature kern {
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+} kern;
+
+@GDEF_Simple = [\.null \nonmarkingreturn \comma \period \t \s \Udieresis \Odieresis 
+	\Adieresis \Z \Y \X \W \V \U \T \S \R \Q \P \O \M \N \L \K \J \I \H \G \F \E \D \C \B \A \z \y \x \w \v 
+	\u \r \q \p \odieresis \n \j \m \f \c \l \k \i \h \g \longs \e \d \b \adieresis \a \o 
+	\udieresis \semicolon \colon \ring \quotedbl \uni2133 \uni20B0 \uni338F 
+	\multiply \copyright \logicalnot \uni00AD \registered \hyphen \quotesingle 
+	\quotedblright \quotedblleft \quoteleft \quoteright \Euro \slash \oslash 
+	\Oslash \eth \backslash \bar \quotesinglbase \quotedblbase \asterisk \parenleft 
+	\parenright \afii61352 \percent \uniA75B \bracketleft \bracketright 
+	\asciicircum \underscore \braceleft \braceright \asciitilde \ellipsis \degree 
+	\guillemotleft \guillemotright \guilsinglright \guilsinglleft \less \equal 
+	\greater \at \Thorn \thorn \plus \plusminus \paragraph \dagger \daggerdbl \florin 
+	\currency \emdash \endash \bullet \question \exclam \zero \one \two \three \four 
+	\five \six \seven \eight \nine \perthousand \uni00B9 \uni00B2 \uni00B3 
+	\onequarter \onehalf \threequarters \section \questiondown \exclamdown 
+	\uniF522 \uniF520 \uni2114 \uni00B5 \ordfeminine \ordmasculine \periodcentered 
+	\sterling \cent \acute \Agrave \Aacute \grave \Egrave \Eacute \Edieresis \cedilla 
+	\yen \brokenbar \Ccedilla \Uacute \Ugrave \Yacute \Igrave \Iacute \Aring \tilde 
+	\Atilde \Ntilde \Otilde \yacute \dieresis \Ydieresis \Idieresis \agrave \aacute 
+	\egrave \eacute \edieresis \ograve \oacute \ugrave \uacute \ydieresis \otilde 
+	\Eth \circumflex \Acircumflex \Icircumflex \Ecircumflex \Ograve \Oacute 
+	\Ocircumflex \Ucircumflex \acircumflex \atilde \ccedilla \ucircumflex 
+	\ocircumflex \ntilde \ecircumflex \aring \igrave \iacute \icircumflex 
+	\idieresis \scaron \Scaron \Zcaron \zcaron \ampersand \dollar \numbersign 
+	\afii61664 \uni00A0 \trademark \macron \gravecomb \acutecomb \uni0302 
+	\tildecomb \uni0304 \uni0308 \uni030C \uni0327 \afii301 \uni030A \caron ];
+@GDEF_Ligature = [\space \longs_c_h \longs_s \t_z \f_t \uniFB02 \uniFB01 \uniFB00 
+	\germandbls \longs_longs \longs_i \uniFB05 \c_k \c_h \ae \AE \OE \oe \t_t 
+	\longs_longs_t \uniFB04 \f_f_t \l_l \m_uni0304 \n_uni0304 \uniFB03 \longs_j 
+	\longs_k \longs_h \longs_longs_i \uni1E9E \longs_l \longs_longs_l \f_j 
+	\longs_longs_k ];
+@GDEF_Mark = [];
+@GDEF_Component = [];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple @GDEF_Ligature @GDEF_Mark @GDEF_Component;
+
+} GDEF;
+

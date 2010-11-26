@@ -2,7 +2,7 @@ visibility: INTERNAL
 
 license: OFL
 url: http://j-mach-wust.users.sourceforge.net
-# 2010-11-25 DC this category is really inappropriate and we should add 'blackletter'
+# 2010-11-25 DC this category is not ideal, perhaps we should add 'blackletter'
 # category: blackletter
 category: display
 subsets: menu,latin
@@ -18,7 +18,7 @@ profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>UnifrakturCook is based on Peter Wiegel’s font <a href="http://www.peter-wiegel.de/KochFraktur.html">Koch fette deutsche Schrift</a> which is in turn based on a 1910 typeface by Rudolf Koch. While the glyph design of Peter Wiegel’s font has hardly been changed at all, UnifrakturCook uses smart font technologies for displaying the font’s ligatures (OpenType, Apple Advanced Typography and SIL Graphite). An experimental feature is the distinction of good blackletter typography between required ligatures ‹ch, ck, ſt, tz› that must be kept when letterspacing is increased, and regular ligatures (for instance, ‹fi, fl›) that are broken up when letterspacing is increased.</p><p>UnifrakturCook is optimized for @font-face linking on the internet by combining standards compliance with a permissive license.</p><p>UnifrakturCook has first been published in 2010 at <a href="http://unifraktur.sourceforge.net/cook.html">UnifrakturCook</a>. It has been edited with FontForge, the libre outline font editor. OpenType features have been added with FontForge directly. AAT features have been added with ftxenhancer of the Apple Font Tools. Graphite has been added with the Graphite Compiler. For more information about AAT and Graphite, you may want to check out the <a href="http://freetengwar.sourceforge.net/adding_graphite_and_aat.html">Free Tengwar Font Project: Adding Graphite and AAT to a font</a>.</p>
 
-font.UnifrakturCook-Bold-Latin.ttf.weight: bold
+font.UnifrakturCook-Bold.ttf.weight: bold
 
 conversion: Latin created with subset.py
 
