@@ -1,5 +1,32 @@
-designer: Brian Zick
-description: <p>Neuton is a dark, somewhat Dutch-inspired serif font.</p>
-license: Apache2
+license: OFL
+url: http://cg.scs.carleton.ca/~luc/zick.html
+# TODO url will eventually be 21326.info
 category: serif
-subsets: latin,menu
+subsets: menu,latin
+
+family: Neuton
+
+designer: Brian Zick
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Neuton is a clean, dark, somewhat \
+  Dutch-inspired serif font which reminds you a little \
+  of Times. It has a large height, short extenders, \
+  and a compact width for better screen use, and \
+  economy of space.</p> \
+  <p>The family will comprise a regular, italic, and \
+  cursive, each in five weights and with smallcaps. \
+  Two italics &mdash; one will be called "italic", and the \
+  other "cursive" &mdash; are uncommon, but very useful. \
+  Ever tried emphasizing something already emphasized? \
+  Beyond that obvious example, there are other uses.</p> \
+  <p>Sometimes a text needs a different flavor or \
+  feel. While one roman can work for a variety of \
+  texts, the companion italics don't always. In \
+  more classical or personal documents, a stiff, \
+  sober, modern and down-to-earth italic will \
+  never work. And in many essays, some of the \
+  fancier italics look ridiculous. Who said a \
+  roman needs only one companion?</p>
