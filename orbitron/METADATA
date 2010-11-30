@@ -1,0 +1,46 @@
+visibility: INTERNAL 
+
+license: OFL
+url: http://pixelspread.com
+foundry: http://theleagueofmoveabletype.com
+category: sans-serif
+subsets: menu,latin
+
+family: Orbitron
+
+designer: Matt McInerney
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Orbitron is a geometric \
+  sans-serif typeface intended for display \
+  purposes. It features four weights (light, \
+  medium, bold, and black), a stylistic \
+  alternative, small caps, and a ton of \
+  alternate glyphs. Orbitron was designed \
+  so that graphic designers in the future \
+  will have some alternative to typefaces \
+  like Eurostile or Bank Gothic. If you’ve \
+   ever seen a futuristic sci-fi movie, \
+  you have may noticed that all other fonts \
+  have been lost or destroyed in the \
+  apocalypse that led humans to flee earth. \
+  Only those very few geometric typefaces \
+  have survived to be used on spaceship \
+  exteriors, spacestation signage, \
+  monopolistic corporate branding, \
+  uniforms featuring aerodynamic \
+  shoulder pads, etc. Of course Orbitron \
+  could also be used on the posters for \
+  the movies portraying this inevitable \
+  future. It was initially published on the \
+  <a href="http://www.theleagueofmoveabletype.com">League \
+  of Movable Type</a>.</p>
+
+font.Orbitron-Light.ttf.weight: 300
+font.Orbitron-Medium.ttf.weight: 500
+font.Orbitron-Bold.ttf.weight: 700
+font.Orbitron-Black.ttf.weight: 900
+
+profile: <p>I’m a graphic designer currently working at Pentagram Design in New York. I recently graduated from Savannah College of Art and Design. I'm originally from Western Massachusetts.</p>
