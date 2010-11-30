@@ -22,12 +22,14 @@ files = [
 for font in files:
     f = fontforge.open(font)    
     print ("Building   ") + f.fullname + ( " ") + f.weight + ("  from sfd sources with fontforge")
+    f.generate(f.fontname + ".otf",flags=("opentype"))
     f.em = 1024
+    f.is_quadratic = True
     f.round()
     f.selection.all()
     f.autoHint()
     f.autoInstr()
-    f.generate(f.fontname + ".otf",flags=("opentype"))
+    f.generate(f.fontname + ".ttf",flags=("opentype"))
     f.close
 
 print ("font version:")
