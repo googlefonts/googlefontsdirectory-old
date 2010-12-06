@@ -109,7 +109,7 @@ def getsubset(subset):
     subsets = subset.split('+')
     quotes = [0x2013, 0x2014, 0x2018, 0x2019, 0x201a, 0x201c, 0x201d, 0x201e,
               0x2022, 0x2039, 0x203a]
-    latin = range(0x20, 0x7f) + range(0xa0, 0x100)
+    latin = range(0x20, 0x7f) + range(0xa0, 0x100) + [0x20ac]
     result = quotes
     if 'latin' in subset:
         result += latin
@@ -119,10 +119,11 @@ def getsubset(subset):
         result += (range(0x100, 0x250) +
                    range(0x1e00, 0x1ea0) +
                    range(0x1ef2, 0x1f00) +
+                   range(0x20a0, 0x20d0) +
                    range(0x2c60, 0x2c80) +
                    range(0xa720, 0xa800))
     if 'vietnamese' in subset:
-        result += range(0x1ea0, 0x1ef2)
+        result += range(0x1ea0, 0x1ef2) + [0x20ab]
     if 'greek' in subset:
         # Could probably be more aggressive here and exclude archaic characters,
         # but lack data
@@ -134,6 +135,7 @@ def getsubset(subset):
         result += range(0x400, 0x460) + [0x490, 0x491, 0x4b0, 0x4b1]
     if 'cyrillic-ext' in subset:
         result += (range(0x400, 0x530) +
+                   [0x20b4] +
                    range(0x2de0, 0x2e00) +
                    range(0xa640, 0xa6a0))
     return result
