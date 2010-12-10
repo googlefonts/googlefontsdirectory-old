@@ -3,14 +3,15 @@ visibility: INTERNAL
 license: OFL
 url: http://www.ms-studio.com
 category: sans-serif
-subsets: latin,cyrillic,greek
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
 
 family: Anonymous Pro
-# TODO family.gr: 
-# TODO family.ru: 
 
 designer: Mark Simonson
-# TODO 2010-12-04 DC Is having 2 names correct? Since they don't have profiles, I think its okay, but maybe MD is better?
+
+profile: <p>I started out as a graphic designer and illustrator in 1976. During the early part of my career I worked as an art director on a number of magazines and other publications including Metropolis (a Minneapolis weekly, 1977), Machete (a Minneapolis broadsheet, 1978-80), TWA Ambassador (an inflight magazine, 1979-81), Minnesota Monthly (Minnesota Public Radio’s regional magazine, 1979-85), and the Utne Reader (1984-88).</p><p>I was head designer and art director for Minnesota Public Radio (1981-85) and an art director for its sister company, Rivertown Trading Company (1992-2000). During that time, I designed over 200 audio packages, including most of Garrison Keillor’s, along with several hundred products (t-shirts, mugs, rugs, watches, etc.) for the Wireless, Signals, and other mail order catalogs.</p><p>I frequently did lettering as part of design projects I worked on. This was always my favorite part, so in 2000 I opened my own shop specializing in lettering and typography.</p><p>I’ve also been interested in typeface design since my college days. I started licensing fonts to FontHaus in 1992, and since starting my new business, stepped up my efforts in developing original typefaces. I now have more than 100 fonts on the market with many more to come.</p><p>If you have a lettering or font project you would like me to take on, contact me by email at <a href="mailto:mark@ms-studio.com">mark@ms-studio.com</a> or by phone at +1-651-307-7491.</p>
+
+# TODO 2010-12-04 DC Is having 2 names correct? Since the original designers don't have profiles, I think its okay, but maybe MD is better?
 # originaldesigner: Multiple Designers
 originaldesigner: Susan Lesch, David Lamkins
 
@@ -88,3 +89,22 @@ description: <p>Anonymous Pro is a family of four \
 
 # TODO description.gr: 
 # TODO description.ru: 
+
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Anoymus PrКаилрцΕάεηικλν()" \
+#     A-R.ttf A-R.menu;
+
+# for family in anonymouspro; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
