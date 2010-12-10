@@ -2,7 +2,7 @@ visibility: INTERNAL
 
 license: OFL
 url: http://pixelspread.com
-foundry: http://theleagueofmoveabletype.com
+# foundry: http://theleagueofmoveabletype.com
 category: sans-serif
 subsets: menu,latin
 
@@ -38,7 +38,7 @@ description: <p>Orbitron is a geometric \
   <a href="http://www.theleagueofmoveabletype.com">League \
   of Movable Type</a>.</p>
 
-font.Orbitron-Light.ttf.weight: 300
+font.Orbitron-Regular.ttf.weight: 400
 font.Orbitron-Medium.ttf.weight: 500
 font.Orbitron-Bold.ttf.weight: 700
 font.Orbitron-Black.ttf.weight: 900
