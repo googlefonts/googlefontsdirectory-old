@@ -1,15 +1,42 @@
 license: OFL
 url: http://www.ascendercorp.com
 category: sans-serif
-# TODO subsets: menu,latin,coptic,cyrillic,greek,greekpolytonic,venda,igboonwu,ipa,pinyin,vietnamese
-subsets: menu,latin
+# TODO subsets: coptic,venda,igboonwu,ipa,pinyin
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin,vietnamese+latin
 
 family: Arimo
-# TODO family names in coptic,cyrillic,greek,venda,igboonwu,pinyin,vietnamese ?
 
 designer: Steve Matteson
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Arimo was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Arial™. Arimo offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms.</p>
+description: <p>Arimo was designed by Steve Matteson \
+  as an innovative, refreshing sans serif design that \
+  is metrically compatible with Arial™. Arimo offers \
+  improved on-screen readability characteristics and \
+  the pan-European WGL character set and solves the \
+  needs of developers looking for width-compatible \
+  fonts to address document portability across \
+  platforms.</p>
+
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Arimo PrКаилрцΕάεηικλνQuốcNgữ()" \
+#     Regular.ttf Regular.menu
+#
+# for family in arimo; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            vietnamese+latin \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+ done;
+
