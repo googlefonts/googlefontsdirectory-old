@@ -1,0 +1,26 @@
+visibility: INTERNAL 
+
+license: OFL
+url: http://www.kingdomofawesome.com
+category: display
+subsets: menu,latin
+
+family: League Script #1
+
+designer: Haley Fiege
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>This ain’t no Lucida. League Script #1 \
+  is a modern, coquettish script font that sits somewhere \
+  between your high school girlfriend’s love notes and \
+  handwritten letters from the ’20s. Designed for \
+  <a href="http://www.theleagueofmoveabletype.com">the \
+  League of Moveable Type</a>, it includes ligatures \
+  and will act as the framework for future script \
+  designs.</p>
+
+profile: <p>Hi I’m Haley! I’m from Canada! I graduated from OCAD and now work as an Art Director in New York. In my spare time I design typefaces, sail and talk about unicorns.</p>
+
+conversion: OTF opened with FontForge, layers converted to Quardratic, simplified, prep table added, OS/2 weight set to thin, italic angle guessed, DRM set to installable, generated as TrueType with PS names, dummy DSIG and *not* Old Style Kern because of non-unicodeBMP encoded glyphs
