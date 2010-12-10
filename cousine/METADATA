@@ -24,14 +24,13 @@ description: <p>Cousine was designed by Steve Matteson \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Cousine PrКаилрцΕάεηικλν" \
 #     Cousine-Regular.{ttf,menu}
-
 #
-# for family in arimo; do
+#
+# for family in cousine; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
 #            latin latin-ext \
 #            cyrillic+latin cyrillic-ext+latin \
-#            vietnamese+latin \
 #            greek+latin greek-ext+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
@@ -40,3 +39,4 @@ description: <p>Cousine was designed by Steve Matteson \
 #        done;
 #    done;
 # done;
+#
