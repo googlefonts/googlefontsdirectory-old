@@ -1,0 +1,75 @@
+# Created: Tue Dec  7 12:35:16 2010
+# PS Name: kenia
+# MM Inst: kenia2711
+# MinKern: +/- 3 inclusive
+
+@P = [P R];
+@T = [T];
+@c1 = [c cent ccedilla];
+@c = [c d e eth cent eacute egrave ccedilla edieresis ecircumflex];
+@d = [d at eth one nine zero seven oslash];
+@degree = [degree quotedbl ordfeminine quotesingle twosuperior ordmasculine threesuperior];
+@f = [f j];
+@o = [o p];
+@p = [p oslash];
+@t = [t];
+@r = [r];
+@v = [v u a i r y];
+@. = [period];
+@F = [F];
+
+
+pos F a -60;
+pos F i -30;
+pos F r -60;
+pos F u -60;
+pos F y -60;
+pos R a -10;
+pos R r -10;
+pos T a -100;
+pos T b -30;
+pos T i -30;
+pos T r -100;
+pos T u -100;
+pos T y -100;
+pos ccedilla at -20;
+pos ccedilla eth -20;
+pos ccedilla nine -20;
+pos ccedilla one -20;
+pos ccedilla oslash -20;
+pos ccedilla seven -20;
+pos ccedilla zero -20;
+pos cent at -20;
+pos cent eth -20;
+pos cent nine -20;
+pos cent one -20;
+pos cent oslash -20;
+pos cent seven -20;
+pos cent zero -20;
+pos e j -19;
+pos ff fi -12;
+pos i j -10;
+pos k l -15;
+pos r period -100;
+pos t z -5;
+pos w x -5;
+pos z ff 5;
+
+enum pos @P [a] -10;
+enum pos @c [at] -20;
+enum pos @c [eth] -10;
+enum pos @c [nine] -20;
+enum pos @c [one] -20;
+enum pos @c [oslash] -20;
+enum pos @c [seven] -20;
+enum pos @c [zero] -20;
+enum pos @f [g] -18;
+enum pos [ccedilla] @d -20;
+enum pos [cent] @d -20;
+enum pos [e] @f -5;
+
+pos @F @v -60;
+pos @P @r -10;
+pos @T @o -100;
+pos @T @v -100;
+pos @c @d -20;
