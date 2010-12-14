@@ -3,7 +3,7 @@ visibility: INTERNAL
 license: OFL
 url: http://www.linusromer.ch.vu
 category: handwriting
-subsets: menu,latin,latin-ext,greek+latin greek-ext+latin;
+subsets: menu,latin,latin-ext,greek+latin,greek-ext+latin
 
 # 2010-10-31 Add just 2 glyphs, U+1fd3 (ΐ), U+1fe3 (ΰ), will bring polytonic greek to 100%
 # subsets: menu,latin,paneuropeanlatin,greek,polytonicgreek
