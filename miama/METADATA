@@ -3,8 +3,8 @@ visibility: INTERNAL
 license: OFL
 url: http://www.linusromer.ch.vu
 category: handwriting
-subsets: menu,latin,greek
-# subsets: menu,latin,paneuropeanlatin,greek
+subsets: menu,latin,latin-ext,greek+latin greek-ext+latin;
+
 # 2010-10-31 Add just 2 glyphs, U+1fd3 (ΐ), U+1fe3 (ΰ), will bring polytonic greek to 100%
 # subsets: menu,latin,paneuropeanlatin,greek,polytonicgreek
 
@@ -34,3 +34,21 @@ description: <p><em>Miama</em> is based on the many handwritten \
   for titles.</p>
 
 profile: Swiss hobby typographer.
+
+# cd ~/src/font-optimizer/; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Miam Εάεηικλν()" \
+#     Miama.ttf Miama.menu
+#
+# for family in miama; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
