@@ -1,0 +1,15 @@
+[Dalton Maag]
+* Italic,
+  - Hinting on lowercase Italic l amended 19ppm (LP: #632451)
+  - Hinting on lowercase Italic u amended 12ppm (LP: #626376)
+
+* Regular, Italic, Bold, BoldItalic
+  - New Rupee Sign added @ U+20B9 (LP: #645987)
+  - Ubuntu Roundel added @ U+E0FF (LP: #651606)
+
+[Paul Sladen]
+* All
+  - Removed "!ubu" GSUB.calt ligature for U+E0FF (LP: #651606)
+
+
+
