@@ -1,9 +1,11 @@
 url: http://abattis.org/cantarell/
 designer: Dave Crossland
 license: OFL
+subsets: menu,latin
+category: sans-serif
 description: <p>The Cantarell typeface family was designed during my study of MA Typeface Design over \
-  2 years in the Department of Typography at the University of Reading (UK). The class of 2009 will \
-  have our work published on typefacedesign.org soon.</p> \
+  2 years in the Department of Typography at the University of Reading (UK). The class of 2009 \
+  have our work published on <a href="http://typefacedesign.org/2009">typefacedesign.org</a>.</p> \
   <p>The typeface is designed as a contemporary Humanist sans serif, and was developed for on-screen \
   reading; in particular, reading web pages on an HTC Dream mobile phone.</p> \
   <p>That device runs Google Android, and therefore has a web browser supporting the exciting new web \
@@ -16,5 +18,3 @@ description: <p>The Cantarell typeface family was designed during my study of MA
   too, and therefore these font files are licensed in a way that respects your freedom — you are invited \
   to extend them to meet your needs, such as to add the glyphs missing from your own writing systems, \
   under the terms of the Open Font License.</p>
-category: sans-serif
-subsets: latin,menu
