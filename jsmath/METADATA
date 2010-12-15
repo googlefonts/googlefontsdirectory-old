@@ -1,0 +1,25 @@
+# TODO 2010-12-15 DC CHECK THE LICENCE HERITAGE BEFORE TURNING INTERNAL VISIBLITY OFF
+visibility: INTERNAL 
+
+license: Apache2
+url: http://www.math.union.edu/~dpvc/jsMath/
+category: serif
+subsets: menu,latin
+
+family: jsMath
+
+# TODO 2010-12-15 DC The design needs refining...
+designer: jsMath
+originaldesigner: Donald Knuth
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+# TODO 2010-12-15 DC A better description and permission for the description to be asked of upstream
+description: <p>These are TrueType versions of the TeX Computer Modern fonts, converted for use with jsMath.</p>
+
+font.jsMath-cmmi10.ttf.style: italic
+font.jsMath-cmti10.ttf.style: italic
+font.jsMath-cmbx10.ttf.weight: bold
+
+# profile: TODO
