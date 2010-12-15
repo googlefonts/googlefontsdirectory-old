@@ -35,6 +35,8 @@ description: <p><em>Miama</em> is based on the many handwritten \
 
 profile: Swiss hobby typographer.
 
+font.Miama.ttf.style: normal
+
 # cd ~/src/font-optimizer/; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Miam Εάεηικλν()" \
