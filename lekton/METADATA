@@ -1,0 +1,30 @@
+visibility: INTERNAL 
+
+license: OFL
+url: http://www.lekton.info
+category: sans-serif
+subsets: menu,latin
+
+family: Lekton
+
+designer: multiple designers
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Lekton has been designed at \
+  ISIA Urbino, Italy, and is inspired by some \
+  of the typefaces used on the Olivetti typewriters.</p> \
+  <p>It was designed by: Paolo Mazzetti, Luciano \
+  Perondi, Raffaele Flato, Elena Papassissa, \
+  Emilio Macchia, Michela Povoleri, Tobias Seemiller, \
+  Riccardo Lorusso, Sabrina Campagna, Elisa Ansuini, \
+  Mariangela Di Pinto, Antonio Cavedoni, Marco \
+  Comastri, Luna Castroni, Stefano Faoro, \
+  Daniele Capo, and Jan Henrik Arnold.</p>
+
+font.Lekton-Italic.ttf.style: italic
+font.Lekton-Regular.ttf.weight: 400
+font.Lekton-Bold.ttf.weight: 700
+
+conversion: Converted from OTF to TTF using FontForge, including prep
