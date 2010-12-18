@@ -49,7 +49,7 @@ description: <p>The Ubuntu Font Family is a set of \
 # TODO description.gr: 
 # TODO description.ru: 
 
-# cd ~/src/font-optimizer/; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# cd ~/src/font-optimizer/; ./subset.pl -v \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Ubunt КаилрцΕάεηικλν()" \
 #     Ubuntu-Regular.ttf Ubuntu-Regular.menu
