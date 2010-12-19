@@ -55,6 +55,7 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
 
     if '--simplify' in opts:
         font.simplify()
+        font.round()
         flags = ('omit-instructions',)
 
     if '--strip_names' in opts:
