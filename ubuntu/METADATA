@@ -18,7 +18,7 @@ profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>The Ubuntu Font Family is a set of \
   matching new libre/open fonts in development \
-  during 2010--2011. The development is being \
+  during 2010-2011. The development is being \
   funded by Canonical Ltd on behalf the wider \
   Free Software community and the Ubuntu project. \
   The technical font design work and \
@@ -54,6 +54,8 @@ description: <p>The Ubuntu Font Family is a set of \
 #     --chars="Ubunt КаилрцΕάεηικλν()" \
 #     Ubuntu-Regular.ttf Ubuntu-Regular.menu
 
+# TODO 2010-12-18 DC include the versioning glyphs in all the subsets
+#
 # rm *log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
 # for family in ubuntu; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
