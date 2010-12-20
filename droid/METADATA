@@ -87,7 +87,7 @@ font.DroidSerif-BoldItalic.ttf.category: serif
 #    done;
 # done;
 
-# for font in `ls -1 droid/Droid*`; do 
+# for font in `ls -1 droid/Droid*`; do
 #     fontaine -T $font > $font.txt;
 # done;
 # cd droid;

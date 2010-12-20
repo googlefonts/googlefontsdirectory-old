@@ -1,6 +1,6 @@
 # WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE TRADEMARK NAME "UBUNTU" and only then with approval
 
-visibility: INTERNAL 
+visibility: INTERNAL
 
 # TODO DC ensure UFL is okay
 license: UFL
@@ -46,8 +46,8 @@ description: <p>The Ubuntu Font Family is a set of \
   <p>Ubuntu and Canonical are registered \
   trademarks of Canonical Ltd.</p>
 
-# TODO description.gr: 
-# TODO description.ru: 
+# TODO description.gr:
+# TODO description.ru:
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \

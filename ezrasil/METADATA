@@ -2,7 +2,7 @@
 
 visibility: INTERNAL
 designer: Peter Martin
-# Profiles/photos needed from Peter Martin, Joan Wardell, 
+# Profiles/photos needed from Peter Martin, Joan Wardell,
 # Christopher Samuel, and a foundry profile of SIL International
 url: http://scripts.sil.org/EzraSIL_Home
 license: OFL
@@ -15,7 +15,7 @@ subsets: hebrew,menu
 
 family: Ezra SIL
 # TODO: SR is very short, what does it stand for?
-# This extra name is to indicate the variation in cantillation style. 
+# This extra name is to indicate the variation in cantillation style.
 # IIRC SR stands for the initials of the person who needed and contributed strongly to the commissioning of this particular style.
 font.Ezra-SIL-SR.ttf.subfamily: SR
 

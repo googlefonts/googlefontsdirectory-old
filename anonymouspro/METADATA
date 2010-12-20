@@ -1,4 +1,4 @@
-visibility: INTERNAL 
+visibility: INTERNAL
 
 license: OFL
 url: http://www.ms-studio.com
@@ -87,8 +87,8 @@ description: <p>Anonymous Pro is a family of four \
   <p>Anonymous Pro is distributed with \
   the SIL Open Font License.</p>
 
-# TODO description.gr: 
-# TODO description.ru: 
+# TODO description.gr:
+# TODO description.ru:
 
 # font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
