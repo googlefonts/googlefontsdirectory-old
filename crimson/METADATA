@@ -3,9 +3,27 @@ url: http://aldusleaf.org/
 category: serif
 subsets: menu,latin
 
+family: Crimson Text
+
 designer: Sebastian Kosch
 
-description: <p> Inspired by the fantastic work of people \
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Inspired by the fantastic work of people \
   like Jan Tschichold, Robert Slimbach and Jonathan Hoefler, \
   Crimson Text aims to bring the tradition of beautiful \
   book typefaces to the free type community.</p>
+
+font.CrimsonText-Italic-Latin.ttf.style: italic
+font.CrimsonText-SemiboldItalic-Latin.ttf.style: italic
+font.CrimsonText-BoldItalic-Latin.ttf.style: italic
+
+font.CrimsonText-Roman-Latin.ttf.weight: 400
+font.CrimsonText-Italic-Latin.ttf.weight: 400
+font.CrimsonText-Semibold-Latin.ttf.weight: 600
+font.CrimsonText-SemiboldItalic-Latin.ttf.weight: 600
+font.CrimsonText-Bold-Latin.ttf.weight: 700
+font.CrimsonText-BoldItalic-Latin.ttf.weight: 700
+
+conversion: Converted from SFD to TTF using FontForge, see src/build/generate.py for details
