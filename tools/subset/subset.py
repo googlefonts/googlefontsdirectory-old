@@ -42,7 +42,13 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     else:
         pe = None
     font = fontforge.open(font_in)
-    print >> pe, 'Open("' + font_in + '")'
+    if pe:
+      print >> pe, 'Open("' + font_in + '")'
+      # Note: should probably do this in the non-script case too
+      # see http://sourceforge.net/mailarchive/forum.php?thread_name=20100906085718.GB1907%40khaled-laptop&forum_name=fontforge-users
+      # but FontForge's python API can't tiggle winasc/desc as offset, only set the offset values with font.os2_windescent and font.os2_winascent
+      print >> pe, 'SetOS2Value("WinAscentIsOffset", 0)'
+      print >> pe, 'SetOS2Value("WinDescentIsOffset", 0)'
     for i in unicodes:
         select_with_refs(font, i, font, pe)
     addl_glyphs = []
