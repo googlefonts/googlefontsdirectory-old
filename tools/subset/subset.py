@@ -45,11 +45,13 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     print >> pe, 'Open("' + font_in + '")'
     for i in unicodes:
         select_with_refs(font, i, font, pe)
-    if '--nmr' in opts:
-        font.selection.select(('more',), 'nonmarkingreturn')
+    addl_glyphs = []
+    if '--nmr' in opts: addl_glyphs.append('nonmarkingreturn')
+    if '--null' in opts: addl_glyphs.append('.null')
+    for glyph in addl_glyphs:
+        font.selection.select(('more',), glyph)
         if pe:
-            print >> pe, 'SelectMore("%s")' % 'nonmarkingreturn'
-
+            print >> pe, 'SelectMore("%s")' % glyph
 
     flags = ()
 
@@ -144,7 +146,8 @@ def getsubset(subset):
 def main(argv):
     optlist, args = getopt.gnu_getopt(argv, '', ['string=', 'strip_names',
                                                  'simplify', 'new', 'script',
-                                                 'nmr', 'roundtrip', 'subset='])
+                                                 'nmr', 'roundtrip', 'subset=',
+                                                 'null'])
     font_in, font_out = args
     opts = dict(optlist)
     if '--string' in opts:
