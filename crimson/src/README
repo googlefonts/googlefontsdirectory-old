@@ -1,14 +1,3 @@
-Changes (2010-July-28):
-
-- Support for Latin-Extended-A with the exception of one or two historical shapes; so most Western languages should be supported now
-- Serifs are all the same now within one weight/style. In fact, they're a bit sturdier and longer than they were before
-- Added a ton of f-ligatures to each weight/style
-- The roman versions already contain old style numerals and small caps (experimental); italics will follow soon
-- Started Greek in the Roman Regular (very experimental)
-- Fixed up some italic letters
-- Used FontForge's autospacing on all fonts; the results are, obviously, terrible.
-- Experimenting with a lc "f" with shorter terminal for overlapping cases. Implemented as an almost-correctly working calt-feature in the Roman Regular. I favour this approach over ligatures, actually
-
 You see there's a lot left to do. I hopefully don't have to deter you from using it publicly (yet) to save you some embarassment.
 
 If you can help with ...
@@ -27,3 +16,40 @@ If you can help with ...
 ... fire me an email at sebastian@aldusleaf.org. Thanks.
 
 Crimson Text is released under the terms of the Open Font License, available at SIL.
+
+
+========== CHANGELOG ===========
+
+Changes (2010-August-31):
+
+- Reworked the entire Roman and Bold, generated most of Semibold. (excl. small caps, though)
+- Reworked lining numerals in the Roman and Italic; new oldstyle figures in the Italic as well
+- A complete new Italic, thanks to Alan Robiette's suggestions. Changes will be reviewed and then adopted in BI and SBI
+
+
+Changes (2010-August-19):
+
+- Fixed some letters and numerals in Regular Roman & Italic. Looks a lot better now.
+
+
+Changes (2010-August-17):
+
+- Revamped many letters in Roman and Italic
+- Added ordinals, subscripts; scientific superscripts and inferiors. Each contains numbers, punctuation, a lowercase and an uppercase latin alphabet
+- Added Latin-Extended-A small caps
+- Added small cap lining figures
+- Fixed Greek ductus in the Roman weight
+
+
+Changes (2010-July-28):
+
+- Support for Latin-Extended-A with the exception of one or two historical shapes; so most Western languages should be supported now
+- Serifs are all the same now within one weight/style. In fact, they're a bit sturdier and longer than they were before
+- Added a ton of f-ligatures to each weight/style
+- The roman versions already contain old style numerals and small caps (experimental); italics will follow soon
+- Started Greek in the Roman Regular (very experimental)
+- Fixed up some italic letters
+- Used FontForge's autospacing on all fonts; the results are, obviously, terrible.
+- Experimenting with a lc "f" with shorter terminal for overlapping cases. Implemented as an almost-correctly working calt-feature in the Roman Regular. I favour this approach over ligatures, actually
+
+
