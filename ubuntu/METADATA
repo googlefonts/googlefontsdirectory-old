@@ -66,7 +66,8 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 #            greek+latin greek-ext+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py --script --subset=$subset \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
 #    done;

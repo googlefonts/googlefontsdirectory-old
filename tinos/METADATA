@@ -26,7 +26,7 @@ description: <p>Tinos was designed by Steve Matteson \
 #     --chars="Tinos PrКаилрцΕάεηικλνQuốcNgữ()" \
 #     Regular.ttf Regular.menu;
 
-# for family in tinos; do
+# in tinos; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
 #            latin latin-ext \
@@ -35,7 +35,8 @@ description: <p>Tinos was designed by Steve Matteson \
 #            greek+latin greek-ext+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py --script --subset=$subset \
+#            python tools/subset/subset.py  --null --nmr \
+#                --roundtrip --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
 #    done;
