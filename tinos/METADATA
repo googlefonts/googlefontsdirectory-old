@@ -26,7 +26,7 @@ description: <p>Tinos was designed by Steve Matteson \
 #     --chars="Tinos PrКаилрцΕάεηικλνQuốcNgữ()" \
 #     Regular.ttf Regular.menu;
 
-# in tinos; do
+# for family in tinos; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
 #            latin latin-ext \
