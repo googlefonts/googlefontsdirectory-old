@@ -22,6 +22,7 @@ import fontforge
 import sys
 import getopt
 import os
+import struct
 
 def select_with_refs(font, unicode, newfont, pe = None, nam = None):
     newfont.selection.select(('more', 'unicode'), unicode)
@@ -58,11 +59,7 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     font = fontforge.open(font_in)
     if pe:
       print >> pe, 'Open("' + font_in + '")'
-      # Note: should probably do this in the non-script case too
-      # see http://sourceforge.net/mailarchive/forum.php?thread_name=20100906085718.GB1907%40khaled-laptop&forum_name=fontforge-users
-      # but FontForge's python API can't toggle winasc/desc as offset, only set the offset values with font.os2_windescent and font.os2_winascent
-      print >> pe, 'SetOS2Value("WinAscentIsOffset", 0)'
-      print >> pe, 'SetOS2Value("WinDescentIsOffset", 0)'
+      extract_vert_to_script(font_in, pe)
     for i in unicodes:
         select_with_refs(font, i, font, pe, nam)
 
@@ -111,7 +108,6 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     if nam: 
         print "Writing NameList", 
         nam.close()
-        print nam
 
     if pe:
         print >> pe, 'Generate("' + font_out + '")'
@@ -122,6 +118,9 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     font.close()
 
     if '--roundtrip' in opts:
+        # FontForge apparently contains a bug where it incorrectly calculates
+        # the advanceWidthMax in the hhea table, and a workaround is to open
+        # and re-generate
         font2 = fontforge.open(font_out)
         font2.generate(font_out, flags = flags)
 
@@ -167,7 +166,7 @@ def getsubset(subset):
     latin += [0xeffd] # PUA: Font version number
     latin += [0xf000] # PUA: font ppem size indicator: run `ftview -f 1255 10 Ubuntu-Regular.ttf` to see it in action!
 
-    result = quotes 
+    result = quotes
     if 'latin' in subset:
         result += latin
     if 'latin-ext' in subset:
@@ -197,10 +196,58 @@ def getsubset(subset):
                    range(0xa640, 0xa6a0))
     return result
 
+# code for extracting vertical metrics from a TrueType font
+
+class Sfnt:
+    def __init__(self, data):
+        version, numTables, _, _, _ = struct.unpack('>IHHHH', data[:12])
+        self.tables = {}
+        for i in range(numTables):
+            tag, checkSum, offset, length = struct.unpack('>4sIII', data[12 + 16 * i: 28 + 16 * i])
+            self.tables[tag] = data[offset: offset + length]
+
+    def hhea(self):
+        r = {}
+        d = self.tables['hhea']
+        r['Ascender'], r['Descender'], r['LineGap'] = struct.unpack('>hhh', d[4:10])
+        return r
+
+    def os2(self):
+        r = {}
+        d = self.tables['OS/2']
+        r['fsSelection'], = struct.unpack('>H', d[62:64])
+        r['sTypoAscender'], r['sTypoDescender'], r['sTypoLineGap'] = struct.unpack('>hhh', d[68:74])
+        r['usWinAscender'], r['usWinDescender'] = struct.unpack('>HH', d[74:78])
+        return r
+
+def set_os2(pe, name, val):
+    print >> pe, 'SetOS2Value("' + name + '", %d)' % val
+
+def set_os2_vert(pe, name, val):
+    set_os2(pe, name + 'IsOffset', 0)
+    set_os2(pe, name, val)
+
+# Extract vertical metrics data directly out of font file, and emit
+# script code to set the values in the generated font. This is a (rather
+# ugly) workaround for the issue described in:
+# http://sourceforge.net/mailarchive/forum.php?thread_name=20100906085718.GB1907%40khaled-laptop&forum_name=fontforge-users
+
+def extract_vert_to_script(font_in, pe):
+    data = file(font_in, 'rb').read()
+    sfnt = Sfnt(data)
+    hhea = sfnt.hhea()
+    os2 = sfnt.os2()
+    set_os2_vert(pe, "WinAscent", os2['usWinAscender'])
+    set_os2_vert(pe, "WinDescent", os2['usWinDescender'])
+    set_os2_vert(pe, "TypoAscent", os2['sTypoAscender'])
+    set_os2_vert(pe, "TypoDescent", os2['sTypoDescender'])
+    set_os2_vert(pe, "HHeadAscent", hhea['Ascender'])
+    set_os2_vert(pe, "HHeadDescent", hhea['Descender'])
+
 def main(argv):
     optlist, args = getopt.gnu_getopt(argv, '', ['string=', 'strip_names',
                                                  'simplify', 'new', 'script',
-                                                 'nmr', 'roundtrip', 'subset=', 
+                                                 'nmr', 'roundtrip', 'subset=',
                                                  'namelist', 'null'])
 
     font_in, font_out = args
