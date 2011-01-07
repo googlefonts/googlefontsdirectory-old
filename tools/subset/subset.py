@@ -1,8 +1,9 @@
-#! /usr/bin/python
+#!/usr/bin/python
 
 # Copyright 2010, Google Inc.
 # Author: Raph Levien (<firstname.lastname>@gmail.com)
-
+# Author: Dave Crossland (dave@understandinglimited.com)
+#
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
 #   You may obtain a copy of the License at
@@ -14,28 +15,41 @@
 #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
-
-# A script for subsetting a font, using FontForge.
+#
+# A script for subsetting a font, using FontForge. See README for details.
 
 import fontforge
 import sys
 import getopt
 import os
 
-def select_with_refs(font, unicode, newfont, pe = None):
+def select_with_refs(font, unicode, newfont, pe = None, nam = None):
     newfont.selection.select(('more', 'unicode'), unicode)
+    if nam:
+        print >> nam, "0x%0.4X" % unicode, fontforge.nameFromUnicode(unicode)
     if pe:
         print >> pe, "SelectMore(%d)" % unicode
     try:
         for ref in font[unicode].references:
             #print unicode, ref
             newfont.selection.select(('more',), ref[0])
+            if nam:
+                print >> nam, "0x%0.4X" % ref[0], fontforge.nameFromUnicode(ref[0])
             if pe:
                 print >> pe, 'SelectMore("%s")' % ref[0]
     except:
         print 'Resolving references on u+%04x failed' % unicode
 
 def subset_font_raw(font_in, font_out, unicodes, opts):
+    if '--namelist' in opts:
+        # 2010-12-06 DC To allow setting namelist filenames, 
+        # change getopt.gnu_getopt from namelist to namelist= 
+        # and invert comments on following 2 lines
+        # nam_fn = opts['--namelist']
+        nam_fn = font_out + '.nam'
+        nam = file(nam_fn, 'w')
+    else:
+        nam = None
     if '--script' in opts:
         pe_fn = "/tmp/script.pe"
         pe = file(pe_fn, 'w')
@@ -46,16 +60,19 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
       print >> pe, 'Open("' + font_in + '")'
       # Note: should probably do this in the non-script case too
       # see http://sourceforge.net/mailarchive/forum.php?thread_name=20100906085718.GB1907%40khaled-laptop&forum_name=fontforge-users
-      # but FontForge's python API can't tiggle winasc/desc as offset, only set the offset values with font.os2_windescent and font.os2_winascent
+      # but FontForge's python API can't toggle winasc/desc as offset, only set the offset values with font.os2_windescent and font.os2_winascent
       print >> pe, 'SetOS2Value("WinAscentIsOffset", 0)'
       print >> pe, 'SetOS2Value("WinDescentIsOffset", 0)'
     for i in unicodes:
-        select_with_refs(font, i, font, pe)
+        select_with_refs(font, i, font, pe, nam)
+
     addl_glyphs = []
     if '--nmr' in opts: addl_glyphs.append('nonmarkingreturn')
     if '--null' in opts: addl_glyphs.append('.null')
     for glyph in addl_glyphs:
         font.selection.select(('more',), glyph)
+        if nam:
+            print >> nam, "0x%0.4X" % fontforge.unicodeFromName(glyph), glyph
         if pe:
             print >> pe, 'SelectMore("%s")' % glyph
 
@@ -76,7 +93,7 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
         new.em = font.em
         new.layers['Fore'].is_quadratic = font.layers['Fore'].is_quadratic
         for i in unicodes:
-            select_with_refs(font, i, new, pe)
+            select_with_refs(font, i, new, pe, nam)
         new.paste()
         # This is a hack - it should have been taken care of above.
         font.selection.select('space')
@@ -91,6 +108,11 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
         font.cut()
         print >> pe, "Clear()"
 
+    if nam: 
+        print "Writing NameList", 
+        nam.close()
+        print nam
+
     if pe:
         print >> pe, 'Generate("' + font_out + '")'
         pe.close()
@@ -100,9 +122,6 @@ def subset_font_raw(font_in, font_out, unicodes, opts):
     font.close()
 
     if '--roundtrip' in opts:
-        # FontForge apparently contains a bug where it incorrectly calculates
-        # the advanceWidthMax in the hhea table, and a workaround is to open
-        # and re-generate
         font2 = fontforge.open(font_out)
         font2.generate(font_out, flags = flags)
 
@@ -113,13 +132,42 @@ def subset_font(font_in, font_out, unicodes, opts):
     subset_font_raw(font_in, font_out_raw, unicodes, opts)
     if font_out != font_out_raw:
         os.rename(font_out_raw, font_out)
+        os.rename(font_out_raw + '.nam', font_out + '.nam')
 
 def getsubset(subset):
     subsets = subset.split('+')
-    quotes = [0x2013, 0x2014, 0x2018, 0x2019, 0x201a, 0x201c, 0x201d, 0x201e,
-              0x2022, 0x2039, 0x203a]
-    latin = range(0x20, 0x7f) + range(0xa0, 0x100) + [0x20ac, 0x0152, 0x0153, 0x003b, 0x00b7]
-    result = quotes
+
+    quotes  = [0x2013] # endash
+    quotes += [0x2014] # emdash
+    quotes += [0x2018] # quoteleft
+    quotes += [0x2019] # quoteright
+    quotes += [0x201A] # quotesinglbase
+    quotes += [0x201C] # quotedblleft
+    quotes += [0x201D] # quotedblright
+    quotes += [0x201E] # quotedblbase
+    quotes += [0x2022] # bullet
+    quotes += [0x2039] # guilsinglleft
+    quotes += [0x203A] # guilsinglright
+
+    latin  = range(0x20, 0x7f) # Basic Latin (A-Z, a-z, numbers)
+    latin += range(0xa0, 0x100) # Western European symbols and diacritics
+    latin += [0x20ac] # Euro
+    latin += [0x0152] # OE
+    latin += [0x0153] # oe
+    latin += [0x003b] # semicolon
+    latin += [0x00b7] # periodcentered
+    latin += [0x0131] # dotlessi
+    latin += [0x02c6] # circumflex
+    latin += [0x02da] # ring
+    latin += [0x02dc] # tilde
+    latin += [0x2074] # foursuperior
+    latin += [0x2215] # divison slash
+    latin += [0x2044] # fraction slash
+    latin += [0xe0ff] # PUA: Font logo
+    latin += [0xeffd] # PUA: Font version number
+    latin += [0xf000] # PUA: font ppem size indicator: run `ftview -f 1255 10 Ubuntu-Regular.ttf` to see it in action!
+
+    result = quotes 
     if 'latin' in subset:
         result += latin
     if 'latin-ext' in subset:
@@ -152,8 +200,9 @@ def getsubset(subset):
 def main(argv):
     optlist, args = getopt.gnu_getopt(argv, '', ['string=', 'strip_names',
                                                  'simplify', 'new', 'script',
-                                                 'nmr', 'roundtrip', 'subset=',
-                                                 'null'])
+                                                 'nmr', 'roundtrip', 'subset=', 
+                                                 'namelist', 'null'])
+
     font_in, font_out = args
     opts = dict(optlist)
     if '--string' in opts:
