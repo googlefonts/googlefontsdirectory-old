@@ -28,15 +28,15 @@ description: <p>Crimson Text is a font family \
   to enjoy Crimson Text as a beautiful \
   workhorse.</p>
 
-font.CrimsonText-Italic-Latin.ttf.style: italic
-font.CrimsonText-SemiboldItalic-Latin.ttf.style: italic
-font.CrimsonText-BoldItalic-Latin.ttf.style: italic
+font.CrimsonText-Italic.ttf.style: italic
+font.CrimsonText-SemiboldItalic.ttf.style: italic
+font.CrimsonText-BoldItalic.ttf.style: italic
 
-font.CrimsonText-Roman-Latin.ttf.weight: 400
-font.CrimsonText-Italic-Latin.ttf.weight: 400
-font.CrimsonText-Semibold-Latin.ttf.weight: 600
-font.CrimsonText-SemiboldItalic-Latin.ttf.weight: 600
-font.CrimsonText-Bold-Latin.ttf.weight: 700
-font.CrimsonText-BoldItalic-Latin.ttf.weight: 700
+font.CrimsonText-Roman.ttf.weight: 400
+font.CrimsonText-Italic.ttf.weight: 400
+font.CrimsonText-Semibold.ttf.weight: 600
+font.CrimsonText-SemiboldItalic.ttf.weight: 600
+font.CrimsonText-Bold.ttf.weight: 700
+font.CrimsonText-BoldItalic.ttf.weight: 700
 
 conversion: Converted from SFD to TTF using FontForge, see src/build/generate.py for details
