@@ -1,3 +1,5 @@
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE RESERVED FONT NAMES
+
 designer: multiple designers
 url: http://paratype.com/public/
 license: OFL
@@ -200,3 +202,17 @@ description.ru: <p>Гарнитура ПТ Санс является часть�
   «Кириллица-99», TypeArt (2001 и 2005), конкурса «буква:раз!» (2001), \
   организованного ATypI, «Граншан 2008 (Ереван), «Современная \
   кириллица 2009».</p>
+
+# for family in ptsans ptserif; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
