@@ -19,26 +19,26 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1295184900
-ModificationTime: 1295218805
+ModificationTime: 1296004366
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 55
+LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 6 2 0 0 2 0 3
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
-OS2TypoLinegap: 154
-OS2WinAscent: -6
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 741
-HheadAOffset: 1
-HheadDescent: 118
-HheadDOffset: 1
+OS2TypoAscent: 1970
+OS2TypoAOffset: 0
+OS2TypoDescent: -50
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1970
+OS2WinAOffset: 0
+OS2WinDescent: 50
+OS2WinDOffset: 0
+HheadAscent: 1970
+HheadAOffset: 0
+HheadDescent: -50
+HheadDOffset: 0
 OS2SubXSize: 1434
 OS2SubYSize: 1331
 OS2SubXOff: 0
@@ -52,6 +52,7 @@ OS2StrikeYPos: 512
 OS2Vendor: '    '
 OS2CodePages: 20000093.00000000
 OS2UnicodeRanges: a00000af.10002048.00000000.00000000
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -140,117 +141,117 @@ PUSHB_1
 CALL
 WCVTP
 PUSHB_1
- 13
-DUP
-RCVT
-PUSHB_3
- 5
- 23
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 12
-DUP
-RCVT
-PUSHB_3
- 13
- 18
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 11
-DUP
-RCVT
-PUSHW_3
- 12
- 278
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 10
-DUP
-RCVT
-PUSHB_3
- 11
- 13
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 9
-DUP
-RCVT
-PUSHW_3
- 10
- 265
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 8
-DUP
-RCVT
-PUSHB_3
- 9
- 8
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
- 7
-DUP
-RCVT
-PUSHB_3
- 8
- 110
- 2
-CALL
-PUSHB_2
- 3
- 70
-SROUND
-CALL
-WCVTP
-PUSHB_1
  6
 DUP
 RCVT
 PUSHB_3
+ 5
  7
- 78
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 7
+DUP
+RCVT
+PUSHB_3
+ 6
+ 7
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 8
+DUP
+RCVT
+PUSHB_3
+ 7
+ 40
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 9
+DUP
+RCVT
+PUSHB_3
+ 8
+ 14
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 10
+DUP
+RCVT
+PUSHB_3
+ 9
+ 13
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 11
+DUP
+RCVT
+PUSHB_3
+ 10
+ 76
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 12
+DUP
+RCVT
+PUSHB_3
+ 11
+ 50
+ 2
+CALL
+PUSHB_2
+ 3
+ 70
+SROUND
+CALL
+WCVTP
+PUSHB_1
+ 13
+DUP
+RCVT
+PUSHB_3
+ 12
+ 12
  2
 CALL
 PUSHB_2
@@ -263,9 +264,9 @@ PUSHB_1
  14
 DUP
 RCVT
-PUSHW_3
- 5
- 32767
+PUSHB_3
+ 13
+ 10
  2
 CALL
 PUSHB_2
@@ -280,7 +281,7 @@ DUP
 RCVT
 PUSHB_3
  14
- 17
+ 9
  2
 CALL
 PUSHB_2
@@ -937,14 +938,14 @@ MUL
 SWAP
 ENDF
 EndTTInstrs
-ShortTable: cvt  20
+ShortTable: cvt  33
   0
   1370
   90
   21
   453
   416
-  236
+  885
   242
   256
   309
@@ -955,9 +956,22 @@ ShortTable: cvt  20
   416
   487
   598
-  885
+  236
+  200
+  195
+  206
+  112
   204
+  130
+  68
   34
+  32
+  197
+  234
+  192
+  28
+  26
+  96
 EndShort
 ShortTable: maxp 16
   1
@@ -986,9 +1000,8 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 189 27 10
-BeginPrivate: 7
+BeginPrivate: 6
 BlueValues 15 [0 0 1370 1370]
-OtherBlues 0 
 BlueFuzz 1 1
 StdHW 4 [90]
 StdVW 5 [416]
@@ -1012,7 +1025,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: nonmarkingreturn
+StartChar: uni000D
 Encoding: 0 13 2
 Width: 295
 GlyphClass: 2
@@ -1078,12 +1091,10 @@ PUSHB_4
  16
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  31
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  6
  24
@@ -1141,6 +1152,7 @@ SplineSet
  389 545 l 1,29,-1
  389 438 l 1,26,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -1176,11 +1188,11 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  6
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  6
- 17
+ 6
 MIRP[min,black]
 PUSHB_4
  27
@@ -1190,9 +1202,9 @@ PUSHB_4
 CALL
 PUSHB_5
  24
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -1200,17 +1212,15 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  27
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  31
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  24
  16
@@ -1278,6 +1288,7 @@ SplineSet
  574 1280 l 1,29,-1
  473 1280 l 1,26,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -1294,25 +1305,23 @@ PUSHB_3
  0
 CALL
 PUSHB_5
- 30
+ 29
  2
  0
  22
  4
 CALL
-PUSHB_2
+PUSHB_1
  26
- 29
-SHP[rp2]
 SHP[rp2]
 PUSHB_3
- 30
+ 29
  23
  10
 CALL
 PUSHB_4
  64
- 30
+ 29
  27
  9
 CALL
@@ -1327,25 +1336,25 @@ PUSHB_1
  12
 MDAP[rnd]
 PUSHB_1
- 36
+ 53
 MDAP[rnd]
 PUSHB_3
+ 35
  47
  52
- 53
 SHP[rp1]
 SHP[rp1]
 SHP[rp1]
 PUSHB_5
- 33
+ 54
  2
  0
  19
  4
 CALL
 PUSHB_3
+ 33
  49
- 54
  55
 SHP[rp2]
 SHP[rp2]
@@ -1355,14 +1364,18 @@ PUSHB_1
  56
 MDAP[rnd]
 PUSHB_1
- 57
+ 55
 MDRP[rp0,rnd,white]
+PUSHB_2
+ 57
+ 1
+CALL
 PUSHB_1
  54
 SMD
 PUSHW_3
- 16274
- -1892
+ 16291
+ -1747
  21
 CALL
 SPVFS
@@ -1444,15 +1457,6 @@ PUSHB_4
  29
  19
 CALL
-PUSHB_1
- 43
-SRP0
-PUSHB_4
- 55
- 43
- 26
- 19
-CALL
 PUSHB_3
  41
  40
@@ -1486,7 +1490,7 @@ MDAP[no-rnd]
 MDAP[no-rnd]
 SVTCA[x-axis]
 NPUSHB
- 12
+ 11
  26
  27
  28
@@ -1498,8 +1502,6 @@ NPUSHB
  52
  53
  54
- 55
-MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
@@ -1517,7 +1519,7 @@ SMD
 SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
- 36
+ 53
  12
 SRP1
 SRP2
@@ -1586,6 +1588,7 @@ SplineSet
  557 950 l 1,55,-1
  535 729 l 1,52,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dollar
@@ -1681,16 +1684,20 @@ SHP[rp2]
 PUSHB_1
  36
 SRP0
-PUSHB_3
- 82
- 46
- 16
+PUSHB_2
+ 43
+ 1
 CALL
+PUSHB_2
+ 1
+ 48
+SHP[rp2]
+SHP[rp2]
 PUSHB_5
  51
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_3
@@ -1704,27 +1711,21 @@ PUSHB_1
  51
 SRP0
 PUSHB_5
- 43
- 6
+ 46
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
- 43
+ 46
 MDAP[rnd]
-PUSHB_2
- 1
- 48
-SHP[rp1]
-SHP[rp1]
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 46
+PUSHB_2
  63
- 16
+ 1
 CALL
 PUSHB_3
  9
@@ -1735,9 +1736,9 @@ SHP[rp2]
 SHP[rp2]
 PUSHB_5
  58
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_3
@@ -1750,10 +1751,9 @@ SHP[rp2]
 PUSHB_1
  58
 SRP0
-PUSHB_3
- 63
+PUSHB_2
  14
- 16
+ 1
 CALL
 PUSHB_1
  24
@@ -1762,12 +1762,10 @@ PUSHB_2
  70
  9
 MIRP[min,black]
-PUSHB_1
- 70
-SRP0
-PUSHB_1
+PUSHB_2
  89
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  46
  36
@@ -1782,11 +1780,9 @@ PUSHB_5
 DEPTH
 SLOOP
 IP
-PUSHB_2
+PUSHB_1
  51
- 43
 SRP1
-SRP2
 PUSHB_1
  32
 IP
@@ -1806,16 +1802,10 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
+ 0
  6
- 76
 SRP1
 SRP2
-PUSHB_1
- 8
-IP
-PUSHB_1
- 0
-SRP1
 PUSHB_2
  4
  13
@@ -1823,7 +1813,7 @@ IP
 IP
 PUSHB_1
  39
-SRP2
+SRP1
 PUSHB_2
  2
  3
@@ -1831,7 +1821,7 @@ IP
 IP
 PUSHB_1
  42
-SRP1
+SRP2
 PUSHB_2
  16
  37
@@ -1839,7 +1829,7 @@ IP
 IP
 PUSHB_1
  49
-SRP2
+SRP1
 PUSHB_2
  23
  24
@@ -1847,17 +1837,11 @@ IP
 IP
 PUSHB_1
  32
-SRP1
+SRP2
 PUSHB_2
  25
  34
 IP
-IP
-PUSHB_1
- 87
-SRP2
-PUSHB_1
- 29
 IP
 IUP[y]
 IUP[x]
@@ -1951,6 +1935,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,87,-1
  746 1370 l 2,64,65
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: percent
@@ -2009,65 +1994,60 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  12
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 82
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_5
  33
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  33
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_1
  58
 SHP[rp2]
 PUSHB_5
  63
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  63
 SRP0
-PUSHB_3
- 54
+PUSHB_2
  49
- 16
+ 1
 CALL
 PUSHB_5
  70
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 70
-SRP0
-PUSHB_1
+PUSHB_2
  89
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  24
  12
@@ -2115,39 +2095,24 @@ IP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 52
+ 29
  76
 SRP1
 SRP2
-PUSHB_5
+PUSHB_7
  1
- 43
- 45
- 48
- 2
-DEPTH
-SLOOP
-IP
-PUSHB_2
- 22
- 59
-SRP1
-SRP2
-PUSHB_6
  13
- 18
  15
- 35
+ 18
+ 2
  37
- 40
+ 45
 DEPTH
 SLOOP
 IP
-PUSHB_2
+PUSHB_1
  8
- 29
 SRP1
-SRP2
 PUSHB_3
  3
  5
@@ -2250,6 +2215,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,87,-1
  746 1370 l 2,64,65
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -2324,10 +2290,9 @@ SHP[rp2]
 PUSHB_1
  45
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  62
- 16
+ 1
 CALL
 PUSHB_1
  28
@@ -2342,10 +2307,9 @@ SHP[rp2]
 PUSHB_1
  57
 SRP0
-PUSHB_3
- 62
+PUSHB_2
  52
- 16
+ 1
 CALL
 PUSHB_1
  55
@@ -2354,12 +2318,10 @@ PUSHB_2
  6
  8
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  68
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  62
  45
@@ -2513,6 +2475,7 @@ SplineSet
  801 821 l 1,66,-1
  801 625 l 1,57,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -2545,18 +2508,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  6
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  6
- 17
-MIRP[min,black]
-PUSHB_1
  6
-SRP0
-PUSHB_1
+MIRP[min,black]
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  6
  16
@@ -2607,6 +2568,7 @@ SplineSet
  492 1280 l 1,25,-1
  391 1280 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: parenleft
@@ -2653,21 +2615,18 @@ MIRP[min,black]
 PUSHB_1
  15
 SRP0
-PUSHB_3
- 37
+PUSHB_2
  3
- 16
+ 1
 CALL
 PUSHB_2
  26
  16
 MIRP[min,black]
-PUSHB_1
- 26
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  3
  15
@@ -2738,6 +2697,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,43,-1
  553 1370 l 2,20,21
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: parenright
@@ -2746,10 +2706,11 @@ Width: 991
 GlyphClass: 2
 Flags: W
 HStem: 0 324<359.112 581.025> 1282 88<359.112 581.025>
-VStem: -3.93927 558.966<442.656 1164.01> 659.02 335.979<399 1164.01>
+VStem: -3.93933 558.966<442.656 1164.01> 659.02 335.98<399 1164.01>
 LayerCount: 2
 Fore
 Refer: 11 40 N -0.999939 0 0 1 991 0 2
+Validated: 25
 EndChar
 
 StartChar: asterisk
@@ -2788,29 +2749,26 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  9
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  9
 SRP0
-PUSHB_3
- 26
+PUSHB_2
  19
- 16
+ 1
 CALL
 PUSHB_5
  36
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 36
-SRP0
-PUSHB_1
+PUSHB_2
  43
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  9
@@ -2882,6 +2840,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,41
  540 0 540 0 438 0 c 0,20,21
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plus
@@ -2921,18 +2880,17 @@ PUSHB_1
 SHP[rp2]
 PUSHB_5
  6
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  8
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  9
- 16
+ 1
 CALL
 PUSHB_1
  1
@@ -2946,20 +2904,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  11
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
  11
 MDAP[rnd]
-PUSHB_1
- 28
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  9
  8
@@ -3018,6 +2974,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,33
  540 0 540 0 438 0 c 0,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -3046,18 +3003,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  16
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  30
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  17
  5
@@ -3113,6 +3068,7 @@ SplineSet
  399 352 l 1,28,-1
  463 324 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hyphen
@@ -3157,18 +3113,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  21
  9
@@ -3211,6 +3165,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,25
  540 0 540 0 438 0 c 0,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: period
@@ -3239,18 +3194,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  21
  9
@@ -3303,6 +3256,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,25
  540 0 540 0 438 0 c 0,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -3332,9 +3286,10 @@ SVTCA[x-axis]
 PUSHB_1
  26
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  22
@@ -3375,6 +3330,7 @@ SplineSet
  561 1249 l 1,25,-1
  453 1249 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zero
@@ -3418,10 +3374,9 @@ MIRP[min,black]
 PUSHB_1
  32
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_2
  51
@@ -3430,21 +3385,18 @@ MIRP[min,black]
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 44
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_2
  6
  7
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  53
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  44
  32
@@ -3538,6 +3490,7 @@ SplineSet
  840 625 l 1,51,-1
  825 569 l 1,40,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: one
@@ -3575,21 +3528,18 @@ MIRP[min,black]
 PUSHB_1
  5
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  6
- 16
+ 1
 CALL
 PUSHB_2
  13
  15
 MIRP[min,black]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  5
  24
@@ -3649,6 +3599,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,30,-1
  746 1370 l 2,7,8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: two
@@ -3734,10 +3685,9 @@ CALL
 PUSHB_1
  47
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  60
- 16
+ 1
 CALL
 PUSHB_2
  5
@@ -3754,12 +3704,10 @@ PUSHB_4
  51
  9
 CALL
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  60
  47
@@ -3871,6 +3819,7 @@ SplineSet
  922 965 l 1,60,-1
  922 1118 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: three
@@ -3953,12 +3902,10 @@ PUSHB_4
  17
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  72
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  60
@@ -4075,6 +4022,7 @@ SplineSet
  911 612 l 1,70,-1
  911 762 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: four
@@ -4129,10 +4077,9 @@ MIRP[min,black]
 PUSHB_1
  40
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  37
- 16
+ 1
 CALL
 PUSHB_2
  34
@@ -4144,13 +4091,9 @@ SHP[rp2]
 PUSHB_1
  34
 SRP0
-PUSHB_6
- 40
- 37
- 34
+PUSHB_2
  27
- 0
- 15
+ 1
 CALL
 PUSHB_1
  31
@@ -4159,12 +4102,10 @@ PUSHB_2
  6
  13
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  44
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  37
  40
@@ -4238,6 +4179,7 @@ SplineSet
  438 659 l 1,42,-1
  541 647 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: five
@@ -4322,10 +4264,9 @@ SHP[rp2]
 PUSHB_1
  35
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  56
- 16
+ 1
 CALL
 PUSHB_2
  6
@@ -4342,12 +4283,10 @@ PUSHB_4
  29
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  58
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  56
  35
@@ -4373,16 +4312,14 @@ PUSHB_2
 IP
 IP
 PUSHB_1
- 48
+ 37
 SRP1
-PUSHB_2
- 43
+PUSHB_1
  49
-IP
 IP
 PUSHB_2
  28
- 37
+ 48
 SRP1
 SRP2
 PUSHB_1
@@ -4457,6 +4394,7 @@ SplineSet
  936 612 l 1,56,-1
  936 797 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: six
@@ -4528,14 +4466,13 @@ MIRP[min,black]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  48
- 16
+ 1
 CALL
 PUSHB_2
  6
- 6
+ 17
 MIRP[min,black]
 PUSHB_3
  48
@@ -4551,12 +4488,10 @@ CALL
 PUSHB_1
  57
 SHP[rp2]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  66
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  48
  41
@@ -4670,6 +4605,7 @@ SplineSet
  854 629 l 1,64,-1
  840 569 l 1,49,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: seven
@@ -4696,9 +4632,10 @@ SVTCA[x-axis]
 PUSHB_1
  31
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  2
@@ -4744,6 +4681,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,30,-1
  746 1370 l 2,7,8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eight
@@ -4818,10 +4756,9 @@ SHP[rp2]
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  53
- 16
+ 1
 CALL
 PUSHB_1
  64
@@ -4836,10 +4773,9 @@ SHP[rp2]
 PUSHB_1
  60
 SRP0
-PUSHB_3
- 53
+PUSHB_2
  41
- 16
+ 1
 CALL
 PUSHB_1
  46
@@ -4848,12 +4784,10 @@ PUSHB_2
  6
  7
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  75
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  53
  34
@@ -4997,6 +4931,7 @@ SplineSet
  821 938 l 1,73,-1
  756 928 l 1,62,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: nine
@@ -5075,10 +5010,9 @@ MIRP[min,black]
 PUSHB_1
  24
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  59
- 16
+ 1
 CALL
 PUSHB_2
  54
@@ -5090,21 +5024,18 @@ SHP[rp2]
 PUSHB_1
  54
 SRP0
-PUSHB_3
- 59
+PUSHB_2
  40
- 16
+ 1
 CALL
 PUSHB_2
  6
  8
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  59
  24
@@ -5147,7 +5078,7 @@ IP
 IP
 PUSHB_2
  57
- 27
+ 34
 SRP1
 SRP2
 PUSHB_1
@@ -5230,6 +5161,7 @@ SplineSet
  408 1104 l 1,60,-1
  422 1163 l 1,49,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: colon
@@ -5276,10 +5208,9 @@ SHP[rp2]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 9
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_1
  26
@@ -5288,12 +5219,10 @@ PUSHB_2
  21
  13
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  31
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  0
  3
@@ -5357,6 +5286,7 @@ SplineSet
  373 741 l 1,29,-1
  504 741 l 1,26,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: semicolon
@@ -5411,12 +5341,10 @@ PUSHB_4
  6
  9
 CALL
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  34
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  25
@@ -5473,6 +5401,7 @@ SplineSet
  389 741 l 1,32,-1
  520 741 l 1,29,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: less
@@ -5513,6 +5442,7 @@ SplineSet
  270 784 l 1,30,-1
  596 408 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: equal
@@ -5563,14 +5493,14 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  18
- 17
+ 6
  0
  13
  4
 CALL
 PUSHB_5
  18
- 17
+ 6
  0
  13
  4
@@ -5588,12 +5518,10 @@ MDAP[rnd]
 PUSHB_1
  28
 SHP[rp1]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  33
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  27
  5
@@ -5643,6 +5571,7 @@ SplineSet
  709 899 l 1,31,-1
  709 963 l 1,28,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: greater
@@ -5683,6 +5612,7 @@ SplineSet
  393 408 l 1,30,-1
  719 784 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: question
@@ -5757,46 +5687,30 @@ PUSHB_4
  17
  9
 CALL
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  60
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
- 55
+ 45
  12
 SRP1
 SRP2
-PUSHB_1
- 56
-IP
-PUSHB_2
- 54
- 25
-SRP1
-SRP2
-PUSHB_3
+PUSHB_7
  30
+ 39
+ 40
+ 44
  52
  53
-IP
-IP
-IP
-PUSHB_1
- 45
-SRP1
-PUSHB_3
- 39
- 44
- 40
-IP
-IP
+ 56
+DEPTH
+SLOOP
 IP
 PUSHB_1
  36
-SRP2
+SRP1
 PUSHB_3
  33
  38
@@ -5868,6 +5782,7 @@ SplineSet
  678 565 l 1,58,-1
  572 565 l 1,55,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: at
@@ -5885,7 +5800,7 @@ PUSHB_3
  0
 CALL
 PUSHB_5
- 85
+ 86
  4
  0
  12
@@ -5932,6 +5847,16 @@ PUSHB_5
  4
 CALL
 PUSHB_5
+ 42
+ 2
+ 0
+ 30
+ 4
+CALL
+PUSHB_1
+ 39
+SHP[rp2]
+PUSHB_5
  102
  37
  21
@@ -5954,91 +5879,89 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  78
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  78
 SRP0
-PUSHB_3
- 27
- 94
- 16
+PUSHB_2
+ 95
+ 1
 CALL
-PUSHB_5
- 50
- 6
- 0
- 14
- 4
-CALL
-PUSHB_3
- 50
- 94
- 10
-CALL
-PUSHB_4
- 64
- 50
+PUSHB_2
  44
- 9
-CALL
-PUSHB_1
+ 15
+MIRP[min,black]
+PUSHB_5
  50
-SRP0
-PUSHB_3
- 94
- 111
- 16
-CALL
-PUSHB_5
- 108
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
- 108
+ 44
 SRP0
-PUSHB_3
- 111
- 64
- 16
-CALL
-PUSHB_5
- 14
- 6
- 0
- 14
- 4
-CALL
-PUSHB_1
- 14
-SRP0
-PUSHB_1
- 113
-MDRP[rp0,rnd,white]
 PUSHB_2
  111
- 50
+ 1
+CALL
+PUSHB_5
+ 108
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 108
+SRP0
+PUSHB_2
+ 64
+ 1
+CALL
+PUSHB_5
+ 14
+ 17
+ 0
+ 24
+ 4
+CALL
+PUSHB_2
+ 113
+ 1
+CALL
+PUSHB_2
+ 44
+ 95
 SRP1
 SRP2
 NPUSHB
  9
  4
+ 37
  38
  0
- 56
+ 52
  71
  85
- 86
  88
  102
 DEPTH
 SLOOP
+IP
+PUSHB_2
+ 111
+ 50
+SRP1
+SRP2
+PUSHB_2
+ 56
+ 86
+IP
 IP
 PUSHB_2
  64
@@ -6067,10 +5990,9 @@ IP
 PUSHB_1
  46
 SRP1
-PUSHB_6
+PUSHB_5
  2
  6
- 44
  55
  62
  108
@@ -6078,11 +6000,9 @@ DEPTH
 SLOOP
 IP
 PUSHB_1
- 40
+ 42
 SRP2
-PUSHB_6
- 34
- 39
+PUSHB_4
  43
  64
  78
@@ -6091,8 +6011,14 @@ DEPTH
 SLOOP
 IP
 PUSHB_1
- 37
+ 40
 SRP1
+PUSHB_1
+ 34
+IP
+PUSHB_1
+ 37
+SRP2
 PUSHB_2
  35
  38
@@ -6208,6 +6134,7 @@ SplineSet
  832 625 l 1,111,-1
  832 915 l 1,33,-1
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: A
@@ -6265,14 +6192,13 @@ MIRP[min,black]
 PUSHB_1
  40
 SRP0
-PUSHB_3
- 45
+PUSHB_2
  25
- 16
+ 1
 CALL
 PUSHB_2
  6
- 6
+ 17
 MIRP[min,black]
 PUSHB_3
  25
@@ -6285,12 +6211,10 @@ PUSHB_4
  17
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  51
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  40
  45
@@ -6386,6 +6310,7 @@ SplineSet
  674 1174 l 1,49,-1
  768 1159 l 1,40,41
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: B
@@ -6457,10 +6382,9 @@ MIRP[min,black]
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  41
- 16
+ 1
 CALL
 PUSHB_1
  49
@@ -6475,10 +6399,9 @@ SHP[rp2]
 PUSHB_1
  46
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  38
- 16
+ 1
 CALL
 PUSHB_1
  28
@@ -6487,12 +6410,10 @@ PUSHB_2
  6
  8
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  56
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  46
  41
@@ -6600,18 +6521,20 @@ SplineSet
  801 993 l 1,54,-1
  787 940 l 1,47,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: C
 Encoding: 36 67 38
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95>
 VStem: -4 315<531.718 1164.01> 418 770<575 1157.79>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: D
@@ -6669,10 +6592,9 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  36
- 16
+ 1
 CALL
 PUSHB_2
  41
@@ -6681,21 +6603,18 @@ MIRP[min,black]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 36
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_2
  6
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  43
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  33
  41
@@ -6771,6 +6690,7 @@ SplineSet
  848 625 l 1,41,-1
  834 569 l 1,34,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: E
@@ -6842,10 +6762,9 @@ MIRP[min,black]
 PUSHB_1
  10
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_1
  5
@@ -6857,12 +6776,10 @@ PUSHB_5
  9
  4
 CALL
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  18
  1
@@ -6919,6 +6836,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: F
@@ -6966,10 +6884,9 @@ MIRP[min,black]
 PUSHB_1
  6
 SRP0
-PUSHB_3
- 27
+PUSHB_2
  7
- 16
+ 1
 CALL
 PUSHB_1
  1
@@ -6981,12 +6898,10 @@ PUSHB_5
  9
  4
 CALL
-PUSHB_1
- 16
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  16
  7
@@ -7047,6 +6962,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,33,-1
  746 1370 l 2,10,11
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: G
@@ -7118,14 +7034,13 @@ MIRP[min,black]
 PUSHB_1
  9
 SRP0
-PUSHB_3
- 52
+PUSHB_2
  32
- 16
+ 1
 CALL
 PUSHB_2
  19
- 6
+ 17
 MIRP[min,black]
 PUSHB_3
  19
@@ -7141,21 +7056,18 @@ CALL
 PUSHB_1
  19
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_2
  41
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 41
-SRP0
-PUSHB_1
+PUSHB_2
  60
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  32
  9
@@ -7286,6 +7198,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,58,-1
  746 1370 l 2,35,36
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: H
@@ -7337,10 +7250,9 @@ MIRP[min,black]
 PUSHB_1
  6
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  7
- 16
+ 1
 CALL
 PUSHB_1
  3
@@ -7355,21 +7267,18 @@ SHP[rp2]
 PUSHB_1
  10
 SRP0
-PUSHB_3
- 7
+PUSHB_2
  11
- 16
+ 1
 CALL
 PUSHB_2
  18
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  5
@@ -7420,6 +7329,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: I
@@ -7483,21 +7393,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_2
  18
  15
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  29
@@ -7564,6 +7471,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: J
@@ -7604,21 +7512,18 @@ CALL
 PUSHB_1
  25
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  32
- 16
+ 1
 CALL
 PUSHB_2
  6
  5
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  25
  17
@@ -7683,6 +7588,7 @@ SplineSet
  787 1280 l 1,33,-1
  682 1280 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: K
@@ -7728,12 +7634,10 @@ PUSHB_4
  20
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  39
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  5
@@ -7795,6 +7699,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,37,-1
  746 1370 l 2,14,15
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: L
@@ -7838,21 +7743,18 @@ MIRP[min,black]
 PUSHB_1
  4
 SRP0
-PUSHB_3
- 23
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_2
  12
  16
 MIRP[min,black]
-PUSHB_1
- 12
-SRP0
-PUSHB_1
+PUSHB_2
  31
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  12
  1
@@ -7899,6 +7801,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,29,-1
  746 1370 l 2,6,7
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: M
@@ -7939,57 +7842,49 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
+PUSHB_2
+ 30
+ 1
+CALL
+PUSHB_5
+ 39
  17
- 30
- 16
-CALL
-PUSHB_5
- 39
- 6
  0
- 38
+ 59
  4
 CALL
 PUSHB_1
  39
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  40
- 16
+ 1
 CALL
 PUSHB_5
  47
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_1
  47
 SRP0
-PUSHW_6
- 39
- 40
- 47
+PUSHB_2
  48
- 2024
- 15
+ 1
 CALL
 PUSHB_5
  6
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  56
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  30
  29
@@ -8094,18 +7989,20 @@ SplineSet
  623 1195 l 1,54,-1
  590 1264 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: N
 Encoding: 47 78 49
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<398.781 854>
 VStem: -4 326<453 1164.01> 428 397<453 1163> 932 256<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: O
@@ -8149,10 +8046,9 @@ MIRP[min,black]
 PUSHB_1
  32
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_2
  51
@@ -8161,21 +8057,18 @@ MIRP[min,black]
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 44
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_2
  6
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  53
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  44
  32
@@ -8269,6 +8162,7 @@ SplineSet
  846 625 l 1,51,-1
  832 569 l 1,40,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: P
@@ -8316,10 +8210,9 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  38
- 16
+ 1
 CALL
 PUSHB_1
  30
@@ -8331,21 +8224,18 @@ MIRP[min,black]
 PUSHB_1
  43
 SRP0
-PUSHB_3
- 38
+PUSHB_2
  35
- 16
+ 1
 CALL
 PUSHB_2
  5
  8
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  35
  43
@@ -8425,6 +8315,7 @@ SplineSet
  823 920 l 1,43,-1
  809 864 l 1,36,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -8468,10 +8359,9 @@ MIRP[min,black]
 PUSHB_1
  32
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  51
- 16
+ 1
 CALL
 PUSHB_2
  58
@@ -8480,21 +8370,18 @@ MIRP[min,black]
 PUSHB_1
  58
 SRP0
-PUSHB_3
- 51
+PUSHB_2
  42
- 16
+ 1
 CALL
 PUSHB_2
  6
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  60
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  51
  32
@@ -8612,6 +8499,7 @@ SplineSet
  848 625 l 1,58,-1
  834 569 l 1,43,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: R
@@ -8659,10 +8547,9 @@ MIRP[min,black]
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_1
  48
@@ -8677,10 +8564,9 @@ SHP[rp2]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  26
- 16
+ 1
 CALL
 PUSHB_1
  31
@@ -8689,12 +8575,10 @@ PUSHB_2
  6
  9
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  51
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  41
  39
@@ -8799,6 +8683,7 @@ SplineSet
  451 1174 l 1,49,-1
  711 1174 l 1,42,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: S
@@ -8881,10 +8766,9 @@ CALL
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  65
- 16
+ 1
 CALL
 PUSHB_2
  6
@@ -8901,12 +8785,10 @@ PUSHB_4
  32
  9
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  67
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  65
  44
@@ -9022,6 +8904,7 @@ SplineSet
  934 614 l 1,65,-1
  934 766 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: T
@@ -9059,21 +8942,18 @@ MIRP[min,black]
 PUSHB_1
  4
 SRP0
-PUSHB_3
- 25
+PUSHB_2
  5
- 16
+ 1
 CALL
 PUSHB_2
  14
  15
 MIRP[min,black]
-PUSHB_1
- 14
-SRP0
-PUSHB_1
+PUSHB_2
  33
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  4
  25
@@ -9136,6 +9016,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,31,-1
  746 1370 l 2,8,9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: U
@@ -9193,10 +9074,9 @@ MIRP[min,black]
 PUSHB_1
  36
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_2
  26
@@ -9205,21 +9085,18 @@ MIRP[min,black]
 PUSHB_1
  26
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_2
  6
  7
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  33
  36
@@ -9285,6 +9162,7 @@ SplineSet
  946 614 l 1,43,-1
  946 1280 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: V
@@ -9295,6 +9173,11 @@ Flags: W
 HStem: 0 21G<387.5 796.5> 1280 90<342.134 429.599 832.371 919.149>
 TtInstrs:
 SVTCA[y-axis]
+PUSHB_3
+ 35
+ 1
+ 0
+CALL
 PUSHB_3
  35
  1
@@ -9314,9 +9197,10 @@ SVTCA[x-axis]
 PUSHB_1
  36
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  8
@@ -9369,6 +9253,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: W
@@ -9385,13 +9270,13 @@ PUSHB_3
  1
  0
 CALL
-PUSHB_2
- 5
+PUSHB_5
+ 1
  2
-MIRP[min,black]
-PUSHB_1
- 19
-SHP[rp2]
+ 0
+ 50
+ 4
+CALL
 PUSHB_1
  23
 MDAP[rnd]
@@ -9404,32 +9289,29 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  2
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  2
 SRP0
-PUSHB_3
- 4
+PUSHB_2
  22
- 16
+ 1
 CALL
 PUSHB_5
  20
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 20
-SRP0
-PUSHB_1
+PUSHB_2
  48
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  2
  4
@@ -9454,14 +9336,34 @@ PUSHB_1
 IP
 SVTCA[y-axis]
 PUSHB_2
- 5
+ 1
  23
 SRP1
 SRP2
-PUSHB_2
- 3
+NPUSHB
  9
+ 3
+ 4
+ 7
+ 9
+ 12
+ 15
+ 17
+ 20
+ 21
+DEPTH
+SLOOP
 IP
+PUSHB_1
+ 34
+SRP1
+PUSHB_4
+ 5
+ 6
+ 18
+ 19
+DEPTH
+SLOOP
 IP
 IUP[y]
 IUP[x]
@@ -9515,6 +9417,7 @@ SplineSet
  847 0 847 0 746 0 c 2,46,-1
  438 0 l 2,23,24
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: X
@@ -9537,9 +9440,10 @@ SVTCA[x-axis]
 PUSHB_1
  36
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  23
@@ -9592,6 +9496,7 @@ SplineSet
  967 1245 l 1,35,-1
  868 1282 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Y
@@ -9621,9 +9526,10 @@ SVTCA[x-axis]
 PUSHB_1
  33
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  34
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  1
@@ -9673,6 +9579,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,32,-1
  746 1370 l 2,9,10
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Z
@@ -9705,9 +9612,10 @@ SVTCA[x-axis]
 PUSHB_1
  34
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -9748,6 +9656,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,33,-1
  746 1370 l 2,10,11
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -9776,24 +9685,22 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  6
- 17
+ 6
  0
  13
  4
 CALL
 PUSHB_5
  6
- 17
+ 6
  0
  13
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  25
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -9823,6 +9730,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,23,-1
  551 1370 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: backslash
@@ -9849,9 +9757,10 @@ SVTCA[x-axis]
 PUSHB_1
  28
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  29
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  0
@@ -9894,6 +9803,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,27,-1
  619 1370 l 2,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketright
@@ -9934,21 +9844,18 @@ MIRP[min,black]
 PUSHB_1
  6
 SRP0
-PUSHB_3
- 25
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_2
  14
  5
 MIRP[min,black]
-PUSHB_1
- 14
-SRP0
-PUSHB_1
+PUSHB_2
  33
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  6
  25
@@ -10005,6 +9912,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,31,-1
  555 1370 l 2,8,9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -10028,12 +9936,17 @@ PUSHB_5
  21
  4
 CALL
-PUSHB_1
- 35
+PUSHB_2
+ 36
+ 39
+SHP[rp2]
 SHP[rp2]
 PUSHB_1
  38
 MDAP[rnd]
+PUSHB_1
+ 37
+SHP[rp1]
 PUSHB_5
  19
  2
@@ -10045,9 +9958,194 @@ SVTCA[x-axis]
 PUSHB_1
  41
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  42
-MDRP[rp0,rnd,white]
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 15153
+ -6231
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 39
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 39
+SRP0
+PUSHB_2
+ 11
+ 18
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 38
+ 18
+MIRP[rp0,min,black]
+PUSHW_3
+ -15153
+ -6231
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 37
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 28
+SRP0
+PUSHB_1
+ 37
+SRP0
+PUSHB_2
+ 25
+ 19
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 28
+SRP0
+PUSHB_2
+ 36
+ 19
+MIRP[rp0,min,black]
+PUSHW_3
+ 15043
+ -6491
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 11
+SRP0
+PUSHB_4
+ 12
+ 11
+ 14
+ 19
+CALL
+PUSHB_4
+ 13
+ 11
+ 14
+ 19
+CALL
+PUSHW_3
+ -15153
+ -6231
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 25
+SRP0
+PUSHB_4
+ 26
+ 25
+ 28
+ 19
+CALL
+PUSHB_4
+ 27
+ 25
+ 28
+ 19
+CALL
+PUSHB_3
+ 12
+ 11
+ 14
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 13
+IP
+PUSHB_3
+ 26
+ 25
+ 28
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 27
+IP
+SVTCA[y-axis]
+PUSHB_8
+ 14
+ 25
+ 28
+ 11
+ 12
+ 13
+ 26
+ 27
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+NPUSHB
+ 12
+ 14
+ 25
+ 28
+ 36
+ 37
+ 38
+ 39
+ 11
+ 12
+ 13
+ 26
+ 27
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
  40
@@ -10066,12 +10164,6 @@ PUSHB_1
 SRP1
 PUSHB_1
  34
-IP
-PUSHB_1
- 19
-SRP2
-PUSHB_1
- 14
 IP
 IUP[y]
 IUP[x]
@@ -10114,6 +10206,7 @@ SplineSet
  229 684 l 1,40,-1
  365 950 l 1,34,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -10158,26 +10251,23 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  1
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  1
 SRP0
-PUSHB_3
- 20
+PUSHB_2
  2
- 16
+ 1
 CALL
 PUSHB_2
  10
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 10
-SRP0
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  2
  1
@@ -10220,6 +10310,7 @@ SplineSet
  173 1310 173 1310 255 1340 c 128,-1,25
  337 1370 337 1370 438 1370 c 0,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: grave
@@ -10232,24 +10323,18 @@ VStem: -4 639
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 0
+ 26
 MDAP[rnd]
 PUSHB_5
- 27
+ 28
  2
  0
  26
  4
 CALL
 PUSHB_1
- 28
-SHP[rp2]
-PUSHB_1
- 30
-MDAP[rnd]
-PUSHB_1
  29
-SHP[rp1]
+MDAP[rnd]
 PUSHB_5
  11
  2
@@ -10272,18 +10357,16 @@ MIRP[min,black]
 PUSHB_1
  19
 SHP[rp2]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_1
  54
 SMD
 PUSHW_3
- -15638
- -4887
+ -15696
+ -4699
  21
 CALL
 SPVFS
@@ -10300,7 +10383,7 @@ PUSHB_1
 SRP0
 PUSHB_2
  16
- 18
+ 20
 MIRP[rp0,min,black]
 SFVTCA[x-axis]
 PUSHB_1
@@ -10308,7 +10391,7 @@ PUSHB_1
 SRP0
 PUSHB_2
  28
- 18
+ 20
 MIRP[rp0,min,black]
 PUSHW_3
  -15719
@@ -10384,8 +10467,8 @@ PUSHB_1
 IP
 SVTCA[y-axis]
 PUSHB_2
- 30
- 27
+ 29
+ 28
 SRP1
 SRP2
 PUSHB_2
@@ -10427,6 +10510,7 @@ SplineSet
  215 514 l 1,30,-1
  367 180 l 1,27,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: a
@@ -10504,10 +10588,9 @@ MIRP[min,black]
 PUSHB_1
  17
 SRP0
-PUSHB_3
- 57
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_2
  39
@@ -10519,10 +10602,9 @@ SHP[rp2]
 PUSHB_1
  39
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  28
- 16
+ 1
 CALL
 PUSHB_2
  46
@@ -10533,20 +10615,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  25
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
  25
 MDAP[rnd]
-PUSHB_1
- 46
-SRP0
-PUSHB_1
+PUSHB_2
  65
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  33
  17
@@ -10560,27 +10640,15 @@ PUSHB_4
 DEPTH
 SLOOP
 IP
-PUSHB_1
- 39
-SRP1
-PUSHB_4
- 9
- 4
- 13
- 22
-DEPTH
-SLOOP
-IP
-PUSHB_1
+PUSHB_2
  28
+ 57
+SRP1
 SRP2
-PUSHB_4
- 2
- 23
+PUSHB_2
  24
  27
-DEPTH
-SLOOP
+IP
 IP
 SVTCA[y-axis]
 PUSHB_2
@@ -10691,6 +10759,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,63,-1
  746 1370 l 2,40,41
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: b
@@ -10703,6 +10772,7 @@ VStem: -4 311<453 1164.01> 414 387<569 815 940 993> 907 281<528 825.835 927.656 
 LayerCount: 2
 Fore
 Refer: 37 66 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: c
@@ -10746,24 +10816,21 @@ MIRP[min,black]
 PUSHB_1
  5
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  15
- 16
+ 1
 CALL
 PUSHB_5
  28
- 17
+ 6
  0
  18
  4
 CALL
-PUSHB_1
- 28
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  15
  5
@@ -10836,6 +10903,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 6,45,-1
  746 1370 l 6,22,23
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: d
@@ -10848,6 +10916,7 @@ VStem: -4 332<453 1164.01> 432 416<569 1163> 954 234<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: e
@@ -10919,10 +10988,9 @@ MIRP[min,black]
 PUSHB_1
  32
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  45
- 16
+ 1
 CALL
 PUSHB_1
  42
@@ -10934,24 +11002,18 @@ MIRP[min,black]
 PUSHB_1
  52
 SRP0
-PUSHB_6
- 32
- 45
- 52
+PUSHB_2
  44
- 0
- 15
+ 1
 CALL
 PUSHB_2
  5
  9
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  54
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  45
  32
@@ -11066,6 +11128,7 @@ SplineSet
  770 973 l 1,52,-1
  410 973 l 1,45,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: f
@@ -11078,6 +11141,7 @@ VStem: -4 401<453 1164.01> 504 684<453 831 936 1164.01>
 LayerCount: 2
 Fore
 Refer: 41 70 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: g
@@ -11090,6 +11154,7 @@ VStem: -4 346<528 1164.01> 449 213<770 877> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: h
@@ -11102,6 +11167,7 @@ VStem: -4 332<453 1164.01> 434 416<453 825 930 1280> 954 234<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 43 72 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: i
@@ -11114,6 +11180,7 @@ VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: j
@@ -11126,6 +11193,7 @@ VStem: -4 686<571 1164.01> 787 401<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 45 74 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: k
@@ -11138,6 +11206,7 @@ VStem: -4 412<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 46 75 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: l
@@ -11150,6 +11219,7 @@ VStem: -4 453<453 1164.01> 555 633<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: m
@@ -11162,6 +11232,7 @@ VStem: -4 260<453 1164.01> 363 206<741 1172.82> 676 207<741 1165> 989 199<453 11
 LayerCount: 2
 Fore
 Refer: 48 77 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: n
@@ -11199,10 +11270,9 @@ MIRP[min,black]
 PUSHB_1
  6
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  7
- 16
+ 1
 CALL
 PUSHB_2
  13
@@ -11211,21 +11281,18 @@ MIRP[min,black]
 PUSHB_1
  13
 SRP0
-PUSHB_3
- 7
+PUSHB_2
  14
- 16
+ 1
 CALL
 PUSHB_2
  21
  8
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  13
  7
@@ -11293,6 +11360,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: o
@@ -11305,6 +11373,7 @@ VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: p
@@ -11317,6 +11386,7 @@ VStem: -4 381<453 1164.01> 481 342<864 1163> 930 258<823 1164.01>
 LayerCount: 2
 Fore
 Refer: 51 80 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: q
@@ -11329,6 +11399,7 @@ VStem: -4 332<528 1164.01> 432 416<571.656 629 676 1163> 954 234<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 52 81 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: r
@@ -11341,6 +11412,7 @@ VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 903 285<453 711 987 
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: s
@@ -11353,6 +11425,7 @@ VStem: -4 352<897 1164.01> 934 254<528 852>
 LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: t
@@ -11365,6 +11438,7 @@ VStem: -4 598<453 1164.01> 701 487<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: u
@@ -11377,6 +11451,7 @@ VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: v
@@ -11388,6 +11463,7 @@ HStem: 0 21<387.5 796.5> 1280 90<342.134 429.599 832.371 919.149>
 LayerCount: 2
 Fore
 Refer: 57 86 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: w
@@ -11400,6 +11476,7 @@ VStem: 402 49<565 647.857> 787 49<565 647.161>
 LayerCount: 2
 Fore
 Refer: 58 87 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: x
@@ -11411,6 +11488,7 @@ HStem: 0 21<387.5 796.5> 1350 20<387.5 796.5>
 LayerCount: 2
 Fore
 Refer: 59 88 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: y
@@ -11422,6 +11500,7 @@ HStem: 0 21<387.5 796.5> 1280 90<336.05 459 819 941.663>
 LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: z
@@ -11433,6 +11512,7 @@ HStem: 0 453<410 884.097> 1280 90<394.722 821>
 LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -11484,18 +11564,17 @@ PUSHB_1
 SHP[rp2]
 PUSHB_5
  52
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
 PUSHB_1
  25
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_1
  38
@@ -11504,12 +11583,10 @@ PUSHB_2
  6
  15
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  56
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  25
  52
@@ -11600,6 +11677,7 @@ SplineSet
  346 764 l 1,54,-1
  361 705 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -11636,21 +11714,18 @@ MIRP[min,black]
 PUSHB_1
  1
 SRP0
-PUSHB_3
- 21
+PUSHB_2
  2
- 16
+ 1
 CALL
 PUSHB_2
  10
  15
 MIRP[min,black]
-PUSHB_1
- 10
-SRP0
-PUSHB_1
+PUSHB_2
  29
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  27
@@ -11692,6 +11767,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,27,-1
  454 1370 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: braceright
@@ -11744,10 +11820,9 @@ SHP[rp2]
 PUSHB_1
  45
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  53
- 16
+ 1
 CALL
 PUSHB_1
  30
@@ -11761,20 +11836,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  26
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
 PUSHB_1
  26
 MDAP[rnd]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  56
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  45
  17
@@ -11865,6 +11938,7 @@ SplineSet
  632 705 l 1,54,-1
  647 764 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -11916,21 +11990,18 @@ MIRP[min,black]
 PUSHB_1
  15
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_2
  42
  9
 MIRP[min,black]
-PUSHB_1
- 42
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  10
@@ -12008,9 +12079,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,60,-1
  746 1370 l 2,37,38
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: nonbreakingspace
+StartChar: uni00A0
 Encoding: 96 160 98
 Width: 311
 GlyphClass: 2
@@ -12067,10 +12139,9 @@ SHP[rp2]
 PUSHB_1
  24
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  23
- 16
+ 1
 CALL
 PUSHB_2
  5
@@ -12089,12 +12160,10 @@ MDAP[rnd]
 PUSHB_1
  22
 SHP[rp1]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  31
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  23
  24
@@ -12148,6 +12217,7 @@ SplineSet
  389 1280 l 1,29,-1
  389 1174 l 1,26,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cent
@@ -12212,19 +12282,18 @@ MIRP[min,black]
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_1
  51
 SHP[rp2]
 PUSHB_5
  59
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_2
@@ -12235,10 +12304,9 @@ SHP[rp2]
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 54
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_2
  24
@@ -12249,12 +12317,10 @@ PUSHB_2
  6
  15
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  61
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  54
  37
@@ -12363,6 +12429,7 @@ SplineSet
  580 596 l 1,59,-1
  549 596 l 1,50,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: sterling
@@ -12446,28 +12513,26 @@ SHP[rp2]
 PUSHB_1
  25
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_1
  28
 SHP[rp2]
 PUSHB_5
  37
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  38
- 16
+ 1
 CALL
 PUSHB_1
  26
@@ -12476,12 +12541,10 @@ PUSHB_2
  5
  13
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  48
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  25
  17
@@ -12520,16 +12583,6 @@ SRP1
 SRP2
 PUSHB_1
  33
-IP
-PUSHB_1
- 23
-SRP1
-PUSHB_3
- 39
- 41
- 43
-IP
-IP
 IP
 IUP[y]
 IUP[x]
@@ -12583,6 +12636,7 @@ SplineSet
  356 809 l 1,46,-1
  428 809 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: currency
@@ -12633,10 +12687,9 @@ MIRP[min,black]
 PUSHB_1
  13
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  29
- 16
+ 1
 CALL
 PUSHB_2
  36
@@ -12645,21 +12698,18 @@ MIRP[min,black]
 PUSHB_1
  36
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_2
  42
  10
 MIRP[min,black]
-PUSHB_1
- 42
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  13
  55
@@ -12817,6 +12867,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,60,-1
  746 1370 l 2,37,38
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: yen
@@ -12862,9 +12913,10 @@ SVTCA[x-axis]
 PUSHB_1
  50
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  51
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  26
@@ -12936,6 +12988,7 @@ SplineSet
  402 688 l 1,49,-1
  549 688 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: brokenbar
@@ -12986,10 +13039,9 @@ SHP[rp2]
 PUSHB_1
  7
 SRP0
-PUSHB_3
- 25
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_1
  0
@@ -12998,12 +13050,10 @@ PUSHB_2
  14
  5
 MIRP[min,black]
-PUSHB_1
- 14
-SRP0
-PUSHB_1
+PUSHB_2
  33
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  6
@@ -13051,6 +13101,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,31,-1
  555 1370 l 2,8,9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: section
@@ -13137,18 +13188,17 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  58
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  58
 SRP0
-PUSHB_3
- 50
+PUSHB_2
  17
- 16
+ 1
 CALL
 PUSHB_2
  68
@@ -13165,12 +13215,10 @@ PUSHB_4
  31
  9
 CALL
-PUSHB_1
- 68
-SRP0
-PUSHB_1
+PUSHB_2
  87
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  58
  50
@@ -13347,6 +13395,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,85,-1
  746 1370 l 2,62,63
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dieresis
@@ -13393,44 +13442,40 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  24
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  24
 SRP0
-PUSHB_3
- 7
+PUSHB_2
  21
- 16
+ 1
 CALL
 PUSHB_5
  3
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 21
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_2
  17
- 6
-MIRP[min,black]
-PUSHB_1
  17
-SRP0
-PUSHB_1
+MIRP[min,black]
+PUSHB_2
  26
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  24
  7
@@ -13497,6 +13542,7 @@ SplineSet
  193 207 l 1,24,-1
  324 207 l 1,21,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: copyright
@@ -13577,30 +13623,28 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  44
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_2
  69
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  69
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  79
- 16
+ 1
 CALL
 PUSHB_2
  34
@@ -13609,24 +13653,21 @@ MIRP[min,black]
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 79
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_5
  6
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  87
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  79
  69
@@ -13766,6 +13807,7 @@ SplineSet
  803 1098 l 1,85,-1
  721 1108 l 1,64,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ordfeminine
@@ -13823,10 +13865,9 @@ MIRP[min,black]
 PUSHB_1
  45
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  59
- 16
+ 1
 CALL
 PUSHB_2
  69
@@ -13838,21 +13879,18 @@ SHP[rp2]
 PUSHB_1
  69
 SRP0
-PUSHB_3
- 59
+PUSHB_2
  52
- 16
+ 1
 CALL
 PUSHB_2
  5
  9
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  71
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  59
  45
@@ -13886,38 +13924,21 @@ IP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 55
+ 35
  12
 SRP1
 SRP2
-PUSHB_3
- 46
+PUSHB_4
+ 30
+ 39
  48
  51
-IP
-IP
-IP
-PUSHB_2
- 41
- 64
-SRP1
-SRP2
-PUSHB_2
- 39
- 43
-IP
-IP
-PUSHB_1
- 35
-SRP1
-PUSHB_2
- 30
- 37
-IP
+DEPTH
+SLOOP
 IP
 PUSHB_1
  28
-SRP2
+SRP1
 PUSHB_1
  25
 IP
@@ -13993,6 +14014,7 @@ SplineSet
  772 766 l 1,69,-1
  758 713 l 1,53,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -14016,21 +14038,110 @@ PUSHB_1
  38
 MDAP[rnd]
 PUSHB_1
- 39
+ 9
 MDRP[rp0,rnd,white]
+PUSHB_5
+ 5
+ 17
+ 0
+ 24
+ 4
+CALL
+PUSHB_1
+ 6
+SHP[rp2]
+PUSHB_2
+ 39
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 13070
+ -9880
+ 21
+CALL
+SPVFS
+SFVTCA[y-axis]
+PUSHB_1
+ 9
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 10
+MDRP[grey]
+SFVTCA[y-axis]
+PUSHB_2
+ 5
+ 21
+MIRP[rp0,min,black]
+SFVTPV
+PUSHB_1
+ 4
+MDRP[grey]
+PUSHW_3
+ -13057
+ -9897
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 9
+SRP0
+PUSHB_1
+ 8
+MDRP[grey]
+SFVTCA[y-axis]
+PUSHB_2
+ 6
+ 21
+MIRP[rp0,min,black]
+SFVTPV
+PUSHB_1
+ 0
+MDRP[grey]
+SVTCA[y-axis]
+PUSHB_7
+ 0
+ 4
+ 5
+ 6
+ 8
+ 9
+ 10
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_4
+ 0
+ 4
+ 8
+ 10
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
  37
  26
 SRP1
 SRP2
-PUSHB_4
- 4
+PUSHB_2
  7
  11
- 0
-DEPTH
-SLOOP
+IP
 IP
 IUP[y]
 IUP[x]
@@ -14076,6 +14187,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,37,-1
  746 1370 l 2,14,15
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: logicalnot
@@ -14160,9 +14272,9 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  34
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
@@ -14171,17 +14283,16 @@ SHP[rp2]
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  53
- 16
+ 1
 CALL
 PUSHB_1
  65
 SHP[rp2]
 PUSHB_2
  60
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  70
@@ -14189,57 +14300,49 @@ SHP[rp2]
 PUSHB_1
  60
 SRP0
-PUSHB_3
- 53
+PUSHB_2
  41
- 16
+ 1
 CALL
 PUSHB_1
  46
 SHP[rp2]
 PUSHB_5
  82
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  82
 SRP0
-PUSHB_6
- 60
- 41
- 82
+PUSHB_2
  94
- 0
- 15
+ 1
 CALL
 PUSHB_2
  101
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  101
 SRP0
-PUSHB_3
- 94
+PUSHB_2
  89
- 16
+ 1
 CALL
 PUSHB_5
  5
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  103
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  53
  34
@@ -14461,6 +14564,7 @@ SplineSet
  942 723 l 1,101,-1
  932 680 l 1,90,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni00AD
@@ -14473,6 +14577,7 @@ VStem: -4 885<205.988 918 989 1164.01>
 LayerCount: 2
 Fore
 Refer: 16 45 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: registered
@@ -14570,30 +14675,28 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  44
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_2
  77
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  77
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  78
- 16
+ 1
 CALL
 PUSHB_1
  88
@@ -14608,42 +14711,38 @@ SHP[rp2]
 PUSHB_1
  65
 SRP0
-PUSHB_3
- 78
+PUSHB_2
  66
- 16
+ 1
 CALL
 PUSHB_1
  71
 SHP[rp2]
 PUSHB_5
  34
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 66
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_5
  6
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  91
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  65
  78
@@ -14787,6 +14886,7 @@ SplineSet
  508 1036 l 1,89,-1
  690 1036 l 1,82,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: macron
@@ -14834,21 +14934,18 @@ MIRP[min,black]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 7
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_2
  17
  8
 MIRP[min,black]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  22
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  3
  7
@@ -14906,6 +15003,7 @@ SplineSet
  790 50 790 50 707 0 c 1,20,-1
  170 0 l 1,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: degree
@@ -14964,11 +15062,11 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_4
  38
@@ -14978,9 +15076,9 @@ PUSHB_4
 CALL
 PUSHB_5
  41
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
 PUSHB_1
@@ -14988,17 +15086,15 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  38
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  41
  5
@@ -15104,6 +15200,7 @@ SplineSet
  469 1176 l 1,45,-1
  524 1161 l 1,36,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: plusminus
@@ -15166,9 +15263,9 @@ PUSHB_1
 SHP[rp2]
 PUSHB_5
  10
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_2
@@ -15178,10 +15275,9 @@ MIRP[min,black]
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 22
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_1
  5
@@ -15205,20 +15301,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  15
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
  15
 MDAP[rnd]
-PUSHB_1
- 32
-SRP0
-PUSHB_1
+PUSHB_2
  39
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  13
  12
@@ -15274,9 +15368,10 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,37
  540 0 540 0 438 0 c 0,16,17
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: twosuperior
+StartChar: uni00B2
 Encoding: 114 178 116
 Width: 1184
 GlyphClass: 2
@@ -15317,41 +15412,27 @@ SVTCA[x-axis]
 PUSHB_1
  54
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  55
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
- 34
+ 50
  12
 SRP1
 SRP2
-PUSHB_2
- 30
+PUSHB_4
  31
-IP
-IP
-PUSHB_2
- 25
- 36
-SRP1
-SRP2
-PUSHB_2
- 28
  39
-IP
-IP
-PUSHB_1
- 50
-SRP1
-PUSHB_2
  48
  49
-IP
+DEPTH
+SLOOP
 IP
 PUSHB_1
  45
-SRP2
+SRP1
 PUSHB_3
  42
  47
@@ -15418,9 +15499,10 @@ SplineSet
  708 1163 l 1,53,-1
  718 1114 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: threesuperior
+StartChar: uni00B3
 Encoding: 115 179 117
 Width: 1184
 GlyphClass: 2
@@ -15486,52 +15568,37 @@ PUSHB_4
  17
  9
 CALL
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  64
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
+ 27
  33
- 12
 SRP1
 SRP2
-PUSHB_3
- 37
- 39
- 42
-IP
-IP
-IP
-PUSHB_1
- 27
-SRP1
 PUSHB_2
  35
  36
 IP
 IP
-PUSHB_1
- 26
-SRP2
 PUSHB_2
- 45
- 47
-IP
-IP
-PUSHB_1
  59
+ 12
 SRP1
-PUSHB_2
+SRP2
+PUSHB_4
+ 39
+ 47
  56
  57
-IP
+DEPTH
+SLOOP
 IP
 PUSHB_1
  53
-SRP2
+SRP1
 PUSHB_2
  50
  55
@@ -15605,6 +15672,7 @@ SplineSet
  782 1124 l 1,62,-1
  768 1073 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: acute
@@ -15644,65 +15712,67 @@ PUSHB_2
  5
  11
 CALL
+PUSHB_1
+ 7
+SHP[rp2]
 PUSHB_2
  20
  16
 MIRP[min,black]
-PUSHB_1
- 20
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_1
  54
 SMD
 PUSHW_3
- 15593
- -5030
+ 15696
+ -4699
  21
 CALL
 SPVFS
+SFVTCA[y-axis]
 PUSHB_1
- 29
+ 7
 MDAP[no-rnd]
-SFVTPV
-PUSHB_1
- 10
-SRP0
-PUSHB_1
- 29
-SRP0
-PUSHB_2
- 8
- 18
-MIRP[rp0,min,black]
 SFVTCA[x-axis]
 PUSHB_1
- 10
+ 28
+MDAP[no-rnd]
+PUSHB_1
+ 7
 SRP0
 PUSHB_2
- 28
- 18
+ 29
+ 22
 MIRP[rp0,min,black]
-PUSHW_3
- 15648
- -4854
- 21
-CALL
-SFVFS
+SFVTPV
 PUSHB_1
- 8
+ 28
+SRP0
+PUSHB_2
+ 10
+ 22
+MIRP[rp0,min,black]
+PUSHB_1
+ 7
 SRP0
 PUSHB_4
- 9
  8
+ 7
+ 10
+ 19
+CALL
+PUSHB_4
+ 9
+ 7
  10
  19
 CALL
 PUSHB_3
- 9
  8
+ 7
  10
 DUP
 ROLL
@@ -15714,11 +15784,16 @@ SFVTPV
 SRP1
 SRP2
 IP
+PUSHB_1
+ 9
+IP
 SVTCA[y-axis]
-PUSHB_3
+PUSHB_4
  10
+ 7
  8
  9
+MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
@@ -15791,9 +15866,10 @@ SplineSet
  264 180 l 1,30,-1
  416 514 l 1,27,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: mu
+StartChar: uni00B5
 Encoding: 117 181 119
 Width: 1184
 GlyphClass: 2
@@ -15848,10 +15924,9 @@ MIRP[min,black]
 PUSHB_1
  36
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_1
  37
@@ -15863,21 +15938,18 @@ MIRP[min,black]
 PUSHB_1
  26
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_2
  6
  8
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  43
  26
@@ -15951,6 +16023,7 @@ SplineSet
  920 616 l 1,43,-1
  920 1278 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: paragraph
@@ -15991,36 +16064,32 @@ MIRP[min,black]
 PUSHB_1
  0
 SRP0
-PUSHB_3
- 34
+PUSHB_2
  6
- 16
+ 1
 CALL
 PUSHB_5
  9
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  9
 SRP0
-PUSHB_3
- 6
+PUSHB_2
  10
- 16
+ 1
 CALL
 PUSHB_2
  22
  12
 MIRP[min,black]
-PUSHB_1
- 22
-SRP0
-PUSHB_1
+PUSHB_2
  41
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  6
  0
@@ -16083,6 +16152,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,39,-1
  746 1370 l 2,16,17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: periodcentered
@@ -16118,18 +16188,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  21
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  21
  9
@@ -16180,6 +16248,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,25
  540 0 540 0 438 0 c 0,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: cedilla
@@ -16210,9 +16279,9 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  11
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -16229,12 +16298,10 @@ PUSHB_4
  5
  9
 CALL
-PUSHB_1
- 11
-SRP0
-PUSHB_1
+PUSHB_2
  16
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  11
@@ -16267,9 +16334,10 @@ SplineSet
  86 -156 l 1,14,-1
  100 -215 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: onesuperior
+StartChar: uni00B9
 Encoding: 121 185 123
 Width: 1184
 GlyphClass: 2
@@ -16312,12 +16380,10 @@ PUSHB_4
  24
  9
 CALL
-PUSHB_1
- 12
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  1
@@ -16363,6 +16429,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,30,-1
  746 1370 l 2,7,8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ordmasculine
@@ -16420,10 +16487,9 @@ MIRP[min,black]
 PUSHB_1
  32
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_2
  51
@@ -16432,21 +16498,18 @@ MIRP[min,black]
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 44
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_2
  5
  8
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  53
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  44
  32
@@ -16550,6 +16613,7 @@ SplineSet
  823 768 l 1,51,-1
  809 713 l 1,40,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -16573,21 +16637,77 @@ PUSHB_1
  38
 MDAP[rnd]
 PUSHB_1
- 39
+ 1
 MDRP[rp0,rnd,white]
+PUSHB_5
+ 11
+ 17
+ 0
+ 24
+ 4
+CALL
+PUSHB_2
+ 39
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -13070
+ -9880
+ 21
+CALL
+SPVFS
+SFVTCA[y-axis]
+PUSHB_1
+ 1
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 2
+MDRP[grey]
+SFVTCA[y-axis]
+PUSHB_2
+ 11
+ 23
+MIRP[rp0,min,black]
+SFVTPV
+PUSHB_1
+ 10
+MDRP[grey]
+SVTCA[y-axis]
+PUSHB_4
+ 1
+ 2
+ 10
+ 11
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_2
+ 2
+ 10
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
  37
  26
 SRP1
 SRP2
-PUSHB_4
- 2
+PUSHB_3
+ 6
  9
  13
- 6
-DEPTH
-SLOOP
+IP
+IP
 IP
 IUP[y]
 IUP[x]
@@ -16633,6 +16753,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,37,-1
  746 1370 l 2,14,15
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: onequarter
@@ -16682,9 +16803,9 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  45
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
@@ -16704,19 +16825,18 @@ CALL
 PUSHB_1
  45
 SRP0
-PUSHB_3
- 48
+PUSHB_2
  38
- 16
+ 1
 CALL
 PUSHB_1
  42
 SHP[rp2]
 PUSHB_5
  17
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
@@ -16724,20 +16844,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  40
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  40
 MDAP[rnd]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  55
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  0
@@ -16816,6 +16934,7 @@ SplineSet
  717 522 l 1,53,-1
  820 510 l 1,35,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: onehalf
@@ -16837,15 +16956,15 @@ PUSHB_2
  4
 MIRP[min,black]
 PUSHB_1
- 31
+ 32
 SHP[rp2]
 PUSHB_3
- 64
+ 41
  1
  0
 CALL
 PUSHB_2
- 30
+ 33
  2
 MIRP[min,black]
 PUSHB_1
@@ -16855,7 +16974,7 @@ PUSHB_5
  10
  12
  52
- 64
+ 41
  13
 CALL
 PUSHB_2
@@ -16863,19 +16982,16 @@ PUSHB_2
  2
 MIRP[min,black]
 PUSHB_5
- 26
+ 29
  1
  52
- 64
+ 41
  13
 CALL
 PUSHB_2
- 26
+ 29
  2
 MIRP[min,black]
-PUSHB_1
- 29
-SHP[rp2]
 SVTCA[x-axis]
 PUSHB_1
  65
@@ -16885,9 +17001,9 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  46
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -16895,9 +17011,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  8
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
 PUSHB_1
@@ -16920,12 +17036,61 @@ PUSHB_4
  58
  9
 CALL
+PUSHB_2
+ 66
+ 1
+CALL
 PUSHB_1
- 46
+ 54
+SMD
+PUSHW_3
+ 15921
+ -3869
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 32
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 23
 SRP0
 PUSHB_1
- 66
-MDRP[rp0,rnd,white]
+ 32
+SRP0
+PUSHB_2
+ 24
+ 24
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 23
+SRP0
+PUSHB_2
+ 33
+ 24
+MIRP[rp0,min,black]
+SPVTCA[x-axis]
+SVTCA[y-axis]
+PUSHB_2
+ 23
+ 24
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_4
+ 23
+ 24
+ 32
+ 33
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
 PUSHB_2
  16
  8
@@ -16959,20 +17124,19 @@ DEPTH
 SLOOP
 IP
 PUSHB_1
- 26
+ 29
 SRP1
 PUSHB_2
- 24
  25
+ 26
 IP
 IP
 PUSHB_1
- 30
+ 33
 SRP2
-PUSHB_7
+PUSHB_6
  18
  20
- 23
  27
  36
  37
@@ -17052,6 +17216,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,64,-1
  746 1370 l 2,41,42
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: threequarters
@@ -17127,9 +17292,9 @@ PUSHB_1
 SHP[rp2]
 PUSHB_5
  17
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_3
@@ -17143,12 +17308,10 @@ PUSHB_4
  28
  9
 CALL
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  75
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  44
@@ -17281,6 +17444,7 @@ SplineSet
  1006 834 l 1,73,-1
  991 782 l 1,35,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: questiondown
@@ -17366,12 +17530,10 @@ PUSHB_4
  18
  9
 CALL
-PUSHB_1
- 32
-SRP0
-PUSHB_1
+PUSHB_2
  60
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  45
@@ -17467,6 +17629,7 @@ SplineSet
  615 1182 l 1,58,-1
  721 1182 l 1,55,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Agrave
@@ -17480,6 +17643,7 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 193 1270 2
+Validated: 5
 EndChar
 
 StartChar: Aacute
@@ -17493,32 +17657,35 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 371 1270 2
+Validated: 5
 EndChar
 
 StartChar: Acircumflex
 Encoding: 130 194 132
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1311 156<443 524 713 795> 1805 196<574 664>
 VStem: 479 289<1013.25 1159> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 254 1270 2
+Validated: 5
 EndChar
 
 StartChar: Atilde
 Encoding: 131 195 133
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1311 123<385 489.026 573.15 816.284> 1311 190<480.519 619.569> 1594 376<408.618 827.957>
 VStem: 180 205<1435.01 1572.44> 479 289<1013.25 1159> 829 236<1440.51 1592.44> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 184 1311 2
+Validated: 5
 EndChar
 
 StartChar: Adieresis
@@ -17532,19 +17699,21 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 225 1272 2
+Validated: 5
 EndChar
 
 StartChar: Aring
 Encoding: 133 197 135
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1311 135<504 717> 1526 160<527 692.565> 1766 182<507.276 713.857>
 VStem: 479 289<1013.25 1159> 527 168<1540 1671> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 361 730 N 1 0 0 1 236 1311 2
+Validated: 5
 EndChar
 
 StartChar: AE
@@ -17644,16 +17813,15 @@ MIRP[min,black]
 PUSHB_1
  36
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_5
  47
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
@@ -17664,7 +17832,7 @@ PUSHB_1
 SRP0
 PUSHB_2
  37
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  37
@@ -17674,9 +17842,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  42
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
@@ -17688,10 +17856,9 @@ SHP[rp1]
 PUSHB_1
  47
 SRP0
-PUSHB_3
- 43
+PUSHB_2
  25
- 16
+ 1
 CALL
 PUSHB_1
  29
@@ -17715,12 +17882,10 @@ PUSHB_2
  31
 SHP[rp1]
 SHP[rp1]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  50
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  37
  36
@@ -17729,19 +17894,13 @@ SRP2
 PUSHB_1
  35
 IP
-PUSHB_2
- 43
- 42
-SRP1
-SRP2
-PUSHB_1
- 34
-IP
 PUSHB_1
  47
 SRP1
-PUSHB_1
+PUSHB_2
+ 34
  33
+IP
 IP
 SVTCA[y-axis]
 PUSHB_2
@@ -17812,6 +17971,7 @@ SplineSet
  576 696 l 1,48,-1
  383 696 l 1,42,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -17865,24 +18025,21 @@ MIRP[min,black]
 PUSHB_1
  20
 SRP0
-PUSHB_3
- 54
+PUSHB_2
  30
- 16
+ 1
 CALL
 PUSHB_5
  43
- 17
+ 6
  0
  18
  4
 CALL
-PUSHB_1
- 43
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  30
  20
@@ -17999,6 +18156,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,60,-1
  746 1370 l 2,37,38
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Egrave
@@ -18012,6 +18170,7 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 213 1270 2
+Validated: 5
 EndChar
 
 StartChar: Eacute
@@ -18025,19 +18184,21 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 391 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ecircumflex
 Encoding: 138 202 140
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1311 156<463 544 733 815> 1805 196<594 684>
 VStem: -4 406<453 1164.01> 506 682<559 813 918 1164.01>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 274 1270 2
+Validated: 5
 EndChar
 
 StartChar: Edieresis
@@ -18051,6 +18212,7 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 246 1272 2
+Validated: 5
 EndChar
 
 StartChar: Igrave
@@ -18064,6 +18226,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 221 1270 2
+Validated: 5
 EndChar
 
 StartChar: Iacute
@@ -18077,19 +18240,21 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 399 1270 2
+Validated: 5
 EndChar
 
 StartChar: Icircumflex
 Encoding: 142 206 144
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 156<472 553 742 824> 1805 196<603 693>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 283 1270 2
+Validated: 5
 EndChar
 
 StartChar: Idieresis
@@ -18103,6 +18268,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 254 1272 2
+Validated: 5
 EndChar
 
 StartChar: Eth
@@ -18149,10 +18315,9 @@ SHP[rp2]
 PUSHB_1
  9
 SRP0
-PUSHB_3
- 43
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_1
  20
@@ -18164,21 +18329,18 @@ MIRP[min,black]
 PUSHB_1
  25
 SRP0
-PUSHB_3
- 16
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_2
  32
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 32
-SRP0
-PUSHB_1
+PUSHB_2
  51
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  9
  43
@@ -18270,19 +18432,21 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,49,-1
  746 1370 l 2,26,27
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ntilde
 Encoding: 145 209 147
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<398.781 854> 1308 123<365 469.026 553.15 796.284> 1308 190<460.519 599.569> 1591 376<388.618 807.957>
 VStem: -4 326<453 1164.01> 160 205<1432.01 1569.44> 428 397<453 1163> 809 236<1437.51 1589.44> 932 256<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 164 1308 2
+Validated: 5
 EndChar
 
 StartChar: Ograve
@@ -18296,6 +18460,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 207 1270 2
+Validated: 5
 EndChar
 
 StartChar: Oacute
@@ -18309,32 +18474,35 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 385 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ocircumflex
 Encoding: 148 212 150
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 156<457 538 727 809> 1805 196<588 678>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 268 1270 2
+Validated: 5
 EndChar
 
 StartChar: Otilde
 Encoding: 149 213 151
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 123<400 504.026 588.15 831.284> 1311 190<495.519 634.569> 1594 376<423.618 842.957>
 VStem: -4 330<528 1164.01> 195 205<1435.01 1572.44> 430 416<571.656 1163> 844 236<1440.51 1592.44> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 199 1311 2
+Validated: 5
 EndChar
 
 StartChar: Odieresis
@@ -18348,6 +18516,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 240 1272 2
+Validated: 5
 EndChar
 
 StartChar: multiply
@@ -18370,9 +18539,10 @@ SVTCA[x-axis]
 PUSHB_1
  36
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  23
@@ -18425,6 +18595,7 @@ SplineSet
  772 678 l 1,35,-1
  831 739 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -18468,21 +18639,18 @@ MIRP[min,black]
 PUSHB_1
  8
 SRP0
-PUSHB_3
- 49
+PUSHB_2
  15
- 16
+ 1
 CALL
 PUSHB_2
  38
  7
 MIRP[min,black]
-PUSHB_1
- 38
-SRP0
-PUSHB_1
+PUSHB_2
  57
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  15
  8
@@ -18571,6 +18739,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,55,-1
  746 1370 l 2,32,33
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -18584,6 +18753,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 213 1270 2
+Validated: 5
 EndChar
 
 StartChar: Uacute
@@ -18597,19 +18767,21 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 391 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ucircumflex
 Encoding: 155 219 157
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 156<463 544 733 815> 1805 196<594 684>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 274 1270 2
+Validated: 5
 EndChar
 
 StartChar: Udieresis
@@ -18623,6 +18795,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 246 1272 2
+Validated: 5
 EndChar
 
 StartChar: Yacute
@@ -18636,18 +18809,20 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 387 1270 2
+Validated: 5
 EndChar
 
 StartChar: Thorn
 Encoding: 158 222 160
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 791 237<481 809> 1135 235<481 847.485> 1311 59<379.706 481>
 VStem: -4 381<453 1164.01> 481 342<801 1018> 930 258<760 1057>
 LayerCount: 2
 Fore
 Refer: 191 254 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: germandbls
@@ -18695,17 +18870,17 @@ PUSHB_5
  4
 CALL
 PUSHB_5
- 24
- 32
+ 25
+ 30
  60
  71
  13
 CALL
 PUSHB_5
- 24
+ 25
  2
  0
- 19
+ 20
  4
 CALL
 SVTCA[x-axis]
@@ -18722,10 +18897,9 @@ MIRP[min,black]
 PUSHB_1
  17
 SRP0
-PUSHB_3
- 65
+PUSHB_2
  19
- 16
+ 1
 CALL
 PUSHB_1
  22
@@ -18736,9 +18910,9 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  43
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_2
@@ -18752,21 +18926,18 @@ MIRP[min,black]
 PUSHB_1
  27
 SRP0
-PUSHB_3
- 19
+PUSHB_2
  47
- 16
+ 1
 CALL
 PUSHB_2
  54
  7
 MIRP[min,black]
-PUSHB_1
- 54
-SRP0
-PUSHB_1
+PUSHB_2
  73
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  17
@@ -18831,7 +19002,7 @@ PUSHB_1
  0
 IP
 PUSHB_1
- 32
+ 30
 SRP2
 PUSHB_2
  1
@@ -18839,19 +19010,24 @@ PUSHB_2
 IP
 IP
 PUSHB_1
- 24
+ 25
 SRP1
-PUSHB_2
+PUSHB_4
  21
+ 22
+ 26
  8
-IP
+DEPTH
+SLOOP
 IP
 PUSHB_1
  13
 SRP2
-PUSHB_2
+PUSHB_3
  10
  15
+ 23
+IP
 IP
 IP
 IUP[y]
@@ -18927,6 +19103,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,71,-1
  746 1370 l 2,48,49
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: agrave
@@ -18940,6 +19117,7 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 211 1270 2
+Validated: 5
 EndChar
 
 StartChar: aacute
@@ -18953,32 +19131,35 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 389 1270 2
+Validated: 5
 EndChar
 
 StartChar: acircumflex
 Encoding: 162 226 164
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1311 156<461 542 731 813> 1805 196<592 682>
 VStem: -4 299<528 811> 402 370<569 772> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 272 1270 2
+Validated: 5
 EndChar
 
 StartChar: atilde
 Encoding: 163 227 165
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1311 123<404 508.026 592.15 835.284> 1311 190<499.519 638.569> 1594 376<427.618 846.957>
 VStem: -4 299<528 811> 199 205<1435.01 1572.44> 402 370<569 772> 848 236<1440.51 1592.44> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 203 1311 2
+Validated: 5
 EndChar
 
 StartChar: adieresis
@@ -18992,19 +19173,21 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 244 1272 2
+Validated: 5
 EndChar
 
 StartChar: aring
 Encoding: 165 229 167
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1311 135<522 735> 1526 160<545 710.565> 1766 182<525.276 731.857>
 VStem: -4 299<528 811> 402 370<569 772> 545 168<1540 1671> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 361 730 N 1 0 0 1 254 1311 2
+Validated: 5
 EndChar
 
 StartChar: ae
@@ -19017,6 +19200,7 @@ VStem: -4 252<459 588.548> 354 222<459 569.472> 383 193<525.241 590 696 718.168>
 LayerCount: 2
 Fore
 Refer: 136 198 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -19070,24 +19254,21 @@ MIRP[min,black]
 PUSHB_1
  20
 SRP0
-PUSHB_3
- 54
+PUSHB_2
  30
- 16
+ 1
 CALL
 PUSHB_5
  43
- 17
+ 6
  0
  18
  4
 CALL
-PUSHB_1
- 43
-SRP0
-PUSHB_1
+PUSHB_2
  62
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  30
  20
@@ -19204,6 +19385,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,60,-1
  746 1370 l 2,37,38
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: egrave
@@ -19217,6 +19399,7 @@ LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 204 1292 2
+Validated: 5
 EndChar
 
 StartChar: eacute
@@ -19230,19 +19413,21 @@ LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 362 1295 2
+Validated: 5
 EndChar
 
 StartChar: ecircumflex
 Encoding: 170 234 172
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1309 156<418 499 688 770> 1803 196<549 639>
 VStem: -4 307<564.718 1164.01> 410 360<973 1165> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 229 1268 2
+Validated: 5
 EndChar
 
 StartChar: edieresis
@@ -19256,6 +19441,7 @@ LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 189 1278 2
+Validated: 5
 EndChar
 
 StartChar: igrave
@@ -19269,6 +19455,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 215 1270 2
+Validated: 5
 EndChar
 
 StartChar: iacute
@@ -19282,19 +19469,21 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 393 1270 2
+Validated: 5
 EndChar
 
 StartChar: icircumflex
 Encoding: 174 238 176
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 156<465 546 735 817> 1805 196<596 686>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 276 1270 2
+Validated: 5
 EndChar
 
 StartChar: idieresis
@@ -19308,6 +19497,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 248 1272 2
+Validated: 5
 EndChar
 
 StartChar: eth
@@ -19320,19 +19510,21 @@ VStem: -4 332<453 842 907 1164.01> 432 416<569 842 907 1163> 954 234<528 1164.01
 LayerCount: 2
 Fore
 Refer: 146 208 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ntilde
 Encoding: 177 241 179
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<398.781 854> 1314 123<363 467.026 551.15 794.284> 1314 190<458.519 597.569> 1597 376<386.618 805.957>
 VStem: -4 326<453 1164.01> 158 205<1438.01 1575.44> 428 397<453 1163> 807 236<1443.51 1595.44> 932 256<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 162 1314 2
+Validated: 5
 EndChar
 
 StartChar: oacute
@@ -19346,32 +19538,35 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 365 1278 2
+Validated: 5
 EndChar
 
 StartChar: ocircumflex
 Encoding: 179 244 181
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1306 156<462 543 732 814> 1800 196<593 683>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 273 1265 2
+Validated: 5
 EndChar
 
 StartChar: otilde
 Encoding: 180 245 182
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1305 123<392 496.026 580.15 823.284> 1305 190<487.519 626.569> 1588 376<415.618 834.957>
 VStem: -4 330<528 1164.01> 187 205<1429.01 1566.44> 430 416<571.656 1163> 836 236<1434.51 1586.44> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 191 1305 2
+Validated: 5
 EndChar
 
 StartChar: odieresis
@@ -19385,6 +19580,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 246 1262 2
+Validated: 5
 EndChar
 
 StartChar: divide
@@ -19440,18 +19636,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  29
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  29
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 29
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  29
  17
@@ -19469,7 +19663,7 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 2
+ 7
  12
 SRP1
 SRP2
@@ -19517,6 +19711,7 @@ SplineSet
  703 60 703 60 621.5 30 c 128,-1,33
  540 0 540 0 438 0 c 0,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oslash
@@ -19529,6 +19724,7 @@ VStem: -4 317<534 1164.01> 941 247<534 1164.01>
 LayerCount: 2
 Fore
 Refer: 154 216 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -19542,6 +19738,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 215 1270 2
+Validated: 5
 EndChar
 
 StartChar: uacute
@@ -19555,19 +19752,21 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 393 1270 2
+Validated: 5
 EndChar
 
 StartChar: ucircumflex
 Encoding: 186 251 188
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 156<465 546 735 817> 1805 196<596 686>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 276 1270 2
+Validated: 5
 EndChar
 
 StartChar: udieresis
@@ -19581,6 +19780,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 248 1272 2
+Validated: 5
 EndChar
 
 StartChar: yacute
@@ -19594,6 +19794,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 387 1270 2
+Validated: 5
 EndChar
 
 StartChar: thorn
@@ -19656,10 +19857,9 @@ MIRP[min,black]
 PUSHB_1
  7
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_2
  4
@@ -19673,21 +19873,18 @@ MIRP[min,black]
 PUSHB_1
  21
 SRP0
-PUSHB_3
- 16
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_2
  27
  8
 MIRP[min,black]
-PUSHB_1
- 27
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  13
  21
@@ -19769,6 +19966,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,45,-1
  746 1370 l 2,22,23
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ydieresis
@@ -19782,6 +19980,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 242 1272 2
+Validated: 5
 EndChar
 
 StartChar: Amacron
@@ -19795,6 +19994,7 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 184 1270 2
+Validated: 5
 EndChar
 
 StartChar: amacron
@@ -19808,32 +20008,35 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 203 1270 2
+Validated: 5
 EndChar
 
 StartChar: Abreve
 Encoding: 193 258 195
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1311 129<510 737> 1610 299<441.567 530 719 808.041>
 VStem: 479 289<1013.25 1159> 540 168<1544 1610> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 184 1311 2
+Validated: 5
 EndChar
 
 StartChar: abreve
 Encoding: 194 259 196
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1311 129<529 756> 1610 299<460.567 549 738 827.041>
 VStem: -4 299<528 811> 402 370<569 772> 559 168<1544 1610> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 203 1311 2
+Validated: 5
 EndChar
 
 StartChar: Aogonek
@@ -19888,12 +20091,10 @@ PUSHB_2
  52
  9
 MIRP[min,black]
-PUSHB_1
- 52
-SRP0
-PUSHB_1
+PUSHB_2
  63
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  52
  57
@@ -19999,6 +20200,7 @@ SplineSet
  674 1174 l 1,61,-1
  768 1159 l 1,52,53
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: aogonek
@@ -20059,10 +20261,9 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
- 69
+PUSHB_2
  45
- 16
+ 1
 CALL
 PUSHB_2
  51
@@ -20074,10 +20275,9 @@ SHP[rp2]
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 45
+PUSHB_2
  40
- 16
+ 1
 CALL
 PUSHB_2
  58
@@ -20088,20 +20288,18 @@ PUSHB_1
 SRP0
 PUSHB_5
  37
- 6
+ 17
  0
- 30
+ 42
  4
 CALL
 PUSHB_1
  37
 MDAP[rnd]
-PUSHB_1
- 58
-SRP0
-PUSHB_1
+PUSHB_2
  77
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  45
  29
@@ -20115,25 +20313,14 @@ PUSHB_4
 DEPTH
 SLOOP
 IP
-PUSHB_1
- 51
-SRP1
-PUSHB_6
- 6
- 9
- 16
- 21
- 25
- 34
-DEPTH
-SLOOP
-IP
-PUSHB_1
+PUSHB_2
  40
+ 69
+SRP1
 SRP2
 PUSHB_4
- 14
- 35
+ 9
+ 6
  36
  39
 DEPTH
@@ -20141,45 +20328,30 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
+ 48
  43
+SRP1
+SRP2
+PUSHB_1
+ 39
+IP
+PUSHB_2
+ 19
  64
 SRP1
 SRP2
-PUSHB_6
+PUSHB_5
  2
- 30
- 32
- 35
+ 18
  9
- 37
+ 23
+ 32
 DEPTH
 SLOOP
 IP
 PUSHB_1
- 48
-SRP1
-PUSHB_1
- 39
-IP
-PUSHB_1
- 25
-SRP2
-PUSHB_2
- 23
- 27
-IP
-IP
-PUSHB_1
- 19
-SRP1
-PUSHB_2
- 18
- 21
-IP
-IP
-PUSHB_1
  16
-SRP2
+SRP1
 PUSHB_1
  13
 IP
@@ -20266,6 +20438,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,75,-1
  746 1370 l 2,52,53
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Cacute
@@ -20279,6 +20452,7 @@ LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 399 1270 2
+Validated: 5
 EndChar
 
 StartChar: cacute
@@ -20292,97 +20466,105 @@ LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 391 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ccircumflex
 Encoding: 199 264 201
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1311 156<447 528 717 799> 1805 196<578 668>
 VStem: -4 315<531.718 1164.01> 418 770<575 1157.79>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 258 1270 2
+Validated: 5
 EndChar
 
 StartChar: ccircumflex
 Encoding: 200 265 202
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1311 156<443 524 713 795> 1805 196<574 664>
 VStem: -4 315<531.718 1164.01> 418 770<575 1157.79>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 254 1270 2
+Validated: 5
 EndChar
 
 StartChar: Cdotaccent
 Encoding: 201 266 203
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1290 172<506 637> 1591 279<507.808 636.748>
 VStem: -4 315<531.718 1164.01> 133 373<1462.22 1590.94> 418 770<575 1157.79> 637 381<1463.13 1590.94>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 137 1272 2
+Validated: 5
 EndChar
 
 StartChar: cdotaccent
 Encoding: 202 267 204
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1290 172<525 656> 1591 279<526.808 655.748>
 VStem: -4 315<531.718 1164.01> 152 373<1462.22 1590.94> 418 770<575 1157.79> 656 381<1463.13 1590.94>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 156 1272 2
+Validated: 5
 EndChar
 
 StartChar: Ccaron
 Encoding: 203 268 205
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1311 115<535 625> 1764 178<405.426 485 674 754.508>
 VStem: -4 315<531.718 1164.01> 418 770<575 1157.79>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 215 1270 2
+Validated: 5
 EndChar
 
 StartChar: ccaron
 Encoding: 204 269 206
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<391 847.95> 1280 90<389 847.95> 1311 115<553 643> 1764 178<423.426 503 692 772.508>
 VStem: -4 315<531.718 1164.01> 418 770<575 1157.79>
 LayerCount: 2
 Fore
 Refer: 70 99 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 233 1270 2
+Validated: 5
 EndChar
 
 StartChar: Dcaron
 Encoding: 205 270 207
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<330.387 877> 559 615<432 834> 1280 90<330.387 877> 1337 115<547 637> 1790 178<417.426 497 686 766.508>
 VStem: -4 332<453 1164.01> 432 416<569 1163> 954 234<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 39 68 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1296 2
+Validated: 5
 EndChar
 
 StartChar: dcaron
@@ -20429,10 +20611,9 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  36
- 16
+ 1
 CALL
 PUSHB_2
  41
@@ -20441,10 +20622,9 @@ MIRP[min,black]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 36
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_2
  6
@@ -20452,27 +20632,15 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  46
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  50
-MDRP[rp0,rnd,white]
-PUSHB_2
- 33
- 41
-SRP1
-SRP2
-PUSHB_2
- 31
- 26
-IP
-IP
+ 1
+CALL
 PUSHB_2
  6
  46
@@ -20550,6 +20718,7 @@ SplineSet
  877 1051 l 1,48,-1
  940 1022 l 1,42,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Dcroat
@@ -20629,18 +20798,17 @@ PUSHB_1
 SHP[rp2]
 PUSHB_5
  7
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_1
  9
 SRP0
-PUSHB_3
- 43
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_1
  20
@@ -20652,24 +20820,21 @@ MIRP[min,black]
 PUSHB_1
  25
 SRP0
-PUSHB_3
- 16
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_2
  32
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 32
-SRP0
-PUSHB_1
+PUSHB_2
  51
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  25
- 16
+ 43
 SRP1
 SRP2
 PUSHB_1
@@ -20768,6 +20933,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,49,-1
  746 1370 l 2,26,27
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dcroat
@@ -20780,6 +20946,7 @@ VStem: -4 207<846 954> -4 332<453 846 954 1164.01> 432 416<569 846 954 1163> 954
 LayerCount: 2
 Fore
 Refer: 209 272 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Emacron
@@ -20793,6 +20960,7 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 205 1270 2
+Validated: 5
 EndChar
 
 StartChar: emacron
@@ -20806,58 +20974,63 @@ LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 154 1255 2
+Validated: 5
 EndChar
 
 StartChar: Ebreve
 Encoding: 211 276 213
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1311 129<531 758> 1610 299<462.567 551 740 829.041>
 VStem: -4 406<453 1164.01> 506 682<559 813 918 1164.01> 561 168<1544 1610>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 205 1311 2
+Validated: 5
 EndChar
 
 StartChar: ebreve
 Encoding: 212 277 214
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1300 129<480 707> 1599 299<411.567 500 689 778.041>
 VStem: -4 307<564.718 1164.01> 410 360<973 1165> 510 168<1533 1599> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 154 1300 2
+Validated: 5
 EndChar
 
 StartChar: Edotaccent
 Encoding: 213 278 215
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1331 172<574 705> 1632 279<575.808 704.748>
 VStem: -4 406<453 1164.01> 201 373<1503.22 1631.94> 506 682<559 813 918 1164.01> 705 381<1504.13 1631.94>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 205 1313 2
+Validated: 5
 EndChar
 
 StartChar: edotaccent
 Encoding: 214 279 216
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1318 172<523 654> 1619 279<524.808 653.748>
 VStem: -4 307<564.718 1164.01> 150 373<1490.22 1618.94> 410 360<973 1165> 654 381<1491.13 1618.94> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 154 1300 2
+Validated: 5
 EndChar
 
 StartChar: Eogonek
@@ -20929,10 +21102,9 @@ MIRP[min,black]
 PUSHB_1
  22
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_1
  17
@@ -20944,12 +21116,10 @@ PUSHB_5
  9
  4
 CALL
-PUSHB_1
- 30
-SRP0
-PUSHB_1
+PUSHB_2
  49
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  30
  13
@@ -20968,20 +21138,14 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
+ 13
  22
- 36
 SRP1
 SRP2
 PUSHB_2
- 2
- 9
-IP
-IP
-PUSHB_1
- 13
-SRP1
-PUSHB_1
  3
+ 2
+IP
 IP
 IUP[y]
 IUP[x]
@@ -21037,6 +21201,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,47,-1
  746 1370 l 2,24,25
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: eogonek
@@ -21069,6 +21234,9 @@ PUSHB_2
  40
  2
 MIRP[min,black]
+PUSHB_1
+ 24
+MDAP[rnd]
 PUSHB_5
  55
  52
@@ -21111,10 +21279,9 @@ MIRP[min,black]
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  57
- 16
+ 1
 CALL
 PUSHB_1
  54
@@ -21126,24 +21293,18 @@ MIRP[min,black]
 PUSHB_1
  64
 SRP0
-PUSHB_6
- 44
- 57
- 64
+PUSHB_2
  56
- 0
- 15
+ 1
 CALL
 PUSHB_2
  17
  9
 MIRP[min,black]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  66
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  57
  44
@@ -21277,113 +21438,122 @@ SplineSet
  770 973 l 1,64,-1
  410 973 l 1,57,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Ecaron
 Encoding: 217 282 219
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1311 115<603 693> 1764 178<473.426 553 742 822.508>
 VStem: -4 406<453 1164.01> 506 682<559 813 918 1164.01>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 283 1270 2
+Validated: 5
 EndChar
 
 StartChar: ecaron
 Encoding: 218 283 220
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1317 115<547 637> 1770 178<417.426 497 686 766.508>
 VStem: -4 307<564.718 1164.01> 410 360<973 1165> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1276 2
+Validated: 5
 EndChar
 
 StartChar: Gcircumflex
 Encoding: 219 284 221
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1305 156<437 518 707 789> 1799 196<568 658>
 VStem: -4 346<528 1164.01> 449 213<770 877> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 248 1264 2
+Validated: 5
 EndChar
 
 StartChar: gcircumflex
 Encoding: 220 285 222
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1303 156<437 518 707 789> 1797 196<568 658>
 VStem: -4 346<528 1164.01> 449 213<770 877> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 248 1262 2
+Validated: 5
 EndChar
 
 StartChar: Gbreve
 Encoding: 221 286 223
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1313 129<500 727> 1612 299<431.567 520 709 798.041>
 VStem: -4 346<528 1164.01> 449 213<770 877> 530 168<1546 1612> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 174 1313 2
+Validated: 5
 EndChar
 
 StartChar: gbreve
 Encoding: 222 287 224
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1309 129<480 707> 1608 299<411.567 500 689 778.041>
 VStem: -4 346<528 1164.01> 449 213<770 877> 510 168<1542 1608> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 154 1309 2
+Validated: 5
 EndChar
 
 StartChar: Gdotaccent
 Encoding: 223 288 225
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1321 172<523 654> 1622 279<524.808 653.748>
 VStem: -4 346<528 1164.01> 150 373<1493.22 1621.94> 449 213<770 877> 654 381<1494.13 1621.94> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 154 1303 2
+Validated: 5
 EndChar
 
 StartChar: gdotaccent
 Encoding: 224 289 226
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<422 873> 559 211<662 839.776> 877 299<662 870.859> 1280 90<430.608 905.562> 1329 172<523 654> 1630 279<524.808 653.748>
 VStem: -4 346<528 1164.01> 150 373<1501.22 1629.94> 449 213<770 877> 654 381<1502.13 1629.94> 952 236<528 877>
 LayerCount: 2
 Fore
 Refer: 42 71 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 154 1311 2
+Validated: 5
 EndChar
 
-StartChar: uni0122
+StartChar: Gcommaaccent
 Encoding: 225 290 227
 Width: 1184
 GlyphClass: 2
@@ -21462,14 +21632,13 @@ MIRP[min,black]
 PUSHB_1
  16
 SRP0
-PUSHB_3
- 59
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_2
  26
- 6
+ 17
 MIRP[min,black]
 PUSHB_3
  26
@@ -21485,21 +21654,18 @@ CALL
 PUSHB_1
  26
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  23
- 16
+ 1
 CALL
 PUSHB_2
  48
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 48
-SRP0
-PUSHB_1
+PUSHB_2
  67
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  39
  16
@@ -21539,16 +21705,8 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 3
- 54
-SRP1
-SRP2
-PUSHB_1
- 0
-IP
-PUSHB_2
  32
- 19
+ 3
 SRP1
 SRP2
 PUSHB_3
@@ -21652,9 +21810,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,65,-1
  746 1370 l 2,42,43
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0123
+StartChar: gcommaaccent
 Encoding: 226 291 228
 Width: 1184
 GlyphClass: 2
@@ -21733,14 +21892,13 @@ MIRP[min,black]
 PUSHB_1
  16
 SRP0
-PUSHB_3
- 59
+PUSHB_2
  39
- 16
+ 1
 CALL
 PUSHB_2
  26
- 6
+ 17
 MIRP[min,black]
 PUSHB_3
  26
@@ -21756,21 +21914,18 @@ CALL
 PUSHB_1
  26
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  23
- 16
+ 1
 CALL
 PUSHB_2
  48
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 48
-SRP0
-PUSHB_1
+PUSHB_2
  67
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  39
  16
@@ -21810,16 +21965,8 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 3
- 54
-SRP1
-SRP2
-PUSHB_1
- 0
-IP
-PUSHB_2
  32
- 19
+ 3
 SRP1
 SRP2
 PUSHB_3
@@ -21923,32 +22070,35 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,65,-1
  746 1370 l 2,42,43
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Hcircumflex
 Encoding: 227 292 229
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<330.387 434 850 951.578> 1305 156<441 522 711 793> 1799 196<572 662>
 VStem: -4 332<453 1164.01> 434 416<453 825 930 1280> 954 234<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 43 72 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 252 1264 2
+Validated: 5
 EndChar
 
 StartChar: hcircumflex
 Encoding: 228 293 230
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<330.387 434 850 951.578> 1317 156<449 530 719 801> 1811 196<580 670>
 VStem: -4 332<453 1164.01> 434 416<453 825 930 1280> 954 234<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 43 72 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 260 1276 2
+Validated: 5
 EndChar
 
 StartChar: Hbar
@@ -21962,6 +22112,7 @@ LayerCount: 2
 Fore
 Refer: 43 72 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 174 1313 2
+Validated: 5
 EndChar
 
 StartChar: hbar
@@ -22036,10 +22187,9 @@ SHP[rp2]
 PUSHB_1
  14
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  15
- 16
+ 1
 CALL
 PUSHB_2
  7
@@ -22058,39 +22208,36 @@ SHP[rp2]
 PUSHB_1
  18
 SRP0
-PUSHB_3
- 15
+PUSHB_2
  19
- 16
+ 1
 CALL
 PUSHB_1
  3
 SHP[rp2]
 PUSHB_2
  30
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  30
 SRP0
 PUSHB_5
  1
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  1
 MDAP[rnd]
-PUSHB_1
- 30
-SRP0
-PUSHB_1
- 49
-MDRP[rp0,rnd,white]
 PUSHB_2
- 14
+ 49
+ 1
+CALL
+PUSHB_2
+ 19
  41
 SRP1
 SRP2
@@ -22165,32 +22312,35 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,47,-1
  746 1370 l 2,24,25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Itilde
 Encoding: 231 296 233
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 123<414 518.026 602.15 845.284> 1311 190<509.519 648.569> 1594 376<437.618 856.957>
 VStem: -4 598<559 1164.01> 209 205<1435.01 1572.44> 701 487<559 1164.01> 858 236<1440.51 1592.44>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 213 1311 2
+Validated: 5
 EndChar
 
 StartChar: itilde
 Encoding: 232 297 234
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 123<408 512.026 596.15 839.284> 1311 190<503.519 642.569> 1594 376<431.618 850.957>
 VStem: -4 598<559 1164.01> 203 205<1435.01 1572.44> 701 487<559 1164.01> 852 236<1440.51 1592.44>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 207 1311 2
+Validated: 5
 EndChar
 
 StartChar: Imacron
@@ -22204,6 +22354,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 200 1294 2
+Validated: 5
 EndChar
 
 StartChar: imacron
@@ -22217,32 +22368,35 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 196 1295 2
+Validated: 5
 EndChar
 
 StartChar: Ibreve
 Encoding: 235 300 237
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 129<539 766> 1610 299<470.567 559 748 837.041>
 VStem: -4 598<559 1164.01> 569 168<1544 1610> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 213 1311 2
+Validated: 5
 EndChar
 
 StartChar: ibreve
 Encoding: 236 301 238
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 129<533 760> 1610 299<464.567 553 742 831.041>
 VStem: -4 598<559 1164.01> 563 168<1544 1610> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 207 1311 2
+Validated: 5
 EndChar
 
 StartChar: Iogonek
@@ -22306,21 +22460,18 @@ MIRP[min,black]
 PUSHB_1
  23
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_2
  30
  15
 MIRP[min,black]
-PUSHB_1
- 30
-SRP0
-PUSHB_1
+PUSHB_2
  49
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  23
  41
@@ -22418,6 +22569,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,47,-1
  746 1370 l 2,24,25
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: iogonek
@@ -22481,21 +22633,18 @@ MIRP[min,black]
 PUSHB_1
  23
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  16
- 16
+ 1
 CALL
 PUSHB_2
  30
  15
 MIRP[min,black]
-PUSHB_1
- 30
-SRP0
-PUSHB_1
+PUSHB_2
  49
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  23
  41
@@ -22593,19 +22742,21 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,47,-1
  746 1370 l 2,24,25
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Idotaccent
 Encoding: 239 304 241
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1304 172<544 675> 1605 279<545.808 674.748>
 VStem: -4 598<559 1164.01> 171 373<1476.22 1604.94> 675 381<1477.13 1604.94> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 175 1286 2
+Validated: 5
 EndChar
 
 StartChar: dotlessi
@@ -22669,21 +22820,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_2
  18
  15
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  29
@@ -22750,6 +22898,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: IJ
@@ -22798,9 +22947,9 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  1
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
@@ -22809,10 +22958,9 @@ SHP[rp2]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_2
  37
@@ -22829,40 +22977,29 @@ PUSHB_1
 SHP[rp1]
 PUSHB_5
  41
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 4
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_5
  18
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
-PUSHB_1
- 18
-SRP0
-PUSHB_1
- 47
-MDRP[rp0,rnd,white]
 PUSHB_2
- 44
- 37
-SRP1
-SRP2
-PUSHB_1
- 43
-IP
+ 47
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -22916,6 +23053,7 @@ SplineSet
  991 1280 l 1,45,-1
  887 1280 l 1,36,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ij
@@ -22964,9 +23102,9 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  1
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
@@ -22975,10 +23113,9 @@ SHP[rp2]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_2
  37
@@ -22995,40 +23132,29 @@ PUSHB_1
 SHP[rp1]
 PUSHB_5
  41
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 4
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_5
  18
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
-PUSHB_1
- 18
-SRP0
-PUSHB_1
- 47
-MDRP[rp0,rnd,white]
 PUSHB_2
- 44
- 37
-SRP1
-SRP2
-PUSHB_1
- 43
-IP
+ 47
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -23082,35 +23208,38 @@ SplineSet
  991 1280 l 1,45,-1
  887 1280 l 1,36,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Jcircumflex
 Encoding: 243 308 245
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<682 786.247> 1305 156<457 538 727 809> 1799 196<588 678>
 VStem: -4 686<571 1164.01> 787 401<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 45 74 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 268 1264 2
+Validated: 5
 EndChar
 
 StartChar: jcircumflex
 Encoding: 244 309 246
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<682 786.247> 1315 156<457 538 727 809> 1809 196<588 678>
 VStem: -4 686<571 1164.01> 787 401<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 45 74 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 268 1274 2
+Validated: 5
 EndChar
 
-StartChar: uni0136
+StartChar: Kcommaaccent
 Encoding: 245 310 247
 Width: 1184
 GlyphClass: 2
@@ -23153,12 +23282,10 @@ PUSHB_4
  27
  9
 CALL
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  46
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  12
@@ -23230,9 +23357,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,44,-1
  746 1370 l 2,21,22
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0137
+StartChar: kcommaaccent
 Encoding: 246 311 248
 Width: 1184
 GlyphClass: 2
@@ -23275,12 +23403,10 @@ PUSHB_4
  27
  9
 CALL
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  46
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  12
@@ -23352,6 +23478,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,44,-1
  746 1370 l 2,21,22
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: kgreenlandic
@@ -23364,6 +23491,7 @@ VStem: -4 412<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 46 75 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Lacute
@@ -23377,6 +23505,7 @@ LayerCount: 2
 Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 276 1296 2
+Validated: 5
 EndChar
 
 StartChar: lacute
@@ -23390,9 +23519,10 @@ LayerCount: 2
 Fore
 Refer: 47 76 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 276 1296 2
+Validated: 5
 EndChar
 
-StartChar: uni013B
+StartChar: Lcommaaccent
 Encoding: 250 315 252
 Width: 1184
 GlyphClass: 2
@@ -23437,21 +23567,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  8
- 16
+ 1
 CALL
 PUSHB_2
  19
  16
 MIRP[min,black]
-PUSHB_1
- 19
-SRP0
-PUSHB_1
+PUSHB_2
  38
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  8
@@ -23517,9 +23644,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,36,-1
  746 1370 l 2,13,14
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni013C
+StartChar: lcommaaccent
 Encoding: 251 316 253
 Width: 1184
 GlyphClass: 2
@@ -23564,21 +23692,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  8
- 16
+ 1
 CALL
 PUSHB_2
  19
  16
 MIRP[min,black]
-PUSHB_1
- 19
-SRP0
-PUSHB_1
+PUSHB_2
  38
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  8
@@ -23644,6 +23769,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,36,-1
  746 1370 l 2,13,14
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lcaron
@@ -23690,10 +23816,9 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  8
- 16
+ 1
 CALL
 PUSHB_2
  19
@@ -23701,17 +23826,15 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  4
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
-PUSHB_1
- 19
-SRP0
-PUSHB_1
+PUSHB_2
  38
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  4
@@ -23776,6 +23899,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,36,-1
  746 1370 l 2,13,14
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lcaron
@@ -23822,10 +23946,9 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  8
- 16
+ 1
 CALL
 PUSHB_2
  19
@@ -23833,17 +23956,15 @@ PUSHB_2
 MIRP[min,black]
 PUSHB_5
  4
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
-PUSHB_1
- 19
-SRP0
-PUSHB_1
+PUSHB_2
  38
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  19
  4
@@ -23908,6 +24029,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,36,-1
  746 1370 l 2,13,14
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ldot
@@ -23951,16 +24073,15 @@ MIRP[min,black]
 PUSHB_1
  8
 SRP0
-PUSHB_3
- 27
+PUSHB_2
  5
- 16
+ 1
 CALL
 PUSHB_5
  3
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_3
@@ -23974,12 +24095,10 @@ PUSHB_4
  16
  9
 CALL
-PUSHB_1
- 3
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  7
@@ -24031,6 +24150,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,33,-1
  746 1370 l 2,10,11
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ldot
@@ -24074,16 +24194,15 @@ MIRP[min,black]
 PUSHB_1
  8
 SRP0
-PUSHB_3
- 27
+PUSHB_2
  5
- 16
+ 1
 CALL
 PUSHB_5
  3
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_3
@@ -24097,12 +24216,10 @@ PUSHB_4
  16
  9
 CALL
-PUSHB_1
- 3
-SRP0
-PUSHB_1
+PUSHB_2
  35
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  7
@@ -24154,6 +24271,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,33,-1
  746 1370 l 2,10,11
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Lslash
@@ -24200,10 +24318,9 @@ SHP[rp2]
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 31
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_1
  5
@@ -24212,12 +24329,10 @@ PUSHB_2
  20
  16
 MIRP[min,black]
-PUSHB_1
- 20
-SRP0
-PUSHB_1
+PUSHB_2
  39
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  12
  31
@@ -24282,6 +24397,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,37,-1
  746 1370 l 2,14,15
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lslash
@@ -24294,6 +24410,7 @@ VStem: -4 453<453 782 909 1164.01> 555 633<559 895 989 1164.01>
 LayerCount: 2
 Fore
 Refer: 258 321 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Nacute
@@ -24307,6 +24424,7 @@ LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 362 1286 2
+Validated: 5
 EndChar
 
 StartChar: nacute
@@ -24320,9 +24438,10 @@ LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 362 1286 2
+Validated: 5
 EndChar
 
-StartChar: uni0145
+StartChar: Ncommaaccent
 Encoding: 260 325 262
 Width: 1184
 GlyphClass: 2
@@ -24357,10 +24476,9 @@ MIRP[min,black]
 PUSHB_1
  13
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  14
- 16
+ 1
 CALL
 PUSHB_2
  20
@@ -24369,21 +24487,18 @@ MIRP[min,black]
 PUSHB_1
  20
 SRP0
-PUSHB_3
- 14
+PUSHB_2
  21
- 16
+ 1
 CALL
 PUSHB_2
  28
  8
 MIRP[min,black]
-PUSHB_1
- 28
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  20
  14
@@ -24467,9 +24582,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,45,-1
  746 1370 l 2,22,23
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0146
+StartChar: ncommaaccent
 Encoding: 261 326 263
 Width: 1184
 GlyphClass: 2
@@ -24504,10 +24620,9 @@ MIRP[min,black]
 PUSHB_1
  13
 SRP0
-PUSHB_3
- 39
+PUSHB_2
  14
- 16
+ 1
 CALL
 PUSHB_2
  20
@@ -24516,21 +24631,18 @@ MIRP[min,black]
 PUSHB_1
  20
 SRP0
-PUSHB_3
- 14
+PUSHB_2
  21
- 16
+ 1
 CALL
 PUSHB_2
  28
  8
 MIRP[min,black]
-PUSHB_1
- 28
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  20
  14
@@ -24614,32 +24726,35 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,45,-1
  746 1370 l 2,22,23
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ncaron
 Encoding: 262 327 264
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<398.781 854> 1301 115<547 637> 1754 178<417.426 497 686 766.508>
 VStem: -4 326<453 1164.01> 428 397<453 1163> 932 256<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1260 2
+Validated: 5
 EndChar
 
 StartChar: ncaron
 Encoding: 263 328 265
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<398.781 854> 1301 115<547 637> 1754 178<417.426 497 686 766.508>
 VStem: -4 326<453 1164.01> 428 397<453 1163> 932 256<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 81 110 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1260 2
+Validated: 5
 EndChar
 
 StartChar: napostrophe
@@ -24672,33 +24787,31 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  4
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  4
 SRP0
-PUSHB_3
- 40
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_5
  12
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 1
+PUSHB_2
  14
- 16
+ 1
 CALL
 PUSHB_2
  20
@@ -24707,21 +24820,18 @@ MIRP[min,black]
 PUSHB_1
  20
 SRP0
-PUSHB_3
- 14
+PUSHB_2
  21
- 16
+ 1
 CALL
 PUSHB_2
  28
  8
 MIRP[min,black]
-PUSHB_1
- 28
-SRP0
-PUSHB_1
+PUSHB_2
  47
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  20
  14
@@ -24801,6 +24911,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,45,-1
  746 1370 l 2,22,23
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eng
@@ -24858,10 +24969,9 @@ MIRP[min,black]
 PUSHB_1
  5
 SRP0
-PUSHB_3
- 38
+PUSHB_2
  6
- 16
+ 1
 CALL
 PUSHB_2
  12
@@ -24870,21 +24980,18 @@ MIRP[min,black]
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 6
+PUSHB_2
  19
- 16
+ 1
 CALL
 PUSHB_2
  27
  8
 MIRP[min,black]
-PUSHB_1
- 27
-SRP0
-PUSHB_1
+PUSHB_2
  46
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  12
  6
@@ -24964,6 +25071,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,44,-1
  746 1370 l 2,21,22
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eng
@@ -24976,6 +25084,7 @@ VStem: -4 326<453 1164.01> 428 397<453 1163> 932 256<236 1164.01>
 LayerCount: 2
 Fore
 Refer: 267 330 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Omacron
@@ -24989,6 +25098,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 199 1305 2
+Validated: 5
 EndChar
 
 StartChar: omacron
@@ -25002,58 +25112,63 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 199 1305 2
+Validated: 5
 EndChar
 
 StartChar: Obreve
 Encoding: 269 334 271
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 129<525 752> 1610 299<456.567 545 734 823.041>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 555 168<1544 1610> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 199 1311 2
+Validated: 5
 EndChar
 
 StartChar: obreve
 Encoding: 270 335 272
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 129<525 752> 1610 299<456.567 545 734 823.041>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 555 168<1544 1610> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 199 1311 2
+Validated: 5
 EndChar
 
 StartChar: Ohungarumlaut
 Encoding: 271 336 273
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 135<513 564 744 795> 1780 197<693 785 924 1016>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 364 733 N 1 0 0 1 324 1270 2
+Validated: 5
 EndChar
 
 StartChar: ohungarumlaut
 Encoding: 272 337 274
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 135<513 564 744 795> 1780 197<693 785 924 1016>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 364 733 N 1 0 0 1 324 1270 2
+Validated: 5
 EndChar
 
 StartChar: OE
@@ -25132,15 +25247,14 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  17
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  30
- 16
+ 1
 CALL
 PUSHB_2
  37
@@ -25149,10 +25263,9 @@ MIRP[min,black]
 PUSHB_1
  37
 SRP0
-PUSHB_3
- 30
+PUSHB_2
  5
- 16
+ 1
 CALL
 PUSHB_1
  1
@@ -25166,9 +25279,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  25
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
@@ -25177,12 +25290,10 @@ MDAP[rnd]
 PUSHB_1
  7
 SHP[rp1]
-PUSHB_1
- 43
-SRP0
-PUSHB_1
+PUSHB_2
  63
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  30
  17
@@ -25193,23 +25304,17 @@ PUSHB_2
  19
 IP
 IP
-PUSHB_1
- 37
-SRP1
-PUSHB_1
- 13
-IP
-PUSHB_1
+PUSHB_2
  5
+ 55
+SRP1
 SRP2
-PUSHB_5
+PUSHB_3
  9
- 11
- 22
  23
  24
-DEPTH
-SLOOP
+IP
+IP
 IP
 PUSHB_1
  25
@@ -25322,6 +25427,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,61,-1
  746 1370 l 2,38,39
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: oe
@@ -25334,6 +25440,7 @@ VStem: -4 231<528 1164.01> 332 260<569 1163> 696 492<559 813 918 1164.01> 983 20
 LayerCount: 2
 Fore
 Refer: 275 338 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Racute
@@ -25347,6 +25454,7 @@ LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 362 1274 2
+Validated: 5
 EndChar
 
 StartChar: racute
@@ -25360,9 +25468,10 @@ LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 362 1274 2
+Validated: 5
 EndChar
 
-StartChar: uni0156
+StartChar: Rcommaaccent
 Encoding: 277 342 279
 Width: 1184
 GlyphClass: 2
@@ -25407,10 +25516,9 @@ MIRP[min,black]
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  46
- 16
+ 1
 CALL
 PUSHB_1
  55
@@ -25425,10 +25533,9 @@ SHP[rp2]
 PUSHB_1
  48
 SRP0
-PUSHB_3
- 46
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_1
  38
@@ -25437,12 +25544,10 @@ PUSHB_2
  13
  9
 MIRP[min,black]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  58
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  48
  46
@@ -25560,9 +25665,10 @@ SplineSet
  451 1174 l 1,56,-1
  711 1174 l 1,49,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0157
+StartChar: rcommaaccent
 Encoding: 278 343 280
 Width: 1184
 GlyphClass: 2
@@ -25607,10 +25713,9 @@ MIRP[min,black]
 PUSHB_1
  44
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  46
- 16
+ 1
 CALL
 PUSHB_1
  55
@@ -25625,10 +25730,9 @@ SHP[rp2]
 PUSHB_1
  48
 SRP0
-PUSHB_3
- 46
+PUSHB_2
  33
- 16
+ 1
 CALL
 PUSHB_1
  38
@@ -25637,12 +25741,10 @@ PUSHB_2
  13
  9
 MIRP[min,black]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  58
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  48
  46
@@ -25760,32 +25862,35 @@ SplineSet
  451 1174 l 1,56,-1
  711 1174 l 1,49,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Rcaron
 Encoding: 279 344 281
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1303 115<547 637> 1756 178<417.426 497 686 766.508>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1262 2
+Validated: 5
 EndChar
 
 StartChar: rcaron
 Encoding: 280 345 282
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1303 115<547 637> 1756 178<417.426 497 686 766.508>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 227 1262 2
+Validated: 5
 EndChar
 
 StartChar: Sacute
@@ -25799,6 +25904,7 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 401 1270 2
+Validated: 5
 EndChar
 
 StartChar: sacute
@@ -25812,32 +25918,35 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 401 1270 2
+Validated: 5
 EndChar
 
 StartChar: Scircumflex
 Encoding: 283 348 285
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<379.706 856> 559 262<426 813> 926 248<467 774.086> 1280 90<426 892.936> 1311 156<474 555 744 826> 1805 196<605 695>
 VStem: -4 352<897 1164.01> 934 254<528 852>
 LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 285 1270 2
+Validated: 5
 EndChar
 
 StartChar: scircumflex
 Encoding: 284 349 286
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<379.706 856> 559 262<426 813> 926 248<467 774.086> 1280 90<426 892.936> 1311 156<474 555 744 826> 1805 196<605 695>
 VStem: -4 352<897 1164.01> 934 254<528 852>
 LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 285 1270 2
+Validated: 5
 EndChar
 
 StartChar: Scedilla
@@ -25877,6 +25986,9 @@ PUSHB_2
  55
  2
 MIRP[min,black]
+PUSHB_1
+ 27
+MDAP[rnd]
 PUSHB_5
  62
  73
@@ -25930,10 +26042,9 @@ CALL
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  80
- 16
+ 1
 CALL
 PUSHB_2
  21
@@ -25950,12 +26061,10 @@ PUSHB_4
  47
  9
 CALL
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  82
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  80
  59
@@ -25971,42 +26080,26 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 14
- 27
-SRP1
-SRP2
-PUSHB_2
- 10
- 12
-IP
-IP
-PUSHB_2
- 76
+ 73
  1
 SRP1
 SRP2
-PUSHB_2
+PUSHB_3
  3
  7
-IP
-IP
-PUSHB_1
- 73
-SRP1
-PUSHB_2
- 4
  79
+IP
 IP
 IP
 PUSHB_1
  62
-SRP2
+SRP1
 PUSHB_1
  74
 IP
 PUSHB_1
  43
-SRP1
+SRP2
 PUSHB_2
  40
  60
@@ -26014,13 +26107,13 @@ IP
 IP
 PUSHB_1
  50
-SRP2
+SRP1
 PUSHB_1
  52
 IP
 PUSHB_1
  55
-SRP1
+SRP2
 PUSHB_2
  53
  57
@@ -26110,6 +26203,7 @@ SplineSet
  934 614 l 1,80,-1
  934 766 l 1,39,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: scedilla
@@ -26149,6 +26243,9 @@ PUSHB_2
  55
  2
 MIRP[min,black]
+PUSHB_1
+ 27
+MDAP[rnd]
 PUSHB_5
  62
  73
@@ -26202,10 +26299,9 @@ CALL
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  80
- 16
+ 1
 CALL
 PUSHB_2
  21
@@ -26222,12 +26318,10 @@ PUSHB_4
  47
  9
 CALL
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  82
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  80
  59
@@ -26243,42 +26337,26 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 14
- 27
-SRP1
-SRP2
-PUSHB_2
- 10
- 12
-IP
-IP
-PUSHB_2
- 76
+ 73
  1
 SRP1
 SRP2
-PUSHB_2
+PUSHB_3
  3
  7
-IP
-IP
-PUSHB_1
- 73
-SRP1
-PUSHB_2
- 4
  79
+IP
 IP
 IP
 PUSHB_1
  62
-SRP2
+SRP1
 PUSHB_1
  74
 IP
 PUSHB_1
  43
-SRP1
+SRP2
 PUSHB_2
  40
  60
@@ -26286,13 +26364,13 @@ IP
 IP
 PUSHB_1
  50
-SRP2
+SRP1
 PUSHB_1
  52
 IP
 PUSHB_1
  55
-SRP1
+SRP2
 PUSHB_2
  53
  57
@@ -26382,35 +26460,38 @@ SplineSet
  934 614 l 1,80,-1
  934 766 l 1,39,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Scaron
 Encoding: 287 352 289
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<379.706 856> 559 262<426 813> 926 248<467 774.086> 1280 90<426 892.936> 1311 115<613 703> 1764 178<483.426 563 752 832.508>
 VStem: -4 352<897 1164.01> 934 254<528 852>
 LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 293 1270 2
+Validated: 5
 EndChar
 
 StartChar: scaron
 Encoding: 288 353 290
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<379.706 856> 559 262<426 813> 926 248<467 774.086> 1280 90<426 892.936> 1311 115<613 703> 1764 178<483.426 563 752 832.508>
 VStem: -4 352<897 1164.01> 934 254<528 852>
 LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 293 1270 2
+Validated: 5
 EndChar
 
-StartChar: uni0162
+StartChar: Tcommaaccent
 Encoding: 289 354 291
 Width: 1184
 GlyphClass: 2
@@ -26455,21 +26536,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  12
- 16
+ 1
 CALL
 PUSHB_2
  21
  15
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  32
@@ -26556,9 +26634,10 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0163
+StartChar: tcommaaccent
 Encoding: 290 355 292
 Width: 1184
 GlyphClass: 2
@@ -26603,21 +26682,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  12
- 16
+ 1
 CALL
 PUSHB_2
  21
  15
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  32
@@ -26704,19 +26780,21 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Tcaron
 Encoding: 291 356 293
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<359.073 934.101> 1307 115<586 676> 1760 178<456.426 536 725 805.508>
 VStem: -4 598<453 1164.01> 701 487<453 1164.01>
 LayerCount: 2
 Fore
 Refer: 55 84 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 266 1266 2
+Validated: 5
 EndChar
 
 StartChar: tcaron
@@ -26767,25 +26845,23 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  13
- 16
+ 1
 CALL
 PUSHB_5
  4
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  4
 SRP0
-PUSHB_3
- 13
+PUSHB_2
  1
- 16
+ 1
 CALL
 PUSHB_1
  7
@@ -26794,12 +26870,10 @@ PUSHB_2
  20
  8
 MIRP[min,black]
-PUSHB_1
- 20
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  32
@@ -26866,6 +26940,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Tbar
@@ -26922,10 +26997,9 @@ SHP[rp2]
 PUSHB_1
  8
 SRP0
-PUSHB_3
- 33
+PUSHB_2
  9
- 16
+ 1
 CALL
 PUSHB_1
  13
@@ -26934,12 +27008,10 @@ PUSHB_2
  22
  15
 MIRP[min,black]
-PUSHB_1
- 22
-SRP0
-PUSHB_1
+PUSHB_2
  41
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  8
  33
@@ -27014,6 +27086,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,39,-1
  746 1370 l 2,16,17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tbar
@@ -27026,32 +27099,35 @@ VStem: -4 598<453 805 897 1164.01> 701 487<453 805 897 1164.01>
 LayerCount: 2
 Fore
 Refer: 295 358 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Utilde
 Encoding: 295 360 297
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 123<406 510.026 594.15 837.284> 1311 190<501.519 640.569> 1594 376<429.618 848.957>
 VStem: -4 324<528 1164.01> 201 205<1435.01 1572.44> 424 416<569.438 1280> 850 236<1440.51 1592.44> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 205 1311 2
+Validated: 5
 EndChar
 
 StartChar: utilde
 Encoding: 296 361 298
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 123<408 512.026 596.15 839.284> 1311 190<503.519 642.569> 1594 376<431.618 850.957>
 VStem: -4 324<528 1164.01> 203 205<1435.01 1572.44> 424 416<569.438 1280> 852 236<1440.51 1592.44> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 207 1311 2
+Validated: 5
 EndChar
 
 StartChar: Umacron
@@ -27065,6 +27141,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 205 1296 2
+Validated: 5
 EndChar
 
 StartChar: umacron
@@ -27078,84 +27155,91 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 205 1296 2
+Validated: 5
 EndChar
 
 StartChar: Ubreve
 Encoding: 299 364 301
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 129<531 758> 1610 299<462.567 551 740 829.041>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 561 168<1544 1610> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 205 1311 2
+Validated: 5
 EndChar
 
 StartChar: ubreve
 Encoding: 300 365 302
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 129<533 760> 1610 299<464.567 553 742 831.041>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 563 168<1544 1610> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 207 1311 2
+Validated: 5
 EndChar
 
 StartChar: Uring
 Encoding: 301 366 303
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 135<524 737> 1526 160<547 712.565> 1766 182<527.276 733.857>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 547 168<1540 1671> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 361 730 N 1 0 0 1 256 1311 2
+Validated: 5
 EndChar
 
 StartChar: uring
 Encoding: 302 367 304
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 135<526 739> 1526 160<549 714.565> 1766 182<529.276 735.857>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 549 168<1540 1671> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 361 730 N 1 0 0 1 258 1311 2
+Validated: 5
 EndChar
 
 StartChar: Uhungarumlaut
 Encoding: 303 368 305
 Width: 1190
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 135<519 570 750 801> 1780 197<699 791 930 1022>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 330 1270 2
+Validated: 5
 EndChar
 
 StartChar: uhungarumlaut
 Encoding: 304 369 306
 Width: 1192
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 135<521 572 752 803> 1780 197<701 793 932 1024>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 332 1270 2
+Validated: 5
 EndChar
 
 StartChar: Uogonek
@@ -27225,10 +27309,9 @@ MIRP[min,black]
 PUSHB_1
  48
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  45
- 16
+ 1
 CALL
 PUSHB_2
  38
@@ -27237,21 +27320,18 @@ MIRP[min,black]
 PUSHB_1
  38
 SRP0
-PUSHB_3
- 45
+PUSHB_2
  55
- 16
+ 1
 CALL
 PUSHB_2
  18
  7
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  57
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  45
  48
@@ -27350,6 +27430,7 @@ SplineSet
  946 614 l 1,55,-1
  946 1280 l 1,36,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: uogonek
@@ -27419,10 +27500,9 @@ MIRP[min,black]
 PUSHB_1
  48
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  45
- 16
+ 1
 CALL
 PUSHB_2
  38
@@ -27431,21 +27511,18 @@ MIRP[min,black]
 PUSHB_1
  38
 SRP0
-PUSHB_3
- 45
+PUSHB_2
  55
- 16
+ 1
 CALL
 PUSHB_2
  18
  7
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  57
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  45
  48
@@ -27544,56 +27621,61 @@ SplineSet
  946 614 l 1,55,-1
  946 1280 l 1,36,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Wcircumflex
 Encoding: 307 372 309
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<251.568 335.36 901.66 963.703> 1303 156<439 520 709 791> 1797 196<570 660>
 VStem: 402 49<565 647.857> 787 49<565 647.161>
 LayerCount: 2
 Fore
 Refer: 58 87 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 250 1262 2
+Validated: 5
 EndChar
 
 StartChar: wcircumflex
 Encoding: 308 373 310
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<251.568 335.36 901.66 963.703> 1303 156<439 520 709 791> 1797 196<570 660>
 VStem: 402 49<565 647.857> 787 49<565 647.161>
 LayerCount: 2
 Fore
 Refer: 58 87 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 250 1262 2
+Validated: 5
 EndChar
 
 StartChar: Ycircumflex
 Encoding: 309 374 311
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<336.05 459 819 941.663> 1311 156<459 540 729 811> 1805 196<590 680>
 LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 270 1270 2
+Validated: 5
 EndChar
 
 StartChar: ycircumflex
 Encoding: 310 375 312
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 1280 90<336.05 459 819 941.663> 1311 156<459 540 729 811> 1805 196<590 680>
 LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 357 710 N 1 0 0 1 270 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ydieresis
@@ -27607,6 +27689,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 106 168 N 1 0 0 1 242 1272 2
+Validated: 5
 EndChar
 
 StartChar: Zacute
@@ -27620,6 +27703,7 @@ LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 317 1282 2
+Validated: 5
 EndChar
 
 StartChar: zacute
@@ -27633,56 +27717,61 @@ LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 118 180 N 1 0 0 1 317 1282 2
+Validated: 5
 EndChar
 
 StartChar: Zdotaccent
 Encoding: 314 379 316
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<410 884.097> 1280 90<394.722 821> 1323 172<523 654> 1624 279<524.808 653.748>
 VStem: 150 373<1495.22 1623.94> 654 381<1496.13 1623.94>
 LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 154 1305 2
+Validated: 5
 EndChar
 
 StartChar: zdotaccent
 Encoding: 315 380 317
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<410 884.097> 1280 90<394.722 821> 1323 172<523 654> 1624 279<524.808 653.748>
 VStem: 150 373<1495.22 1623.94> 654 381<1496.13 1623.94>
 LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 154 1305 2
+Validated: 5
 EndChar
 
 StartChar: Zcaron
 Encoding: 316 381 318
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<410 884.097> 1280 90<394.722 821> 1305 115<564 654> 1758 178<434.426 514 703 783.508>
 LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 244 1264 2
+Validated: 5
 EndChar
 
 StartChar: zcaron
 Encoding: 317 382 319
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<410 884.097> 1280 90<394.722 821> 1305 115<564 654> 1758 178<434.426 514 703 783.508>
 LayerCount: 2
 Fore
 Refer: 61 90 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 244 1264 2
+Validated: 5
 EndChar
 
 StartChar: longs
@@ -27723,16 +27812,15 @@ MIRP[min,black]
 PUSHB_1
  68
 SRP0
-PUSHB_3
- 20
+PUSHB_2
  83
- 16
+ 1
 CALL
 PUSHB_5
  3
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_1
@@ -27740,9 +27828,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  77
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -27751,54 +27839,42 @@ MDAP[rnd]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 83
+PUSHB_2
  11
- 16
+ 1
 CALL
 PUSHB_5
  43
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_5
  50
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  43
 SRP0
-PUSHB_3
- 11
+PUSHB_2
  58
- 16
+ 1
 CALL
 PUSHB_2
  31
  8
 MIRP[min,black]
-PUSHB_1
- 31
-SRP0
-PUSHB_1
- 89
-MDRP[rp0,rnd,white]
 PUSHB_2
- 77
- 83
-SRP1
-SRP2
-PUSHB_1
- 78
-IP
+ 89
+ 1
+CALL
 PUSHB_2
  11
- 3
+ 77
 SRP1
 SRP2
 PUSHB_2
@@ -27907,6 +27983,7 @@ SplineSet
  483 1116 483 1116 527.5 1134 c 128,-1,87
  572 1152 572 1152 621 1152 c 256,38,39
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: florin
@@ -27976,6 +28053,9 @@ PUSHB_4
  115
  8
 CALL
+PUSHB_1
+ 50
+SHP[rp1]
 PUSHB_4
  34
  42
@@ -28015,33 +28095,31 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  138
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  138
 SRP0
-PUSHB_3
- 109
+PUSHB_2
  20
- 16
+ 1
 CALL
 PUSHB_5
  51
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 20
+PUSHB_2
  41
- 16
+ 1
 CALL
 PUSHB_2
  55
@@ -28049,25 +28127,25 @@ PUSHB_2
 CALL
 PUSHB_5
  59
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  59
 SRP0
 PUSHB_4
- 14
+ 16
  59
  124
  14
 CALL
 PUSHB_5
  116
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
@@ -28075,47 +28153,47 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  124
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 55
+PUSHB_2
+ 32
+ 1
+CALL
+PUSHB_2
  63
- 16
+ 1
 CALL
 PUSHB_5
  0
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  0
 SRP0
-PUSHB_3
- 63
+PUSHB_2
  149
- 16
+ 1
 CALL
 PUSHB_5
  98
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 98
-SRP0
-PUSHB_1
+PUSHB_2
  157
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_1
  54
 SMD
@@ -28156,16 +28234,71 @@ SRP0
 PUSHB_1
  44
 MDRP[grey]
+PUSHB_1
+ 38
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 50
+ 32
+MDAP[no-rnd]
+MDRP[min,black]
+SVTCA[y-axis]
+PUSHB_2
+ 32
+ 50
+MDAP[no-rnd]
+MDRP[min,black]
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 15977
+ -3631
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 50
+SRP0
+PUSHB_1
+ 48
+MDRP[grey]
+PUSHB_1
+ 32
+SRP0
+PUSHB_1
+ 33
+MDRP[grey]
 PUSHW_3
  -15145
  -6250
  21
 CALL
 SFVFS
+PUSHB_1
+ 42
+SRP0
 PUSHB_4
  43
  42
  44
+ 19
+CALL
+PUSHW_3
+ 15160
+ -6213
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 48
+SRP0
+PUSHB_4
+ 49
+ 48
+ 50
  19
 CALL
 PUSHB_3
@@ -28182,16 +28315,38 @@ SFVTPV
 SRP1
 SRP2
 IP
+PUSHB_3
+ 49
+ 48
+ 50
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
 SVTCA[y-axis]
-PUSHB_2
+PUSHB_4
+ 33
  40
  43
+ 49
+MDAP[no-rnd]
+MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
 SVTCA[x-axis]
-PUSHB_2
+PUSHB_4
+ 33
  40
  43
+ 49
+MDAP[no-rnd]
+MDAP[no-rnd]
 MDAP[no-rnd]
 MDAP[no-rnd]
 PUSHB_1
@@ -28217,44 +28372,36 @@ IP
 IP
 IP
 PUSHB_1
- 55
+ 124
 SRP2
-PUSHB_1
+PUSHB_7
+ 8
  12
-IP
-PUSHB_1
- 59
-SRP1
-PUSHB_8
- 10
- 36
- 46
  25
+ 46
+ 36
  73
  87
- 119
- 129
 DEPTH
 SLOOP
 IP
-PUSHB_1
- 124
+PUSHB_2
+ 59
+ 55
+SRP1
 SRP2
-PUSHB_1
- 8
+PUSHB_3
+ 10
+ 119
+ 129
+IP
+IP
 IP
 PUSHB_1
  63
 SRP1
-PUSHB_6
+PUSHB_1
  7
- 33
- 50
- 61
- 32
- 66
-DEPTH
-SLOOP
 IP
 PUSHB_1
  0
@@ -28264,40 +28411,23 @@ PUSHB_1
 IP
 SVTCA[y-axis]
 PUSHB_2
- 10
- 46
-SRP1
-SRP2
-PUSHB_1
- 33
-IP
-PUSHB_1
- 42
-SRP1
-PUSHB_4
- 8
- 12
- 32
- 50
-DEPTH
-SLOOP
-IP
-PUSHB_1
  75
+ 10
+SRP1
 SRP2
 PUSHB_2
- 13
  7
+ 13
 IP
 IP
-PUSHB_1
+PUSHB_2
  57
+ 42
 SRP1
-PUSHB_8
+SRP2
+PUSHB_6
  4
- 14
  17
- 6
  53
  61
  68
@@ -28307,7 +28437,7 @@ SLOOP
 IP
 PUSHB_1
  25
-SRP2
+SRP1
 PUSHB_2
  20
  0
@@ -28448,412 +28578,444 @@ SplineSet
  838 1329 838 1329 746 1329 c 2,155,-1
  438 1329 l 2,132,133
 EndSplineSet
+Validated: 16385
 EndChar
 
-StartChar: Acaron
+StartChar: uni01CD
 Encoding: 320 461 322
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1311 115<582 672> 1764 178<452.426 532 721 801.508>
 VStem: 479 289<1013.25 1159> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 262 1270 2
+Validated: 5
 EndChar
 
-StartChar: acaron
+StartChar: uni01CE
 Encoding: 321 462 323
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1311 115<601 691> 1764 178<471.426 551 740 820.508>
 VStem: -4 299<528 811> 402 370<569 772> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 281 1270 2
+Validated: 5
 EndChar
 
-StartChar: Icaron
+StartChar: uni01CF
 Encoding: 322 463 324
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 115<611 701> 1764 178<481.426 561 750 830.508>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 291 1270 2
+Validated: 5
 EndChar
 
-StartChar: icaron
+StartChar: uni01D0
 Encoding: 323 464 325
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1311 115<605 695> 1764 178<475.426 555 744 824.508>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 285 1270 2
+Validated: 5
 EndChar
 
-StartChar: Ocaron
+StartChar: uni01D1
 Encoding: 324 465 326
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1311 115<596 686> 1764 178<466.426 546 735 815.508>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 276 1270 2
+Validated: 5
 EndChar
 
-StartChar: Ucaron
+StartChar: uni01D3
 Encoding: 325 467 327
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 115<603 693> 1764 178<473.426 553 742 822.508>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 283 1270 2
+Validated: 5
 EndChar
 
-StartChar: ucaron
+StartChar: uni01D4
 Encoding: 326 468 328
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1311 115<605 695> 1764 178<475.426 555 744 824.508>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 358 711 N 1 0 0 1 285 1270 2
+Validated: 5
 EndChar
 
 StartChar: uni0200
 Encoding: 327 512 329
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: 479 289<1013.25 1159> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0201
 Encoding: 328 513 330
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 299<528 811> 402 370<569 772> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0202
 Encoding: 329 514 331
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 854 305<479 772.096> 854 320<479.873 763.839> 1280 90<475.666 773.334> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: 479 289<1013.25 1159> 542 168<1454 1519> 952 236<453 588.194>
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0203
 Encoding: 330 515 332
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<373 770> 559 223<416 758> 889 287<404.075 758> 1280 90<356.163 801> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 299<528 811> 402 370<569 772> 542 168<1454 1519> 879 309<567 1164.01> 997 191<453 565>
 LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0204
 Encoding: 331 516 333
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 406<453 1164.01> 506 682<559 813 918 1164.01>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0205
 Encoding: 332 517 334
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 307<564.718 1164.01> 410 360<973 1165> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0206
 Encoding: 333 518 335
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<403.843 902.911> 559 254<506 840> 918 256<506 840> 1280 90<403.843 889.519> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 406<453 1164.01> 506 682<559 813 918 1164.01> 542 168<1454 1519>
 LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0207
 Encoding: 334 519 336
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 485<381 844.821> 592 276<424 815.224> 973 203<418 760> 1280 90<381 799> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 307<564.718 1164.01> 410 360<973 1165> 542 168<1454 1519> 877 311<868 1164.01>
 LayerCount: 2
 Fore
 Refer: 72 101 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0208
 Encoding: 335 520 337
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0209
 Encoding: 336 521 338
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 598<559 1164.01> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 242 305 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni020A
 Encoding: 337 522 339
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 598<559 1164.01> 542 168<1454 1519> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni020B
 Encoding: 338 523 340
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<359.073 934.101> 559 615<358 594 701 936> 1280 90<359.073 934.101> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 598<559 1164.01> 542 168<1454 1519> 701 487<559 1164.01>
 LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni020C
 Encoding: 339 524 341
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni020D
 Encoding: 340 525 342
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni020E
 Encoding: 341 526 343
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 542 168<1454 1519> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni020F
 Encoding: 342 527 344
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<404 875> 1280 90<402 875> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 330<528 1164.01> 430 416<571.656 1163> 542 168<1454 1519> 952 236<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0210
 Encoding: 343 528 345
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0211
 Encoding: 344 529 346
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0212
 Encoding: 345 530 347
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 542 168<1454 1519> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0213
 Encoding: 346 531 348
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21<387.5 796.5> 893 281<451 711> 1280 90<344.614 817> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 348<453 1164.01> 451 331<716.79 754 928.565 1143> 542 168<1454 1519> 903 285<453 711 987 1158.21>
 LayerCount: 2
 Fore
 Refer: 53 82 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0214
 Encoding: 347 532 349
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0215
 Encoding: 348 533 350
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1296 135<479 530 711 762> 1765 197<258 350 489 582>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 403 63190 N 1 0 0 1 90 1255 2
+Validated: 5
 EndChar
 
 StartChar: uni0216
 Encoding: 349 534 351
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 542 168<1454 1519> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
 StartChar: uni0217
 Encoding: 350 535 352
 Width: 1184
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 453<397 868> 1280 90<321.962 424 840 944.16> 1300 154<442 532 721 811> 1300 233<542 710> 1624 274<512 739>
 VStem: -4 324<528 1164.01> 424 416<569.438 1280> 542 168<1454 1519> 946 242<528 1164.01>
 LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 433 -1 N 1 0 0 1 186 1300 2
+Validated: 5
 EndChar
 
-StartChar: uni0218
+StartChar: Scommaaccent
 Encoding: 351 536 353
 Width: 1184
 GlyphClass: 2
@@ -28943,10 +29105,9 @@ CALL
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 25
+PUSHB_2
  72
- 16
+ 1
 CALL
 PUSHB_2
  13
@@ -28963,12 +29124,10 @@ PUSHB_4
  39
  9
 CALL
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  74
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  72
  51
@@ -28984,16 +29143,8 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 3
- 19
-SRP1
-SRP2
-PUSHB_1
- 0
-IP
-PUSHB_2
  65
- 68
+ 3
 SRP1
 SRP2
 PUSHB_1
@@ -29103,9 +29254,10 @@ SplineSet
  934 614 l 1,72,-1
  934 766 l 1,31,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: uni0219
+StartChar: scommaaccent
 Encoding: 352 537 354
 Width: 1184
 GlyphClass: 2
@@ -29195,10 +29347,9 @@ CALL
 PUSHB_1
  51
 SRP0
-PUSHB_3
- 25
+PUSHB_2
  72
- 16
+ 1
 CALL
 PUSHB_2
  13
@@ -29215,12 +29366,10 @@ PUSHB_4
  39
  9
 CALL
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  74
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  72
  51
@@ -29236,16 +29385,8 @@ SLOOP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 3
- 19
-SRP1
-SRP2
-PUSHB_1
- 0
-IP
-PUSHB_2
  65
- 68
+ 3
 SRP1
 SRP2
 PUSHB_1
@@ -29355,6 +29496,7 @@ SplineSet
  934 614 l 1,72,-1
  934 766 l 1,31,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni021A
@@ -29402,21 +29544,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  12
- 16
+ 1
 CALL
 PUSHB_2
  21
  15
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  32
@@ -29503,6 +29642,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni021B
@@ -29550,21 +29690,18 @@ MIRP[min,black]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  12
- 16
+ 1
 CALL
 PUSHB_2
  21
  15
 MIRP[min,black]
-PUSHB_1
- 21
-SRP0
-PUSHB_1
+PUSHB_2
  40
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  32
@@ -29651,6 +29788,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,38,-1
  746 1370 l 2,15,16
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -29672,11 +29810,14 @@ PUSHB_5
  4
 CALL
 PUSHB_1
- 29
+ 30
 SHP[rp2]
 PUSHB_1
  32
 MDAP[rnd]
+PUSHB_1
+ 31
+SHP[rp1]
 PUSHB_5
  13
  2
@@ -29688,9 +29829,194 @@ SVTCA[x-axis]
 PUSHB_1
  35
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  36
-MDRP[rp0,rnd,white]
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 15277
+ -5921
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 33
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 10
+SRP0
+PUSHB_1
+ 33
+SRP0
+PUSHB_2
+ 6
+ 19
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 10
+SRP0
+PUSHB_2
+ 32
+ 19
+MIRP[rp0,min,black]
+PUSHW_3
+ -15277
+ -5921
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 31
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 23
+SRP0
+PUSHB_1
+ 31
+SRP0
+PUSHB_2
+ 20
+ 27
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 23
+SRP0
+PUSHB_2
+ 30
+ 27
+MIRP[rp0,min,black]
+PUSHW_3
+ 15088
+ -6386
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 6
+SRP0
+PUSHB_4
+ 7
+ 6
+ 10
+ 19
+CALL
+PUSHB_4
+ 8
+ 6
+ 10
+ 19
+CALL
+PUSHW_3
+ -15398
+ -5599
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 20
+SRP0
+PUSHB_4
+ 21
+ 20
+ 23
+ 19
+CALL
+PUSHB_4
+ 22
+ 20
+ 23
+ 19
+CALL
+PUSHB_3
+ 7
+ 6
+ 10
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 8
+IP
+PUSHB_3
+ 21
+ 20
+ 23
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 22
+IP
+SVTCA[y-axis]
+PUSHB_8
+ 8
+ 10
+ 20
+ 6
+ 7
+ 21
+ 22
+ 23
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+NPUSHB
+ 12
+ 8
+ 10
+ 20
+ 30
+ 31
+ 32
+ 33
+ 6
+ 7
+ 21
+ 22
+ 23
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
  33
@@ -29744,6 +30070,7 @@ SplineSet
  270 197 l 1,34,-1
  365 489 l 1,28,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: caron
@@ -29755,17 +30082,17 @@ HStem: 41 115<320 410> 494 178<190.426 270 459 539.508>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 14
+ 13
 MDAP[rnd]
 PUSHB_5
- 31
+ 32
  2
  0
  54
  4
 CALL
 PUSHB_1
- 34
+ 33
 MDAP[rnd]
 PUSHB_1
  29
@@ -29784,13 +30111,96 @@ SVTCA[x-axis]
 PUSHB_1
  36
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 15277
+ -5921
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 32
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 11
+SRP0
+SFVTCA[x-axis]
+PUSHB_1
+ 32
+SRP0
+PUSHB_2
+ 13
+ 28
+MIRP[rp0,min,black]
+PUSHB_1
+ 11
+SRP0
+PUSHB_2
+ 33
+ 28
+MIRP[rp0,min,black]
+PUSHW_3
+ 15392
+ -5615
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 13
+SRP0
+PUSHB_4
+ 12
+ 13
+ 11
+ 19
+CALL
+PUSHB_3
+ 12
+ 13
+ 11
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
 SVTCA[y-axis]
 PUSHB_2
- 34
- 31
+ 11
+ 12
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_5
+ 13
+ 32
+ 33
+ 11
+ 12
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+SVTCA[y-axis]
+PUSHB_2
+ 33
+ 32
 SRP1
 SRP2
 PUSHB_3
@@ -29844,6 +30254,7 @@ SplineSet
  365 201 l 1,35,-1
  270 494 l 1,29,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: breve
@@ -29900,17 +30311,15 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  25
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 25
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  25
  28
@@ -29966,6 +30375,7 @@ SplineSet
  256 299 l 1,30,-1
  268 199 l 1,17,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dotaccent
@@ -30011,21 +30421,18 @@ MIRP[min,black]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 9
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_2
  19
  13
 MIRP[min,black]
-PUSHB_1
- 19
-SRP0
-PUSHB_1
+PUSHB_2
  24
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  3
  9
@@ -30085,6 +30492,7 @@ SplineSet
  833 72 833 72 787 18 c 1,22,-1
  92 18 l 1,4,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ring
@@ -30137,17 +30545,15 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  33
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 33
-SRP0
-PUSHB_1
+PUSHB_2
  42
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  33
  36
@@ -30232,6 +30638,7 @@ SplineSet
  404 375 l 1,40,-1
  459 360 l 1,31,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ogonek
@@ -30262,14 +30669,12 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  1
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 1
-SRP0
-PUSHB_1
+PUSHB_2
  13
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  9
@@ -30299,6 +30704,7 @@ SplineSet
  86 -156 l 1,11,-1
  100 -215 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tilde
@@ -30370,29 +30776,26 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  38
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  38
 SRP0
-PUSHB_3
- 3
+PUSHB_2
  22
- 16
+ 1
 CALL
 PUSHB_2
  13
- 6
+ 17
 MIRP[min,black]
-PUSHB_1
- 13
-SRP0
-PUSHB_1
+PUSHB_2
  48
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  38
  3
@@ -30476,6 +30879,7 @@ SplineSet
  442 141 442 141 478 130 c 128,-1,46
  514 119 514 119 561 119 c 0,17,18
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hungarumlaut
@@ -30487,17 +30891,19 @@ HStem: 41 135<189 240 420 471> 510 197<369 461 600 692>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 0
+ 19
 MDAP[rnd]
 PUSHB_5
- 22
+ 26
  2
  0
  31
  4
 CALL
-PUSHB_1
- 26
+PUSHB_2
+ 22
+ 27
+SHP[rp2]
 SHP[rp2]
 PUSHB_1
  21
@@ -30519,28 +30925,112 @@ SVTCA[x-axis]
 PUSHB_1
  28
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  29
-MDRP[rp0,rnd,white]
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 14423
+ -7773
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 22
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 6
+SRP0
+PUSHB_1
+ 22
+SRP0
+PUSHB_2
+ 5
+ 19
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 6
+SRP0
+PUSHB_2
+ 21
+ 19
+MIRP[rp0,min,black]
+PUSHW_3
+ 13599
+ -9138
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 27
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 18
+SRP0
+SFVTCA[x-axis]
+PUSHB_1
+ 27
+SRP0
+PUSHB_2
+ 19
+ 29
+MIRP[rp0,min,black]
+PUSHB_1
+ 18
+SRP0
+PUSHB_2
+ 24
+ 29
+MIRP[rp0,min,black]
+SPVTCA[x-axis]
+SVTCA[y-axis]
+PUSHB_3
+ 5
+ 6
+ 18
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_8
+ 5
+ 6
+ 18
+ 19
+ 21
+ 22
+ 24
+ 27
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
 SVTCA[y-axis]
 PUSHB_2
- 22
- 0
+ 26
+ 19
 SRP1
 SRP2
 PUSHB_1
  3
 IP
-PUSHB_1
+PUSHB_2
+ 11
  21
 SRP1
-PUSHB_2
- 5
- 18
-IP
-IP
-PUSHB_1
- 11
 SRP2
 PUSHB_1
  13
@@ -30579,6 +31069,7 @@ SplineSet
  471 176 l 1,27,-1
  692 510 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: pi
@@ -30676,77 +31167,71 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  44
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  44
 SRP0
-PUSHB_3
+PUSHB_2
+ 24
+ 1
+CALL
+PUSHB_5
+ 72
  17
- 24
- 16
-CALL
-PUSHB_5
- 72
- 6
  0
- 22
+ 24
  4
 CALL
 PUSHB_1
  72
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  85
- 16
+ 1
 CALL
 PUSHB_5
  80
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  80
 SRP0
-PUSHB_3
- 85
+PUSHB_2
  65
- 16
+ 1
 CALL
 PUSHB_5
  34
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  34
 SRP0
-PUSHB_3
- 65
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_5
  6
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  91
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  85
  72
@@ -30892,9 +31377,10 @@ SplineSet
  647 1061 l 1,89,-1
  713 1051 l 1,80,81
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: Sdotaccent
+StartChar: uni1E60
 Encoding: 364 7776 366
 Width: 1184
 GlyphClass: 2
@@ -30905,9 +31391,10 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 215 1272 2
+Validated: 5
 EndChar
 
-StartChar: Ydotaccent
+StartChar: uni1E8E
 Encoding: 365 7822 367
 Width: 1184
 GlyphClass: 2
@@ -30918,9 +31405,10 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 201 1272 2
+Validated: 5
 EndChar
 
-StartChar: ydotaccent
+StartChar: uni1E8F
 Encoding: 366 7823 368
 Width: 1184
 GlyphClass: 2
@@ -30931,9 +31419,10 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 201 1272 2
+Validated: 5
 EndChar
 
-StartChar: Etilde
+StartChar: uni1EBC
 Encoding: 367 7868 369
 Width: 1184
 GlyphClass: 2
@@ -30944,9 +31433,10 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 205 1311 2
+Validated: 5
 EndChar
 
-StartChar: Ytilde
+StartChar: uni1EF8
 Encoding: 368 7928 370
 Width: 1184
 GlyphClass: 2
@@ -30957,9 +31447,10 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
-StartChar: ytilde
+StartChar: uni1EF9
 Encoding: 369 7929 371
 Width: 1184
 GlyphClass: 2
@@ -30970,6 +31461,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
 StartChar: endash
@@ -30982,6 +31474,7 @@ VStem: -4 885<205.988 918 989 1164.01>
 LayerCount: 2
 Fore
 Refer: 16 45 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -31032,21 +31525,19 @@ PUSHB_1
 SHP[rp2]
 PUSHB_2
  8
- 17
+ 6
 MIRP[min,black]
 PUSHB_1
  18
 SHP[rp2]
 PUSHB_2
  8
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 8
-SRP0
-PUSHB_1
+PUSHB_2
  25
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -31077,6 +31568,7 @@ SplineSet
  186 1316 186 1316 264.5 1343 c 128,-1,23
  343 1370 343 1370 438 1370 c 256,13,14
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quoteleft
@@ -31105,18 +31597,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  30
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  17
  5
@@ -31172,6 +31662,7 @@ SplineSet
  498 1253 l 1,28,-1
  434 1282 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quoteright
@@ -31204,18 +31695,16 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  30
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  17
  5
@@ -31269,6 +31758,7 @@ SplineSet
  399 1051 l 1,28,-1
  463 1022 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotesinglbase
@@ -31281,6 +31771,7 @@ VStem: -4 885<205.988 381 582 1164.01>
 LayerCount: 2
 Fore
 Refer: 15 44 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: quotedblleft
@@ -31314,39 +31805,32 @@ MIRP[min,black]
 PUSHB_1
  31
 SRP0
-PUSHB_3
- 6
+PUSHB_2
  32
- 16
+ 1
 CALL
 PUSHB_5
  24
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  24
 SRP0
-PUSHW_6
- 31
- 32
- 24
+PUSHB_2
  25
- 2018
- 15
+ 1
 CALL
 PUSHB_2
  16
  8
 MIRP[min,black]
-PUSHB_1
- 16
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  24
  32
@@ -31413,6 +31897,7 @@ SplineSet
  397 1253 l 1,35,-1
  334 1282 l 1,29,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedblright
@@ -31448,11 +31933,11 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_4
  33
@@ -31462,9 +31947,9 @@ PUSHB_4
 CALL
 PUSHB_5
  23
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -31472,17 +31957,15 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  33
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  23
  5
@@ -31556,6 +32039,7 @@ SplineSet
  504 1051 l 1,35,-1
  567 1022 l 1,29,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -31584,11 +32068,11 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_2
  17
- 17
+ 6
 MIRP[min,black]
 PUSHB_2
  16
- 17
+ 6
 MIRP[min,black]
 PUSHB_4
  33
@@ -31598,9 +32082,9 @@ PUSHB_4
 CALL
 PUSHB_5
  23
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -31608,9 +32092,9 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  33
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -31623,12 +32107,10 @@ MIRP[min,black]
 PUSHB_1
  30
 MDAP[rnd]
-PUSHB_1
- 17
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  23
  5
@@ -31697,6 +32179,7 @@ SplineSet
  504 352 l 1,35,-1
  567 324 l 1,29,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dagger
@@ -31752,10 +32235,9 @@ SHP[rp2]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_1
  4
@@ -31764,12 +32246,10 @@ PUSHB_2
  18
  15
 MIRP[min,black]
-PUSHB_1
- 18
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  11
  29
@@ -31836,6 +32316,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: daggerdbl
@@ -31909,10 +32390,9 @@ SHP[rp2]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 37
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_2
  8
@@ -31936,12 +32416,10 @@ MDAP[rnd]
 PUSHB_1
  10
 SHP[rp1]
-PUSHB_1
- 26
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  3
  37
@@ -32010,6 +32488,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,43,-1
  746 1370 l 2,20,21
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bullet
@@ -32056,21 +32535,18 @@ MIRP[min,black]
 PUSHB_1
  6
 SRP0
-PUSHB_3
- 41
+PUSHB_2
  17
- 16
+ 1
 CALL
 PUSHB_2
  30
  8
 MIRP[min,black]
-PUSHB_1
- 30
-SRP0
-PUSHB_1
+PUSHB_2
  49
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 IUP[y]
 IUP[x]
@@ -32121,6 +32597,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,47,-1
  746 1370 l 2,24,25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ellipsis
@@ -32176,39 +32653,35 @@ CALL
 PUSHB_1
  7
 SRP0
-PUSHB_3
- 29
+PUSHB_2
  4
- 16
+ 1
 CALL
 PUSHB_5
  3
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 4
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_5
  11
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 11
-SRP0
-PUSHB_1
+PUSHB_2
  37
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  35
@@ -32265,6 +32738,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,35,-1
  746 1370 l 2,12,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: perthousand
@@ -32329,101 +32803,91 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  12
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 82
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_5
  33
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  33
 SRP0
-PUSHB_3
- 24
+PUSHB_2
  54
- 16
+ 1
 CALL
 PUSHB_1
  58
 SHP[rp2]
 PUSHB_5
  63
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  63
 SRP0
-PUSHB_3
- 54
+PUSHB_2
  49
- 16
+ 1
 CALL
 PUSHB_5
  96
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  96
 SRP0
-PUSHW_6
- 63
- 49
- 96
+PUSHB_2
  108
- 1011
- 15
+ 1
 CALL
 PUSHB_1
  112
 SHP[rp2]
 PUSHB_5
  117
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  117
 SRP0
-PUSHB_3
- 108
+PUSHB_2
  103
- 16
+ 1
 CALL
 PUSHB_5
  70
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 70
-SRP0
-PUSHB_1
+PUSHB_2
  119
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  24
  12
@@ -32495,46 +32959,27 @@ IP
 IP
 SVTCA[y-axis]
 PUSHB_2
- 52
+ 29
  76
-SRP1
-SRP2
-PUSHB_8
- 1
- 43
- 45
- 48
- 2
- 97
- 99
- 102
-DEPTH
-SLOOP
-IP
-PUSHB_2
- 22
- 59
 SRP1
 SRP2
 NPUSHB
  9
+ 1
  13
- 18
  15
- 35
+ 18
+ 2
  37
- 40
- 89
+ 45
  91
- 94
+ 99
 DEPTH
 SLOOP
 IP
-PUSHB_2
+PUSHB_1
  8
- 29
 SRP1
-SRP2
 PUSHB_3
  3
  5
@@ -32668,6 +33113,7 @@ SplineSet
  1167 639 l 1,117,-1
  1157 606 l 1,104,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guilsinglleft
@@ -32690,9 +33136,10 @@ SVTCA[x-axis]
 PUSHB_1
  33
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  34
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  23
@@ -32741,6 +33188,7 @@ SplineSet
  451 781 l 1,32,-1
  745 393 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: guilsinglright
@@ -32763,9 +33211,10 @@ SVTCA[x-axis]
 PUSHB_1
  31
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  23
@@ -32813,6 +33262,7 @@ SplineSet
  523 393 l 1,30,-1
  797 781 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: fraction
@@ -32839,9 +33289,10 @@ SVTCA[x-axis]
 PUSHB_1
  26
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  27
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  22
@@ -32882,6 +33333,7 @@ SplineSet
  561 1280 l 1,25,-1
  453 1280 l 1,22,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: trademark
@@ -32924,16 +33376,15 @@ MIRP[min,black]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  42
- 16
+ 1
 CALL
 PUSHB_5
  30
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -32941,9 +33392,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  44
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -32952,23 +33403,20 @@ MDAP[rnd]
 PUSHB_1
  30
 SRP0
-PUSHB_3
- 42
+PUSHB_2
  24
- 16
+ 1
 CALL
 PUSHB_2
  6
  11
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
- 46
-MDRP[rp0,rnd,white]
 PUSHB_2
- 41
+ 46
+ 1
+CALL
+PUSHB_2
+ 44
  17
 SRP1
 SRP2
@@ -33039,9 +33487,10 @@ SplineSet
  516 872 l 1,44,-1
  516 948 l 1,37,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: Omega
+StartChar: uni2126
 Encoding: 387 8486 389
 Width: 1184
 GlyphClass: 2
@@ -33072,12 +33521,10 @@ MIRP[min,black]
 PUSHB_1
  4
 SHP[rp2]
-PUSHB_1
- 0
-SRP0
-PUSHB_1
+PUSHB_2
  43
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  0
  35
@@ -33151,6 +33598,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,41,-1
  746 1370 l 2,18,19
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: partialdiff
@@ -33218,24 +33666,23 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  108
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  108
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  93
- 16
+ 1
 CALL
 PUSHB_5
  5
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
@@ -33248,12 +33695,10 @@ MIRP[min,black]
 PUSHB_1
  58
 MDAP[rnd]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  131
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  58
  108
@@ -33278,16 +33723,10 @@ PUSHB_1
 IP
 SVTCA[y-axis]
 PUSHB_2
+ 24
  127
- 12
 SRP1
 SRP2
-PUSHB_1
- 121
-IP
-PUSHB_1
- 24
-SRP1
 PUSHB_4
  29
  32
@@ -33298,7 +33737,7 @@ SLOOP
 IP
 PUSHB_1
  37
-SRP2
+SRP1
 PUSHB_4
  53
  55
@@ -33309,7 +33748,7 @@ SLOOP
 IP
 PUSHB_1
  50
-SRP1
+SRP2
 PUSHB_3
  58
  74
@@ -33319,7 +33758,7 @@ IP
 IP
 PUSHB_1
  66
-SRP2
+SRP1
 PUSHB_4
  87
  93
@@ -33434,9 +33873,10 @@ SplineSet
  579 741 579 741 555 717 c 128,-1,129
  531 693 531 693 531 655 c 0,118,119
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: Delta
+StartChar: uni2206
 Encoding: 389 8710 391
 Width: 1184
 GlyphClass: 2
@@ -33517,84 +33957,141 @@ MIRP[min,black]
 PUSHB_1
  12
 SRP0
-PUSHB_3
- 106
+PUSHB_2
  47
- 16
+ 1
 CALL
 PUSHB_5
  51
- 6
- 0
- 22
- 4
-CALL
-PUSHB_1
- 51
-SRP0
-PUSHB_3
- 47
- 83
  17
-CALL
-PUSHB_5
- 79
- 6
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
- 79
-SRP0
-PUSHB_3
- 83
- 74
- 16
-CALL
-PUSHB_5
- 69
- 6
- 0
- 14
- 4
-CALL
-PUSHB_1
- 69
-SRP0
-PUSHW_6
  51
+SRP0
+PUSHB_2
  83
+ 11
+CALL
+PUSHB_5
+ 79
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 79
+SRP0
+PUSHB_2
+ 73
+ 1
+CALL
+PUSHB_5
  69
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 69
+SRP0
+PUSHB_2
  55
- 510
- 15
+ 1
 CALL
 PUSHB_5
  60
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  60
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_2
  93
  9
 MIRP[min,black]
+PUSHB_2
+ 129
+ 1
+CALL
 PUSHB_1
- 93
+ 54
+SMD
+PUSHW_3
+ 15094
+ -6373
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 23
 SRP0
 PUSHB_1
- 129
-MDRP[rp0,rnd,white]
+ 24
+MDRP[grey]
+PUSHB_2
+ 33
+ 30
+MIRP[rp0,min,black]
+PUSHB_1
+ 31
+MDRP[grey]
+PUSHB_4
+ 32
+ 33
+ 31
+ 19
+CALL
+PUSHB_3
+ 32
+ 33
+ 31
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_4
+ 23
+ 24
+ 31
+ 32
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_4
+ 23
+ 24
+ 31
+ 32
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 PUSHB_2
  47
  12
@@ -33619,11 +34116,13 @@ IP
 PUSHB_1
  79
 SRP2
-PUSHB_1
+PUSHB_2
+ 81
  86
 IP
+IP
 PUSHB_1
- 74
+ 73
 SRP1
 PUSHB_4
  64
@@ -33636,23 +34135,22 @@ IP
 PUSHB_1
  69
 SRP2
-PUSHB_1
+PUSHB_2
  66
+ 71
+IP
 IP
 PUSHB_2
  60
  55
 SRP1
 SRP2
-PUSHB_6
- 23
- 24
+PUSHB_3
  45
- 31
  46
  120
-DEPTH
-SLOOP
+IP
+IP
 IP
 PUSHB_1
  0
@@ -33685,11 +34183,10 @@ PUSHB_1
  53
 SRP2
 NPUSHB
- 10
+ 9
  20
  18
  25
- 31
  38
  39
  46
@@ -33830,6 +34327,7 @@ SplineSet
  555 326 555 326 525.5 296.5 c 128,-1,127
  496 267 496 267 496 223 c 0,112,113
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: product
@@ -33913,18 +34411,17 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  64
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  64
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  44
- 16
+ 1
 CALL
 PUSHB_2
  29
@@ -33933,54 +34430,49 @@ MIRP[min,black]
 PUSHB_1
  29
 SRP0
-PUSHB_3
- 44
+PUSHB_2
  38
- 16
+ 1
 CALL
 PUSHB_1
  30
 SHP[rp2]
 PUSHB_2
  43
- 6
+ 17
 MIRP[min,black]
 PUSHB_1
  43
 SRP0
-PUSHB_3
- 38
+PUSHB_2
  35
- 16
+ 1
 CALL
 PUSHB_5
  54
- 6
+ 17
  0
- 22
+ 33
  4
 CALL
 PUSHB_1
  54
 SRP0
-PUSHB_3
- 35
+PUSHB_2
  74
- 16
+ 1
 CALL
 PUSHB_5
  6
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  85
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  43
  38
@@ -34112,6 +34604,7 @@ SplineSet
  217 1082 217 1082 180 995.5 c 128,-1,83
  143 909 143 909 143 811 c 256,64,65
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: summation
@@ -34145,16 +34638,15 @@ MIRP[min,black]
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 126
+PUSHB_2
  105
- 16
+ 1
 CALL
 PUSHB_5
  85
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -34163,25 +34655,23 @@ SHP[rp2]
 PUSHB_1
  85
 SRP0
-PUSHB_3
- 105
+PUSHB_2
  87
- 16
+ 1
 CALL
 PUSHB_5
  65
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  65
 SRP0
-PUSHB_3
- 87
+PUSHB_2
  66
- 16
+ 1
 CALL
 PUSHB_2
  114
@@ -34199,19 +34689,137 @@ PUSHB_4
  9
 CALL
 PUSHB_1
- 114
+ 19
+SHP[rp2]
+PUSHB_2
+ 134
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -13646
+ -9068
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 0
 SRP0
 PUSHB_1
- 134
-MDRP[rp0,rnd,white]
+ 10
+MDRP[grey]
+PUSHB_2
+ 32
+ 31
+MIRP[rp0,min,black]
+PUSHB_1
+ 33
+MDRP[grey]
+PUSHB_1
+ 0
+SRP0
+PUSHB_4
+ 11
+ 0
+ 10
+ 19
+CALL
+SFVTCA[y-axis]
+PUSHB_4
+ 19
+ 0
+ 10
+ 19
+CALL
+PUSHW_3
+ -13665
+ -9038
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 32
+SRP0
+PUSHB_4
+ 20
+ 32
+ 33
+ 19
+CALL
+SFVTCA[y-axis]
+PUSHB_4
+ 47
+ 32
+ 33
+ 19
+CALL
+PUSHB_3
+ 20
+ 32
+ 33
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_3
+ 11
+ 0
+ 10
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_8
+ 0
+ 10
+ 11
+ 19
+ 20
+ 32
+ 33
+ 47
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_6
+ 0
+ 10
+ 11
+ 20
+ 32
+ 33
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 PUSHB_2
  105
  3
 SRP1
 SRP2
-PUSHB_7
+PUSHB_6
  24
- 32
  53
  54
  76
@@ -34220,35 +34828,13 @@ PUSHB_7
 DEPTH
 SLOOP
 IP
-PUSHB_1
- 85
-SRP1
-PUSHB_1
- 11
-IP
 PUSHB_2
  65
  87
 SRP1
 SRP2
-PUSHB_2
+PUSHB_1
  42
- 10
-IP
-IP
-PUSHB_1
- 66
-SRP1
-PUSHB_1
- 33
-IP
-PUSHB_1
- 114
-SRP2
-PUSHB_2
- 39
- 36
-IP
 IP
 SVTCA[y-axis]
 PUSHB_2
@@ -34256,20 +34842,15 @@ PUSHB_2
  121
 SRP1
 SRP2
-NPUSHB
- 12
- 10
- 0
+PUSHB_8
  29
- 33
- 20
+ 42
  53
  66
  76
  87
  97
  105
- 42
 DEPTH
 SLOOP
 IP
@@ -34389,6 +34970,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,132,-1
  746 1370 l 2,109,110
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: minus
@@ -34401,6 +34983,7 @@ VStem: -4 885<205.988 918 989 1164.01>
 LayerCount: 2
 Fore
 Refer: 16 45 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: radical
@@ -34465,12 +35048,10 @@ PUSHB_4
  43
  9
 CALL
-PUSHB_1
- 32
-SRP0
-PUSHB_1
+PUSHB_2
  63
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  32
  18
@@ -34556,6 +35137,7 @@ SplineSet
  565 326 565 326 535.5 296.5 c 128,-1,61
  506 267 506 267 506 223 c 0,50,51
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: infinity
@@ -34591,9 +35173,10 @@ SVTCA[x-axis]
 PUSHB_1
  62
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  63
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  12
@@ -34667,6 +35250,7 @@ SplineSet
  565 326 565 326 535.5 296.5 c 128,-1,61
  506 267 506 267 506 223 c 0,50,51
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: integral
@@ -34725,27 +35309,26 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  68
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  68
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  21
- 16
+ 1
 CALL
 PUSHB_1
  17
 SHP[rp2]
 PUSHB_5
  3
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -34755,16 +35338,16 @@ PUSHB_1
  3
 SRP0
 PUSHB_4
- 14
+ 16
  3
  32
  14
 CALL
 PUSHB_5
  26
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
@@ -34772,32 +35355,29 @@ PUSHB_1
 MDAP[rnd]
 PUSHB_5
  32
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
  3
 SRP0
-PUSHB_3
- 21
+PUSHB_2
  79
- 16
+ 1
 CALL
 PUSHB_5
  44
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 44
-SRP0
-PUSHB_1
+PUSHB_2
  87
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  26
  68
@@ -34812,38 +35392,34 @@ DEPTH
 SLOOP
 IP
 PUSHB_1
- 21
-SRP1
-PUSHB_1
- 18
-IP
-PUSHB_1
- 3
-SRP2
-PUSHB_4
- 12
- 25
- 29
- 35
-DEPTH
-SLOOP
-IP
-PUSHB_1
  32
 SRP1
-PUSHB_1
+PUSHB_3
  6
+ 18
+ 25
+IP
+IP
+IP
+PUSHB_2
+ 3
+ 21
+SRP1
+SRP2
+PUSHB_3
+ 12
+ 29
+ 35
+IP
+IP
 IP
 PUSHB_1
  79
-SRP2
-PUSHB_4
- 1
+SRP1
+PUSHB_2
  0
- 5
  4
-DEPTH
-SLOOP
+IP
 IP
 SVTCA[y-axis]
 PUSHB_2
@@ -34939,6 +35515,7 @@ SplineSet
  838 1329 838 1329 746 1329 c 2,85,-1
  438 1329 l 2,62,63
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: approxequal
@@ -35029,84 +35606,141 @@ MIRP[min,black]
 PUSHB_1
  19
 SRP0
-PUSHB_3
- 105
+PUSHB_2
  47
- 16
+ 1
 CALL
 PUSHB_5
  51
- 6
- 0
- 22
- 4
-CALL
-PUSHB_1
- 51
-SRP0
-PUSHB_3
- 47
- 69
  17
-CALL
-PUSHB_5
- 74
- 6
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
- 74
-SRP0
-PUSHB_3
- 69
- 79
- 16
-CALL
-PUSHB_5
- 83
- 6
- 0
- 14
- 4
-CALL
-PUSHB_1
- 83
-SRP0
-PUSHW_6
  51
+SRP0
+PUSHB_2
  69
+ 11
+CALL
+PUSHB_5
+ 74
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 74
+SRP0
+PUSHB_2
+ 79
+ 1
+CALL
+PUSHB_5
  83
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 83
+SRP0
+PUSHB_2
  55
- 510
- 15
+ 1
 CALL
 PUSHB_5
  59
- 6
+ 17
  0
- 14
+ 24
  4
 CALL
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  0
- 16
+ 1
 CALL
 PUSHB_2
  94
  9
 MIRP[min,black]
+PUSHB_2
+ 129
+ 1
+CALL
 PUSHB_1
- 94
+ 54
+SMD
+PUSHW_3
+ -15094
+ -6373
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 8
 SRP0
 PUSHB_1
- 129
-MDRP[rp0,rnd,white]
+ 7
+MDRP[grey]
+PUSHB_2
+ 44
+ 30
+MIRP[rp0,min,black]
+PUSHB_1
+ 46
+MDRP[grey]
+PUSHB_4
+ 45
+ 44
+ 46
+ 19
+CALL
+PUSHB_3
+ 45
+ 44
+ 46
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+SVTCA[y-axis]
+PUSHB_4
+ 7
+ 8
+ 45
+ 46
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_4
+ 7
+ 8
+ 45
+ 46
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 PUSHB_2
  47
  19
@@ -35156,15 +35790,12 @@ PUSHB_2
  55
 SRP1
 SRP2
-PUSHB_6
- 8
- 7
- 32
- 46
+PUSHB_3
  31
+ 32
  120
-DEPTH
-SLOOP
+IP
+IP
 IP
 PUSHB_1
  0
@@ -35197,13 +35828,12 @@ PUSHB_1
  10
 SRP2
 NPUSHB
- 10
+ 9
+ 6
  11
  13
  31
  38
- 6
- 46
  39
  66
  71
@@ -35217,14 +35847,6 @@ SRP1
 PUSHB_2
  32
  37
-IP
-IP
-PUSHB_1
- 111
-SRP2
-PUSHB_2
- 35
- 34
 IP
 IP
 IUP[y]
@@ -35340,6 +35962,7 @@ SplineSet
  555 326 555 326 525.5 296.5 c 128,-1,127
  496 267 496 267 496 223 c 0,112,113
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: notequal
@@ -35411,10 +36034,9 @@ SHP[rp2]
 PUSHB_1
  38
 SRP0
-PUSHB_3
- 18
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_1
  27
@@ -35423,12 +36045,10 @@ PUSHB_2
  5
  10
 MIRP[min,black]
-PUSHB_1
- 5
-SRP0
-PUSHB_1
+PUSHB_2
  45
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  43
  38
@@ -35497,6 +36117,7 @@ SplineSet
  870 772 l 1,43,-1
  870 881 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lessequal
@@ -35569,24 +36190,23 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  98
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  98
 SRP0
-PUSHB_3
- 31
+PUSHB_2
  70
- 16
+ 1
 CALL
 PUSHB_5
  87
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_3
@@ -35603,34 +36223,29 @@ CALL
 PUSHB_1
  87
 SRP0
-PUSHB_3
- 70
+PUSHB_2
  3
- 16
+ 1
 CALL
 PUSHB_5
  11
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  11
 SRP0
-PUSHW_6
- 87
- 3
- 11
+PUSHB_2
  43
- 2026
- 15
+ 1
 CALL
 PUSHB_5
  60
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_3
@@ -35647,24 +36262,21 @@ CALL
 PUSHB_1
  60
 SRP0
-PUSHB_3
- 43
+PUSHB_2
  109
- 16
+ 1
 CALL
 PUSHB_5
  20
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
-PUSHB_1
- 20
-SRP0
-PUSHB_1
+PUSHB_2
  117
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  3
  87
@@ -35799,6 +36411,7 @@ SplineSet
  838 1329 838 1329 746 1329 c 2,115,-1
  438 1329 l 2,92,93
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: greaterequal
@@ -35834,6 +36447,18 @@ PUSHB_5
  100
  4
 CALL
+PUSHB_4
+ 1
+ 30
+ 41
+ 8
+CALL
+PUSHB_4
+ 5
+ 30
+ 41
+ 8
+CALL
 SVTCA[x-axis]
 PUSHB_1
  66
@@ -35843,90 +36468,288 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  48
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  48
 SRP0
-PUSHB_3
- 35
- 0
- 16
+PUSHB_2
+ 2
+ 1
 CALL
 PUSHB_1
- 6
-SHP[rp2]
-PUSHB_5
- 13
- 6
- 0
- 14
  4
-CALL
-PUSHB_1
- 15
 SHP[rp2]
-PUSHB_1
- 13
-SRP0
-PUSHB_3
- 0
- 59
- 16
-CALL
-PUSHB_5
- 24
- 6
- 0
- 14
- 4
-CALL
-PUSHB_1
- 24
-SRP0
-PUSHB_1
- 67
-MDRP[rp0,rnd,white]
 PUSHB_2
  0
- 48
-SRP1
-SRP2
+ 1
+CALL
+PUSHB_1
+ 6
+SHP[rp2]
+PUSHB_5
+ 13
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_2
+ 12
+ 16
+SHP[rp2]
+SHP[rp2]
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
+ 59
+ 1
+CALL
+PUSHB_5
+ 24
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_2
+ 67
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHB_1
+ 38
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 1
+ 2
+MDAP[no-rnd]
+MDRP[min,black]
+SVTCA[y-axis]
+PUSHB_2
+ 2
+ 1
+MDAP[no-rnd]
+MDRP[min,black]
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ 11649
+ -11521
+ 21
+CALL
+SPVFS
+SFVTPV
 PUSHB_1
  2
-IP
-PUSHB_2
- 59
- 13
-SRP1
-SRP2
-PUSHB_5
- 9
+SRP0
+PUSHB_1
+ 17
+MDRP[grey]
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
  8
+MDRP[grey]
+PUSHB_1
+ 38
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 5
+ 4
+MDAP[no-rnd]
+MDRP[min,black]
+SVTCA[y-axis]
+PUSHB_2
+ 4
+ 5
+MDAP[no-rnd]
+MDRP[min,black]
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -11810
+ -11356
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 4
+SRP0
+PUSHB_1
+ 14
+MDRP[grey]
+PUSHB_1
+ 5
+SRP0
+PUSHB_1
+ 10
+MDRP[grey]
+SFVTCA[y-axis]
+PUSHB_1
+ 1
+SRP0
+PUSHB_4
+ 0
+ 1
+ 8
+ 19
+CALL
+PUSHW_3
+ -11600
+ -11571
+ 21
+CALL
+SFVFS
+PUSHB_1
+ 4
+SRP0
+PUSHB_4
+ 3
+ 4
+ 14
+ 19
+CALL
+PUSHB_2
+ 4
+ 14
+SFVTL[parallel]
+PUSHB_1
+ 2
+SRP0
+PUSHB_4
+ 3
+ 2
+ 17
+ 19
+CALL
+SFVTCA[y-axis]
+PUSHB_1
+ 5
+SRP0
+PUSHB_4
+ 6
+ 5
+ 10
+ 19
+CALL
+PUSHW_3
+ -11810
+ -11356
+ 21
+CALL
+SFVFS
+PUSHB_4
+ 9
+ 5
+ 10
+ 19
+CALL
+PUSHB_2
+ 5
+ 10
+SFVTL[parallel]
+PUSHB_1
+ 1
+SRP0
+PUSHB_4
+ 9
+ 1
+ 8
+ 19
+CALL
+SFVTCA[y-axis]
+PUSHB_1
+ 4
+SRP0
+PUSHB_4
+ 12
+ 4
+ 14
+ 19
+CALL
+PUSHB_1
+ 2
+SRP0
+PUSHB_4
+ 16
+ 2
+ 17
+ 19
+CALL
+SPVTCA[y-axis]
+NPUSHB
+ 10
+ 0
+ 3
+ 6
+ 8
+ 9
+ 10
+ 12
+ 14
+ 16
+ 17
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_6
+ 3
+ 8
+ 9
  10
  14
  17
-DEPTH
-SLOOP
-IP
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
 SVTCA[y-axis]
 PUSHB_2
- 42
+ 1
  53
 SRP1
 SRP2
-PUSHB_6
- 7
+PUSHB_2
  11
  13
+IP
+IP
+PUSHB_2
+ 42
+ 5
+SRP1
+SRP2
+PUSHB_2
+ 7
  15
- 16
- 12
-DEPTH
-SLOOP
+IP
 IP
 IUP[y]
 IUP[x]
@@ -35998,6 +36821,7 @@ SplineSet
  838 1329 838 1329 746 1329 c 2,65,-1
  438 1329 l 2,42,43
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: lozenge
@@ -36044,16 +36868,15 @@ MIRP[min,black]
 PUSHB_1
  58
 SRP0
-PUSHB_3
- 32
+PUSHB_2
  43
- 16
+ 1
 CALL
 PUSHB_5
  11
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_1
@@ -36061,9 +36884,9 @@ PUSHB_1
 SRP0
 PUSHB_5
  50
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -36072,54 +36895,42 @@ MDAP[rnd]
 PUSHB_1
  11
 SRP0
-PUSHB_3
- 43
+PUSHB_2
  3
- 16
+ 1
 CALL
 PUSHB_5
  83
- 6
+ 17
  0
- 38
+ 59
  4
 CALL
 PUSHB_5
  77
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  83
 SRP0
-PUSHB_3
- 3
+PUSHB_2
  68
- 16
+ 1
 CALL
 PUSHB_2
  19
  8
 MIRP[min,black]
-PUSHB_1
- 19
-SRP0
-PUSHB_1
- 89
-MDRP[rp0,rnd,white]
 PUSHB_2
- 50
- 43
-SRP1
-SRP2
-PUSHB_1
- 48
-IP
+ 89
+ 1
+CALL
 PUSHB_2
  3
- 11
+ 50
 SRP1
 SRP2
 PUSHB_2
@@ -36226,9 +37037,10 @@ SplineSet
  758 603 758 603 714 585 c 128,-1,87
  670 567 670 567 621 567 c 256,38,39
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: dblgrave
+StartChar: uniF6D6
 Encoding: 401 63190 403
 Width: 860
 GlyphClass: 2
@@ -36247,7 +37059,7 @@ PUSHB_5
  4
 CALL
 PUSHB_1
- 20
+ 21
 SHP[rp2]
 PUSHB_1
  27
@@ -36269,9 +37081,99 @@ SVTCA[x-axis]
 PUSHB_1
  28
 MDAP[rnd]
-PUSHB_1
+PUSHB_2
  29
-MDRP[rp0,rnd,white]
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -13599
+ -9138
+ 21
+CALL
+SPVFS
+PUSHB_1
+ 0
+MDAP[no-rnd]
+PUSHB_1
+ 27
+MDAP[no-rnd]
+PUSHB_1
+ 0
+SRP0
+PUSHB_2
+ 24
+ 19
+MIRP[rp0,min,black]
+SFVTPV
+PUSHB_1
+ 27
+SRP0
+PUSHB_2
+ 1
+ 19
+MIRP[rp0,min,black]
+PUSHW_3
+ -14423
+ -7773
+ 21
+CALL
+SPVFS
+SFVTCA[x-axis]
+PUSHB_1
+ 22
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 14
+SRP0
+PUSHB_1
+ 22
+SRP0
+PUSHB_2
+ 13
+ 29
+MIRP[rp0,min,black]
+SFVTCA[x-axis]
+PUSHB_1
+ 14
+SRP0
+PUSHB_2
+ 21
+ 29
+MIRP[rp0,min,black]
+SPVTCA[x-axis]
+SVTCA[y-axis]
+PUSHB_3
+ 1
+ 13
+ 14
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_8
+ 0
+ 1
+ 13
+ 14
+ 21
+ 22
+ 24
+ 27
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
 SVTCA[y-axis]
 PUSHB_2
  24
@@ -36281,16 +37183,10 @@ SRP2
 PUSHB_1
  16
 IP
-PUSHB_1
+PUSHB_2
+ 2
  27
 SRP1
-PUSHB_2
- 14
- 1
-IP
-IP
-PUSHB_1
- 2
 SRP2
 PUSHB_1
  6
@@ -36329,9 +37225,10 @@ SplineSet
  168 510 l 1,27,-1
  389 176 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 
-StartChar: apple
+StartChar: uniF8FF
 Encoding: 402 63743 404
 Width: 1184
 GlyphClass: 2
@@ -36387,24 +37284,23 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  68
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
  68
 SRP0
-PUSHB_3
- 55
+PUSHB_2
  7
- 16
+ 1
 CALL
 PUSHB_5
  19
- 6
+ 17
  0
- 14
+ 16
  4
 CALL
 PUSHB_1
@@ -36414,62 +37310,59 @@ PUSHB_1
  19
 SRP0
 PUSHB_4
- 14
- 19
- 32
- 14
-CALL
-PUSHB_5
- 26
- 6
- 0
- 30
- 4
-CALL
-PUSHB_1
- 26
-MDAP[rnd]
-PUSHB_5
- 32
- 6
- 0
- 30
- 4
-CALL
-PUSHB_1
- 19
-SRP0
-PUSHB_5
- 3
- 6
- 0
- 14
- 4
-CALL
-PUSHB_1
- 3
-MDAP[rnd]
-PUSHB_1
- 19
-SRP0
-PUSHB_3
- 7
- 79
  16
+ 19
+ 32
+ 14
 CALL
 PUSHB_5
- 44
- 6
+ 26
+ 17
  0
- 14
+ 50
  4
 CALL
 PUSHB_1
- 44
-SRP0
+ 26
+MDAP[rnd]
+PUSHB_5
+ 32
+ 17
+ 0
+ 50
+ 4
+CALL
 PUSHB_1
+ 19
+SRP0
+PUSHB_5
+ 3
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_1
+ 3
+MDAP[rnd]
+PUSHB_1
+ 19
+SRP0
+PUSHB_2
+ 79
+ 1
+CALL
+PUSHB_5
+ 44
+ 17
+ 0
+ 16
+ 4
+CALL
+PUSHB_2
  87
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  26
  68
@@ -36483,31 +37376,33 @@ PUSHB_4
 DEPTH
 SLOOP
 IP
+PUSHB_1
+ 32
+SRP1
+PUSHB_1
+ 0
+IP
 PUSHB_2
  19
- 3
+ 7
 SRP1
 SRP2
-PUSHB_4
- 0
- 13
+PUSHB_2
  29
  35
-DEPTH
-SLOOP
+IP
 IP
 PUSHB_2
  79
- 32
+ 3
 SRP1
 SRP2
-PUSHB_4
- 21
- 24
- 25
+PUSHB_3
+ 13
  20
-DEPTH
-SLOOP
+ 24
+IP
+IP
 IP
 SVTCA[y-axis]
 PUSHB_2
@@ -36603,6 +37498,7 @@ SplineSet
  838 1329 838 1329 746 1329 c 2,85,-1
  438 1329 l 2,62,63
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: NUL
@@ -36632,6 +37528,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 67 96 N 1 0 0 1 219 1273 2
+Validated: 5
 EndChar
 
 StartChar: Smacron
@@ -36645,6 +37542,7 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 215 1311 2
+Validated: 5
 EndChar
 
 StartChar: Ymacron
@@ -36658,6 +37556,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
 StartChar: ymacron
@@ -36671,6 +37570,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 113 175 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
 StartChar: Sbreve
@@ -36684,6 +37584,7 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 215 1311 2
+Validated: 5
 EndChar
 
 StartChar: Ybreve
@@ -36697,6 +37598,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
 StartChar: ybreve
@@ -36710,6 +37612,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 3
 Refer: 359 728 N 1 0 0 1 201 1311 2
+Validated: 5
 EndChar
 
 StartChar: Adotaccent
@@ -36723,6 +37626,7 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 184 1313 2
+Validated: 5
 EndChar
 
 StartChar: Odotaccent
@@ -36736,6 +37640,7 @@ LayerCount: 2
 Fore
 Refer: 50 79 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 199 1313 2
+Validated: 5
 EndChar
 
 StartChar: Udotaccent
@@ -36749,6 +37654,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 205 1313 2
+Validated: 5
 EndChar
 
 StartChar: adotaccent
@@ -36762,6 +37668,7 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 203 1313 2
+Validated: 5
 EndChar
 
 StartChar: udotaccent
@@ -36775,6 +37682,7 @@ LayerCount: 2
 Fore
 Refer: 56 85 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 207 1313 2
+Validated: 5
 EndChar
 
 StartChar: Cogonek
@@ -36812,24 +37720,21 @@ MIRP[min,black]
 PUSHB_1
  17
 SRP0
-PUSHB_3
- 51
+PUSHB_2
  27
- 16
+ 1
 CALL
 PUSHB_5
  40
- 17
+ 6
  0
  18
  4
 CALL
-PUSHB_1
- 40
-SRP0
-PUSHB_1
+PUSHB_2
  59
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  27
  17
@@ -36929,6 +37834,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,57,-1
  746 1370 l 2,34,35
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: cogonek
@@ -36966,24 +37872,21 @@ MIRP[min,black]
 PUSHB_1
  17
 SRP0
-PUSHB_3
- 51
+PUSHB_2
  27
- 16
+ 1
 CALL
 PUSHB_5
  40
- 17
+ 6
  0
  18
  4
 CALL
-PUSHB_1
- 40
-SRP0
-PUSHB_1
+PUSHB_2
  59
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  27
  17
@@ -37083,6 +37986,7 @@ SplineSet
  337 1370 337 1370 438 1370 c 2,57,-1
  746 1370 l 2,34,35
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Ahungarumlaut
@@ -37096,6 +38000,7 @@ LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 3
 Refer: 364 733 N 1 0 0 1 309 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ehungarumlaut
@@ -37109,6 +38014,7 @@ LayerCount: 2
 Fore
 Refer: 40 69 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 330 1270 2
+Validated: 5
 EndChar
 
 StartChar: Ihungarumlaut
@@ -37122,6 +38028,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 338 1270 2
+Validated: 5
 EndChar
 
 StartChar: Shungarumlaut
@@ -37135,6 +38042,7 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 340 1270 2
+Validated: 5
 EndChar
 
 StartChar: Yhungarumlaut
@@ -37147,6 +38055,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 326 1270 2
+Validated: 5
 EndChar
 
 StartChar: ahungarumlaut
@@ -37160,6 +38069,7 @@ LayerCount: 2
 Fore
 Refer: 68 97 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 328 1270 2
+Validated: 5
 EndChar
 
 StartChar: yhungarumlaut
@@ -37172,6 +38082,7 @@ LayerCount: 2
 Fore
 Refer: 60 89 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 326 1270 2
+Validated: 5
 EndChar
 
 StartChar: iring
@@ -37185,6 +38096,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 361 730 N 1 0 0 1 258 1311 2
+Validated: 5
 EndChar
 
 StartChar: idotaccent
@@ -37198,6 +38110,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 3
 Refer: 360 729 N 1 0 0 1 207 1272 2
+Validated: 5
 EndChar
 
 StartChar: ihungarumlaut
@@ -37211,6 +38124,7 @@ LayerCount: 2
 Fore
 Refer: 44 73 N 1 0 0 1 0 0 2
 Refer: 364 733 N 1 0 0 1 332 1270 2
+Validated: 5
 EndChar
 
 StartChar: Stilde
@@ -37224,6 +38138,7 @@ LayerCount: 2
 Fore
 Refer: 54 83 N 1 0 0 1 0 0 3
 Refer: 363 732 N 1 0 0 1 215 1311 2
+Validated: 5
 EndChar
 
 StartChar: a.alt
@@ -37295,10 +38210,9 @@ MIRP[min,black]
 PUSHB_1
  41
 SRP0
-PUSHB_3
- 17
+PUSHB_2
  53
- 16
+ 1
 CALL
 PUSHB_2
  59
@@ -37312,21 +38226,18 @@ SHP[rp2]
 PUSHB_1
  59
 SRP0
-PUSHB_3
- 53
+PUSHB_2
  48
- 16
+ 1
 CALL
 PUSHB_2
  6
  9
 MIRP[min,black]
-PUSHB_1
- 6
-SRP0
-PUSHB_1
+PUSHB_2
  68
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  53
  41
@@ -37371,16 +38282,10 @@ IP
 IP
 SVTCA[y-axis]
 PUSHB_2
+ 51
  44
- 12
 SRP1
 SRP2
-PUSHB_1
- 62
-IP
-PUSHB_1
- 51
-SRP1
 PUSHB_6
  42
  47
@@ -37393,7 +38298,7 @@ SLOOP
 IP
 PUSHB_1
  56
-SRP2
+SRP1
 PUSHB_2
  65
  66
@@ -37401,7 +38306,7 @@ IP
 IP
 PUSHB_1
  37
-SRP1
+SRP2
 PUSHB_2
  35
  39
@@ -37409,7 +38314,7 @@ IP
 IP
 PUSHB_1
  31
-SRP2
+SRP1
 PUSHB_2
  30
  33
@@ -37417,7 +38322,7 @@ IP
 IP
 PUSHB_1
  28
-SRP1
+SRP2
 PUSHB_1
  25
 IP
@@ -37495,6 +38400,7 @@ SplineSet
  772 602 l 1,66,-1
  787 518 l 1,60,-1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: invertedbreve
@@ -37552,17 +38458,15 @@ PUSHB_1
 MDRP[rp0,rnd,white]
 PUSHB_5
  22
- 6
+ 17
  0
- 22
+ 24
  4
 CALL
-PUSHB_1
- 22
-SRP0
-PUSHB_1
+PUSHB_2
  32
-MDRP[rp0,rnd,white]
+ 1
+CALL
 PUSHB_2
  22
  19
@@ -37623,6 +38527,7 @@ SplineSet
  268 254 l 1,30,-1
  256 154 l 1,17,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Euro
@@ -37720,9 +38625,9 @@ SHP[rp2]
 SHP[rp2]
 PUSHB_5
  35
- 6
+ 17
  0
- 30
+ 50
  4
 CALL
 PUSHB_1
@@ -37739,12 +38644,10 @@ PUSHB_4
  6
  9
 CALL
-PUSHB_1
- 37
-SRP0
-PUSHB_1
+PUSHB_2
  63
-MDRP[rp0,rnd,white]
+ 1
+CALL
 SVTCA[y-axis]
 PUSHB_2
  45
@@ -37841,6 +38744,7 @@ SplineSet
  850 1266 l 1,61,-1
  733 1280 l 1,24,-1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
