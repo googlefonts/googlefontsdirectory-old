@@ -18,3 +18,11 @@ description: <p>Eye-catching, no-messing, \
   bring bold information to web pages.</p>
 
 font.Coda-Heavy.ttf.weight: 800
+# 2011-01-26 DC This is incorrect, it should be:
+# font.Coda-Heavy.ttf.weight: 900
+
+font.Coda-Caption-Black.ttf.subfamily: Caption
+font.Coda-Caption-Black.ttf.weight: 800
+# 2011-01-26 DC This is incorrect, it should be:
+# font.Coda-Caption-Black.ttf.weight: 900
+
