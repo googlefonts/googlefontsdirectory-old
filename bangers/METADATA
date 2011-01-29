@@ -1,0 +1,20 @@
+visibility: SANDBOX
+# 2011-01-28 DC added this because it needs to be known for all fonts
+paymentschoice: ME
+
+license: OFL
+url: http://www.newtypography.co.uk
+category: display
+subsets: menu,latin
+
+family: Bangers
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+
+description: <p>Bangers!</p>
+
+font.Bangers-Italic.ttf.style: italic
