@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: Coda-Heavy
-FullName: Coda Heavy
+FontName: Coda-ExtraBold
+FullName: Coda ExtraBold
 FamilyName: Coda
-Weight: Black
-Copyright: Copyright (c) 2009 by vernon adams. All rights reserved.
-Version: 1.000
+Weight: ExtraBold
+Copyright: Copyright (c) 2009, 2010 vernon adams
+Version: 1.001
 ItalicAngle: 0
 UnderlinePosition: -103
 UnderlineWidth: 102
@@ -15,7 +15,7 @@ LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
 XUID: [1021 332 469972825 5920942]
-FSType: 256
+FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
