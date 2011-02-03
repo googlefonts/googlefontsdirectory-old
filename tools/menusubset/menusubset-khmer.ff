@@ -1,8 +1,9 @@
+#!/usr/local/bin/fontforge
 # A simple script to generate a menu subset. It outputs all unicode characters
 # in the word for "Khmer script", and also the ligatures needed for correct
-# shaping. After running "fontforge -script menusubset.ff", do "mv
-# Hanuman.menu.ttf Hanuman.menu".
-Open("Hanuman.ttf")
+# shaping. After running "fontforge -lang=ff -script menusubset.ff", do "mv
+# Font.menu.ttf Font.menu".
+Open($1)
 Select(0u1797)
 SelectMore(0u17b6)
 SelectMore(0u179f)
@@ -18,4 +19,5 @@ SelectMore(65564)
 SelectMore(65894)
 SelectInvert()
 Clear()
-Generate("Hanuman.menu.ttf")
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
