@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two" format="1">
+  <advance width="1294"/>
+  <unicode hex="0032"/>
+  <outline>
+    <contour>
+      <point x="1237" y="0" type="line" smooth="no"/>
+      <point x="1237" y="471" type="line" smooth="no"/>
+      <point x="1064" y="471" type="line" smooth="no"/>
+      <point x="1064" y="426"/>
+      <point x="1030" y="367"/>
+      <point x="965" y="337"/>
+      <point x="896" y="325"/>
+      <point x="848" y="324" type="qcurve" smooth="no"/>
+      <point x="687" y="324" type="line" smooth="no"/>
+      <point x="856" y="452"/>
+      <point x="1006" y="586"/>
+      <point x="1047" y="639" type="qcurve" smooth="yes"/>
+      <point x="1153" y="775"/>
+      <point x="1153" y="928" type="qcurve" smooth="yes"/>
+      <point x="1153" y="1034"/>
+      <point x="1071" y="1207"/>
+      <point x="928" y="1320"/>
+      <point x="740" y="1383"/>
+      <point x="631" y="1387" type="qcurve" smooth="yes"/>
+      <point x="550" y="1390"/>
+      <point x="387" y="1357"/>
+      <point x="239" y="1284"/>
+      <point x="124" y="1180"/>
+      <point x="56" y="1034"/>
+      <point x="57" y="950" type="qcurve" smooth="no"/>
+      <point x="54" y="844"/>
+      <point x="129" y="654"/>
+      <point x="205" y="586" type="qcurve" smooth="no"/>
+      <point x="431" y="760" type="line" smooth="no"/>
+      <point x="424" y="767"/>
+      <point x="403" y="790"/>
+      <point x="369" y="858"/>
+      <point x="369" y="889" type="qcurve" smooth="yes"/>
+      <point x="369" y="951"/>
+      <point x="439" y="1031"/>
+      <point x="504" y="1031" type="qcurve" smooth="yes"/>
+      <point x="557" y="1031"/>
+      <point x="637" y="936"/>
+      <point x="641" y="859" type="qcurve" smooth="no"/>
+      <point x="641" y="796"/>
+      <point x="608" y="691"/>
+      <point x="536" y="597"/>
+      <point x="473" y="535"/>
+      <point x="416" y="487" type="qcurve" smooth="yes"/>
+      <point x="287" y="377"/>
+      <point x="94" y="303" type="qcurve" smooth="no"/>
+      <point x="94" y="0" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1031</integer>
+	    <key>width</key>	    <integer>356</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>57</integer>
+	    <key>width</key>
+	    <integer>312</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>641</integer>
+	    <key>width</key>
+	    <integer>512</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>1064</integer>
+	    <key>width</key>
+	    <integer>173</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
