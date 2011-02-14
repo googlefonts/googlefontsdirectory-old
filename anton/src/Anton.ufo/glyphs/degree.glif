@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="degree" format="1">
+  <advance width="804"/>
+  <unicode hex="00b0"/>
+  <outline>
+    <contour>
+      <point x="261" y="1206"/>
+      <point x="334" y="1112"/>
+      <point x="472" y="1112"/>
+      <point x="545" y="1206"/>
+      <point x="545" y="1332"/>
+      <point x="472" y="1426"/>
+      <point x="334" y="1426"/>
+      <point x="261" y="1332"/>
+    </contour>
+    <contour>
+      <point x="49" y="1425"/>
+      <point x="238" y="1607"/>
+      <point x="566" y="1607"/>
+      <point x="756" y="1425"/>
+      <point x="756" y="1113"/>
+      <point x="566" y="931"/>
+      <point x="238" y="931"/>
+      <point x="49" y="1113"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>931</integer>
+	    <key>width</key>	    <integer>181</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1426</integer>
+	    <key>width</key>	    <integer>181</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>49</integer>
+	    <key>width</key>
+	    <integer>212</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>545</integer>
+	    <key>width</key>
+	    <integer>211</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

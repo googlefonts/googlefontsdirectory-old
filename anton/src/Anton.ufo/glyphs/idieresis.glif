@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresis" format="1">
+  <advance width="514"/>
+  <unicode hex="00ef"/>
+  <outline>
+    <contour>
+      <point x="78" y="0" type="line" smooth="no"/>
+      <point x="78" y="1500" type="line" smooth="no"/>
+      <point x="436" y="1500" type="line" smooth="no"/>
+      <point x="436" y="0" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="-164" y="1591" type="line" smooth="no"/>
+      <point x="-164" y="1889" type="line" smooth="no"/>
+      <point x="194" y="1889" type="line" smooth="no"/>
+      <point x="194" y="1591" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="320" y="1591" type="line" smooth="no"/>
+      <point x="320" y="1889" type="line" smooth="no"/>
+      <point x="678" y="1889" type="line" smooth="no"/>
+      <point x="678" y="1591" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1480</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1591</integer>
+	    <key>width</key>	    <integer>298</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>-164</integer>
+	    <key>width</key>
+	    <integer>358</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>78</integer>
+	    <key>width</key>
+	    <integer>358</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>320</integer>
+	    <key>width</key>
+	    <integer>358</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
