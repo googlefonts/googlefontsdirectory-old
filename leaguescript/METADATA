@@ -9,7 +9,8 @@ family: League Script
 
 designer: Haley Fiege
 
-font.LeagueScript-Thin.ttf.style: normal
+font.LeagueScript.ttf.style: normal
+font.LeagueScript.ttf.weight: 400
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
@@ -22,5 +23,3 @@ description: <p>This ain’t no Lucida. League Script #1 \
   League of Moveable Type</a>, it includes ligatures \
   and will act as the framework for future script \
   designs.</p>
-
-conversion: OTF opened with FontForge, layers converted to Quardratic, simplified, prep table added, OS/2 weight set to thin, italic angle guessed, DRM set to installable, generated as TrueType with PS names, dummy DSIG and *not* Old Style Kern because of non-unicodeBMP encoded glyphs
