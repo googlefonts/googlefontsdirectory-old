@@ -131,7 +131,8 @@ def subset_font(font_in, font_out, unicodes, opts):
     subset_font_raw(font_in, font_out_raw, unicodes, opts)
     if font_out != font_out_raw:
         os.rename(font_out_raw, font_out)
-        os.rename(font_out_raw + '.nam', font_out + '.nam')
+# 2011-02-14 DC this needs to only happen with --namelist is used
+#        os.rename(font_out_raw + '.nam', font_out + '.nam')
 
 def getsubset(subset):
     subsets = subset.split('+')
