@@ -10,6 +10,13 @@ family: Iconic
 
 designer: PJ Onori
 
+# TODO: Check that this font is really published with a dual license as the description currently says. And change the description if this is not the case: the metadata of the sources also needs checking and correcting.
+# Dual licensing fonts is not a best practise and very likely to introduce confusion and problems. Especially between software-oriented licenses and content-oriented licenses.
+# Is this font directory really going to accept CC-licensed fonts even if CC discourages the use of CC for software? Not a good idea at all.
+# http://wiki.creativecommons.org/Frequently_Asked_Questions#Can_I_use_a_Creative_Commons_license_for_software.3F
+# You seriously need to reconsider this. 
+
+
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: false
