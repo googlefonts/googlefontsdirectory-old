@@ -1,7 +1,7 @@
-%%FONTLAB ENCODING: 306; Merriweather - encoding 16
-%Date - Dec 9 2010 - Version 016
+%%FONTLAB ENCODING: 309; Merriweather - encoding 21
+%Date - Feb 18 2011 - Version 021
 %This encoding file is designed for use with FontLab 4.x products.
-%Made by Eben Sorkin for Merriweather. Merriweather is a Google supported type project.
+%Made by Eben Sorkin for the Merriweather font family. Merriweather is a Google supported type project.
 
 
 space
@@ -17,9 +17,6 @@ uni2008
 uni2009
 uni200A 
 uni00A0
-
-
-
 
 quotesingle
 quotedbl
@@ -136,8 +133,6 @@ X
 Y
 Z
 
-
-
 a
 b
 c
@@ -166,7 +161,6 @@ y
 z
 
 asciitilde
-
 asciicircum
 
 cent
@@ -174,6 +168,7 @@ sterling
 currency
 yen
 dollar
+euro
 
 acute
 grave
@@ -189,7 +184,6 @@ tilde
 hungarumlaut
 carondl
 cedilla
-cedillatop
 commabelow
 commaaccent
 
@@ -199,6 +193,7 @@ dieresis.cap
 circumflex.cap
 caron.cap
 breve.cap
+macron.cap
 dotaccent.cap
 ring.cap
 ogonek.cap
@@ -210,14 +205,8 @@ copyright
 ordfeminine
 ordmasculine
 
-
-
 paragraph
 section
-
-
-
-
 
 Agrave
 Aacute
@@ -249,7 +238,9 @@ Ocircumflex
 Otilde
 Odieresis
 Oslash
+Thorn
 Sacute
+Scaron
 Ugrave
 Uacute
 Ucircumflex
@@ -257,7 +248,8 @@ Udieresis
 Yacute
 Zacute
 Zdotaccent
-Thorn
+Zcaron
+
 
 germandbls
 agrave
@@ -299,7 +291,9 @@ odieresis
 ohungarumlaut
 nacute
 oslash
+thorn
 sacute
+scaron
 ugrave
 uacute
 ucircumflex
@@ -309,12 +303,10 @@ yacute
 ydieresis
 zacute
 zdotaccent
-thorn
-
-foundryicon
+zcaron
 
 
-
+merriweathericon
 
 
 
@@ -324,46 +316,6 @@ foundryicon
 
 
 
-eresis
-Oslash
-Sacute
-Ugrave
-Uacute
-Ucircumflex
-Udieresis
-Yacute
-Zacute
-Zdotaccent
-Thorn
 
-germandbls
-agrave
-aacute
-acircumflex
-atilde
-adieresis
-aring
-aogonek
-ae
-cacute
-ccedilla
-egrave
-eacute
-ecircumflex
-edieresis
-eogonek
-ff
-fi 
-ffi
-fl
-ffl
-dotlessi
-ij
-igrave
-iacute
-icircumflex
-idieresis
-eth
-lslash
-lcaron
-nt
+
+
