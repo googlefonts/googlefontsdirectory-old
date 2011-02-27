@@ -1,0 +1,41 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+url: N/A
+category: display
+subsets: menu,latin,latin-ext
+
+family: NovaScript
+
+designer: Wojciech Kalinowski
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>NovaScript is based on my NovaOval font, \
+  and it's a part of the Nova set. I created it because \
+  the Nova family was missing an oblique font. Now I \
+  consider the Nova family complete.</p>
+
+
+#     cd ~/src/font-optimizer/;
+#     ./subset.pl -v --chars="NovaScript" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     /home/crossland-fedora14/TMP/POL/novascript/NovaScript.{ttf,menu};
+
+ 
+#   for font in `ls -1 *ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#   done;
+
+font.NovaScript.ttf.style: normal
+
