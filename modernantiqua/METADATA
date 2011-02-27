@@ -1,0 +1,48 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+url: N/A
+category: display
+subsets: menu,latin,latin-ext
+
+family: ModernAntiqua
+
+designer: Wojciech Kalinowski
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>This is another of my old \
+  fonts used for inscriptions on stone. \
+  I created the ModernAntiqua font around \
+  1995 like my other fonts - when \
+  I started doing the inscriptions on stone \
+  professionally. The font is based on \
+  Roman square capitals. Initially the \
+  font contained only capitals and digits and \
+  later I made the missing lowercase and \
+  symbols. Last year I started \
+  converting my typeface designs into fonts. The \
+  first was NovaCut and all the Nova family, \
+  next MedievalSharp, and here's another...</p>
+
+
+#     cd ~/src/font-optimizer/;
+#     ./subset.pl -v --chars="ModernAntiqua" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     /home/crossland-fedora14/TMP/POL/modernantiqua/ModernAntiqua.{ttf,menu};
+
+ 
+#   for font in `ls -1 *ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#   done;
+
