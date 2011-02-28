@@ -1,0 +1,5 @@
+feature ccmp {
+  lookup ccmp {
+    sub @cc2_match_1' @cc2_match_2  by [\dotlessi \dotlessj ] ;
+  } ccmp;
+} ccmp;

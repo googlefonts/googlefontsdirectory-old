@@ -1,0 +1,26 @@
+languagesystem DFLT dflt;
+languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
+languagesystem latn DEU ;
+languagesystem latn TRK ;
+languagesystem latn AZE ;
+languagesystem latn CRT ;
+languagesystem latn CAT ;
+languagesystem latn LAT ;
+#languagesystem latn ROM ; not used; see discussion at https://bugs.launchpad.net/ubuntu-font-family/+bug/615565
+#languagesystem latn MOL ;
+
+
+include (EBGaramondRoman_classes.fea)
+include (EBGaramond_mark.fea)
+include (EBGaramond_mkmk.fea)
+include (EBGaramond_kern.fea)
+include (EBGaramond_locals.fea)
+include (EBGaramond_case.fea)
+include (EBGaramond_ccmp.fea)
+include (EBGaramond_longs.fea)
+include (EBGaramond_figures.fea)
+include (EBGaramond_smallcaps.fea)
+include (EBGaramond_ligatures.fea)
+include (EBGaramond_calt.fea)
