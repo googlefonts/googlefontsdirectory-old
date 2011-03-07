@@ -6,7 +6,9 @@ url: N/A
 category: display
 subsets: menu,latin,latin-ext
 
-family: NovaOval
+family: Nova
+group: Nova
+font.NovaOval.ttf.subfamily: Oval
 
 designer: Wojciech Kalinowski
 
