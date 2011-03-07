@@ -4,7 +4,7 @@ payment: NONE
 license: OFL
 url: http://www.georgduffner.at
 category: serif
-subsets: menu,latin,latin-ext
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,vietnamese+latin
 
 family: EB Garamond
 
@@ -47,13 +47,23 @@ description: <p>Garamont’s fonts have set a \
   Garamond and I promise, I’ll try hard \
   to learn and give my best.</p>
 
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,kern,mark,mkmk,c2sc,calt,case,ccmp,cv01,dnom,locl,numr,ss01,ss02" \
+# --chars="EBGaramond QuốcNgữ()Каилрц" \
+# ~/googlefontdirectory/ebgaramond/EBGaramond-Regular.ttf \
+# ~/googlefontdirectory/ebgaramond/EBGaramond-Regular.menu;
+# cd ~/googlefontdirectory/ebgaramond/;
+
 # for family in ebgaramond; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
-#            latin latin-ext; doh
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            vietnamese+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py --null --nmr --roundtrip \
+#            python tools/subset/subset.py  --null --nmr --roundtrip \
 #                --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
