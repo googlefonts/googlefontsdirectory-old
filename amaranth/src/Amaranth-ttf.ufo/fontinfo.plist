@@ -91,14 +91,13 @@
 	<integer>650</integer>
 	<key>openTypeOS2Type</key>
 	<array>
-		<integer>2</integer>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>750</integer>
+	<integer>950</integer>
 	<key>openTypeOS2TypoDescender</key>
 	<integer>-250</integer>
 	<key>openTypeOS2TypoLineGap</key>
-	<integer>200</integer>
+	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
 	<array>
 		<integer>0</integer>
@@ -134,8 +133,8 @@
 		<integer>642</integer>
 		<integer>677</integer>
 		<integer>686</integer>
-		<integer>725</integer>
-		<integer>738</integer>
+		<integer>720</integer>
+		<integer>727</integer>
 	</array>
 	<key>postscriptDefaultWidthX</key>
 	<integer>500</integer>
