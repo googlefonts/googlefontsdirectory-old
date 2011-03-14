@@ -18,18 +18,12 @@ description: <p>The Cabin Font is a humanist sans \
   <p>Cabin incorporates modern proportions, \
   optical adjustments, and some elements \
   of the geometric sans.</p> \
-  <p>This is the Sketch version, a nice \
-  companion to the Bold weight.</p>
+  <p>This is the Sketch version, with the \
+  texture of a teenage doodle.</p>
 
-# font.CabinSketch-Bold.ttf.subfamily: Sketch
-# font.CabinSketch-Bold.ttf.description: <p>The \
-# Cabin Font is a humanist sans \
-# inspired by Edward Johnston’s and Eric \
-# Gill’s typefaces, with a touch of modernism.<p>\
-# <p>Cabin incorporates modern proportions, \
-# optical adjustments, and some elements \
-# of the geometric sans.</p> \
-# <p>This is the Sketch version, a nice \
-# companion to the Bold weight.</p>
-
-font.CabinSketch-Bold.ttf.weight: bold
+# cd ~/src/font-optimizer/; 
+# ./subset.pl -v \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Cabin Sketch" \
+# CabinSketch.ttf CabinSketch.menu;
+# cd ~/googlefontdirectory/cabinsketch; 
