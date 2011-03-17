@@ -55,7 +55,7 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 #     --chars="Ubunt КаилрцΕάεηικλν()" \
 #     Ubuntu-Regular.ttf Ubuntu-Regular.menu
 
-# rm *log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
 # for family in ubuntu; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
@@ -71,11 +71,25 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 #    done;
 # done;
 
-# mv Ubuntu-B.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Bold.ttf
-# mv Ubuntu-BI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-BoldItalic.ttf
-# mv Ubuntu-R.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf
-# mv Ubuntu-RI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Italic.ttf
 # mv Ubuntu-L.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Light.ttf
 # mv Ubuntu-LI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-LightItalic.ttf
+# mv Ubuntu-R.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf
+# mv Ubuntu-RI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Italic.ttf
 # mv Ubuntu-M.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Medium.ttf
 # mv Ubuntu-MI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-MediumItalic.ttf
+# mv Ubuntu-B.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Bold.ttf
+# mv Ubuntu-BI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-BoldItalic.ttf
+
+font.Ubuntu-LightItalic.ttf.style: italic
+font.Ubuntu-Italic.ttf.style: italic
+font.Ubuntu-MediumItalic.ttf.style: italic
+font.Ubuntu-BoldItalic.ttf.style: italic
+
+font.Ubuntu-Light.ttf.weight: 300
+font.Ubuntu-LightItalic.ttf.weight: 300
+font.Ubuntu-Regular.ttf.weight: 400
+font.Ubuntu-Italic.ttf.weight: 400
+font.Ubuntu-Medium.ttf.weight: 500
+font.Ubuntu-MediumItalic.ttf.weight: 500
+font.Ubuntu-Bold.ttf.weight: 700
+font.Ubuntu-BoldItalic.ttf.weight: 700
