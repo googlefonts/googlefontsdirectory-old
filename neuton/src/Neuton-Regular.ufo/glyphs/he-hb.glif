@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="he-hb" format="1">
+  <advance width="945"/>
+  <unicode hex="05D4"/>
+  <outline>
+    <contour>
+      <point x="849" y="1070" type="line"/>
+      <point x="881" y="1032" type="line"/>
+      <point x="847" y="875" type="line"/>
+      <point x="787" y="860" type="line"/>
+      <point x="811" y="329" type="line" smooth="yes"/>
+      <point x="817" y="184"/>
+      <point x="827" y="104"/>
+      <point x="843" y="8" type="curve"/>
+      <point x="727" y="-12" type="line"/>
+      <point x="685" y="18" type="line"/>
+      <point x="706" y="875" type="line"/>
+      <point x="42" y="875" type="line"/>
+      <point x="10" y="912" type="line"/>
+      <point x="30" y="1187" type="line"/>
+      <point x="120" y="1199" type="line"/>
+      <point x="163" y="1070" type="line"/>
+    </contour>
+    <contour>
+      <point x="66" y="10" type="line"/>
+      <point x="100" y="691" type="line"/>
+      <point x="183" y="701" type="line"/>
+      <point x="201" y="329" type="line" smooth="yes"/>
+      <point x="207" y="219"/>
+      <point x="217" y="112"/>
+      <point x="229" y="0" type="curve"/>
+      <point x="108" y="-20" type="line"/>
+    </contour>
+    <contour>
+      <point x="473" y="532" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="20" y="0" type="move" name="bottomleft"/>
+    </contour>
+    <contour>
+      <point x="473" y="1064" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="20" y="1064" type="move" name="topleft"/>
+    </contour>
+    <contour>
+      <point x="473" y="0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+</glyph>

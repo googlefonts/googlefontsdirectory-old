@@ -6,6 +6,9 @@ subsets: menu,latin,latin-ext
 #subsets: menu,latin,latin-ext,hebrew
 
 family: Neuton
+group: Neuton
+font.NovaCut.ttf.subfamily: Cut
+
 
 designer: Brian Zick
 
@@ -32,12 +35,17 @@ description: <p>Neuton is a clean, dark, somewhat \
   fancier italics look ridiculous. Who said a \
   roman needs only one companion?</p>
 
-# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     --chars="Neuton" \
-#     Neuton-Regular.ttf Neuton-Regular.menu;
 
-
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Neuton" \
+#    ~/googlefontdirectory/neuton/Neuton-Regular.{ttf,menu};
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Neuton Cursive" \
+#    ~/googlefontdirectory/neuton/Neuton-Cursive.{ttf,menu};
 # for family in neuton; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
@@ -51,12 +59,14 @@ description: <p>Neuton is a clean, dark, somewhat \
 #    done;
 # done;
 
+
 # 2011-02-02 DC Add hewbrew subsets when the charset is defined
 #
-# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Neuton עברית()" \
-#     Regular.ttf Regular.menu;
+#    ~/googlefontdirectory/neuton/Neuton-Regular.{ttf,menu};
 #
 # for family in neuton; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
