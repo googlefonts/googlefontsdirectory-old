@@ -1,4 +1,5 @@
-visibility: INTERNAL
+visibility: SANDBOX
+payment: DESIGNER
 
 license: OFL
 url: http://www.newtypography.co.uk
@@ -17,3 +18,11 @@ description: <p>Six Caps is a highly \
   is a stripped down and 'normalised' \
   version of the classic grotesk display \
   forms.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="smcp,ordn,sups,sinf,subs" \
+# --chars="Six Caps" \
+# ~/googlefontdirectory/sixcaps/SixCaps.ttf \
+# ~/googlefontdirectory/sixcaps/SixCaps.menu;
+# cd ~/googlefontdirectory/sixcaps/;
