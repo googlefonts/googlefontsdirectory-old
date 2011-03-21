@@ -1,0 +1,25 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Oswald 
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Oswald is a reworking of the classic \
+  style historically represented by the 'Alternate \
+  Gothic' sans serif typefaces. The characters of \
+  Oswald have been re-drawn and reformed to better \
+  fit the pixel grid of standard digital screens.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Oswald" \
+#    ~/googlefontdirectory/oswald/Oswald.{ttf,menu};
