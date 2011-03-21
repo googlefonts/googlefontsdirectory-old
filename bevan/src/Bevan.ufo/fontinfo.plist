@@ -30,7 +30,7 @@
 	<string>vernon adams</string>
 	<key>openTypeNameLicense</key>
 	<string>Copyright (c) 2011, vern,,, (&lt;URL|email>),
-with Reserved Font Name Bevon.
+with Reserved Font Name Bevan.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
@@ -135,7 +135,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<string>Bevan</string>
 	<key>openTypeOS2Panose</key>
 	<array>
-		<integer>2</integer>
+		<integer>0</integer>
 		<integer>0</integer>
 		<integer>0</integer>
 		<integer>0</integer>
@@ -159,7 +159,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	</array>
 	<key>openTypeOS2Type</key>
 	<array>
-		<integer>2</integer>
+		<integer>0</integer>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
 	<integer>2385</integer>
@@ -195,7 +195,6 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<array>
 		<integer>0</integer>
 		<integer>1</integer>
-		<integer>2</integer>
 		<integer>3</integer>
 		<integer>5</integer>
 		<integer>7</integer>
@@ -223,58 +222,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<integer>102</integer>
 	<key>postscriptUnderlinePosition</key>
 	<integer>-205</integer>
-	<key>postscriptBlueValues</key>
-	<array>
-		<integer>-29</integer>
-		<integer>0</integer>
-		<integer>1072</integer>
-		<integer>1091</integer>
-		<integer>1345</integer>
-		<integer>1377</integer>
-		<integer>1622</integer>
-		<integer>1653</integer>
-	</array>
-	<key>postscriptOtherBlues</key>
-	<array>
-		<integer>-398</integer>
-		<integer>-389</integer>
-	</array>
-	<key>postscriptStemSnapH</key>
-	<array>
-		<integer>183</integer>
-		<integer>192</integer>
-		<integer>225</integer>
-		<integer>242</integer>
-		<integer>289</integer>
-		<integer>312</integer>
-		<integer>348</integer>
-		<integer>352</integer>
-		<integer>359</integer>
-		<integer>375</integer>
-		<integer>460</integer>
-		<integer>495</integer>
-	</array>
-	<key>postscriptStemSnapV</key>
-	<array>
-		<integer>252</integer>
-		<integer>302</integer>
-		<integer>346</integer>
-		<integer>382</integer>
-		<integer>400</integer>
-		<integer>452</integer>
-		<integer>465</integer>
-		<integer>484</integer>
-		<integer>504</integer>
-		<integer>517</integer>
-		<integer>564</integer>
-		<integer>609</integer>
-	</array>
-	<key>postscriptBlueFuzz</key>
-	<integer>1</integer>
-	<key>postscriptBlueShift</key>
-	<integer>7</integer>
-	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
+	
+	
 	<key>macintoshFONDName</key>
 	<string>Bevan</string>
     </dict>
