@@ -85,11 +85,13 @@ font.Ubuntu-Italic.ttf.style: italic
 font.Ubuntu-MediumItalic.ttf.style: italic
 font.Ubuntu-BoldItalic.ttf.style: italic
 
+# Note: weights for normal (400) and bold (700) are given as strings because
+# we don't want to change the string from what's already in production.
 font.Ubuntu-Light.ttf.weight: 300
 font.Ubuntu-LightItalic.ttf.weight: 300
-font.Ubuntu-Regular.ttf.weight: 400
-font.Ubuntu-Italic.ttf.weight: 400
+font.Ubuntu-Regular.ttf.weight: normal
+font.Ubuntu-Italic.ttf.weight: normal
 font.Ubuntu-Medium.ttf.weight: 500
 font.Ubuntu-MediumItalic.ttf.weight: 500
-font.Ubuntu-Bold.ttf.weight: 700
-font.Ubuntu-BoldItalic.ttf.weight: 700
+font.Ubuntu-Bold.ttf.weight: bold
+font.Ubuntu-BoldItalic.ttf.weight: bold
