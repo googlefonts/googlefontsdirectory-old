@@ -1,0 +1,32 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Michroma
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Michroma is a reworking and remodelling of \
+  the rounded-square sans genre that is closely associated \
+  with a 1960s feeling of the future. This is due to the \
+  popularity of Microgramma, designed by Aldo Novarese and \
+  Alessandro Buttiin in 1952, which pioneered the style; \
+  and the most famous typeface family of the genre that \
+  came 10 years later in Novarese’s Eurostile.</p> \
+  <p>Michroma has character widths and stem weights perfectly \
+  formed to fit today's digital screens; Vernon Adams has \
+  pioneered a design process with this font that produces \
+  excellent results on screen with no manual hinting \
+  involved.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Michroma" \
+#   ~/googlefontdirectory/michroma/Michroma.{ttf,menu};
