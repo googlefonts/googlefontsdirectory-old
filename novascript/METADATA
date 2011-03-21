@@ -20,14 +20,16 @@ description: <p>NovaScript is based on my NovaOval font, \
   the Nova family was missing an oblique font. Now I \
   consider the Nova family complete.</p>
 
+font.NovaScript.ttf.style: normal
 
-#     cd ~/src/font-optimizer/;
-#     ./subset.pl -v --chars="NovaScript" \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     /home/crossland-fedora14/TMP/POL/novascript/NovaScript.{ttf,menu};
-
+# cd ~/src/font-optimizer/;
+# ./subset.pl -v --chars="Nova Script" \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# ~/googlefontdirectory/novascript/NovaScript.{ttf,menu};
+# cd ~/googlefontdirectory/novascript/;
  
-#   for font in `ls -1 *ttf | cut -d. -f1`; do
+# cd novascript;
+#    for font in `ls -1 *ttf | cut -d. -f1`; do
 #        for subset in \
 #            latin latin-ext; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
@@ -37,7 +39,5 @@ description: <p>NovaScript is based on my NovaOval font, \
 #                --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
-#   done;
-
-font.NovaScript.ttf.style: normal
-
+#    cd ..;
+# done;

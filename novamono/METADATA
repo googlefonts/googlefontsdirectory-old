@@ -34,21 +34,16 @@ description: <p>I created the NovaCut font about \
   font - NovaMono - the seventh part of \
   this family.</p>
 
-
-# for fontnamecap in `ls -1`; do
-#     cd ~/src/font-optimizer/;
-#     ./subset.pl -v --chars="$fontnamecap" \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     /tmp/7/$fontnamecap/$fontnamecap.ttf \
-#     /tmp/7/$fontnamecap/$fontnamecap.menu;
-#     cd /home/crossland-fedora14/TMP/7;
-# done;
+# cd ~/src/font-optimizer/;
+# ./subset.pl -v --chars="Nova Mono" \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# ~/googlefontdirectory/novamono/NovaMono.{ttf,menu};
+# cd ~/googlefontdirectory/novamono/;
  
-# for family in `ls -1`; do
-#    cd $family;
+# cd novamono;
 #    for font in `ls -1 *ttf | cut -d. -f1`; do
 #        for subset in \
-#            latin latin-ext; do
+#            latin latin-ext greek+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
 #            python ~/googlefontdirectory/tools/subset/subset.py \
@@ -57,10 +52,4 @@ description: <p>I created the NovaCut font about \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
 #    cd ..;
-#    done;
 # done;
-
-# python ~/googlefontdirectory/tools/subset/subset.py \
-# --null --nmr --roundtrip --namelist --script \
-# --subset=greek+latin NovaMono/NovaMono.ttf \
-# NovaMono/NovaMono.greek+latin;
