@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0200" format="1">
+  <advance width="1051"/>
+  <unicode hex="0200"/>
+  <outline>
+    <contour>
+      <point x="801" y="1593" type="line" smooth="no"/>
+      <point x="977" y="0" type="line" smooth="no"/>
+      <point x="637" y="0" type="line" smooth="no"/>
+      <point x="612" y="240" type="line" smooth="no"/>
+      <point x="434" y="240" type="line" smooth="no"/>
+      <point x="412" y="0" type="line" smooth="no"/>
+      <point x="70" y="0" type="line" smooth="no"/>
+      <point x="250" y="1593" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="538" y="1294" type="line" smooth="no"/>
+      <point x="506" y="1294" type="line" smooth="no"/>
+      <point x="459" y="530" type="line" smooth="no"/>
+      <point x="585" y="530" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="676" y="1729" type="line" smooth="no"/>
+      <point x="428" y="2158" type="line" smooth="no"/>
+      <point x="658" y="2266" type="line" smooth="no"/>
+      <point x="842" y="1787" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="374" y="1729" type="line" smooth="no"/>
+      <point x="86" y="2158" type="line" smooth="no"/>
+      <point x="320" y="2266" type="line" smooth="no"/>
+      <point x="540" y="1787" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1573</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

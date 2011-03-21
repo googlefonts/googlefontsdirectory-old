@@ -1,0 +1,211 @@
+%%FONTLAB CLASSES
+
+%%CLASS _KERN_A
+%%GLYPHS  A' Aacute Acircumflex Adieresis Agrave Aring Atilde
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_C_1ST
+%%GLYPHS  C' Ccedilla
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_E_1ST
+%%GLYPHS  E' AE Eacute Ecircumflex Edieresis Egrave OE
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_I_1ST
+%%GLYPHS  I' H Iacute Icircumflex Idieresis Igrave M N Ntilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_I_2ND
+%%GLYPHS  I' B D E Eacute Ecircumflex Edieresis Egrave F H Iacute Icircumflex Idieresis Igrave K L Lslash M N Ntilde P R Thorn
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_L_1ST
+%%GLYPHS  L' Lslash
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_O_1ST
+%%GLYPHS  O' D Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_O_2ND
+%%GLYPHS  O' C Ccedilla G OE Oacute Ocircumflex Odieresis Ograve Oslash Otilde Q
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_S
+%%GLYPHS  S' Scaron Scommaaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_T
+%%GLYPHS  T' Tcommaaccent uni021A
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_U
+%%GLYPHS  U' Uacute Ucircumflex Udieresis Ugrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_Y
+%%GLYPHS  Y' Ydieresis
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_Z
+%%GLYPHS  Z' Zcaron
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_a_1ST
+%%GLYPHS  a' aacute acircumflex adieresis agrave aring atilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_a_2ND
+%%GLYPHS  a' aacute acircumflex adieresis ae agrave aring atilde
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_b_1ST
+%%GLYPHS  b' p thorn
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_c_1ST
+%%GLYPHS  c' ccedilla
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_d_2ND
+%%GLYPHS  d' q
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_e_1ST
+%%GLYPHS  e' ae eacute ecircumflex edieresis egrave oe
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_f_2ND
+%%GLYPHS  f' uniFB01 uniFB02
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_guilsinglleft
+%%GLYPHS  guilsinglleft' guillemotleft
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_guilsinglright
+%%GLYPHS  guilsinglright' guillemotright
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_hyphen
+%%GLYPHS  hyphen' emdash endash
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_i_1ST
+%%GLYPHS  i' dotlessi iacute icircumflex idieresis igrave uniFB01
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_i_2ND
+%%GLYPHS  i' dotlessi iacute icircumflex idieresis igrave
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_l_1ST
+%%GLYPHS  l' d lslash uniFB02
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_l_2ND
+%%GLYPHS  l' b h k lslash thorn
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_n_1ST
+%%GLYPHS  n' h m ntilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_n_2ND
+%%GLYPHS  n' m ntilde r
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_o_1ST
+%%GLYPHS  o' oacute ocircumflex odieresis ograve oslash otilde
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_o_2ND
+%%GLYPHS  o' c ccedilla e eacute ecircumflex edieresis egrave oacute ocircumflex odieresis oe ograve oslash otilde
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_period_2ND
+%%GLYPHS  period' ellipsis
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_quoteleft
+%%GLYPHS  quoteleft' quotedblleft
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_quoteright
+%%GLYPHS  quoteright' quotedblright
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_quotesinglbase
+%%GLYPHS  quotesinglbase' quotedblbase
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_quotesingle
+%%GLYPHS  quotesingle' quotedbl
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_s
+%%GLYPHS  s' scaron scommaaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_t_1ST
+%%GLYPHS  t' tcommaaccent uni021B
+%%KERNING L 0
+%%END
+
+%%CLASS _KERN_t_2ND
+%%GLYPHS  t' germandbls tcommaaccent uni021B
+%%KERNING R 0
+%%END
+
+%%CLASS _KERN_u
+%%GLYPHS  u' uacute ucircumflex udieresis ugrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_y
+%%GLYPHS  y' ydieresis
+%%KERNING LR 0
+%%END
+
+%%CLASS _KERN_z
+%%GLYPHS  z' zcaron
+%%KERNING LR 0
+%%END

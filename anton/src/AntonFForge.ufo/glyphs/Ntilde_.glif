@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ntilde" format="1">
+  <advance width="1020"/>
+  <unicode hex="00d1"/>
+  <outline>
+    <contour>
+      <point x="940" y="1593" type="line" smooth="no"/>
+      <point x="940" y="0" type="line" smooth="no"/>
+      <point x="596" y="0" type="line" smooth="no"/>
+      <point x="420" y="797" type="line" smooth="no"/>
+      <point x="420" y="0" type="line" smooth="no"/>
+      <point x="76" y="0" type="line" smooth="no"/>
+      <point x="76" y="1593" type="line" smooth="no"/>
+      <point x="438" y="1593" type="line" smooth="no"/>
+      <point x="600" y="831" type="line" smooth="no"/>
+      <point x="600" y="1593" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="373" y="1804" type="qcurve" smooth="yes"/>
+      <point x="341" y="1804"/>
+      <point x="315" y="1715" type="qcurve" smooth="no"/>
+      <point x="93" y="1821" type="line" smooth="no"/>
+      <point x="146" y="1951"/>
+      <point x="281" y="2080"/>
+      <point x="373" y="2080" type="qcurve" smooth="yes"/>
+      <point x="411" y="2080"/>
+      <point x="583" y="1972"/>
+      <point x="649" y="1972"/>
+      <point x="675" y="2051" type="qcurve" smooth="no"/>
+      <point x="907" y="1995" type="line" smooth="no"/>
+      <point x="852" y="1845"/>
+      <point x="710" y="1694"/>
+      <point x="615" y="1694" type="qcurve" smooth="yes"/>
+      <point x="580" y="1694"/>
+      <point x="508" y="1728"/>
+      <point x="459" y="1770"/>
+      <point x="398" y="1804"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1573</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1694</integer>
+	    <key>width</key>	    <integer>278</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1715</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1804</integer>
+	    <key>width</key>	    <integer>276</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>76</integer>
+	    <key>width</key>
+	    <integer>344</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>600</integer>
+	    <key>width</key>
+	    <integer>340</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

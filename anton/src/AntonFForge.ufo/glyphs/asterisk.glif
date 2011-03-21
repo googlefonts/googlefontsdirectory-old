@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk" format="1">
+  <advance width="922"/>
+  <unicode hex="002a"/>
+  <outline>
+    <contour>
+      <point x="150" y="1480" type="line" smooth="no"/>
+      <point x="388" y="1301" type="line" smooth="no"/>
+      <point x="345" y="1593" type="line" smooth="no"/>
+      <point x="577" y="1593" type="line" smooth="no"/>
+      <point x="542" y="1307" type="line" smooth="no"/>
+      <point x="772" y="1480" type="line" smooth="no"/>
+      <point x="888" y="1280" type="line" smooth="no"/>
+      <point x="613" y="1171" type="line" smooth="no"/>
+      <point x="888" y="1054" type="line" smooth="no"/>
+      <point x="772" y="854" type="line" smooth="no"/>
+      <point x="541" y="1036" type="line" smooth="no"/>
+      <point x="577" y="741" type="line" smooth="no"/>
+      <point x="345" y="741" type="line" smooth="no"/>
+      <point x="389" y="1043" type="line" smooth="no"/>
+      <point x="150" y="854" type="line" smooth="no"/>
+      <point x="34" y="1054" type="line" smooth="no"/>
+      <point x="308" y="1171" type="line" smooth="no"/>
+      <point x="34" y="1280" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1573</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

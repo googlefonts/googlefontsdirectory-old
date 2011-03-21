@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute" format="1">
+  <advance width="650"/>
+  <unicode hex="00b4"/>
+  <outline>
+    <contour>
+      <point x="41" y="1553" type="line" smooth="no"/>
+      <point x="41" y="1776" type="line" smooth="no"/>
+      <point x="516" y="1994" type="line" smooth="no"/>
+      <point x="516" y="1647" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1553</integer>
+	    <key>width</key>	    <integer>441</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>41</integer>
+	    <key>width</key>
+	    <integer>475</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="1">
+  <advance width="1122"/>
+  <unicode hex="0034"/>
+  <outline>
+    <contour>
+      <point x="1051" y="575" type="line" smooth="no"/>
+      <point x="1051" y="270" type="line" smooth="no"/>
+      <point x="981" y="270" type="line" smooth="no"/>
+      <point x="981" y="-1" type="line" smooth="no"/>
+      <point x="612" y="-1" type="line" smooth="no"/>
+      <point x="612" y="270" type="line" smooth="no"/>
+      <point x="70" y="270" type="line" smooth="no"/>
+      <point x="70" y="537" type="line" smooth="no"/>
+      <point x="423" y="1592" type="line" smooth="no"/>
+      <point x="981" y="1592" type="line" smooth="no"/>
+      <point x="981" y="575" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="414" y="575" type="line" smooth="no"/>
+      <point x="612" y="575" type="line" smooth="no"/>
+      <point x="612" y="1299" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-1</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>270</integer>
+	    <key>width</key>	    <integer>305</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1572</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>612</integer>
+	    <key>width</key>
+	    <integer>369</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

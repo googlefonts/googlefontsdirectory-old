@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve" format="1">
+  <advance width="1015"/>
+  <unicode hex="02d8"/>
+  <outline>
+    <contour>
+      <point x="556" y="1832"/>
+      <point x="618" y="1886"/>
+      <point x="618" y="1944" type="qcurve" smooth="yes"/>
+      <point x="618" y="1945"/>
+      <point x="934" y="1945" type="qcurve" smooth="no"/>
+      <point x="936" y="1921"/>
+      <point x="936" y="1910" type="qcurve" smooth="yes"/>
+      <point x="936" y="1762"/>
+      <point x="707" y="1592"/>
+      <point x="501" y="1592" type="qcurve" smooth="yes"/>
+      <point x="299" y="1592"/>
+      <point x="69" y="1759"/>
+      <point x="69" y="1903" type="qcurve" smooth="yes"/>
+      <point x="69" y="1924"/>
+      <point x="72" y="1945" type="qcurve" smooth="no"/>
+      <point x="388" y="1944" type="line" smooth="no"/>
+      <point x="388" y="1886"/>
+      <point x="450" y="1832"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1592</integer>
+	    <key>width</key>	    <integer>240</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
