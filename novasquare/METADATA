@@ -4,7 +4,8 @@ payment: NONE
 license: OFL
 url: N/A
 category: display
-subsets: menu,latin,latin-ext
+#subsets: menu,latin,latin-ext
+subsets: menu,latin
 
 family: Nova
 group: Nova
