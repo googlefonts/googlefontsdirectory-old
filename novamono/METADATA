@@ -1,10 +1,10 @@
-visibility: SANDBOX
 payment: NONE
 
 license: OFL
 url: N/A
 category: display
-subsets: menu,latin,latin-ext,greek+latin
+#subsets: menu,latin,latin-ext,greek+latin
+subsets: menu,latin,greek+latin
 
 family: Nova
 group: Nova
