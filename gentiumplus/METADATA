@@ -28,7 +28,7 @@ font.GentiumPlus-Italic.ttf.subfamily: Plus
 font.GentiumPlus-Italic.ttf.style: italic
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Plus КаилрцΕάεηικλν()" \
 #  ~/googlefontdirectory/gentiumplus/GentiumPlus-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
