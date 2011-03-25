@@ -46,7 +46,7 @@ font.Andika-BasicRegular.ttf.description: <p>Andika Basic Regular is \
 font.AndikaBasic-Regular.ttf.subfamily: Basic
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ccmp" \
 #  --chars="Andika Basic" \
 #  ~/googlefontdirectory/andikabasic/AndikaBasic-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
