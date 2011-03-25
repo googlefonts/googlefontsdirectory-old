@@ -22,11 +22,12 @@ description: <p>Tinos was designed by Steve Matteson \
   fonts to address document portability \
   across platforms.</p>
 
-# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Tinos PrКаилрцΕάεηικλνQuốcNgữ()" \
-#     Regular.ttf Regular.menu;
-
+#     ~/googlefontdirectory/tinos/Tinos-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/tinos/;
+#
 # for family in tinos; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
@@ -36,9 +37,28 @@ description: <p>Tinos was designed by Steve Matteson \
 #            greek+latin greek-ext+latin; do
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py  --null --nmr \
-#                --roundtrip --namelist --script --subset=$subset \
+#            python tools/subset/subset.py  --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log;
 #        done;
 #    done;
 # done;
+
+# cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Tinos" \
+#     ~/googlefontdirectory/tinos/Tinos-Regular.{ttf,menu};
+# cd ~/googlefontdirectory//;
+# for family in tinos; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py  --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
+
