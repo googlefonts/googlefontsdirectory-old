@@ -18,8 +18,9 @@ profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 
-font.CharisSILCompact-Regular.ttf.description: <p>Charis SIL \
-  Compact is a family with XXX</p>
+# TODO 2011-03-25 DC improve this description
+description: <p>Charis SIL Compact is a family \
+  with altered vertical metrics.</p>
 
 font.CharisSILCompact-Regular.ttf.subfamily: Compact
 font.CharisSILCompact-Italic.ttf.subfamily: Compact
