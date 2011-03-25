@@ -40,8 +40,9 @@ font.Miama.ttf.style: normal
 # cd ~/src/font-optimizer/; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Miam Εάεηικλν()" \
-#     Miama.ttf Miama.menu
-#
+#     ~/googlefontdirectory/miama/Miama.{ttf,menu};
+# cd ~/googlefontdirectory/miama/; 
+
 # for family in miama; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #        for subset in \
