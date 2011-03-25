@@ -64,15 +64,15 @@ font.GentiumBookBasic-Bold.ttf.weight: bold
 font.GentiumBookBasic-BoldItalic.ttf.weight: bold
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Basic" \
-#  ~/googlefontdirectory/gentium/GentiumBasic-Regular.{ttf,menu};
+#  ~/googlefontdirectory/gentiumbasic/GentiumBasic-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Book Basic" \
-#  ~/googlefontdirectory/gentium/GentiumBookBasic-Regular.{ttf,menu};
+#  ~/googlefontdirectory/gentiumbasic/GentiumBookBasic-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
 
 # for family in gentiumbasic; do
