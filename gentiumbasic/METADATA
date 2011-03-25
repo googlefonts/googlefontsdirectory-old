@@ -1,0 +1,90 @@
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+visibility: INTERNAL
+payment: NONE
+
+license: OFL
+url: http://scripts.sil.org
+category: serif
+subsets: menu,latin
+
+family: Gentium
+group: Gentium
+
+designer: Victor Gaultney
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+font.GentiumBasic-Regular.ttf.description: <p>The Gentium Basic and \
+  Gentium Book Basic font famililes are based on the original \
+  design, but with additional weights. The "Book" family is \
+  slightly heavier. Both families come with a complete regular, \
+  bold, italic and bold italic set of fonts.</p> \
+  <p>The supported character set, however, is much smaller than for \
+  the main Gentium fonts. These "Basic" fonts support only the \
+  Basic Latin and Latin-1 Supplement Unicode ranges, plus a \
+  selection of the more commonly used extended Latin characters, \
+  with miscellaneous diacritical marks, symbols and \
+  punctuation. For a complete list of supported characters see the \
+  <a href="http://scripts.sil.org/Gentium">Gentium homepage</a>.</p>
+  
+font.GentiumBookBasic-Regular.ttf.description: <p>The Gentium Basic and \
+  Gentium Book Basic font famililes are based on the original \
+  design, but with additional weights. The "Book" family is \
+  slightly heavier. Both families come with a complete regular, \
+  bold, italic and bold italic set of fonts.</p> \
+  <p>The supported character set, however, is much smaller than for \
+  the main Gentium fonts. These "Basic" fonts support only the \
+  Basic Latin and Latin-1 Supplement Unicode ranges, plus a \
+  selection of the more commonly used extended Latin characters, \
+  with miscellaneous diacritical marks, symbols and \
+  punctuation. For a complete list of supported characters see the \
+  <a href="http://scripts.sil.org/Gentium">Gentium homepage</a>.</p>
+
+
+font.GentiumBasic-Bold.ttf.subfamily: Basic
+font.GentiumBasic-BoldItalic.ttf.subfamily: Basic
+font.GentiumBasic-Italic.ttf.subfamily: Basic
+font.GentiumBasic-Regular.ttf.subfamily: Basic
+
+font.GentiumBasic-BoldItalic.ttf.style: italic
+font.GentiumBasic-Italic.ttf.style: italic
+font.GentiumBasic-Bold.ttf.weight: bold
+font.GentiumBasic-BoldItalic.ttf.weight: bold
+
+
+font.GentiumBookBasic-Bold.ttf.subfamily: Book Basic
+font.GentiumBookBasic-BoldItalic.ttf.subfamily: Book Basic
+font.GentiumBookBasic-Italic.ttf.subfamily: Book Basic
+font.GentiumBookBasic-Regular.ttf.subfamily: Book Basic
+
+font.GentiumBookBasic-BoldItalic.ttf.style: italic
+font.GentiumBookBasic-Italic.ttf.style: italic
+font.GentiumBookBasic-Bold.ttf.weight: bold
+font.GentiumBookBasic-BoldItalic.ttf.weight: bold
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Gentium Basic" \
+#  ~/googlefontdirectory/gentium/GentiumBasic-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/;
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Gentium Book Basic" \
+#  ~/googlefontdirectory/gentium/GentiumBookBasic-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/;
+
+# for family in gentiumbasic; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
