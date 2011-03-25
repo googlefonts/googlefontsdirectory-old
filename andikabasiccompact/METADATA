@@ -32,7 +32,7 @@ font.AndikaBasicCompact-Regular.ttf.description: <p>Andika Basic Regular is \
 font.AndikaBasicCompact-Regular.ttf.subfamily: Basic Compact
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ccmp" \
 #  --chars="Andika Basic Compact" \
 #  ~/googlefontdirectory/andikabasiccompact/AndikaBasicCompact-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
