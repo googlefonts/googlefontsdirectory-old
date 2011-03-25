@@ -52,13 +52,13 @@ font.Gentium-Italic.ttf.style: italic
 font.GentiumAlt-Italic.ttf.style: italic
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Εάεηικλν()" \
 #  ~/googlefontdirectory/gentium/Gentium-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Alt Εάεηικλν()" \
 #  ~/googlefontdirectory/gentium/GentiumAlt-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
