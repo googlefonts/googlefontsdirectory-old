@@ -31,7 +31,7 @@ font.CharisSILCompact-Bold.ttf.weight: bold
 font.CharisSILCompact-BoldItalic.ttf.weight: bold
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp" \
 #  --chars="Charis SIL Compact Каилрц()" \
 #  ~/googlefontdirectory/charissilcompact/CharisSILCompact-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
