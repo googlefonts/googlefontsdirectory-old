@@ -44,13 +44,13 @@ font.EzraSILSR-Regular.ttf.description: <p>The SR family varies in \
   cantillation style from the regular typeface.</p>
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
 #  --chars="Ezra SIL אָלֶף-בֵּית עִבְרִי()" \
 #  ~/googlefontdirectory/ezrasil/EzraSIL-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
 #  --chars="Ezra SIL SR אָלֶף-בֵּית עִבְרִי()" \
 #  ~/googlefontdirectory/ezrasil/EzraSILSR-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
