@@ -1,19 +1,37 @@
 visibility: SANDBOX
 payment: DESIGNER
+
 license: OFL
-url: http://www.impallari.com/
+url: http://www.impallari.com
 category: display
 subsets: menu,latin
 
 family: Miltonian
+group: Miltonian
 
 designer: Pablo Impallari
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Miltonian is a funny tattoo font.</p> \
-  <p>Uppercases are solid, Lowercases are outline. \
-  They can be combined or filled for nice effects.</p> \
-  <p>Also includes a few dingbats that can be used \
+# 2011-03-25 DC FILL THIS IN! :)
+description: <p>Miltonian is a fun 'tattoo' \
+  font; the Tattoo variant has filled forms. \
+  They can be combined or filled for nice effects. \
+  Also included are a few dingbats that can be used \
   for decoration.</p>
+
+font.MiltonianTattoo-Regular.ttf.subfamily: Tattoo
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Miltonian" \
+#   ~/googlefontdirectory/miltonian/Miltonian-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/miltonian/; 
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Miltonian Tattoo" \
+#   ~/googlefontdirectory/miltonian/MiltonianTattoo-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/miltonian/
