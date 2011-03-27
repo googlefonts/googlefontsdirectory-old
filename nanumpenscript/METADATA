@@ -1,0 +1,27 @@
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+url: http://www.sandoll.co.kr
+category: handwriting
+# 2011-03-26 DC should include latin and do v3 subsetting
+subsets: menu,korean
+
+family: Nanum Pen Script
+
+designer: Sandoll Communication
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>The Nanum fonts (Korean : 나눔글꼴) are unicode \
+  fonts designed especially for the Korean-language script, \
+  designed by Sandoll Communications (Korean : 산돌 커뮤니케이션) and \
+  Fontrix (Korean : 폰트릭스). The publisher is Naver. Nanum \
+  Pen Script is a contemporary pen script with a warm touch \
+  and is expertly hinted for screen use.</p>
+
+# cd ~/googlefontdirectory/nanumpenscript;
+# fontforge -lang=ff -script menusubset-korean.ff NanumPenScript-Regular.ttf;
+# mv NanumPenScript-Regular.ttf.menu.ttf NanumPenScript-Regular.menu;
