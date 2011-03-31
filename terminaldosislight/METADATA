@@ -1,4 +1,3 @@
-visibility: SANDBOX
 payment: DESIGNER
 
 license: OFL
@@ -8,7 +7,8 @@ subsets: menu,latin
 
 family: Terminal Dosis Light
 
-designer: Pablo Impallari
+# designer: Pablo Impallari
+designer: multiple designers
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
