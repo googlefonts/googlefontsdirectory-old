@@ -43,15 +43,8 @@ font.EzraSILSR-Regular.ttf.subfamily: SR
 font.EzraSILSR-Regular.ttf.description: <p>The SR family varies in \
   cantillation style from the regular typeface.</p>
 
-# cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
-#  --chars="Ezra SIL אָלֶף-בֵּית עִבְרִי()" \
-#  ~/googlefontdirectory/ezrasil/EzraSIL-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/;
-
-# cd ~/src/font-optimizer/; ./subset.pl -v \
-#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
-#  --chars="Ezra SIL SR אָלֶף-בֵּית עִבְרִי()" \
-#  ~/googlefontdirectory/ezrasil/EzraSILSR-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/;
-
+# cd ~/googlefontdirectory/ezrasil;
+# fontforge -lang=ff -script menusubset-ezrasil.ff EzraSIL-Regular.ttf;
+# fontforge -lang=ff -script menusubset-ezrasilsr.ff EzraSILSR-Regular.ttf;
+# mv EzraSIL-Regular.ttf.menu.ttf EzraSIL-Regular.menu;
+# mv EzraSILSR-Regular.ttf.menu.ttf EzraSILSR-Regular.menu;

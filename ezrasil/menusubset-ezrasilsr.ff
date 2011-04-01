@@ -1,0 +1,25 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in the word for "Hebrew script", and also the ligatures needed for correct
+# shaping. 
+Open($1)
+Select(0u0020)     # space
+SelectMore(0u05E2) # ע
+SelectMore(0u05D9) # י
+SelectMore(0u05E8) # ר
+SelectMore(0u05D1) # ב
+SelectMore(0u05EA) # ת
+SelectMore(0u0028) # (
+SelectMore(0u0029) # )
+SelectMore(0u0045) # E
+SelectMore(0u007A) # z
+SelectMore(0u0072) # r
+SelectMore(0u0061) # a
+SelectMore(0u0053) # S
+SelectMore(0u0049) # I
+SelectMore(0u004C) # L
+SelectMore(0u0052) # R
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
