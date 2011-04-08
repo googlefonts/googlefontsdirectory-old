@@ -1,0 +1,32 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+url: http://sourceforge.net/projects/caudex/
+category: serif
+subsets: menu,latin
+family: Caudex
+
+designer: Hjort Nidudsson
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Caudex is a Unicode TrueType font created with \
+  FontForge. It is developed on \
+  <a href="http://sourceforge.net/projects/caudex">SourceForge</a>. \
+  It includes most of the <a href="http://www.mufi.info">Medieval \
+  Unicode Font Initiative</a> (MUFI) version 3.0 recommendations.</p>
+
+font.Caudex-Italic.ttf.style: italic
+font.Caudex-BoldItalic.ttf.style: italic
+
+font.Caudex-Regular.ttf.weight: 400
+font.Caudex-Regular.ttf.weight: 400
+font.Caudex-Bold.ttf.weight: 700
+font.Caudex-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer/; ./subset.pl -v  \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
+# --chars="Caudex" \
+# ~/googlefontdirectory/caudex/Caudex-Regular.{ttf,menu};
