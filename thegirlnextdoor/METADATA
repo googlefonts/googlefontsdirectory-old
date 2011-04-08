@@ -24,3 +24,10 @@ description: <p>The Girl Next Door is \
   reflects that and is readable, \
   neat, and yet comfortable and \
   welcoming.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="The Girl Next Door" \
+# ~/googlefontdirectory/thegirlnextdoor/TheGirlNextDoor.{ttf,menu};
+# cd ~/googlefontdirectory/thegirlnextdoor/; 
