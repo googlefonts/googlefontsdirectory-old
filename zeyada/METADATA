@@ -25,3 +25,10 @@ description: <p>Zeyada is based on \
   It is slightly connected, but \
   not a traditional script in \
   any way.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Zeyada" \
+# ~/googlefontdirectory/zeyada/Zeyada.{ttf,menu};
+# cd ~/googlefontdirectory/zeyada/; 
