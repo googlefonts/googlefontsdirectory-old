@@ -13,6 +13,13 @@ approved: true
 description: <p>Covered By Your Grace is \
   based on the adorable handwriting of a \
   very sweet teacher friend.  I love her \
-  whimsical curves and extensions.</p>
+  whimsical curves and extensions.</p> \
   <p>This is a chunky font written \
   with a thicker marker.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Covered By Your Grace" \
+# ~/googlefontdirectory/coveredbyyourgrace/CoveredByYourGrace.{ttf,menu};
+# cd ~/googlefontdirectory/coveredbyyourgrace/; 
