@@ -19,3 +19,10 @@ description: <p>Dawning of a New Day is based on the \
   start fresh, free from past mistakes. It is my \
   desire that the light, fluid motions of this \
   script mimic that hopeful feeling.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Dawning of a New Day" \
+#  ~/googlefontdirectory/dawningofanewday/DawningofaNewDay.{ttf,menu};
+# cd ~/googlefontdirectory/dawningofanewday/; 
