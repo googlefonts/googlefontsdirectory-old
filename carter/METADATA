@@ -1,0 +1,22 @@
+payment: DESIGNER
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Carter
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Carter is a reworking and remodelling of \
+  the brush script genre that is closely associated \
+  with a 1950s feeling of the local store.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Carter" \
+#   ~/googlefontdirectory/carter/Carter.{ttf,menu};
