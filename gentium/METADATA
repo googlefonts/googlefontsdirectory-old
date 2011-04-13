@@ -1,4 +1,9 @@
+#
 # WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# AND NOTE THAT SUBSETS ARE NOT ALLOWED BECAUSE THEY MAY NOT BE MARKED 
+# CLEARLY ENOUGH FOR SIL
+#
+
 visibility: INTERNAL
 payment: NONE
 
@@ -62,17 +67,3 @@ font.GentiumAlt-Italic.ttf.style: italic
 #  --chars="Gentium Alt Εάεηικλν()" \
 #  ~/googlefontdirectory/gentium/GentiumAlt-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
-
-# for family in gentium; do
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
-#        for subset in \
-#            latin latin-ext \
-#            greek+latin greek-ext+latin; do
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log;
-#        done;
-#    done;
-# done;

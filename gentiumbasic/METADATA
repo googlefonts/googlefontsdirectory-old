@@ -1,4 +1,9 @@
+#
 # WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# AND NOTE THAT SUBSETS ARE NOT ALLOWED BECAUSE THEY MAY NOT BE MARKED 
+# CLEARLY ENOUGH FOR SIL
+#
+
 visibility: INTERNAL
 payment: NONE
 
@@ -82,17 +87,3 @@ font.GentiumBookBasic-BoldItalic.ttf.weight: bold
 #  --chars="Gentium Book Basic" \
 #  ~/googlefontdirectory/gentiumbasic/GentiumBookBasic-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/;
-
-# for family in gentiumbasic; do
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
-#        for subset in \
-#            latin latin-ext \
-#            greek+latin greek-ext+latin; do
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset;
-#            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log;
-#        done;
-#    done;
-# done;
