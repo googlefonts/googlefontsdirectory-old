@@ -173,12 +173,12 @@ def getsubset(subset):
     if 'latin-ext' in subset:
         # These ranges include Extended A, B, C, D, and Additional with the
         # exception of Vietnamese, which is a separate range
-        result += (range(0x100, 0x250) +
-                   range(0x1e00, 0x1ea0) +
+        result += (range(0x100, 0x370) +
+                   range(0x1d00, 0x1ea0) +
                    range(0x1ef2, 0x1f00) +
-                   range(0x20a0, 0x20d0) +
+                   range(0x2070, 0x20d0) +
                    range(0x2c60, 0x2c80) +
-                   range(0xa720, 0xa800))
+                   range(0xa700, 0xa800))
     if 'vietnamese' in subset:
         result += range(0x1ea0, 0x1ef2) + [0x20ab]
     if 'greek' in subset:
