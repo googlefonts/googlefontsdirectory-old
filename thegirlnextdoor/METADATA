@@ -5,19 +5,19 @@ url: http://www.kimberlygeswein.com
 category: handwriting
 subsets: menu,latin
 
-family: The Girl Next Door
+family: the girl next door
 
 designer: Kimberly Geswein
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>The Girl Next Door is \
+description: <p>'the girl next door' is \
   based on the handwriting of a middle \
   school geography teacher.</p> \
   <p>From her personality to her \
   handwriting, she is the typical \
-  girl next door- she puts you at \
+  girl next door - she puts you at \
   ease in every situation and is \
   perfectly comfortable and confident \
   in who she is.  Her handwriting \
@@ -28,6 +28,6 @@ description: <p>The Girl Next Door is \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="The Girl Next Door" \
-# ~/googlefontdirectory/thegirlnextdoor/TheGirlNextDoor.{ttf,menu};
+#  --chars="the girl next door" \
+# ~/googlefontdirectory/thegirlnextdoor/thegirlnextdoor.{ttf,menu};
 # cd ~/googlefontdirectory/thegirlnextdoor/; 
