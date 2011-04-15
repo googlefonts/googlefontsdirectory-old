@@ -6,35 +6,26 @@ and any derivative works.
 
 Basic Font Information
 
-The Quattrocento Sans typeface is a Classic, Elegant, Sober and Strong typeface.
-
-Their wide and open letterforms, and the great x-height, make it very legible 
-for body text at small sizes. And their tiny details that only shows up at 
-bigger sizes make it also great for display use.
-
-Some of their distinctive characteristics are:
-- Low Contrast. The thins are just a tad thiner than the thicks, almost 
-  monotone.
-- Cupped, tapered stems that flows naturally.
-- Distinctive K, R and & tail.
-- Cupped B, D, E, F, P, Q, R and T.
-- The Q is a humble expression of admiration and gratitude for 
-  Doyald Young.
-- Alternate M, Two W alternates .
-- Narrow L, T for better fit.
-
 Quattrocento Sans is a Unicode typeface family that supports languages that
 use the Latin script and its variants, and could be expanded to support other
 scripts.
 
 More specifically, this release supports the following Unicode ranges: Latin-1
 
-Documentation can be found at www.impallari.com/quattrocento
+Documentation can be found at www.impallari.com/quattrocento-sans
 To contribute to the project contact Pablo Impallari at impallari@gmail.com
 
 ChangeLog
 
-07 Apr 2011 (Pablo Impallari) Quattrocento Sans v1.000
+21 Mar 2011 (Pablo Impallari & Igino Marini) Quattrocento Sans v1.005
+- Added Italics for Regular, Medium, SemiBold & Bold weights.
+
+31 Jan 2011 (Pablo Impallari & Igino Marini) Quattrocento Sans v1.004
+- Added Regular, Medium and SemiBold weights.
+- Some glyphs refined.
+- iKerned by Igino Marini
+
+14 Dec 2010 (Pablo Impallari) Quattrocento Sans v1.003
 - Initial release
 
 Acknowledgements
