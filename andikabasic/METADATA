@@ -12,8 +12,12 @@ url: http://scripts.sil.org
 category: sans-serif
 subsets: menu,latin
 
-family: Andika
-group: Andika
+family: Andika Basic
+
+# TODO when Andika is released we'll need these
+# family: Andika
+# group: Andika
+# font.AndikaBasic-Regular.ttf.subfamily: Basic
 
 designer: Annie Olsen
 
@@ -47,8 +51,6 @@ font.Andika-BasicRegular.ttf.description: <p>Andika Basic Regular is \
   letterforms for both default and alternate glyphs. No need to request \
   additional glyphs or characters to be supported in the Basic fonts - \
   such support will become available in the full font in the future.</p>
-
-font.AndikaBasic-Regular.ttf.subfamily: Basic
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ccmp" \
