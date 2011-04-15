@@ -24,3 +24,10 @@ description: <p>Wallpoet is inspired by the often political, \
   urban guerilla scene, which has inspired him so often \
   with it's total disrespect for the traditional and \
   ingenious ability to break out of the traditional box.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Wallpoet" \
+#   ~/googlefontdirectory/wallpoet/Wallpoet-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/wallpoet/; 
