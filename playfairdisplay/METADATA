@@ -1,0 +1,46 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Playfair Display
+
+designer: Claus Eggers Sørensen
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Playfair Display is a transitional design. \
+  From the time of enlightenment in the late 18th century, \
+  the broad nib quills were replaced by pointed steel pens. \
+  This influenced typographical letterforms to become \
+  increasingly detached from the written ones. Developments \
+  in printing technology, ink and paper making, made it \
+  possible to print letterforms of high contrast and \
+  fine hairlines.</p> \
+  <p>This design lends itself to this period, and while it \
+  is not a revival of any particular design, it take \
+  influence from the printer and typeface designer John \
+  Baskerville’s designs, the punchcutter William Martin’s \
+  typeface for the ‘Boydell Shakespeare’ (sic) edition, and \
+  from the ‘Scotch Roman’ designs that followed thereafter.</p> \
+  <p>As the name indicates, Playfair Display is well suited \
+  for titling and headlines. It has an extra large x-height \
+  and short decenders, that enable it to be set with no \
+  leading. Stylistically it can accompany Georgia when \
+  Georgia is used for body text.</p> \
+  <p>Playfair includes a full set of small caps, common \
+  ligatures, and discretionary ligatures. For Polish, a \
+  set of alternate diacritical characters designed with \
+  ‘kreska’s are included. All European languages using \
+  the latin script are supported. A set of eight arrow \
+  devices are also included.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Playfair Display" \
+#   ~/googlefontdirectory/playfairdisplay/PlayfairDisplay-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/playfairdisplay/; 
