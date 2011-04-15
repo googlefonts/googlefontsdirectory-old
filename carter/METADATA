@@ -11,12 +11,17 @@ designer: Vernon Adams
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Carter is a reworking and remodelling of \
-  the brush script genre that is closely associated \
-  with a 1950s feeling of the local store.</p>
+description: <p>Carter is a reworking of particular casual \
+  typeforms that were popular around the mid Twentieth \
+  Century, often found used areas such advertising or pulp \
+  fiction book covers. The letter forms of Carter have \
+  been reshaped and digitised for use as a webfont, the \
+  counters have been opened up a little and the stems \
+  optimised for use as display font for modern web \
+  browsers.</p>
 
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Carter" \
-#   ~/googlefontdirectory/carter/Carter.{ttf,menu};
+#   ~/googlefontdirectory/carter/Carter-Regular.{ttf,menu};
