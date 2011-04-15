@@ -3,7 +3,7 @@ payment: NONE
 
 license: OFL
 category: sans-serif
-subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin
+subsets: menu,latin,cyrillic
 
 family: Play
 
@@ -25,7 +25,7 @@ description: <p>Play is a minimalistic sans serif typeface \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Play Каилрц()" \
+#    --chars="Play" \
 #   ~/googlefontdirectory/play/Play-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/play/; 
 
