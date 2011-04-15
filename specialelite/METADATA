@@ -1,0 +1,26 @@
+license: Apache2
+url: http://www.astigmatic.com
+category: display
+subsets: menu,latin
+
+family: Special Elite
+
+designer: Astigmatic
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Special Elite was created to mimic \
+  the Smith Corona Special Elite Type No NR6 and \
+  Remington Noiseless typewriter models.</p> \
+  <p>A little bit of inked up grunge and a little \
+  old school analog flavor work together to give \
+  you a vintage typewriter typeface for your \
+  website and designs.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Special Elite" \
+#  ~/googlefontdirectory/specialelite/SpecialElite.{ttf,menu};
+# cd ~/googlefontdirectory/specialelite/; 
