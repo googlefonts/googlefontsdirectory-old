@@ -6,7 +6,7 @@ url: http://www.newtypography.co.uk
 category: serif
 subsets: menu,latin
 
-family: Holtwood
+family: Holtwood Heavy
 
 designer: Vernon Adams
 
@@ -25,6 +25,6 @@ description: <p>Holtwood is a bold display font \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Holtwood" \
-#   ~/googlefontdirectory/holtwood/Holtwood.{ttf,menu};
-# cd ~/googlefontdirectory/holtwood/; 
+#    --chars="Holtwood Heavy" \
+#   ~/googlefontdirectory/holtwoodheavy/HoltwoodHeavy.{ttf,menu};
+# cd ~/googlefontdirectory/holtwoodheavy/; 
