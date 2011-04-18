@@ -5,7 +5,7 @@ url: http://www.kimberlygeswein.com
 category: handwriting
 subsets: menu,latin
 
-family: the girl next door
+family: The Girl Next Door
 
 designer: Kimberly Geswein
 
@@ -28,6 +28,6 @@ description: <p>'the girl next door' is \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="the girl next door" \
-# ~/googlefontdirectory/thegirlnextdoor/thegirlnextdoor.{ttf,menu};
+#  --chars="The Girl Next Door" \
+# ~/googlefontdirectory/thegirlnextdoor/TheGirlNextDoor.{ttf,menu};
 # cd ~/googlefontdirectory/thegirlnextdoor/; 
