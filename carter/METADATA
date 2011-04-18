@@ -2,10 +2,10 @@ visibility: SANDBOX
 payment: DESIGNER
 
 license: OFL
-category: display
+category: sans-serif
 subsets: menu,latin
 
-family: Carter
+family: Carter Bold
 
 designer: Vernon Adams
 
@@ -24,5 +24,6 @@ description: <p>Carter is a reworking of particular casual \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Carter" \
-#   ~/googlefontdirectory/carter/Carter-Regular.{ttf,menu};
+#    --chars="Carter Bold" \
+#   ~/googlefontdirectory/carter/CarterBold.{ttf,menu};
+# cd ~/googlefontdirectory/carter;
