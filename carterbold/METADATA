@@ -26,4 +26,7 @@ description: <p>Carter is a reworking of particular casual \
 #    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Carter Bold" \
 #   ~/googlefontdirectory/carter/CarterBold.{ttf,menu};
-# cd ~/googlefontdirectory/carter;
+# cd ~/googlefontdirectory/carter;visibility: SANDBOX|INTERNAL
+
+font.CarterBold.ttf.weight: normal
+font.CarterBold.ttf.style: normal

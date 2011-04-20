@@ -27,4 +27,7 @@ description: <p>Holtwood is a bold display font \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Holtwood Heavy" \
 #   ~/googlefontdirectory/holtwoodheavy/HoltwoodHeavy.{ttf,menu};
-# cd ~/googlefontdirectory/holtwoodheavy/; 
+# cd ~/googlefontdirectory/holtwoodheavy/; visibility: SANDBOX|INTERNAL
+
+font.HoltwoodHeavy.ttf.weight: normal
+font.HoltwoodHeavy.ttf.style: normal
