@@ -1,0 +1,26 @@
+visibility: SANDBOX
+license: Apache2
+url: http://www.astigmatic.com
+category: sans-serif
+subsets: menu,latin
+
+family: Aclonica
+
+designer: Astigmatic
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Aclonica is a strong and modern sans \
+  serif typeface with a slight deco/techno essence \
+  to it. Clean letterforms, a generous x-height \
+  for a friendlier feel and easily legible \
+  typestyle. Perfect for both display titling \
+  as well as body copy.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Special Elite" \
+#  ~/googlefontdirectory/specialelite/SpecialElite.{ttf,menu};
+# cd ~/googlefontdirectory/specialelite/; 
