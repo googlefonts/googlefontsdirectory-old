@@ -33,3 +33,12 @@ description: <p>Syncopate was designed in 2010 as \
   approach keeps the look lively \
   and fresh.</p> \
   <p>A true bold was added in April 2011.</p>
+
+font.Syncopate-Bold.ttf.weight: bold
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Syncopate" \
+# ~/googlefontdirectory/syncopate/Syncopate.{ttf,menu};
+# cd ~/googlefontdirectory/syncopate/; 
