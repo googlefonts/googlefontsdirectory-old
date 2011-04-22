@@ -5,7 +5,7 @@ license: OFL
 category: sans-serif
 subsets: menu,latin
 
-family: Carter Bold
+family: Carter One
 
 designer: Vernon Adams
 
@@ -24,9 +24,9 @@ description: <p>Carter is a reworking of particular casual \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Carter Bold" \
-#   ~/googlefontdirectory/carter/CarterBold.{ttf,menu};
-# cd ~/googlefontdirectory/carter;visibility: SANDBOX|INTERNAL
+#    --chars="Carter One" \
+#   ~/googlefontdirectory/carterone/CarterOne.{ttf,menu};
+# cd ~/googlefontdirectory/carterone;
 
-font.CarterBold.ttf.weight: normal
-font.CarterBold.ttf.style: normal
+font.CarterOne.ttf.weight: normal
+font.CarterOne.ttf.style: normal
