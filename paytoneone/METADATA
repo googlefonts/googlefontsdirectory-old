@@ -1,0 +1,27 @@
+payment: DESIGNER
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Paytone One
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+
+description: <p>Paytone One is a sans serif typeface \
+  developed for use a display and headlining webfont \
+  on modern webpages.</p> \
+  <p>The face has a slight casual appearance with \
+  ample round bowls. The slanted stroke terminals \
+  add some visual play to the overall appearance \
+  of the font.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Paytone One" \
+# ~/googlefontdirectory/paytoneone/PaytoneOne.{ttf,menu};
+# cd ~/googlefontdirectory/paytoneone/; 
