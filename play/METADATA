@@ -22,10 +22,13 @@ description: <p>Play is a minimalistic sans serif typeface \
   appearance. The combination of these qualities give \
   Play both a high legibility and readability.</p>
 
+#
+# 2011-04-22 DC This didn't work so I set up a menusubset.ff
+#
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Play" \
+#    --chars="Play Каилрц()" \
 #   ~/googlefontdirectory/play/Play-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/play/; 
 
