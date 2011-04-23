@@ -1,0 +1,27 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "Play Каилрц()", and also the ligatures needed for correct
+# 
+# fontforge -lang=ff -script menusubset.ff Play-Regular.ttf;
+# mv Play-Regular.{ttf.menu.ttf,menu};
+
+Open($1)
+Select(0u0000) # .notdef
+SelectMore(0u0000) # null
+SelectMore(0u0020) # space
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+SelectMore(0u0050) # P
+SelectMore(0u0061) # a
+SelectMore(0u006C) # l
+SelectMore(0u0079) # y
+SelectMore(0u041A) #
+SelectMore(0u0430) #
+SelectMore(0u0438) #
+SelectMore(0u043B) #
+SelectMore(0u0440) #
+SelectMore(0u0446) #
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
