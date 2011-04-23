@@ -19,3 +19,10 @@ description: <p>Brawler is a compact typeface with sharp \
   concept was shaped by the demands of low quality printing \
   media and the aesthetic preferences of periodical \
   publications.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Brawler" \
+#   ~/googlefontdirectory/brawler/Brawler-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/brawler/; 
