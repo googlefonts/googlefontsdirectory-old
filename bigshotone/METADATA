@@ -5,7 +5,7 @@ url: http://www.gesine-todt.de
 category: serif
 subsets: menu,latin
 
-family: Bigshot
+family: Bigshot One
 
 designer: Gesine Todt
 
@@ -17,8 +17,15 @@ description: <p>With their elegant style Didones are \
   related design, such as the logo type of the magazine  \
   Vogue, and therefore fill in a rather big and popular  \
   niche of design purposes.</p> \
-  <p>Bigshot is a modern Didone for headlines  \
+  <p>Bigshot One is a modern Didone for headlines  \
   and display. The squarish counters give the design a  \
   contemporary look while its rounded and angled  \
   details in the thin strokes catch the interest  \
   of the viewer.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Bigshot One" \
+# ~/googlefontdirectory/bigshotone/BigshotOne.{ttf,menu};
+# cd ~/googlefontdirectory/bigshotone/; 
