@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="617"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="316" y="615" type="move" name="topUC"/>
+    </contour>
+    <contour>
+      <point x="552" y="615" type="line"/>
+      <point x="552" y="411" type="line"/>
+      <point x="502" y="411"/>
+      <point x="437" y="443"/>
+      <point x="396" y="489"/>
+      <point x="376" y="539"/>
+      <point x="372" y="557" type="qcurve"/>
+      <point x="282" y="557" type="line"/>
+      <point x="282" y="335" type="line"/>
+      <point x="457" y="335" type="line"/>
+      <point x="457" y="277" type="line"/>
+      <point x="282" y="277" type="line"/>
+      <point x="282" y="58" type="line"/>
+      <point x="387" y="58" type="line"/>
+      <point x="391" y="76"/>
+      <point x="411" y="126"/>
+      <point x="451" y="172"/>
+      <point x="517" y="205"/>
+      <point x="567" y="205" type="qcurve"/>
+      <point x="567" y="0" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="25" y="58" type="line"/>
+      <point x="114" y="58" type="line"/>
+      <point x="114" y="557" type="line"/>
+      <point x="25" y="557" type="line"/>
+      <point x="25" y="615" type="line"/>
+    </contour>
+  </outline>
+</glyph>

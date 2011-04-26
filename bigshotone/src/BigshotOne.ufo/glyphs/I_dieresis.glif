@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idieresis" format="1">
+  <advance width="396"/>
+  <unicode hex="00CF"/>
+  <outline>
+    <contour>
+      <point x="25" y="615" type="line"/>
+      <point x="25" y="557" type="line"/>
+      <point x="114" y="557" type="line"/>
+      <point x="114" y="58" type="line"/>
+      <point x="25" y="58" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="371" y="0" type="line"/>
+      <point x="371" y="58" type="line"/>
+      <point x="282" y="58" type="line"/>
+      <point x="282" y="557" type="line"/>
+      <point x="371" y="557" type="line"/>
+      <point x="371" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="25" y="763" type="curve" smooth="yes"/>
+      <point x="25" y="712"/>
+      <point x="45" y="689"/>
+      <point x="96" y="689" type="curve" smooth="yes"/>
+      <point x="146" y="689"/>
+      <point x="167" y="712"/>
+      <point x="167" y="763" type="curve" smooth="yes"/>
+      <point x="167" y="813"/>
+      <point x="150" y="838"/>
+      <point x="96" y="838" type="curve" smooth="yes"/>
+      <point x="45" y="838"/>
+      <point x="25" y="813"/>
+    </contour>
+    <contour>
+      <point x="230" y="763" type="curve" smooth="yes"/>
+      <point x="230" y="712"/>
+      <point x="250" y="689"/>
+      <point x="301" y="689" type="curve" smooth="yes"/>
+      <point x="351" y="689"/>
+      <point x="372" y="712"/>
+      <point x="372" y="763" type="curve" smooth="yes"/>
+      <point x="372" y="813"/>
+      <point x="355" y="838"/>
+      <point x="301" y="838" type="curve" smooth="yes"/>
+      <point x="250" y="838"/>
+      <point x="230" y="813"/>
+    </contour>
+  </outline>
+</glyph>
