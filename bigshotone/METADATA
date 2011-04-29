@@ -2,7 +2,7 @@ payment: DESIGNER
 
 license: OFL
 url: http://www.gesine-todt.de
-category: serif
+category: display
 subsets: menu,latin
 
 family: Bigshot One
@@ -12,16 +12,10 @@ designer: Gesine Todt
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>With their elegant style Didones are \
-  often used in the context of fashion \
-  related design, such as the logo type of the magazine  \
-  Vogue, and therefore fill in a rather big and popular  \
-  niche of design purposes.</p> \
-  <p>Bigshot One is a modern Didone for headlines  \
-  and display. The squarish counters give the design a  \
-  contemporary look while its rounded and angled  \
-  details in the thin strokes catch the interest  \
-  of the viewer.</p>
+description: <p>Bigshot One is a contemporary Didone. \
+  The design plays within its systematic features and \
+  likes to be cheeky. Bigshot One also likes to show-off \
+  and prefers big display sizes.</p>
 
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \

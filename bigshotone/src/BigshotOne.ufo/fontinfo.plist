@@ -3,31 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>ascender</key>
-	<integer>644</integer>
+	<integer>869</integer>
 	<key>capHeight</key>
 	<integer>617</integer>
 	<key>copyright</key>
 	<string>Copyright (c) 2011 by Gesine Todt. All rights reserved.</string>
 	<key>descender</key>
-	<integer>-165</integer>
+	<integer>-179</integer>
 	<key>familyName</key>
-	<string>Bigshot</string>
+	<string>BigshotOne</string>
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
-	<string>Bigshot</string>
+	<string>Bigshot-One</string>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeHheaAscender</key>
-	<integer>750</integer>
+	<integer>869</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-250</integer>
+	<integer>-179</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
 	<key>openTypeNameCompatibleFullName</key>
-	<string>Bigshot</string>
+	<string>Bigshot-One</string>
 	<key>openTypeNameDescription</key>
 	<string>Copyright (c) 2011 by Gesine Todt. All rights reserved.</string>
 	<key>openTypeNameDesigner</key>
@@ -35,17 +35,17 @@
 	<key>openTypeNameDesignerURL</key>
 	<string>http://www.gesine-todt.de</string>
 	<key>openTypeNameLicense</key>
-	<string>Copyright (c) 2011 Bigshot by Gesine Todt www.gesine-todt.de. All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
+	<string>Copyright (c) 2011 Bigshot One by Gesine Todt www.gesine-todt.de. All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>Gesine Todt</string>
 	<key>openTypeNamePreferredFamilyName</key>
-	<string>Bigshot</string>
+	<string>BigshotOne</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
-	<string>GesineTodt: Bigshot: 2011</string>
+	<string>GesineTodt: Bigshot-One: 2011</string>
 	<key>openTypeNameVersion</key>
 	<string>Version 1.000</string>
 	<key>openTypeOS2CodePageRanges</key>
@@ -93,9 +93,9 @@
 	<array>
 	</array>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>950</integer>
+	<integer>869</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-250</integer>
+	<integer>-179</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
 	<key>openTypeOS2UnicodeRanges</key>
@@ -110,13 +110,13 @@
 		<integer>38</integer>
 	</array>
 	<key>openTypeOS2VendorID</key>
-	<string>pyrs</string>
+	<string></string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>950</integer>
+	<integer>869</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>-250</integer>
+	<integer>-65357</integer>
 	<key>postscriptBlueFuzz</key>
 	<integer>1</integer>
 	<key>postscriptBlueScale</key>
@@ -143,11 +143,11 @@
 	<array>
 	</array>
 	<key>postscriptFontName</key>
-	<string>Bigshot</string>
+	<string>Bigshot-One</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>Bigshot</string>
+	<string>Bigshot-One</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptOtherBlues</key>
@@ -179,13 +179,13 @@
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleMapFamilyName</key>
-	<string>Bigshot</string>
+	<string>Bigshot-One</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
-	<string>Bigshot is a trademark of Gesine Todt.</string>
+	<string>Bigshot One is a trademark of Gesine Todt.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
