@@ -1,0 +1,24 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Megrim
+
+designer: Daniel J Johnson
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Megrim" \
+# ~/googlefontdirectory/megrim/Megrim.{ttf,menu};
+# cd ~/googlefontdirectory/megrim/; 
+
+
