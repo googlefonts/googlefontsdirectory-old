@@ -14,3 +14,10 @@ approved: true
 description: <p>Copse is a low-contrast slab serif \
   that is a little soft around the edges, but \
   with a clear and sturdy posture.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Copse" \
+# ~/googlefontdirectory/copse/Copse-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/copse/; 
