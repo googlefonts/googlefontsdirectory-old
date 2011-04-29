@@ -17,4 +17,8 @@ description: <p>Bigshot One is a contemporary Didone. \
   likes to be cheeky. Bigshot One also likes to show-off \
   and prefers big display sizes.</p>
 
-# menu file created with menusubset.ff
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Bigshot One" \
+#     ~/googlefontdirectory/bigshotone/BigshotOne.{ttf,menu};
+# cd  ~/googlefontdirectory/bigshotone/;
