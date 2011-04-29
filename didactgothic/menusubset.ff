@@ -4,6 +4,7 @@
 # 
 # fontforge -lang=ff -script menusubset.ff DidactGothic.ttf;
 # mv DidactGothic.{ttf.menu.ttf,menu};
+# # remove kerning table by hand
 
 Open($1)
 Select(0u0000) # null
