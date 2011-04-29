@@ -1,6 +1,6 @@
+license: OFL
 payment: DESIGNER
 
-license: OFL
 url: http://www.gesine-todt.de
 category: sans-serif
 subsets: menu,latin
@@ -18,8 +18,23 @@ description: <p>Amaranth is an upright italic; a clean sans \
   and above all friendly character for display uses. \
   There are currently very few upright italics available \
   to designers that offer an extra bit of typographical \
-  refinement and innovativeness.</p>
+  refinement and innovativeness.</p> \
+  <p>The Amaranth family is a friendly upright italic design \
+  with a slight contrast and distinctive curves. With its \
+  three new weights Amaranth is also healthy for all your \
+  texts too!</p>
 
-# The Amaranth family is a friendly upright italic design 
-# with a slight contrast and distinctive curves. With its 
-# three new weights Amaranth is also healthy for all your texts too!
+font.Amaranth-Italic.ttf.style: italic
+font.Amaranth-BoldItalic.ttf.style: italic
+
+font.Amaranth-Bold.ttf.weight: 700
+font.Amaranth-BoldItalic.ttf.weight: 700
+font.Amaranth-Italic.ttf.weight: 400
+font.Amaranth-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Amaranth" \
+# ~/googlefontdirectory/amaranth/Amaranth-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/amaranth/; 
