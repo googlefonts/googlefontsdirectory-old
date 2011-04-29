@@ -16,3 +16,10 @@ description: <p>Cruise in to your favorite soda \
   extra wide sans-serif will take you back to \
   the world of the 1950s teenager complete with \
   bubbly enthusiasm and an optimistic outlook!</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Cherry Cream Soda" \
+# ~/googlefontdirectory/cherrycreamsoda/CherryCreamSoda.{ttf,menu};
+# cd ~/googlefontdirectory/cherrycreamsoda/; 
