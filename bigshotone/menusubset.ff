@@ -1,0 +1,25 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "Bigshot One", and also the ligatures needed for correct
+# 
+# fontforge -lang=ff -script menusubset.ff BigshotOne.ttf;
+# mv BigshotOne.{ttf.menu.ttf,menu};
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0x000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+SelectMore(0x0068) # h
+SelectMore(0x0065) # e
+SelectMore(0x0073) # s
+SelectMore(0x006E) # n
+SelectMore(0x0067) # g
+SelectMore(0x0074) # t
+SelectMore(0x004F) # O
+SelectMore(0x0042) # B
+SelectMore(0x0069) # i
+SelectMore(0x006F) # o
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
