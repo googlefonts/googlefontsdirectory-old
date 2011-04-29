@@ -18,8 +18,8 @@ description: <p>Expletus Sans is a display \
   However, it's very effective for setting \
   headers and other large sized text, due \
   to it's way of pulling in the reader. \
-  It comes in 4 weights and will include \
-  italics from May 2011. It's character \
+  It comes in 4 weights and includes \
+  italics. It's character \
   set supports most European languages, \
   but if you do wish to have several \
   extra glyphs made to support your \
@@ -57,3 +57,12 @@ font.ExpletusSans-Regular.ttf.weight: 400
 font.ExpletusSans-Medium.ttf.weight: 500
 font.ExpletusSans-SemiBold.ttf.weight: 600
 font.ExpletusSans-Bold.ttf.weight: 700
+
+font.ExpletusSans-Italic.ttf.weight: 400
+font.ExpletusSans-MediumItalic.ttf.weight: 500
+font.ExpletusSans-SemiBoldItalic.ttf.weight: 600
+font.ExpletusSans-BoldItalic.ttf.weight: 700
+font.ExpletusSans-Italic.ttf.style: italic
+font.ExpletusSans-MediumItalic.ttf.style: italic
+font.ExpletusSans-SemiBoldItalic.ttf.style: italic
+font.ExpletusSans-BoldItalic.ttf.style: italic
