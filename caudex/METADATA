@@ -4,7 +4,7 @@ payment: NONE
 license: OFL
 url: http://sourceforge.net/projects/caudex/
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext,greek+latin,greek-ext+latin
 family: Caudex
 
 designer: Nidud
@@ -33,5 +33,22 @@ font.Caudex-BoldItalic.ttf.weight: 700
 
 # cd ~/src/font-optimizer/; ./subset.pl -v  \
 # --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,ccmp" \
-# --chars="Caudex" \
+# --chars="Caudex КаилрцΕάεηικλν()" \
 # ~/googlefontdirectory/caudex/Caudex-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/caudex/;
+
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
+# for family in caudex; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
