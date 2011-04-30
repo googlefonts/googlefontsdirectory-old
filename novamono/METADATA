@@ -34,11 +34,7 @@ description: <p>I created the NovaCut font about \
   font - NovaMono - the seventh part of \
   this family.</p>
 
-# cd ~/src/font-optimizer/;
-# ./subset.pl -v --chars="Nova Mono" \
-# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-# ~/googlefontdirectory/novamono/NovaMono.{ttf,menu};
-# cd ~/googlefontdirectory/novamono/;
+# menusubset.ff used to make menu
  
 # cd novamono;
 #    for font in `ls -1 *ttf | cut -d. -f1`; do
