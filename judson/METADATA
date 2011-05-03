@@ -40,6 +40,7 @@ font.Judson-Bold.ttf.weight: 700
 # ~/googlefontdirectory/judson/Judson-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/judson/; 
 
+# cd ~/googlefontdirectory/; \
 # for family in judson; do
 #   for font in `ls -1 $family/*ttf | cut -d. -f1`; do
 #       for subset in \
