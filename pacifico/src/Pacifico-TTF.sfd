@@ -14,13 +14,13 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 759 1887733602 5950130]
+XUID: [1021 759 1887733602 10269840]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1297379580
-ModificationTime: 1304439085
+ModificationTime: 1304440607
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,14 +53,9 @@ OS2StrikeYPos: 512
 OS2Vendor: 'newt'
 OS2CodePages: 20000111.40000000
 OS2UnicodeRanges: 8000002f.4800004b.14000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable" [307,30,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2+ 2 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
- 1 Y
- 1 T
- 13 c d a e o g q
- 0 {} -149 {} 0 {} -384 {}
 TtTable: prep
 PUSHW_1
  511
@@ -4885,6 +4880,7 @@ SplineSet
  234 1242 234 1242 219 1266 c 0,62,63
  201 1294 201 1294 199 1330 c 1,0,1
 EndSplineSet
+Kerns2: 16 -384 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
 StartChar: L
@@ -8896,6 +8892,7 @@ SplineSet
  1262 724 1262 724 1186 605 c 1,83,-1
  1126 506 l 1,0,1
 EndSplineSet
+Kerns2: 16 -149 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
 StartChar: underscore
