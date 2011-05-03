@@ -29,7 +29,7 @@ import fontforge
 import sys
 import os
 
-TTF2EOT_BIN = '/home/raph/install/ttf2eot-0.0.2-2/ttf2eot'
+TTF2EOT_BIN = '/home/crossland-fedora14/src/ttf2eot-read-only/ttf2eot'
 
 def gen_with_gasp(font_in, name_out, gasp):
   font = fontforge.open(font_in)

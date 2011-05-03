@@ -32,7 +32,6 @@ def select_with_refs(font, unicode, newfont, pe = None, nam = None):
         print >> pe, "SelectMore(%d)" % unicode
     try:
         for ref in font[unicode].references:
-            #print unicode, ref
             newfont.selection.select(('more',), ref[0])
             if nam:
                 print >> nam, "0x%0.4X" % ref[0], fontforge.nameFromUnicode(ref[0])
