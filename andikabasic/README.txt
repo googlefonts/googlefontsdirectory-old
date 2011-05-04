@@ -10,7 +10,7 @@ See AndikaBasicR-FAQ-KI.txt for frequently-asked questions and known issues.
 See OFL.txt for the complete text of the SIL Open Font License. See OFL-FAQ.txt for frequently-asked questions about the SIL Open Font License.
 
 There is one TrueType (.ttf) font file included:
-   AndBasR.ttf
+   AndikaBasic-Regular.ttf
 
 
 INSTALLATION
