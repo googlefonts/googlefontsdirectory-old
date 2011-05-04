@@ -27,14 +27,14 @@ Why is the line spacing so much looser than other fonts?
    Our SIL Unicode Roman fonts include characters with multiple stacked
    diacritics that need a much looser line spacing (for example, U+1EA8 LATIN
    CAPITAL LETTER A WITH CIRCUMFLEX AND HOOK ABOVE). We cannot make the line
-   spacing tighter without experiencing “clipping” of those characters. You may
+   spacing tighter without experiencing "clipping" of those characters. You may
    be able to overcome this by adjusting the line spacing in the application.
    For example, in Microsoft Word select Format / Paragraph and set the line
    spacing to use the Exactly setting and a value more suited to your needs.
    For example, if the font size is 12 pt, select line spacing of Exactly 13 pt.
    This will give a tighter line spacing. You can adjust the value up or down
    depending on how many diacritics you need to stack. Another solution would
-   be to use SIL’s TypeTuner utility, which allows choosing a line spacing
+   be to use SIL's TypeTuner utility, which allows choosing a line spacing
    setting as well as choosing default glyphs.
 
 Does this font have straight quotes as well as curly ones?
@@ -60,10 +60,10 @@ Can I use Andika in my print publication?
 Can I use Andika on my website?
 
    Yes. You can create web pages that request that Andika Basic be used to
-   display them (if that font is available on the user’s system). According to
+   display them (if that font is available on the user's system). According to
    the license, you are even allowed to place the font on your site for people
    to download it. We would strongly recommend, however, that you direct users
-   to our site -- http://scripts.sil.org/Andika_download — to download the
+   to our site -- http://scripts.sil.org/Andika_download -- to download the
    font. This ensures that they are always using the most recent version with
    bug fixes, etc.
 
