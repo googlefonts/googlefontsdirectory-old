@@ -218,6 +218,6 @@ description.ru: <p>Гарнитура ПТ Санс является часть�
 #    done;
 # done;
 
-#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PTSans Каилрц()" /home/crossland-fedora14/googlefontdirectory/ptsans/PT_Sans-Web-Regular.{ttf,menu}; cd ~/googlefontdirectory/ptsans;
-#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Narrow Каилрц()" /home/crossland-fedora14/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.ttf /home/crossland-fedora14/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.menu; cd ~/googlefontdirectory/ptsans;
-#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Caption Каилрц()" /home/crossland-fedora14/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.ttf /home/crossland-fedora14/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.menu ; cd ~/googlefontdirectory/ptsans;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PTSans Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Web-Regular.{ttf,menu}; cd ~/googlefontdirectory/ptsans;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Narrow Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.ttf ~/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.menu; cd ~/googlefontdirectory/ptsans;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Caption Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.ttf ~/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.menu ; cd ~/googlefontdirectory/ptsans;

@@ -31,7 +31,7 @@ description: <p>This is another of my old \
 #     cd ~/src/font-optimizer/;
 #     ./subset.pl -v --chars="ModernAntiqua" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     /home/crossland-fedora14/TMP/POL/modernantiqua/ModernAntiqua.{ttf,menu};
+#      ~/googlefontdirectory/modernantiqua/ModernAntiqua.{ttf,menu};
 
  
 #   for font in `ls -1 *ttf | cut -d. -f1`; do
