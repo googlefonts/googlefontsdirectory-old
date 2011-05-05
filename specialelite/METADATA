@@ -20,7 +20,7 @@ description: <p>Special Elite was created to mimic \
   website and designs.</p>
 
 # cd ~/src/font-optimizer;
-# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# ./subset.pl -v \
 #   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #   --chars="Special Elite" \
 #  ~/googlefontdirectory/specialelite/SpecialElite.{ttf,menu};
