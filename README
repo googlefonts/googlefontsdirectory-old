@@ -1,20 +1,30 @@
-This project contains the source files for fonts in the Google Font
-Directory. Please see http://code.google.com/webfonts for access to
-those fonts through the Google Font API.
+This project contains the sources for the various libre/open fonts available in
+Google Webfonts.
+
+Please see http://google.com/webfonts for access to those fonts through
+the Google webfonts API.
 
 Each subdirectory contains fonts from a single designer. The .ttf font
 files at the top level of each directory represent the files served
-through the API. Various source files are often present in a src/
-directory under that. Each directory also contains a METADATA file
-(in simple Java properties file format, but UTF-8 encoding) with
-metadata for the file.
+through the API. Various source files are often present in a src/ directory
+under that in a variety of formats including cross-toolkit ones. Each directory
+also contains a METADATA file (in simple Java properties file format, but UTF-8
+encoding) with metadata for the font files.
 
-Most fonts use the SIL Open Font License, version 1.1. A few fonts use
-the Apache 2 license. Each directory contains the appropriate license
-file for the fonts in that directory.
+Most fonts use the SIL Open Font License, version 1.1. A few fonts use the
+Apache 2 license. Each directory contains the appropriate license file for the
+fonts in that directory and the fonts files themselves also contain the
+licensing and authorship metadata.
 
-Since all the fonts in this project are open source, many have
-open source projects elsewhere. As with most open source
-distributions, best practice is always to merge changes upstream.
+All the fonts in this project are libre/open fonts and many have upstream
+websites when the corresponding designer hosts the project and makes releases:
+you can find upstream information in the corresponding README.txt and
+FONTLOG.txt.
+
+When branching to modify or extend the fonts, please be mindful of the need to
+use your own name and not conflict with existing namespace, reserved names, trademarks
+and consider the recommended best practices to publish and merge changes
+upstream.
 
 Enjoy the fonts!
+The Google webfonts team.
