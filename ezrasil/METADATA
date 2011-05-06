@@ -8,7 +8,7 @@ visibility: INTERNAL
 payment: NONE
 
 license: OFL
-url: http://scripts.sil.org
+url: http://scripts.sil.org/EzraSIL_Home
 category: serif
 # 2011-03-25 DC The font supports a latin subset, but we've 
 # determined that we don't want it to appear in the latin list 
@@ -43,6 +43,9 @@ description: <p>Ezra SIL is \
   actively soliciting contributions to the project. Although they remain \
   the package maintainer, they do not currently plan major upgrades, but \
   will gratefully accept bug reports.</p>
+  <p>The Hebrew layout intelligence included in this font is \ 
+  copyright (c) 2003 & 2007 Ralph Hancock and John Hudson, and licensed \
+  under the MIT/X11 License.</p> 
 
 font.EzraSILSR-Regular.ttf.subfamily: SR
 font.EzraSILSR-Regular.ttf.description: <p>The SR family varies in \

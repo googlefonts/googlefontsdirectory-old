@@ -2,6 +2,11 @@ visibility: SANDBOX
 payment: NONE
 
 license: OFL
+
+# TODO: Check that the Kaya Li range is under a separate font license as indicated in the FONTLOG.
+# Dual licensing fonts within a Unicode range is not a best practise and very likely to introduce confusion and problems.
+
+
 category: sans-serif
 subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
 

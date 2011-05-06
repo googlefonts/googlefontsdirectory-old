@@ -19,7 +19,7 @@ description: <p>Ultra is an ultra bold slab typeface \
   and titling for impact.</p>
 
 # cd ~/src/font-optimizer;
-# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# ./subset.pl -v \
 #   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #   --chars="Ultra" \
 #  ~/googlefontdirectory/ultra/Ultra.{ttf,menu};
