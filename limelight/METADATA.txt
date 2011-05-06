@@ -1,0 +1,28 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Limelight
+
+designer: Sorkin Type
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Limelight is a sensitive rendition of the \
+  classic high contrast art deco style geometric sans serif. \
+  This style is often used to suggest the 1920's time period \
+  as well as the theatre generally and hollywood filmmaking \
+  in particular. Because of the extreme contrast of the \
+  design it will perform most reliably on web pages at \
+  medium and large font sizes.</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Limelight" \
+# ~/googlefontdirectory/limelight/Limelight.{ttf,menu};
+# cd ~/googlefontdirectory/limelight/; 
