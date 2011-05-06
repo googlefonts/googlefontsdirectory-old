@@ -16,9 +16,9 @@ approved: true
 description: <p>A skinny font that fits in little places. \
   This is one of my first fonts I released online.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #   --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #   --chars="Loved by the King" \
-#  ~/googlefontdirectory/lovedbytheking/LovedbytheKing.{ttf,menu};
+#  ~/googlefontdirectory/lovedbytheking/LovedbytheKing.{ttf,menu}; \
 # cd ~/googlefontdirectory/lovedbytheking/; 
