@@ -5,7 +5,7 @@ license: OFL
 category: sans-serif
 subsets: menu,latin
 
-family: Shanti One
+family: Shanti
 
 designer: Vernon Adams
 
@@ -20,8 +20,8 @@ description: <p>Shanti One is a straightforward sans serif designed \
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Shanti One" \
-# ~/googlefontdirectory/shantione/ShantiOne.{ttf,menu};
-# cd ~/googlefontdirectory/shantione/; 
+#  --chars="Shanti" \
+# ~/googlefontdirectory/shanti/Shanti-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/shanti/; 
 
 
