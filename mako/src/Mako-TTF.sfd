@@ -1,7 +1,7 @@
 SplineFontDB: 3.0
-FontName: MakoOne
-FullName: Mako One
-FamilyName: Mako One
+FontName: Mako
+FullName: Mako
+FamilyName: Mako
 Weight: Book
 Copyright: Copyright (c) 2007 by vernon adams. All rights reserved.
 Version: 1.000
@@ -14,13 +14,13 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 759 1887733602 5372780]
+XUID: [1021 759 1887733602 11683468]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1304633400
-ModificationTime: 1304694292
+ModificationTime: 1304700248
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -545,7 +545,7 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "Regular" "vernonadams: Mako: 2007" "" "Version 1.000" "" "Mako One is a trademark of vernon adams." "vernon adams" "vernon adams" "Copyright (c) 2007 by vernon adams. All rights reserved." "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "" "" "Mako One" 
+LangName: 1033 "" "" "Regular" "" "" "Version 1.000" "" "Mako is a trademark of vernon adams." "vernon adams" "vernon adams" "Copyright (c) 2007 by vernon adams. All rights reserved." "newtypography.co.uk" "newtypography.co.uk" "" "http://scripts.sil.org/OFL" "" "" "" "Mako" 
 GaspTable: 2 8 14 65535 15
 Encoding: UnicodeBmp
 Compacted: 1
@@ -557,6 +557,7 @@ FitToEm: 1
 WinInfo: 0 38 14
 BeginPrivate: 0
 EndPrivate
+TeXData: 1 0 0 262144 131072 87381 527872 -1048576 87381 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 65539 280
 
 StartChar: .notdef
