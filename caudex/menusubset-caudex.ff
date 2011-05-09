@@ -2,7 +2,7 @@
 # A simple script to generate a menu subset. It outputs all unicode characters
 # in "()Caudex Εάεηικλν", and also the ligatures needed for correct
 # 
-# fontforge -lang=ff -script menusubset.ff Caudex-Regular.ttf;
+# fontforge -lang=ff -script menusubset-caudex.ff Caudex-Regular.ttf;
 # mv Caudex-Regular.{ttf.menu.ttf,menu};
 
 Open($1)

@@ -4,7 +4,7 @@ FullName: Caudex
 FamilyName: Caudex
 Weight: Book
 Copyright: Copyright (c) 2011 Hjort Nidudsson
-Version: 1.00
+Version: 1.01
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 30
@@ -13,13 +13,14 @@ Descent: 410
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 997 1545580258 7013116]
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 936868149
-ModificationTime: 1304055032
+ModificationTime: 1304853141
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,44 +55,43 @@ OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 19 19 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
- 134 A Aacute Agrave Acirc Auml Atilde Abreve Aring Aringacute Amacr Aogon Adotbl Ahook uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC Abreveacute
- 14 F uni03DC Fdot
- 49 L Lacute Lcommaaccent Ldot Ldotbl Lbrk Lhighstrok
- 42 P Rho Pacute Pdot Pbardes Pflour Psquirrel
- 40 R Racute Rcommaaccent Rcaron Rdot Rdotbl
- 33 T Tcommaaccent Tcaron Tdot Tdotbl
- 53 V W Wcirc Vdotbl Wgrave Wacute Wuml Wdot Wdotbl YYlig
- 62 Y Ycirc Yuml Ymacr Upsilondieresis Ygrave Ydotbl Yhook uni1EF8
- 21 r rcommaaccent rdotbl
- 65 v w wcirc vscap wscap vdotbl wgrave wacute wuml wdot wdotbl yylig
- 46 y ycirc ydot yring ygrave ydotbl yhook uni1EF9
- 8 ldquolow
- 5 lsquo
- 5 rsquo
- 5 ldquo
- 8 lsquolow
- 20 m macute mdot mdotbl
- 70 o ograve oacute ocirc otilde ouml oslash omacr obreve odblac ocar odot
+KernClass2: 18 19 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+ 148 A Aacute Agrave Acircumflex Adieresis Atilde Abreve Aring Aringacute Amacron Aogonek uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE
+ 17 F uni03DC uni1E1E
+ 53 L Lacute Lcommaaccent uniE19E uni1E36 uniA746 uniA748
+ 45 P Rho uni1E54 uni1E56 uniA750 uniA752 uniA754
+ 44 R Racute Rcommaaccent Rcaron uni1E58 uni1E5A
+ 37 T Tcommaaccent Tcaron uni1E6A uni1E6C
+ 71 V W Wcircumflex uni1E7E Wgrave Wacute Wdieresis uni1E86 uni1E88 uniA760
+ 78 Y Ycircumflex Ydieresis uni0232 Upsilondieresis Ygrave uni1EF4 uni1EF6 uni1EF8
+ 22 r rcommaaccent uni1E5B
+ 87 v w wcircumflex uni1D20 uni1D21 uni1E7F wgrave wacute wdieresis uni1E87 uni1E89 uniA761
+ 60 y ycircumflex uni1E8F uni1E99 ygrave uni1EF5 uni1EF7 uni1EF9
+ 12 quotedblbase
+ 9 quoteleft
+ 10 quoteright
+ 12 quotedblleft
+ 14 quotesinglbase
+ 25 m uni1E3F uni1E41 uni1E43
  5 space
  12 comma period
  6 hyphen
- 10 colon semi
- 5 rdquo
- 5 rsquo
- 134 A Aacute Agrave Acirc Auml Atilde Abreve Aring Aringacute Amacr Aogon Adotbl Ahook uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC Abreveacute
- 33 T Tcommaaccent Tcaron Tdot Tdotbl
- 53 V W Wcirc Vdotbl Wgrave Wacute Wuml Wdot Wdotbl YYlig
- 62 Y Ycirc Yuml Ymacr Upsilondieresis Ygrave Ydotbl Yhook uni1EF8
- 190 a c d e g o q aelig ccedil oslash aogon dcaron dstrok eogon uni0188 ohorn oogon dtail uni0257 gopen oeligscap ddotbl adotbl edotbl odotbl aalig aolig aulig avlig avligslash aylig oloop oolig
- 27 i iogon inodot ihook idotbl
- 31 m macute mdot mdotbl mtailstrok
- 60 r s u rcommaaccent scedilla uogon scommaaccent rdotbl sdotbl
- 65 v w wcirc vscap wscap vdotbl wgrave wacute wuml wdot wdotbl yylig
- 46 y ycirc ydot yring ygrave ydotbl yhook uni1EF9
+ 15 colon semicolon
+ 13 quotedblright
+ 10 quoteright
+ 148 A Aacute Agrave Acircumflex Adieresis Atilde Abreve Aring Aringacute Amacron Aogonek uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE
+ 37 T Tcommaaccent Tcaron uni1E6A uni1E6C
+ 71 V W Wcircumflex uni1E7E Wgrave Wacute Wdieresis uni1E86 uni1E88 uniA760
+ 78 Y Ycircumflex Ydieresis uni0232 Upsilondieresis Ygrave uni1EF4 uni1EF6 uni1EF8
+ 212 a c d e g o q ae ccedilla oslash aogonek dcaron dcroat eogonek uni0188 ohorn uni01EB uni0256 uni0257 uni0261 uni0276 uni1E0D uni1EA1 uni1EB9 uni1ECD uniA733 uniA735 uniA737 uniA739 uniA73B uniA73D uniA74D uniA74F
+ 34 i iogonek dotlessi uni1EC9 uni1ECB
+ 33 m uni1E3F uni1E41 uni1E43 uniA773
+ 64 r s u rcommaaccent scedilla uogonek scommaaccent uni1E5B uni1E63
+ 87 v w wcircumflex uni1D20 uni1D21 uni1E7F wgrave wacute wdieresis uni1E87 uni1E89 uniA761
+ 60 y ycircumflex uni1E8F uni1E99 ygrave uni1EF5 uni1EF7 uni1EF9
  1 z
- 78 U Ugrave Uacute Ucirc Uuml Utilde Umacr Ubreve Uring Udblac Uogon Udotbl Uhook
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -115 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} -152 {} -195 {} -255 {} 0 {} 0 {} 0 {} 0 {} -145 {} -130 {} 0 {} -120 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} 0 {} -125 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} -151 {} 0 {} -100 {} -185 {} -186 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} 0 {} 0 {} 0 {} -46 {} -260 {} 0 {} 0 {} 0 {} 0 {} -250 {} 0 {} 0 {} 0 {} -65 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} -115 {} -75 {} 0 {} 0 {} -132 {} 0 {} 0 {} 0 {} -145 {} 0 {} -65 {} -145 {} -132 {} -132 {} -132 {} 0 {} 0 {} 0 {} -262 {} -152 {} -113 {} 0 {} 0 {} -195 {} 0 {} 0 {} 0 {} -145 {} -50 {} 0 {} 0 {} 0 {} -135 {} 0 {} 0 {} 0 {} -37 {} -195 {} -37 {} 0 {} 0 {} 0 {} -186 {} 0 {} 0 {} 0 {} -168 {} -65 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -37 {} 0 {} 130 {} 130 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -240 {} -310 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -300 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -140 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -165 {} 0 {} -120 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -300 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -240 {} -310 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
+ 103 U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek uni1EE4 uni1EE6
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -115 {} 0 {} 0 {} 0 {} 0 {} -145 {} 0 {} -152 {} -195 {} -255 {} 0 {} 0 {} 0 {} 0 {} -145 {} -130 {} 0 {} -120 {} 0 {} 0 {} -145 {} 0 {} 0 {} 0 {} 0 {} -125 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} -151 {} 0 {} -100 {} -185 {} -186 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} 0 {} 0 {} 0 {} -46 {} -260 {} 0 {} 0 {} 0 {} 0 {} -250 {} 0 {} 0 {} 0 {} -65 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} -115 {} -75 {} 0 {} 0 {} -132 {} 0 {} 0 {} 0 {} -145 {} 0 {} -65 {} -145 {} -132 {} -132 {} -132 {} 0 {} 0 {} 0 {} -262 {} -152 {} -113 {} 0 {} 0 {} -195 {} 0 {} 0 {} 0 {} -145 {} -50 {} 0 {} 0 {} 0 {} -135 {} 0 {} 0 {} 0 {} -37 {} -195 {} -37 {} 0 {} 0 {} 0 {} -186 {} 0 {} 0 {} 0 {} -168 {} -65 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -37 {} 0 {} 130 {} 130 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -225 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -240 {} -310 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -300 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -140 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -165 {} 0 {} -120 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -300 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -240 {} -310 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} 0 {}
 TtTable: prep
 PUSHW_1
  511
@@ -102,7 +102,7 @@ SCANTYPE
 EndTTInstrs
 LangName: 1044 "" "" "Normal" 
 LangName: 1033 "" "" "Regular" "FontForge : Caudex Regular : 31-3-2011" "" "" "" "" "" "" "MUFI 3.0 font" "http://caudex.sf.net/" "" "SIL Open Font License" "http://scripts.sil.org/OFL" 
-GaspTable: 1 65535 15
+GaspTable: 1 65535 3
 MATH:ScriptPercentScaleDown: 80
 MATH:ScriptScriptPercentScaleDown: 60
 MATH:DelimitedSubFormulaMinHeight: 3072
@@ -167,9 +167,7 @@ NameList: Adobe Glyph List
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 32 8 2
-BeginPrivate: 0
-EndPrivate
+WinInfo: 144 8 2
 Grid
 -2048 929 m 0
  4096 929 l 0
@@ -177,11 +175,14 @@ Grid
 -2048 1404 m 0
  4096 1404 l 0
   Named: "Cap-Y" 
--2048 1903 m 0
- 4096 1903 l 0
+-2048 2034 m 0
+ 4096 2034 l 0
   Named: "Max-Y" 
+-2048 -606 m 0
+ 4096 -606 l 0
+  Named: "Min-Y" 
 EndSplineSet
-BeginChars: 65539 2039
+BeginChars: 65539 2040
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -252,7 +253,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: excl
+StartChar: exclam
 Encoding: 33 33 4
 Width: 498
 Flags: W
@@ -281,7 +282,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quot
+StartChar: quotedbl
 Encoding: 34 34 5
 Width: 834
 Flags: W
@@ -450,7 +451,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: percnt
+StartChar: percent
 Encoding: 37 37 8
 Width: 1024
 Flags: W
@@ -510,7 +511,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: amp
+StartChar: ampersand
 Encoding: 38 38 9
 Width: 1292
 Flags: W
@@ -587,7 +588,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: apos
+StartChar: quotesingle
 Encoding: 39 39 10
 Width: 426
 Flags: W
@@ -609,7 +610,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lpar
+StartChar: parenleft
 Encoding: 40 40 11
 Width: 682
 Flags: W
@@ -647,7 +648,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rpar
+StartChar: parenright
 Encoding: 41 41 12
 Width: 682
 Flags: W
@@ -685,7 +686,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ast
+StartChar: asterisk
 Encoding: 42 42 13
 Width: 1024
 Flags: W
@@ -832,7 +833,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sol
+StartChar: slash
 Encoding: 47 47 18
 Width: 1024
 Flags: W
@@ -1276,7 +1277,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: semi
+StartChar: semicolon
 Encoding: 59 59 30
 Width: 512
 Flags: W
@@ -1310,7 +1311,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lt
+StartChar: less
 Encoding: 60 60 31
 Width: 1024
 Flags: W
@@ -1338,7 +1339,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: equals
+StartChar: equal
 Encoding: 61 61 32
 Width: 1024
 Flags: W
@@ -1367,7 +1368,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gt
+StartChar: greater
 Encoding: 62 62 33
 Width: 1024
 Flags: W
@@ -1395,7 +1396,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quest
+StartChar: question
 Encoding: 63 63 34
 Width: 784
 Flags: W
@@ -1438,7 +1439,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: commat
+StartChar: at
 Encoding: 64 64 35
 Width: 1560
 Flags: W
@@ -2740,7 +2741,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsqb
+StartChar: bracketleft
 Encoding: 91 91 62
 Width: 682
 Flags: W
@@ -2764,7 +2765,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bsol
+StartChar: backslash
 Encoding: 92 92 63
 Width: 1024
 Flags: W
@@ -2780,7 +2781,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsqb
+StartChar: bracketright
 Encoding: 93 93 64
 Width: 682
 Flags: W
@@ -2807,7 +2808,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: circ
+StartChar: asciicircum
 Encoding: 94 94 65
 Width: 1024
 Flags: W
@@ -2826,7 +2827,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lowbar
+StartChar: underscore
 Encoding: 95 95 66
 Width: 1024
 Flags: W
@@ -4172,7 +4173,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lcub
+StartChar: braceleft
 Encoding: 123 123 94
 Width: 1024
 Flags: W
@@ -4223,7 +4224,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: verbar
+StartChar: bar
 Encoding: 124 124 95
 Width: 1024
 Flags: W
@@ -4239,7 +4240,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rcub
+StartChar: braceright
 Encoding: 125 125 96
 Width: 1024
 Flags: W
@@ -4290,7 +4291,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tld
+StartChar: asciitilde
 Encoding: 126 126 97
 Width: 1024
 Flags: W
@@ -4325,7 +4326,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iexcl
+StartChar: exclamdown
 Encoding: 161 161 98
 Width: 569
 Flags: W
@@ -4404,7 +4405,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pound
+StartChar: sterling
 Encoding: 163 163 100
 Width: 1024
 Flags: W
@@ -4486,7 +4487,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: curren
+StartChar: currency
 Encoding: 164 164 101
 Width: 1024
 Flags: W
@@ -4615,7 +4616,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: brvbar
+StartChar: brokenbar
 Encoding: 166 166 103
 Width: 1024
 Flags: W
@@ -4636,7 +4637,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sect
+StartChar: section
 Encoding: 167 167 104
 Width: 1024
 Flags: W
@@ -4723,7 +4724,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uml
+StartChar: dieresis
 Encoding: 168 168 105
 Width: 682
 Flags: W
@@ -4751,7 +4752,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: copy
+StartChar: copyright
 Encoding: 169 169 106
 Width: 1532
 Flags: W
@@ -4812,7 +4813,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ordf
+StartChar: ordfeminine
 Encoding: 170 170 107
 Width: 686
 Flags: W
@@ -4878,7 +4879,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: laquo
+StartChar: guillemotleft
 Encoding: 171 171 108
 Width: 1024
 Flags: W
@@ -4927,7 +4928,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: not
+StartChar: logicalnot
 Encoding: 172 172 109
 Width: 1024
 Flags: W
@@ -4945,7 +4946,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: shy
+StartChar: uni00AD
 Encoding: 173 173 110
 Width: 670
 Flags: W
@@ -4975,7 +4976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: reg
+StartChar: registered
 Encoding: 174 174 111
 Width: 1530
 Flags: W
@@ -5041,7 +5042,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: macr
+StartChar: macron
 Encoding: 175 175 112
 Width: 680
 Flags: W
@@ -5061,7 +5062,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: deg
+StartChar: degree
 Encoding: 176 176 113
 Width: 819
 Flags: W
@@ -5090,7 +5091,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: plusmn
+StartChar: plusminus
 Encoding: 177 177 114
 Width: 1024
 Flags: W
@@ -5131,7 +5132,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup2
+StartChar: uni00B2
 Encoding: 178 178 115
 Width: 735
 Flags: W
@@ -5171,7 +5172,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup3
+StartChar: uni00B3
 Encoding: 179 179 116
 Width: 735
 Flags: W
@@ -5240,7 +5241,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: micro
+StartChar: uni00B5
 Encoding: 181 181 118
 Width: 1325
 Flags: W
@@ -5287,7 +5288,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: para
+StartChar: paragraph
 Encoding: 182 182 119
 Width: 1266
 Flags: W
@@ -5322,7 +5323,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: middot
+StartChar: periodcentered
 Encoding: 183 183 120
 Width: 512
 Flags: W
@@ -5342,7 +5343,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cedil
+StartChar: cedilla
 Encoding: 184 184 121
 Width: 1011
 Flags: W
@@ -5371,7 +5372,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup1
+StartChar: uni00B9
 Encoding: 185 185 122
 Width: 668
 Flags: W
@@ -5395,7 +5396,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ordm
+StartChar: ordmasculine
 Encoding: 186 186 123
 Width: 682
 Flags: W
@@ -5435,7 +5436,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: raquo
+StartChar: guillemotright
 Encoding: 187 187 124
 Width: 1024
 Flags: W
@@ -5484,7 +5485,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: frac14
+StartChar: onequarter
 Encoding: 188 188 125
 Width: 1350
 Flags: W
@@ -5538,7 +5539,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: frac12
+StartChar: onehalf
 Encoding: 189 189 126
 Width: 1312
 Flags: W
@@ -5596,7 +5597,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: frac34
+StartChar: threequarters
 Encoding: 190 190 127
 Width: 1312
 Flags: W
@@ -5668,7 +5669,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iquest
+StartChar: questiondown
 Encoding: 191 191 128
 Width: 800
 Flags: W
@@ -5865,7 +5866,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Acirc
+StartChar: Acircumflex
 Encoding: 194 194 131
 Width: 1593
 Flags: W
@@ -6015,7 +6016,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Auml
+StartChar: Adieresis
 Encoding: 196 196 133
 Width: 1593
 Flags: W
@@ -6171,7 +6172,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AElig
+StartChar: AE
 Encoding: 198 198 135
 Width: 1933
 Flags: W
@@ -6244,7 +6245,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ccedil
+StartChar: Ccedilla
 Encoding: 199 199 136
 Width: 1400
 Flags: W
@@ -6426,7 +6427,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ecirc
+StartChar: Ecircumflex
 Encoding: 202 202 139
 Width: 1251
 Flags: W
@@ -6479,7 +6480,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Euml
+StartChar: Edieresis
 Encoding: 203 203 140
 Width: 1251
 Flags: W
@@ -6630,7 +6631,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Icirc
+StartChar: Icircumflex
 Encoding: 206 206 143
 Width: 690
 Flags: W
@@ -6666,7 +6667,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Iuml
+StartChar: Idieresis
 Encoding: 207 207 144
 Width: 690
 Flags: W
@@ -6711,7 +6712,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ETH
+StartChar: Eth
 Encoding: 208 208 145
 Width: 1585
 Flags: W
@@ -6936,7 +6937,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ocirc
+StartChar: Ocircumflex
 Encoding: 212 212 149
 Width: 1610
 Flags: W
@@ -7038,7 +7039,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ouml
+StartChar: Odieresis
 Encoding: 214 214 151
 Width: 1610
 Flags: W
@@ -7090,7 +7091,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: times
+StartChar: multiply
 Encoding: 215 215 152
 Width: 1024
 Flags: W
@@ -7301,7 +7302,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ucirc
+StartChar: Ucircumflex
 Encoding: 219 219 156
 Width: 1554
 Flags: W
@@ -7351,7 +7352,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uuml
+StartChar: Udieresis
 Encoding: 220 220 157
 Width: 1554
 Flags: W
@@ -7484,7 +7485,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: THORN
+StartChar: Thorn
 Encoding: 222 222 159
 Width: 1151
 Flags: W
@@ -7530,7 +7531,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: szlig
+StartChar: germandbls
 Encoding: 223 223 160
 Width: 1269
 Flags: W
@@ -7548,59 +7549,50 @@ SplineSet
  107 0 107 0 107 21 c 0,12,13
  107 46 107 46 157 63.5 c 128,-1,14
  207 81 207 81 207 146 c 2,15,-1
- 207 845 l 1,16,17
- 169 844 169 844 93 840 c 1,18,-1
- 88 840 l 2,19,20
- 69 840 69 840 68 860 c 1,21,-1
- 68 862 l 2,22,23
- 68 878 68 878 87 887 c 0,24,25
- 107 896 107 896 170 930 c 0,26,27
- 185 938 185 938 199 944 c 0,28,29
- 202 945 202 945 207 945 c 1,30,-1
- 207 1027 l 2,31,32
- 207 1117 207 1117 229.5 1202.5 c 128,-1,33
- 252 1288 252 1288 308 1351 c 0,34,35
- 409 1466 409 1466 555 1466 c 0,36,37
- 587 1466 587 1466 622 1460 c 0,38,39
- 796 1430 796 1430 880 1265 c 0,40,41
- 912 1200 912 1200 912 1140 c 0,42,43
- 912 1046 912 1046 833 962 c 0,44,45
- 779 904 779 904 715.5 859.5 c 128,-1,46
- 652 815 652 815 638 751 c 0,47,48
- 633 729 633 729 633 711 c 0,49,50
- 633 648 633 648 689 621 c 1,51,52
- 760 585 760 585 854 564 c 0,53,54
- 983 535 983 535 1089 486 c 128,-1,55
- 1195 437 1195 437 1204 281 c 1,56,-1
- 1204 269 l 2,57,58
- 1204 196 1204 196 1147 123 c 0,59,60
- 1085 43 1085 43 968 2 c 1,61,62
- 895 -22 895 -22 806 -25 c 1,63,-1
- 779 -25 l 2,64,65
- 657 -25 657 -25 544 7 c 1,66,-1
- 464 227 l 1,67,-1
- 466 247 l 2,68,69
- 467 262 467 262 484 262 c 2,70,-1
- 486 262 l 1,71,72
- 496 260 496 260 507 238 c 0,73,74
- 553 139 553 139 619.5 97.5 c 128,-1,75
- 686 56 686 56 788 53 c 1,76,-1
- 800 53 l 2,77,78
- 872 53 872 53 957 86 c 0,79,80
- 1049 122 1049 122 1052 216 c 1,81,-1
- 1052 222 l 2,82,83
- 1052 330 1052 330 950 359 c 0,84,85
- 844 389 844 389 764 412 c 1,86,87
- 665 439 665 439 578 498 c 0,88,89
- 492 556 492 556 492 672 c 2,90,-1
- 492 675 l 2,91,92
- 492 774 492 774 558 824.5 c 128,-1,93
- 624 875 624 875 687 934 c 0,94,95
- 752 994 752 994 765 1093 c 0,96,97
- 767 1113 767 1113 767 1133 c 0,98,99
- 767 1206 767 1206 729 1261 c 1,100,101
- 682 1326 682 1326 583 1336 c 0,102,103
- 570 1337 570 1337 558 1337 c 0,104,105
+ 207 1027 l 2,16,17
+ 207 1117 207 1117 229.5 1202.5 c 128,-1,18
+ 252 1288 252 1288 308 1351 c 0,19,20
+ 409 1466 409 1466 555 1466 c 0,21,22
+ 587 1466 587 1466 622 1460 c 0,23,24
+ 796 1430 796 1430 880 1265 c 0,25,26
+ 912 1200 912 1200 912 1140 c 0,27,28
+ 912 1046 912 1046 833 962 c 0,29,30
+ 779 904 779 904 715.5 859.5 c 128,-1,31
+ 652 815 652 815 638 751 c 0,32,33
+ 633 729 633 729 633 711 c 0,34,35
+ 633 648 633 648 689 621 c 1,36,37
+ 760 585 760 585 854 564 c 0,38,39
+ 983 535 983 535 1089 486 c 128,-1,40
+ 1195 437 1195 437 1204 281 c 1,41,-1
+ 1204 269 l 2,42,43
+ 1204 196 1204 196 1147 123 c 0,44,45
+ 1085 43 1085 43 968 2 c 1,46,47
+ 895 -22 895 -22 806 -25 c 1,48,-1
+ 779 -25 l 2,49,50
+ 657 -25 657 -25 544 7 c 1,51,-1
+ 464 227 l 1,52,-1
+ 466 247 l 2,53,54
+ 467 262 467 262 484 262 c 2,55,-1
+ 486 262 l 1,56,57
+ 496 260 496 260 507 238 c 0,58,59
+ 553 139 553 139 619.5 97.5 c 128,-1,60
+ 686 56 686 56 788 53 c 1,61,-1
+ 800 53 l 2,62,63
+ 872 53 872 53 957 86 c 0,64,65
+ 1049 122 1049 122 1052 216 c 1,66,-1
+ 1052 222 l 2,67,68
+ 1052 330 1052 330 950 359 c 0,69,70
+ 844 389 844 389 764 412 c 1,71,72
+ 665 439 665 439 578 498 c 0,73,74
+ 492 556 492 556 492 672 c 2,75,-1
+ 492 675 l 2,76,77
+ 492 774 492 774 558 824.5 c 128,-1,78
+ 624 875 624 875 687 934 c 0,79,80
+ 752 994 752 994 765 1093 c 0,81,82
+ 767 1113 767 1113 767 1133 c 0,83,84
+ 767 1206 767 1206 729 1261 c 1,85,86
+ 682 1326 682 1326 583 1336 c 0,87,88
+ 570 1337 570 1337 558 1337 c 0,89,90
  476 1337 476 1337 432 1278 c 0,0,1
 EndSplineSet
 Validated: 1
@@ -7761,7 +7753,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: acirc
+StartChar: acircumflex
 Encoding: 226 226 163
 Width: 1155
 Flags: W
@@ -7915,7 +7907,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: auml
+StartChar: adieresis
 Encoding: 228 228 165
 Width: 1155
 Flags: W
@@ -8075,7 +8067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aelig
+StartChar: ae
 Encoding: 230 230 167
 Width: 1762
 Flags: W
@@ -8154,7 +8146,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ccedil
+StartChar: ccedilla
 Encoding: 231 231 168
 Width: 925
 Flags: W
@@ -8332,7 +8324,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: ecirc
+StartChar: ecircumflex
 Encoding: 234 234 171
 Width: 1004
 Flags: W
@@ -8382,7 +8374,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: euml
+StartChar: edieresis
 Encoding: 235 235 172
 Width: 1004
 Flags: W
@@ -8527,7 +8519,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: icirc
+StartChar: icircumflex
 Encoding: 238 238 175
 Width: 596
 Flags: W
@@ -8561,7 +8553,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iuml
+StartChar: idieresis
 Encoding: 239 239 176
 Width: 596
 Flags: W
@@ -8841,7 +8833,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ocirc
+StartChar: ocircumflex
 Encoding: 244 244 181
 Width: 1107
 Flags: W
@@ -8949,7 +8941,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ouml
+StartChar: odieresis
 Encoding: 246 246 183
 Width: 1107
 Flags: W
@@ -9221,7 +9213,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ucirc
+StartChar: ucircumflex
 Encoding: 251 251 188
 Width: 1239
 Flags: W
@@ -9274,7 +9266,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uuml
+StartChar: udieresis
 Encoding: 252 252 189
 Width: 1239
 Flags: W
@@ -9466,7 +9458,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yuml
+StartChar: ydieresis
 Encoding: 255 255 192
 Width: 1139
 Flags: W
@@ -9533,7 +9525,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Amacr
+StartChar: Amacron
 Encoding: 256 256 193
 Width: 1593
 Flags: W
@@ -9601,7 +9593,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: amacr
+StartChar: amacron
 Encoding: 257 257 194
 Width: 1155
 Flags: W
@@ -9819,7 +9811,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Aogon
+StartChar: Aogonek
 Encoding: 260 260 197
 Width: 1593
 Flags: W
@@ -9896,7 +9888,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aogon
+StartChar: aogonek
 Encoding: 261 261 198
 Width: 1155
 Flags: W
@@ -10192,7 +10184,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Cdot
+StartChar: Cdotaccent
 Encoding: 266 266 203
 Width: 1400
 Flags: W
@@ -10250,7 +10242,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: cdot
+StartChar: cdotaccent
 Encoding: 267 267 204
 Width: 925
 Flags: W
@@ -10542,7 +10534,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Dstrok
+StartChar: Dcroat
 Encoding: 272 272 209
 Width: 1585
 Flags: W
@@ -10603,7 +10595,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dstrok
+StartChar: dcroat
 Encoding: 273 273 210
 Width: 1158
 Flags: W
@@ -10673,7 +10665,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Emacr
+StartChar: Emacron
 Encoding: 274 274 211
 Width: 1251
 Flags: W
@@ -10727,7 +10719,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: emacr
+StartChar: emacron
 Encoding: 275 275 212
 Width: 1004
 Flags: W
@@ -10892,7 +10884,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Edot
+StartChar: Edotaccent
 Encoding: 278 278 215
 Width: 1251
 Flags: W
@@ -10954,7 +10946,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: edot
+StartChar: edotaccent
 Encoding: 279 279 216
 Width: 1004
 Flags: W
@@ -11001,7 +10993,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Eogon
+StartChar: Eogonek
 Encoding: 280 280 217
 Width: 1251
 Flags: W
@@ -11064,7 +11056,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eogon
+StartChar: eogonek
 Encoding: 281 281 218
 Width: 1004
 Flags: W
@@ -11509,7 +11501,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Gdot
+StartChar: Gdotaccent
 Encoding: 288 288 225
 Width: 1563
 Flags: W
@@ -11570,7 +11562,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gdot
+StartChar: gdotaccent
 Encoding: 289 289 226
 Width: 1103
 Flags: W
@@ -11994,7 +11986,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hstrok
+StartChar: hbar
 Encoding: 295 295 232
 Width: 1192
 Flags: W
@@ -12152,7 +12144,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Imacr
+StartChar: Imacron
 Encoding: 298 298 235
 Width: 690
 Flags: W
@@ -12189,7 +12181,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: imacr
+StartChar: imacron
 Encoding: 299 299 236
 Width: 593
 Flags: W
@@ -12306,7 +12298,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Iogon
+StartChar: Iogonek
 Encoding: 302 302 239
 Width: 690
 Flags: W
@@ -12352,7 +12344,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iogon
+StartChar: iogonek
 Encoding: 303 303 240
 Width: 593
 Flags: W
@@ -12396,7 +12388,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Idot
+StartChar: Idotaccent
 Encoding: 304 304 241
 Width: 690
 Flags: W
@@ -12441,7 +12433,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: inodot
+StartChar: dotlessi
 Encoding: 305 305 242
 Width: 593
 Flags: W
@@ -12467,7 +12459,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: IJlig
+StartChar: IJ
 Encoding: 306 306 243
 Width: 1372
 Flags: W
@@ -12515,7 +12507,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ijlig
+StartChar: ij
 Encoding: 307 307 244
 Width: 1037
 Flags: W
@@ -13224,7 +13216,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lstrok
+StartChar: Lslash
 Encoding: 321 321 258
 Width: 1251
 Flags: W
@@ -13272,7 +13264,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lstrok
+StartChar: lslash
 Encoding: 322 322 259
 Width: 752
 Flags: W
@@ -13702,7 +13694,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ENG
+StartChar: Eng
 Encoding: 330 330 267
 Width: 1644
 Flags: W
@@ -13794,7 +13786,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Omacr
+StartChar: Omacron
 Encoding: 332 332 269
 Width: 1610
 Flags: W
@@ -13838,7 +13830,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: omacr
+StartChar: omacron
 Encoding: 333 333 270
 Width: 1107
 Flags: W
@@ -13986,7 +13978,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Odblac
+StartChar: Ohungarumlaut
 Encoding: 336 336 273
 Width: 1610
 Flags: W
@@ -14049,7 +14041,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: odblac
+StartChar: ohungarumlaut
 Encoding: 337 337 274
 Width: 1107
 Flags: W
@@ -14115,7 +14107,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OElig
+StartChar: OE
 Encoding: 338 338 275
 Width: 2044
 Flags: W
@@ -14172,7 +14164,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oelig
+StartChar: oe
 Encoding: 339 339 276
 Width: 1830
 Flags: W
@@ -15580,7 +15572,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Umacr
+StartChar: Umacron
 Encoding: 362 362 299
 Width: 1554
 Flags: W
@@ -15631,7 +15623,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: umacr
+StartChar: umacron
 Encoding: 363 363 300
 Width: 1239
 Flags: W
@@ -15926,7 +15918,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Udblac
+StartChar: Uhungarumlaut
 Encoding: 368 368 305
 Width: 1554
 Flags: W
@@ -15996,7 +15988,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: udblac
+StartChar: uhungarumlaut
 Encoding: 369 369 306
 Width: 1239
 Flags: W
@@ -16069,7 +16061,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uogon
+StartChar: Uogonek
 Encoding: 370 370 307
 Width: 1554
 Flags: W
@@ -16129,7 +16121,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uogon
+StartChar: uogonek
 Encoding: 371 371 308
 Width: 1239
 Flags: W
@@ -16192,7 +16184,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wcirc
+StartChar: Wcircumflex
 Encoding: 372 372 309
 Width: 2048
 Flags: W
@@ -16292,7 +16284,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wcirc
+StartChar: wcircumflex
 Encoding: 373 373 310
 Width: 1647
 Flags: W
@@ -16373,7 +16365,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ycirc
+StartChar: Ycircumflex
 Encoding: 374 374 311
 Width: 1366
 Flags: W
@@ -16436,7 +16428,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ycirc
+StartChar: ycircumflex
 Encoding: 375 375 312
 Width: 1036
 Flags: W
@@ -16494,7 +16486,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Yuml
+StartChar: Ydieresis
 Encoding: 376 376 313
 Width: 1366
 Flags: W
@@ -16669,7 +16661,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Zdot
+StartChar: Zdotaccent
 Encoding: 379 379 316
 Width: 1366
 Flags: W
@@ -16716,7 +16708,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zdot
+StartChar: zdotaccent
 Encoding: 380 380 317
 Width: 1019
 Flags: W
@@ -16849,7 +16841,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slong
+StartChar: longs
 Encoding: 383 383 320
 Width: 625
 Flags: W
@@ -16951,7 +16943,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Gstrok
+StartChar: uni01E4
 Encoding: 484 484 322
 Width: 1563
 Flags: W
@@ -17003,7 +16995,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogon
+StartChar: uni01EA
 Encoding: 490 490 323
 Width: 1610
 Flags: W
@@ -17056,7 +17048,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogon
+StartChar: uni01EB
 Encoding: 491 491 324
 Width: 1107
 Flags: W
@@ -17112,7 +17104,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogonmacr
+StartChar: uni01EC
 Encoding: 492 492 325
 Width: 1610
 Flags: W
@@ -17174,7 +17166,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogonmacr
+StartChar: uni01ED
 Encoding: 493 493 326
 Width: 1107
 Flags: W
@@ -17239,7 +17231,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Gacute
+StartChar: uni01F4
 Encoding: 500 500 327
 Width: 1563
 Flags: W
@@ -17302,7 +17294,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gacute
+StartChar: uni01F5
 Encoding: 501 501 328
 Width: 1103
 Flags: W
@@ -17584,7 +17576,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligacute
+StartChar: AEacute
 Encoding: 508 508 331
 Width: 1933
 Flags: W
@@ -17671,7 +17663,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligacute
+StartChar: aeacute
 Encoding: 509 509 332
 Width: 1747
 Flags: W
@@ -18158,7 +18150,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Odot
+StartChar: uni022E
 Encoding: 558 558 339
 Width: 1610
 Flags: W
@@ -18210,7 +18202,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: odot
+StartChar: uni022F
 Encoding: 559 559 340
 Width: 1107
 Flags: W
@@ -18253,7 +18245,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ymacr
+StartChar: uni0233
 Encoding: 563 563 341
 Width: 1139
 Flags: W
@@ -18312,7 +18304,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jnodot
+StartChar: uni0237
 Encoding: 567 567 342
 Width: 457
 Flags: W
@@ -18339,7 +18331,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jbar
+StartChar: uni0248
 Encoding: 584 584 343
 Width: 682
 Flags: W
@@ -18380,7 +18372,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dtail
+StartChar: uni0256
 Encoding: 598 598 344
 Width: 1140
 Flags: W
@@ -18440,7 +18432,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gopen
+StartChar: uni0261
 Encoding: 609 609 345
 Width: 1164
 Flags: W
@@ -18521,7 +18513,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gscap
+StartChar: uni0262
 Encoding: 610 610 346
 Width: 1078
 Flags: W
@@ -18566,7 +18558,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iscap
+StartChar: uni026A
 Encoding: 618 618 347
 Width: 452
 Flags: W
@@ -18594,7 +18586,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscap
+StartChar: uni0274
 Encoding: 628 628 348
 Width: 1142
 Flags: W
@@ -18631,7 +18623,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oeligscap
+StartChar: uni0276
 Encoding: 630 630 349
 Width: 1506
 Flags: W
@@ -18692,7 +18684,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rscap
+StartChar: uni0280
 Encoding: 640 640 350
 Width: 1010
 Flags: W
@@ -18743,7 +18735,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yscap
+StartChar: uni028F
 Encoding: 655 655 351
 Width: 940
 Flags: W
@@ -18797,7 +18789,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bscap
+StartChar: uni0299
 Encoding: 665 665 352
 Width: 865
 Flags: W
@@ -18845,7 +18837,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hscap
+StartChar: uni029C
 Encoding: 668 668 353
 Width: 1169
 Flags: W
@@ -18893,7 +18885,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lscap
+StartChar: uni029F
 Encoding: 671 671 354
 Width: 865
 Flags: W
@@ -18989,7 +18981,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dot
+StartChar: dotaccent
 Encoding: 729 729 358
 Width: 680
 Flags: W
@@ -19036,7 +19028,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ogon
+StartChar: ogonek
 Encoding: 731 731 360
 Width: 1107
 Flags: W
@@ -19100,7 +19092,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dblac
+StartChar: hungarumlaut
 Encoding: 733 733 362
 Width: 680
 Flags: W
@@ -19139,7 +19131,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combgrave
+StartChar: gravecomb
 Encoding: 768 768 363
 Width: 0
 Flags: W
@@ -19164,7 +19156,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combacute
+StartChar: acutecomb
 Encoding: 769 769 364
 Width: 0
 Flags: W
@@ -19194,7 +19186,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcirc
+StartChar: uni0302
 Encoding: 770 770 365
 Width: 0
 Flags: W
@@ -19213,7 +19205,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combtilde
+StartChar: tildecomb
 Encoding: 771 771 366
 Width: 0
 Flags: W
@@ -19248,7 +19240,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combmacr
+StartChar: uni0304
 Encoding: 772 772 367
 Width: 0
 Flags: W
@@ -19268,7 +19260,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bar
+StartChar: uni0305
 Encoding: 773 773 368
 Width: 0
 Flags: W
@@ -19284,7 +19276,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combbreve
+StartChar: uni0306
 Encoding: 774 774 369
 Width: 0
 Flags: W
@@ -19308,7 +19300,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdot
+StartChar: uni0307
 Encoding: 775 775 370
 Width: 0
 Flags: W
@@ -19324,7 +19316,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combuml
+StartChar: uni0308
 Encoding: 776 776 371
 Width: 0
 Flags: W
@@ -19353,7 +19345,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combhook
+StartChar: hookabovecomb
 Encoding: 777 777 372
 Width: 0
 Flags: W
@@ -19390,7 +19382,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combring
+StartChar: uni030A
 Encoding: 778 778 373
 Width: 0
 Flags: W
@@ -19421,7 +19413,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdblac
+StartChar: uni030B
 Encoding: 779 779 374
 Width: 0
 Flags: W
@@ -19489,7 +19481,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combsgvertl
+StartChar: uni030D
 Encoding: 781 781 376
 Width: 0
 Flags: W
@@ -19505,7 +19497,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdbvertl
+StartChar: uni030E
 Encoding: 782 782 377
 Width: 0
 Flags: W
@@ -19708,7 +19700,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcomma
+StartChar: uni0315
 Encoding: 789 789 384
 Width: 112
 Flags: W
@@ -20028,7 +20020,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdotbl
+StartChar: dotbelowcomb
 Encoding: 803 803 398
 Width: 0
 Flags: W
@@ -20134,7 +20126,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combced
+StartChar: uni0327
 Encoding: 807 807 402
 Width: 648
 Flags: W
@@ -20163,7 +20155,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combogon
+StartChar: uni0328
 Encoding: 808 808 403
 Width: 0
 Flags: W
@@ -20404,7 +20396,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: barbl
+StartChar: uni0332
 Encoding: 818 818 413
 Width: 0
 Flags: W
@@ -20420,7 +20412,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dblbarbl
+StartChar: uni0333
 Encoding: 819 819 414
 Width: 0
 Flags: W
@@ -20491,7 +20483,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: baracr
+StartChar: uni0336
 Encoding: 822 822 417
 Width: 0
 Flags: W
@@ -20653,7 +20645,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combtildevert
+StartChar: uni033E
 Encoding: 830 830 425
 Width: 0
 Flags: W
@@ -20690,7 +20682,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dblovl
+StartChar: uni033F
 Encoding: 831 831 426
 Width: 0
 Flags: W
@@ -21244,7 +21236,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combastbl
+StartChar: uni0359
 Encoding: 857 857 445
 Width: 0
 Flags: W
@@ -21340,7 +21332,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: er
+StartChar: uni035B
 Encoding: 859 859 447
 Width: 0
 Flags: W
@@ -21378,7 +21370,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdblbrevebl
+StartChar: uni035C
 Encoding: 860 860 448
 Width: 0
 Flags: W
@@ -21553,7 +21545,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: asup
+StartChar: uni0363
 Encoding: 867 867 455
 Width: 0
 Flags: W
@@ -21609,7 +21601,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: esup
+StartChar: uni0364
 Encoding: 868 868 456
 Width: 0
 Flags: W
@@ -21658,7 +21650,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: isup
+StartChar: uni0365
 Encoding: 869 869 457
 Width: 0
 Flags: W
@@ -21688,7 +21680,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: osup
+StartChar: uni0366
 Encoding: 870 870 458
 Width: 0
 Flags: W
@@ -21719,7 +21711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: usup
+StartChar: uni0367
 Encoding: 871 871 459
 Width: 0
 Flags: W
@@ -21760,7 +21752,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: csup
+StartChar: uni0368
 Encoding: 872 872 460
 Width: 0
 Flags: W
@@ -21801,7 +21793,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dsup
+StartChar: uni0369
 Encoding: 873 873 461
 Width: 0
 Flags: W
@@ -21857,7 +21849,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hsup
+StartChar: uni036A
 Encoding: 874 874 462
 Width: 0
 Flags: W
@@ -21900,7 +21892,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: msup
+StartChar: uni036B
 Encoding: 875 875 463
 Width: 0
 Flags: W
@@ -21960,7 +21952,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsup
+StartChar: uni036C
 Encoding: 876 876 464
 Width: 0
 Flags: W
@@ -21996,7 +21988,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tsup
+StartChar: uni036D
 Encoding: 877 877 465
 Width: 0
 Flags: W
@@ -22038,7 +22030,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vsup
+StartChar: uni036E
 Encoding: 878 878 466
 Width: 0
 Flags: W
@@ -22082,7 +22074,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xsup
+StartChar: uni036F
 Encoding: 879 879 467
 Width: 0
 Flags: W
@@ -22143,7 +22135,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fMedrun
+StartChar: uni16A0
 Encoding: 5792 5792 468
 Width: 1358
 Flags: W
@@ -22305,7 +22297,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mMedrun
+StartChar: uni16D8
 Encoding: 5848 5848 472
 Width: 1562
 Flags: W
@@ -22486,7 +22478,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ascap
+StartChar: uni1D00
 Encoding: 7424 7424 477
 Width: 1127
 Flags: W
@@ -22543,7 +22535,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligscap
+StartChar: uni1D01
 Encoding: 7425 7425 478
 Width: 1438
 Flags: W
@@ -22616,7 +22608,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cscap
+StartChar: uni1D04
 Encoding: 7428 7428 479
 Width: 966
 Flags: W
@@ -22653,7 +22645,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dscap
+StartChar: uni1D05
 Encoding: 7429 7429 480
 Width: 1117
 Flags: W
@@ -22702,7 +22694,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ethscap
+StartChar: uni1D06
 Encoding: 7430 7430 481
 Width: 1117
 Flags: W
@@ -22763,7 +22755,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: escap
+StartChar: uni1D07
 Encoding: 7431 7431 482
 Width: 842
 Flags: W
@@ -22811,7 +22803,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jscap
+StartChar: uni1D0A
 Encoding: 7434 7434 483
 Width: 561
 Flags: W
@@ -22839,7 +22831,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kscap
+StartChar: uni1D0B
 Encoding: 7435 7435 484
 Width: 1055
 Flags: W
@@ -22892,7 +22884,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mscap
+StartChar: uni1D0D
 Encoding: 7437 7437 485
 Width: 1401
 Flags: W
@@ -22935,7 +22927,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oscap
+StartChar: uni1D0F
 Encoding: 7439 7439 486
 Width: 1130
 Flags: W
@@ -22969,7 +22961,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pscap
+StartChar: uni1D18
 Encoding: 7448 7448 487
 Width: 934
 Flags: W
@@ -23007,7 +22999,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tscap
+StartChar: uni1D1B
 Encoding: 7451 7451 488
 Width: 880
 Flags: W
@@ -23045,7 +23037,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uscap
+StartChar: uni1D1C
 Encoding: 7452 7452 489
 Width: 1123
 Flags: W
@@ -23085,7 +23077,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vscap
+StartChar: uni1D20
 Encoding: 7456 7456 490
 Width: 1096
 Flags: W
@@ -23135,7 +23127,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wscap
+StartChar: uni1D21
 Encoding: 7457 7457 491
 Width: 1677
 Flags: W
@@ -23213,7 +23205,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zscap
+StartChar: uni1D22
 Encoding: 7458 7458 492
 Width: 966
 Flags: W
@@ -23251,7 +23243,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Bdot
+StartChar: uni1E02
 Encoding: 7682 7682 493
 Width: 1251
 Flags: W
@@ -23316,7 +23308,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bdot
+StartChar: uni1E03
 Encoding: 7683 7683 494
 Width: 1139
 Flags: W
@@ -23383,7 +23375,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Bdotbl
+StartChar: uni1E04
 Encoding: 7684 7684 495
 Width: 1251
 Flags: W
@@ -23436,7 +23428,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bdotbl
+StartChar: uni1E05
 Encoding: 7685 7685 496
 Width: 1139
 Flags: W
@@ -23503,7 +23495,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ddot
+StartChar: uni1E0A
 Encoding: 7690 7690 497
 Width: 1585
 Flags: W
@@ -23569,7 +23561,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ddot
+StartChar: uni1E0B
 Encoding: 7691 7691 498
 Width: 1231
 Flags: W
@@ -23634,7 +23626,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ddotbl
+StartChar: uni1E0C
 Encoding: 7692 7692 499
 Width: 1585
 Flags: W
@@ -23688,7 +23680,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ddotbl
+StartChar: uni1E0D
 Encoding: 7693 7693 500
 Width: 1231
 Flags: W
@@ -23753,7 +23745,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Emacracute
+StartChar: uni1E16
 Encoding: 7702 7702 501
 Width: 1251
 Flags: W
@@ -23826,7 +23818,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: emacracute
+StartChar: uni1E17
 Encoding: 7703 7703 502
 Width: 1004
 Flags: W
@@ -23896,7 +23888,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Fdot
+StartChar: uni1E1E
 Encoding: 7710 7710 503
 Width: 1139
 Flags: W
@@ -23961,7 +23953,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fdot
+StartChar: uni1E1F
 Encoding: 7711 7711 504
 Width: 683
 Flags: W
@@ -24021,7 +24013,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hdot
+StartChar: uni1E22
 Encoding: 7714 7714 505
 Width: 1638
 Flags: W
@@ -24086,7 +24078,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hdot
+StartChar: uni1E23
 Encoding: 7715 7715 506
 Width: 1207
 Flags: W
@@ -24137,7 +24129,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hdotbl
+StartChar: uni1E24
 Encoding: 7716 7716 507
 Width: 1638
 Flags: W
@@ -24190,7 +24182,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hdotbl
+StartChar: uni1E25
 Encoding: 7717 7717 508
 Width: 1207
 Flags: W
@@ -24241,7 +24233,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kacute
+StartChar: uni1E30
 Encoding: 7728 7728 509
 Width: 1487
 Flags: W
@@ -24312,7 +24304,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kacute
+StartChar: uni1E31
 Encoding: 7729 7729 510
 Width: 1163
 Flags: W
@@ -24384,7 +24376,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kdotbl
+StartChar: uni1E33
 Encoding: 7731 7731 511
 Width: 1163
 Flags: W
@@ -24442,7 +24434,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ldotbl
+StartChar: uni1E36
 Encoding: 7734 7734 512
 Width: 1251
 Flags: W
@@ -24479,7 +24471,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldotbl
+StartChar: uni1E37
 Encoding: 7735 7735 513
 Width: 597
 Flags: W
@@ -24510,7 +24502,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Macute
+StartChar: uni1E3E
 Encoding: 7742 7742 514
 Width: 1908
 Flags: W
@@ -24572,7 +24564,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: macute
+StartChar: uni1E3F
 Encoding: 7743 7743 515
 Width: 1799
 Flags: W
@@ -24657,7 +24649,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Mdot
+StartChar: uni1E40
 Encoding: 7744 7744 516
 Width: 1908
 Flags: W
@@ -24717,7 +24709,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mdot
+StartChar: uni1E41
 Encoding: 7745 7745 517
 Width: 1799
 Flags: W
@@ -24788,7 +24780,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Mdotbl
+StartChar: uni1E42
 Encoding: 7746 7746 518
 Width: 1908
 Flags: W
@@ -24836,7 +24828,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mdotbl
+StartChar: uni1E43
 Encoding: 7747 7747 519
 Width: 1799
 Flags: W
@@ -24907,7 +24899,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ndot
+StartChar: uni1E44
 Encoding: 7748 7748 520
 Width: 1644
 Flags: W
@@ -24961,7 +24953,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ndot
+StartChar: uni1E45
 Encoding: 7749 7749 521
 Width: 1191
 Flags: W
@@ -25012,7 +25004,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ndotbl
+StartChar: uni1E46
 Encoding: 7750 7750 522
 Width: 1644
 Flags: W
@@ -25054,7 +25046,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ndotbl
+StartChar: uni1E47
 Encoding: 7751 7751 523
 Width: 1191
 Flags: W
@@ -25105,7 +25097,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: omacracute
+StartChar: uni1E53
 Encoding: 7763 7763 524
 Width: 1107
 Flags: W
@@ -25171,7 +25163,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Pacute
+StartChar: uni1E54
 Encoding: 7764 7764 525
 Width: 1237
 Flags: W
@@ -25231,7 +25223,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pacute
+StartChar: uni1E55
 Encoding: 7765 7765 526
 Width: 1197
 Flags: W
@@ -25311,7 +25303,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Pdot
+StartChar: uni1E56
 Encoding: 7766 7766 527
 Width: 1237
 Flags: W
@@ -25369,7 +25361,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pdot
+StartChar: uni1E57
 Encoding: 7767 7767 528
 Width: 1197
 Flags: W
@@ -25435,7 +25427,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rdot
+StartChar: uni1E58
 Encoding: 7768 7768 529
 Width: 1368
 Flags: W
@@ -25503,7 +25495,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdot
+StartChar: uni1E59
 Encoding: 7769 7769 530
 Width: 831
 Flags: W
@@ -25545,7 +25537,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rdotbl
+StartChar: uni1E5A
 Encoding: 7770 7770 531
 Width: 1368
 Flags: W
@@ -25601,7 +25593,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdotbl
+StartChar: uni1E5B
 Encoding: 7771 7771 532
 Width: 831
 Flags: W
@@ -25643,7 +25635,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Sdot
+StartChar: uni1E60
 Encoding: 7776 7776 533
 Width: 1075
 Flags: W
@@ -25721,7 +25713,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sdot
+StartChar: uni1E61
 Encoding: 7777 7777 534
 Width: 884
 Flags: W
@@ -25778,7 +25770,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Sdotbl
+StartChar: uni1E62
 Encoding: 7778 7778 535
 Width: 1075
 Flags: W
@@ -25844,7 +25836,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sdotbl
+StartChar: uni1E63
 Encoding: 7779 7779 536
 Width: 884
 Flags: W
@@ -25901,7 +25893,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Tdot
+StartChar: uni1E6A
 Encoding: 7786 7786 537
 Width: 1255
 Flags: W
@@ -25956,7 +25948,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tdot
+StartChar: uni1E6B
 Encoding: 7787 7787 538
 Width: 646
 Flags: W
@@ -25997,7 +25989,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Tdotbl
+StartChar: uni1E6C
 Encoding: 7788 7788 539
 Width: 1255
 Flags: W
@@ -26040,7 +26032,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tdotbl
+StartChar: uni1E6D
 Encoding: 7789 7789 540
 Width: 646
 Flags: W
@@ -26084,7 +26076,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vdotbl
+StartChar: uni1E7E
 Encoding: 7806 7806 541
 Width: 1479
 Flags: W
@@ -26139,7 +26131,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vdotbl
+StartChar: uni1E7F
 Encoding: 7807 7807 542
 Width: 1036
 Flags: W
@@ -26587,7 +26579,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wuml
+StartChar: Wdieresis
 Encoding: 7812 7812 547
 Width: 2048
 Flags: W
@@ -26697,7 +26689,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wuml
+StartChar: wdieresis
 Encoding: 7813 7813 548
 Width: 1647
 Flags: W
@@ -26788,7 +26780,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wdot
+StartChar: uni1E86
 Encoding: 7814 7814 549
 Width: 2048
 Flags: W
@@ -26897,7 +26889,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wdot
+StartChar: uni1E87
 Encoding: 7815 7815 550
 Width: 1647
 Flags: W
@@ -26975,7 +26967,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wdotbl
+StartChar: uni1E88
 Encoding: 7816 7816 551
 Width: 2048
 Flags: W
@@ -27072,7 +27064,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wdotbl
+StartChar: uni1E89
 Encoding: 7817 7817 552
 Width: 1647
 Flags: W
@@ -27150,7 +27142,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ydot
+StartChar: uni1E8E
 Encoding: 7822 7822 553
 Width: 1366
 Flags: W
@@ -27222,7 +27214,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ydot
+StartChar: uni1E8F
 Encoding: 7823 7823 554
 Width: 1036
 Flags: W
@@ -27277,7 +27269,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zdotbl
+StartChar: uni1E93
 Encoding: 7827 7827 555
 Width: 1036
 Flags: W
@@ -27319,7 +27311,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Adotbl
+StartChar: uni1EA0
 Encoding: 7840 7840 556
 Width: 1593
 Flags: W
@@ -27383,7 +27375,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adotbl
+StartChar: uni1EA1
 Encoding: 7841 7841 557
 Width: 1155
 Flags: W
@@ -27449,7 +27441,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ahook
+StartChar: uni1EA2
 Encoding: 7842 7842 558
 Width: 1593
 Flags: W
@@ -27526,7 +27518,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ahook
+StartChar: uni1EA3
 Encoding: 7843 7843 559
 Width: 1155
 Flags: W
@@ -28455,7 +28447,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Abreveacute
+StartChar: uni1EAE
 Encoding: 7854 7854 570
 Width: 1593
 Flags: W
@@ -28547,7 +28539,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: abreveacute
+StartChar: uni1EAF
 Encoding: 7855 7855 571
 Width: 1155
 Flags: W
@@ -29373,7 +29365,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Edotbl
+StartChar: uni1EB8
 Encoding: 7864 7864 580
 Width: 1251
 Flags: W
@@ -29423,7 +29415,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: edotbl
+StartChar: uni1EB9
 Encoding: 7865 7865 581
 Width: 1004
 Flags: W
@@ -30432,7 +30424,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Ihook
+StartChar: uni1EC8
 Encoding: 7880 7880 596
 Width: 690
 Flags: W
@@ -30487,7 +30479,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ihook
+StartChar: uni1EC9
 Encoding: 7881 7881 597
 Width: 593
 Flags: W
@@ -30539,7 +30531,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Idotbl
+StartChar: uni1ECA
 Encoding: 7882 7882 598
 Width: 690
 Flags: W
@@ -30572,7 +30564,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: idotbl
+StartChar: uni1ECB
 Encoding: 7883 7883 599
 Width: 593
 Flags: W
@@ -30603,7 +30595,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Odotbl
+StartChar: uni1ECC
 Encoding: 7884 7884 600
 Width: 1610
 Flags: W
@@ -30643,7 +30635,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: odotbl
+StartChar: uni1ECD
 Encoding: 7885 7885 601
 Width: 1107
 Flags: W
@@ -30686,7 +30678,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ohook
+StartChar: uni1ECE
 Encoding: 7886 7886 602
 Width: 1610
 Flags: W
@@ -30746,7 +30738,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ohook
+StartChar: uni1ECF
 Encoding: 7887 7887 603
 Width: 1107
 Flags: W
@@ -31429,7 +31421,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Udotbl
+StartChar: uni1EE4
 Encoding: 7908 7908 614
 Width: 1554
 Flags: W
@@ -31476,7 +31468,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: udotbl
+StartChar: uni1EE5
 Encoding: 7909 7909 615
 Width: 1235
 Flags: W
@@ -31523,7 +31515,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uhook
+StartChar: uni1EE6
 Encoding: 7910 7910 616
 Width: 1554
 Flags: W
@@ -31590,7 +31582,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uhook
+StartChar: uni1EE7
 Encoding: 7911 7911 617
 Width: 1235
 Flags: W
@@ -31790,7 +31782,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ydotbl
+StartChar: uni1EF4
 Encoding: 7924 7924 620
 Width: 1366
 Flags: W
@@ -31850,7 +31842,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ydotbl
+StartChar: uni1EF5
 Encoding: 7925 7925 621
 Width: 1036
 Flags: W
@@ -31905,7 +31897,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Yhook
+StartChar: uni1EF6
 Encoding: 7926 7926 622
 Width: 1366
 Flags: W
@@ -31986,7 +31978,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yhook
+StartChar: uni1EF7
 Encoding: 7927 7927 623
 Width: 1036
 Flags: W
@@ -32214,84 +32206,84 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: enqd
+StartChar: uni2000
 Encoding: 8192 8192 626
 Width: 1024
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: emqd
+StartChar: uni2001
 Encoding: 8193 8193 627
 Width: 1048
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: ensp
+StartChar: uni2002
 Encoding: 8194 8194 628
 Width: 1024
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: emsp
+StartChar: uni2003
 Encoding: 8195 8195 629
 Width: 2048
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: emsp13
+StartChar: uni2004
 Encoding: 8196 8196 630
 Width: 682
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: emsp14
+StartChar: uni2005
 Encoding: 8197 8197 631
 Width: 512
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: emsp16
+StartChar: uni2006
 Encoding: 8198 8198 632
 Width: 341
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: numsp
+StartChar: uni2007
 Encoding: 8199 8199 633
 Width: 956
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: puncsp
+StartChar: uni2008
 Encoding: 8200 8200 634
 Width: 520
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: thinsp
+StartChar: uni2009
 Encoding: 8201 8201 635
 Width: 204
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: hairsp
+StartChar: uni200A
 Encoding: 8202 8202 636
 Width: 20
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: dash
+StartChar: uni2010
 Encoding: 8208 8208 637
 Width: 827
 Flags: W
@@ -32307,7 +32299,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nbhy
+StartChar: uni2011
 Encoding: 8209 8209 638
 Width: 827
 Flags: W
@@ -32323,7 +32315,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: numdash
+StartChar: figuredash
 Encoding: 8210 8210 639
 Width: 1024
 Flags: W
@@ -32339,7 +32331,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ndash
+StartChar: endash
 Encoding: 8211 8211 640
 Width: 1024
 Flags: W
@@ -32355,7 +32347,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mdash
+StartChar: emdash
 Encoding: 8212 8212 641
 Width: 2048
 Flags: W
@@ -32371,7 +32363,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: horbar
+StartChar: afii00208
 Encoding: 8213 8213 642
 Width: 2048
 Flags: W
@@ -32387,7 +32379,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Verbar
+StartChar: uni2016
 Encoding: 8214 8214 643
 Width: 1241
 Flags: W
@@ -32429,7 +32421,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsquo
+StartChar: quoteleft
 Encoding: 8216 8216 645
 Width: 429
 Flags: W
@@ -32459,7 +32451,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsquo
+StartChar: quoteright
 Encoding: 8217 8217 646
 Width: 433
 Flags: W
@@ -32486,7 +32478,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsquolow
+StartChar: quotesinglbase
 Encoding: 8218 8218 647
 Width: 463
 Flags: W
@@ -32514,7 +32506,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsquorev
+StartChar: quotereversed
 Encoding: 8219 8219 648
 Width: 322
 Flags: W
@@ -32544,7 +32536,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldquo
+StartChar: quotedblleft
 Encoding: 8220 8220 649
 Width: 837
 Flags: W
@@ -32589,7 +32581,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdquo
+StartChar: quotedblright
 Encoding: 8221 8221 650
 Width: 842
 Flags: W
@@ -32633,7 +32625,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldquolow
+StartChar: quotedblbase
 Encoding: 8222 8222 651
 Width: 842
 Flags: W
@@ -32746,7 +32738,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Dagger
+StartChar: daggerdbl
 Encoding: 8225 8225 653
 Width: 1157
 Flags: W
@@ -32841,7 +32833,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bull
+StartChar: bullet
 Encoding: 8226 8226 654
 Width: 1241
 Flags: W
@@ -32861,7 +32853,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dblldr
+StartChar: twodotenleader
 Encoding: 8229 8229 655
 Width: 1024
 Flags: W
@@ -32882,7 +32874,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hellip
+StartChar: ellipsis
 Encoding: 8230 8230 656
 Width: 2048
 Flags: W
@@ -32908,7 +32900,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: permil
+StartChar: perthousand
 Encoding: 8240 8240 657
 Width: 1620
 Flags: W
@@ -32990,7 +32982,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: prime
+StartChar: minute
 Encoding: 8242 8242 658
 Width: 360
 Flags: W
@@ -33016,7 +33008,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Prime
+StartChar: second
 Encoding: 8243 8243 659
 Width: 639
 Flags: W
@@ -33057,7 +33049,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsaquo
+StartChar: guilsinglleft
 Encoding: 8249 8249 660
 Width: 678
 Flags: W
@@ -33087,7 +33079,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsaquo
+StartChar: guilsinglright
 Encoding: 8250 8250 661
 Width: 678
 Flags: W
@@ -33226,7 +33218,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fracsol
+StartChar: fraction
 Encoding: 8260 8260 665
 Width: 342
 Flags: W
@@ -33242,7 +33234,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: et
+StartChar: uni204A
 Encoding: 8266 8266 666
 Width: 963
 Flags: W
@@ -33290,7 +33282,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup0
+StartChar: uni2070
 Encoding: 8304 8304 667
 Width: 735
 Flags: W
@@ -33323,7 +33315,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup4
+StartChar: uni2074
 Encoding: 8308 8308 668
 Width: 735
 Flags: W
@@ -33356,7 +33348,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup5
+StartChar: uni2075
 Encoding: 8309 8309 669
 Width: 735
 Flags: W
@@ -33404,7 +33396,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup6
+StartChar: uni2076
 Encoding: 8310 8310 670
 Width: 735
 Flags: W
@@ -33448,7 +33440,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup7
+StartChar: uni2077
 Encoding: 8311 8311 671
 Width: 735
 Flags: W
@@ -33477,7 +33469,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup8
+StartChar: uni2078
 Encoding: 8312 8312 672
 Width: 735
 Flags: W
@@ -33523,7 +33515,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sup9
+StartChar: uni2079
 Encoding: 8313 8313 673
 Width: 735
 Flags: W
@@ -33760,7 +33752,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub0
+StartChar: uni2080
 Encoding: 8320 8320 680
 Width: 735
 Flags: W
@@ -33794,7 +33786,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub1
+StartChar: uni2081
 Encoding: 8321 8321 681
 Width: 668
 Flags: W
@@ -33818,7 +33810,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub2
+StartChar: uni2082
 Encoding: 8322 8322 682
 Width: 735
 Flags: W
@@ -33858,7 +33850,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub3
+StartChar: uni2083
 Encoding: 8323 8323 683
 Width: 735
 Flags: W
@@ -33903,7 +33895,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub4
+StartChar: uni2084
 Encoding: 8324 8324 684
 Width: 735
 Flags: W
@@ -33936,7 +33928,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub5
+StartChar: uni2085
 Encoding: 8325 8325 685
 Width: 735
 Flags: W
@@ -33984,7 +33976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub6
+StartChar: uni2086
 Encoding: 8326 8326 686
 Width: 735
 Flags: W
@@ -34028,7 +34020,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub7
+StartChar: uni2087
 Encoding: 8327 8327 687
 Width: 735
 Flags: W
@@ -34057,7 +34049,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub8
+StartChar: uni2088
 Encoding: 8328 8328 688
 Width: 735
 Flags: W
@@ -34103,7 +34095,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sub9
+StartChar: uni2089
 Encoding: 8329 8329 689
 Width: 735
 Flags: W
@@ -34586,7 +34578,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: infin
+StartChar: infinity
 Encoding: 8734 8734 704
 Width: 1722
 Flags: W
@@ -34632,7 +34624,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotupw
+StartChar: therefore
 Encoding: 8756 8756 705
 Width: 889
 Flags: W
@@ -34670,7 +34662,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotdw
+StartChar: uni2235
 Encoding: 8757 8757 706
 Width: 889
 Flags: W
@@ -34708,7 +34700,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quaddot
+StartChar: uni2237
 Encoding: 8759 8759 707
 Width: 889
 Flags: W
@@ -34755,7 +34747,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: est
+StartChar: uni223B
 Encoding: 8763 8763 708
 Width: 991
 Flags: W
@@ -34797,7 +34789,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: esse
+StartChar: approxequal
 Encoding: 8776 8776 709
 Width: 1024
 Flags: W
@@ -34856,7 +34848,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fscap
+StartChar: uniA730
 Encoding: 42800 42800 710
 Width: 747
 Flags: W
@@ -34899,7 +34891,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sscap
+StartChar: uniA731
 Encoding: 42801 42801 711
 Width: 884
 Flags: W
@@ -34951,7 +34943,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAlig
+StartChar: uniA732
 Encoding: 42802 42802 712
 Width: 2376
 Flags: W
@@ -35040,7 +35032,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aalig
+StartChar: uniA733
 Encoding: 42803 42803 713
 Width: 1905
 Flags: W
@@ -35142,7 +35134,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AOlig
+StartChar: uniA734
 Encoding: 42804 42804 714
 Width: 2632
 Flags: W
@@ -35203,7 +35195,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aolig
+StartChar: uniA735
 Encoding: 42805 42805 715
 Width: 1871
 Flags: W
@@ -35283,7 +35275,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AUlig
+StartChar: uniA736
 Encoding: 42806 42806 716
 Width: 2287
 Flags: W
@@ -35352,7 +35344,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVlig
+StartChar: uniA738
 Encoding: 42808 42808 717
 Width: 1900
 Flags: W
@@ -35414,7 +35406,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avlig
+StartChar: uniA739
 Encoding: 42809 42809 718
 Width: 1669
 Flags: W
@@ -35500,7 +35492,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rrot
+StartChar: uniA75B
 Encoding: 42843 42843 719
 Width: 772
 Flags: W
@@ -35540,7 +35532,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drot
+StartChar: uniA77A
 Encoding: 42874 42874 720
 Width: 1105
 Flags: W
@@ -35587,7 +35579,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Fins
+StartChar: uniA77B
 Encoding: 42875 42875 721
 Width: 857
 Flags: W
@@ -35630,7 +35622,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fins
+StartChar: uniA77C
 Encoding: 42876 42876 722
 Width: 717
 Flags: W
@@ -35670,7 +35662,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trot
+StartChar: uniA787
 Encoding: 42887 42887 723
 Width: 648
 Flags: W
@@ -35704,7 +35696,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Aogonacute
+StartChar: uniE004
 Encoding: 57348 57348 724
 Width: 1593
 Flags: W
@@ -35800,7 +35792,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Amacracute
+StartChar: uniE00A
 Encoding: 57354 57354 725
 Width: 1593
 Flags: W
@@ -35887,7 +35879,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Amacrbreve
+StartChar: uniE010
 Encoding: 57360 57360 726
 Width: 1593
 Flags: W
@@ -35969,7 +35961,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Adblac
+StartChar: uniE025
 Encoding: 57381 57381 727
 Width: 1593
 Flags: W
@@ -36066,7 +36058,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Acurl
+StartChar: uniE033
 Encoding: 57395 57395 728
 Width: 1593
 Flags: W
@@ -36143,7 +36135,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Bacute
+StartChar: uniE044
 Encoding: 57412 57412 729
 Width: 1251
 Flags: W
@@ -36213,7 +36205,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Cdotbl
+StartChar: uniE066
 Encoding: 57446 57446 730
 Width: 1400
 Flags: W
@@ -36259,7 +36251,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Cogon
+StartChar: uniE076
 Encoding: 57462 57462 731
 Width: 1400
 Flags: W
@@ -36318,7 +36310,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Dacute
+StartChar: uniE077
 Encoding: 57463 57463 732
 Width: 1585
 Flags: W
@@ -36381,7 +36373,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogonacute
+StartChar: uniE099
 Encoding: 57497 57497 733
 Width: 1251
 Flags: W
@@ -36463,7 +36455,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Emacrbreve
+StartChar: uniE0B7
 Encoding: 57527 57527 734
 Width: 1251
 Flags: W
@@ -36531,7 +36523,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogonmacr
+StartChar: uniE0BC
 Encoding: 57532 57532 735
 Width: 1251
 Flags: W
@@ -36603,7 +36595,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Edotacute
+StartChar: uniE0C8
 Encoding: 57544 57544 736
 Width: 1251
 Flags: W
@@ -36684,7 +36676,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Edblac
+StartChar: uniE0D1
 Encoding: 57553 57553 737
 Width: 1251
 Flags: W
@@ -36767,7 +36759,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogondotbl
+StartChar: uniE0E8
 Encoding: 57576 57576 738
 Width: 1251
 Flags: W
@@ -36835,7 +36827,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ecurl
+StartChar: uniE0E9
 Encoding: 57577 57577 739
 Width: 1251
 Flags: W
@@ -36898,7 +36890,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogondblac
+StartChar: uniE0EA
 Encoding: 57578 57578 740
 Width: 1251
 Flags: W
@@ -36999,7 +36991,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogondot
+StartChar: uniE0EB
 Encoding: 57579 57579 741
 Width: 1251
 Flags: W
@@ -37067,7 +37059,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogondotacute
+StartChar: uniE0EC
 Encoding: 57580 57580 742
 Width: 1251
 Flags: W
@@ -37166,7 +37158,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Fdotbl
+StartChar: uniE0EE
 Encoding: 57582 57582 743
 Width: 1141
 Flags: W
@@ -37219,7 +37211,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Facute
+StartChar: uniE0F0
 Encoding: 57584 57584 744
 Width: 1157
 Flags: W
@@ -37286,7 +37278,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Gdotbl
+StartChar: uniE101
 Encoding: 57601 57601 745
 Width: 1563
 Flags: W
@@ -37335,7 +37327,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hacute
+StartChar: uniE116
 Encoding: 57622 57622 746
 Width: 1638
 Flags: W
@@ -37402,7 +37394,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Icurl
+StartChar: uniE12A
 Encoding: 57642 57642 747
 Width: 690
 Flags: W
@@ -37448,7 +37440,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Imacracute
+StartChar: uniE135
 Encoding: 57653 57653 748
 Width: 1019
 Flags: W
@@ -37504,7 +37496,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Imacrbreve
+StartChar: uniE137
 Encoding: 57655 57655 749
 Width: 690
 Flags: W
@@ -37555,7 +37547,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Idblac
+StartChar: uniE143
 Encoding: 57667 57667 750
 Width: 956
 Flags: W
@@ -37621,7 +37613,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jdotbl
+StartChar: uniE151
 Encoding: 57681 57681 751
 Width: 682
 Flags: W
@@ -37655,7 +37647,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jovlhigh
+StartChar: uniE152
 Encoding: 57682 57682 752
 Width: 682
 Flags: W
@@ -37693,7 +37685,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jacute
+StartChar: uniE153
 Encoding: 57683 57683 753
 Width: 682
 Flags: W
@@ -37741,7 +37733,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jmacrhigh
+StartChar: uniE154
 Encoding: 57684 57684 754
 Width: 682
 Flags: W
@@ -37779,7 +37771,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jdot
+StartChar: uniE15C
 Encoding: 57692 57692 755
 Width: 682
 Flags: W
@@ -37825,7 +37817,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jdblac
+StartChar: uniE162
 Encoding: 57698 57698 756
 Width: 830
 Flags: W
@@ -37892,7 +37884,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Jcurl
+StartChar: uniE163
 Encoding: 57699 57699 757
 Width: 682
 Flags: W
@@ -37939,7 +37931,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kdot
+StartChar: uniE168
 Encoding: 57704 57704 758
 Width: 1487
 Flags: W
@@ -38008,7 +38000,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ldot
+StartChar: uniE19E
 Encoding: 57758 57758 759
 Width: 1251
 Flags: W
@@ -38101,7 +38093,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Mmacrhigh
+StartChar: uniE1B8
 Encoding: 57784 57784 761
 Width: 1908
 Flags: W
@@ -38153,7 +38145,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Movlhigh
+StartChar: uniE1D2
 Encoding: 57810 57810 762
 Width: 1908
 Flags: W
@@ -38201,7 +38193,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Nmacrhigh
+StartChar: uniE1DC
 Encoding: 57820 57820 763
 Width: 1644
 Flags: W
@@ -38247,7 +38239,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogondotbl
+StartChar: uniE208
 Encoding: 57864 57864 764
 Width: 1610
 Flags: W
@@ -38306,7 +38298,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogonacute
+StartChar: uniE20C
 Encoding: 57868 57868 765
 Width: 1610
 Flags: W
@@ -38379,7 +38371,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Omacrbreve
+StartChar: uniE21B
 Encoding: 57883 57883 766
 Width: 1610
 Flags: W
@@ -38437,7 +38429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashmacr
+StartChar: uniE252
 Encoding: 57938 57938 767
 Width: 1610
 Flags: W
@@ -38500,7 +38492,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashmacrbreve
+StartChar: uniE253
 Encoding: 57939 57939 768
 Width: 1610
 Flags: W
@@ -38577,7 +38569,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashogon
+StartChar: uniE255
 Encoding: 57941 57941 769
 Width: 1610
 Flags: W
@@ -38649,7 +38641,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashogonacute
+StartChar: uniE257
 Encoding: 57943 57943 770
 Width: 1610
 Flags: W
@@ -38740,7 +38732,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Qdot
+StartChar: uniE282
 Encoding: 57986 57986 771
 Width: 1610
 Flags: W
@@ -38791,7 +38783,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Qdotbl
+StartChar: uniE288
 Encoding: 57992 57992 772
 Width: 1610
 Flags: W
@@ -38842,7 +38834,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Tacute
+StartChar: uniE2E2
 Encoding: 58082 58082 773
 Width: 1255
 Flags: W
@@ -38894,7 +38886,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Togon
+StartChar: uniE2EE
 Encoding: 58094 58094 774
 Width: 1255
 Flags: W
@@ -38950,7 +38942,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Umacracute
+StartChar: uniE309
 Encoding: 58121 58121 775
 Width: 1554
 Flags: W
@@ -39020,7 +39012,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Umacrbreve
+StartChar: uniE30B
 Encoding: 58123 58123 776
 Width: 1554
 Flags: W
@@ -39085,7 +39077,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Udot
+StartChar: uniE315
 Encoding: 58133 58133 777
 Width: 1554
 Flags: W
@@ -39132,7 +39124,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: THORNbarslash
+StartChar: uniE337
 Encoding: 58167 58167 778
 Width: 1339
 Flags: W
@@ -39212,7 +39204,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Vacute
+StartChar: uniE33A
 Encoding: 58170 58170 779
 Width: 1479
 Flags: W
@@ -39281,7 +39273,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vuml
+StartChar: uniE342
 Encoding: 58178 58178 780
 Width: 1479
 Flags: W
@@ -39349,7 +39341,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vdblac
+StartChar: uniE34B
 Encoding: 58187 58187 781
 Width: 1479
 Flags: W
@@ -39437,7 +39429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vdot
+StartChar: uniE34C
 Encoding: 58188 58188 782
 Width: 1479
 Flags: W
@@ -39492,7 +39484,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vmacr
+StartChar: uniE34D
 Encoding: 58189 58189 783
 Width: 1479
 Flags: W
@@ -39551,7 +39543,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wdblac
+StartChar: uniE350
 Encoding: 58192 58192 784
 Width: 2048
 Flags: W
@@ -39681,7 +39673,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ymacracute
+StartChar: uniE373
 Encoding: 58227 58227 785
 Width: 1366
 Flags: W
@@ -39764,7 +39756,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ymacrbreve
+StartChar: uniE375
 Encoding: 58229 58229 786
 Width: 1366
 Flags: W
@@ -39842,7 +39834,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ybreve
+StartChar: uniE376
 Encoding: 58230 58230 787
 Width: 1366
 Flags: W
@@ -39911,7 +39903,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ydblac
+StartChar: uniE37C
 Encoding: 58236 58236 788
 Width: 1366
 Flags: W
@@ -40004,7 +39996,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ydotacute
+StartChar: uniE384
 Encoding: 58244 58244 789
 Width: 1366
 Flags: W
@@ -40095,7 +40087,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aogonacute
+StartChar: uniE404
 Encoding: 58372 58372 790
 Width: 1130
 Flags: W
@@ -40193,7 +40185,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: amacracute
+StartChar: uniE40A
 Encoding: 58378 58378 791
 Width: 1130
 Flags: W
@@ -40282,7 +40274,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: amacrbreve
+StartChar: uniE410
 Encoding: 58384 58384 792
 Width: 1130
 Flags: W
@@ -40366,7 +40358,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adblac
+StartChar: uniE425
 Encoding: 58405 58405 793
 Width: 1130
 Flags: W
@@ -40465,7 +40457,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bacute
+StartChar: uniE444
 Encoding: 58436 58436 794
 Width: 1139
 Flags: W
@@ -40546,7 +40538,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cdotbl
+StartChar: uniE466
 Encoding: 58470 58470 795
 Width: 925
 Flags: W
@@ -40594,7 +40586,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cogon
+StartChar: uniE476
 Encoding: 58486 58486 796
 Width: 925
 Flags: W
@@ -40655,7 +40647,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dacute
+StartChar: uniE477
 Encoding: 58487 58487 797
 Width: 1231
 Flags: W
@@ -40729,7 +40721,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eogonacute
+StartChar: uniE499
 Encoding: 58521 58521 798
 Width: 1004
 Flags: W
@@ -40808,7 +40800,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: emacrbreve
+StartChar: uniE4B7
 Encoding: 58551 58551 799
 Width: 1004
 Flags: W
@@ -40872,7 +40864,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: eogonmacr
+StartChar: uniE4BC
 Encoding: 58556 58556 800
 Width: 1004
 Flags: W
@@ -40941,7 +40933,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: edotacute
+StartChar: uniE4C8
 Encoding: 58568 58568 801
 Width: 1004
 Flags: W
@@ -41007,7 +40999,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: edblac
+StartChar: uniE4D1
 Encoding: 58577 58577 802
 Width: 1004
 Flags: W
@@ -41087,7 +41079,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: eogondotbl
+StartChar: uniE4E8
 Encoding: 58600 58600 803
 Width: 1004
 Flags: W
@@ -41152,7 +41144,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: eogondblac
+StartChar: uniE4EA
 Encoding: 58602 58602 804
 Width: 1004
 Flags: W
@@ -41250,7 +41242,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: eogondot
+StartChar: uniE4EB
 Encoding: 58603 58603 805
 Width: 1004
 Flags: W
@@ -41315,7 +41307,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: eogondotacute
+StartChar: uniE4EC
 Encoding: 58604 58604 806
 Width: 1004
 Flags: W
@@ -41399,7 +41391,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: facute
+StartChar: uniE4F0
 Encoding: 58608 58608 807
 Width: 683
 Flags: W
@@ -41471,7 +41463,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gdotbl
+StartChar: uniE501
 Encoding: 58625 58625 808
 Width: 1103
 Flags: W
@@ -41551,7 +41543,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hacute
+StartChar: uniE516
 Encoding: 58646 58646 809
 Width: 1207
 Flags: W
@@ -41616,7 +41608,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: imacracute
+StartChar: uniE535
 Encoding: 58677 58677 810
 Width: 593
 Flags: W
@@ -41670,7 +41662,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: imacrbreve
+StartChar: uniE537
 Encoding: 58679 58679 811
 Width: 593
 Flags: W
@@ -41719,7 +41711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: idblac
+StartChar: uniE543
 Encoding: 58691 58691 812
 Width: 776
 Flags: W
@@ -41783,7 +41775,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ibrevinvbl
+StartChar: uniE548
 Encoding: 58696 58696 813
 Width: 593
 Flags: W
@@ -41823,7 +41815,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jdotbl
+StartChar: uniE551
 Encoding: 58705 58705 814
 Width: 515
 Flags: W
@@ -41854,7 +41846,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jacute
+StartChar: uniE553
 Encoding: 58707 58707 815
 Width: 487
 Flags: W
@@ -41899,7 +41891,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jmacrmed
+StartChar: uniE554
 Encoding: 58708 58708 816
 Width: 487
 Flags: W
@@ -41960,7 +41952,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jdblac
+StartChar: uniE562
 Encoding: 58722 58722 818
 Width: 782
 Flags: W
@@ -42024,7 +42016,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kdot
+StartChar: uniE568
 Encoding: 58728 58728 819
 Width: 1163
 Flags: W
@@ -42082,7 +42074,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lmacrhigh
+StartChar: uniE596
 Encoding: 58774 58774 820
 Width: 597
 Flags: W
@@ -42117,7 +42109,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldot
+StartChar: uniE59E
 Encoding: 58782 58782 821
 Width: 597
 Flags: W
@@ -42148,7 +42140,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mmacrmed
+StartChar: uniE5B8
 Encoding: 58808 58808 822
 Width: 1799
 Flags: W
@@ -42223,7 +42215,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: movlmed
+StartChar: uniE5D2
 Encoding: 58834 58834 823
 Width: 1799
 Flags: W
@@ -42298,7 +42290,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nmacrmed
+StartChar: uniE5DC
 Encoding: 58844 58844 824
 Width: 1191
 Flags: W
@@ -42353,7 +42345,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogondotbl
+StartChar: uniE608
 Encoding: 58888 58888 825
 Width: 1107
 Flags: W
@@ -42414,7 +42406,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogonacute
+StartChar: uniE60C
 Encoding: 58892 58892 826
 Width: 1107
 Flags: W
@@ -42489,7 +42481,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: omacrbreve
+StartChar: uniE61B
 Encoding: 58907 58907 827
 Width: 1107
 Flags: W
@@ -42550,7 +42542,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashmacr
+StartChar: uniE652
 Encoding: 58962 58962 828
 Width: 1107
 Flags: W
@@ -42614,7 +42606,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashmacrbreve
+StartChar: uniE653
 Encoding: 58963 58963 829
 Width: 1107
 Flags: W
@@ -42692,7 +42684,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashogon
+StartChar: uniE655
 Encoding: 58965 58965 830
 Width: 1107
 Flags: W
@@ -42765,7 +42757,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashogonacute
+StartChar: uniE657
 Encoding: 58967 58967 831
 Width: 1107
 Flags: W
@@ -42857,7 +42849,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pdotbl
+StartChar: uniE66D
 Encoding: 58989 58989 832
 Width: 1197
 Flags: W
@@ -42923,7 +42915,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qdot
+StartChar: uniE682
 Encoding: 59010 59010 833
 Width: 1173
 Flags: W
@@ -42993,7 +42985,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qdotbl
+StartChar: uniE688
 Encoding: 59016 59016 834
 Width: 1173
 Flags: W
@@ -43063,7 +43055,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: togon
+StartChar: uniE6EE
 Encoding: 59118 59118 835
 Width: 648
 Flags: W
@@ -43120,7 +43112,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: umacracute
+StartChar: uniE709
 Encoding: 59145 59145 836
 Width: 1239
 Flags: W
@@ -43193,7 +43185,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: umacrbreve
+StartChar: uniE70B
 Encoding: 59147 59147 837
 Width: 1239
 Flags: W
@@ -43260,7 +43252,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: udot
+StartChar: uniE715
 Encoding: 59157 59157 838
 Width: 1239
 Flags: W
@@ -43310,7 +43302,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ubrevinvbl
+StartChar: uniE727
 Encoding: 59175 59175 839
 Width: 1239
 Flags: W
@@ -43368,7 +43360,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornslonglig
+StartChar: uniE734
 Encoding: 59188 59188 840
 Width: 1064
 Flags: W
@@ -43444,7 +43436,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornslongligbar
+StartChar: uniE735
 Encoding: 59189 59189 841
 Width: 1064
 Flags: W
@@ -43534,7 +43526,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vacute
+StartChar: uniE73A
 Encoding: 59194 59194 842
 Width: 1054
 Flags: W
@@ -43600,7 +43592,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vuml
+StartChar: uniE742
 Encoding: 59202 59202 843
 Width: 1054
 Flags: W
@@ -43665,7 +43657,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vdblac
+StartChar: uniE74B
 Encoding: 59211 59211 844
 Width: 1054
 Flags: W
@@ -43750,7 +43742,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vdot
+StartChar: uniE74C
 Encoding: 59212 59212 845
 Width: 1054
 Flags: W
@@ -43802,7 +43794,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vmacr
+StartChar: uniE74D
 Encoding: 59213 59213 846
 Width: 1054
 Flags: W
@@ -43858,7 +43850,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wdblac
+StartChar: uniE750
 Encoding: 59216 59216 847
 Width: 1700
 Flags: W
@@ -43971,7 +43963,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ymacracute
+StartChar: uniE773
 Encoding: 59251 59251 848
 Width: 1139
 Flags: W
@@ -44049,7 +44041,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ymacrbreve
+StartChar: uniE775
 Encoding: 59253 59253 849
 Width: 1139
 Flags: W
@@ -44122,7 +44114,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ybreve
+StartChar: uniE776
 Encoding: 59254 59254 850
 Width: 1139
 Flags: W
@@ -44186,7 +44178,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ydblac
+StartChar: uniE77C
 Encoding: 59260 59260 851
 Width: 1139
 Flags: W
@@ -44276,7 +44268,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ydotacute
+StartChar: uniE784
 Encoding: 59268 59268 852
 Width: 1139
 Flags: W
@@ -44350,7 +44342,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligdblac
+StartChar: uniEBC2
 Encoding: 60354 60354 853
 Width: 1900
 Flags: W
@@ -44450,7 +44442,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligdblac
+StartChar: uniEBC3
 Encoding: 60355 60355 854
 Width: 1659
 Flags: W
@@ -44574,7 +44566,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogondblac
+StartChar: uniEBC4
 Encoding: 60356 60356 855
 Width: 1610
 Flags: W
@@ -44666,7 +44658,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogondblac
+StartChar: uniEBC5
 Encoding: 60357 60357 856
 Width: 1107
 Flags: W
@@ -44760,7 +44752,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashdblac
+StartChar: uniEBC6
 Encoding: 60358 60358 857
 Width: 1610
 Flags: W
@@ -44852,7 +44844,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashdblac
+StartChar: uniEBC7
 Encoding: 60359 60359 858
 Width: 1107
 Flags: W
@@ -44945,7 +44937,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashdot
+StartChar: uniEBCD
 Encoding: 60365 60365 859
 Width: 1610
 Flags: W
@@ -45004,7 +44996,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashdot
+StartChar: uniEBCE
 Encoding: 60366 60366 860
 Width: 1107
 Flags: W
@@ -45064,7 +45056,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogondot
+StartChar: uniEBDE
 Encoding: 60382 60382 861
 Width: 1610
 Flags: W
@@ -45130,7 +45122,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogondot
+StartChar: uniEBDF
 Encoding: 60383 60383 862
 Width: 1107
 Flags: W
@@ -45191,7 +45183,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashdotbl
+StartChar: uniEBE0
 Encoding: 60384 60384 863
 Width: 1610
 Flags: W
@@ -45250,7 +45242,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: juml
+StartChar: uniEBE3
 Encoding: 60387 60387 864
 Width: 500
 Flags: W
@@ -45295,7 +45287,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashmacracute
+StartChar: uniEBEC
 Encoding: 60396 60396 865
 Width: 1610
 Flags: W
@@ -45372,7 +45364,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashmacracute
+StartChar: uniEBED
 Encoding: 60397 60397 866
 Width: 1107
 Flags: W
@@ -45450,7 +45442,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashbreve
+StartChar: uniEBEF
 Encoding: 60399 60399 867
 Width: 1107
 Flags: W
@@ -45519,7 +45511,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligogon
+StartChar: uniEBF0
 Encoding: 60400 60400 868
 Width: 1900
 Flags: W
@@ -45602,7 +45594,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligogon
+StartChar: uniEBF1
 Encoding: 60401 60401 869
 Width: 1669
 Flags: W
@@ -45709,7 +45701,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Eogoncurl
+StartChar: uniEBF2
 Encoding: 60402 60402 870
 Width: 1251
 Flags: W
@@ -45790,7 +45782,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Adotacute
+StartChar: uniEBF4
 Encoding: 60404 60404 871
 Width: 1593
 Flags: W
@@ -45885,7 +45877,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adotacute
+StartChar: uniEBF5
 Encoding: 60405 60405 872
 Width: 1085
 Flags: W
@@ -45968,7 +45960,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Idotacute
+StartChar: uniEBF6
 Encoding: 60406 60406 873
 Width: 827
 Flags: W
@@ -46032,7 +46024,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: idotacute
+StartChar: uniEBF7
 Encoding: 60407 60407 874
 Width: 593
 Flags: W
@@ -46082,7 +46074,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: odotacute
+StartChar: uniEBF9
 Encoding: 60409 60409 875
 Width: 1107
 Flags: W
@@ -46145,7 +46137,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oogondotacute
+StartChar: uniEBFA
 Encoding: 60410 60410 876
 Width: 1610
 Flags: W
@@ -46235,7 +46227,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogondotacute
+StartChar: uniEBFB
 Encoding: 60411 60411 877
 Width: 1107
 Flags: W
@@ -46316,7 +46308,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashdotacute
+StartChar: uniEBFC
 Encoding: 60412 60412 878
 Width: 1610
 Flags: W
@@ -46406,7 +46398,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashdotacute
+StartChar: uniEBFD
 Encoding: 60413 60413 879
 Width: 1107
 Flags: W
@@ -46486,7 +46478,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Udotacute
+StartChar: uniEBFE
 Encoding: 60414 60414 880
 Width: 1554
 Flags: W
@@ -46564,7 +46556,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: udotacute
+StartChar: uniEBFF
 Encoding: 60415 60415 881
 Width: 1235
 Flags: W
@@ -46630,7 +46622,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bblig
+StartChar: uniEEC2
 Encoding: 61122 61122 882
 Width: 1899
 Flags: W
@@ -46738,7 +46730,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drotdrotlig
+StartChar: uniEEC6
 Encoding: 61126 61126 883
 Width: 1899
 Flags: W
@@ -46816,7 +46808,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qscap
+StartChar: uniEF0C
 Encoding: 61196 61196 884
 Width: 1130
 Flags: W
@@ -46867,7 +46859,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xscap
+StartChar: uniEF11
 Encoding: 61201 61201 885
 Width: 1060
 Flags: W
@@ -46944,7 +46936,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aacloselig
+StartChar: uniEFA0
 Encoding: 61344 61344 886
 Width: 1611
 Flags: W
@@ -47039,7 +47031,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anscaplig
+StartChar: uniEFA8
 Encoding: 61352 61352 887
 Width: 1817
 Flags: W
@@ -47105,7 +47097,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAligacute
+StartChar: uniEFE0
 Encoding: 61408 61408 888
 Width: 2376
 Flags: W
@@ -47213,7 +47205,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligacute
+StartChar: uniEFE6
 Encoding: 61414 61414 889
 Width: 1900
 Flags: W
@@ -47294,7 +47286,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligacute
+StartChar: uniEFE7
 Encoding: 61415 61415 890
 Width: 1591
 Flags: W
@@ -47399,7 +47391,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAligdot
+StartChar: uniEFEE
 Encoding: 61422 61422 891
 Width: 2376
 Flags: W
@@ -47493,7 +47485,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaligdot
+StartChar: uniEFEF
 Encoding: 61423 61423 892
 Width: 1807
 Flags: W
@@ -47600,7 +47592,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligdotbl
+StartChar: uniEFF8
 Encoding: 61432 61432 893
 Width: 1900
 Flags: W
@@ -47667,7 +47659,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligdotbl
+StartChar: uniEFF9
 Encoding: 61433 61433 894
 Width: 1669
 Flags: W
@@ -47758,7 +47750,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bsup
+StartChar: uniF012
 Encoding: 61458 61458 895
 Width: 0
 Flags: W
@@ -47817,7 +47809,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bscapsup
+StartChar: uniF013
 Encoding: 61459 61459 896
 Width: 0
 Flags: W
@@ -47865,7 +47857,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dscapsup
+StartChar: uniF016
 Encoding: 61462 61462 897
 Width: 0
 Flags: W
@@ -47907,7 +47899,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fsup
+StartChar: uniF017
 Encoding: 61463 61463 898
 Width: 0
 Flags: W
@@ -47956,7 +47948,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kscapsup
+StartChar: uniF01C
 Encoding: 61468 61468 899
 Width: 0
 Flags: W
@@ -48007,7 +47999,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: psup
+StartChar: uniF025
 Encoding: 61477 61477 900
 Width: 0
 Flags: W
@@ -48065,7 +48057,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tscapsup
+StartChar: uniF02A
 Encoding: 61482 61482 901
 Width: 0
 Flags: W
@@ -48099,7 +48091,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ysup
+StartChar: uniF02B
 Encoding: 61483 61483 902
 Width: 0
 Flags: W
@@ -48147,7 +48139,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: inodotsup
+StartChar: uniF02F
 Encoding: 61487 61487 903
 Width: 0
 Flags: W
@@ -48173,7 +48165,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jnodotsup
+StartChar: uniF031
 Encoding: 61489 61489 904
 Width: 0
 Flags: W
@@ -48197,7 +48189,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashsup
+StartChar: uniF032
 Encoding: 61490 61490 905
 Width: 0
 Flags: W
@@ -48249,7 +48241,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qsup
+StartChar: uniF033
 Encoding: 61491 61491 906
 Width: 0
 Flags: W
@@ -48307,7 +48299,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anligsup
+StartChar: uniF036
 Encoding: 61494 61494 907
 Width: 0
 Flags: W
@@ -48378,7 +48370,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arligsup
+StartChar: uniF038
 Encoding: 61496 61496 908
 Width: 0
 Flags: W
@@ -48436,7 +48428,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wsup
+StartChar: uniF03C
 Encoding: 61500 61500 909
 Width: 0
 Flags: W
@@ -48505,7 +48497,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornsup
+StartChar: uniF03D
 Encoding: 61501 61501 910
 Width: 0
 Flags: W
@@ -48560,7 +48552,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Munc
+StartChar: uniF11A
 Encoding: 61722 61722 911
 Width: 2029
 Flags: W
@@ -48655,7 +48647,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongdes
+StartChar: uniF127
 Encoding: 61735 61735 912
 Width: 625
 Flags: W
@@ -48703,7 +48695,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: parag
+StartChar: uniF1E1
 Encoding: 61921 61921 913
 Width: 1007
 Flags: W
@@ -48745,7 +48737,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotscomposit
+StartChar: uniF1E6
 Encoding: 61926 61926 914
 Width: 985
 Flags: W
@@ -48794,7 +48786,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bidotscomposit
+StartChar: uniF1F2
 Encoding: 61938 61938 915
 Width: 963
 Flags: W
@@ -48836,7 +48828,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aopen
+StartChar: uniF202
 Encoding: 61954 61954 916
 Width: 1116
 Flags: W
@@ -48886,7 +48878,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldes
+StartChar: uniF222
 Encoding: 61986 61986 917
 Width: 647
 Flags: W
@@ -48917,7 +48909,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Muncdes
+StartChar: uniF224
 Encoding: 61988 61988 918
 Width: 2029
 Flags: W
@@ -49008,7 +49000,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: munc
+StartChar: uniF225
 Encoding: 61989 61989 919
 Width: 1677
 Flags: W
@@ -49075,7 +49067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: muncdes
+StartChar: uniF226
 Encoding: 61990 61990 920
 Width: 1624
 Flags: W
@@ -49163,7 +49155,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nrdes
+StartChar: uniF228
 Encoding: 61992 61992 921
 Width: 1195
 Flags: W
@@ -49211,7 +49203,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vovlhigh
+StartChar: uniF7B2
 Encoding: 63410 63410 922
 Width: 1479
 Flags: W
@@ -49266,7 +49258,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lovlhigh
+StartChar: uniF7B4
 Encoding: 63412 63412 923
 Width: 1251
 Flags: W
@@ -49303,7 +49295,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Covlhigh
+StartChar: uniF7B5
 Encoding: 63413 63413 924
 Width: 1400
 Flags: W
@@ -49346,7 +49338,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Dovlhigh
+StartChar: uniF7B6
 Encoding: 63414 63414 925
 Width: 1585
 Flags: W
@@ -49400,7 +49392,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongtlig
+StartChar: uniFB05
 Encoding: 64261 64261 926
 Width: 1168
 Flags: W
@@ -49495,7 +49487,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Xovlhigh
+StartChar: uniF7B3
 Encoding: 63411 63411 928
 Width: 1366
 Flags: W
@@ -49565,7 +49557,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fllig
+StartChar: uniFB02
 Encoding: 64258 64258 929
 Width: 998
 UnlinkRmOvrlpSave: 1
@@ -49627,11 +49619,11 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: filig
+StartChar: uniFB01
 Encoding: 64257 64257 930
 Width: 1108
 UnlinkRmOvrlpSave: 1
-Flags: MW
+Flags: HMW
 VStem: 207 181<65.873 845 948 1285.87> 757 219<1194.61 1384.53> 776 181<65.873 863.766>
 LayerCount: 2
 Fore
@@ -49698,7 +49690,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: fflig
+StartChar: uniFB00
 Encoding: 64256 64256 931
 Width: 1207
 Flags: W
@@ -49784,7 +49776,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ffilig
+StartChar: uniFB03
 Encoding: 64259 64259 932
 Width: 1573
 Flags: W
@@ -49890,7 +49882,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ffllig
+StartChar: uniFB04
 Encoding: 64260 64260 933
 Width: 1507
 Flags: W
@@ -49984,7 +49976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: stlig
+StartChar: uniFB06
 Encoding: 64262 64262 934
 Width: 1522
 Flags: W
@@ -50075,7 +50067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrdblshortlong
+StartChar: uni23D4
 Encoding: 9172 9172 935
 Width: 1434
 Flags: W
@@ -50116,7 +50108,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrlongshort
+StartChar: uni23D3
 Encoding: 9171 9171 936
 Width: 759
 Flags: W
@@ -50145,7 +50137,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrshortlong
+StartChar: uni23D2
 Encoding: 9170 9170 937
 Width: 759
 Flags: W
@@ -50174,7 +50166,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacrbreveacute
+StartChar: uniF708
 Encoding: 63240 63240 938
 Width: 759
 Flags: W
@@ -50217,7 +50209,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacrbrevegrave
+StartChar: uniF709
 Encoding: 63241 63241 939
 Width: 759
 Flags: W
@@ -50260,7 +50252,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrdblbrevemacracute
+StartChar: uniF71B
 Encoding: 63259 63259 940
 Width: 1434
 Flags: W
@@ -50316,7 +50308,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrdblbrevemacrdblac
+StartChar: uniF71C
 Encoding: 63260 63260 941
 Width: 1434
 Flags: W
@@ -50386,7 +50378,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacracute
+StartChar: uniF704
 Encoding: 63236 63236 942
 Width: 759
 Flags: W
@@ -50416,7 +50408,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacrgrave
+StartChar: uniF705
 Encoding: 63237 63237 943
 Width: 759
 Flags: W
@@ -50446,7 +50438,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrbreveacute
+StartChar: uniF706
 Encoding: 63238 63238 944
 Width: 725
 Flags: W
@@ -50484,7 +50476,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrbrevegrave
+StartChar: uniF707
 Encoding: 63239 63239 945
 Width: 725
 Flags: W
@@ -50522,7 +50514,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrancacute
+StartChar: uniF70B
 Encoding: 63243 63243 946
 Width: 610
 Flags: W
@@ -50576,7 +50568,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrancgrave
+StartChar: uniF70C
 Encoding: 63244 63244 947
 Width: 610
 Flags: W
@@ -50630,7 +50622,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacrdblac
+StartChar: uniF715
 Encoding: 63253 63253 948
 Width: 794
 Flags: W
@@ -50674,7 +50666,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrmacrdblgrave
+StartChar: uniF716
 Encoding: 63254 63254 949
 Width: 813
 Flags: W
@@ -50718,7 +50710,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrbrevedblac
+StartChar: uniF717
 Encoding: 63255 63255 950
 Width: 794
 Flags: W
@@ -50770,7 +50762,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrbrevedblgrave
+StartChar: uniF718
 Encoding: 63256 63256 951
 Width: 813
 Flags: W
@@ -50822,7 +50814,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrancdblac
+StartChar: uniF719
 Encoding: 63257 63257 952
 Width: 770
 Flags: W
@@ -50890,7 +50882,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrancdblgrave
+StartChar: uniF71A
 Encoding: 63258 63258 953
 Width: 789
 Flags: W
@@ -50958,7 +50950,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lllig
+StartChar: uniF4F9
 Encoding: 62713 62713 954
 Width: 976
 Flags: W
@@ -50999,7 +50991,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongchlig
+StartChar: uniF4FA
 Encoding: 62714 62714 955
 Width: 2480
 Flags: W
@@ -51114,7 +51106,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongjlig
+StartChar: uniF4FB
 Encoding: 62715 62715 956
 Width: 1024
 Flags: W
@@ -51184,7 +51176,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongklig
+StartChar: uniF4FC
 Encoding: 62716 62716 957
 Width: 1692
 Flags: W
@@ -51268,7 +51260,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslig
+StartChar: uniF4FD
 Encoding: 62717 62717 958
 Width: 1401
 Flags: W
@@ -51357,7 +51349,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslongklig
+StartChar: uniF4FE
 Encoding: 62718 62718 959
 Width: 2202
 Flags: W
@@ -51479,7 +51471,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslongtlig
+StartChar: uniF4FF
 Encoding: 62719 62719 960
 Width: 1655
 Flags: W
@@ -51592,7 +51584,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Nrdes
+StartChar: uniF229
 Encoding: 61993 61993 961
 Width: 1662
 Flags: W
@@ -51636,7 +51628,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yrgmainstrok
+StartChar: uniF233
 Encoding: 62003 62003 962
 Width: 1139
 Flags: W
@@ -51686,7 +51678,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romnumCrevovl
+StartChar: uniF23F
 Encoding: 62015 62015 963
 Width: 1436
 Flags: W
@@ -51729,7 +51721,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xldes
+StartChar: uniF232
 Encoding: 62002 62002 964
 Width: 1137
 Flags: W
@@ -51792,7 +51784,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aclose
+StartChar: uniF203
 Encoding: 61955 61955 965
 Width: 992
 Flags: W
@@ -51854,7 +51846,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ETslash
+StartChar: uniF1A7
 Encoding: 61863 61863 966
 Width: 1113
 Flags: W
@@ -51918,7 +51910,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ET
+StartChar: uniF142
 Encoding: 61762 61762 967
 Width: 800
 Flags: W
@@ -51965,7 +51957,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aulig
+StartChar: uniA737
 Encoding: 42807 42807 968
 Width: 1839
 Flags: W
@@ -52047,7 +52039,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: revpara
+StartChar: uni204B
 Encoding: 8267 8267 969
 Width: 1190
 Flags: W
@@ -52087,7 +52079,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsqbqu
+StartChar: uni2045
 Encoding: 8261 8261 970
 Width: 682
 Flags: W
@@ -52117,7 +52109,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rsqbqu
+StartChar: uni2046
 Encoding: 8262 8262 971
 Width: 682
 Flags: W
@@ -52150,7 +52142,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: triast
+StartChar: uni2042
 Encoding: 8258 8258 972
 Width: 1776
 Flags: W
@@ -52278,7 +52270,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: refmark
+StartChar: uni203B
 Encoding: 8251 8251 973
 Width: 933
 Flags: W
@@ -52338,7 +52330,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: LLwelsh
+StartChar: uni1EFA
 Encoding: 7930 7930 974
 Width: 1643
 Flags: W
@@ -52381,7 +52373,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: llwelsh
+StartChar: uni1EFB
 Encoding: 7931 7931 975
 Width: 955
 Flags: W
@@ -52437,7 +52429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vwelsh
+StartChar: uni1EFC
 Encoding: 7932 7932 976
 Width: 1277
 Flags: W
@@ -52491,7 +52483,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vwelsh
+StartChar: uni1EFD
 Encoding: 7933 7933 977
 Width: 963
 Flags: W
@@ -52544,7 +52536,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Yloop
+StartChar: uni1EFE
 Encoding: 7934 7934 978
 Width: 1125
 Flags: W
@@ -52613,7 +52605,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yloop
+StartChar: uni1EFF
 Encoding: 7935 7935 979
 Width: 1015
 Flags: W
@@ -52681,7 +52673,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dscript
+StartChar: uni1E9F
 Encoding: 7839 7839 980
 Width: 1056
 Flags: W
@@ -52742,7 +52734,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: SZlig
+StartChar: uni1E9E
 Encoding: 7838 7838 981
 Width: 1269
 Flags: W
@@ -52818,7 +52810,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongbar
+StartChar: uni1E9D
 Encoding: 7837 7837 982
 Width: 773
 Flags: W
@@ -52865,7 +52857,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongbarslash
+StartChar: uni1E9C
 Encoding: 7836 7836 983
 Width: 683
 Flags: W
@@ -52929,7 +52921,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yring
+StartChar: uni1E99
 Encoding: 7833 7833 984
 Width: 1036
 Flags: W
@@ -52999,7 +52991,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wring
+StartChar: uni1E98
 Encoding: 7832 7832 985
 Width: 1647
 Flags: W
@@ -53092,7 +53084,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Zdotbl
+StartChar: uni1E92
 Encoding: 7826 7826 986
 Width: 1366
 Flags: W
@@ -53135,7 +53127,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kdotbl
+StartChar: uni1E32
 Encoding: 7730 7730 987
 Width: 1487
 Flags: W
@@ -53192,7 +53184,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Omacracute
+StartChar: uni1E52
 Encoding: 7762 7762 988
 Width: 1610
 Flags: W
@@ -53255,7 +53247,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcircdbl
+StartChar: uni1DCD
 Encoding: 7629 7629 989
 Width: 0
 Flags: W
@@ -53274,7 +53266,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcurl
+StartChar: uni1DCE
 Encoding: 7630 7630 990
 Width: 0
 Flags: W
@@ -53309,7 +53301,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ersub
+StartChar: uni1DCF
 Encoding: 7631 7631 991
 Width: 0
 Flags: W
@@ -53339,7 +53331,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combisbelow
+StartChar: uni1DD0
 Encoding: 7632 7632 992
 Width: 0
 Flags: W
@@ -53387,7 +53379,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ur
+StartChar: uni1DD1
 Encoding: 7633 7633 993
 Width: 0
 Flags: W
@@ -53422,7 +53414,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: us
+StartChar: uni1DD2
 Encoding: 7634 7634 994
 Width: 0
 Flags: W
@@ -53463,7 +53455,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ra
+StartChar: uni1DD3
 Encoding: 7635 7635 995
 Width: 0
 Flags: W
@@ -53499,7 +53491,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligsup
+StartChar: uni1DD4
 Encoding: 7636 7636 996
 Width: 0
 Flags: W
@@ -53570,7 +53562,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligsup
+StartChar: uni1DD5
 Encoding: 7637 7637 997
 Width: 9
 Flags: W
@@ -53640,7 +53632,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligsup
+StartChar: uni1DD6
 Encoding: 7638 7638 998
 Width: 0
 Flags: W
@@ -53719,7 +53711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ccedilsup
+StartChar: uni1DD7
 Encoding: 7639 7639 999
 Width: 0
 Flags: W
@@ -53786,7 +53778,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drotsup
+StartChar: uni1DD8
 Encoding: 7640 7640 1000
 Width: 0
 Flags: W
@@ -53844,7 +53836,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ethsup
+StartChar: uni1DD9
 Encoding: 7641 7641 1001
 Width: 0
 Flags: W
@@ -53912,7 +53904,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gsup
+StartChar: uni1DDA
 Encoding: 7642 7642 1002
 Width: 0
 Flags: W
@@ -53984,7 +53976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gscapsup
+StartChar: uni1DDB
 Encoding: 7643 7643 1003
 Width: 0
 Flags: W
@@ -54025,7 +54017,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ksup
+StartChar: uni1DDC
 Encoding: 7644 7644 1004
 Width: 0
 Flags: W
@@ -54078,7 +54070,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lsup
+StartChar: uni1DDD
 Encoding: 7645 7645 1005
 Width: 0
 Flags: W
@@ -54104,7 +54096,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lscapsup
+StartChar: uni1DDE
 Encoding: 7646 7646 1006
 Width: 0
 Flags: W
@@ -54136,7 +54128,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mscapsup
+StartChar: uni1DDF
 Encoding: 7647 7647 1007
 Width: 0
 Flags: W
@@ -54179,7 +54171,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nsup
+StartChar: uni1DE0
 Encoding: 7648 7648 1008
 Width: 0
 Flags: W
@@ -54223,7 +54215,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscapsup
+StartChar: uni1DE1
 Encoding: 7649 7649 1009
 Width: 0
 Flags: W
@@ -54311,7 +54303,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rrotsup
+StartChar: uni1DE3
 Encoding: 7651 7651 1011
 Width: 0
 Flags: W
@@ -54349,7 +54341,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ssup
+StartChar: uni1DE4
 Encoding: 7652 7652 1012
 Width: 0
 Flags: W
@@ -54397,7 +54389,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongsup
+StartChar: uni1DE5
 Encoding: 7653 7653 1013
 Width: 0
 Flags: W
@@ -54442,7 +54434,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zsup
+StartChar: uni1DE6
 Encoding: 7654 7654 1014
 Width: 0
 Flags: W
@@ -54478,7 +54470,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gins
+StartChar: uni1D79
 Encoding: 7545 7545 1015
 Width: 1056
 Flags: W
@@ -54539,7 +54531,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Imod
+StartChar: uni1D35
 Encoding: 7477 7477 1016
 Width: 452
 Flags: W
@@ -54567,7 +54559,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotright
+StartChar: uni10FB
 Encoding: 4347 4347 1017
 Width: 782
 Flags: W
@@ -54688,7 +54680,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xmod
+StartChar: uni02E3
 Encoding: 739 739 1020
 Width: 621
 Flags: W
@@ -54752,7 +54744,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: verbarup
+StartChar: uni02C8
 Encoding: 712 712 1021
 Width: 626
 Flags: W
@@ -54768,7 +54760,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: apomod
+StartChar: afii57929
 Encoding: 700 700 1022
 Width: 426
 Flags: W
@@ -54790,7 +54782,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ezh
+StartChar: uni0292
 Encoding: 658 658 1023
 Width: 663
 Flags: W
@@ -54846,7 +54838,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ubar
+StartChar: uni0289
 Encoding: 649 649 1024
 Width: 1235
 Flags: W
@@ -54900,7 +54892,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdes
+StartChar: uni027C
 Encoding: 636 636 1025
 Width: 809
 Flags: W
@@ -54937,7 +54929,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nlfhook
+StartChar: uni0272
 Encoding: 626 626 1026
 Width: 1140
 Flags: W
@@ -54982,7 +54974,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: istrok
+StartChar: uni0268
 Encoding: 616 616 1027
 Width: 596
 Flags: W
@@ -55021,7 +55013,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hhook
+StartChar: uni0266
 Encoding: 614 614 1028
 Width: 1192
 Flags: W
@@ -55075,7 +55067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jnodotstrok
+StartChar: uni025F
 Encoding: 607 607 1029
 Width: 479
 Flags: W
@@ -55114,7 +55106,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: schwa
+StartChar: uni0259
 Encoding: 601 601 1030
 Width: 981
 Flags: W
@@ -55163,7 +55155,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oopen
+StartChar: uni0254
 Encoding: 596 596 1031
 Width: 939
 Flags: W
@@ -55200,7 +55192,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jbar
+StartChar: uni0249
 Encoding: 585 585 1032
 Width: 479
 Flags: W
@@ -55244,7 +55236,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ymacr
+StartChar: uni0232
 Encoding: 562 562 1033
 Width: 1366
 Flags: W
@@ -55308,7 +55300,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oumlmacr
+StartChar: uni022B
 Encoding: 555 555 1034
 Width: 1107
 Flags: W
@@ -55372,7 +55364,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oumlmacr
+StartChar: uni022A
 Encoding: 554 554 1035
 Width: 1610
 Flags: W
@@ -55433,7 +55425,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adot
+StartChar: uni0227
 Encoding: 551 551 1036
 Width: 1135
 Flags: W
@@ -55504,7 +55496,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Adot
+StartChar: uni0226
 Encoding: 550 550 1037
 Width: 1593
 Flags: W
@@ -55573,7 +55565,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yogh
+StartChar: uni021D
 Encoding: 541 541 1038
 Width: 719
 Flags: W
@@ -55633,7 +55625,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: YOGH
+StartChar: uni021C
 Encoding: 540 540 1039
 Width: 958
 Flags: W
@@ -55693,7 +55685,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: HWAIR
+StartChar: uni01F6
 Encoding: 502 502 1040
 Width: 2565
 Flags: W
@@ -55755,7 +55747,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligmacr
+StartChar: uni01E2
 Encoding: 482 482 1041
 Width: 1933
 Flags: W
@@ -55837,7 +55829,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligmacr
+StartChar: uni01E3
 Encoding: 483 483 1042
 Width: 1743
 Flags: W
@@ -55925,7 +55917,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gstrok
+StartChar: uni01E5
 Encoding: 485 485 1043
 Width: 1214
 Flags: W
@@ -56009,7 +56001,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uumlmacr
+StartChar: uni01D6
 Encoding: 470 470 1044
 Width: 1235
 Flags: W
@@ -56066,7 +56058,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uumlmacr
+StartChar: uni01D5
 Encoding: 469 469 1045
 Width: 1554
 Flags: W
@@ -56117,7 +56109,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ucar
+StartChar: uni01D4
 Encoding: 468 468 1046
 Width: 1235
 Flags: W
@@ -56173,7 +56165,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ucar
+StartChar: uni01D3
 Encoding: 467 467 1047
 Width: 1554
 Flags: W
@@ -56223,7 +56215,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ocar
+StartChar: uni01D2
 Encoding: 466 466 1048
 Width: 1107
 Flags: W
@@ -56269,7 +56261,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ocar
+StartChar: uni01D1
 Encoding: 465 465 1049
 Width: 1610
 Flags: W
@@ -56312,7 +56304,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wynn
+StartChar: uni01BF
 Encoding: 447 447 1050
 Width: 1092
 Flags: W
@@ -56372,7 +56364,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: EZH
+StartChar: uni01B7
 Encoding: 439 439 1051
 Width: 1131
 Flags: W
@@ -56428,7 +56420,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zstrok
+StartChar: uni01B6
 Encoding: 438 438 1052
 Width: 1024
 Flags: W
@@ -56473,7 +56465,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Zstrok
+StartChar: uni01B5
 Encoding: 437 437 1053
 Width: 1366
 Flags: W
@@ -56519,7 +56511,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: YR
+StartChar: uni01A6
 Encoding: 422 422 1054
 Width: 1278
 Flags: W
@@ -56873,7 +56865,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nlrleg
+StartChar: uni019E
 Encoding: 414 414 1060
 Width: 1147
 Flags: W
@@ -57097,7 +57089,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lbar
+StartChar: uni019A
 Encoding: 410 410 1064
 Width: 772
 Flags: W
@@ -57135,7 +57127,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: khook
+StartChar: uni0199
 Encoding: 409 409 1065
 Width: 1150
 Flags: W
@@ -57321,7 +57313,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hwair
+StartChar: uni0195
 Encoding: 405 405 1069
 Width: 1771
 Flags: W
@@ -58331,7 +58323,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bstrok
+StartChar: uni0180
 Encoding: 384 384 1088
 Width: 1133
 Flags: W
@@ -61195,7 +61187,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sigmaf
+StartChar: sigma1
 Encoding: 962 962 1144
 Width: 904
 Flags: W
@@ -63698,7 +63690,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zerosp
+StartChar: uni200B
 Encoding: 8203 8203 1196
 Width: 0
 VWidth: 0
@@ -63706,7 +63698,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: rdquorev
+StartChar: uni201F
 Encoding: 8223 8223 1197
 Width: 837
 Flags: W
@@ -63749,7 +63741,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tribull
+StartChar: uni2023
 Encoding: 8227 8227 1198
 Width: 754
 Flags: W
@@ -64050,7 +64042,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sgldr
+StartChar: onedotenleader
 Encoding: 8228 8228 1204
 Width: 480
 Flags: W
@@ -64068,7 +64060,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dotcross
+StartChar: uni205C
 Encoding: 8284 8284 1205
 Width: 950
 Flags: W
@@ -64194,7 +64186,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hyphpoint
+StartChar: uni2027
 Encoding: 8231 8231 1208
 Width: 0
 Flags: W
@@ -64212,7 +64204,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lozengedot
+StartChar: uni2058
 Encoding: 8280 8280 1209
 Width: 950
 Flags: W
@@ -64374,7 +64366,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nnbsp
+StartChar: uni202F
 Encoding: 8239 8239 1213
 Width: 512
 VWidth: 0
@@ -64645,7 +64637,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pennygerm
+StartChar: uni20B0
 Encoding: 8368 8368 1218
 Width: 1262
 Flags: W
@@ -64846,7 +64838,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: scruple
+StartChar: uni2108
 Encoding: 8456 8456 1221
 Width: 1367
 Flags: W
@@ -64893,7 +64885,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lbbar
+StartChar: uni2114
 Encoding: 8468 8468 1222
 Width: 1667
 Flags: W
@@ -64978,7 +64970,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rtailstrok
+StartChar: prescription
 Encoding: 8478 8478 1223
 Width: 1393
 Flags: W
@@ -65036,7 +65028,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rslstrok
+StartChar: uni211F
 Encoding: 8479 8479 1224
 Width: 1413
 Flags: W
@@ -65096,7 +65088,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vslstrok
+StartChar: uni2123
 Encoding: 8483 8483 1225
 Width: 1481
 Flags: W
@@ -65157,7 +65149,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romnumDDdbllig
+StartChar: uni2182
 Encoding: 8578 8578 1226
 Width: 2521
 Flags: W
@@ -65265,7 +65257,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romnumDDlig
+StartChar: uni2181
 Encoding: 8577 8577 1227
 Width: 1544
 Flags: W
@@ -65338,7 +65330,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romnumCDlig
+StartChar: uni2180
 Encoding: 8576 8576 1228
 Width: 2521
 Flags: W
@@ -65395,7 +65387,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Fturn
+StartChar: uni2132
 Encoding: 8498 8498 1229
 Width: 1126
 Flags: W
@@ -65443,7 +65435,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fturn
+StartChar: uni214E
 Encoding: 8526 8526 1230
 Width: 715
 Flags: W
@@ -65490,7 +65482,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ounce
+StartChar: uni2125
 Encoding: 8485 8485 1231
 Width: 1016
 Flags: W
@@ -65634,7 +65626,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: CONbase
+StartChar: uni2183
 Encoding: 8579 8579 1233
 Width: 1367
 Flags: W
@@ -68178,7 +68170,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arrsgllw
+StartChar: arrowleft
 Encoding: 8592 8592 1274
 Width: 2193
 Flags: W
@@ -68197,7 +68189,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arrsglupw
+StartChar: arrowup
 Encoding: 8593 8593 1275
 Width: 889
 Flags: W
@@ -68216,7 +68208,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arrsglrw
+StartChar: arrowright
 Encoding: 8594 8594 1276
 Width: 2193
 Flags: W
@@ -68235,7 +68227,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arrsgldw
+StartChar: arrowdown
 Encoding: 8595 8595 1277
 Width: 889
 Flags: W
@@ -68437,7 +68429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: logand
+StartChar: logicaland
 Encoding: 8743 8743 1284
 Width: 991
 Flags: W
@@ -68741,7 +68733,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: notequals
+StartChar: notequal
 Encoding: 8800 8800 1295
 Width: 991
 Flags: W
@@ -68847,7 +68839,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dipledot
+StartChar: uni22D7
 Encoding: 8919 8919 1299
 Width: 991
 Flags: W
@@ -68894,7 +68886,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: squareblsm
+StartChar: H18543
 Encoding: 9642 9642 1301
 Width: 795
 Flags: W
@@ -68910,7 +68902,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: squarewhsm
+StartChar: H18551
 Encoding: 9643 9643 1302
 Width: 795
 Flags: W
@@ -68931,7 +68923,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: circledot
+StartChar: uni25CC
 Encoding: 9676 9676 1303
 Width: 994
 Flags: W
@@ -69142,7 +69134,7 @@ EndSplineSet
 Validated: 2049
 EndChar
 
-StartChar: cross
+StartChar: uni271D
 Encoding: 10013 10013 1304
 Width: 991
 Flags: W
@@ -69166,7 +69158,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lwhsqb
+StartChar: uni27E6
 Encoding: 10214 10214 1305
 Width: 388
 Flags: W
@@ -69191,7 +69183,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rwhsqb
+StartChar: uni27E7
 Encoding: 10215 10215 1306
 Width: 388
 Flags: W
@@ -69216,7 +69208,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: langb
+StartChar: uni27E8
 Encoding: 10216 10216 1307
 Width: 601
 Flags: W
@@ -69234,7 +69226,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rangb
+StartChar: uni27E9
 Encoding: 10217 10217 1308
 Width: 601
 Flags: W
@@ -69252,7 +69244,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: conbase
+StartChar: uni2184
 Encoding: 8580 8580 1309
 Width: 912
 Flags: W
@@ -69289,7 +69281,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trirightwh
+StartChar: uni25B9
 Encoding: 9657 9657 1310
 Width: 1023
 Flags: W
@@ -69308,7 +69300,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trileftwh
+StartChar: uni25C3
 Encoding: 9667 9667 1311
 Width: 1023
 Flags: W
@@ -69327,7 +69319,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: metrshort
+StartChar: uni23D1
 Encoding: 9169 9169 1312
 Width: 725
 Flags: W
@@ -69351,7 +69343,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dblsol
+StartChar: uni2AFD
 Encoding: 11005 11005 1313
 Width: 1356
 Flags: W
@@ -69372,7 +69364,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hhalf
+StartChar: uni2C75
 Encoding: 11381 11381 1314
 Width: 982
 Flags: W
@@ -69410,7 +69402,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hhalf
+StartChar: uni2C76
 Encoding: 11382 11382 1315
 Width: 810
 Flags: W
@@ -69448,7 +69440,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: luhsqbNT
+StartChar: uni2E00
 Encoding: 11776 11776 1316
 Width: 991
 Flags: W
@@ -69466,7 +69458,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: luslst
+StartChar: uni2E0C
 Encoding: 11788 11788 1317
 Width: 604
 Flags: W
@@ -69482,7 +69474,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ruslst
+StartChar: uni2E0D
 Encoding: 11789 11789 1318
 Width: 604
 Flags: W
@@ -69498,7 +69490,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dbloblhyph
+StartChar: uni2E17
 Encoding: 11799 11799 1319
 Width: 991
 Flags: W
@@ -69568,7 +69560,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rlslst
+StartChar: uni2E1C
 Encoding: 11804 11804 1321
 Width: 604
 Flags: W
@@ -69584,7 +69576,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: llslst
+StartChar: uni2E1D
 Encoding: 11805 11805 1322
 Width: 604
 Flags: W
@@ -69600,7 +69592,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: verbarql
+StartChar: uni2E20
 Encoding: 11808 11808 1323
 Width: 361
 Flags: W
@@ -69620,7 +69612,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: verbarqr
+StartChar: uni2E21
 Encoding: 11809 11809 1324
 Width: 361
 Flags: W
@@ -69640,7 +69632,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: luhsqb
+StartChar: uni2E22
 Encoding: 11810 11810 1325
 Width: 991
 Flags: W
@@ -69658,7 +69650,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ruhsqb
+StartChar: uni2E23
 Encoding: 11811 11811 1326
 Width: 991
 Flags: W
@@ -69676,7 +69668,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: llhsqb
+StartChar: uni2E24
 Encoding: 11812 11812 1327
 Width: 991
 Flags: W
@@ -69694,7 +69686,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rlhsqb
+StartChar: uni2E25
 Encoding: 11813 11813 1328
 Width: 924
 Flags: W
@@ -69712,7 +69704,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lUbrack
+StartChar: uni2E26
 Encoding: 11814 11814 1329
 Width: 998
 Flags: W
@@ -69738,7 +69730,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rUbrack
+StartChar: uni2E27
 Encoding: 11815 11815 1330
 Width: 998
 Flags: W
@@ -69764,7 +69756,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ldblpar
+StartChar: uni2E28
 Encoding: 11816 11816 1331
 Width: 980
 Flags: W
@@ -69829,7 +69821,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdblpar
+StartChar: uni2E29
 Encoding: 11817 11817 1332
 Width: 980
 Flags: W
@@ -69894,7 +69886,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotsdownw
+StartChar: uni2E2A
 Encoding: 11818 11818 1333
 Width: 889
 Flags: W
@@ -69932,7 +69924,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tridotsupw
+StartChar: uni2E2B
 Encoding: 11819 11819 1334
 Width: 889
 Flags: W
@@ -69970,7 +69962,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: quaddots
+StartChar: uni2E2C
 Encoding: 11820 11820 1335
 Width: 889
 Flags: W
@@ -70017,7 +70009,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fivedots
+StartChar: uni2E2D
 Encoding: 11821 11821 1336
 Width: 1043
 Flags: W
@@ -70087,7 +70079,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctpercont
+StartChar: uni2E2E
 Encoding: 11822 11822 1337
 Width: 767
 Flags: W
@@ -70131,7 +70123,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligslash
+StartChar: uniA73A
 Encoding: 42810 42810 1338
 Width: 2122
 Flags: W
@@ -70201,7 +70193,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligslash
+StartChar: uniA73B
 Encoding: 42811 42811 1339
 Width: 1785
 Flags: W
@@ -70301,7 +70293,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AYlig
+StartChar: uniA73C
 Encoding: 42812 42812 1340
 Width: 2019
 Flags: W
@@ -70373,7 +70365,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aylig
+StartChar: uniA73D
 Encoding: 42813 42813 1341
 Width: 1995
 Flags: W
@@ -70471,7 +70463,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: CONdot
+StartChar: uniA73E
 Encoding: 42814 42814 1342
 Width: 1367
 Flags: W
@@ -70514,7 +70506,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: condot
+StartChar: uniA73F
 Encoding: 42815 42815 1343
 Width: 937
 Flags: W
@@ -70562,7 +70554,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kbar
+StartChar: uniA740
 Encoding: 42816 42816 1344
 Width: 1481
 Flags: W
@@ -70626,7 +70618,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kbar
+StartChar: uniA741
 Encoding: 42817 42817 1345
 Width: 1185
 Flags: W
@@ -70695,7 +70687,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kstrleg
+StartChar: uniA742
 Encoding: 42818 42818 1346
 Width: 1481
 Flags: W
@@ -70762,7 +70754,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kstrleg
+StartChar: uniA743
 Encoding: 42819 42819 1347
 Width: 1185
 Flags: W
@@ -70832,7 +70824,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Kstrascleg
+StartChar: uniA744
 Encoding: 42820 42820 1348
 Width: 1481
 Flags: W
@@ -70911,7 +70903,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kstrascleg
+StartChar: uniA745
 Encoding: 42821 42821 1349
 Width: 1185
 Flags: W
@@ -70993,7 +70985,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lbrk
+StartChar: uniA746
 Encoding: 42822 42822 1350
 Width: 1428
 Flags: W
@@ -71029,7 +71021,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lbrk
+StartChar: uniA747
 Encoding: 42823 42823 1351
 Width: 866
 Flags: W
@@ -71059,7 +71051,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OBIIT
+StartChar: uniA74A
 Encoding: 42826 42826 1352
 Width: 2037
 Flags: W
@@ -71109,7 +71101,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: obiit
+StartChar: uniA74B
 Encoding: 42827 42827 1353
 Width: 1432
 Flags: W
@@ -71162,7 +71154,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oloop
+StartChar: uniA74C
 Encoding: 42828 42828 1354
 Width: 2023
 Flags: W
@@ -71222,7 +71214,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oloop
+StartChar: uniA74D
 Encoding: 42829 42829 1355
 Width: 1330
 Flags: W
@@ -71284,7 +71276,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OOlig
+StartChar: uniA74E
 Encoding: 42830 42830 1356
 Width: 2975
 Flags: W
@@ -71339,7 +71331,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oolig
+StartChar: uniA74F
 Encoding: 42831 42831 1357
 Width: 1968
 Flags: W
@@ -71401,7 +71393,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Pbardes
+StartChar: uniA750
 Encoding: 42832 42832 1358
 Width: 1206
 Flags: W
@@ -71458,7 +71450,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pbardes
+StartChar: uniA751
 Encoding: 42833 42833 1359
 Width: 1169
 Flags: W
@@ -71534,7 +71526,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lhighstrok
+StartChar: uniA748
 Encoding: 42824 42824 1360
 Width: 1191
 Flags: W
@@ -71582,7 +71574,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lhighstrok
+StartChar: uniA749
 Encoding: 42825 42825 1361
 Width: 812
 Flags: W
@@ -71624,7 +71616,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Pflour
+StartChar: uniA752
 Encoding: 42834 42834 1362
 Width: 1571
 Flags: W
@@ -71692,7 +71684,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pflour
+StartChar: uniA753
 Encoding: 42835 42835 1363
 Width: 1567
 Flags: W
@@ -71779,7 +71771,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Psquirrel
+StartChar: uniA754
 Encoding: 42836 42836 1364
 Width: 1571
 Flags: W
@@ -71847,7 +71839,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: psquirrel
+StartChar: uniA755
 Encoding: 42837 42837 1365
 Width: 1567
 Flags: W
@@ -71933,7 +71925,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Qbardes
+StartChar: uniA756
 Encoding: 42838 42838 1366
 Width: 1779
 Flags: W
@@ -71996,7 +71988,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qbardes
+StartChar: uniA757
 Encoding: 42839 42839 1367
 Width: 1388
 Flags: W
@@ -72075,7 +72067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Qslstrok
+StartChar: uniA758
 Encoding: 42840 42840 1368
 Width: 1863
 Flags: W
@@ -72137,7 +72129,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qslstrok
+StartChar: uniA759
 Encoding: 42841 42841 1369
 Width: 1208
 Flags: W
@@ -72215,7 +72207,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rrot
+StartChar: uniA75A
 Encoding: 42842 42842 1370
 Width: 920
 Flags: W
@@ -72255,7 +72247,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: RUM
+StartChar: uniA75C
 Encoding: 42844 42844 1371
 Width: 1044
 Flags: W
@@ -72311,7 +72303,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rum
+StartChar: uniA75D
 Encoding: 42845 42845 1372
 Width: 977
 Flags: W
@@ -72367,7 +72359,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vdiagstrok
+StartChar: uniA75E
 Encoding: 42846 42846 1373
 Width: 1481
 Flags: W
@@ -72433,7 +72425,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vdiagstrok
+StartChar: uniA75F
 Encoding: 42847 42847 1374
 Width: 1043
 Flags: W
@@ -72496,7 +72488,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: YYlig
+StartChar: uniA760
 Encoding: 42848 42848 1375
 Width: 2274
 Flags: W
@@ -72579,7 +72571,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yylig
+StartChar: uniA761
 Encoding: 42849 42849 1376
 Width: 1729
 Flags: W
@@ -72656,7 +72648,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vvisigot
+StartChar: uniA762
 Encoding: 42850 42850 1377
 Width: 1069
 Flags: W
@@ -72726,7 +72718,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vvisigot
+StartChar: uniA763
 Encoding: 42851 42851 1378
 Width: 831
 Flags: W
@@ -72794,7 +72786,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: THORNbar
+StartChar: uniA764
 Encoding: 42852 42852 1379
 Width: 1206
 Flags: W
@@ -72857,7 +72849,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornbar
+StartChar: uniA765
 Encoding: 42853 42853 1380
 Width: 1146
 Flags: W
@@ -72930,7 +72922,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: THORNbardes
+StartChar: uniA766
 Encoding: 42854 42854 1381
 Width: 1228
 Flags: W
@@ -73013,7 +73005,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornbardes
+StartChar: uniA767
 Encoding: 42855 42855 1382
 Width: 1180
 Flags: W
@@ -73089,7 +73081,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vins
+StartChar: uniA768
 Encoding: 42856 42856 1383
 Width: 1392
 Flags: W
@@ -73137,7 +73129,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vins
+StartChar: uniA769
 Encoding: 42857 42857 1384
 Width: 1071
 Flags: W
@@ -73178,7 +73170,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ETfin
+StartChar: uniA76A
 Encoding: 42858 42858 1385
 Width: 1100
 Flags: W
@@ -73240,7 +73232,7 @@ Validated: 1
 Colour: ff0000
 EndChar
 
-StartChar: etfin
+StartChar: uniA76B
 Encoding: 42859 42859 1386
 Width: 512
 Flags: W
@@ -73275,7 +73267,7 @@ Validated: 1
 Colour: ff0000
 EndChar
 
-StartChar: IS
+StartChar: uniA76C
 Encoding: 42860 42860 1387
 Width: 1117
 Flags: W
@@ -73348,7 +73340,7 @@ Validated: 1
 Colour: ff0000
 EndChar
 
-StartChar: is
+StartChar: uniA76D
 Encoding: 42861 42861 1388
 Width: 865
 Flags: W
@@ -73397,7 +73389,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: CONdes
+StartChar: uniA76E
 Encoding: 42862 42862 1389
 Width: 1075
 Flags: W
@@ -73440,7 +73432,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: condes
+StartChar: uniA76F
 Encoding: 42863 42863 1390
 Width: 1105
 Flags: W
@@ -73483,7 +73475,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: usmod
+StartChar: uniA770
 Encoding: 42864 42864 1391
 Width: 396
 Flags: W
@@ -73522,7 +73514,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dtailstrok
+StartChar: uniA771
 Encoding: 42865 42865 1392
 Width: 1796
 Flags: W
@@ -73600,7 +73592,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ltailstrok
+StartChar: uniA772
 Encoding: 42866 42866 1393
 Width: 1110
 Flags: W
@@ -73644,7 +73636,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mtailstrok
+StartChar: uniA773
 Encoding: 42867 42867 1394
 Width: 2459
 Flags: W
@@ -73727,7 +73719,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ntailstrok
+StartChar: uniA774
 Encoding: 42868 42868 1395
 Width: 1840
 Flags: W
@@ -73791,7 +73783,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rtailstrok
+StartChar: uniA775
 Encoding: 42869 42869 1396
 Width: 885
 Flags: W
@@ -73833,7 +73825,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rscaptailstrok
+StartChar: uniA776
 Encoding: 42870 42870 1397
 Width: 1040
 Flags: W
@@ -73886,7 +73878,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ttailstrok
+StartChar: uniA777
 Encoding: 42871 42871 1398
 Width: 1102
 Flags: W
@@ -73933,7 +73925,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sstrok
+StartChar: uniA778
 Encoding: 42872 42872 1399
 Width: 852
 Flags: W
@@ -73997,7 +73989,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Drot
+StartChar: uniA779
 Encoding: 42873 42873 1400
 Width: 1621
 Flags: W
@@ -74038,7 +74030,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Gins
+StartChar: uniA77D
 Encoding: 42877 42877 1401
 Width: 1137
 Flags: W
@@ -74085,7 +74077,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ginsturn
+StartChar: uniA77E
 Encoding: 42878 42878 1402
 Width: 1137
 Flags: W
@@ -74131,7 +74123,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ginsturn
+StartChar: uniA77F
 Encoding: 42879 42879 1403
 Width: 1169
 Flags: W
@@ -74179,7 +74171,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Lturn
+StartChar: uniA780
 Encoding: 42880 42880 1404
 Width: 1148
 Flags: W
@@ -74211,7 +74203,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lturn
+StartChar: uniA781
 Encoding: 42881 42881 1405
 Width: 512
 Flags: W
@@ -74237,7 +74229,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Rins
+StartChar: uniA782
 Encoding: 42882 42882 1406
 Width: 1418
 Flags: W
@@ -74287,7 +74279,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rins
+StartChar: uniA783
 Encoding: 42883 42883 1407
 Width: 1176
 Flags: W
@@ -74335,7 +74327,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Sins
+StartChar: uniA784
 Encoding: 42884 42884 1408
 Width: 854
 Flags: W
@@ -74372,7 +74364,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sins
+StartChar: uniA785
 Encoding: 42885 42885 1409
 Width: 831
 Flags: W
@@ -74409,7 +74401,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Trot
+StartChar: uniA786
 Encoding: 42886 42886 1410
 Width: 1082
 Flags: W
@@ -74442,7 +74434,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Frev
+StartChar: uniA7FB
 Encoding: 43003 43003 1411
 Width: 1083
 Flags: W
@@ -74490,7 +74482,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Prev
+StartChar: uniA7FC
 Encoding: 43004 43004 1412
 Width: 1163
 Flags: W
@@ -74530,7 +74522,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Minv
+StartChar: uniA7FD
 Encoding: 43005 43005 1413
 Width: 1835
 Flags: W
@@ -74573,7 +74565,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ilong
+StartChar: uniA7FE
 Encoding: 43006 43006 1414
 Width: 546
 Flags: W
@@ -74601,7 +74593,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: M5leg
+StartChar: uniA7FF
 Encoding: 43007 43007 1415
 Width: 2840
 Flags: W
@@ -74657,7 +74649,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligred
+StartChar: uniF204
 Encoding: 61956 61956 1416
 Width: 1823
 Flags: W
@@ -74734,7 +74726,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AnecklessElig
+StartChar: uniEFAE
 Encoding: 61358 61358 1417
 Width: 1729
 Flags: W
@@ -74811,7 +74803,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anecklesselig
+StartChar: uniEFA1
 Encoding: 61345 61345 1418
 Width: 1431
 Flags: W
@@ -74879,7 +74871,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AOligred
+StartChar: uniF205
 Encoding: 61957 61957 1419
 Width: 2222
 Flags: W
@@ -74946,7 +74938,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligred
+StartChar: uniF206
 Encoding: 61958 61958 1420
 Width: 1504
 Flags: W
@@ -75013,7 +75005,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aflig
+StartChar: uniEFA3
 Encoding: 61347 61347 1421
 Width: 1338
 Flags: W
@@ -75093,7 +75085,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: afinslig
+StartChar: uniEFA4
 Encoding: 61348 61348 1422
 Width: 1336
 Flags: W
@@ -75170,7 +75162,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aglig
+StartChar: uniEFA5
 Encoding: 61349 61349 1423
 Width: 1800
 Flags: W
@@ -75280,7 +75272,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: allig
+StartChar: uniEFA6
 Encoding: 61350 61350 1424
 Width: 1570
 Flags: W
@@ -75356,7 +75348,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anlig
+StartChar: uniEFA7
 Encoding: 61351 61351 1425
 Width: 1769
 Flags: W
@@ -75437,7 +75429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aplig
+StartChar: uniEFA9
 Encoding: 61353 61353 1426
 Width: 1793
 Flags: W
@@ -75533,7 +75525,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arlig
+StartChar: uniEFAA
 Encoding: 61354 61354 1427
 Width: 1430
 Flags: W
@@ -75605,7 +75597,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arscaplig
+StartChar: uniEFAB
 Encoding: 61355 61355 1428
 Width: 1725
 Flags: W
@@ -75684,7 +75676,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: athornlig
+StartChar: uniEFAC
 Encoding: 61356 61356 1429
 Width: 1793
 Flags: W
@@ -75780,7 +75772,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bglig
+StartChar: uniEEC3
 Encoding: 61123 61123 1430
 Width: 1124
 Flags: W
@@ -75854,7 +75846,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cklig
+StartChar: uniEEC4
 Encoding: 61124 61124 1431
 Width: 2103
 Flags: W
@@ -75948,7 +75940,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ctlig
+StartChar: uniEEC5
 Encoding: 61125 61125 1432
 Width: 1589
 Flags: W
@@ -76029,7 +76021,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eylig
+StartChar: uniEEC7
 Encoding: 61127 61127 1433
 Width: 1950
 Flags: W
@@ -76111,7 +76103,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: faumllig
+StartChar: uniEEC8
 Encoding: 61128 61128 1434
 Width: 1573
 Flags: W
@@ -76227,7 +76219,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fjlig
+StartChar: uniEEC9
 Encoding: 61129 61129 1435
 Width: 999
 Flags: W
@@ -76303,7 +76295,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: frlig
+StartChar: uniEECA
 Encoding: 61130 61130 1436
 Width: 1252
 Flags: W
@@ -76465,7 +76457,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ftlig
+StartChar: uniEECB
 Encoding: 61131 61131 1438
 Width: 1213
 Flags: W
@@ -76535,7 +76527,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fuumllig
+StartChar: uniEECC
 Encoding: 61132 61132 1439
 Width: 1596
 Flags: W
@@ -76625,7 +76617,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fylig
+StartChar: uniEECD
 Encoding: 61133 61133 1440
 Width: 1375
 Flags: W
@@ -76710,7 +76702,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fftlig
+StartChar: uniEECE
 Encoding: 61134 61134 1441
 Width: 1655
 Flags: W
@@ -76811,7 +76803,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ffylig
+StartChar: uniEECF
 Encoding: 61135 61135 1442
 Width: 1950
 Flags: W
@@ -76928,7 +76920,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ftylig
+StartChar: uniEED0
 Encoding: 61136 61136 1443
 Width: 1950
 Flags: W
@@ -77029,7 +77021,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gglig
+StartChar: uniEED1
 Encoding: 61137 61137 1444
 Width: 1750
 Flags: W
@@ -77158,7 +77150,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gdlig
+StartChar: uniEED2
 Encoding: 61138 61138 1445
 Width: 1100
 Flags: W
@@ -77230,7 +77222,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gdrotlig
+StartChar: uniEED3
 Encoding: 61139 61139 1446
 Width: 997
 Flags: W
@@ -77304,7 +77296,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gethlig
+StartChar: uniEED4
 Encoding: 61140 61140 1447
 Width: 997
 Flags: W
@@ -77388,7 +77380,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscapslonglig
+StartChar: uniEED5
 Encoding: 61141 61141 1448
 Width: 1205
 Flags: W
@@ -77442,7 +77434,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pplig
+StartChar: uniEED6
 Encoding: 61142 61142 1449
 Width: 1890
 Flags: W
@@ -77535,7 +77527,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ppflourlig
+StartChar: uniEED7
 Encoding: 61143 61143 1450
 Width: 2276
 Flags: W
@@ -77654,7 +77646,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: krarmlig
+StartChar: uniE8C5
 Encoding: 59589 59589 1451
 Width: 1172
 Flags: W
@@ -77720,7 +77712,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hrarmlig
+StartChar: uniE8C2
 Encoding: 59586 59586 1452
 Width: 1164
 Flags: W
@@ -77784,7 +77776,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hrarmlig
+StartChar: uniE8C3
 Encoding: 59587 59587 1453
 Width: 1164
 Flags: W
@@ -77844,7 +77836,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: golig
+StartChar: uniEEDE
 Encoding: 61150 61150 1454
 Width: 1828
 Flags: W
@@ -77941,7 +77933,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gplig
+StartChar: uniEAD2
 Encoding: 60114 60114 1455
 Width: 1743
 Flags: W
@@ -78042,7 +78034,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: grlig
+StartChar: uniEAD0
 Encoding: 60112 60112 1456
 Width: 1390
 Flags: W
@@ -78121,7 +78113,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qvinslig
+StartChar: uniEAD1
 Encoding: 60113 60113 1457
 Width: 1746
 Flags: W
@@ -78199,7 +78191,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: PPlig
+StartChar: uniEEDD
 Encoding: 61149 61149 1458
 Width: 2001
 Flags: W
@@ -78262,7 +78254,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oclig
+StartChar: uniEFAD
 Encoding: 61357 61357 1459
 Width: 1756
 Flags: W
@@ -78325,7 +78317,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongaumllig
+StartChar: uniEBA0
 Encoding: 60320 60320 1460
 Width: 1573
 Flags: W
@@ -78440,7 +78432,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anecklessvlig
+StartChar: uniEFA2
 Encoding: 61346 61346 1461
 Width: 1176
 Flags: W
@@ -78518,7 +78510,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: foumllig
+StartChar: uniF1BC
 Encoding: 61884 61884 1462
 Width: 1541
 Flags: W
@@ -78611,7 +78603,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hedera
+StartChar: uni2766
 Encoding: 10086 10086 1463
 Width: 2009
 Flags: W
@@ -78699,7 +78691,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hederarot
+StartChar: uni2767
 Encoding: 10087 10087 1464
 Width: 2191
 Flags: W
@@ -78783,7 +78775,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slonghlig
+StartChar: uniEBA1
 Encoding: 60321 60321 1465
 Width: 1706
 Flags: W
@@ -78859,7 +78851,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongilig
+StartChar: uniEBA2
 Encoding: 60322 60322 1466
 Width: 1108
 Flags: W
@@ -78927,7 +78919,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongllig
+StartChar: uniEBA3
 Encoding: 60323 60323 1467
 Width: 998
 Flags: W
@@ -78983,7 +78975,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongoumllig
+StartChar: uniEBA4
 Encoding: 60324 60324 1468
 Width: 1548
 Flags: W
@@ -79075,7 +79067,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongplig
+StartChar: uniEBA5
 Encoding: 60325 60325 1469
 Width: 1612
 Flags: W
@@ -79173,7 +79165,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslonglig
+StartChar: uniEBA6
 Encoding: 60326 60326 1470
 Width: 1207
 Flags: W
@@ -79258,7 +79250,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslongilig
+StartChar: uniEBA7
 Encoding: 60327 60327 1471
 Width: 1573
 Flags: W
@@ -79363,7 +79355,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslongllig
+StartChar: uniEBA8
 Encoding: 60328 60328 1472
 Width: 1507
 Flags: W
@@ -79456,7 +79448,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongtilig
+StartChar: uniEBA9
 Encoding: 60329 60329 1473
 Width: 1573
 Flags: W
@@ -79552,7 +79544,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongtrlig
+StartChar: uniEBAA
 Encoding: 60330 60330 1474
 Width: 1850
 Flags: W
@@ -79654,7 +79646,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slonguumllig
+StartChar: uniEBAB
 Encoding: 60331 60331 1475
 Width: 1596
 Flags: W
@@ -79752,7 +79744,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongvinslig
+StartChar: uniEBAC
 Encoding: 60332 60332 1476
 Width: 1071
 Flags: W
@@ -79813,7 +79805,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongdestlig
+StartChar: uniEADA
 Encoding: 60122 60122 1477
 Width: 1168
 Flags: W
@@ -79889,7 +79881,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trlig
+StartChar: uniEED8
 Encoding: 61144 61144 1478
 Width: 1386
 Flags: W
@@ -79954,7 +79946,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ttlig
+StartChar: uniEED9
 Encoding: 61145 61145 1479
 Width: 1080
 Flags: W
@@ -80008,7 +80000,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trottrotlig
+StartChar: uniEEDA
 Encoding: 61146 61146 1480
 Width: 1124
 Flags: W
@@ -80050,7 +80042,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tylig
+StartChar: uniEEDB
 Encoding: 61147 61147 1481
 Width: 1463
 Flags: W
@@ -80119,7 +80111,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tzlig
+StartChar: uniEEDC
 Encoding: 61148 61148 1482
 Width: 1607
 Flags: W
@@ -80184,7 +80176,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornrarmlig
+StartChar: uniE8C1
 Encoding: 59585 59585 1483
 Width: 1107
 Flags: W
@@ -80254,7 +80246,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornscap
+StartChar: uniEF15
 Encoding: 61205 61205 1484
 Width: 919
 Flags: W
@@ -80299,7 +80291,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aenl
+StartChar: uniEEE0
 Encoding: 61152 61152 1485
 Width: 1271
 Flags: W
@@ -80359,7 +80351,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: benl
+StartChar: uniEEE1
 Encoding: 61153 61153 1486
 Width: 1328
 Flags: W
@@ -80421,7 +80413,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: cenl
+StartChar: uniEEE2
 Encoding: 61154 61154 1487
 Width: 1094
 Flags: W
@@ -80463,7 +80455,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: denl
+StartChar: uniEEE3
 Encoding: 61155 61155 1488
 Width: 1271
 Flags: W
@@ -80522,7 +80514,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eenl
+StartChar: uniEEE6
 Encoding: 61158 61158 1489
 Width: 1171
 Flags: W
@@ -80561,7 +80553,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fenl
+StartChar: uniEEE7
 Encoding: 61159 61159 1490
 Width: 625
 Flags: W
@@ -80615,7 +80607,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: genl
+StartChar: uniEEE8
 Encoding: 61160 61160 1491
 Width: 1169
 Flags: W
@@ -80688,7 +80680,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: henl
+StartChar: uniEEE9
 Encoding: 61161 61161 1492
 Width: 1336
 Flags: W
@@ -80735,7 +80727,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ienl
+StartChar: uniEEEA
 Encoding: 61162 61162 1493
 Width: 596
 Flags: W
@@ -80766,7 +80758,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jenl
+StartChar: uniEEEB
 Encoding: 61163 61163 1494
 Width: 479
 Flags: W
@@ -80798,7 +80790,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kenl
+StartChar: uniEEEC
 Encoding: 61164 61164 1495
 Width: 1371
 Flags: W
@@ -80854,7 +80846,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lenl
+StartChar: uniEEED
 Encoding: 61165 61165 1496
 Width: 596
 Flags: W
@@ -80880,7 +80872,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nenl
+StartChar: uniEEEF
 Encoding: 61167 61167 1497
 Width: 1336
 Flags: W
@@ -80928,7 +80920,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: menl
+StartChar: uniEEEE
 Encoding: 61166 61166 1498
 Width: 2046
 Flags: W
@@ -80997,7 +80989,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oenl
+StartChar: uniEEF0
 Encoding: 61168 61168 1499
 Width: 1317
 Flags: W
@@ -81035,7 +81027,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: penl
+StartChar: uniEEF1
 Encoding: 61169 61169 1500
 Width: 1328
 Flags: W
@@ -81098,7 +81090,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qenl
+StartChar: uniEEF2
 Encoding: 61170 61170 1501
 Width: 1271
 Flags: W
@@ -81160,7 +81152,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: renl
+StartChar: uniEEF3
 Encoding: 61171 61171 1502
 Width: 766
 Flags: W
@@ -81197,7 +81189,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: senl
+StartChar: uniEEF4
 Encoding: 61172 61172 1503
 Width: 1008
 Flags: W
@@ -81251,7 +81243,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tenl
+StartChar: uniEEF5
 Encoding: 61173 61173 1504
 Width: 663
 Flags: W
@@ -81290,7 +81282,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uenl
+StartChar: uniEEF7
 Encoding: 61175 61175 1505
 Width: 1379
 Flags: W
@@ -81336,7 +81328,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: venl
+StartChar: uniEEF8
 Encoding: 61176 61176 1506
 Width: 1269
 Flags: W
@@ -81385,7 +81377,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wenl
+StartChar: uniEEF9
 Encoding: 61177 61177 1507
 Width: 2087
 Flags: W
@@ -81461,7 +81453,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xenl
+StartChar: uniEEFA
 Encoding: 61178 61178 1508
 Width: 1362
 Flags: W
@@ -81525,7 +81517,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yenl
+StartChar: uniEEFB
 Encoding: 61179 61179 1509
 Width: 1193
 Flags: W
@@ -81575,7 +81567,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: zenl
+StartChar: uniEEFC
 Encoding: 61180 61180 1510
 Width: 1253
 Flags: W
@@ -81612,7 +81604,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drotenl
+StartChar: uniEEE4
 Encoding: 61156 61156 1511
 Width: 1307
 Flags: W
@@ -81659,7 +81651,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ethenl
+StartChar: uniEEE5
 Encoding: 61157 61157 1512
 Width: 1307
 Flags: W
@@ -81716,7 +81708,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eogonenl
+StartChar: uniEAF3
 Encoding: 60147 60147 1513
 Width: 1171
 Flags: W
@@ -81775,7 +81767,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oeligenl
+StartChar: uniEFDD
 Encoding: 61405 61405 1514
 Width: 2268
 Flags: W
@@ -81836,7 +81828,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaligenl
+StartChar: uniEFDF
 Encoding: 61407 61407 1515
 Width: 2196
 Flags: W
@@ -81939,7 +81931,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jnodotenl
+StartChar: uniEEFE
 Encoding: 61182 61182 1516
 Width: 479
 Flags: W
@@ -81966,7 +81958,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: inodotenl
+StartChar: uniEEFD
 Encoding: 61181 61181 1517
 Width: 596
 Flags: W
@@ -81992,7 +81984,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aenlacute
+StartChar: uniEAF0
 Encoding: 60144 60144 1518
 Width: 1271
 Flags: W
@@ -82071,7 +82063,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligenl
+StartChar: uniEAF1
 Encoding: 60145 60145 1519
 Width: 2095
 Flags: W
@@ -82153,7 +82145,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aenlosmalllig
+StartChar: uniEAF2
 Encoding: 60146 60146 1520
 Width: 2000
 Flags: W
@@ -82232,7 +82224,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligenl
+StartChar: uniEFDE
 Encoding: 61406 61406 1521
 Width: 2241
 Flags: W
@@ -82313,7 +82305,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongenl
+StartChar: uniEEDF
 Encoding: 61151 61151 1522
 Width: 625
 Flags: W
@@ -82361,7 +82353,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: finsenl
+StartChar: uniEEFF
 Encoding: 61183 61183 1523
 Width: 740
 Flags: W
@@ -82402,7 +82394,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornenl
+StartChar: uniEEF6
 Encoding: 61174 61174 1524
 Width: 1306
 Flags: W
@@ -82463,7 +82455,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: etslash
+StartChar: uniF158
 Encoding: 61784 61784 1525
 Width: 959
 Flags: W
@@ -82517,7 +82509,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: USbase
+StartChar: uniF1A5
 Encoding: 61861 61861 1526
 Width: 1075
 Flags: W
@@ -82560,7 +82552,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: usbase
+StartChar: uniF1A6
 Encoding: 61862 61862 1527
 Width: 1075
 Flags: W
@@ -82603,7 +82595,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: de
+StartChar: uniF159
 Encoding: 61785 61785 1528
 Width: 1105
 Flags: W
@@ -82659,7 +82651,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sem
+StartChar: uniF1AC
 Encoding: 61868 61868 1529
 Width: 374
 Flags: W
@@ -82692,7 +82684,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hslonglig
+StartChar: uniEBAD
 Encoding: 60333 60333 1530
 Width: 1264
 Flags: W
@@ -82761,7 +82753,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kslonglig
+StartChar: uniEBAE
 Encoding: 60334 60334 1531
 Width: 1206
 Flags: W
@@ -82836,7 +82828,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hslongligbar
+StartChar: uniE7C7
 Encoding: 59335 59335 1532
 Width: 1228
 Flags: W
@@ -82916,7 +82908,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kslongligbar
+StartChar: uniE7C8
 Encoding: 59336 59336 1533
 Width: 1172
 Flags: W
@@ -83002,7 +82994,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: q2app
+StartChar: uniE8B3
 Encoding: 59571 59571 1534
 Width: 1750
 Flags: W
@@ -83098,7 +83090,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qcentrslstrok
+StartChar: uniE8B4
 Encoding: 59572 59572 1535
 Width: 1187
 Flags: W
@@ -83176,7 +83168,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rdesstrok
+StartChar: uniE7E4
 Encoding: 59364 59364 1536
 Width: 790
 Flags: W
@@ -83229,7 +83221,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongflour
+StartChar: uniE8B7
 Encoding: 59575 59575 1537
 Width: 898
 Flags: W
@@ -83298,7 +83290,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongslstrok
+StartChar: uniE8B8
 Encoding: 59576 59576 1538
 Width: 779
 Flags: W
@@ -83359,7 +83351,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vslash
+StartChar: uniE8BA
 Encoding: 59578 59578 1539
 Width: 1015
 Flags: W
@@ -83414,7 +83406,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xslashula
+StartChar: uniE8BD
 Encoding: 59581 59581 1540
 Width: 1484
 Flags: W
@@ -83490,7 +83482,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: xslashlra
+StartChar: uniE8BE
 Encoding: 59582 59582 1541
 Width: 1459
 Flags: W
@@ -83564,7 +83556,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornbarslash
+StartChar: uniF149
 Encoding: 61769 61769 1542
 Width: 1064
 Flags: W
@@ -83640,7 +83632,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: q3app
+StartChar: uniE8BF
 Encoding: 59583 59583 1543
 Width: 1709
 Flags: W
@@ -83747,7 +83739,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: anscapligsup
+StartChar: uniF03A
 Encoding: 61498 61498 1544
 Width: 0
 Flags: W
@@ -83811,7 +83803,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jsup
+StartChar: uniF030
 Encoding: 61488 61488 1545
 Width: 0
 Flags: W
@@ -83840,7 +83832,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eogonsup
+StartChar: uniF135
 Encoding: 61749 61749 1546
 Width: 0
 Flags: W
@@ -83893,7 +83885,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: emacrsup
+StartChar: uniF136
 Encoding: 61750 61750 1547
 Width: 0
 Flags: W
@@ -83937,7 +83929,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arscapligsup
+StartChar: uniF130
 Encoding: 61744 61744 1548
 Width: 0
 Flags: W
@@ -84010,7 +84002,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oogonsup
+StartChar: uniF13E
 Encoding: 61758 61758 1549
 Width: 0
 Flags: W
@@ -84066,7 +84058,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: omacrsup
+StartChar: uniF13F
 Encoding: 61759 61759 1550
 Width: 0
 Flags: W
@@ -84110,7 +84102,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: orrotsup
+StartChar: uniF03E
 Encoding: 61502 61502 1551
 Width: 0
 Flags: W
@@ -84178,7 +84170,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: orumsup
+StartChar: uniF03F
 Encoding: 61503 61503 1552
 Width: 0
 Flags: W
@@ -84262,7 +84254,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rumsup
+StartChar: uniF040
 Encoding: 61504 61504 1553
 Width: 0
 Flags: W
@@ -84320,7 +84312,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: trotsup
+StartChar: uniF03B
 Encoding: 61499 61499 1554
 Width: 0
 Flags: W
@@ -84352,7 +84344,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: arbar
+StartChar: uniF1C0
 Encoding: 61888 61888 1555
 Width: 0
 Flags: W
@@ -84377,7 +84369,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: erang
+StartChar: uniF1C7
 Encoding: 61895 61895 1556
 Width: 0
 Flags: W
@@ -84401,7 +84393,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ercurl
+StartChar: uniF1C8
 Encoding: 61896 61896 1557
 Width: 0
 Flags: W
@@ -84429,7 +84421,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rabar
+StartChar: uniF1C1
 Encoding: 61889 61889 1558
 Width: 0
 Flags: W
@@ -84474,7 +84466,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: urlemn
+StartChar: uniF1C2
 Encoding: 61890 61890 1559
 Width: 0
 Flags: W
@@ -84522,7 +84514,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcurlhigh
+StartChar: uniF1C5
 Encoding: 61893 61893 1560
 Width: 0
 Flags: W
@@ -84551,7 +84543,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combdothigh
+StartChar: uniF1CA
 Encoding: 61898 61898 1561
 Width: 0
 Flags: W
@@ -84567,7 +84559,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combcurlbar
+StartChar: uniF1CC
 Encoding: 61900 61900 1562
 Width: 0
 Flags: W
@@ -84602,7 +84594,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: combtripbrevebl
+StartChar: uniF1FC
 Encoding: 61948 61948 1563
 Width: 0
 Flags: W
@@ -84634,7 +84626,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: urrot
+StartChar: uniF153
 Encoding: 61779 61779 1564
 Width: 0
 Flags: W
@@ -84678,7 +84670,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hidot
+StartChar: uniF1F8
 Encoding: 61944 61944 1565
 Width: 425
 Flags: W
@@ -84697,7 +84689,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: posit
+StartChar: uniF1E2
 Encoding: 61922 61922 1566
 Width: 390
 Flags: W
@@ -84721,7 +84713,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ductsimpl
+StartChar: uniF1E3
 Encoding: 61923 61923 1567
 Width: 405
 Flags: W
@@ -84745,7 +84737,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctvers
+StartChar: uniF1EA
 Encoding: 61930 61930 1568
 Width: 399
 Flags: W
@@ -84777,7 +84769,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: colelevposit
+StartChar: uniF1E4
 Encoding: 61924 61924 1569
 Width: 825
 Flags: W
@@ -84809,7 +84801,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: colmidcomposit
+StartChar: uniF1E5
 Encoding: 61925 61925 1570
 Width: 825
 Flags: W
@@ -84849,7 +84841,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctelev
+StartChar: uniF161
 Encoding: 61793 61793 1571
 Width: 652
 Flags: W
@@ -84887,7 +84879,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctelevdiag
+StartChar: uniF1F0
 Encoding: 61936 61936 1572
 Width: 822
 Flags: W
@@ -84918,7 +84910,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctelevhiback
+StartChar: uniF1FA
 Encoding: 61946 61946 1573
 Width: 447
 Flags: W
@@ -84953,7 +84945,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctelevhack
+StartChar: uniF1FB
 Encoding: 61947 61947 1574
 Width: 828
 Flags: W
@@ -84984,7 +84976,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctflex
+StartChar: uniF1F5
 Encoding: 61941 61941 1575
 Width: 498
 Flags: W
@@ -85021,7 +85013,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctexclam
+StartChar: uniF1E7
 Encoding: 61927 61927 1576
 Width: 1145
 Flags: W
@@ -85059,7 +85051,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctinter
+StartChar: uniF160
 Encoding: 61792 61792 1577
 Width: 544
 Flags: W
@@ -85102,7 +85094,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctintertilde
+StartChar: uniF1E8
 Encoding: 61928 61928 1578
 Width: 975
 Flags: W
@@ -85144,7 +85136,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: punctinterlemn
+StartChar: uniF1F1
 Encoding: 61937 61937 1579
 Width: 906
 Flags: W
@@ -85198,7 +85190,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wavylin
+StartChar: uniF1F9
 Encoding: 61945 61945 1580
 Width: 706
 Flags: W
@@ -85233,7 +85225,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: medcom
+StartChar: uniF1E0
 Encoding: 61920 61920 1581
 Width: 480
 Flags: W
@@ -85269,7 +85261,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: renvoi
+StartChar: uniF1EC
 Encoding: 61932 61932 1582
 Width: 927
 Flags: W
@@ -85301,7 +85293,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: virgsusp
+StartChar: uniF1F4
 Encoding: 61940 61940 1583
 Width: 832
 Flags: W
@@ -85323,7 +85315,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: virgmin
+StartChar: uniF1F7
 Encoding: 61943 61943 1584
 Width: 777
 Flags: W
@@ -85339,7 +85331,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: midring
+StartChar: uniF1DA
 Encoding: 61914 61914 1585
 Width: 470
 Flags: W
@@ -85368,7 +85360,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: smallzero
+StartChar: uniF1BD
 Encoding: 61885 61885 1586
 Width: 686
 Flags: W
@@ -85401,7 +85393,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vmod
+StartChar: uniF1BE
 Encoding: 61886 61886 1587
 Width: 0
 Flags: W
@@ -85460,7 +85452,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Xmod
+StartChar: uniF1BF
 Encoding: 61887 61887 1588
 Width: 0
 Flags: W
@@ -85504,7 +85496,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romaslibr
+StartChar: uniF2E0
 Encoding: 62176 62176 1589
 Width: 1808
 Flags: W
@@ -85554,7 +85546,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romscapxbar
+StartChar: uniF2E2
 Encoding: 62178 62178 1590
 Width: 1072
 Flags: W
@@ -85624,7 +85616,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romscapybar
+StartChar: uniF2E3
 Encoding: 62179 62179 1591
 Width: 992
 Flags: W
@@ -85683,7 +85675,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romscapdslash
+StartChar: uniF2E4
 Encoding: 62180 62180 1592
 Width: 1117
 Flags: W
@@ -85752,7 +85744,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nbar
+StartChar: uniE7B2
 Encoding: 59314 59314 1593
 Width: 1143
 Flags: W
@@ -85809,7 +85801,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vbar
+StartChar: uniE74E
 Encoding: 59214 59214 1594
 Width: 1015
 Flags: W
@@ -85868,7 +85860,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ybar
+StartChar: uniE77B
 Encoding: 59259 59259 1595
 Width: 1015
 Flags: W
@@ -85930,7 +85922,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: macrhigh
+StartChar: uniF00A
 Encoding: 61450 61450 1596
 Width: 0
 Flags: W
@@ -85950,7 +85942,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: macrmed
+StartChar: uniF00B
 Encoding: 61451 61451 1597
 Width: 0
 Flags: W
@@ -85970,7 +85962,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ovlhigh
+StartChar: uniF00C
 Encoding: 61452 61452 1598
 Width: 0
 Flags: W
@@ -85990,7 +85982,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ovlmed
+StartChar: uniF00D
 Encoding: 61453 61453 1599
 Width: 0
 Flags: W
@@ -86010,7 +86002,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bovlmed
+StartChar: uniE44D
 Encoding: 58445 58445 1600
 Width: 1150
 Flags: W
@@ -86082,7 +86074,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dovlmed
+StartChar: uniE491
 Encoding: 58513 58513 1601
 Width: 1100
 Flags: W
@@ -86152,7 +86144,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hovlmed
+StartChar: uniE517
 Encoding: 58647 58647 1602
 Width: 1164
 Flags: W
@@ -86822,7 +86814,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bscapdot
+StartChar: uniEBD0
 Encoding: 60368 60368 1618
 Width: 824
 Flags: W
@@ -86876,7 +86868,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drotdot
+StartChar: uniEBD1
 Encoding: 60369 60369 1619
 Width: 1075
 Flags: W
@@ -86928,7 +86920,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fscapdot
+StartChar: uniEBD7
 Encoding: 60375 60375 1620
 Width: 744
 Flags: W
@@ -86976,7 +86968,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gscapdot
+StartChar: uniEF20
 Encoding: 61216 61216 1621
 Width: 1073
 Flags: W
@@ -87026,7 +87018,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: hscapdot
+StartChar: uniEBDA
 Encoding: 60378 60378 1622
 Width: 1137
 Flags: W
@@ -87079,7 +87071,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kscapdot
+StartChar: uniEBDB
 Encoding: 60379 60379 1623
 Width: 1051
 Flags: W
@@ -87136,7 +87128,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lscapdot
+StartChar: uniEBDC
 Encoding: 60380 60380 1624
 Width: 840
 Flags: W
@@ -87174,7 +87166,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mscapdot
+StartChar: uniEBDD
 Encoding: 60381 60381 1625
 Width: 1548
 Flags: W
@@ -87222,7 +87214,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscapdot
+StartChar: uniEF21
 Encoding: 61217 61217 1626
 Width: 1099
 Flags: W
@@ -87264,7 +87256,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pscapdot
+StartChar: uniEBCF
 Encoding: 60367 60367 1627
 Width: 908
 Flags: W
@@ -87307,7 +87299,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rscapdot
+StartChar: uniEF22
 Encoding: 61218 61218 1628
 Width: 1011
 Flags: W
@@ -87363,7 +87355,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sscapdot
+StartChar: uniEF23
 Encoding: 61219 61219 1629
 Width: 825
 Flags: W
@@ -87420,7 +87412,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tscapdot
+StartChar: uniEF24
 Encoding: 61220 61220 1630
 Width: 855
 Flags: W
@@ -87463,7 +87455,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: bscapdotbl
+StartChar: uniEF25
 Encoding: 61221 61221 1631
 Width: 860
 Flags: W
@@ -87528,7 +87520,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dscapdotbl
+StartChar: uniEF26
 Encoding: 61222 61222 1632
 Width: 1118
 Flags: W
@@ -87584,7 +87576,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: gscapdotbl
+StartChar: uniEF27
 Encoding: 61223 61223 1633
 Width: 1073
 Flags: W
@@ -87636,7 +87628,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lscapdotbl
+StartChar: uniEF28
 Encoding: 61224 61224 1634
 Width: 840
 Flags: W
@@ -87676,7 +87668,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mscapdotbl
+StartChar: uniEF29
 Encoding: 61225 61225 1635
 Width: 1362
 Flags: W
@@ -87726,7 +87718,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscapdotbl
+StartChar: uniEF2A
 Encoding: 61226 61226 1636
 Width: 1099
 Flags: W
@@ -87770,7 +87762,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rscapdotbl
+StartChar: uniEF2B
 Encoding: 61227 61227 1637
 Width: 1011
 Flags: W
@@ -87828,7 +87820,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: sscapdotbl
+StartChar: uniEF2C
 Encoding: 61228 61228 1638
 Width: 825
 Flags: W
@@ -87887,7 +87879,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tscapdotbl
+StartChar: uniEF2D
 Encoding: 61229 61229 1639
 Width: 885
 Flags: W
@@ -87932,7 +87924,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ocurl
+StartChar: uniE7D3
 Encoding: 59347 59347 1640
 Width: 1075
 Flags: W
@@ -87997,7 +87989,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaligacute
+StartChar: uniEFE1
 Encoding: 61409 61409 1641
 Width: 1852
 Flags: W
@@ -88118,7 +88110,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaligdblac
+StartChar: uniEFEB
 Encoding: 61419 61419 1642
 Width: 1852
 Flags: W
@@ -88258,7 +88250,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAligdblac
+StartChar: uniEFEA
 Encoding: 61418 61418 1643
 Width: 2376
 Flags: W
@@ -88385,7 +88377,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AOligdblac
+StartChar: uniEBC0
 Encoding: 60352 60352 1644
 Width: 2707
 Flags: W
@@ -88484,7 +88476,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligdblac
+StartChar: uniEBC1
 Encoding: 60353 60353 1645
 Width: 1819
 Flags: W
@@ -88602,7 +88594,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligdblac
+StartChar: uniE041
 Encoding: 57409 57409 1646
 Width: 1911
 Flags: W
@@ -88713,7 +88705,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligdblac
+StartChar: uniE441
 Encoding: 58433 58433 1647
 Width: 1762
 Flags: W
@@ -88830,7 +88822,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornacute
+StartChar: uniE737
 Encoding: 59191 59191 1648
 Width: 1176
 Flags: W
@@ -88909,7 +88901,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OEligdblac
+StartChar: uniEBC8
 Encoding: 60360 60360 1649
 Width: 2051
 Flags: W
@@ -89004,7 +88996,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oeligdblac
+StartChar: uniEBC9
 Encoding: 60361 60361 1650
 Width: 1772
 Flags: W
@@ -89102,7 +89094,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OOligdblac
+StartChar: uniEFEC
 Encoding: 61420 61420 1651
 Width: 3060
 Flags: W
@@ -89195,7 +89187,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ooligdblac
+StartChar: uniEFED
 Encoding: 61421 61421 1652
 Width: 1968
 Flags: W
@@ -95591,7 +95583,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Finsdotbl
+StartChar: uniE3E5
 Encoding: 58341 58341 1737
 Width: 907
 Flags: W
@@ -95639,7 +95631,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: fdotbl
+StartChar: uniE4EE
 Encoding: 58606 58606 1738
 Width: 683
 Flags: W
@@ -97183,7 +97175,7 @@ Validated: 1
 Colour: ffff
 EndChar
 
-StartChar: hrdes
+StartChar: uniF23A
 Encoding: 62010 62010 1761
 Width: 1239
 Flags: W
@@ -97239,7 +97231,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Hunc
+StartChar: uniF110
 Encoding: 61712 61712 1762
 Width: 1446
 Flags: W
@@ -97298,7 +97290,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Iovlhigh
+StartChar: uniE150
 Encoding: 57680 57680 1763
 Width: 561
 Flags: W
@@ -97335,7 +97327,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: iovlmed
+StartChar: uniE550
 Encoding: 58704 58704 1764
 Width: 593
 Flags: W
@@ -97370,7 +97362,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jovlmed
+StartChar: uniE552
 Encoding: 58706 58706 1765
 Width: 487
 Flags: W
@@ -97405,7 +97397,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lovlmed
+StartChar: uniE5B1
 Encoding: 58801 58801 1766
 Width: 596
 Flags: W
@@ -97442,7 +97434,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: lovlhigh
+StartChar: uniE58C
 Encoding: 58764 58764 1767
 Width: 597
 Flags: W
@@ -97477,7 +97469,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: kovlmed
+StartChar: uniE7C3
 Encoding: 59331 59331 1768
 Width: 1150
 Flags: W
@@ -97541,7 +97533,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OEligmacr
+StartChar: uniE25D
 Encoding: 57949 57949 1769
 Width: 2044
 Flags: W
@@ -97607,7 +97599,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oeligmacr
+StartChar: uniE65D
 Encoding: 58973 58973 1770
 Width: 1816
 Flags: W
@@ -97677,7 +97669,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: pmacr
+StartChar: uniE665
 Encoding: 58981 58981 1771
 Width: 1197
 Flags: W
@@ -97747,7 +97739,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qmacr
+StartChar: uniE681
 Encoding: 59009 59009 1772
 Width: 1173
 Flags: W
@@ -97821,7 +97813,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongovlmed
+StartChar: uniE79E
 Encoding: 59294 59294 1773
 Width: 641
 Flags: W
@@ -97871,7 +97863,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oopenmacr
+StartChar: uniE7CC
 Encoding: 59340 59340 1774
 Width: 939
 Flags: W
@@ -97917,7 +97909,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wmacr
+StartChar: uniE357
 Encoding: 58199 58199 1775
 Width: 2048
 Flags: W
@@ -98018,7 +98010,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: wmacr
+StartChar: uniE757
 Encoding: 59223 59223 1776
 Width: 1700
 Flags: W
@@ -98098,7 +98090,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: thornovlmed
+StartChar: uniE7A2
 Encoding: 59298 59298 1777
 Width: 1231
 Flags: W
@@ -98169,7 +98161,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AOligacute
+StartChar: uniEFE2
 Encoding: 61410 61410 1778
 Width: 2632
 Flags: W
@@ -98249,7 +98241,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligacute
+StartChar: uniEFE3
 Encoding: 61411 61411 1779
 Width: 1871
 Flags: W
@@ -98348,7 +98340,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AUligacute
+StartChar: uniEFE4
 Encoding: 61412 61412 1780
 Width: 2287
 Flags: W
@@ -98436,7 +98428,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: auligacute
+StartChar: uniEFE5
 Encoding: 61413 61413 1781
 Width: 1788
 Flags: W
@@ -98537,7 +98529,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AVligslashacute
+StartChar: uniEBB0
 Encoding: 60336 60336 1782
 Width: 2122
 Flags: W
@@ -98626,7 +98618,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: avligslashacute
+StartChar: uniEBB1
 Encoding: 60337 60337 1783
 Width: 1734
 Flags: W
@@ -98738,7 +98730,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: drotacute
+StartChar: uniEBB2
 Encoding: 60338 60338 1784
 Width: 1250
 Flags: W
@@ -98804,7 +98796,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Finsacute
+StartChar: uniEBB3
 Encoding: 60339 60339 1785
 Width: 873
 Flags: W
@@ -98866,7 +98858,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: finsacute
+StartChar: uniEBB4
 Encoding: 60340 60340 1786
 Width: 764
 Flags: W
@@ -98925,7 +98917,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Muncacute
+StartChar: uniEBB5
 Encoding: 60341 60341 1787
 Width: 2029
 Flags: W
@@ -99040,7 +99032,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: muncacute
+StartChar: uniEBB6
 Encoding: 60342 60342 1788
 Width: 1624
 Flags: W
@@ -99126,7 +99118,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OEligacute
+StartChar: uniE259
 Encoding: 57945 57945 1789
 Width: 2051
 Flags: W
@@ -99202,7 +99194,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oeligacute
+StartChar: uniE659
 Encoding: 58969 58969 1790
 Width: 1772
 Flags: W
@@ -99281,7 +99273,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rrotacute
+StartChar: uniEBB9
 Encoding: 60345 60345 1791
 Width: 752
 Flags: W
@@ -99340,7 +99332,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OOligacute
+StartChar: uniEFE8
 Encoding: 61416 61416 1792
 Width: 3060
 Flags: W
@@ -99415,7 +99407,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ooligacute
+StartChar: uniEFE9
 Encoding: 61417 61417 1793
 Width: 1914
 Flags: W
@@ -99496,7 +99488,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongacute
+StartChar: uniEBAF
 Encoding: 60335 60335 1794
 Width: 709
 Flags: W
@@ -99563,7 +99555,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: tacute
+StartChar: uniE6E2
 Encoding: 59106 59106 1795
 Width: 668
 Flags: W
@@ -99619,7 +99611,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vinsacute
+StartChar: uniEBBA
 Encoding: 60346 60346 1796
 Width: 1392
 Flags: W
@@ -99686,7 +99678,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vinsacute
+StartChar: uniEBBB
 Encoding: 60347 60347 1797
 Width: 1040
 Flags: W
@@ -99746,7 +99738,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: YYligdblac
+StartChar: uniEBCA
 Encoding: 60362 60362 1798
 Width: 2274
 Flags: W
@@ -99867,7 +99859,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yyligdblac
+StartChar: uniEBCB
 Encoding: 60363 60363 1799
 Width: 1682
 Flags: W
@@ -99982,7 +99974,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligdot
+StartChar: uniE043
 Encoding: 57411 57411 1800
 Width: 1911
 Flags: W
@@ -100060,7 +100052,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligdot
+StartChar: uniE443
 Encoding: 58435 58435 1801
 Width: 1762
 Flags: W
@@ -100144,7 +100136,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AYligdot
+StartChar: uniEFF0
 Encoding: 61424 61424 1802
 Width: 2274
 Flags: W
@@ -100232,7 +100224,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ayligdot
+StartChar: uniEFF1
 Encoding: 61425 61425 1803
 Width: 1682
 Flags: W
@@ -100314,7 +100306,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: dscapdot
+StartChar: uniEBD2
 Encoding: 60370 60370 1804
 Width: 1085
 Flags: W
@@ -100368,7 +100360,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Finsdot
+StartChar: uniEBD3
 Encoding: 60371 60371 1805
 Width: 857
 Flags: W
@@ -100416,7 +100408,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: finsdot
+StartChar: uniEBD4
 Encoding: 60372 60372 1806
 Width: 697
 Flags: W
@@ -100461,7 +100453,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vinsdot
+StartChar: uniE3E7
 Encoding: 58343 58343 1807
 Width: 1392
 Flags: W
@@ -100526,7 +100518,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vinsdot
+StartChar: uniE7E7
 Encoding: 59367 59367 1808
 Width: 1040
 Flags: W
@@ -100572,7 +100564,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAligdotbl
+StartChar: uniEFF2
 Encoding: 61426 61426 1809
 Width: 2376
 Flags: W
@@ -100666,7 +100658,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaligdotbl
+StartChar: uniEFF3
 Encoding: 61427 61427 1810
 Width: 1852
 Flags: W
@@ -100773,7 +100765,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AOligdotbl
+StartChar: uniEFF4
 Encoding: 61428 61428 1811
 Width: 2632
 Flags: W
@@ -100839,7 +100831,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aoligdotbl
+StartChar: uniEFF5
 Encoding: 61429 61429 1812
 Width: 1871
 Flags: W
@@ -100924,7 +100916,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AUligdotbl
+StartChar: uniEFF6
 Encoding: 61430 61430 1813
 Width: 2287
 Flags: W
@@ -100998,7 +100990,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: auligdotbl
+StartChar: uniEFF7
 Encoding: 61431 61431 1814
 Width: 1788
 Flags: W
@@ -101085,7 +101077,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligdotbl
+StartChar: uniE036
 Encoding: 57398 57398 1815
 Width: 1911
 Flags: W
@@ -101163,7 +101155,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligdotbl
+StartChar: uniE436
 Encoding: 58422 58422 1816
 Width: 1762
 Flags: W
@@ -101247,7 +101239,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AYligdotbl
+StartChar: uniEFFA
 Encoding: 61434 61434 1817
 Width: 2019
 Flags: W
@@ -101324,7 +101316,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ayligdotbl
+StartChar: uniEFFB
 Encoding: 61435 61435 1818
 Width: 1939
 Flags: W
@@ -101427,7 +101419,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ETHdotbl
+StartChar: uniE08F
 Encoding: 57487 57487 1819
 Width: 1585
 Flags: W
@@ -101493,7 +101485,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ethdotbl
+StartChar: uniE48F
 Encoding: 58511 58511 1820
 Width: 1075
 Flags: W
@@ -101552,7 +101544,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: finsdotbl
+StartChar: uniE7E5
 Encoding: 59365 59365 1821
 Width: 764
 Flags: W
@@ -101597,7 +101589,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashdotbl
+StartChar: uniEBE1
 Encoding: 60385 60385 1822
 Width: 1107
 Flags: W
@@ -101657,7 +101649,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OOligdotbl
+StartChar: uniEFFC
 Encoding: 61436 61436 1823
 Width: 3060
 Flags: W
@@ -101717,7 +101709,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ooligdotbl
+StartChar: uniEFFD
 Encoding: 61437 61437 1824
 Width: 1914
 Flags: W
@@ -101784,7 +101776,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Pdotbl
+StartChar: uniE26D
 Encoding: 57965 57965 1825
 Width: 1237
 Flags: W
@@ -101830,7 +101822,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rrotdotbl
+StartChar: uniE7C1
 Encoding: 59329 59329 1826
 Width: 752
 Flags: W
@@ -101875,7 +101867,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: slongdotbl
+StartChar: uniE7C2
 Encoding: 59330 59330 1827
 Width: 625
 Flags: W
@@ -101928,7 +101920,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vinsdotbl
+StartChar: uniE3E6
 Encoding: 58342 58342 1828
 Width: 1392
 Flags: W
@@ -101981,7 +101973,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vinsdotbl
+StartChar: uniE7E6
 Encoding: 59366 59366 1829
 Width: 1040
 Flags: W
@@ -102027,7 +102019,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: THORNdotbl
+StartChar: uniE39F
 Encoding: 58271 58271 1830
 Width: 1342
 Flags: W
@@ -102093,7 +102085,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: thorndotbl
+StartChar: uniE79F
 Encoding: 59295 59295 1831
 Width: 1231
 Flags: W
@@ -102158,7 +102150,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AAliguml
+StartChar: uniEFFE
 Encoding: 61438 61438 1832
 Width: 2376
 Flags: W
@@ -102265,7 +102257,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aaliguml
+StartChar: uniEFFF
 Encoding: 61439 61439 1833
 Width: 1852
 Flags: W
@@ -102385,7 +102377,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEliguml
+StartChar: uniE042
 Encoding: 57410 57410 1834
 Width: 1911
 Flags: W
@@ -102476,7 +102468,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeliguml
+StartChar: uniE442
 Encoding: 58434 58434 1835
 Width: 1762
 Flags: W
@@ -102573,7 +102565,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Juml
+StartChar: uniEBE2
 Encoding: 60386 60386 1836
 Width: 682
 Flags: W
@@ -102620,7 +102612,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: OOliguml
+StartChar: uniEBE4
 Encoding: 60388 60388 1837
 Width: 3060
 Flags: W
@@ -102693,7 +102685,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ooliguml
+StartChar: uniEBE5
 Encoding: 60389 60389 1838
 Width: 1914
 Flags: W
@@ -102773,7 +102765,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: PPliguml
+StartChar: uniEBE6
 Encoding: 60390 60390 1839
 Width: 2001
 Flags: W
@@ -102854,7 +102846,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ppliguml
+StartChar: uniEBE7
 Encoding: 60391 60391 1840
 Width: 1890
 Flags: W
@@ -102965,7 +102957,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: YYliguml
+StartChar: uniEBE8
 Encoding: 60392 60392 1841
 Width: 2274
 Flags: W
@@ -103066,7 +103058,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: yyliguml
+StartChar: uniEBE9
 Encoding: 60393 60393 1842
 Width: 1682
 Flags: W
@@ -103161,7 +103153,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: adiaguml
+StartChar: uniE8D5
 Encoding: 59605 59605 1843
 Width: 1100
 Flags: W
@@ -103238,7 +103230,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: odiaguml
+StartChar: uniE8D7
 Encoding: 59607 59607 1844
 Width: 1118
 Flags: W
@@ -103294,7 +103286,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligcurl
+StartChar: uniEBEA
 Encoding: 60394 60394 1845
 Width: 1911
 Flags: W
@@ -103393,7 +103385,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligcurl
+StartChar: uniEBEB
 Encoding: 60395 60395 1846
 Width: 1779
 Flags: W
@@ -103500,7 +103492,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ecurl
+StartChar: uniE4E9
 Encoding: 58601 58601 1847
 Width: 1004
 Flags: W
@@ -103568,7 +103560,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: icurl
+StartChar: uniE52A
 Encoding: 58666 58666 1848
 Width: 593
 Flags: W
@@ -103620,7 +103612,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: jcurl
+StartChar: uniE563
 Encoding: 58723 58723 1849
 Width: 487
 Flags: W
@@ -103672,7 +103664,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ocurl
+StartChar: uniE3D3
 Encoding: 58323 58323 1850
 Width: 1610
 Flags: W
@@ -103733,7 +103725,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashcurl
+StartChar: uniE3D4
 Encoding: 58324 58324 1851
 Width: 1610
 Flags: W
@@ -103813,7 +103805,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oslashcurl
+StartChar: uniE7D4
 Encoding: 59348 59348 1852
 Width: 1103
 Flags: W
@@ -103893,7 +103885,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ucurl
+StartChar: uniE331
 Encoding: 58161 58161 1853
 Width: 1554
 Flags: W
@@ -103961,7 +103953,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ucurl
+StartChar: uniE731
 Encoding: 59185 59185 1854
 Width: 1148
 Flags: W
@@ -104032,7 +104024,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ycurl
+StartChar: uniE385
 Encoding: 58245 58245 1855
 Width: 1366
 Flags: W
@@ -104113,7 +104105,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ycurl
+StartChar: uniE785
 Encoding: 59269 59269 1856
 Width: 1139
 Flags: W
@@ -104188,7 +104180,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: acurl
+StartChar: uniE433
 Encoding: 58419 58419 1857
 Width: 1130
 Flags: W
@@ -104275,7 +104267,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligogon
+StartChar: uniE040
 Encoding: 57408 57408 1858
 Width: 1911
 Flags: W
@@ -104366,7 +104358,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligogon
+StartChar: uniE440
 Encoding: 58432 58432 1859
 Width: 1762
 Flags: W
@@ -104471,7 +104463,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: AEligbreve
+StartChar: uniE03F
 Encoding: 57407 57407 1860
 Width: 1911
 Flags: W
@@ -104558,7 +104550,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligbreve
+StartChar: uniE43F
 Encoding: 58431 58431 1861
 Width: 1762
 Flags: W
@@ -104651,7 +104643,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oslashbreve
+StartChar: uniEBEE
 Encoding: 60398 60398 1862
 Width: 1610
 Flags: W
@@ -104719,7 +104711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ncirc
+StartChar: uniE5D7
 Encoding: 58839 58839 1863
 Width: 1191
 Flags: W
@@ -104773,7 +104765,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Vcirc
+StartChar: uniE33B
 Encoding: 58171 58171 1864
 Width: 1479
 Flags: W
@@ -104831,7 +104823,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vcirc
+StartChar: uniE73B
 Encoding: 59195 59195 1865
 Width: 1054
 Flags: W
@@ -104885,7 +104877,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eacombcirc
+StartChar: uniEBBD
 Encoding: 60349 60349 1866
 Width: 2003
 Flags: W
@@ -104978,7 +104970,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: eucombcirc
+StartChar: uniEBBE
 Encoding: 60350 60350 1867
 Width: 2062
 Flags: W
@@ -105054,7 +105046,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: vring
+StartChar: uniE743
 Encoding: 59203 59203 1868
 Width: 1054
 Flags: W
@@ -105120,7 +105112,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ering
+StartChar: uniE4CF
 Encoding: 58575 58575 1869
 Width: 1004
 Flags: W
@@ -105182,7 +105174,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: lringbl
+StartChar: uniE5A4
 Encoding: 58788 58788 1870
 Width: 597
 Flags: W
@@ -105228,7 +105220,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: rringbl
+StartChar: uniE6A3
 Encoding: 59043 59043 1871
 Width: 831
 Flags: W
@@ -105285,7 +105277,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mringbl
+StartChar: uniE5C5
 Encoding: 58821 58821 1872
 Width: 1799
 Flags: W
@@ -105371,7 +105363,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nringbl
+StartChar: uniE5EE
 Encoding: 58862 58862 1873
 Width: 1191
 Flags: W
@@ -105437,7 +105429,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: oring
+StartChar: uniE637
 Encoding: 58935 58935 1874
 Width: 1106
 Flags: W
@@ -105495,7 +105487,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: aeligring
+StartChar: uniE8D1
 Encoding: 59601 59601 1875
 Width: 1779
 Flags: W
@@ -105596,7 +105588,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: qbardestilde
+StartChar: uniE68B
 Encoding: 59019 59019 1876
 Width: 1349
 Flags: W
@@ -105697,7 +105689,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ucurlbar
+StartChar: uniEBBF
 Encoding: 60351 60351 1877
 Width: 1239
 Flags: W
@@ -105766,7 +105758,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uvertline
+StartChar: uniE324
 Encoding: 58148 58148 1878
 Width: 1554
 Flags: W
@@ -105813,7 +105805,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uvertline
+StartChar: uniE724
 Encoding: 59172 59172 1879
 Width: 1239
 Flags: W
@@ -105863,7 +105855,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Aesup
+StartChar: uniE02C
 Encoding: 57388 57388 1880
 Width: 1593
 Flags: W
@@ -105960,7 +105952,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Easup
+StartChar: uniE0E1
 Encoding: 57569 57569 1881
 Width: 1251
 Flags: W
@@ -106050,7 +106042,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Oesup
+StartChar: uniE244
 Encoding: 57924 57924 1882
 Width: 1610
 Flags: W
@@ -106123,7 +106115,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Ousup
+StartChar: uniE246
 Encoding: 57926 57926 1883
 Width: 1610
 Flags: W
@@ -106188,7 +106180,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uesup
+StartChar: uniE32B
 Encoding: 58155 58155 1884
 Width: 1554
 Flags: W
@@ -106268,7 +106260,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Uosup
+StartChar: uniE32D
 Encoding: 58157 58157 1885
 Width: 1554
 Flags: W
@@ -106330,7 +106322,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Wesup
+StartChar: uniE353
 Encoding: 58195 58195 1886
 Width: 2048
 Flags: W
@@ -106460,7 +106452,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Odotacute
+StartChar: uniEBF8
 Encoding: 60408 60408 1887
 Width: 2048
 VWidth: 0
@@ -106622,7 +106614,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: nscaprdes
+StartChar: uniF22A
 Encoding: 61994 61994 1890
 Width: 1142
 Flags: W
@@ -106666,7 +106658,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: nscapldes
+StartChar: uniF22B
 Encoding: 61995 61995 1891
 Width: 1142
 Flags: W
@@ -106704,7 +106696,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: Qstem
+StartChar: uniF22C
 Encoding: 61996 61996 1892
 Width: 1308
 Flags: W
@@ -106768,7 +106760,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romsemunc
+StartChar: uniF2DA
 Encoding: 62170 62170 1893
 Width: 1291
 Flags: W
@@ -106809,7 +106801,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: romsext
+StartChar: uniF2DB
 Encoding: 62171 62171 1894
 Width: 1085
 Flags: W
@@ -106870,7 +106862,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: mrdes
+StartChar: uniF223
 Encoding: 61987 61987 1895
 Width: 1795
 Flags: W
@@ -106938,7 +106930,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: WYNN
+StartChar: uni01F7
 Encoding: 503 503 1896
 Width: 1237
 Flags: W
@@ -113252,7 +113244,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: Kcar
+StartChar: uni01E8
 Encoding: 488 488 2035
 Width: 1420
 Flags: W
@@ -113313,7 +113305,7 @@ Validated: 1
 Colour: ff00
 EndChar
 
-StartChar: kcar
+StartChar: uni01E9
 Encoding: 489 489 2036
 Width: 1163
 Flags: W
@@ -113487,6 +113479,14 @@ SplineSet
  1057 980 1057 980 1040 932 c 1,0,-1
 EndSplineSet
 Validated: 1
+Colour: ff00
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 2039
+Width: 550
+Flags: W
+LayerCount: 2
 Colour: ff00
 EndChar
 EndChars
