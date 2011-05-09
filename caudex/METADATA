@@ -37,7 +37,8 @@ font.Caudex-BoldItalic.ttf.weight: 700
 # ~/googlefontdirectory/caudex/Caudex-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/caudex/;
 
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
 # for family in caudex; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
