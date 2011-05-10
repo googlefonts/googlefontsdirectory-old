@@ -1,0 +1,72 @@
+payment: POOL
+
+license: Apache2
+url: http://www.google.com
+category: sans-serif
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
+
+family: Open Sans
+group: Open Sans
+
+designer: Steve Matteson
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Open Sans is a humanist sans serif typeface \
+  designed by Steve Matteson, Type Director of Ascender Corp. \
+  This version contains the complete 897 character set, which \
+  includes the standard ISO Latin 1, Latin CE, Greek, \
+  Cyrillic, and Vietnamese character sets. Open Sans was \
+  designed with an upright stress, open forms and a neutral, \
+  yet friendly appearance. It was optimized for print, web, \
+  and mobile interfaces, and has excellent legibility \
+  characteristics in its letterforms.</p>
+
+
+font.OpenSans-CondLightItalic.ttf.style: italic
+font.OpenSans-LightItalic.ttf.style: italic
+font.OpenSans-Italic.ttf.style: italic
+font.OpenSans-SemiboldItalic.ttf.style: italic
+font.OpenSans-BoldItalic.ttf.style: italic
+font.OpenSans-ExtraBoldItalic.ttf.style: italic
+
+font.OpenSans-CondLight.ttf.weight: 300
+font.OpenSans-CondLightItalic.ttf.weight: 300
+font.OpenSans-Light.ttf.weight: 300
+font.OpenSans-LightItalic.ttf.weight: 300
+font.OpenSans-Italic.ttf.weight: 400
+font.OpenSans-Regular.ttf.weight: 400
+font.OpenSans-Semibold.ttf.weight: 600
+font.OpenSans-SemiboldItalic.ttf.weight: 600
+font.OpenSans-Bold.ttf.weight: 700
+font.OpenSans-BoldItalic.ttf.weight: 700
+font.OpenSans-ExtraBold.ttf.weight: 800
+font.OpenSans-ExtraBoldItalic.ttf.weight: 800
+
+font.OpenSans-CondLight.ttf.subfamily: Condensed
+font.OpenSans-CondLightItalic.ttf.subfamily: Condensed
+
+# fontforge -lang=ff -script menusubset-opensans.ff OpenSans-Regular.ttf; \
+# mv OpenSans-Regular.{ttf.menu.ttf,menu}; \
+
+# fontforge -lang=ff -script menusubset-opensanscondlight.ff OpenSans-CondLight.ttf; \
+# mv OpenSans-CondLight.{ttf.menu.ttf,menu}; \
+
+# cd ~/googlefontdirectory/; \
+# for family in opensans; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/opensans/; \
+# rm *log *nam; \
