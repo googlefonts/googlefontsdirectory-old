@@ -2,7 +2,7 @@
 # A simple script to generate a menu subset. It outputs all unicode characters
 # in "()GentiumAlt Εάεηικλν", and also the ligatures needed for correct
 # 
-# fontforge -lang=ff -script menusubset.ff GentiumAlt-Regular.ttf;
+# fontforge -lang=ff -script menusubsetalt.ff GentiumAlt-Regular.ttf;
 # mv GentiumAlt-Regular.{ttf.menu.ttf,menu};
 
 Open($1)
