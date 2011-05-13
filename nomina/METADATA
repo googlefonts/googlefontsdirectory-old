@@ -1,0 +1,37 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Nomina
+
+designer: Oriol Esparraguera
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Nomina is a sans serif typeface \
+  influenced by industrial fonts. Contains 3 \
+  weights of Roman and Italic styles. The x-height \
+  helps readability while modular construction \
+  harmonizes the forms.</p>
+
+font.Nomina-LightItalic.ttf.style: italic
+font.Nomina-Italic.ttf.style: italic
+font.Nomina-BoldItalic.ttf.style: italic
+
+font.Nomina-Light.ttf.weight: 300
+font.Nomina-LightItalic.ttf.weight: 300
+font.Nomina-Regular.ttf.weight: 400
+font.Nomina-Italic.ttf.weight: 400
+font.Nomina-Bold.ttf.weight: 700
+font.Nomina-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Nomina" \
+# ~/googlefontdirectory/nomina/Nomina-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/nomina/; 
