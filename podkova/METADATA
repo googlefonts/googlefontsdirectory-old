@@ -12,7 +12,14 @@ designer: Cyreal
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Podkova.</p>
+description: <p>Podkova is a monoline slab serif \
+  with diagonal terminals. Wide proportions and \
+  clean features aid to legibility at small sizes. \
+  Its unusual letterforms provide enough character \
+  to be used at display sizes. Podkova is the \
+  Russian word for Horseshoe. Try it and see \
+  if the lucky charm works for you!</p> \
+  <p>Designed by Ilya Yudin in 2010.</p>
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
