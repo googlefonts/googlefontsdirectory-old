@@ -22,8 +22,8 @@ description: <p>Dancing Script is a lively casual \
   spontaneous look.</p> \
   <p>Updated May 18th 2011 with bold!</p>
 
-font.DancingScript-Regular.ttf.weight: 400
-font.DancingScript-Bold.ttf.weight: 700
+font.DancingScript-Regular.ttf.weight: normal
+font.DancingScript-Bold.ttf.weight: bold
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
