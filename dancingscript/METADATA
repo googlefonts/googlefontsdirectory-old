@@ -19,4 +19,15 @@ description: <p>Dancing Script is a lively casual \
   his weight distribution, and to Mistral (Roger Excoffon. \
   1953) in his lively bouncing effect.</p> \
   <p>Use it when you want a friendly, informal and \
-  spontaneous look.</p>
+  spontaneous look.</p> \
+  <p>Updated May 18th 2011 with bold!</p>
+
+font.DancingScript-Regular.ttf.weight: 400
+font.DancingScript-Bold.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Dancing Script" \
+# ~/googlefontdirectory/dancingscript/DancingScript-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/dancingscript/; 
