@@ -1,0 +1,22 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Podkova
+
+designer: Cyreal
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Podkova.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Podkova" \
+#   ~/googlefontdirectory/podkova/Podkova-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/podkova/; 
