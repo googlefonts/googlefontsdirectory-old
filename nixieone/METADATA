@@ -1,0 +1,23 @@
+visibility: SANDBOX
+payment: DESIGNER
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Nixie One
+
+designer: Jovanny Lemonad
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Nixie is based on the forms of neon signage.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Nixie One" \
+# ~/googlefontdirectory/nixieone/NixieOne.{ttf,menu};
+# cd ~/googlefontdirectory/nixieone/; \
+
+
