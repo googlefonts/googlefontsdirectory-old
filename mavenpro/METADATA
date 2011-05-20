@@ -1,0 +1,33 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Maven Pro
+
+designer: Joe Prince
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Maven Pro is a sans-serif typeface \
+  with unique curvature and flowing rhythm. Its forms \
+  make it very distinguishable and legible when in \
+  context. It blends styles of many great typefaces \
+  and is suitable for any design medium. Maven Pro’s \
+  modern design is great for the web and fits in \
+  any environment.</p>
+
+font.MavenPro-Regular.ttf.weight: 400
+font.MavenPro-Medium.ttf.weight: 500
+font.MavenPro-Bold.ttf.weight: 700
+font.MavenPro-Black.ttf.weight: 900
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Maven Pro" \
+#     ~/googlefontdirectory/mavenpro/MavenPro-Regular.ttf \
+#     ~/googlefontdirectory/mavenpro/MavenPro-Regular.menu; \
+#  cd ~/googlefontdirectory/mavenpro/; \
