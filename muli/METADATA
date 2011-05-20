@@ -1,0 +1,36 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+url: http://www.newtypography.co.uk
+category: sans-serif
+subsets: menu,latin
+
+family: Muli
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Muli is a minimalist Sans Serif. Muli is \
+  designed mainly for use as a display font but is useable \
+  as a text font too. Muli has been designed to be used \
+  freely across the internet by web browsers on desktop \
+  computers, laptops and mobile devices.</p>
+
+font.Muli-Italic.ttf.style: italic
+font.Muli-LightItalic.ttf.style: italic
+
+font.Muli-Light.ttf.weight: 300
+font.Muli-LightItalic.ttf.weight: 300
+font.Muli-Regular.ttf.weight: 400
+font.Muli-Italic.ttf.weight: 400
+
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Muli" \
+#   ~/googlefontdirectory/muli/Muli-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/muli/; 
