@@ -1,0 +1,32 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+url: http://www.impallari.com
+category: display
+subsets: menu,latin
+
+family: Lobster Two
+
+designer: Pablo Impallari
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Lobster Two is a family version of the original \
+  <a href="http://www.google.com/webfonts/family?family=Lobster&subset=latin">Lobster</a>.</p>
+
+font.LobsterTwo-Italic.ttf.style: italic
+font.LobsterTwo-BoldItalic.ttf.style: italic
+
+font.LobsterTwo-Regular.ttf.weight: 400
+font.LobsterTwo-Italic.ttf.weight: 400
+font.LobsterTwo-Bold.ttf.weight: 700
+font.LobsterTwo-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Lobster Two" \
+#     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.ttf \
+#     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.menu; \
+#  cd ~/googlefontdirectory/lobstertwo/; \
