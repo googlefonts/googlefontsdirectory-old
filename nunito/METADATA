@@ -21,6 +21,8 @@ description: <p>Nunito is a well balanced Sans Serif \
 
 font.Nunito-Light.ttf.weight: 300
 font.Nunito-Regular.ttf.weight: 400
+font.Nunito-Bold.ttf.weight: 700
+
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
