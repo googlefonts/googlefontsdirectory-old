@@ -1,0 +1,23 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+url: http://www.newtypography.co.uk
+category: serif
+subsets: menu,latin
+
+family: Bowlby One SC
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Bowlby One SC is great!</p>
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Bowlby One SC" \
+#   ~/googlefontdirectory/bowlbyonesc/BowlbyOneSC.{ttf,menu};
+# cd ~/googlefontdirectory/bowlbyonesc/; 
