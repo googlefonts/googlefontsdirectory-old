@@ -6,11 +6,11 @@
 # mv TenorSans-Regular.{ttf.menu.ttf,menu};
 
 Open($1)
-Select(0u0000) # null
+Select(0x0000) # null
 SelectMore(0x000D) # nonmarkingreturn
-SelectMore(0u0020) # space
-SelectMore(0u0028) # parenleft
-SelectMore(0u0029) # parenright
+SelectMore(0x0020) # space
+SelectMore(0x0028) # parenleft
+SelectMore(0x0029) # parenright
 SelectMore(0x0053) # S
 SelectMore(0x0054) # T
 SelectMore(0x0061) # a
@@ -19,12 +19,12 @@ SelectMore(0x006E) # n
 SelectMore(0x006F) # o
 SelectMore(0x0072) # r
 SelectMore(0x0073) # s
-SelectMore(0u041A) # afii10028 cyrillic
-SelectMore(0u0430) # afii10065 cyrillic
-SelectMore(0u0438) # afii10074 cyrillic
-SelectMore(0u043B) # afii10077 cyrillic
-SelectMore(0u0440) # afii10082 cyrillic
-SelectMore(0u0446) # afii10088 cyrillic
+SelectMore(0x041A) # afii10028 cyrillic
+SelectMore(0x0430) # afii10065 cyrillic
+SelectMore(0x0438) # afii10074 cyrillic
+SelectMore(0x043B) # afii10077 cyrillic
+SelectMore(0x0440) # afii10082 cyrillic
+SelectMore(0x0446) # afii10088 cyrillic
 SelectInvert()
 Clear()
 # This has to end in .ttf or it will not include all the needed glyphs
