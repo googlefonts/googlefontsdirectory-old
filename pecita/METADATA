@@ -33,3 +33,29 @@ description: <p>Recent standards and libre \
   used nowadays, katakana, all Unicode \
   characters up to 0 × 02AF, ligatures \
   enough for a realistic handwritten record.</p>
+
+# menu made with menusubset script
+# fontforge -lang=ff -script menusubset-pecita.ff Pecita.ttf; \
+# mv Pecita.ttf.menu.ttf Pecita.menu; \
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,liga" \
+#   --chars="Pecita" \
+#  ~/googlefontdirectory/pecita/Pecita.{ttf,menu}; \
+# cd ~/googlefontdirectory/pecita/; \
+
+
+# for family in pecita; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py  --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+
