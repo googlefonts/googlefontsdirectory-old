@@ -25,7 +25,7 @@ font.LobsterTwo-Bold.ttf.weight: 700
 font.LobsterTwo-BoldItalic.ttf.weight: 700
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,liga" \
 #     --chars="Lobster Two" \
 #     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.ttf \
 #     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.menu; \
