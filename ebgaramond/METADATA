@@ -43,22 +43,25 @@ description: <p>Garamont’s fonts have set a \
   able to stand up to their commercial \
   counterparts for quite some time. \
   Nevertheless, it's time for the \
-  opensource community to have a classical \
+  open source community to have a classical \
   Garamond and I promise, I’ll try hard \
   to learn and give my best.</p>
 
 # menu made with menusubset.ff
+# fontforge -lang=ff -script menusubset-ebg.ff EBGaramond-Regular.ttf; \
+# fontforge EBGaramond-Regular.ttf.menu.sfd;
 
-# for family in ebgaramond; do
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+# for family in ebgaramond; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext \
-#            cyrillic+latin cyrillic-ext+latin; do
+#            cyrillic+latin cyrillic-ext+latin; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
 #            python tools/subset/subset.py  --null --nmr --roundtrip \
 #                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log;
-#        done;
-#    done;
-# done;
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+
