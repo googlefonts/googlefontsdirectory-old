@@ -24,3 +24,10 @@ description: <p>Just Me Again Down Here \
   that I did know how to do <em>something</em> \
   and I would survive those first confusing \
   weeks abroad.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Just Me Again Down Here" \
+#  ~/googlefontdirectory/justmeagaindownhere/JustMeAgainDownHere.{ttf,menu};
+# cd ~/googlefontdirectory/justmeagaindownhere/; \
