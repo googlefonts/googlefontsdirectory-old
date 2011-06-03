@@ -1,0 +1,27 @@
+visibility: SANDBOX
+payment: DESIGNER
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Kameron
+
+designer: Vernon Adams
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+
+description: <p>Kameron is a reworking and fusing of \
+  several classic Slab Serif and Egyptian type forms from \
+  the early to mid Twentieth Century.</p>
+
+font.Kameron-Regular.ttf.style: 400
+font.Kameron-Bold.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Kameron" \
+# ~/googlefontdirectory/kameron/Kameron-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/kameron/; \
