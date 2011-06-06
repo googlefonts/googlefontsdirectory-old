@@ -10,24 +10,32 @@ designer: Jovanny Lemonad
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p> Philosopher was established in 2008 under the influence of fonts \
-  Rotis (Agfa) and Binary (ITC). This font is universal, it can be used in \
-  logos, you can make headlines, but you can gain massive amounts of text space. \
-  The original version of the font deliberately spread with errors - this is \
-  my invaluable contribution to the font culture around the world, as I \
-  thought then. I wanted to stir up the designers, “to give them in the ass”, \
-  so they began working with fonts, rather than lazily use what is there. \
-  However, world laziness won and I had to correct errors. At this time \
-  the font has been downloaded by more than 200 000 people worldwide.</p>
-description.ru: <p>Философер был создан в 2008 году под впечатлением от шрифтов Rotis \
-  (Agfa) и Binary (ITC). Этот шрифт универсален, его можно применять в логотипах, \
-  можно делать заголовки, а можно набирать огромные массивы текстов. \
-  Изначальный вариант шрифта нарочно распространялся с ошибками — это \
-  мой неоценимый вклад в развитие шрифтовой культуры всего мира, как я \
-  думал тогда. Я хотел расшевелить дизайнеров, «дать им под зад», чтобы \
-  они начали работать со шрифтами, а не лениво использовать то, что есть. \
-  Однако всемирная лень победила и мне пришлось исправить ошибки. На \
-  данное время шрифт скачало более 200 000 человек по всему миру.</p>
+description: <p> Philosopher was started in 2008 and \
+  takes inspiration from Agfa Rotis and ITC Binary. This font \
+  is universal: It can be used in logos, headlines, and for text. \
+  The initial version of the font was deliberately spread with \
+  errors - this was my invaluable contribution to type culture \
+  around the world, as I thought then - I wanted to stir up \
+  designers so they began working <strong>with</strong> fonts, \
+  rather than passively using what is there. Over time I wanted \
+  to correct the errors, and now the font has been used by \
+  millions of people worldwide.</p> \
+  <p>In June 2011 a four-style family was published.</p>
+
+# 2011-06-06 DC Note that the menu file is hand crafted to remove
+#               kerning and hinting (replaced with magic tables)
+#               using the menusubset-philosopher.ff script to start
+#
+#
+# fontforge -lang=ff -script menusubset-philosopher.ff Philosopher-Regular.ttf;
+# mv Philosopher-Regular.{ttf.menu.ttf,menu};
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Philosopher" \
+# ~/googlefontdirectory/philosopher/Philosopher-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/philosopher/; \
+
 
 # for family in philosopher; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
