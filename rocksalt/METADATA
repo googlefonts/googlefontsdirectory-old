@@ -16,3 +16,10 @@ description: <p>Does your brain freeze up every \
   Squid! Rock Salt was hand-crafted with felt-tip \
   markers for a personal look you can pepper \
   throughout your next project.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Rocksalt" \
+#  ~/googlefontdirectory/rocksalt/Rocksalt.{ttf,menu}; \
+# cd ~/googlefontdirectory/rocksalt/; \
