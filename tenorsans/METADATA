@@ -24,6 +24,8 @@ font.TenorSans-Regular.ttf.weight: normal
 # # menu subset made with menusubset.ff 
 # fontforge -lang=ff -script menusubset-tenorsans.ff TenorSans-Regular.ttf;
 # mv TenorSans-Regular.{ttf.menu.ttf,menu};
+# for some reason the space char isn't included, its 350 units wide, add it by hand
+
 
 # for family in tenorsans; do
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
