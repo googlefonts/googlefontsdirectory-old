@@ -1,0 +1,32 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Asset
+
+designer: Sorkin Type
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p><strong>Designer: Riccardo De Franceschi</strong></p> \
+  Asset was inspired by the engraved letters found on \
+  United States dollar bills. Asset belongs to the "fat \
+  face" category because it is so bold or heavy. It is \
+  also a high contrast design and very extended or wide. \
+  Although it is legible at medium sizes it will shine \
+  most when used large where both its restraint and \
+  passion can be seen. This font was made specifically \
+  to be web type, however it will work well in print \
+  as well.
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Asset" \
+# ~/googlefontdirectory/asset/Asset.{ttf,menu};
+# cd ~/googlefontdirectory/asset/; \
