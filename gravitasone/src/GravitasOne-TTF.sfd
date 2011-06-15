@@ -20,26 +20,26 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1305819720
-ModificationTime: 1308166901
+ModificationTime: 1308169054
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 7 9 2 8 5 0 6 10 4
-OS2TypoAscent: 299
-OS2TypoAOffset: 1
-OS2TypoDescent: -213
-OS2TypoDOffset: 1
+OS2TypoAscent: 1937
+OS2TypoAOffset: 0
+OS2TypoDescent: -668
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: -45
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 45
-HheadDOffset: 1
+OS2WinAscent: 1937
+OS2WinAOffset: 0
+OS2WinDescent: 668
+OS2WinDOffset: 0
+HheadAscent: 1937
+HheadAOffset: 0
+HheadDescent: -668
+HheadDOffset: 0
 OS2SubXSize: 1434
 OS2SubYSize: 1331
 OS2SubXOff: 0
@@ -82,7 +82,7 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "Regular" "FontForge 2.0 : Gravitas One : 15-6-2011" "" "Version 1.001" "" "Gravitas is a trademark of Sorkin Type Co." "Sorkin Type Co." "Riccardo De Franceschi" "Gravitas is modeled on the +ACIA-UK fat face+ACIA which is a kind of very heavy advertising type created during the industrial revolution in England. The letter forms are characterized by an attention getting and strong contrast between the very heavy vertical shapes and the thin horizontal ones. The contrast of the design means that it will be most useful when set from medium to large sizes." "www.sorkintype.com" "www.sorkintype.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1. " "http://scripts.sil.org/OFL" "" "" "" "Gravitas" 
-GaspTable: 1 65535 15
+GaspTable: 1 65535 3
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
