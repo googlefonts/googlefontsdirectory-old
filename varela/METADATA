@@ -25,7 +25,7 @@ description: <p>Varela is a modern sans-serif font \
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ss01" \
 #  --chars="Varela" \
 # ~/googlefontdirectory/varela/Varela-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/varela/; \
