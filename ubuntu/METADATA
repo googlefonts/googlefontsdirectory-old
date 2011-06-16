@@ -54,23 +54,26 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Ubunt КаилрцΕάεηικλν()" \
-#     Ubuntu-Regular.ttf Ubuntu-Regular.menu
+#     Ubuntu-Regular.ttf Ubuntu-Regular.menu; \
+# cd ~/googlefontdirectory/ubuntu/; \
 
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin;
-# for family in ubuntu; do
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+# cd ~/googlefontdirectory/ubuntu/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# for family in ubuntu; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext \
 #            cyrillic+latin cyrillic-ext+latin \
-#            greek+latin greek-ext+latin; do
+#            greek+latin greek-ext+latin; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset;
+#                --subset=$subset $font.ttf $font.$subset; \
 #            python tools/subset/subset.py --null --nmr --roundtrip \
 #                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log;
-#        done;
-#    done;
-# done;
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/ubuntu/; \
 
 # mv Ubuntu-L.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Light.ttf
 # mv Ubuntu-LI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-LightItalic.ttf
