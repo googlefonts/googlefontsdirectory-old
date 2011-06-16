@@ -5,7 +5,7 @@ license: OFL
 category: sans-serif
 subsets: menu,latin
 
-family: Hammersmith
+family: Hammersmith One
 
 designer: Sorkin Type
 
@@ -13,9 +13,9 @@ profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p><strong>Designer: Nicole Fally</strong></p> \
-  <p>Hammersmith is a very low contrast typeface \
+  <p>Hammersmith One is a very low contrast typeface \
   inspired by the Johnston UK lettering tradition. Hammersmith \
-  shows the quirks of a somewhat naive, handmade, brush \
+  One shows the quirks of a somewhat naive, handmade, brush \
   written letters including a wider than normal "e" and "s" \
   as well as dark joins between stroke which are normally \
   compensated for in type. The sources for this design have \
@@ -26,6 +26,6 @@ description: <p><strong>Designer: Nicole Fally</strong></p> \
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Hammersmith" \
-# ~/googlefontdirectory/hammersmith/Hammersmith-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/hammersmith/; \
+#  --chars="Hammersmith One" \
+# ~/googlefontdirectory/hammersmithone/HammersmithOne.{ttf,menu};
+# cd ~/googlefontdirectory/hammersmithone/; \
