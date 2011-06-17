@@ -179,6 +179,8 @@ def getsubset(subset):
                    range(0x2c60, 0x2c80) +
                    range(0xa700, 0xa800))
     if 'vietnamese' in subset:
+        result += [0x0102, 0x0103, 0x0128, 0x0129, 0x0168, 0x0169,
+                   0x01a0, 0x01a1, 0x01af, 0x01b0]
         result += range(0x1ea0, 0x1ef2) + [0x20ab]
     if 'greek' in subset:
         # Could probably be more aggressive here and exclude archaic characters,
