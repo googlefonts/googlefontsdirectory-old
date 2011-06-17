@@ -13,10 +13,15 @@ designer: Patrick Wagesreiter
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Patrick Hand is the handwriting of the designer, \
-  Patrick Wagesreiter, turned into a font. It is developed to \
+description: <p>Patrick Hand is a font based on the \
+  designer's own handwriting. It is developed to \
   bring an impressive and useful handwriting effect to your \
-  texts.</p>
+  texts.</p> \
+  <p>It has all the basic latin characters as well as \
+  most of the latin extended ones. It also includes \
+  some fancy glyphs like heavy quotation marks and \
+  the floral heart! Ligatures, small caps and old \
+  style numbers are available in the download file.</p>
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
