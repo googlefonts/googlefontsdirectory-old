@@ -3,7 +3,7 @@ payment: NONE
 
 license: OFL
 category: serif
-subsets: menu,latin,latin-ext,cyrillic,cyrillic-ext
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin
 
 family: Forum
 
