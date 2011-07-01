@@ -24,9 +24,10 @@ description: <p>My older sister Emily and I have \
   with Emily and the many ways she has inspired \
   me and taught me in life.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Love Ya Like A Sister" \
-#   ~/googlefontdirectory/loveyalikeasister/LoveYaLikeASister.{ttf,menu};
-# cd ~/googlefontdirectory/loveyalikeasister/; 
+#   ~/googlefontdirectory/loveyalikeasister/LoveYaLikeASister.{ttf,menu}; \
+# cd ~/googlefontdirectory/loveyalikeasister/; \
+
