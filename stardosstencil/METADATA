@@ -1,0 +1,37 @@
+visibility: SANDBOX
+payment: DESIGNER
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Stardos Stencil
+
+designer: Vernon Adams
+
+approved: true
+description: <p>Stardos is a stencilled serif font \
+  designed to be used a display-only webfont. Stardos \
+  Stencil has been designed to be used freely across \
+  the internet by web browsers on desktop computers, \
+  laptops, mobile devices, and Cloud systems.</p> \
+  <p>Stardos Stencil is a stencilled serif font \
+  designed to be used a display-only webfont. \
+  Stardos Stencil has been designed to be used \
+  freely across the internet by web browsers on \
+  desktop computers, laptops, mobile devices, \
+  and Cloud systems.</p>
+  
+font.StardosStencil-Regular.ttf.style: normal
+font.StardosStencil-Bold.ttf.style: normal
+
+font.StardosStencil-Regular.ttf.weight: normal
+font.StardosStencil-Bold.ttf.weight: bold
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Stardos Stencil" \
+# ~/googlefontdirectory/stardosstencil/StardosStencil-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/stardosstencil/; \
+
