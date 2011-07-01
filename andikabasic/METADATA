@@ -9,7 +9,7 @@ payment: NONE
 
 license: OFL
 category: sans-serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Andika Basic
 
@@ -54,5 +54,23 @@ font.Andika-BasicRegular.ttf.description: <p>Andika Basic Regular is \
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ccmp" \
 #  --chars="Andika Basic" \
-#  ~/googlefontdirectory/andikabasic/AndikaBasic-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/;
+#  ~/googlefontdirectory/andikabasic/AndikaBasic-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/andikabasic; \
+
+
+# cd ~/googlefontdirectory/andikabasic/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in andikabasic; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/andikabasic/; \
