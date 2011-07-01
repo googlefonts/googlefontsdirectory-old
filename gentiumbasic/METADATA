@@ -10,7 +10,7 @@ payment: NONE
 license: OFL
 url: http://scripts.sil.org/Gentium
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Gentium
 group: Gentium
@@ -79,11 +79,30 @@ font.GentiumBookBasic-BoldItalic.ttf.weight: bold
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Basic" \
-#  ~/googlefontdirectory/gentiumbasic/GentiumBasic-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/;
+#  ~/googlefontdirectory/gentiumbasic/GentiumBasic-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/gentiumbasic/; \
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Gentium Book Basic" \
-#  ~/googlefontdirectory/gentiumbasic/GentiumBookBasic-Regular.{ttf,menu};
-# cd ~/googlefontdirectory/;
+#  ~/googlefontdirectory/gentiumbasic/GentiumBookBasic-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/gentiumbasic/; \
+
+
+
+# cd ~/googlefontdirectory/gentiumbasic/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in gentiumbasic; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/gentiumbasic/; \
