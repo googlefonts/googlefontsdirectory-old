@@ -17,9 +17,10 @@ description: <p>Inspired by the writing of \
   architectural writing, combined with the natural \
   feel of daily handwriting.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Architects Daughter" \
-#   ~/googlefontdirectory/architectsdaughter/ArchitectsDaughter.{ttf,menu};
-# cd ~/googlefontdirectory/architectsdaughter/; 
+#   ~/googlefontdirectory/architectsdaughter/ArchitectsDaughter.{ttf,menu}; \
+# cd ~/googlefontdirectory/architectsdaughter/; \
+
