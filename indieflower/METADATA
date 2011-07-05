@@ -16,9 +16,10 @@ description: <p>This handwriting font feels carefree \
   It is easy to read and a bit bolder than some \
   of my other fonts.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Indie Flower" \
-#   ~/googlefontdirectory/indieflower/IndieFlower.{ttf,menu};
-# cd ~/googlefontdirectory/indieflower/; 
+#   ~/googlefontdirectory/indieflower/IndieFlower.{ttf,menu}; \
+# cd ~/googlefontdirectory/indieflower/; \
+
