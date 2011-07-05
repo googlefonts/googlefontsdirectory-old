@@ -18,9 +18,9 @@ description: <p>Sue Ellen Francisco is a tall, skinny \
   It is one of my earlier fonts and is imperfect, \
   but I still enjoy the tall, slender lines.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #   --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #   --chars="Sue Ellen Francisco" \
-#  ~/googlefontdirectory/sueellenfrancisco/SueEllenFrancisco.{ttf,menu};
-# cd ~/googlefontdirectory/sueellenfrancisco/; 
+#  ~/googlefontdirectory/sueellenfrancisco/SueEllenFrancisco.{ttf,menu}; \
+# cd ~/googlefontdirectory/sueellenfrancisco/; \
