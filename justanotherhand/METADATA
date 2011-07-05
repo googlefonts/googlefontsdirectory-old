@@ -22,3 +22,11 @@ description: <p>My personal handwriting has changed a \
   <p>A little personality, a little restraint... \
   a style that works for all sorts of projects \
   across the board.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt" \
+#  --chars="Just Another Hand" \
+# ~/googlefontdirectory/justanotherhand/JustAnotherHand.{ttf,menu}; \
+# cd ~/googlefontdirectory/justanotherhand/; \
+
