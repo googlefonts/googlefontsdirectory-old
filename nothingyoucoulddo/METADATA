@@ -1,4 +1,4 @@
-visibility: INTERNAL
+visibility: SANDBOX
 
 license: OFL
 url: http://www.kimberlygeswein.com
@@ -22,9 +22,9 @@ description: <p>Nothing You Could Do is based on the \
   write perfectly neatly, and this font creates \
   that feeling of authenticity.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Nothing You Could Do" \
-# ~/googlefontdirectory/nothingyoucoulddo/NothingYouCouldDo.{ttf,menu};
-# cd ~/googlefontdirectory/nothingyoucoulddo/; 
+# ~/googlefontdirectory/nothingyoucoulddo/NothingYouCouldDo.{ttf,menu}; \
+# cd ~/googlefontdirectory/nothingyoucoulddo/; \
