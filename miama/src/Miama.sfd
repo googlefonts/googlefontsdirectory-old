@@ -1,43 +1,44 @@
 SplineFontDB: 3.0
-FontName: Miama
+FontName: Miama-Regular
 FullName: Miama
 FamilyName: Miama
 Weight: Regular
-Copyright: Copyright (c) 2008-2010, Linus Romer, with Reserved Font Name Miama.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.
-Version: 0.32
-ItalicAngle: -28
+Copyright: Copyright (c) 2008-2011, Linus Romer, with Reserved Font Name Miama.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.
+Version: 0.32.1
+ItalicAngle: 16.5
 UnderlinePosition: -80
 UnderlineWidth: 48
 Ascent: 800
 Descent: 200
+sfntRevision: 0x0000522d
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Zeichenebene"  0
 XUID: [1021 573 979596882 7664732]
-FSType: 4
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1252426677
-ModificationTime: 1301031877
+ModificationTime: 1310116086
 PfmFamily: 65
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 3 3 5 2 4 7 0 0 0 3
-OS2TypoAscent: 1034
+OS2TypoAscent: 1715
 OS2TypoAOffset: 0
-OS2TypoDescent: -1066
+OS2TypoDescent: -1412
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1034
+OS2WinAscent: 1715
 OS2WinAOffset: 0
-OS2WinDescent: 1066
+OS2WinDescent: 1412
 OS2WinDOffset: 0
-HheadAscent: 1034
+HheadAscent: 1715
 HheadAOffset: 0
-HheadDescent: -1066
+HheadDescent: -1412
 HheadDOffset: 0
 OS2SubXSize: 700
 OS2SubYSize: 650
@@ -89,7 +90,7 @@ ChainSub2: coverage "'ss02' Stilgruppe 2 lookup 7-1"  0 0 0 1
  1
   SeqLookup: 0 "Multiple Substitution" 
 EndFPST
-LangName: 1033 "" "" "" "Miama" "" "0.32" "" "Please refer to the Copyright section for the font trademark attribution notices." "Linus Romer" "Linus Romer" "" "" "" "Copyright (c) 2008-2010, Linus Romer,+AAoA-with Reserved Font Name Miama.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Miama" "Regular" 
+LangName: 1033 "" "" "" "" "" "0.32" "" "" "Linus Romer" "Linus Romer" "" "" "" "Copyright (c) 2008-2010, Linus Romer,+AAoA-with Reserved Font Name Miama.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is available with a FAQ at:+AAoA-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Miama" "Regular" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 Compacted: 1

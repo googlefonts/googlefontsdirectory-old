@@ -1,7 +1,7 @@
 visibility: SANDBOX
-
+payment: NONE
 license: OFL
-url: http://www.linusromer.ch.vu
+
 category: handwriting
 subsets: menu,latin,latin-ext,greek+latin,greek-ext+latin
 
@@ -33,25 +33,28 @@ description: <p><em>Miama</em> is based on the many handwritten \
   then still looks quite light, so you want probably resize it even more \
   for titles.</p>
 
-profile: Swiss hobby typographer.
+font.Miama-Regular.ttf.style: normal
+font.Miama-Regular.ttf.weight: normal
 
-font.Miama.ttf.style: normal
-
+# fontforge -lang=ff -script menusubset-miama.ff Miama-Regular.ttf;
+# mv Miama-Regular.{ttf.menu.ttf,menu};
+#
 # cd ~/src/font-optimizer/; ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Miam Εάεηικλν()" \
 #     ~/googlefontdirectory/miama/Miama.{ttf,menu};
 # cd ~/googlefontdirectory/miama/; 
 
-# for family in miama; do
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+# for family in miama; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext \
-#            greek+latin greek-ext+latin; do
+#            greek+latin greek-ext+latin; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset;
+#                --subset=$subset $font.ttf $font.$subset; \
 #            python tools/subset/subset.py --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log;
-#        done;
-#    done;
-# done;
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; 
+
