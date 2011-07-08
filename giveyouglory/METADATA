@@ -20,9 +20,9 @@ description: <p>This mixed-case font is a quirky, fun font \
   with the mixed-case style so many of us use in our \
   daily writing.</p>
 
-# cd ~/src/font-optimizer;
+# cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Give You Glory" \
-# ~/googlefontdirectory/giveyouglory/GiveYouGlory.{ttf,menu};
+# ~/googlefontdirectory/giveyouglory/GiveYouGlory.{ttf,menu}; \
 # cd ~/googlefontdirectory/giveyouglory/; 
