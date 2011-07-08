@@ -1,0 +1,45 @@
+payment: NONE
+
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Varela Round
+
+designer: Joe Prince
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Varela Round is based on the well \
+  known font Varela. Its rounded corners make it \
+  perfect for a soft feel and work great at any size. \
+  It is suitable for headlines and printed collateral, \
+  and maintains its distinct properties amongst other \
+  objects. Varela Round is a great font for any website.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt,ss01" \
+#  --chars="Varela Round" \
+# ~/googlefontdirectory/varelaround/VarelaRound-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/varelaround/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  VarelaRound-Regular.menu; \
+
+# cd ~/googlefontdirectory/varelaround/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in varelaround; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/varelaround/; \
