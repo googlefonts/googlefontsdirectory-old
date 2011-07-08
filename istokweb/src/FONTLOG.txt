@@ -1,28 +1,14 @@
-Istok is new sans serif typeface. At present it has four fonts with
-support for Latin and Cyrillic. Most glyphs are manually instructed
-using xgridfit, but another ones are autoinstructed in fontforge.
+Istok 0.4.2-web is a sans serif typeface with web specific 
+vertical metrics. At present it has four fonts with
+support for Latin and Cyrillic. Most glyphs are manually 
+instructed using xgridfit, while others are autoinstructed 
+by FontForge.
 
-The fonts are distributed by the original developer 
-under the terms of Open Font License version 1.1 or 
-GNU General Public License Version 3 with the following exception:
+The fonts are distributed under the terms of Open Font License 
+version 1.1.
 
-As a special exception, if you create a document which uses this font,
-and embed this font or unaltered portions of this font into the
-document, this font does not by itself cause the resulting document to
-be covered by the GNU General Public License. This exception does not
-however invalidate any other reasons why the document might be covered
-by the GNU General Public License. If you modify this font, you may
-extend this exception to your version of the font, but you are not
-obligated to do so. If you do not wish to do so, delete this exception
-statement from your version.
-
-The font sources have only GNU General Public License Version 3.
-The upstream sources and truetype fonts are available at
+The non-web sources and truetype fonts are available at
 http://code.google.com/p/istok/
-Tarballs are compressed with xz (http://tukaani.org/xz/).
-
-The Istok Web sources and truetype fonts are available at
-http://code.google.com/p/googlefontdirectory/source/browse/istok
 
 The history of the font
 =======================
@@ -32,13 +18,11 @@ letters as raw material, other charaters are designed from scratch.
 
 				Andrey V. Panov <panov@canopus.iacp.dvo.ru>
 
-
-
-The TTF files available under the SIL Open Font License v1.1 
-were modified, changing their vertical metrics to follow the
+These fonts started with the original OFL licensed TTFs at
+version 0.4.2 and I changed the vertical metrics to follow the
 Google Web Fonts guidelines and the font name to 'Istok Web' 
-by Dave Crossland. Dave's intention is for these font versions 
-to be integrated into the upstream distribution. (2011-07-08)
+My intention is for these font versions to be integrated 
+into the upstream distribution by Andrey. (2011-07-08)
 
 http://code.google.com/p/googlefontdirectory/wiki/VerticalMetricsRecommendations
 

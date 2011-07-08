@@ -1,9 +1,9 @@
 #!/usr/local/bin/fontforge
 # A simple script to generate a menu subset. It outputs all unicode characters
-# in "()Istok Каилрц", and also the ligatures needed for correct
+# in "()Istok Web Каилрц", and also the ligatures needed for correct
 # 
-# fontforge -lang=ff -script menusubset-istok.ff Istok-Regular.ttf;
-# mv Istok-Regular.{ttf.menu.ttf,menu};
+# fontforge -lang=ff -script menusubset-istokweb.ff IstokWeb-Regular.ttf;
+# mv IstokWeb-Regular.{ttf.menu.ttf,menu};
 
 Open($1)
 Select(0u0000) # null
@@ -16,6 +16,9 @@ SelectMore(0x006B) # k
 SelectMore(0x006F) # o
 SelectMore(0x0073) # s
 SelectMore(0x0074) # t
+SelectMore(0x0057) # W
+SelectMore(0x0062) # b
+SelectMore(0x0065) # e
 SelectMore(0u041A) # afii10028 cyrillic
 SelectMore(0u0430) # afii10065 cyrillic
 SelectMore(0u0438) # afii10074 cyrillic

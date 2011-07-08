@@ -51,6 +51,8 @@ font.IstokWeb-BoldItalic.ttf.weight: 700
 #  --chars="Istok Web" \
 # ~/googlefontdirectory/istokweb/IstokWeb-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/istokweb/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  IstokWeb-Regular.menu; \
 
 # cd ~/googlefontdirectory/istokweb/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
@@ -58,7 +60,7 @@ font.IstokWeb-BoldItalic.ttf.weight: 700
 # for family in istokweb; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
-#            latin latin-ext
+#            latin latin-ext \
 #            cyrillic cyrillic-ext; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset; \
