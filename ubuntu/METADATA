@@ -10,13 +10,13 @@ subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,gree
 
 family: Ubuntu
 
-designer: multiple designers
+designer: Dalton Maag
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
-  Font Family</a> is a set of \
+  Font Family</a> are a set of \
   matching new libre/open fonts in development \
   during 2010-2011. The development is being \
   funded by Canonical Ltd on behalf the wider \
@@ -48,17 +48,28 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
   <p>Ubuntu and Canonical are registered \
   trademarks of Canonical Ltd.</p>
 
-# TODO description.gr:
-# TODO description.ru:
-
+# fontforge -lang=ff -script menusubset-ubuntu.ff Ubuntu-Regular.ttf;
+# mv Ubuntu-Regular.{ttf.menu.ttf,menu};
+#
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #     --chars="Ubunt КаилрцΕάεηικλν()" \
-#     Ubuntu-Regular.ttf Ubuntu-Regular.menu; \
+#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf \
+#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.menu; \
 # cd ~/googlefontdirectory/ubuntu/; \
 
 # cd ~/googlefontdirectory/ubuntu/; \
+# mv Ubuntu-L.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Light.ttf; \
+# mv Ubuntu-LI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-LightItalic.ttf; \
+# mv Ubuntu-R.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf; \
+# mv Ubuntu-RI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Italic.ttf; \
+# mv Ubuntu-M.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Medium.ttf; \
+# mv Ubuntu-MI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-MediumItalic.ttf; \
+# mv Ubuntu-B.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Bold.ttf; \
+# mv Ubuntu-BI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-BoldItalic.ttf;
+#
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
 # for family in ubuntu; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
@@ -75,14 +86,7 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 # done; \
 # cd ~/googlefontdirectory/ubuntu/; \
 
-# mv Ubuntu-L.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Light.ttf
-# mv Ubuntu-LI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-LightItalic.ttf
-# mv Ubuntu-R.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf
-# mv Ubuntu-RI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Italic.ttf
-# mv Ubuntu-M.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Medium.ttf
-# mv Ubuntu-MI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-MediumItalic.ttf
-# mv Ubuntu-B.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Bold.ttf
-# mv Ubuntu-BI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-BoldItalic.ttf
+
 
 font.Ubuntu-LightItalic.ttf.style: italic
 font.Ubuntu-Italic.ttf.style: italic
