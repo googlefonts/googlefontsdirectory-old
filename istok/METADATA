@@ -5,17 +5,17 @@ license: OFL
 category: sans-serif
 subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin
 
-family: Istok
+family: Istok Web
 
 designer: Andrey V. Panov
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>Istok is a newly created typeface, in \
+description: <p>Istok Web is an original typeface, in \
   development since 2008. At first some basic letters \
   were based on specially modified METAFONT sources from \
-  the CM Bright font family, from TeX community. \
+  the CM Bright font family from the TeX community. \
   (METAFONT is very flexible technology.) But in fact \
   Istok fonts are now very far from this origin. \
   Contours of the font are designed in the freely \
@@ -28,33 +28,34 @@ description: <p>Istok is a newly created typeface, in \
   until manual hinting can be done. Manual and \
   automatic instructions are intended to look \
   homogeneous.</p> \
-  <p>The sources and truetype fonts are available at \
-  <a href="http://code.google.com/p/istok/">http://code.google.com/p/istok/</a>.</p>
+  <p>The original sources and truetype fonts are available at \
+  <a href="http://code.google.com/p/istok/">http://code.google.com/p/istok/</a> \
+  and this 'Web' version has modified vertical metrics.</p>
 
-font.Istok-Regular.ttf.style: normal
-font.Istok-Italic.ttf.style: italic
-font.Istok-Bold.ttf.style: normal
-font.Istok-BoldItalic.ttf.style: italic
+font.IstokWeb-Regular.ttf.style: normal
+font.IstokWeb-Italic.ttf.style: italic
+font.IstokWeb-Bold.ttf.style: normal
+font.IstokWeb-BoldItalic.ttf.style: italic
 
-font.Istok-Regular.ttf.weight: 400
-font.Istok-Italic.ttf.weight: 400
-font.Istok-Bold.ttf.weight: 700
-font.Istok-BoldItalic.ttf.weight: 700
+font.IstokWeb-Regular.ttf.weight: 400
+font.IstokWeb-Italic.ttf.weight: 400
+font.IstokWeb-Bold.ttf.weight: 700
+font.IstokWeb-BoldItalic.ttf.weight: 700
 
-# fontforge -lang=ff -script menusubset-istok.ff Istok-Regular.ttf;
-# mv Istok-Regular.{ttf.menu.ttf,menu};
+# fontforge -lang=ff -script menusubset-istokweb.ff IstokWeb-Regular.ttf;
+# mv IstokWeb-Regular.{ttf.menu.ttf,menu};
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Istok" \
-# ~/googlefontdirectory/istok/Istok-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/istok/; \
+#  --chars="Istok Web" \
+# ~/googlefontdirectory/istokweb/IstokWeb-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/istokweb/; \
 
-# cd ~/googlefontdirectory/istok/; \
+# cd ~/googlefontdirectory/istokweb/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in istok; do \
+# for family in istokweb; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext
@@ -67,4 +68,4 @@ font.Istok-BoldItalic.ttf.weight: 700
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/istok/; \
+# cd ~/googlefontdirectory/istokweb/; \

@@ -2,8 +2,9 @@ Istok is new sans serif typeface. At present it has four fonts with
 support for Latin and Cyrillic. Most glyphs are manually instructed
 using xgridfit, but another ones are autoinstructed in fontforge.
 
-The fonts are distributed under the terms of Open Font License or GNU
-General Public License Version 3 with the following exception:
+The fonts are distributed by the original developer 
+under the terms of Open Font License version 1.1 or 
+GNU General Public License Version 3 with the following exception:
 
 As a special exception, if you create a document which uses this font,
 and embed this font or unaltered portions of this font into the
@@ -16,9 +17,12 @@ obligated to do so. If you do not wish to do so, delete this exception
 statement from your version.
 
 The font sources have only GNU General Public License Version 3.
-The sources and truetype fonts are available at
+The upstream sources and truetype fonts are available at
 http://code.google.com/p/istok/
 Tarballs are compressed with xz (http://tukaani.org/xz/).
+
+The Istok Web sources and truetype fonts are available at
+http://code.google.com/p/googlefontdirectory/source/browse/istok
 
 The history of the font
 =======================
@@ -27,3 +31,15 @@ The modified version of CM Bright font was used for design of several
 letters as raw material, other charaters are designed from scratch.
 
 				Andrey V. Panov <panov@canopus.iacp.dvo.ru>
+
+
+
+The TTF files available under the SIL Open Font License v1.1 
+were modified, changing their vertical metrics to follow the
+Google Web Fonts guidelines and the font name to 'Istok Web' 
+by Dave Crossland. Dave's intention is for these font versions 
+to be integrated into the upstream distribution. (2011-07-08)
+
+http://code.google.com/p/googlefontdirectory/wiki/VerticalMetricsRecommendations
+
+				Dave Crossland <dave@understandingfonts.com>
