@@ -1,0 +1,23 @@
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+url: http://www.gesine-todt.de
+category: sans-serif
+subsets: menu,latin
+
+family: Snippet
+
+designer: Gesine Todt
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Snippet is a new sans serif design. It \
+  works well at text sizes but is ideal for headlines.</p>
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Snippet" \
+#     ~/googlefontdirectory/snippet/Snippet.{ttf,menu};
+# cd  ~/googlefontdirectory/snippet/;
