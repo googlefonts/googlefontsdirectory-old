@@ -1,0 +1,31 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Ovo
+
+designer: Nicole Fally
+
+approved: true
+description: <p>Ovo was inspired by a set of hand \
+  lettered caps seen in a 1930's lettering guide. \
+  The capitals suggested the time in which they were \
+  made because of the soft serif treatment used. \
+  This detail and a subtle casual feeling creeping \
+  into the otherwise classical forms led to the \
+  soft genial lowercase and the whimsical numbers \
+  now seen in Ovo. Ovo is a medium contrast serif \
+  font. Because of the old style variable letter \
+  widths and subtle detail it will work best at \
+  medium to large sizes.</p>
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Ovo" \
+# ~/googlefontdirectory/ovo/Ovo-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/ovo/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Ovo-Regular.menu; \
