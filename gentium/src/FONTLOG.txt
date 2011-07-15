@@ -77,7 +77,7 @@ good results - but is not yet complete enough.
 Information for Contributors
 ----------------------------
 
-The main point of version 1.02 is to enable modification via the OFL and to
+The main point of version 1.03 is to enable modification via the OFL 1.1 and to
 establish a means for people to contribute to the project. For information
 on what you're allowed to change or modify, consult the OFL and OFL-FAQ. The
 OFL-FAQ also gives a very general rationale regarding why you would want to
@@ -93,8 +93,8 @@ maximise the chances of us including your work, please make it available to
 us (via email or a URL) as either a FontLab database (preferred) or a
 PostScript Type 1 (or OT-CFF) font.
 
-Source files: For the first time, we're including FontLab databases used in
-developing the fonts. The current fonts, however, were not solely built from
+Source files: We're including FontLab databases used in developing 
+the fonts. The current fonts, however, were not solely built from
 this FontLab database, so a simple "Generate Font" will not give you an
 identical result. These databases are provided not as canonical source but
 as an aid to anyone who might find it useful to have access to the
