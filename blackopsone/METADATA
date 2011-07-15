@@ -1,0 +1,25 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Black Ops One
+
+designer: James Grieshaber
+
+approved: true
+description: <p>Black Ops is a low contrast semi geometric \
+  typeface inspired by military stencil lettering. Black \
+  Ops is heavy, sturdy, and punchy. Because of the small \
+  cuts found in stencils like this one, Black Ops will \
+  look best when used at medium to large sizes.</p>
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Black Ops One" \
+# ~/googlefontdirectory/blackopsone/BlackOpsOne.{ttf,menu}; \
+# cd ~/googlefontdirectory/blackopsone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  BlackOpsOne.menu; \
