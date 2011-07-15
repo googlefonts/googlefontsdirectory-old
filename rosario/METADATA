@@ -1,0 +1,25 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Rosario
+
+designer: Hector Gatti
+
+approved: true
+description: <p>Omnibus Type proudly presents Rosario, \
+  a new typeface of classic proportions, subtle contrast \
+  and weak endings. Carefully produced, elegant, ideal \
+  for magazines and academic journals. Rosario is the \
+  name of the city of the designer, Hector Gatti.</p>
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Rosario" \
+# ~/googlefontdirectory/rosario/Rosario-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rosario/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Rosario-Regular.menu; \
