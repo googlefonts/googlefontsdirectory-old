@@ -3,8 +3,7 @@ payment: DESIGNER
 license: OFL
 url: http://www.georgduffner.at
 category: serif
-subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin
-# 2011-05-01 DC Note this has vietnamese and some greek support
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,vietnamese+latin
 
 family: EB Garamond
 
@@ -47,15 +46,22 @@ description: <p>Garamont’s fonts have set a \
   Garamond and I promise, I’ll try hard \
   to learn and give my best.</p>
 
-# menu made with menusubset.ff
-# fontforge -lang=ff -script menusubset-ebg.ff EBGaramond-Regular.ttf; \
-# fontforge EBGaramond-Regular.ttf.menu.sfd;
+# cd ~/googlefontdirectory/ebgaramond/;
+# fontforge -lang=ff -script menusubset-ebg.ff EBGaramond-Regular.ttf;
+# fontforge EBGaramond-Regular.ttf.menu.ttf;
+# echo "now remove the license from the font file and regenerate menu.ttf by hand";
+# mv menu.ttf EBGaramond-Regular.menu;
+# ~/googlefontdirectory/tools/chars/showchars.py EBGaramond-Regular.menu;
 
+# cd ~/googlefontdirectory/ebgaramond/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
 # for family in ebgaramond; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext \
-#            cyrillic+latin cyrillic-ext+latin; do \
+#            cyrillic+latin cyrillic-ext+latin
+#            vietnamese+latin; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset;
 #            python tools/subset/subset.py  --null --nmr --roundtrip \
@@ -64,4 +70,4 @@ description: <p>Garamont’s fonts have set a \
 #        done; \
 #    done; \
 # done; \
-
+# cd ~/googlefontdirectory/ebgaramond/; \

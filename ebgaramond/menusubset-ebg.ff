@@ -1,11 +1,6 @@
 #!/usr/local/bin/fontforge
 # A simple script to generate a menu subset. It outputs all unicode characters
-# in "()EBGaramond Каилрц"
-# 
-# fontforge -lang=ff -script menusubset-ebg.ff EBGaramond-Regular.ttf;
-# fontforge EBGaramond-Regular.ttf.menu.sfd;
-# # now remove the license from the font file and regenerat by hand
-
+# in "()EBGaramond Каилрц Quốc Ngữ"
 
 Open($1)
 Select(0u0000) # null
@@ -38,7 +33,14 @@ SelectMore(0u0446) # afii10088 cyrillic
 # SelectMore(0x03BA) # kappa
 # SelectMore(0x03BB) # lambda
 # SelectMore(0x03BD) # nu
+SelectMore(0x0051) # Q
+SelectMore(0x0075) # u
+SelectMore(0x1ed1) # ố
+SelectMore(0x0063) # c
+SelectMore(0x004e) # N
+SelectMore(0x0067) # g
+SelectMore(0x1eef) # ữ
 SelectInvert()
 Clear()
 # This has to end in .ttf or it will not include all the needed glyphs
-Save($1 + ".menu.sfd")
+Save($1 + ".menu.ttf")
