@@ -20,26 +20,26 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1310047674
-ModificationTime: 1310759914
+ModificationTime: 1310998496
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 11 5 3 5 0 0 2 0 4
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+OS2TypoAscent: 941
+OS2TypoAOffset: 0
+OS2TypoDescent: -262
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: -169
-OS2WinAOffset: 1
-OS2WinDescent: -34
-OS2WinDOffset: 1
-HheadAscent: -169
-HheadAOffset: 1
-HheadDescent: 34
-HheadDOffset: 1
+OS2WinAscent: 941
+OS2WinAOffset: 0
+OS2WinDescent: 262
+OS2WinDOffset: 0
+HheadAscent: 941
+HheadAOffset: 0
+HheadDescent: -262
+HheadDOffset: 0
 OS2SubXSize: 700
 OS2SubYSize: 650
 OS2SubXOff: 0
@@ -55,6 +55,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 20000000.00000000
 OS2UnicodeRanges: 800000af.4000004a.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -83,7 +84,7 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "" "" "" "FontForge 2.0 : Actor : 15-7-2011" "" "" "" "actor is a trademark of Thomas Junold." "Thomas Junold" "Thomas Junold" "A new humanist sans-serif font with old style numbers." "" "www.buerofueraufmerksamkeit.de" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Actor" "Regular" 
-GaspTable: 1 65535 15
+GaspTable: 1 65535 3
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -91,6 +92,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 34 34 13
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65539 237
 
 StartChar: .notdef
