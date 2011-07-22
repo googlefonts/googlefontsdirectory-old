@@ -23,8 +23,12 @@ description: <p>Tienne is a display and text \
   interpolation techniques.</p>
   
 font.Tienne-Regular.ttf.style: normal
+font.Tienne-Bold.ttf.style: normal
+font.Tienne-Heavy.ttf.style: normal
 
 font.Tienne-Regular.ttf.weight: 400
+font.Tienne-Bold.ttf.weight: 700
+font.Tienne-Heavy.ttf.weight: 900 
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
