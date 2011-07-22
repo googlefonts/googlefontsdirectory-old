@@ -1,0 +1,37 @@
+payment: DESIGNER
+
+license: OFL
+url: http://www.impallari.com
+category: display
+subsets: menu,latin
+
+family: Geostar
+group: Geostar
+
+designer: Joe Prince
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Geostar is a great font for large \
+  headlines on websites. It's single weight allows \
+  for easy legibility and captivates the audience \
+  at first glance. Because Geostar is so symmetrical, \
+  it is a fantastic option to add charisma and \
+  sophistication to any web page.</p>
+
+font.GeostarFill-Regular.ttf.subfamily: Fill
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Geostar" \
+#   ~/googlefontdirectory/geostar/Geostar-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/geostar/; 
+
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Geostar Fill" \
+#   ~/googlefontdirectory/geostar/GeostarFill-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/geostar/
