@@ -1,0 +1,36 @@
+visibility: SANDBOX
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Federo
+
+designer: Cyreal
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Federo is a display webfont that \
+  references J. Erbar's Erbar Grotesk. The goal \
+  was to keep the typeface as close as possible \
+  to the original 1909 design while adapting it \
+  for crisp web typography. Details were refined \
+  and contrast was slightly reduced for \
+  consistency. Figures obtained regular \
+  proportions and counters were increased \
+  for better legibility.</p> \
+  <p>Designed by Olexa Volochay in 2011.</p>
+
+font.Federo-Regular.ttf.style: normal
+
+font.Federo-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Federo" \
+#   ~/googlefontdirectory/federo/Federo-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/federo/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Federo-Regular.menu; \
