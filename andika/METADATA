@@ -1,0 +1,62 @@
+#
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# AND NOTE THAT SUBSETS ARE NOT ALLOWED BECAUSE THEY MAY NOT BE MARKED 
+# CLEARLY ENOUGH FOR SIL
+#
+
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Andika
+
+designer: Annie Olson
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Andika is a sans serif, Unicode-compliant \
+  font designed especially for literacy use, taking into \
+  account the needs of beginning readers. The focus is on \
+  clear, easy-to-perceive letterforms that will not be \
+  readily confused with one another.</p> \
+  <p>A sans serif font is preferred by some literacy \
+  personnel for teaching people to read. Its forms are \
+  simpler and less cluttered than those of most serif fonts. \
+  For years, literacy workers have had to make do with fonts \
+  that were not really suitable for beginning readers and \
+  writers. In some cases, literacy specialists have had to \
+  tediously assemble letters from a variety of fonts in order \
+  to get all of the characters they need for their particular \
+  language project, resulting in confusing and unattractive \
+  publications. Andika addresses those issues.</p> \
+  <p>One font from this typeface family is included in this \
+  release, Andika Regular. A future release will include \
+  Italic, Bold and Bold-Italic.</p> \
+  <p>Read more at <a href="http://scripts.sil.org/Andika">http://scripts.sil.org/Andika</a></p>
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
+#  --chars="Andika" \
+#  ~/googlefontdirectory/andika/Andika-R.{ttf,menu}; \
+# cd ~/googlefontdirectory/andika/; \
+
+# cd ~/googlefontdirectory/andika/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in andika; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/andika/; \
