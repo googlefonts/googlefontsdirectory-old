@@ -5,6 +5,7 @@ category: handwriting
 subsets: menu,latin
 
 family: Delius
+group: Delius
 
 designer: Natalia Raices
 
@@ -27,6 +28,7 @@ font.Delius-Regular.ttf.style: normal
 font.Delius-Regular.ttf.weight: 400
 # font.Delius-Bold.ttf.weight: 700
 
+font.DeliusUnicase-Regular.ttf.subfamily: Unicase
 font.DeliusUnicase-Regular.ttf.style: normal
 # font.DeliusUnicase-Bold.ttf.style: normal
 font.DeliusUnicase-Regular.ttf.weight: 400
