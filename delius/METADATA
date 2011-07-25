@@ -5,7 +5,6 @@ category: handwriting
 subsets: menu,latin
 
 family: Delius
-group: Delius
 
 designer: Natalia Raices
 
@@ -13,27 +12,17 @@ approved: true
 #2011-07-22 Designer yet to send real description
 description: <p>Delius is a high quality comic book \
   lettering typeface. It has a companion family, \
-  Delius Unicase.</p>
-
-font.DeliusUnicase-Regular.ttf.subfamily: Unicase
-font.Familyname-SubfamilyRegular.ttf.description: <p>Delius \
-  Unicase is a high quality comic book lettering \
-  typeface with mixed uppercase and lowercase \
-  letters for 'unicase' uses, such as in comic \
-  strip lettering.</p>
-
+  Delius Unicase.</p> \
+  <p>Delius is based on the handwriting that the artist \
+  María Delia Lozupone (whose pseudonym is Delius) uses \
+  when she letters her own comic books. The same tool \
+  that she uses to write (a big round marker) was used \
+  to define Delius's stroke and ductus.</p>
 
 font.Delius-Regular.ttf.style: normal
 # font.Delius-Bold.ttf.style: normal
 font.Delius-Regular.ttf.weight: 400
 # font.Delius-Bold.ttf.weight: 700
-
-font.DeliusUnicase-Regular.ttf.subfamily: Unicase
-font.DeliusUnicase-Regular.ttf.style: normal
-# font.DeliusUnicase-Bold.ttf.style: normal
-font.DeliusUnicase-Regular.ttf.weight: 400
-# font.DeliusUnicase-Bold.ttf.weight: 700
-
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
@@ -43,14 +32,3 @@ font.DeliusUnicase-Regular.ttf.weight: 400
 # cd ~/googlefontdirectory//; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  Delius-Regular.menu; \
-
-
-# cd ~/src/font-optimizer; \
-# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Delius Unicase" \
-# ~/googlefontdirectory/delius/DeliusUnicase-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/delius/; \
-# ~/googlefontdirectory/tools/chars/showchars.py \
-#  DeliusUnicase-Regular.menu; \
-
