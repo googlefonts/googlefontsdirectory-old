@@ -1,0 +1,26 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Tulpen One
+designer: Naima Ben Ayed
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+# 2011-07-29 TODO DC get a full description
+description: <p>Tulpen is a tall sans serif type, suitable \
+  for display uses in headlines and other large text.</p>
+
+font.TulpenOne-Regular.ttf.style: normal
+font.TulpenOne-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="TulpenOne" \
+#   ~/googlefontdirectory/tulpenone/TulpenOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/tulpenone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  TulpenOne-Regular.menu; \
