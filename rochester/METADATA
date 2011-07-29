@@ -1,3 +1,4 @@
+visibility: SANDBOX
 license: Apache2
 payment: DESIGNER
 category: handwriting
@@ -20,3 +21,14 @@ description: <p>On the town with the latest \
   touch of class or a smart looking formal \
   style to any correspondence or memorandum!</p>
 
+font.Rochester-Regular.ttf.style: normal
+font.Rochester-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Rochester" \
+# ~/googlefontdirectory/rochester/Rochester-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rochester/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Rochester-Regular.menu; \
