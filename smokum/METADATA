@@ -1,0 +1,28 @@
+license: Apache2
+category: display
+subsets: menu,latin
+
+family: Smokum
+
+designer: Astigmatic
+
+approved: true
+description: <p>Smokum is a western inspired \
+  slab-serif font with a little playful swagger \
+  to it. It's perfect for headlines and display \
+  uses that require a little loosened up country \
+  flair, but because of the contrast of thicks \
+  and thins, it will perform best as a WebFont \
+  at medium to large point sizes.</p>
+  
+font.Smokum-Regular.ttf.style: normal
+font.Smokum-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Smokum" \
+# ~/googlefontdirectory/smokum/Smokum-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/smokum/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Smokum-Regular.menu; \
