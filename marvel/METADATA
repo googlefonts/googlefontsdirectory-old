@@ -1,0 +1,37 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Marvel
+
+designer: Carolina Trebol
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+# 2011-07-29 DC TODO full description here
+description: <p>Marvel is a new sans-serif type design.</p>
+
+font.Marvel-Regular.ttf.style: normal
+font.Marvel-Regular.ttf.weight: normal
+
+
+font.Marvel-Regular.ttf.style: normal
+font.Marvel-Italic.ttf.style: italic
+font.Marvel-Bold.ttf.style: normal
+font.Marvel-BoldItalic.ttf.style: italic
+
+font.Marvel-Regular.ttf.weight: 400
+font.Marvel-Italic.ttf.weight: 400
+font.Marvel-Bold.ttf.weight: 700
+font.Marvel-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Marvel" \
+#   ~/googlefontdirectory/Marvel/Marvel-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/Marvel/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Marvel-Regular.menu; \
