@@ -42,13 +42,20 @@ description: <p>Andika is a sans serif, Unicode-compliant \
   Italic, Bold and Bold-Italic.</p> \
   <p>Read more at <a href="http://scripts.sil.org/Andika">http://scripts.sil.org/Andika</a></p>
 
+# OLD
+#
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \
 #  --chars="Andika" \
 #  ~/googlefontdirectory/andika/Andika-R.{ttf,menu}; \
 # cd ~/googlefontdirectory/andika/; \
 # ~/googlefontdirectory/tools/chars/showchars.py Andika-R.menu; \
-
+#
+# NEW
+# fontforge -lang=ff -script menusubset-andika.ff Andika-R.ttf; \
+# mv Andika-R.{ttf.menu.ttf,menu}; \
+# ~/googlefontdirectory/tools/chars/showchars.py Andika-R.menu; \
+# echo "ENSURE THAT THE SPACE CHAR IS THERE"; \
 
 # cd ~/googlefontdirectory/andika/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
