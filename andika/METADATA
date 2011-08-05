@@ -47,6 +47,8 @@ description: <p>Andika is a sans serif, Unicode-compliant \
 #  --chars="Andika" \
 #  ~/googlefontdirectory/andika/Andika-R.{ttf,menu}; \
 # cd ~/googlefontdirectory/andika/; \
+# ~/googlefontdirectory/tools/chars/showchars.py Andika-R.menu; \
+
 
 # cd ~/googlefontdirectory/andika/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
@@ -64,4 +66,3 @@ description: <p>Andika is a sans serif, Unicode-compliant \
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/andika/; \
