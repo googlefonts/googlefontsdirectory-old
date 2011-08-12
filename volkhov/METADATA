@@ -1,0 +1,49 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Volkhov
+
+designer: Cyreal
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Volkhov is a low-contrast \
+  serifed typeface with a robust character, \
+  intended for providing a motivating reading \
+  experience.</p> \
+  <p>As a four-weight family it is \
+  well-suited for complex text environments \
+  being economic and legible, contemporary and \
+  prominent. Many of its design solutions \
+  relate to this purpose: large open counters, \
+  rather short descenders, and brutal \
+  asymmetric serifs.</p> \
+  <p>Spacing in Bold is slightly increased \
+  compared to the normal weight, because the \
+  bold mass is mostly grown inwards. The Italic \
+  has a steep angle and a distinctive \
+  calligraphically reminiscent character, as \
+  a counterpart to the rigorous Regular.</p> \
+  <p>Designed by Ivan Petrov.</p>
+
+font.Volkhov-Regular.ttf.style: normal
+font.Volkhov-Italic.ttf.style: italic
+font.Volkhov-Bold.ttf.style: normal
+font.Volkhov-BoldItalic.ttf.style: italic
+
+font.Volkhov-Regular.ttf.weight: 400
+font.Volkhov-Italic.ttf.weight: 400
+font.Volkhov-Bold.ttf.weight: 700
+font.Volkhov-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Volkhov" \
+#   ~/googlefontdirectory/volkhov/Volkhov-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/volkhov/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Volkhov-Regular.menu; \
