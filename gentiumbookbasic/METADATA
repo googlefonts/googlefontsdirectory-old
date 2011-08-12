@@ -1,3 +1,38 @@
+#
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# AND NOTE THAT SUBSETS ARE NOT ALLOWED BECAUSE THEY MAY NOT BE MARKED 
+# CLEARLY ENOUGH FOR SIL
+#
+visibility: SANDBOX
+payment: NONE
+
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Gentium Book Basic
+
+designer: Victor Gaultney
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>The Gentium Book Basic font family is based on the original \
+  Gentium design, but with additional weights. The family comes \
+  with a complete regular, bold, italic and bold italic set of fonts.</p> \
+  <p>The supported character set, however, is much smaller than for \
+  the main Gentium Plus fonts. These "Basic" fonts support only the \
+  Basic Latin and Latin-1 Supplement Unicode ranges, plus a \
+  selection of the more commonly used extended Latin characters, \
+  with miscellaneous diacritical marks, symbols and \
+  punctuation. In particular, these fonts do not support full \
+  extended Latin IPA, complete support for Central European \
+  languages, Greek and Cyrillic.</p> \
+  <p>The "Gentium Basic" family is very similar but has a slightly \
+  lighter weight.</p>
+  <p>For a complete description of these fonts, FAQ, \
+  related Gentium fonts, and a list of supported characters, see the \
+  <a href="http://scripts.sil.org/Gentium">Gentium homepage</a>.</p>
 
 font.GenBkBasR.ttf.style: normal
 font.GenBkBasBI.ttf.weight: normal
@@ -10,10 +45,6 @@ font.GenBkBasB.ttf.weight: bold
 
 font.GenBkBasBI.ttf.style: italic
 font.GenBkBasBI.ttf.weight: bold
-
-category: serif
-
-
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
 #  --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,mark,aalt,c2sc,ccmp,mkmk,smcp,kern" \

@@ -28,16 +28,22 @@ description: <p>The Gentium Basic font family is based on the original \
   punctuation. In particular, these fonts do not support full \
   extended Latin IPA, complete support for Central European \
   languages, Greek and Cyrillic.</p> \
-  <p>The "Gentium Book Basic" family is similar but has a slightly \
-  darker weight.</p>
+  <p>The "Gentium Book Basic" family is very similar but has \
+  a slightly darker weight.</p>
   <p>For a complete description of these fonts, FAQ, \
   related Gentium fonts, and a list of supported characters, see the \
   <a href="http://scripts.sil.org/Gentium">Gentium homepage</a>.</p>
 
-font.GenBasBI.ttf.style: italic
-font.GenBasI.ttf.style: italic
+font.GenBasR.ttf.style: normal
+font.GenBasBI.ttf.weight: normal
 
+font.GenBasI.ttf.style: italic
+font.GenBasBI.ttf.weight: normal
+
+font.GenBasB.ttf.style: normal
 font.GenBasB.ttf.weight: bold
+
+font.GenBasBI.ttf.style: italic
 font.GenBasBI.ttf.weight: bold
 
 # cd ~/src/font-optimizer/; ./subset.pl -v \
