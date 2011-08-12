@@ -1,0 +1,29 @@
+visibility: SANDBOX
+license: Apache2
+category: handwriting
+subsets: menu,latin
+
+family: Montez
+
+designer: Astigmatic
+
+approved: true
+description: <p>Montezuma is a script font which draws \
+  inspiration from 1960s beauty product ads. Its \
+  sweeping strokes lend to a feel of joy and elegance, \
+  making it ideal for display uses that require a little \
+  drama, "joie de vivre" or Joy of Life. Ideal is to \
+  be set a medium to large text sizes for optimal \
+  readability.</p>
+  
+font.Montez-Regular.ttf.style: normal
+font.Montez-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,aalt,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Montez" \
+# ~/googlefontdirectory/montez/Montez-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/montez/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Montez-Regular.menu; \
