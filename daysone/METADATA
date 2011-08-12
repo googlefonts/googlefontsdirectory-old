@@ -1,0 +1,28 @@
+visibility: SANDBOX
+payment: DESIGNER
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Days One
+
+designer: Jovanny Lemonad
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+# 2011-08-12 DC: JL to send full description
+description: <p>Days One is a sans serif display type, similar \
+  to Numans, also available in Google Web Fonts.</p>
+
+font.DaysOne-Regular.ttf.style: normal
+font.DaysOne-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Days One" \
+#   ~/googlefontdirectory/daysone/DaysOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/daysone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  DaysOne-Regular.menu; \
