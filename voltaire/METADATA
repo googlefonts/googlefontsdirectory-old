@@ -1,0 +1,24 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Voltaire
+
+designer: Yvonne Schüttler
+
+approved: true
+description: <p>Voltaire is a slightly condensed sans \
+  display type.</p>
+
+font.Voltaire-Regular.ttf.style: normal
+font.Voltaire-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Voltaire" \
+# ~/googlefontdirectory/voltaire/Voltaire-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/voltaire/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Voltaire-Regular.menu; \
