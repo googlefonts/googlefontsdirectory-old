@@ -16,3 +16,16 @@ description: <p>Bangers is a comicbook style \
   font which packs a punch! It was designed \
   in the style of mid-20th century superhero \
   comics cover lettering in mind.</p>
+
+font.Bangers.ttf.style: normal
+
+font.Bangers.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Bangers" \
+# ~/googlefontdirectory/bangers/Bangers.{ttf,menu}; \
+# cd ~/googlefontdirectory/bangers/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Bangers.menu; \
