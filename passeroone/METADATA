@@ -1,0 +1,28 @@
+visibility: SANDBOX
+
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Passero One
+
+designer: Viktoriya Gadomska-Grabowska
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Passero One is an innovative low \
+  contrast sans serif type. Despite having an \
+  utterly distinctive voice it remains remarkably \
+  legible and versatile. Perhaps this is because \
+  of the way Passero One gently echos old style \
+  text letterforms. Passero One will work best \
+  from medium text sizes through large \
+  display sizes.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Passero One" \
+# ~/googlefontdirectory/passeroone/PasseroOne-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/passeroone/; \
