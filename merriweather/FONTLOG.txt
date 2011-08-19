@@ -50,6 +50,20 @@ sorkineben@gmail.com
 
 ChangeLog
 
+29 July 2011 (Eben Sorkin) Merriweather v1.3
+
+- Altered and improved 90% of the glyphs. Some in moinor ways 
+  and other in fairly significant ways. For example: 
+  The lc a was a small change.
+  The changes to the numbers corrected weight consistency isues 
+  and were moe significant. 
+- Added glyphs to support texts originating from Windows
+  ANSI and Mac Roman encodings. 
+- Adjusted diacrics further
+- This may be the last update to shapes before work 
+  begins on the Sans. This means that VTT hinting 
+  should be next.
+
 22 July 2011 (Eben Sorkin) Merriweather v1.287
 - Adusted glyph diacritics to make them work with MS Word.
 - Mastered Font from Fontlab to TTF
