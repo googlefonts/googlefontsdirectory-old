@@ -15,31 +15,31 @@ LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
 XUID: [1021 288 713564382 3981896]
-FSType: 4
+FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1313659879
-ModificationTime: 1313780366
+ModificationTime: 1313783855
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 0 0 0 0 0 0 0 0 0 0
-OS2TypoAscent: 462
-OS2TypoAOffset: 1
-OS2TypoDescent: -112
-OS2TypoDOffset: 1
+OS2TypoAscent: 2366
+OS2TypoAOffset: 0
+OS2TypoDescent: -822
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: -266
-OS2WinAOffset: 1
-OS2WinDescent: -300
-OS2WinDOffset: 1
-HheadAscent: -266
-HheadAOffset: 1
-HheadDescent: 300
-HheadDOffset: 1
+OS2WinAscent: 2366
+OS2WinAOffset: 0
+OS2WinDescent: 822
+OS2WinDOffset: 0
+HheadAscent: 2366
+HheadAOffset: 0
+HheadDescent: -822
+HheadDOffset: 0
 OS2SubXSize: 1331
 OS2SubYSize: 1228
 OS2SubXOff: 0
@@ -83,7 +83,7 @@ ShortTable: maxp 16
   2
 EndShort
 LangName: 1033 "" "" "Regular" "" "" "Version 1.000" "" "Monoton is a trademark of vernon adams." "vernon adams" "" "Copyright (c) 2011 by vernon adams. All rights reserved." 
-GaspTable: 1 65535 15
+GaspTable: 1 65535 3
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
