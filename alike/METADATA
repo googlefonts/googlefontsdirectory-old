@@ -19,15 +19,15 @@ description: <p>Alike is a text typeface with \
   experience.</p> \
   <p>Designed by Sveta Sebyakina 2009-2011.</p>
 
-font.Alice-Regular.ttf.style: normal
+font.Alike-Regular.ttf.style: normal
 
-font.Alice-Regular.ttf.weight: normal
+font.Alike-Regular.ttf.weight: normal
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#    --chars="Alice" \
-#   ~/googlefontdirectory/alice/Alice-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/alice/; \
+#    --chars="Alike" \
+#   ~/googlefontdirectory/Alike/Alike-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/Alike/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Alice-Regular.menu; \
+#  Alike-Regular.menu; \
