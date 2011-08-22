@@ -1,8 +1,11 @@
 #!/usr/local/bin/fontforge
 # A simple script to generate a menu subset. It outputs all unicode characters
-# in the word for "Khmer script", and also the ligatures needed for correct
-# shaping. After running "fontforge -lang=ff -script menusubset.ff", do "mv
-# Font.menu.ttf Font.menu".
+# for Khmer glyphs and ligatures needed for correct rendering.
+# 
+# fontforge -lang=ff -script menusubset-khmer.ff Font-Regular.ttf;
+# mv Font-Regular.{ttf.menu.ttf,menu};
+# ENSURE THAT THE SPACE CHAR IS THERE
+
 Open($1)
 Select(0u1797)
 SelectMore(0u17b6)

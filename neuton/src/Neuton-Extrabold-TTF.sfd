@@ -1,8 +1,8 @@
 SplineFontDB: 3.0
-FontName: Neuton-Extrabold
+FontName: Neuton-ExtraBold
 FullName: Neuton Extrabold
 FamilyName: Neuton
-Weight: Black
+Weight: ExtraBold
 Copyright: Copyright (c) 2010, Brian M Zick (http://21326.info/),\nwith Reserved Font Name "Neuton".\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
 Version: 1.42
 ItalicAngle: 0
@@ -10,35 +10,36 @@ UnderlinePosition: -361
 UnderlineWidth: 0
 Ascent: 1638
 Descent: 410
+sfntRevision: 0x00016b85
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 288 713564382 10849279]
+XUID: [1021 288 713564382 13169518]
 FSType: 0
 OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307367768
-ModificationTime: 1313786156
+ModificationTime: 1313787576
 PfmFamily: 17
-TTFWeight: 900
+TTFWeight: 800
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 8 3 0 0 0 0 0 0
-OS2TypoAscent: 2106
-OS2TypoAOffset: 0
-OS2TypoDescent: -485
-OS2TypoDOffset: 0
+OS2TypoAscent: 468
+OS2TypoAOffset: 1
+OS2TypoDescent: -75
+OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: 2106
-OS2WinAOffset: 0
-OS2WinDescent: 485
-OS2WinDOffset: 0
-HheadAscent: 2106
-HheadAOffset: 0
-HheadDescent: -485
-HheadDOffset: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 18
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: -19
+HheadDOffset: 1
 OS2SubXSize: 1095
 OS2SubYSize: 1179
 OS2SubXOff: 0
@@ -84,7 +85,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "Reptile : Neuton Extrabold : 22-7-2011" "" "" "" "" "" "Brian M Zick" "" "" "http://21326.info/" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brian M Zick" "" "" "http://21326.info/" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15
 Encoding: UnicodeBmp
 UnicodeInterp: none
