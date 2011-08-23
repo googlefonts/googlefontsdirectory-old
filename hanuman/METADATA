@@ -9,12 +9,17 @@ designer: Danh Hong
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>The Hanuman fonts are designed for readable and beautiful rendering \
-  of text in the Khmer script, the national language of Cambodia. The designer, \
-  <a href="http://khmertype.blogspot.com/">Danh Hong</a>, has many years of experience creating fonts for Khmer and other \
+description: <p>Updated August 31st 2011 with mobile optimizations: \
+  Android support and reduced filesize.</p> \
+  <p>The Hanuman fonts are designed for readable and beautiful \
+  rendering of text in the Khmer script, the national language \
+  of Cambodia. The designer, \
+  <a href="http://khmertype.blogspot.com/">Danh Hong</a>, has \
+  many years of experience creating fonts for Khmer and other \
   Southeast Asian languages, and is actively involved in the \
-  <a href="http://www.khmeros.info/">KhmerOS</a> project, dedicated \
-  to a vision where Cambodians can learn and use computers in their own language.</p>
+  <a href="http://www.khmeros.info/">KhmerOS</a> project, \
+  dedicated to a vision where Cambodians can learn and use \
+  computers in their own language.</p>
 
 font.Hanuman.ttf.weight: normal
 font.Hanumanb.ttf.weight: bold
@@ -22,7 +27,4 @@ font.Hanumanb.ttf.weight: bold
 font.Hanuman.ttf.style: normal
 font.Hanumanb.ttf.style: normal
 
-# menu subset made with menusubset.ff 
-# fontforge -lang=ff -script menusubset-khmer.ff Hanuman.ttf;
-# mv Hanuman.{ttf.menu.ttf,menu};
-# ENSURE THAT THE SPACE CHAR IS THERE
+# menu subset made by Danh Hong
