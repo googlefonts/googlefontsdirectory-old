@@ -1,0 +1,41 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Abril Fatface
+
+designer: Type Together
+
+approved: true
+description: <p>Abril Fatface is a new font from Type Together.</p>
+
+font.Familyname-Regular.ttf.style: normal
+
+font.Familyname-SubfamilyRegular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,calt,locl,liga,kern" \
+#  --chars="Abril Fatface" \
+# ~/googlefontdirectory/abrilfatface/AbrilFatface-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/abrilfatface/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  AbrilFatface-Regular.menu; \
+
+# cd ~/googlefontdirectory/abrilfatface/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in abrilfatface; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/abrilfatface/; \
