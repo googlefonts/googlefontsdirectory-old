@@ -6,7 +6,7 @@ subsets: menu,latin,latin-ext
 
 family: Neuton
 group: Neuton
-font.Neuton-Cursive.ttf.subfamily: Cursive
+font.NeutonCursive-Regular.ttf.subfamily: Cursive
 
 
 designer: Brian Zick
@@ -47,7 +47,7 @@ description: <p>Neuton is a clean, dark, somewhat \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Neuton Cursive" \
-#    ~/googlefontdirectory/neuton/Neuton-Cursive.{ttf,menu}; \
+#    ~/googlefontdirectory/neuton/NeutonCursive-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/neuton; \
 
 
@@ -87,8 +87,8 @@ description: <p>Neuton is a clean, dark, somewhat \
 #    done;
 # done;
 
-font.Neuton-Cursive.ttf.style: normal
-font.Neuton-Cursive.ttf.weight: 400
+font.NeutonCursive-Regular.ttf.style: normal
+font.NeutonCursive-Regular.ttf.weight: 400
 
 
 font.Neuton-ExtraLight.ttf.style: normal
