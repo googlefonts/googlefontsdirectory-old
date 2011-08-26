@@ -1,0 +1,51 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Antic
+
+designer: Santiago Orozco
+
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Antic is the result of \
+  studying calligraphic forms, and is designed to be \
+  used for running text. This started two big \
+  text type family projects and this is the first one. \
+  Antic explores the use of sans-serif \
+  letterforms for text usage, keeping a calligraphic \
+  touch found in the serif counterpart, Clark. The letterforms \
+  have an eight degree stress, which is almost the same degree \
+  of my own hand writing.</p>
+
+font.Antic-Regular.ttf.style: normal
+
+font.Antic-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Antic" \
+# ~/googlefontdirectory/antic/Antic-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/antic/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Antic-Regular.menu; \
+
+# cd ~/googlefontdirectory/antic/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in antic; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/antic/; \
