@@ -2,15 +2,14 @@ SplineFontDB: 3.0
 FontName: Neuton-Italic
 FullName: Neuton Italic
 FamilyName: Neuton
-Weight: Book
-Copyright: Copyright (c) 2010, 2011, Brian M Zick (http://21326.info/),\nwith Reserved Font Name "Neuton".
-Version: 1.31
+Weight: Regular
+Copyright: Copyright (c) 2010, Brian M Zick (http://21326.info/),\nwith Reserved Font Name "Neuton".\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license is available with a FAQ at: http://scripts.sil.org/OFL
+Version: 1.32
 ItalicAngle: -9
 UnderlinePosition: -363
 UnderlineWidth: 181
 Ascent: 1638
 Descent: 410
-sfntRevision: 0x00010001
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
@@ -20,25 +19,25 @@ OS2Version: 1
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1300472649
-ModificationTime: 1311027425
+ModificationTime: 1314362939
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 3 0 0 0 0 0 0
-OS2TypoAscent: 1927
+OS2TypoAscent: 2106
 OS2TypoAOffset: 0
-OS2TypoDescent: -418
+OS2TypoDescent: -485
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 1927
+OS2WinAscent: 2106
 OS2WinAOffset: 0
-OS2WinDescent: 418
+OS2WinDescent: 485
 OS2WinDOffset: 0
-HheadAscent: 1927
+HheadAscent: 2106
 HheadAOffset: 0
-HheadDescent: -418
+HheadDescent: -485
 HheadDOffset: 0
 OS2SubXSize: 1101
 OS2SubYSize: 1185
@@ -1081,7 +1080,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "FontForge : Neuton Italic : 18-3-2011" "" "" "" "" "" "Brian M Zick" "" "" "http://21326.info/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "" "" "" "" "" "" "Brian M Zick" "" "" "http://21326.info/" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 2
 Encoding: UnicodeBmp
 UnicodeInterp: none
