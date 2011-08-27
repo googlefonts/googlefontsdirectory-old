@@ -30,3 +30,10 @@ SelectInvert()
 Clear()
 # This has to end in .ttf or it will not include all the needed glyphs
 Generate($1 + ".menu.ttf")
+
+
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Philosopher" \
+# ~/googlefontdirectory/philosopher/Philosopher-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/philosopher/; \
