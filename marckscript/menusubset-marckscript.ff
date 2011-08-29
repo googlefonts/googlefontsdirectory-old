@@ -1,0 +1,44 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "()Marck Script Каилрц", and also the ligatures needed for correct rendering.
+# 
+# fontforge -lang=ff -script menusubset-marckscript.ff MarckScript-Regular.ttf; \
+# mv MarckScript-Regular.{ttf.menu.ttf,menu}; \
+# ~/googlefontdirectory/tools/chars/showchars.py MarckScript-Regular.menu; \
+# echo "ENSURE THAT THE SPACE CHAR IS THERE - and add by hand if not!"; \
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0u000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+SelectMore(0u004D) # M
+SelectMore(0u0053) # S
+SelectMore(0u0061) # a
+SelectMore(0u0063) # c
+SelectMore(0u0069) # i
+SelectMore(0u006B) # k
+SelectMore(0u0070) # p
+SelectMore(0u0072) # r
+SelectMore(0u0074) # t
+SelectMore(0u041A) # afii10028 cyrillic
+SelectMore(0u0430) # afii10065 cyrillic
+SelectMore(0u0438) # afii10074 cyrillic
+SelectMore(0u043B) # afii10077 cyrillic
+SelectMore(0u0440) # afii10082 cyrillic
+SelectMore(0u0446) # afii10088 cyrillic
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
+
+# This was made with:
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Marck Script" \
+# ~/googlefontdirectory/marckscript/MarckScript-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/marckscript/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MarckScript-Regular.menu; \
