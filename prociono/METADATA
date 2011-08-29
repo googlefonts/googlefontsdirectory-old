@@ -1,0 +1,35 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Prociono
+
+designer: Barry Schwartz
+
+approved: true
+description: <p>“Prociono” (pro-tsee-O-no) is \
+  an Esperanto word meaning either the star \
+  Procyon or the animal species known as the \
+  raccoon. It is a roman with blackletter \
+  elements.</p> \
+  <p>The font is also available from the designer's own site, \
+  <a href="http://sortsmill.googlecode.com">Sortmill</a>, with \
+  a public domain dedication instead of the SIL Open \
+  Font License, and is also available from the \
+  <a href="http://www.theleagueofmoveabletype.com/fonts/13-prociono">League \
+  of Movable Type</a>.</p>
+
+font.Prociono-Regular.ttf.style: normal
+
+font.Prociono-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,cpsp,aalt,liga,locl,CAPS" \
+# --chars="Prociono" \
+# ~/googlefontdirectory/prociono/Prociono-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/prociono/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Prociono-Regular.menu; \
+
