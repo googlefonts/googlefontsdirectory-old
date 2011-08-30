@@ -1,0 +1,45 @@
+visibility: INTERNAL
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
+
+family: Tuffy
+
+designer: Thatcher Ulrich
+
+approved: true
+description: <p>Tuffy is a grotesque sans-serif type.</p>
+
+font.Tuffy-Regular.ttf.style: normal
+font.Tuffy-Italic.ttf.style: italic
+font.Tuffy-Bold.ttf.style: normal
+font.Tuffy-BoldItalic.ttf.style: italic
+
+font.Tuffy-Regular.ttf.weight: 400
+font.Tuffy-Italic.ttf.weight: 400
+font.Tuffy-Bold.ttf.weight: 700
+font.Tuffy-BoldItalic.ttf.weight: 700
+
+# fontforge -lang=ff -script menusubset-tuffy.ff Tuffy-Regular.ttf; \
+# mv Tuffy-Regular.{ttf.menu.ttf,menu}; \
+# ~/googlefontdirectory/tools/chars/showchars.py Tuffy-Regular.menu; \
+
+
+# cd ~/googlefontdirectory/tuffy/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in tuffy; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/tuffy/; \
