@@ -11,8 +11,8 @@ description: <p>Omnibus Type proudly presents Rosario, \
   a new typeface of classic proportions, subtle contrast \
   and weak endings. Carefully produced, elegant, ideal \
   for magazines and academic journals. Rosario is the \
-  name of the city of the designer, Héctor Gatti.</p>
-
+  name of the city of the designer, Héctor Gatti.</p> \
+  <p>An italic was added on 7th September 2011.</p>
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
