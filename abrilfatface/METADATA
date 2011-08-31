@@ -1,7 +1,7 @@
 visibility: SANDBOX
 license: OFL
 category: display
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Abril Fatface
 
@@ -9,20 +9,21 @@ designer: TypeTogether
 
 approved: true
 description: <p>Abril Fatface is part of a bigger type \
-  family system, with 18 Display and Text styles. \
-  The titling weights, based on a contemporary revamp \
+  family system, Abril, which includes 18 styles for all \
+  Display and Text uses. \
+  The titling weights are a contemporary revamp \
   of classic Didone styles, display both neutrality \
-  and strong presence on the page, attracting the \
-  reader's attention with meassured tension in its \
+  and strong presence on the page to attract \
+  reader attention with measured tension by its \
   curves, good color and high contrast.</p> \
-  <p>The Fatface in particular is inspired by heavy \
-  titling fonts used in advertising posters in the \
+  <p>Abril Fatface in particular is inspired by the heavy \
+  titling fonts used in advertising posters in \
   19th century Britain and France. The thin serifs \
   and clean curves lend the typeface a refined touch \
-  and give any headline an elegant appearance. The \
-  character set that supports over 50 languages \
+  that give any headline an elegant appearance. The \
+  Extended Latin character set supports over 50 languages, \
   including those from Central and Northern Europe.</p> \
-  <p>Abril has been designed by TypeTogether, \
+  <p>Abril is designed by TypeTogether - \
   Veronika Burian & José Scaglione. The additional \
   weights of Abril can be seen at \
   <a href="http://www.type-together.com/Abril">www.type-together.com/Abril</a></p>
@@ -39,3 +40,20 @@ font.AbrilFatface-Regular.ttf.weight: 400
 # cd ~/googlefontdirectory/abrilfatface/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  AbrilFatface-Regular.menu; \
+
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in abrilfatface; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/abrilfatface/; \
+
