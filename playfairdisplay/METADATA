@@ -2,7 +2,7 @@ payment: NONE
 
 license: OFL
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Playfair Display
 
@@ -61,3 +61,19 @@ description: <p>Playfair is a transitional design. \
 #    --chars="Playfair Display" \
 #   ~/googlefontdirectory/playfairdisplay/PlayfairDisplay-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/playfairdisplay/; 
+
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in playfairdisplay; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/playfairdisplay/; \
