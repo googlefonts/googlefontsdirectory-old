@@ -1,14 +1,9 @@
 license: OFL
-payment: DESIGNER
-url: http://j-mach-wust.users.sourceforge.net
-# 2010-11-25 DC this category is not ideal, perhaps we should add 'blackletter'
-# category: blackletter
 category: display
 subsets: menu,latin
 
 family: UnifrakturCook
 
-# 2010-11-22 DC Designer wants lowercase name
 designer: j. 'mach' wust
 originaldesigner: Peter Wiegel
 
@@ -63,7 +58,30 @@ description: <p>UnifrakturCook is a blackletter font. \
   and AAT to a font</a>.</p>
 
 font.UnifrakturCook-Bold.ttf.weight: bold
+font.UnifrakturCook-Bold.ttf.style: normal
 
-conversion: Latin created with subset.py
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="UnifrakturCook" \
+# ~/googlefontdirectory/unifrakturcook/UnifrakturCook-Bold.{ttf,menu}; \
+# cd ~/googlefontdirectory/unifrakturcook/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  UnifrakturCook-Bold.menu; \
 
-profile: <p>J. 'mach' wust lives in Switzerland. His main interests are scripts of all kinds, especially their linguistic aspects. He came to type design because he noticed that the powerful capabilities provided by Unicode and smart font technologies were largely ignored.</p><p>The first font related project by j. 'mach' wust is the <a href="http://freetengwar.sourceforge.net/">Free Tengwar Font Project</a>. It combines Unicode compatibility with smart font technologies.</p><p>The second font related project by j. 'mach' wust is the <a href="http://unifraktur.sourceforge.net/">Unifraktur</a> project. He created it because most fraktur fonts he could find outrightly violated the Unicode standard by using private letter assignments, and none used smart font technologies for displaying the ligatures.</p>
+# cd ~/googlefontdirectory/unifrakturcook/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in unifrakturcook; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/unifrakturcook/; \
