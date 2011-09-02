@@ -1,0 +1,25 @@
+visibility: SANDBOX
+license: OFL
+category: handwriting
+subsets: menu,latin
+
+family: Merienda One
+
+designer: Eduardo Tunni
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>A script type by Eduardo Tunni.</p>
+
+font.MeriendaOne-Regular.ttf.style: normal
+font.MeriendaOne-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Merienda One" \
+#   ~/googlefontdirectory/meriendaone/MeriendaOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/meriendaone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MeriendaOne-Regular.menu; \
