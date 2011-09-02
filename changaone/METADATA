@@ -1,0 +1,25 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Changa One
+
+designer: Eduardo Tunni
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>A sans serif type by Eduardo Tunni.</p>
+
+font.ChangaOne-Regular.ttf.style: normal
+font.ChangaOne-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Changa One" \
+#   ~/googlefontdirectory/changaone/ChangaOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/changaone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  ChangaOne-Regular.menu; \
