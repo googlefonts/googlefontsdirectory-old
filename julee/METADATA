@@ -5,12 +5,20 @@ subsets: menu,latin
 
 family: Julee
 
-designer: Eduardo Tunni
+designer: Julian Tunni
 
 profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
-description: <p>A script type by Eduardo Tunni.</p>
+description: <p>The peculiarity of this typography lies \
+  in its curved structures and strokes, which are developed on \
+  it by getting thinner and sharper as if they were being typed \
+  using a metallic and bevel-edged point.</p> \
+  <p>The visual mark characteristic of Julee is a casual \
+  cursive-like type, yet balanced due to the tidy \
+  proportions of its signs.</p> \
+  <p>More documentation can be found at \
+  <a href="http://www.tipo.net.ar">www.tipo.net.ar</a></p>
 
 font.Julee-Regular.ttf.style: normal
 font.Julee-Regular.ttf.weight: normal
