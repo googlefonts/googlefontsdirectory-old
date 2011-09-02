@@ -1,7 +1,4 @@
 license: OFL
-payment: DESIGNER
-url: http://pixelspread.com
-foundry: http://theleagueofmoveabletype.com
 category: sans-serif
 subsets: menu,latin
 
@@ -23,7 +20,16 @@ description: <p>Raleway is an elegant \
   by more geometric sans-serif typefaces \
   than it’s neo-grotesque inspired \
   default character set.</p> \
- 
-profile: <p>I’m a graphic designer currently studying at the Savannah College of Art and Design. I also co-host a design podcast called Read Between the Leading.</p>
 
 font.Raleway-Thin.ttf.weight: 100
+font.Raleway-Thin.ttf.style: normal
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt,salt" \
+#  --chars="Raleway" \
+# ~/googlefontdirectory/raleway/Raleway-Thin.{ttf,menu}; \
+# cd ~/googlefontdirectory/raleway/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+# Raleway-Thin.menu; \
+
