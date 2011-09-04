@@ -1,0 +1,31 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Prata
+
+designer: Cyreal
+
+approved: true
+description: <p>Prata is an elegant Didone \
+  typeface with sharp features and organic teardrops. \
+  There is a certain tension in the contrast of its virile \
+  serifs  and soft refined curves. Its triangular \
+  serifs complement and accent the thin strokes, \
+  and the high contrast means it will work best \
+  in display sizes.</p> \
+  <p>Designed by Ivan Petrov for Cyreal.</p>
+
+font.Prata-Regular.ttf.style: normal
+
+font.Prata-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Prata" \
+#   ~/googlefontdirectory/prata/Prata-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/prata/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Prata-Regular.menu; \
