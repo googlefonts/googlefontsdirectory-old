@@ -34,8 +34,8 @@ description: <p>Radley is based on lettering \
   desktop computers, laptops and \
   mobile devices.</p>
 
-font.Familyname-Regular.ttf.style: normal
-font.Familyname-Regular.ttf.weight: 400
+font.Radley-Regular.ttf.style: normal
+font.Radley-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
