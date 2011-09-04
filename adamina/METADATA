@@ -1,0 +1,33 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Adamina
+
+designer: Cyreal
+
+approved: true
+description: <p>Adamina is a typeface designed \
+  for text setting in small sizes. For this \
+  purpose the x-height is increased and \
+  contrast lowered. Proportions are \
+  transitional and compact. Refined \
+  design features like one-sided \
+  flaring and asymmetrical serifs \
+  are there to provide a pleasant \
+  reading experience.</p> \
+  <p>Designed by Alexei Vanyashin for Cyreal.</p>
+
+font.Adamina-Regular.ttf.style: normal
+
+font.Adamina-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Adamina" \
+#   ~/googlefontdirectory/adamina/Adamina-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/adamina/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Adamina-Regular.menu; \
