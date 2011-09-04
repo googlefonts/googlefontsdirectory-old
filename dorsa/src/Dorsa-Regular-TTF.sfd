@@ -4,7 +4,7 @@ FullName: Dorsa
 FamilyName: Dorsa
 Weight: Regular
 Copyright: Copyright (c) 2011, Santiago Orozco (hi@typemade.mx), with Reserved Font Name "Dorsa"
-Version: 1.001
+Version: 1.002
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -14,13 +14,13 @@ LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
-XUID: [1021 288 713564382 10937003]
+XUID: [1021 288 713564382 4705268]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1305767754
-ModificationTime: 1314377915
+ModificationTime: 1315141010
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,9 +53,15 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000111.00000000
 OS2UnicodeRanges: 800000a7.0800004a.14000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  "'kern' Horizontal Kerning in Latin lookup 0 kerning class 2"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 2+ 3 "'kern' Horizontal Kerning in Latin lookup 0 kerning class 2" 
+ 50 A Agrave Aacute Acircumflex Atilde Adieresis Aring
+ 18 Y Yacute Ydieresis
+ 18 Y Yacute Ydieresis
+ 4 A AE
+ 0 {} -38 {} 0 {} 0 {} 0 {} -38 {}
 TtTable: prep
 PUSHW_1
  511
@@ -64,377 +70,6 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-TtTable: fpgm
-PUSHW_1
- 0
-FDEF
-MPPEM
-PUSHW_1
- 9
-LT
-IF
-PUSHB_2
- 1
- 1
-INSTCTRL
-EIF
-PUSHW_1
- 511
-SCANCTRL
-PUSHW_1
- 68
-SCVTCI
-PUSHW_2
- 9
- 3
-SDS
-SDB
-ENDF
-PUSHW_1
- 1
-FDEF
-DUP
-DUP
-RCVT
-ROUND[Black]
-WCVTP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHW_1
- 2
-FDEF
-PUSHW_1
- 1
-LOOPCALL
-POP
-ENDF
-PUSHW_1
- 3
-FDEF
-DUP
-GC[cur]
-PUSHB_1
- 3
-CINDEX
-GC[cur]
-GT
-IF
-SWAP
-EIF
-DUP
-ROLL
-DUP
-ROLL
-MD[grid]
-ABS
-ROLL
-DUP
-GC[cur]
-DUP
-ROUND[Grey]
-SUB
-ABS
-PUSHB_1
- 4
-CINDEX
-GC[cur]
-DUP
-ROUND[Grey]
-SUB
-ABS
-GT
-IF
-SWAP
-NEG
-ROLL
-EIF
-MDAP[rnd]
-DUP
-PUSHB_1
- 0
-GTEQ
-IF
-ROUND[Black]
-DUP
-PUSHB_1
- 0
-EQ
-IF
-POP
-PUSHB_1
- 64
-EIF
-ELSE
-ROUND[Black]
-DUP
-PUSHB_1
- 0
-EQ
-IF
-POP
-PUSHB_1
- 64
-NEG
-EIF
-EIF
-MSIRP[no-rp0]
-ENDF
-PUSHW_1
- 4
-FDEF
-DUP
-GC[cur]
-PUSHB_1
- 4
-CINDEX
-GC[cur]
-GT
-IF
-SWAP
-ROLL
-EIF
-DUP
-GC[cur]
-DUP
-ROUND[White]
-SUB
-ABS
-PUSHB_1
- 4
-CINDEX
-GC[cur]
-DUP
-ROUND[White]
-SUB
-ABS
-GT
-IF
-SWAP
-ROLL
-EIF
-MDAP[rnd]
-MIRP[rp0,min,rnd,black]
-ENDF
-PUSHW_1
- 5
-FDEF
-MPPEM
-DUP
-PUSHB_1
- 3
-MINDEX
-LT
-IF
-LTEQ
-IF
-PUSHB_1
- 128
-WCVTP
-ELSE
-PUSHB_1
- 64
-WCVTP
-EIF
-ELSE
-POP
-POP
-DUP
-RCVT
-PUSHB_1
- 192
-LT
-IF
-PUSHB_1
- 192
-WCVTP
-ELSE
-POP
-EIF
-EIF
-ENDF
-PUSHW_1
- 6
-FDEF
-DUP
-DUP
-RCVT
-ROUND[Black]
-WCVTP
-PUSHB_1
- 1
-ADD
-DUP
-DUP
-RCVT
-RDTG
-ROUND[Black]
-RTG
-WCVTP
-PUSHB_1
- 1
-ADD
-ENDF
-PUSHW_1
- 7
-FDEF
-PUSHW_1
- 6
-LOOPCALL
-ENDF
-PUSHW_1
- 8
-FDEF
-MPPEM
-DUP
-PUSHB_1
- 3
-MINDEX
-GTEQ
-IF
-PUSHB_1
- 64
-ELSE
-PUSHB_1
- 0
-EIF
-ROLL
-ROLL
-DUP
-PUSHB_1
- 3
-MINDEX
-GTEQ
-IF
-SWAP
-POP
-PUSHB_1
- 128
-ROLL
-ROLL
-ELSE
-ROLL
-SWAP
-EIF
-DUP
-PUSHB_1
- 3
-MINDEX
-GTEQ
-IF
-SWAP
-POP
-PUSHW_1
- 192
-ROLL
-ROLL
-ELSE
-ROLL
-SWAP
-EIF
-DUP
-PUSHB_1
- 3
-MINDEX
-GTEQ
-IF
-SWAP
-POP
-PUSHW_1
- 256
-ROLL
-ROLL
-ELSE
-ROLL
-SWAP
-EIF
-DUP
-PUSHB_1
- 3
-MINDEX
-GTEQ
-IF
-SWAP
-POP
-PUSHW_1
- 320
-ROLL
-ROLL
-ELSE
-ROLL
-SWAP
-EIF
-DUP
-PUSHW_1
- 3
-MINDEX
-GTEQ
-IF
-PUSHB_1
- 3
-CINDEX
-RCVT
-PUSHW_1
- 384
-LT
-IF
-SWAP
-POP
-PUSHW_1
- 384
-SWAP
-POP
-ELSE
-PUSHB_1
- 3
-CINDEX
-RCVT
-SWAP
-POP
-SWAP
-POP
-EIF
-ELSE
-POP
-EIF
-WCVTP
-ENDF
-PUSHW_1
- 9
-FDEF
-MPPEM
-GTEQ
-IF
-RCVT
-WCVTP
-ELSE
-POP
-POP
-EIF
-ENDF
-EndTTInstrs
-ShortTable: cvt  1
-  20
-EndShort
-ShortTable: maxp 16
-  1
-  0
-  212
-  87
-  5
-  0
-  0
-  1
-  0
-  0
-  10
-  0
-  512
-  0
-  0
-  0
-EndShort
 LangName: 1033 "" "" "" "" "" "" "" "Dorsa is a trademark of Typemade." "Typemade" "Santiago Orozco" "" "" "http://typemade.mx" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "" "" "Dorsa" 
 GaspTable: 1 65535 15
 Encoding: UnicodeBmp
@@ -443,10 +78,10 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 34 34 13
+WinInfo: 34 34 12
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65539 212
+BeginChars: 65539 211
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -458,6 +93,7 @@ EndChar
 StartChar: .null
 Encoding: 65537 -1 1
 Width: 0
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 EndChar
@@ -465,6 +101,7 @@ EndChar
 StartChar: nonmarkingreturn
 Encoding: 65538 -1 2
 Width: 100
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 EndChar
@@ -473,6 +110,7 @@ StartChar: space
 Encoding: 32 32 3
 AltUni2: 0000a0.ffffffff.0
 Width: 100
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 EndChar
@@ -480,7 +118,143 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 4
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 28
+ 5
+ 1
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 7
+ 22
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 35
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -500,7 +274,135 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 5
 Width: 131
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 18
+ 5
+ 3
+ 4
+ 3
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 0
+ 7
+ 1
+ 23
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 28
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 2
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 5
+ 3
+ 4
+ 3
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+ELSE
+NPUSHB
+ 35
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 2
+ 5
+ 1
+ 3
+ 1
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -520,7 +422,277 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 6
 Width: 369
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 34
+ 31
+ 30
+ 29
+ 28
+ 27
+ 26
+ 25
+ 24
+ 23
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 16
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 9
+LT
+IF
+NPUSHB
+ 57
+ 3
+ 1
+ 1
+ 0
+ 0
+ 1
+ 31
+ 10
+ 1
+ 8
+ 7
+ 7
+ 8
+ 32
+ 4
+ 2
+ 2
+ 0
+ 15
+ 13
+ 2
+ 5
+ 6
+ 0
+ 5
+ 0
+ 2
+ 29
+ 14
+ 12
+ 2
+ 6
+ 7
+ 7
+ 6
+ 0
+ 0
+ 26
+ 14
+ 12
+ 2
+ 6
+ 6
+ 7
+ 0
+ 0
+ 27
+ 11
+ 9
+ 2
+ 7
+ 6
+ 7
+ 0
+ 0
+ 24
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 55
+ 3
+ 1
+ 1
+ 0
+ 1
+ 43
+ 10
+ 1
+ 8
+ 7
+ 8
+ 44
+ 4
+ 2
+ 2
+ 0
+ 15
+ 13
+ 2
+ 5
+ 6
+ 0
+ 5
+ 0
+ 2
+ 29
+ 14
+ 12
+ 2
+ 6
+ 7
+ 7
+ 6
+ 0
+ 0
+ 26
+ 14
+ 12
+ 2
+ 6
+ 6
+ 7
+ 0
+ 0
+ 27
+ 11
+ 9
+ 2
+ 7
+ 6
+ 7
+ 0
+ 0
+ 24
+ 6
+ELSE
+NPUSHB
+ 95
+ 0
+ 1
+ 3
+ 1
+ 43
+ 0
+ 3
+ 0
+ 3
+ 43
+ 0
+ 10
+ 7
+ 8
+ 7
+ 10
+ 8
+ 41
+ 0
+ 8
+ 8
+ 42
+ 0
+ 2
+ 0
+ 15
+ 13
+ 2
+ 15
+ 0
+ 2
+ 29
+ 0
+ 0
+ 0
+ 13
+ 5
+ 0
+ 13
+ 0
+ 0
+ 29
+ 0
+ 4
+ 0
+ 5
+ 6
+ 4
+ 5
+ 0
+ 2
+ 29
+ 0
+ 6
+ 12
+ 7
+ 6
+ 0
+ 0
+ 26
+ 0
+ 12
+ 0
+ 11
+ 9
+ 12
+ 11
+ 0
+ 0
+ 29
+ 0
+ 14
+ 0
+ 9
+ 7
+ 14
+ 9
+ 0
+ 0
+ 29
+ 0
+ 6
+ 6
+ 7
+ 0
+ 0
+ 27
+ 0
+ 7
+ 6
+ 7
+ 0
+ 0
+ 24
+ 12
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -564,6 +736,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 7
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -618,6 +791,7 @@ EndChar
 StartChar: percent
 Encoding: 37 37 8
 Width: 363
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -669,6 +843,7 @@ EndChar
 StartChar: ampersand
 Encoding: 38 38 9
 Width: 196
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -715,7 +890,76 @@ EndChar
 StartChar: quotesingle
 Encoding: 39 39 10
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 15
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 1
+ 23
+ 2
+ELSE
+NPUSHB
+ 24
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -730,7 +974,51 @@ EndChar
 StartChar: parenleft
 Encoding: 40 40 11
 Width: 114
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 13
+ 12
+ 9
+ 8
+ 7
+ 6
+ 1
+ 0
+ 4
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 1
+ 0
+ 2
+ 1
+ 2
+ 1
+ 0
+ 28
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 27
+ 0
+ 3
+ 3
+ 9
+ 0
+ 23
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -751,7 +1039,51 @@ EndChar
 StartChar: parenright
 Encoding: 41 41 12
 Width: 114
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 13
+ 12
+ 7
+ 6
+ 5
+ 4
+ 1
+ 0
+ 4
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 2
+ 0
+ 1
+ 2
+ 1
+ 1
+ 0
+ 28
+ 0
+ 3
+ 3
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 3
+ 23
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -772,7 +1104,108 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 13
 Width: 201
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 12
+ 11
+ 3
+ 2
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 33
+ 17
+ 16
+ 15
+ 14
+ 13
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 1
+ 0
+ 14
+ 1
+ 0
+ 1
+ 21
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 42
+ 17
+ 16
+ 15
+ 14
+ 13
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 1
+ 0
+ 14
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -801,7 +1234,119 @@ EndChar
 StartChar: plus
 Encoding: 43 43 14
 Width: 298
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 35
+ 0
+ 1
+ 0
+ 4
+ 1
+ 0
+ 0
+ 26
+ 2
+ 1
+ 0
+ 5
+ 1
+ 3
+ 4
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 1
+ 4
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 43
+ 0
+ 1
+ 0
+ 4
+ 1
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 5
+ 3
+ 0
+ 5
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 4
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 1
+ 4
+ 0
+ 0
+ 24
+ 5
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -824,7 +1369,52 @@ EndChar
 StartChar: comma
 Encoding: 44 44 15
 Width: 80
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+NPUSHB
+ 24
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -839,7 +1429,47 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 16
 Width: 150
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 3
+ 2
+ 1
+ 0
+ 2
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -854,7 +1484,76 @@ EndChar
 StartChar: period
 Encoding: 46 46 17
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 15
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 2
+ELSE
+NPUSHB
+ 24
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -869,7 +1568,63 @@ EndChar
 StartChar: slash
 Encoding: 47 47 18
 Width: 208
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 13
+ 2
+ 1
+ 1
+ 1
+ 9
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 2
+ELSE
+NPUSHB
+ 13
+ 0
+ 0
+ 1
+ 0
+ 44
+ 2
+ 1
+ 1
+ 1
+ 9
+ 1
+ 23
+ 2
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -884,6 +1639,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 19
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -912,7 +1668,115 @@ EndChar
 StartChar: one
 Encoding: 49 49 20
 Width: 117
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 4
+ 3
+ 2
+ 1
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 0
+ 7
+ 22
+ 0
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 22
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 31
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -930,6 +1794,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 21
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -969,6 +1834,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 22
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1011,7 +1877,229 @@ EndChar
 StartChar: four
 Encoding: 52 52 23
 Width: 215
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 10
+ 10
+ 0
+ 0
+ 10
+ 12
+ 10
+ 12
+ 0
+ 9
+ 0
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 32
+ 11
+ 1
+ 0
+ 4
+ 1
+ 21
+ 7
+ 5
+ 2
+ 0
+ 3
+ 1
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 6
+ 1
+ 4
+ 4
+ 7
+ 22
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 34
+ 11
+ 1
+ 0
+ 4
+ 1
+ 21
+ 7
+ 5
+ 2
+ 0
+ 3
+ 1
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 6
+ 1
+ 4
+ 4
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 44
+ 11
+ 1
+ 0
+ 4
+ 1
+ 21
+ 6
+ 1
+ 4
+ 0
+ 2
+ 4
+ 0
+ 0
+ 26
+ 7
+ 5
+ 2
+ 0
+ 3
+ 1
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 6
+ 1
+ 4
+ 4
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 52
+ 11
+ 1
+ 0
+ 4
+ 1
+ 21
+ 6
+ 1
+ 4
+ 0
+ 2
+ 4
+ 0
+ 0
+ 26
+ 7
+ 1
+ 5
+ 0
+ 3
+ 1
+ 5
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 6
+ 1
+ 4
+ 4
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1036,6 +2124,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 24
 Width: 193
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1068,6 +2157,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 25
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1106,7 +2196,115 @@ EndChar
 StartChar: seven
 Encoding: 55 55 26
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 7
+ 22
+ 3
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 18
+ 0
+ 1
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 29
+ 3
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 2
+ELSE
+NPUSHB
+ 29
+ 3
+ 1
+ 2
+ 0
+ 2
+ 44
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1123,6 +2321,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 27
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1168,6 +2367,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 28
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1206,7 +2406,106 @@ EndChar
 StartChar: colon
 Encoding: 58 58 29
 Width: 77
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 35
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1226,7 +2525,71 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 30
 Width: 89
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+NPUSHB
+ 35
+ 0
+ 0
+ 4
+ 1
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 3
+ 3
+ 2
+ 0
+ 0
+ 26
+ 0
+ 2
+ 2
+ 3
+ 0
+ 0
+ 27
+ 5
+ 1
+ 3
+ 2
+ 3
+ 0
+ 0
+ 24
+ 4
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1246,7 +2609,84 @@ EndChar
 StartChar: less
 Encoding: 60 60 31
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 4
+ 3
+ 1
+ 0
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 21
+ 5
+ 2
+ 2
+ 1
+ 0
+ 1
+ 21
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 10
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 30
+ 5
+ 2
+ 2
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1263,7 +2703,61 @@ EndChar
 StartChar: equal
 Encoding: 61 61 32
 Width: 299
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 3
+ 3
+ 2
+ 0
+ 0
+ 26
+ 0
+ 2
+ 2
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 2
+ 3
+ 0
+ 0
+ 24
+ 4
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1283,7 +2777,84 @@ EndChar
 StartChar: greater
 Encoding: 62 62 33
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 4
+ 3
+ 1
+ 0
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 21
+ 5
+ 2
+ 2
+ 0
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 10
+ 0
+ 23
+ 3
+ELSE
+NPUSHB
+ 30
+ 5
+ 2
+ 2
+ 0
+ 1
+ 1
+ 21
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1300,6 +2871,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 34
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1313,30 +2885,32 @@ SplineSet
  111 356 111 356 105.5 312.5 c 128,-1,8
  100 269 100 269 100 200 c 1,9,-1
  75 200 l 1,10,11
- 71.1 297.5 71.1 297.5 77.55 329.75 c 128,-1,12
- 84 362 84 362 91 376 c 128,-1,13
- 98 390 98 390 114 407.5 c 128,-1,14
- 130 425 130 425 133.5 452.5 c 128,-1,15
- 137 480 137 480 137 518 c 2,16,-1
- 137 639 l 2,17,18
- 137 668 137 668 128.5 681.5 c 128,-1,19
- 120 695 120 695 96 695 c 128,-1,20
- 72 695 72 695 64 681.5 c 128,-1,21
- 56 668 56 668 56 639 c 2,22,-1
- 56 500 l 1,23,-1
- 21 500 l 1,24,-1
+ 73.6666666667 233.333333333 73.6666666667 233.333333333 73.6666666667 252.833333333 c 128,-1,12
+ 73.6666666667 272.333333333 73.6666666667 272.333333333 74.3333333333 294.666666667 c 128,-1,13
+ 75 317 75 317 79.5 339.5 c 0,14,15
+ 87.2558139535 378.279069767 87.2558139535 378.279069767 108.627906977 401.639534884 c 128,-1,16
+ 130 425 130 425 133.5 452.5 c 128,-1,17
+ 137 480 137 480 137 518 c 2,18,-1
+ 137 639 l 2,19,20
+ 137 668 137 668 128.5 681.5 c 128,-1,21
+ 120 695 120 695 96 695 c 128,-1,22
+ 72 695 72 695 64 681.5 c 128,-1,23
+ 56 668 56 668 56 639 c 2,24,-1
+ 56 500 l 1,25,-1
+ 21 500 l 1,26,-1
  21 640 l 2,0,1
-71 -1 m 1,25,-1
- 71 63 l 1,26,-1
- 106 63 l 1,27,-1
- 106 -1 l 1,28,-1
- 71 -1 l 1,25,-1
+71 -1 m 1,27,-1
+ 71 63 l 1,28,-1
+ 106 63 l 1,29,-1
+ 106 -1 l 1,30,-1
+ 71 -1 l 1,27,-1
 EndSplineSet
 EndChar
 
 StartChar: at
 Encoding: 64 64 35
 Width: 428
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1401,7 +2975,209 @@ EndChar
 StartChar: A
 Encoding: 65 65 36
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 9
+ 8
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 30
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 0
+ 0
+ 0
+ 7
+ 22
+ 5
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 30
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 4
+ 0
+ 43
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 5
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 41
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 4
+ 0
+ 43
+ 5
+ 3
+ 2
+ 1
+ 2
+ 1
+ 44
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 6
+ELSE
+NPUSHB
+ 47
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 4
+ 0
+ 43
+ 5
+ 1
+ 3
+ 2
+ 1
+ 2
+ 3
+ 1
+ 41
+ 0
+ 1
+ 1
+ 42
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 7
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1419,13 +3195,201 @@ SplineSet
  96 556 l 1,10,-1
  61 245 l 1,8,-1
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: B
 Encoding: 66 66 37
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 24
+ 24
+ 0
+ 0
+ 24
+ 33
+ 24
+ 33
+ 27
+ 25
+ 21
+ 19
+ 18
+ 16
+ 0
+ 13
+ 0
+ 13
+ 12
+ 10
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 44
+ 6
+ 1
+ 2
+ 4
+ 1
+ 21
+ 0
+ 4
+ 0
+ 2
+ 3
+ 4
+ 2
+ 1
+ 0
+ 29
+ 7
+ 1
+ 5
+ 5
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 3
+ 3
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 42
+ 6
+ 1
+ 2
+ 4
+ 1
+ 21
+ 6
+ 1
+ 1
+ 7
+ 1
+ 5
+ 4
+ 1
+ 5
+ 0
+ 0
+ 29
+ 0
+ 4
+ 0
+ 2
+ 3
+ 4
+ 2
+ 1
+ 0
+ 29
+ 0
+ 3
+ 3
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 5
+ELSE
+NPUSHB
+ 51
+ 6
+ 1
+ 2
+ 4
+ 1
+ 21
+ 6
+ 1
+ 1
+ 7
+ 1
+ 5
+ 4
+ 1
+ 5
+ 0
+ 0
+ 29
+ 0
+ 4
+ 0
+ 2
+ 3
+ 4
+ 2
+ 1
+ 0
+ 29
+ 0
+ 3
+ 0
+ 0
+ 3
+ 1
+ 0
+ 26
+ 0
+ 3
+ 3
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 3
+ 0
+ 1
+ 0
+ 24
+ 6
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1464,6 +3428,7 @@ EndChar
 StartChar: C
 Encoding: 67 67 38
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1495,6 +3460,7 @@ EndChar
 StartChar: D
 Encoding: 68 68 39
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1521,7 +3487,170 @@ EndChar
 StartChar: E
 Encoding: 69 69 40
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 0
+ 0
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 7
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 37
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 5
+ 0
+ 0
+ 27
+ 6
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 35
+ 6
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 4
+ELSE
+NPUSHB
+ 44
+ 6
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 4
+ 4
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 3
+ 4
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1544,7 +3673,149 @@ EndChar
 StartChar: F
 Encoding: 70 70 41
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 9
+ 0
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 30
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 4
+ 0
+ 0
+ 27
+ 5
+ 1
+ 4
+ 4
+ 7
+ 22
+ 0
+ 3
+ 3
+ 8
+ 3
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 28
+ 5
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 8
+ 3
+ 23
+ 3
+ELSE
+NPUSHB
+ 39
+ 0
+ 3
+ 2
+ 3
+ 44
+ 5
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1565,6 +3836,7 @@ EndChar
 StartChar: G
 Encoding: 71 71 42
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1598,7 +3870,198 @@ EndChar
 StartChar: H
 Encoding: 72 72 43
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 0
+ 0
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 7
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 25
+ 0
+ 4
+ 0
+ 1
+ 0
+ 4
+ 1
+ 0
+ 0
+ 29
+ 6
+ 5
+ 2
+ 3
+ 3
+ 7
+ 22
+ 2
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 27
+ 0
+ 4
+ 0
+ 1
+ 0
+ 4
+ 1
+ 0
+ 0
+ 29
+ 6
+ 5
+ 2
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 38
+ 6
+ 5
+ 2
+ 3
+ 4
+ 0
+ 3
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 1
+ 0
+ 4
+ 1
+ 0
+ 0
+ 29
+ 6
+ 5
+ 2
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 3
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 45
+ 6
+ 1
+ 5
+ 4
+ 0
+ 5
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 1
+ 2
+ 4
+ 1
+ 0
+ 0
+ 29
+ 0
+ 3
+ 0
+ 2
+ 0
+ 3
+ 2
+ 0
+ 0
+ 29
+ 6
+ 1
+ 5
+ 5
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 5
+ 0
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1621,7 +4084,99 @@ EndChar
 StartChar: I
 Encoding: 73 73 44
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 13
+ 2
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 15
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 2
+ELSE
+NPUSHB
+ 25
+ 2
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 3
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1636,6 +4191,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 45
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1661,7 +4217,184 @@ EndChar
 StartChar: K
 Encoding: 75 75 46
 Width: 194
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 10
+ 0
+ 10
+ 8
+ 7
+ 5
+ 4
+ 2
+ 1
+ 5
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 23
+ 9
+ 6
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 25
+ 9
+ 6
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 35
+ 9
+ 6
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 2
+ 2
+ 0
+ 0
+ 0
+ 26
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 2
+ 0
+ 2
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 42
+ 9
+ 6
+ 3
+ 3
+ 3
+ 1
+ 1
+ 21
+ 0
+ 1
+ 3
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 0
+ 4
+ 1
+ 3
+ 2
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1678,13 +4411,116 @@ SplineSet
  55 0 l 1,10,-1
  20 0 l 1,0,-1
 EndSplineSet
-Kerns2: 58 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -30 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -4 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -30 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: L
 Encoding: 76 76 47
 Width: 170
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 8
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 19
+ 0
+ 0
+ 0
+ 7
+ 22
+ 0
+ 1
+ 1
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 19
+ 0
+ 0
+ 1
+ 0
+ 43
+ 0
+ 1
+ 1
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+NPUSHB
+ 28
+ 0
+ 0
+ 1
+ 0
+ 43
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 2
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1696,13 +4532,230 @@ SplineSet
  20 0 l 1,5,-1
  20 700 l 1,0,-1
 EndSplineSet
-Kerns2: 193 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  156 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 193 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  156 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  60 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Ydieresis dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Yacute dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Y dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" W dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" V dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" T dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: M
 Encoding: 77 77 48
 Width: 253
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 12
+ 0
+ 12
+ 10
+ 9
+ 7
+ 6
+ 5
+ 4
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 31
+ 11
+ 8
+ 3
+ 3
+ 3
+ 0
+ 1
+ 21
+ 0
+ 3
+ 0
+ 2
+ 0
+ 3
+ 2
+ 41
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 5
+ 4
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 33
+ 11
+ 8
+ 3
+ 3
+ 3
+ 0
+ 1
+ 21
+ 0
+ 3
+ 0
+ 2
+ 0
+ 3
+ 2
+ 41
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 5
+ 4
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 43
+ 11
+ 8
+ 3
+ 3
+ 3
+ 0
+ 1
+ 21
+ 0
+ 3
+ 0
+ 2
+ 0
+ 3
+ 2
+ 41
+ 1
+ 1
+ 0
+ 3
+ 2
+ 0
+ 0
+ 0
+ 26
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 5
+ 4
+ 2
+ 2
+ 0
+ 2
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 50
+ 11
+ 8
+ 3
+ 3
+ 3
+ 1
+ 1
+ 21
+ 0
+ 3
+ 1
+ 4
+ 1
+ 3
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 0
+ 5
+ 1
+ 4
+ 2
+ 0
+ 4
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1726,7 +4779,184 @@ EndChar
 StartChar: N
 Encoding: 78 78 49
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 10
+ 0
+ 10
+ 7
+ 6
+ 5
+ 4
+ 2
+ 1
+ 5
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 23
+ 9
+ 8
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 25
+ 9
+ 8
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 35
+ 9
+ 8
+ 3
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 2
+ 2
+ 0
+ 0
+ 0
+ 26
+ 1
+ 1
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 2
+ 0
+ 2
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 42
+ 9
+ 8
+ 3
+ 3
+ 3
+ 1
+ 1
+ 21
+ 0
+ 1
+ 3
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 0
+ 4
+ 1
+ 3
+ 2
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1748,6 +4978,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 50
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1776,6 +5007,7 @@ EndChar
 StartChar: P
 Encoding: 80 80 51
 Width: 193
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1804,6 +5036,7 @@ EndChar
 StartChar: Q
 Encoding: 81 81 52
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1838,6 +5071,7 @@ EndChar
 StartChar: R
 Encoding: 82 82 53
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1872,6 +5106,7 @@ EndChar
 StartChar: S
 Encoding: 83 83 54
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1915,7 +5150,157 @@ EndChar
 StartChar: T
 Encoding: 84 84 55
 Width: 200
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 3
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 22
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 18
+ 0
+ 0
+ 3
+ 1
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 29
+ 0
+ 2
+ 1
+ 2
+ 44
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 3
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 35
+ 0
+ 3
+ 0
+ 1
+ 1
+ 3
+ 33
+ 0
+ 2
+ 1
+ 2
+ 44
+ 0
+ 0
+ 3
+ 1
+ 0
+ 0
+ 2
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1929,12 +5314,85 @@ SplineSet
  20 685 l 1,7,-1
  20 700 l 1,0,-1
 EndSplineSet
-Kerns2: 192 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  189 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  187 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  186 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  185 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  184 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  181 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  180 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  179 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  178 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  177 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  176 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  175 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  174 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  173 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  172 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  171 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  170 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  169 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  168 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  167 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  166 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  165 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  164 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  163 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  162 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  161 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  160 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  159 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  158 -6 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  133 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  116 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  99 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  96 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  95 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  93 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  92 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  91 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  90 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  89 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  88 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  87 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  86 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  85 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  84 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  83 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  82 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  81 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  80 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  79 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  78 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  77 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  76 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  75 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  74 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  73 -6 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  72 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  71 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  70 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  69 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  68 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  64 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  62 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -46 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  20 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  19 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  11 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  9 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 192 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  189 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  187 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  186 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  185 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  184 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  181 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  180 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  179 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  178 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  177 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  176 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  175 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  174 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  173 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  172 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  171 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  170 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  169 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  168 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  167 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  166 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  165 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  164 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  163 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  162 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  161 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  160 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  159 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  158 -6 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  133 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  116 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  99 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  96 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  95 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  93 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  92 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  91 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  90 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  89 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  88 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  87 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  86 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  85 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  84 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  83 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  82 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  81 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  80 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  79 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  78 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  77 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  76 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  75 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  74 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  73 -6 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  72 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  71 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  70 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  69 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  68 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  64 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  62 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  45 -46 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  35 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  25 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  20 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  19 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  12 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  11 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  9 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" oe dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" thorn dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" udieresis dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ucircumflex dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uacute dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ugrave dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" odieresis dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" otilde dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ocircumflex dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" oacute dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ograve dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ntilde dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" eth dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" idieresis dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" icircumflex dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" iacute dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" igrave dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" edieresis dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ecircumflex dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" eacute dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" egrave dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ccedilla dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ae dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" aring dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" adieresis dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" atilde dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" acircumflex dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" aacute dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" agrave dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" germandbls dx=0 dy=0 dh=-6 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" AE dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" mu dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" cent dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" braceright dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bar dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" z dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" y dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" x dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" w dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" v dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" u dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" t dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" s dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" r dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" q dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" p dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" o dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" n dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" m dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" l dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" k dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" j dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" i dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" h dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" g dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" f dx=0 dy=0 dh=-6 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" e dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" d dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" c dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" b dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" a dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketleft dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-46 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" A dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" at dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" six dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" one dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" zero dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" parenright dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" parenleft dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ampersand dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: U
 Encoding: 85 85 56
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -1958,7 +5416,137 @@ EndChar
 StartChar: V
 Encoding: 86 86 57
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 6
+ 0
+ 6
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 20
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 18
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 3
+ELSE
+NPUSHB
+ 22
+ 5
+ 1
+ 0
+ 2
+ 1
+ 21
+ 0
+ 1
+ 2
+ 1
+ 43
+ 3
+ 1
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 34
+ 4
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1971,13 +5559,189 @@ SplineSet
  167 700 l 1,6,-1
  181 700 l 1,0,-1
 EndSplineSet
-Kerns2: 133 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 133 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" AE dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" A dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: W
 Encoding: 87 87 58
 Width: 297
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 12
+ 0
+ 12
+ 10
+ 9
+ 7
+ 6
+ 5
+ 4
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 31
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 0
+ 3
+ 2
+ 0
+ 2
+ 3
+ 0
+ 41
+ 5
+ 4
+ 2
+ 2
+ 2
+ 7
+ 22
+ 1
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 28
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 5
+ 4
+ 2
+ 2
+ 3
+ 2
+ 43
+ 0
+ 3
+ 0
+ 3
+ 43
+ 1
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 26
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 5
+ 4
+ 2
+ 2
+ 3
+ 2
+ 43
+ 0
+ 3
+ 0
+ 3
+ 43
+ 1
+ 1
+ 0
+ 0
+ 34
+ 4
+ELSE
+NPUSHB
+ 34
+ 11
+ 8
+ 3
+ 3
+ 1
+ 3
+ 1
+ 21
+ 0
+ 2
+ 4
+ 2
+ 43
+ 5
+ 1
+ 4
+ 3
+ 4
+ 43
+ 0
+ 3
+ 1
+ 3
+ 43
+ 0
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1996,13 +5760,197 @@ SplineSet
  271 700 l 1,12,-1
  285 700 l 1,0,-1
 EndSplineSet
-Kerns2: 133 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 133 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" AE dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-40 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" A dx=0 dy=0 dh=-50 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: X
 Encoding: 88 88 59
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 11
+ 0
+ 11
+ 9
+ 8
+ 6
+ 5
+ 3
+ 2
+ 5
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 1
+ 7
+ 22
+ 4
+ 3
+ 2
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 36
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 43
+ 10
+ 7
+ 4
+ 1
+ 4
+ 3
+ 2
+ 1
+ 21
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 2
+ 4
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2020,13 +5968,151 @@ SplineSet
  177 0 l 1,11,-1
  142 0 l 1,0,-1
 EndSplineSet
-Kerns2: 45 -10 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 45 -10 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Y
 Encoding: 89 89 60
 Width: 197
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 8
+ 0
+ 8
+ 6
+ 5
+ 3
+ 2
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 22
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 3
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 22
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 2
+ 0
+ 43
+ 3
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 20
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 1
+ 1
+ 0
+ 2
+ 0
+ 43
+ 3
+ 1
+ 2
+ 2
+ 34
+ 3
+ELSE
+NPUSHB
+ 24
+ 7
+ 4
+ 1
+ 3
+ 2
+ 1
+ 1
+ 21
+ 0
+ 0
+ 1
+ 0
+ 43
+ 0
+ 1
+ 2
+ 1
+ 43
+ 3
+ 1
+ 2
+ 2
+ 34
+ 4
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2041,13 +6127,135 @@ SplineSet
  116 0 l 1,8,-1
  81 0 l 1,0,-1
 EndSplineSet
-Kerns2: 133 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 45 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Z
 Encoding: 90 90 61
 Width: 197
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 22
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 24
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2066,7 +6274,51 @@ EndChar
 StartChar: bracketleft
 Encoding: 91 91 62
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 2
+ 0
+ 3
+ 2
+ 3
+ 0
+ 0
+ 28
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 1
+ 23
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2085,7 +6337,63 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 63
 Width: 200
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 13
+ 2
+ 1
+ 1
+ 1
+ 9
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 2
+ELSE
+NPUSHB
+ 13
+ 0
+ 0
+ 1
+ 0
+ 44
+ 2
+ 1
+ 1
+ 1
+ 9
+ 1
+ 23
+ 2
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2100,7 +6408,56 @@ EndChar
 StartChar: bracketright
 Encoding: 93 93 64
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 5
+ 7
+CALL
+NPUSHB
+ 24
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 28
+ 0
+ 2
+ 2
+ 3
+ 0
+ 0
+ 27
+ 4
+ 1
+ 3
+ 3
+ 9
+ 2
+ 23
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2119,7 +6476,17 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 65
 Width: 200
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 4
+ 4
+ 0
+ 1
+ 11
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2136,7 +6503,70 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 66
 Width: 220
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 3
+ 2
+ 1
+ 0
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 8
+ 1
+ 23
+ 2
+ELSE
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2151,7 +6581,39 @@ EndChar
 StartChar: grave
 Encoding: 96 96 67
 Width: 178
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+NPUSHB
+ 11
+ 2
+ 1
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 2
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2166,6 +6628,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 68
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2206,6 +6669,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 69
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2236,6 +6700,7 @@ EndChar
 StartChar: c
 Encoding: 99 99 70
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2267,6 +6732,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 71
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2297,6 +6763,7 @@ EndChar
 StartChar: e
 Encoding: 101 101 72
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2336,6 +6803,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 73
 Width: 123
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2364,6 +6832,7 @@ EndChar
 StartChar: g
 Encoding: 103 103 74
 Width: 194
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2380,43 +6849,228 @@ SplineSet
  171 297 l 2,13,14
  171 235 171 235 93 235 c 0,15,16
  65 235 65 235 50 242 c 1,17,18
- 24.8181818182 207.375 24.8181818182 207.375 52 170 c 1,19,20
- 71 178 71 178 98 178 c 0,21,22
- 171 178 171 178 171 114 c 2,23,-1
- 171 -138 l 2,24,25
- 171 -200 171 -200 95.5 -200 c 128,-1,26
- 20 -200 20 -200 20 -136 c 2,27,-1
- 20 116 l 2,28,29
+ 37.8095238095 225.238095238 37.8095238095 225.238095238 37.8095238095 215.19047619 c 0,19,20
+ 37.8095238095 189.511904762 37.8095238095 189.511904762 52 170 c 1,21,22
+ 71 178 71 178 98 178 c 0,23,24
+ 171 178 171 178 171 114 c 2,25,-1
+ 171 -138 l 2,26,27
+ 171 -200 171 -200 95.5 -200 c 128,-1,28
+ 20 -200 20 -200 20 -136 c 2,29,-1
+ 20 116 l 2,30,31
  20 148 20 148 40 163 c 1,0,1
-136 110 m 2,30,31
- 136 140 136 140 129 151.5 c 128,-1,32
- 122 163 122 163 98 163 c 256,33,34
- 74 163 74 163 64.5 152.5 c 128,-1,35
- 55 142 55 142 55 113 c 2,36,-1
- 55 -133 l 2,37,38
- 55 -162 55 -162 62 -174 c 128,-1,39
- 69 -186 69 -186 93 -186 c 256,40,41
- 117 -186 117 -186 126.5 -175 c 128,-1,42
- 136 -164 136 -164 136 -135 c 2,43,-1
- 136 110 l 2,30,31
-136 440 m 2,44,45
- 136 470 136 470 129 481.5 c 128,-1,46
- 122 493 122 493 98 493 c 256,47,48
- 74 493 74 493 64.5 482.5 c 128,-1,49
- 55 472 55 472 55 443 c 2,50,-1
- 55 302 l 2,51,52
- 55 273 55 273 62 261 c 128,-1,53
- 69 249 69 249 93 249 c 256,54,55
- 117 249 117 249 126.5 260 c 128,-1,56
- 136 271 136 271 136 300 c 2,57,-1
- 136 440 l 2,44,45
+136 110 m 2,32,33
+ 136 140 136 140 129 151.5 c 128,-1,34
+ 122 163 122 163 98 163 c 256,35,36
+ 74 163 74 163 64.5 152.5 c 128,-1,37
+ 55 142 55 142 55 113 c 2,38,-1
+ 55 -133 l 2,39,40
+ 55 -162 55 -162 62 -174 c 128,-1,41
+ 69 -186 69 -186 93 -186 c 256,42,43
+ 117 -186 117 -186 126.5 -175 c 128,-1,44
+ 136 -164 136 -164 136 -135 c 2,45,-1
+ 136 110 l 2,32,33
+136 440 m 2,46,47
+ 136 470 136 470 129 481.5 c 128,-1,48
+ 122 493 122 493 98 493 c 256,49,50
+ 74 493 74 493 64.5 482.5 c 128,-1,51
+ 55 472 55 472 55 443 c 2,52,-1
+ 55 302 l 2,53,54
+ 55 273 55 273 62 261 c 128,-1,55
+ 69 249 69 249 93 249 c 256,56,57
+ 117 249 117 249 126.5 260 c 128,-1,58
+ 136 271 136 271 136 300 c 2,59,-1
+ 136 440 l 2,46,47
 EndSplineSet
 EndChar
 
 StartChar: h
 Encoding: 104 104 75
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 32
+ 3
+ 1
+ 3
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 9
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 0
+ 27
+ 0
+ 1
+ 1
+ 16
+ 22
+ 5
+ 4
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 30
+ 3
+ 1
+ 3
+ 1
+ 1
+ 21
+ 0
+ 1
+ 0
+ 3
+ 2
+ 1
+ 3
+ 1
+ 0
+ 29
+ 0
+ 0
+ 0
+ 9
+ 22
+ 5
+ 4
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 32
+ 3
+ 1
+ 3
+ 1
+ 1
+ 21
+ 0
+ 1
+ 0
+ 3
+ 2
+ 1
+ 3
+ 1
+ 0
+ 29
+ 5
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 2
+ 23
+ 4
+ELSE
+NPUSHB
+ 36
+ 3
+ 1
+ 3
+ 1
+ 1
+ 21
+ 0
+ 2
+ 4
+ 2
+ 44
+ 0
+ 1
+ 0
+ 3
+ 4
+ 1
+ 3
+ 1
+ 0
+ 29
+ 5
+ 1
+ 4
+ 4
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 4
+ 23
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2441,7 +7095,141 @@ EndChar
 StartChar: i
 Encoding: 105 105 76
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 26
+ 5
+ 1
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 7
+ 22
+ 0
+ 0
+ 0
+ 10
+ 22
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 35
+ 0
+ 2
+ 5
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2461,7 +7249,128 @@ EndChar
 StartChar: j
 Encoding: 106 106 77
 Width: 80
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 13
+ 13
+ 13
+ 16
+ 13
+ 16
+ 15
+ 14
+ 11
+ 9
+ 6
+ 5
+ 3
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 42
+ 0
+ 1
+ 0
+ 1
+ 12
+ 1
+ 2
+ 0
+ 2
+ 21
+ 5
+ 1
+ 4
+ 4
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 3
+ 7
+ 22
+ 0
+ 1
+ 1
+ 10
+ 22
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 27
+ 0
+ 2
+ 2
+ 12
+ 2
+ 23
+ 6
+ELSE
+NPUSHB
+ 43
+ 0
+ 1
+ 0
+ 1
+ 12
+ 1
+ 2
+ 0
+ 2
+ 21
+ 0
+ 1
+ 4
+ 0
+ 4
+ 1
+ 0
+ 41
+ 0
+ 3
+ 5
+ 1
+ 4
+ 1
+ 3
+ 4
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 27
+ 0
+ 2
+ 2
+ 12
+ 2
+ 23
+ 5
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2486,7 +7395,179 @@ EndChar
 StartChar: k
 Encoding: 107 107 78
 Width: 187
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 10
+ 0
+ 10
+ 8
+ 7
+ 5
+ 4
+ 2
+ 1
+ 5
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 27
+ 9
+ 6
+ 3
+ 3
+ 2
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 9
+ 22
+ 0
+ 1
+ 1
+ 10
+ 22
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 29
+ 9
+ 6
+ 3
+ 3
+ 2
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 9
+ 22
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 32
+ 9
+ 6
+ 3
+ 3
+ 2
+ 1
+ 1
+ 21
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 0
+ 26
+ 4
+ 3
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 0
+ 23
+ 4
+ELSE
+NPUSHB
+ 32
+ 9
+ 6
+ 3
+ 3
+ 3
+ 1
+ 1
+ 21
+ 0
+ 1
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 28
+ 4
+ 1
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 3
+ 23
+ 4
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2503,13 +7584,71 @@ SplineSet
  55 0 l 1,10,-1
  20 0 l 1,0,-1
 EndSplineSet
-Kerns2: 90 -2 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  87 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 90 -2 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  87 -20 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: l
 Encoding: 108 108 79
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 13
+ 0
+ 0
+ 0
+ 9
+ 22
+ 2
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 2
+ELSE
+NPUSHB
+ 15
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 1
+ 23
+ 2
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2524,7 +7663,260 @@ EndChar
 StartChar: m
 Encoding: 109 109 80
 Width: 308
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 0
+ 0
+ 0
+ 30
+ 0
+ 30
+ 28
+ 26
+ 24
+ 22
+ 20
+ 19
+ 18
+ 17
+ 14
+ 12
+ 9
+ 8
+ 5
+ 3
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 39
+ 21
+ 1
+ 0
+ 4
+ 25
+ 1
+ 1
+ 0
+ 2
+ 21
+ 0
+ 4
+ 4
+ 10
+ 22
+ 2
+ 1
+ 0
+ 0
+ 5
+ 1
+ 0
+ 27
+ 6
+ 1
+ 5
+ 5
+ 16
+ 22
+ 8
+ 7
+ 3
+ 3
+ 1
+ 1
+ 8
+ 1
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 39
+ 21
+ 1
+ 0
+ 4
+ 25
+ 1
+ 1
+ 0
+ 2
+ 21
+ 6
+ 1
+ 5
+ 2
+ 1
+ 0
+ 1
+ 5
+ 0
+ 1
+ 0
+ 29
+ 0
+ 4
+ 4
+ 1
+ 0
+ 0
+ 27
+ 8
+ 7
+ 3
+ 3
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 48
+ 21
+ 1
+ 0
+ 4
+ 25
+ 1
+ 1
+ 0
+ 2
+ 21
+ 0
+ 4
+ 0
+ 1
+ 4
+ 0
+ 0
+ 26
+ 6
+ 1
+ 5
+ 2
+ 1
+ 0
+ 1
+ 5
+ 0
+ 1
+ 0
+ 29
+ 0
+ 4
+ 4
+ 1
+ 0
+ 0
+ 27
+ 8
+ 7
+ 3
+ 3
+ 1
+ 4
+ 1
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 67
+ 21
+ 1
+ 2
+ 4
+ 25
+ 1
+ 7
+ 0
+ 2
+ 21
+ 8
+ 1
+ 7
+ 0
+ 3
+ 0
+ 7
+ 3
+ 41
+ 0
+ 1
+ 3
+ 1
+ 44
+ 0
+ 4
+ 2
+ 3
+ 4
+ 0
+ 0
+ 26
+ 0
+ 5
+ 0
+ 2
+ 0
+ 5
+ 2
+ 1
+ 0
+ 29
+ 0
+ 6
+ 0
+ 0
+ 7
+ 6
+ 0
+ 1
+ 0
+ 29
+ 0
+ 4
+ 4
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 4
+ 3
+ 0
+ 0
+ 24
+ 8
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2558,7 +7950,214 @@ EndChar
 StartChar: n
 Encoding: 110 110 81
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 17
+ 0
+ 17
+ 15
+ 13
+ 11
+ 10
+ 9
+ 8
+ 5
+ 3
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 32
+ 12
+ 1
+ 0
+ 2
+ 1
+ 21
+ 0
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 27
+ 0
+ 3
+ 3
+ 16
+ 22
+ 5
+ 4
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 32
+ 12
+ 1
+ 0
+ 2
+ 1
+ 21
+ 0
+ 3
+ 0
+ 0
+ 1
+ 3
+ 0
+ 1
+ 0
+ 29
+ 0
+ 2
+ 2
+ 1
+ 0
+ 0
+ 27
+ 5
+ 4
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 41
+ 12
+ 1
+ 0
+ 2
+ 1
+ 21
+ 0
+ 2
+ 0
+ 1
+ 2
+ 0
+ 0
+ 26
+ 0
+ 3
+ 0
+ 0
+ 1
+ 3
+ 0
+ 1
+ 0
+ 29
+ 0
+ 2
+ 2
+ 1
+ 0
+ 0
+ 27
+ 5
+ 4
+ 2
+ 1
+ 2
+ 1
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 48
+ 12
+ 1
+ 0
+ 2
+ 1
+ 21
+ 5
+ 1
+ 4
+ 0
+ 1
+ 0
+ 4
+ 1
+ 41
+ 0
+ 2
+ 0
+ 1
+ 2
+ 0
+ 0
+ 26
+ 0
+ 3
+ 0
+ 0
+ 4
+ 3
+ 0
+ 1
+ 0
+ 29
+ 0
+ 2
+ 2
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 2
+ 1
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2583,6 +8182,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 82
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2611,6 +8211,7 @@ EndChar
 StartChar: p
 Encoding: 112 112 83
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2643,6 +8244,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 84
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2675,7 +8277,226 @@ EndChar
 StartChar: r
 Encoding: 114 114 85
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 17
+ 0
+ 17
+ 16
+ 15
+ 12
+ 10
+ 7
+ 6
+ 4
+ 2
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 11
+LT
+IF
+NPUSHB
+ 38
+ 1
+ 1
+ 2
+ 4
+ 1
+ 21
+ 0
+ 1
+ 2
+ 3
+ 2
+ 1
+ 33
+ 5
+ 1
+ 4
+ 4
+ 10
+ 22
+ 0
+ 2
+ 2
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 16
+ 22
+ 0
+ 3
+ 3
+ 8
+ 3
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 39
+ 1
+ 1
+ 2
+ 4
+ 1
+ 21
+ 0
+ 1
+ 2
+ 3
+ 2
+ 1
+ 3
+ 41
+ 5
+ 1
+ 4
+ 4
+ 10
+ 22
+ 0
+ 2
+ 2
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 16
+ 22
+ 0
+ 3
+ 3
+ 8
+ 3
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 39
+ 1
+ 1
+ 2
+ 4
+ 1
+ 21
+ 0
+ 1
+ 2
+ 3
+ 2
+ 1
+ 3
+ 41
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 2
+ 1
+ 0
+ 29
+ 5
+ 1
+ 4
+ 4
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 3
+ 8
+ 3
+ 23
+ 5
+ELSE
+NPUSHB
+ 49
+ 1
+ 1
+ 2
+ 4
+ 1
+ 21
+ 0
+ 1
+ 2
+ 3
+ 2
+ 1
+ 3
+ 41
+ 5
+ 1
+ 4
+ 2
+ 3
+ 4
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 2
+ 1
+ 0
+ 29
+ 5
+ 1
+ 4
+ 4
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 4
+ 3
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2700,6 +8521,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 86
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2742,7 +8564,253 @@ EndChar
 StartChar: t
 Encoding: 116 116 87
 Width: 162
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 20
+ 19
+ 16
+ 14
+ 11
+ 9
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 7
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 43
+ 12
+ 1
+ 4
+ 3
+ 13
+ 1
+ 5
+ 4
+ 2
+ 21
+ 0
+ 1
+ 0
+ 1
+ 43
+ 6
+ 1
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 0
+ 10
+ 22
+ 0
+ 4
+ 4
+ 5
+ 1
+ 0
+ 27
+ 0
+ 5
+ 5
+ 8
+ 5
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 41
+ 12
+ 1
+ 4
+ 3
+ 13
+ 1
+ 5
+ 4
+ 2
+ 21
+ 0
+ 1
+ 0
+ 1
+ 43
+ 2
+ 1
+ 0
+ 6
+ 1
+ 3
+ 4
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 1
+ 0
+ 27
+ 0
+ 5
+ 5
+ 8
+ 5
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 50
+ 12
+ 1
+ 4
+ 3
+ 13
+ 1
+ 5
+ 4
+ 2
+ 21
+ 0
+ 1
+ 0
+ 1
+ 43
+ 2
+ 1
+ 0
+ 6
+ 1
+ 3
+ 4
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 4
+ 5
+ 5
+ 4
+ 1
+ 0
+ 26
+ 0
+ 4
+ 4
+ 5
+ 1
+ 0
+ 27
+ 0
+ 5
+ 4
+ 5
+ 1
+ 0
+ 24
+ 6
+ELSE
+NPUSHB
+ 58
+ 12
+ 1
+ 4
+ 3
+ 13
+ 1
+ 5
+ 4
+ 2
+ 21
+ 0
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 6
+ 3
+ 0
+ 6
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 4
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 4
+ 5
+ 5
+ 4
+ 1
+ 0
+ 26
+ 0
+ 4
+ 4
+ 5
+ 1
+ 0
+ 27
+ 0
+ 5
+ 4
+ 5
+ 1
+ 0
+ 24
+ 7
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2765,13 +8833,235 @@ SplineSet
  21 485 l 1,20,-1
  21 500 l 1,0,-1
 EndSplineSet
-Kerns2: 92 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 92 -4 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: u
 Encoding: 117 117 88
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 36
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 5
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 38
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 5
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 45
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 5
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 2
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 5
+ELSE
+NPUSHB
+ 49
+ 16
+ 1
+ 3
+ 4
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 0
+ 2
+ 4
+ 2
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 5
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2796,7 +9086,137 @@ EndChar
 StartChar: v
 Encoding: 118 118 89
 Width: 183
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 6
+ 0
+ 6
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 1
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 20
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 18
+ 5
+ 1
+ 0
+ 1
+ 1
+ 21
+ 3
+ 2
+ 2
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 3
+ELSE
+NPUSHB
+ 22
+ 5
+ 1
+ 0
+ 2
+ 1
+ 21
+ 0
+ 1
+ 2
+ 1
+ 43
+ 3
+ 1
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 34
+ 4
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2814,7 +9234,180 @@ EndChar
 StartChar: w
 Encoding: 119 119 90
 Width: 274
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 16
+ 0
+ 0
+ 0
+ 12
+ 0
+ 12
+ 10
+ 9
+ 7
+ 6
+ 5
+ 4
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 31
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 0
+ 3
+ 2
+ 0
+ 2
+ 3
+ 0
+ 41
+ 5
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 1
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 28
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 5
+ 4
+ 2
+ 2
+ 3
+ 2
+ 43
+ 0
+ 3
+ 0
+ 3
+ 43
+ 1
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 26
+ 11
+ 8
+ 3
+ 3
+ 0
+ 3
+ 1
+ 21
+ 5
+ 4
+ 2
+ 2
+ 3
+ 2
+ 43
+ 0
+ 3
+ 0
+ 3
+ 43
+ 1
+ 1
+ 0
+ 0
+ 34
+ 4
+ELSE
+NPUSHB
+ 34
+ 11
+ 8
+ 3
+ 3
+ 1
+ 3
+ 1
+ 21
+ 0
+ 2
+ 4
+ 2
+ 43
+ 5
+ 1
+ 4
+ 3
+ 4
+ 43
+ 0
+ 3
+ 1
+ 3
+ 43
+ 0
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2838,7 +9431,188 @@ EndChar
 StartChar: x
 Encoding: 120 120 91
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 14
+ 0
+ 0
+ 0
+ 11
+ 0
+ 11
+ 9
+ 8
+ 6
+ 5
+ 3
+ 2
+ 5
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 1
+ 10
+ 22
+ 4
+ 3
+ 2
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 36
+ 10
+ 7
+ 4
+ 1
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 4
+ 3
+ 2
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 43
+ 10
+ 7
+ 4
+ 1
+ 4
+ 3
+ 2
+ 1
+ 21
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 2
+ 4
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2856,12 +9630,13 @@ SplineSet
  177 0 l 1,11,-1
  142 0 l 1,0,-1
 EndSplineSet
-Kerns2: 92 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 92 -4 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: y
 Encoding: 121 121 92
 Width: 211
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2887,7 +9662,129 @@ EndChar
 StartChar: z
 Encoding: 122 122 93
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 10
+ 22
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 24
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 8
+ 2
+ 23
+ 3
+ELSE
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 3
+ 1
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2906,6 +9803,7 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 94
 Width: 156
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2936,7 +9834,43 @@ EndChar
 StartChar: bar
 Encoding: 124 124 95
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+NPUSHB
+ 15
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 1
+ 9
+ 0
+ 23
+ 2
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2951,6 +9885,7 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 96
 Width: 156
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -2981,6 +9916,7 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 97
 Width: 198
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3007,7 +9943,99 @@ EndChar
 StartChar: exclamdown
 Encoding: 161 161 98
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 28
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 10
+ 22
+ 5
+ 1
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 12
+ 2
+ 23
+ 4
+ELSE
+NPUSHB
+ 26
+ 4
+ 1
+ 1
+ 0
+ 0
+ 3
+ 1
+ 0
+ 0
+ 0
+ 29
+ 5
+ 1
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 12
+ 2
+ 23
+ 3
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3027,6 +10055,7 @@ EndChar
 StartChar: cent
 Encoding: 162 162 99
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3068,6 +10097,7 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 100
 Width: 196
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3099,6 +10129,7 @@ EndChar
 StartChar: currency
 Encoding: 164 164 101
 Width: 303
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3140,7 +10171,190 @@ EndChar
 StartChar: yen
 Encoding: 165 165 102
 Width: 201
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 24
+ 23
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 3
+ 2
+ 1
+ 0
+ 11
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 60
+ 4
+ 1
+ 0
+ 1
+ 22
+ 11
+ 2
+ 5
+ 4
+ 2
+ 21
+ 2
+ 1
+ 1
+ 0
+ 1
+ 43
+ 0
+ 7
+ 6
+ 7
+ 44
+ 3
+ 1
+ 0
+ 10
+ 1
+ 4
+ 5
+ 0
+ 4
+ 0
+ 2
+ 29
+ 9
+ 1
+ 5
+ 6
+ 6
+ 5
+ 0
+ 0
+ 26
+ 9
+ 1
+ 5
+ 5
+ 6
+ 0
+ 0
+ 27
+ 8
+ 1
+ 6
+ 5
+ 6
+ 0
+ 0
+ 24
+ 7
+ELSE
+NPUSHB
+ 79
+ 4
+ 1
+ 0
+ 2
+ 22
+ 11
+ 2
+ 5
+ 4
+ 2
+ 21
+ 0
+ 1
+ 2
+ 1
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 7
+ 6
+ 7
+ 44
+ 0
+ 0
+ 0
+ 10
+ 4
+ 0
+ 10
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 4
+ 5
+ 3
+ 4
+ 0
+ 2
+ 29
+ 0
+ 5
+ 9
+ 6
+ 5
+ 0
+ 0
+ 26
+ 0
+ 9
+ 0
+ 8
+ 6
+ 9
+ 8
+ 0
+ 0
+ 29
+ 0
+ 5
+ 5
+ 6
+ 0
+ 0
+ 27
+ 0
+ 6
+ 5
+ 6
+ 0
+ 0
+ 24
+ 10
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3176,7 +10390,61 @@ EndChar
 StartChar: brokenbar
 Encoding: 166 166 103
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+NPUSHB
+ 25
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 28
+ 5
+ 1
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 2
+ 9
+ 3
+ 23
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3196,6 +10464,7 @@ EndChar
 StartChar: section
 Encoding: 167 167 104
 Width: 190
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3262,7 +10531,108 @@ EndChar
 StartChar: dieresis
 Encoding: 168 168 105
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 28
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 2
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 5
+ 3
+ 4
+ 3
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+ELSE
+NPUSHB
+ 35
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 2
+ 5
+ 1
+ 3
+ 1
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3282,6 +10652,7 @@ EndChar
 StartChar: copyright
 Encoding: 169 169 106
 Width: 439
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3339,6 +10710,7 @@ EndChar
 StartChar: ordfeminine
 Encoding: 170 170 107
 Width: 117
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3379,7 +10751,148 @@ EndChar
 StartChar: guillemotleft
 Encoding: 171 171 108
 Width: 313
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 10
+ 9
+ 7
+ 6
+ 4
+ 3
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 25
+ 11
+ 8
+ 5
+ 2
+ 4
+ 1
+ 0
+ 1
+ 21
+ 3
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 0
+ 10
+ 1
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 35
+ 11
+ 8
+ 5
+ 2
+ 4
+ 1
+ 0
+ 1
+ 21
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 2
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 3
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 42
+ 11
+ 8
+ 5
+ 2
+ 4
+ 3
+ 2
+ 1
+ 21
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 2
+ 0
+ 3
+ 1
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3403,7 +10916,192 @@ EndChar
 StartChar: logicalnot
 Encoding: 172 172 109
 Width: 320
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 11
+LT
+IF
+NPUSHB
+ 36
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 2
+ 3
+ 2
+ 30
+ 0
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 0
+ 3
+ 0
+ 0
+ 24
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 13
+LT
+IF
+NPUSHB
+ 30
+ 0
+ 2
+ 1
+ 1
+ 2
+ 32
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 3
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 36
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 2
+ 3
+ 2
+ 30
+ 0
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 0
+ 3
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 35
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 2
+ 2
+ 42
+ 0
+ 0
+ 3
+ 3
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 3
+ 0
+ 0
+ 27
+ 0
+ 3
+ 0
+ 3
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3422,6 +11120,7 @@ EndChar
 StartChar: registered
 Encoding: 174 174 110
 Width: 440
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3482,7 +11181,93 @@ EndChar
 StartChar: degree
 Encoding: 176 176 111
 Width: 186
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 22
+ 20
+ 16
+ 14
+ 10
+ 8
+ 4
+ 2
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 23
+ 0
+ 2
+ 0
+ 1
+ 2
+ 1
+ 1
+ 0
+ 28
+ 0
+ 3
+ 3
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 3
+ 23
+ 3
+ELSE
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 3
+ 2
+ 0
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 1
+ 1
+ 2
+ 1
+ 0
+ 26
+ 0
+ 2
+ 2
+ 1
+ 1
+ 0
+ 27
+ 0
+ 1
+ 2
+ 1
+ 1
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3510,7 +11295,143 @@ EndChar
 StartChar: plusminus
 Encoding: 177 177 112
 Width: 300
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 45
+ 2
+ 1
+ 0
+ 5
+ 1
+ 3
+ 4
+ 0
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 4
+ 6
+ 1
+ 4
+ 0
+ 0
+ 29
+ 0
+ 6
+ 7
+ 7
+ 6
+ 0
+ 0
+ 26
+ 0
+ 6
+ 6
+ 7
+ 0
+ 0
+ 27
+ 0
+ 7
+ 6
+ 7
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 53
+ 0
+ 0
+ 0
+ 5
+ 3
+ 0
+ 5
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 4
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 4
+ 6
+ 1
+ 4
+ 0
+ 0
+ 29
+ 0
+ 6
+ 7
+ 7
+ 6
+ 0
+ 0
+ 26
+ 0
+ 6
+ 6
+ 7
+ 0
+ 0
+ 27
+ 0
+ 7
+ 6
+ 7
+ 0
+ 0
+ 24
+ 6
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3538,6 +11459,7 @@ EndChar
 StartChar: twosuperior
 Encoding: 178 178 113
 Width: 88
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3571,7 +11493,233 @@ EndChar
 StartChar: threesuperior
 Encoding: 179 179 114
 Width: 87
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 31
+ 29
+ 27
+ 26
+ 24
+ 22
+ 19
+ 17
+ 16
+ 15
+ 10
+ 8
+ 6
+ 5
+ 3
+ 1
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 23
+LT
+IF
+NPUSHB
+ 56
+ 35
+ 1
+ 3
+ 4
+ 1
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 33
+ 0
+ 1
+ 3
+ 2
+ 2
+ 1
+ 33
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 0
+ 0
+ 29
+ 0
+ 5
+ 5
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 13
+ 22
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 27
+ 0
+ 2
+ 2
+ 16
+ 0
+ 23
+ 8
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 58
+ 35
+ 1
+ 3
+ 4
+ 1
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 0
+ 0
+ 29
+ 0
+ 5
+ 5
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 13
+ 22
+ 0
+ 0
+ 0
+ 2
+ 1
+ 0
+ 27
+ 0
+ 2
+ 2
+ 16
+ 0
+ 23
+ 8
+ELSE
+NPUSHB
+ 65
+ 35
+ 1
+ 3
+ 4
+ 1
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 7
+ 0
+ 5
+ 6
+ 7
+ 5
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 2
+ 1
+ 0
+ 26
+ 0
+ 2
+ 2
+ 0
+ 1
+ 2
+ 27
+ 0
+ 0
+ 2
+ 0
+ 1
+ 2
+ 24
+ 8
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3608,7 +11756,39 @@ EndChar
 StartChar: acute
 Encoding: 180 180 115
 Width: 179
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+NPUSHB
+ 11
+ 2
+ 1
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 2
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3624,6 +11804,7 @@ StartChar: mu
 Encoding: 181 181 116
 AltUni2: 0003bc.ffffffff.0
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3651,6 +11832,7 @@ EndChar
 StartChar: paragraph
 Encoding: 182 182 117
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3685,7 +11867,52 @@ EndChar
 StartChar: periodcentered
 Encoding: 183 183 118
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 3
+ 7
+CALL
+NPUSHB
+ 24
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 2
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3700,7 +11927,60 @@ EndChar
 StartChar: cedilla
 Encoding: 184 184 119
 Width: 87
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 12
+ 0
+ 12
+ 10
+ 8
+ 5
+ 3
+ 4
+ 7
+CALL
+NPUSHB
+ 30
+ 7
+ 1
+ 1
+ 2
+ 6
+ 1
+ 0
+ 1
+ 2
+ 21
+ 3
+ 1
+ 2
+ 1
+ 2
+ 43
+ 0
+ 1
+ 1
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 12
+ 0
+ 23
+ 4
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3720,7 +12000,86 @@ EndChar
 StartChar: onesuperior
 Encoding: 185 185 120
 Width: 68
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 4
+ 3
+ 2
+ 1
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 22
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 1
+ 21
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 31
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3738,7 +12097,129 @@ EndChar
 StartChar: ordmasculine
 Encoding: 186 186 121
 Width: 117
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 22
+ 20
+ 15
+ 13
+ 9
+ 7
+ 3
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 82
+LT
+IF
+NPUSHB
+ 26
+ 0
+ 2
+ 2
+ 0
+ 1
+ 0
+ 27
+ 0
+ 0
+ 0
+ 9
+ 22
+ 0
+ 1
+ 1
+ 3
+ 1
+ 0
+ 27
+ 0
+ 3
+ 3
+ 16
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 0
+ 0
+ 0
+ 2
+ 3
+ 0
+ 2
+ 1
+ 0
+ 29
+ 0
+ 1
+ 1
+ 3
+ 1
+ 0
+ 27
+ 0
+ 3
+ 3
+ 16
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 2
+ 3
+ 0
+ 2
+ 1
+ 0
+ 29
+ 0
+ 3
+ 1
+ 1
+ 3
+ 1
+ 0
+ 26
+ 0
+ 3
+ 3
+ 1
+ 1
+ 0
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3767,7 +12248,148 @@ EndChar
 StartChar: guillemotright
 Encoding: 187 187 122
 Width: 306
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 10
+ 9
+ 7
+ 6
+ 4
+ 3
+ 1
+ 0
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 25
+ 11
+ 8
+ 5
+ 2
+ 4
+ 0
+ 1
+ 1
+ 21
+ 2
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 3
+ 1
+ 1
+ 1
+ 10
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 35
+ 11
+ 8
+ 5
+ 2
+ 4
+ 0
+ 1
+ 1
+ 21
+ 3
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 3
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 2
+ 1
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 42
+ 11
+ 8
+ 5
+ 2
+ 4
+ 2
+ 3
+ 1
+ 21
+ 0
+ 1
+ 3
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 3
+ 0
+ 2
+ 0
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3791,7 +12413,316 @@ EndChar
 StartChar: onequarter
 Encoding: 188 188 123
 Width: 247
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 34
+ 21
+ 21
+ 11
+ 11
+ 7
+ 7
+ 21
+ 23
+ 21
+ 23
+ 11
+ 20
+ 11
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 14
+ 13
+ 12
+ 7
+ 10
+ 7
+ 10
+ 9
+ 8
+ 4
+ 3
+ 2
+ 1
+ 13
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 59
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 22
+ 1
+ 4
+ 8
+ 2
+ 21
+ 12
+ 9
+ 2
+ 4
+ 7
+ 1
+ 5
+ 2
+ 4
+ 5
+ 0
+ 0
+ 29
+ 10
+ 1
+ 3
+ 3
+ 9
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 22
+ 11
+ 1
+ 8
+ 8
+ 2
+ 0
+ 2
+ 27
+ 6
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 57
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 22
+ 1
+ 4
+ 8
+ 2
+ 21
+ 0
+ 0
+ 0
+ 1
+ 8
+ 0
+ 1
+ 0
+ 0
+ 29
+ 12
+ 9
+ 2
+ 4
+ 7
+ 1
+ 5
+ 2
+ 4
+ 5
+ 0
+ 0
+ 29
+ 10
+ 1
+ 3
+ 3
+ 9
+ 22
+ 11
+ 1
+ 8
+ 8
+ 2
+ 0
+ 2
+ 27
+ 6
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 54
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 22
+ 1
+ 4
+ 8
+ 2
+ 21
+ 0
+ 0
+ 0
+ 1
+ 8
+ 0
+ 1
+ 0
+ 0
+ 29
+ 12
+ 9
+ 2
+ 4
+ 7
+ 1
+ 5
+ 2
+ 4
+ 5
+ 0
+ 0
+ 29
+ 11
+ 1
+ 8
+ 6
+ 1
+ 2
+ 8
+ 2
+ 0
+ 2
+ 28
+ 10
+ 1
+ 3
+ 3
+ 9
+ 3
+ 23
+ 5
+ELSE
+NPUSHB
+ 67
+ 6
+ 5
+ 0
+ 3
+ 1
+ 0
+ 22
+ 1
+ 4
+ 8
+ 2
+ 21
+ 0
+ 2
+ 6
+ 2
+ 44
+ 0
+ 0
+ 0
+ 1
+ 8
+ 0
+ 1
+ 0
+ 0
+ 29
+ 12
+ 1
+ 9
+ 0
+ 7
+ 5
+ 9
+ 7
+ 0
+ 0
+ 29
+ 0
+ 4
+ 0
+ 5
+ 6
+ 4
+ 5
+ 0
+ 0
+ 29
+ 11
+ 1
+ 8
+ 0
+ 6
+ 2
+ 8
+ 6
+ 0
+ 2
+ 29
+ 10
+ 1
+ 3
+ 3
+ 9
+ 3
+ 23
+ 7
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3829,6 +12760,7 @@ EndChar
 StartChar: onehalf
 Encoding: 189 189 124
 Width: 258
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3876,7 +12808,661 @@ EndChar
 StartChar: threequarters
 Encoding: 190 190 125
 Width: 272
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 46
+ 56
+ 56
+ 46
+ 46
+ 42
+ 42
+ 56
+ 58
+ 56
+ 58
+ 46
+ 55
+ 46
+ 55
+ 54
+ 53
+ 52
+ 51
+ 50
+ 49
+ 48
+ 47
+ 42
+ 45
+ 42
+ 45
+ 44
+ 43
+ 35
+ 33
+ 31
+ 30
+ 27
+ 25
+ 20
+ 18
+ 17
+ 15
+ 11
+ 9
+ 6
+ 5
+ 3
+ 1
+ 19
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 15
+LT
+IF
+NPUSHB
+ 89
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 33
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 15
+ 2
+ 10
+ 13
+ 1
+ 11
+ 8
+ 10
+ 11
+ 0
+ 0
+ 29
+ 16
+ 1
+ 9
+ 9
+ 9
+ 22
+ 0
+ 5
+ 5
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 13
+ 22
+ 0
+ 1
+ 1
+ 10
+ 22
+ 17
+ 1
+ 14
+ 14
+ 8
+ 0
+ 2
+ 27
+ 12
+ 1
+ 8
+ 8
+ 8
+ 8
+ 23
+ 11
+ELSE
+MPPEM
+PUSHB_1
+ 49
+LT
+IF
+NPUSHB
+ 90
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 15
+ 2
+ 10
+ 13
+ 1
+ 11
+ 8
+ 10
+ 11
+ 0
+ 0
+ 29
+ 16
+ 1
+ 9
+ 9
+ 9
+ 22
+ 0
+ 5
+ 5
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 13
+ 22
+ 0
+ 1
+ 1
+ 10
+ 22
+ 17
+ 1
+ 14
+ 14
+ 8
+ 0
+ 2
+ 27
+ 12
+ 1
+ 8
+ 8
+ 8
+ 8
+ 23
+ 11
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 93
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 15
+ 2
+ 10
+ 13
+ 1
+ 11
+ 8
+ 10
+ 11
+ 0
+ 0
+ 29
+ 16
+ 1
+ 9
+ 9
+ 9
+ 22
+ 0
+ 5
+ 5
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 13
+ 22
+ 17
+ 1
+ 14
+ 14
+ 8
+ 0
+ 2
+ 27
+ 12
+ 1
+ 8
+ 8
+ 8
+ 8
+ 23
+ 11
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 91
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 7
+ 0
+ 5
+ 6
+ 7
+ 5
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 15
+ 2
+ 10
+ 13
+ 1
+ 11
+ 8
+ 10
+ 11
+ 0
+ 0
+ 29
+ 16
+ 1
+ 9
+ 9
+ 9
+ 22
+ 17
+ 1
+ 14
+ 14
+ 8
+ 0
+ 2
+ 27
+ 12
+ 1
+ 8
+ 8
+ 8
+ 8
+ 23
+ 10
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 88
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 7
+ 0
+ 5
+ 6
+ 7
+ 5
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 15
+ 2
+ 10
+ 13
+ 1
+ 11
+ 8
+ 10
+ 11
+ 0
+ 0
+ 29
+ 17
+ 1
+ 14
+ 12
+ 1
+ 8
+ 14
+ 8
+ 0
+ 2
+ 28
+ 16
+ 1
+ 9
+ 9
+ 9
+ 9
+ 23
+ 9
+ELSE
+NPUSHB
+ 101
+ 39
+ 1
+ 3
+ 4
+ 57
+ 1
+ 10
+ 14
+ 2
+ 21
+ 0
+ 6
+ 5
+ 4
+ 5
+ 6
+ 4
+ 41
+ 0
+ 1
+ 3
+ 2
+ 3
+ 1
+ 2
+ 41
+ 0
+ 8
+ 12
+ 8
+ 44
+ 0
+ 7
+ 0
+ 5
+ 6
+ 7
+ 5
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 3
+ 1
+ 4
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 0
+ 0
+ 14
+ 2
+ 0
+ 1
+ 2
+ 29
+ 18
+ 1
+ 15
+ 0
+ 13
+ 11
+ 15
+ 13
+ 0
+ 0
+ 29
+ 0
+ 10
+ 0
+ 11
+ 12
+ 10
+ 11
+ 0
+ 0
+ 29
+ 17
+ 1
+ 14
+ 0
+ 12
+ 8
+ 14
+ 12
+ 0
+ 2
+ 29
+ 16
+ 1
+ 9
+ 9
+ 9
+ 9
+ 23
+ 11
+EIF
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3937,6 +13523,7 @@ EndChar
 StartChar: questiondown
 Encoding: 191 191 126
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -3955,25 +13542,280 @@ SplineSet
  22 27 22 27 25.5 54.5 c 128,-1,14
  29 82 29 82 50 105 c 1,15,16
  72.3684210526 131.842105263 72.3684210526 131.842105263 78.1842105263 160.921052632 c 0,17,18
- 87.9 209.5 87.9 209.5 84 307 c 1,19,-1
- 59 307 l 1,20,21
- 59 238 59 238 53.5 194.5 c 128,-1,22
- 48 151 48 151 25 125.5 c 128,-1,23
- 2 100 2 100 -5.5 70.5 c 128,-1,24
- -13 41 -13 41 -13 -6 c 2,25,-1
+ 85.3333333333 196.666666667 85.3333333333 196.666666667 85.3333333333 235.166666667 c 128,-1,19
+ 85.3333333333 273.666666667 85.3333333333 273.666666667 84 307 c 1,20,-1
+ 59 307 l 1,21,22
+ 59 238 59 238 53.5 194.5 c 128,-1,23
+ 48 151 48 151 25 125.5 c 128,-1,24
+ 2 100 2 100 -5.5 70.5 c 128,-1,25
+ -13 41 -13 41 -13 -6 c 2,26,-1
  -13 -136 l 2,0,1
-88 508 m 1,26,-1
- 88 444 l 1,27,-1
- 53 444 l 1,28,-1
- 53 508 l 1,29,-1
- 88 508 l 1,26,-1
+88 508 m 1,27,-1
+ 88 444 l 1,28,-1
+ 53 444 l 1,29,-1
+ 53 508 l 1,30,-1
+ 88 508 l 1,27,-1
 EndSplineSet
 EndChar
 
 StartChar: Agrave
 Encoding: 192 192 127
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 11
+ 11
+ 0
+ 0
+ 11
+ 14
+ 11
+ 14
+ 13
+ 12
+ 9
+ 8
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 41
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 0
+ 5
+ 43
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 0
+ 0
+ 0
+ 7
+ 22
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 41
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 52
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 7
+ 3
+ 2
+ 1
+ 2
+ 1
+ 44
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 8
+ELSE
+NPUSHB
+ 58
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 7
+ 1
+ 3
+ 2
+ 1
+ 2
+ 3
+ 1
+ 41
+ 0
+ 1
+ 1
+ 42
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 9
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3996,13 +13838,317 @@ SplineSet
  59 840 l 1,14,-1
  78 840 l 1,11,-1
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Aacute
 Encoding: 193 193 128
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 11
+ 11
+ 0
+ 0
+ 11
+ 14
+ 11
+ 14
+ 13
+ 12
+ 10
+ 9
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 41
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 0
+ 5
+ 5
+ 9
+ 22
+ 0
+ 2
+ 2
+ 7
+ 22
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 41
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 0
+ 2
+ 2
+ 7
+ 22
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 41
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 52
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 7
+ 3
+ 2
+ 1
+ 0
+ 1
+ 44
+ 0
+ 4
+ 0
+ 0
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 4
+ 0
+ 0
+ 2
+ 24
+ 8
+ELSE
+NPUSHB
+ 58
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 7
+ 1
+ 3
+ 0
+ 1
+ 0
+ 3
+ 1
+ 41
+ 0
+ 1
+ 1
+ 42
+ 0
+ 4
+ 0
+ 0
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 4
+ 0
+ 0
+ 2
+ 24
+ 9
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4025,13 +14171,275 @@ SplineSet
  132 840 l 1,14,-1
  151 840 l 1,11,-1
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 129
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 11
+ 11
+ 0
+ 0
+ 11
+ 16
+ 11
+ 16
+ 14
+ 13
+ 9
+ 8
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 42
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 15
+ 12
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 0
+ 5
+ 43
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 0
+ 0
+ 0
+ 7
+ 22
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 42
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 15
+ 12
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 7
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 53
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 15
+ 12
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 7
+ 3
+ 2
+ 1
+ 2
+ 1
+ 44
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 8
+ELSE
+NPUSHB
+ 63
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 15
+ 12
+ 2
+ 6
+ 19
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 0
+ 5
+ 43
+ 0
+ 0
+ 4
+ 0
+ 43
+ 7
+ 1
+ 3
+ 2
+ 1
+ 2
+ 3
+ 1
+ 41
+ 0
+ 1
+ 1
+ 42
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 10
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4056,12 +14464,13 @@ SplineSet
  58 730 l 1,16,-1
  46 730 l 1,11,-1
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Atilde
 Encoding: 195 195 130
 Width: 199
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4096,13 +14505,366 @@ SplineSet
  170 759 170 759 170 767 c 1,33,-1
  181 767 l 1,11,12
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 131
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 32
+ 15
+ 15
+ 11
+ 11
+ 0
+ 0
+ 15
+ 18
+ 15
+ 18
+ 17
+ 16
+ 11
+ 14
+ 11
+ 14
+ 13
+ 12
+ 10
+ 9
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 12
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 44
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 7
+ 1
+ 5
+ 6
+ 5
+ 43
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 11
+ 8
+ 10
+ 3
+ 6
+ 6
+ 9
+ 22
+ 0
+ 2
+ 2
+ 7
+ 22
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 46
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 7
+ 1
+ 5
+ 6
+ 5
+ 43
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 0
+ 2
+ 2
+ 7
+ 22
+ 11
+ 8
+ 10
+ 3
+ 6
+ 6
+ 1
+ 0
+ 0
+ 27
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 49
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 7
+ 1
+ 5
+ 6
+ 5
+ 43
+ 0
+ 2
+ 6
+ 4
+ 6
+ 2
+ 4
+ 41
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 11
+ 8
+ 10
+ 3
+ 6
+ 6
+ 1
+ 0
+ 0
+ 27
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 61
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 7
+ 1
+ 5
+ 6
+ 5
+ 43
+ 0
+ 2
+ 6
+ 4
+ 6
+ 2
+ 4
+ 41
+ 11
+ 8
+ 10
+ 3
+ 6
+ 2
+ 1
+ 6
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 11
+ 8
+ 10
+ 3
+ 6
+ 6
+ 1
+ 0
+ 0
+ 27
+ 9
+ 3
+ 2
+ 1
+ 6
+ 1
+ 0
+ 0
+ 24
+ 7
+ELSE
+NPUSHB
+ 74
+ 8
+ 1
+ 4
+ 2
+ 1
+ 21
+ 0
+ 7
+ 5
+ 7
+ 43
+ 0
+ 5
+ 6
+ 5
+ 43
+ 10
+ 1
+ 6
+ 8
+ 6
+ 43
+ 0
+ 2
+ 8
+ 4
+ 8
+ 2
+ 4
+ 41
+ 9
+ 1
+ 3
+ 0
+ 1
+ 0
+ 3
+ 1
+ 41
+ 11
+ 1
+ 8
+ 2
+ 1
+ 8
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 0
+ 3
+ 4
+ 0
+ 0
+ 2
+ 29
+ 11
+ 1
+ 8
+ 8
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 8
+ 1
+ 0
+ 0
+ 24
+ 10
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4130,13 +14892,373 @@ SplineSet
  172 730 l 1,18,-1
  149 730 l 1,15,-1
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Aring
 Encoding: 197 197 132
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 0
+ 0
+ 33
+ 31
+ 27
+ 25
+ 21
+ 19
+ 15
+ 13
+ 9
+ 8
+ 0
+ 7
+ 0
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 124
+LT
+IF
+NPUSHB
+ 52
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 5
+ 0
+ 8
+ 7
+ 5
+ 8
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 0
+ 6
+ 6
+ 7
+ 1
+ 0
+ 27
+ 0
+ 7
+ 7
+ 9
+ 22
+ 0
+ 0
+ 0
+ 7
+ 22
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 50
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 5
+ 0
+ 8
+ 7
+ 5
+ 8
+ 1
+ 0
+ 29
+ 0
+ 7
+ 0
+ 6
+ 0
+ 7
+ 6
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 0
+ 0
+ 0
+ 7
+ 22
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 53
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 6
+ 4
+ 6
+ 0
+ 4
+ 41
+ 0
+ 5
+ 0
+ 8
+ 7
+ 5
+ 8
+ 1
+ 0
+ 29
+ 0
+ 7
+ 0
+ 6
+ 0
+ 7
+ 6
+ 1
+ 0
+ 29
+ 0
+ 4
+ 0
+ 2
+ 1
+ 4
+ 2
+ 0
+ 2
+ 29
+ 9
+ 3
+ 2
+ 1
+ 1
+ 8
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 64
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 6
+ 4
+ 6
+ 0
+ 4
+ 41
+ 9
+ 3
+ 2
+ 1
+ 2
+ 1
+ 44
+ 0
+ 5
+ 0
+ 8
+ 7
+ 5
+ 8
+ 1
+ 0
+ 29
+ 0
+ 7
+ 0
+ 6
+ 0
+ 7
+ 6
+ 1
+ 0
+ 29
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 8
+ELSE
+NPUSHB
+ 70
+ 10
+ 1
+ 4
+ 0
+ 1
+ 21
+ 0
+ 0
+ 6
+ 4
+ 6
+ 0
+ 4
+ 41
+ 9
+ 1
+ 3
+ 2
+ 1
+ 2
+ 3
+ 1
+ 41
+ 0
+ 1
+ 1
+ 42
+ 0
+ 5
+ 0
+ 8
+ 7
+ 5
+ 8
+ 1
+ 0
+ 29
+ 0
+ 7
+ 0
+ 6
+ 0
+ 7
+ 6
+ 1
+ 0
+ 29
+ 0
+ 4
+ 2
+ 2
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 2
+ 0
+ 2
+ 27
+ 0
+ 2
+ 4
+ 2
+ 0
+ 2
+ 24
+ 9
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4172,13 +15294,318 @@ SplineSet
  85 842 85 842 71 828 c 128,-1,34
  57 814 57 814 57 794 c 256,23,24
 EndSplineSet
-Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 58 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  57 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  55 -50 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: AE
 Encoding: 198 198 133
 Width: 273
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 28
+ 16
+ 16
+ 0
+ 0
+ 16
+ 18
+ 16
+ 18
+ 0
+ 15
+ 0
+ 15
+ 14
+ 13
+ 12
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 11
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 55
+ 17
+ 1
+ 2
+ 1
+ 1
+ 21
+ 0
+ 2
+ 0
+ 3
+ 8
+ 2
+ 3
+ 0
+ 0
+ 29
+ 10
+ 1
+ 8
+ 0
+ 6
+ 4
+ 8
+ 6
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 7
+ 22
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 9
+ 7
+ 2
+ 5
+ 5
+ 8
+ 5
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 53
+ 17
+ 1
+ 2
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 8
+ 2
+ 3
+ 0
+ 0
+ 29
+ 10
+ 1
+ 8
+ 0
+ 6
+ 4
+ 8
+ 6
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 9
+ 7
+ 2
+ 5
+ 5
+ 8
+ 5
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 62
+ 17
+ 1
+ 2
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 8
+ 2
+ 3
+ 0
+ 0
+ 29
+ 10
+ 1
+ 8
+ 0
+ 6
+ 4
+ 8
+ 6
+ 0
+ 0
+ 29
+ 0
+ 4
+ 5
+ 5
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 9
+ 7
+ 2
+ 5
+ 4
+ 5
+ 0
+ 0
+ 24
+ 7
+ELSE
+NPUSHB
+ 69
+ 17
+ 1
+ 2
+ 1
+ 1
+ 21
+ 9
+ 1
+ 7
+ 4
+ 5
+ 4
+ 7
+ 5
+ 41
+ 0
+ 0
+ 0
+ 1
+ 2
+ 0
+ 1
+ 0
+ 0
+ 29
+ 0
+ 2
+ 0
+ 3
+ 8
+ 2
+ 3
+ 0
+ 0
+ 29
+ 10
+ 1
+ 8
+ 0
+ 6
+ 4
+ 8
+ 6
+ 0
+ 0
+ 29
+ 0
+ 4
+ 7
+ 5
+ 4
+ 0
+ 0
+ 26
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 0
+ 5
+ 4
+ 5
+ 0
+ 0
+ 24
+ 8
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4209,6 +15636,7 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 134
 Width: 194
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4248,7 +15676,269 @@ EndChar
 StartChar: Egrave
 Encoding: 200 200 135
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 12
+ 12
+ 0
+ 0
+ 12
+ 15
+ 12
+ 15
+ 14
+ 13
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 9
+LT
+IF
+NPUSHB
+ 49
+ 9
+ 1
+ 7
+ 6
+ 5
+ 7
+ 31
+ 0
+ 6
+ 5
+ 6
+ 43
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 48
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 46
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 2
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 6
+ELSE
+NPUSHB
+ 55
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 2
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 4
+ 4
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 3
+ 4
+ 0
+ 0
+ 24
+ 7
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4276,7 +15966,326 @@ EndChar
 StartChar: Eacute
 Encoding: 201 201 136
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 12
+ 12
+ 0
+ 0
+ 12
+ 15
+ 12
+ 15
+ 14
+ 13
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 48
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 6
+ 6
+ 9
+ 22
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 41
+LT
+IF
+NPUSHB
+ 49
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 5
+ 6
+ 31
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 48
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 46
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 4
+ 3
+ 5
+ 4
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 6
+ELSE
+NPUSHB
+ 55
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 4
+ 3
+ 5
+ 4
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 7
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4304,7 +16313,283 @@ EndChar
 StartChar: Ecircumflex
 Encoding: 202 202 137
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 12
+ 12
+ 0
+ 0
+ 12
+ 17
+ 12
+ 17
+ 15
+ 14
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 49
+ 16
+ 13
+ 2
+ 6
+ 19
+ 9
+ 7
+ 2
+ 6
+ 5
+ 6
+ 43
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 5
+ 0
+ 0
+ 27
+ 8
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 47
+ 16
+ 13
+ 2
+ 6
+ 19
+ 9
+ 7
+ 2
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 4
+ 8
+ 4
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 56
+ 16
+ 13
+ 2
+ 6
+ 19
+ 9
+ 7
+ 2
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 4
+ 4
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 3
+ 4
+ 0
+ 0
+ 24
+ 7
+ELSE
+NPUSHB
+ 60
+ 16
+ 13
+ 2
+ 7
+ 19
+ 9
+ 1
+ 7
+ 6
+ 7
+ 43
+ 0
+ 6
+ 5
+ 6
+ 43
+ 8
+ 1
+ 5
+ 0
+ 0
+ 1
+ 5
+ 0
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 2
+ 3
+ 1
+ 2
+ 0
+ 0
+ 29
+ 0
+ 3
+ 4
+ 4
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 4
+ 0
+ 0
+ 27
+ 0
+ 4
+ 3
+ 4
+ 0
+ 0
+ 24
+ 8
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4334,7 +16619,424 @@ EndChar
 StartChar: Edieresis
 Encoding: 203 203 138
 Width: 196
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 34
+ 16
+ 16
+ 12
+ 12
+ 0
+ 0
+ 16
+ 19
+ 16
+ 19
+ 18
+ 17
+ 12
+ 15
+ 12
+ 15
+ 14
+ 13
+ 0
+ 11
+ 0
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 13
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 51
+ 8
+ 1
+ 6
+ 7
+ 6
+ 43
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 12
+ 9
+ 11
+ 3
+ 7
+ 7
+ 9
+ 22
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 10
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 41
+LT
+IF
+NPUSHB
+ 52
+ 8
+ 1
+ 6
+ 7
+ 6
+ 43
+ 12
+ 9
+ 11
+ 3
+ 7
+ 5
+ 5
+ 7
+ 31
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 10
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 51
+ 8
+ 1
+ 6
+ 7
+ 6
+ 43
+ 12
+ 9
+ 11
+ 3
+ 7
+ 5
+ 7
+ 43
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 4
+ 4
+ 5
+ 0
+ 0
+ 27
+ 10
+ 1
+ 5
+ 5
+ 7
+ 22
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 49
+ 8
+ 1
+ 6
+ 7
+ 6
+ 43
+ 12
+ 9
+ 11
+ 3
+ 7
+ 5
+ 7
+ 43
+ 10
+ 1
+ 5
+ 0
+ 4
+ 3
+ 5
+ 4
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 58
+ 8
+ 1
+ 6
+ 7
+ 6
+ 43
+ 12
+ 9
+ 11
+ 3
+ 7
+ 5
+ 7
+ 43
+ 10
+ 1
+ 5
+ 0
+ 4
+ 3
+ 5
+ 4
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 7
+ELSE
+NPUSHB
+ 66
+ 0
+ 8
+ 6
+ 8
+ 43
+ 0
+ 6
+ 7
+ 6
+ 43
+ 11
+ 1
+ 7
+ 9
+ 7
+ 43
+ 12
+ 1
+ 9
+ 5
+ 9
+ 43
+ 10
+ 1
+ 5
+ 0
+ 4
+ 3
+ 5
+ 4
+ 0
+ 2
+ 29
+ 0
+ 3
+ 0
+ 2
+ 1
+ 3
+ 2
+ 0
+ 0
+ 29
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 9
+EIF
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4367,7 +17069,140 @@ EndChar
 StartChar: Igrave
 Encoding: 204 204 139
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+NPUSHB
+ 36
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4387,7 +17222,207 @@ EndChar
 StartChar: Iacute
 Encoding: 205 205 140
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 24
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 2
+ 9
+ 22
+ 4
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 41
+LT
+IF
+NPUSHB
+ 25
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 1
+ 2
+ 31
+ 4
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+NPUSHB
+ 36
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 5
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4407,7 +17442,193 @@ EndChar
 StartChar: Icircumflex
 Encoding: 206 206 141
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 9
+ 4
+ 9
+ 7
+ 6
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 25
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 7
+ 22
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 27
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 37
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 41
+ 8
+ 5
+ 2
+ 3
+ 19
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 1
+ 2
+ 43
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4429,7 +17650,142 @@ EndChar
 StartChar: Idieresis
 Encoding: 207 207 142
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 8
+ 8
+ 4
+ 4
+ 0
+ 0
+ 8
+ 11
+ 8
+ 11
+ 10
+ 9
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 41
+ 8
+ 1
+ 5
+ 1
+ 4
+ 1
+ 5
+ 4
+ 41
+ 0
+ 4
+ 4
+ 42
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 2
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 7
+ 3
+ 6
+ 3
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 48
+ 8
+ 1
+ 5
+ 1
+ 4
+ 1
+ 5
+ 4
+ 41
+ 0
+ 4
+ 4
+ 42
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 2
+ 7
+ 1
+ 3
+ 1
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 6
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4454,6 +17810,7 @@ EndChar
 StartChar: Eth
 Encoding: 208 208 143
 Width: 200
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4488,6 +17845,7 @@ EndChar
 StartChar: Ntilde
 Encoding: 209 209 144
 Width: 199
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4525,6 +17883,7 @@ EndChar
 StartChar: Ograve
 Encoding: 210 210 145
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4558,6 +17917,7 @@ EndChar
 StartChar: Oacute
 Encoding: 211 211 146
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4591,6 +17951,7 @@ EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 147
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4626,6 +17987,7 @@ EndChar
 StartChar: Otilde
 Encoding: 213 213 148
 Width: 196
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4670,6 +18032,7 @@ EndChar
 StartChar: Odieresis
 Encoding: 214 214 149
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4708,7 +18071,17 @@ EndChar
 StartChar: multiply
 Encoding: 215 215 150
 Width: 245
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 4
+ 0
+ 6
+ 1
+ 11
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4731,6 +18104,7 @@ EndChar
 StartChar: Oslash
 Encoding: 216 216 151
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4773,6 +18147,7 @@ EndChar
 StartChar: Ugrave
 Encoding: 217 217 152
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4801,6 +18176,7 @@ EndChar
 StartChar: Uacute
 Encoding: 218 218 153
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4829,6 +18205,7 @@ EndChar
 StartChar: Ucircumflex
 Encoding: 219 219 154
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4859,6 +18236,7 @@ EndChar
 StartChar: Udieresis
 Encoding: 220 220 155
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4892,7 +18270,280 @@ EndChar
 StartChar: Yacute
 Encoding: 221 221 156
 Width: 197
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 20
+ 9
+ 9
+ 0
+ 0
+ 9
+ 12
+ 9
+ 12
+ 11
+ 10
+ 0
+ 8
+ 0
+ 8
+ 6
+ 5
+ 3
+ 2
+ 7
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 25
+LT
+IF
+NPUSHB
+ 33
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 6
+ 1
+ 4
+ 3
+ 4
+ 43
+ 0
+ 3
+ 3
+ 9
+ 22
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 5
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 35
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 6
+ 1
+ 4
+ 3
+ 4
+ 43
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 0
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 38
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 6
+ 1
+ 4
+ 3
+ 4
+ 43
+ 1
+ 1
+ 0
+ 3
+ 2
+ 3
+ 0
+ 2
+ 41
+ 0
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 47
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 6
+ 1
+ 4
+ 3
+ 4
+ 43
+ 1
+ 1
+ 0
+ 3
+ 2
+ 3
+ 0
+ 2
+ 41
+ 0
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 3
+ 2
+ 0
+ 0
+ 24
+ 6
+ELSE
+NPUSHB
+ 53
+ 7
+ 4
+ 1
+ 3
+ 2
+ 1
+ 1
+ 21
+ 6
+ 1
+ 4
+ 3
+ 4
+ 43
+ 0
+ 0
+ 3
+ 1
+ 3
+ 0
+ 1
+ 41
+ 0
+ 1
+ 2
+ 3
+ 1
+ 2
+ 39
+ 0
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 26
+ 0
+ 3
+ 3
+ 2
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 3
+ 2
+ 0
+ 0
+ 24
+ 7
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4912,12 +18563,13 @@ SplineSet
  134 840 l 1,12,-1
  153 840 l 1,9,-1
 EndSplineSet
-Kerns2: 133 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 45 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Thorn
 Encoding: 222 222 157
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4948,6 +18600,7 @@ EndChar
 StartChar: germandbls
 Encoding: 223 223 158
 Width: 322
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -4994,6 +18647,7 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 159
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5039,6 +18693,7 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 160
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5084,6 +18739,7 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 161
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5131,6 +18787,7 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 162
 Width: 196
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5187,6 +18844,7 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 163
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5237,6 +18895,7 @@ EndChar
 StartChar: aring
 Encoding: 229 229 164
 Width: 193
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5295,6 +18954,7 @@ EndChar
 StartChar: ae
 Encoding: 230 230 165
 Width: 309
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5358,6 +19018,7 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 166
 Width: 194
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5397,6 +19058,7 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 167
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5441,6 +19103,7 @@ EndChar
 StartChar: eacute
 Encoding: 233 233 168
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5484,6 +19147,7 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 169
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5530,6 +19194,7 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 170
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5578,7 +19243,139 @@ EndChar
 StartChar: igrave
 Encoding: 236 236 171
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 10
+ 22
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+NPUSHB
+ 35
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5598,7 +19395,139 @@ EndChar
 StartChar: iacute
 Encoding: 237 237 172
 Width: 76
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 10
+ 22
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 26
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+NPUSHB
+ 35
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5618,7 +19547,191 @@ EndChar
 StartChar: icircumflex
 Encoding: 238 238 173
 Width: 122
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 18
+ 4
+ 4
+ 0
+ 0
+ 4
+ 9
+ 4
+ 9
+ 7
+ 6
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 6
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 25
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 10
+ 22
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 27
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 4
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 36
+ 8
+ 5
+ 2
+ 2
+ 19
+ 5
+ 3
+ 2
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 40
+ 8
+ 5
+ 2
+ 3
+ 19
+ 5
+ 1
+ 3
+ 2
+ 3
+ 43
+ 0
+ 2
+ 0
+ 2
+ 43
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5640,7 +19753,211 @@ EndChar
 StartChar: idieresis
 Encoding: 239 239 174
 Width: 140
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 8
+ 8
+ 4
+ 4
+ 0
+ 0
+ 8
+ 11
+ 8
+ 11
+ 10
+ 9
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 27
+ 4
+ 1
+ 2
+ 8
+ 5
+ 7
+ 3
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 10
+ 22
+ 6
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 29
+ 4
+ 1
+ 2
+ 8
+ 5
+ 7
+ 3
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 1
+ 8
+ 1
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 38
+ 4
+ 1
+ 2
+ 8
+ 5
+ 7
+ 3
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 46
+ 0
+ 4
+ 8
+ 1
+ 5
+ 3
+ 4
+ 5
+ 0
+ 0
+ 29
+ 0
+ 2
+ 7
+ 1
+ 3
+ 0
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5665,6 +19982,7 @@ EndChar
 StartChar: eth
 Encoding: 240 240 175
 Width: 197
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5705,6 +20023,7 @@ EndChar
 StartChar: ntilde
 Encoding: 241 241 176
 Width: 197
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5745,6 +20064,7 @@ EndChar
 StartChar: ograve
 Encoding: 242 242 177
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5778,6 +20098,7 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 178
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5811,6 +20132,7 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 179
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5846,6 +20168,7 @@ EndChar
 StartChar: otilde
 Encoding: 245 245 180
 Width: 196
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5889,6 +20212,7 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 181
 Width: 192
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5927,7 +20251,200 @@ EndChar
 StartChar: divide
 Encoding: 247 247 182
 Width: 301
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 8
+ 8
+ 4
+ 4
+ 8
+ 11
+ 8
+ 11
+ 10
+ 9
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 3
+ 2
+ 1
+ 0
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 14
+LT
+IF
+NPUSHB
+ 47
+ 0
+ 4
+ 5
+ 4
+ 43
+ 7
+ 1
+ 5
+ 1
+ 1
+ 5
+ 31
+ 0
+ 2
+ 0
+ 3
+ 0
+ 2
+ 33
+ 6
+ 1
+ 3
+ 3
+ 42
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 15
+LT
+IF
+NPUSHB
+ 48
+ 0
+ 4
+ 5
+ 4
+ 43
+ 7
+ 1
+ 5
+ 1
+ 1
+ 5
+ 31
+ 0
+ 2
+ 0
+ 3
+ 0
+ 2
+ 3
+ 41
+ 6
+ 1
+ 3
+ 3
+ 42
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 7
+ELSE
+NPUSHB
+ 47
+ 0
+ 4
+ 5
+ 4
+ 43
+ 7
+ 1
+ 5
+ 1
+ 5
+ 43
+ 0
+ 2
+ 0
+ 3
+ 0
+ 2
+ 3
+ 41
+ 6
+ 1
+ 3
+ 3
+ 42
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 2
+ 24
+ 7
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5952,6 +20469,7 @@ EndChar
 StartChar: oslash
 Encoding: 248 248 183
 Width: 203
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -5996,7 +20514,281 @@ EndChar
 StartChar: ugrave
 Encoding: 249 249 184
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 18
+ 18
+ 0
+ 0
+ 18
+ 21
+ 18
+ 21
+ 20
+ 19
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 47
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 49
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 56
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 2
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 7
+ELSE
+NPUSHB
+ 60
+ 16
+ 1
+ 3
+ 4
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 8
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6026,7 +20818,338 @@ EndChar
 StartChar: uacute
 Encoding: 250 250 185
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 18
+ 18
+ 0
+ 0
+ 18
+ 21
+ 18
+ 21
+ 20
+ 19
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 9
+LT
+IF
+NPUSHB
+ 48
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 2
+ 6
+ 31
+ 0
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 47
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 49
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 56
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 2
+ 0
+ 0
+ 2
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 7
+ELSE
+NPUSHB
+ 60
+ 16
+ 1
+ 3
+ 4
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 2
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 8
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6056,7 +21179,289 @@ EndChar
 StartChar: ucircumflex
 Encoding: 251 251 186
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 18
+ 18
+ 0
+ 0
+ 18
+ 23
+ 18
+ 23
+ 21
+ 20
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 48
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 22
+ 19
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 50
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 22
+ 19
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 2
+ 5
+ 43
+ 7
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 7
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 57
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 22
+ 19
+ 2
+ 5
+ 19
+ 8
+ 6
+ 2
+ 5
+ 2
+ 5
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 2
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 7
+ELSE
+NPUSHB
+ 65
+ 16
+ 1
+ 3
+ 4
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 22
+ 19
+ 2
+ 6
+ 19
+ 8
+ 1
+ 6
+ 5
+ 6
+ 43
+ 0
+ 5
+ 2
+ 5
+ 43
+ 0
+ 2
+ 4
+ 2
+ 43
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 7
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 9
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6088,7 +21493,312 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 187
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 32
+ 22
+ 22
+ 18
+ 18
+ 0
+ 0
+ 22
+ 25
+ 22
+ 25
+ 24
+ 23
+ 18
+ 21
+ 18
+ 21
+ 20
+ 19
+ 0
+ 17
+ 0
+ 17
+ 14
+ 12
+ 9
+ 8
+ 6
+ 4
+ 2
+ 1
+ 12
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 50
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 7
+ 1
+ 5
+ 11
+ 8
+ 10
+ 3
+ 6
+ 2
+ 5
+ 6
+ 0
+ 0
+ 29
+ 9
+ 4
+ 2
+ 2
+ 2
+ 10
+ 22
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 52
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 7
+ 1
+ 5
+ 11
+ 8
+ 10
+ 3
+ 6
+ 2
+ 5
+ 6
+ 0
+ 0
+ 29
+ 9
+ 4
+ 2
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 22
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 1
+ 14
+ 1
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 59
+ 16
+ 1
+ 3
+ 2
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 7
+ 1
+ 5
+ 11
+ 8
+ 10
+ 3
+ 6
+ 2
+ 5
+ 6
+ 0
+ 0
+ 29
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 9
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 2
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 6
+ELSE
+NPUSHB
+ 74
+ 16
+ 1
+ 3
+ 4
+ 3
+ 1
+ 0
+ 3
+ 2
+ 21
+ 0
+ 2
+ 6
+ 4
+ 6
+ 2
+ 4
+ 41
+ 0
+ 7
+ 11
+ 1
+ 8
+ 6
+ 7
+ 8
+ 0
+ 0
+ 29
+ 0
+ 5
+ 10
+ 1
+ 6
+ 2
+ 5
+ 6
+ 0
+ 0
+ 29
+ 0
+ 3
+ 0
+ 1
+ 3
+ 1
+ 0
+ 26
+ 9
+ 1
+ 4
+ 0
+ 0
+ 1
+ 4
+ 0
+ 0
+ 0
+ 29
+ 0
+ 3
+ 3
+ 1
+ 1
+ 2
+ 27
+ 0
+ 1
+ 3
+ 1
+ 1
+ 2
+ 24
+ 8
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6123,6 +21833,7 @@ EndChar
 StartChar: yacute
 Encoding: 253 253 188
 Width: 211
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6153,6 +21864,7 @@ EndChar
 StartChar: thorn
 Encoding: 254 254 189
 Width: 193
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6185,6 +21897,7 @@ EndChar
 StartChar: ydieresis
 Encoding: 255 255 190
 Width: 211
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6220,6 +21933,7 @@ EndChar
 StartChar: OE
 Encoding: 338 338 191
 Width: 313
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6259,6 +21973,7 @@ EndChar
 StartChar: oe
 Encoding: 339 339 192
 Width: 308
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6313,7 +22028,270 @@ EndChar
 StartChar: Ydieresis
 Encoding: 376 376 193
 Width: 197
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 28
+ 13
+ 13
+ 9
+ 9
+ 0
+ 0
+ 13
+ 16
+ 13
+ 16
+ 15
+ 14
+ 9
+ 12
+ 9
+ 12
+ 11
+ 10
+ 0
+ 8
+ 0
+ 8
+ 6
+ 5
+ 3
+ 2
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 49
+LT
+IF
+NPUSHB
+ 36
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 5
+ 1
+ 3
+ 4
+ 3
+ 43
+ 9
+ 6
+ 8
+ 3
+ 4
+ 4
+ 9
+ 22
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 7
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 36
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 5
+ 1
+ 3
+ 4
+ 3
+ 43
+ 9
+ 6
+ 8
+ 3
+ 4
+ 0
+ 4
+ 43
+ 1
+ 1
+ 0
+ 0
+ 7
+ 22
+ 7
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 36
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 5
+ 1
+ 3
+ 4
+ 3
+ 43
+ 9
+ 6
+ 8
+ 3
+ 4
+ 0
+ 4
+ 43
+ 1
+ 1
+ 0
+ 2
+ 0
+ 43
+ 7
+ 1
+ 2
+ 2
+ 8
+ 2
+ 23
+ 5
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 34
+ 7
+ 4
+ 1
+ 3
+ 2
+ 0
+ 1
+ 21
+ 5
+ 1
+ 3
+ 4
+ 3
+ 43
+ 9
+ 6
+ 8
+ 3
+ 4
+ 0
+ 4
+ 43
+ 1
+ 1
+ 0
+ 2
+ 0
+ 43
+ 7
+ 1
+ 2
+ 2
+ 34
+ 5
+ELSE
+NPUSHB
+ 46
+ 7
+ 4
+ 1
+ 3
+ 2
+ 1
+ 1
+ 21
+ 0
+ 5
+ 3
+ 5
+ 43
+ 0
+ 3
+ 4
+ 3
+ 43
+ 8
+ 1
+ 4
+ 6
+ 4
+ 43
+ 9
+ 1
+ 6
+ 0
+ 6
+ 43
+ 0
+ 0
+ 1
+ 0
+ 43
+ 0
+ 1
+ 2
+ 1
+ 43
+ 7
+ 1
+ 2
+ 2
+ 34
+ 8
+EIF
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6338,13 +22316,71 @@ SplineSet
  175 740 l 1,16,-1
  152 740 l 1,13,-1
 EndSplineSet
-Kerns2: 133 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 45 -40 "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: circumflex
 Encoding: 710 710 194
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 0
+ 0
+ 0
+ 5
+ 0
+ 5
+ 3
+ 2
+ 3
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 12
+ 4
+ 1
+ 2
+ 0
+ 19
+ 2
+ 1
+ 2
+ 0
+ 0
+ 34
+ 2
+ELSE
+NPUSHB
+ 16
+ 4
+ 1
+ 2
+ 1
+ 19
+ 2
+ 1
+ 1
+ 0
+ 1
+ 43
+ 0
+ 0
+ 0
+ 34
+ 3
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6361,7 +22397,61 @@ EndChar
 StartChar: ring
 Encoding: 730 730 195
 Width: 192
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 10
+ 22
+ 20
+ 16
+ 14
+ 10
+ 8
+ 4
+ 2
+ 4
+ 7
+CALL
+NPUSHB
+ 33
+ 0
+ 0
+ 0
+ 3
+ 2
+ 0
+ 3
+ 1
+ 0
+ 29
+ 0
+ 2
+ 1
+ 1
+ 2
+ 1
+ 0
+ 26
+ 0
+ 2
+ 2
+ 1
+ 1
+ 0
+ 27
+ 0
+ 1
+ 2
+ 1
+ 1
+ 0
+ 24
+ 4
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6389,6 +22479,7 @@ EndChar
 StartChar: tilde
 Encoding: 732 732 196
 Width: 190
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6414,7 +22505,47 @@ EndChar
 StartChar: endash
 Encoding: 8211 8211 197
 Width: 271
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 3
+ 2
+ 1
+ 0
+ 2
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6429,7 +22560,47 @@ EndChar
 StartChar: emdash
 Encoding: 8212 8212 198
 Width: 321
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 3
+ 2
+ 1
+ 0
+ 2
+ 7
+CALL
+NPUSHB
+ 23
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6444,7 +22615,86 @@ EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 199
 Width: 107
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 17
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 0
+ 0
+ 2
+ 28
+ 0
+ 1
+ 1
+ 7
+ 1
+ 23
+ 2
+ELSE
+NPUSHB
+ 30
+ 0
+ 1
+ 2
+ 1
+ 43
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 0
+ 0
+ 26
+ 3
+ 1
+ 2
+ 2
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 2
+ 0
+ 0
+ 2
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6461,7 +22711,118 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 200
 Width: 107
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 13
+LT
+IF
+NPUSHB
+ 21
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 32
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 7
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 20
+ 3
+ 1
+ 2
+ 0
+ 2
+ 44
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 7
+ 0
+ 23
+ 3
+ELSE
+NPUSHB
+ 29
+ 3
+ 1
+ 2
+ 0
+ 2
+ 44
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6478,7 +22839,118 @@ EndChar
 StartChar: quotesinglbase
 Encoding: 8218 8218 201
 Width: 107
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 12
+ 0
+ 0
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 4
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 13
+LT
+IF
+NPUSHB
+ 21
+ 3
+ 1
+ 2
+ 0
+ 0
+ 2
+ 32
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 20
+ 3
+ 1
+ 2
+ 0
+ 2
+ 44
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+NPUSHB
+ 29
+ 3
+ 1
+ 2
+ 0
+ 2
+ 44
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6495,7 +22967,161 @@ EndChar
 StartChar: quotedblleft
 Encoding: 8220 8220 202
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 6
+ 6
+ 0
+ 0
+ 6
+ 11
+ 6
+ 11
+ 10
+ 9
+ 8
+ 7
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 21
+ 7
+ 5
+ 6
+ 3
+ 2
+ 3
+ 1
+ 0
+ 2
+ 0
+ 0
+ 2
+ 28
+ 4
+ 1
+ 1
+ 1
+ 7
+ 1
+ 23
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 36
+ 4
+ 1
+ 1
+ 2
+ 1
+ 43
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 0
+ 2
+ 0
+ 0
+ 26
+ 7
+ 5
+ 6
+ 3
+ 2
+ 2
+ 0
+ 0
+ 2
+ 27
+ 3
+ 1
+ 0
+ 2
+ 0
+ 0
+ 2
+ 24
+ 4
+ELSE
+NPUSHB
+ 46
+ 0
+ 1
+ 4
+ 1
+ 43
+ 0
+ 4
+ 2
+ 4
+ 43
+ 6
+ 1
+ 2
+ 5
+ 0
+ 2
+ 0
+ 0
+ 26
+ 7
+ 1
+ 5
+ 0
+ 3
+ 0
+ 5
+ 3
+ 0
+ 2
+ 29
+ 6
+ 1
+ 2
+ 2
+ 0
+ 0
+ 2
+ 27
+ 0
+ 0
+ 2
+ 0
+ 0
+ 2
+ 24
+ 6
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6519,7 +23145,197 @@ EndChar
 StartChar: quotedblright
 Encoding: 8221 8221 203
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 6
+ 6
+ 0
+ 0
+ 6
+ 11
+ 6
+ 11
+ 10
+ 9
+ 8
+ 7
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 13
+LT
+IF
+NPUSHB
+ 25
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 0
+ 2
+ 32
+ 3
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 7
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 24
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 2
+ 44
+ 3
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 4
+ 1
+ 1
+ 1
+ 7
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 34
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 2
+ 44
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 3
+ 1
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 47
+ 7
+ 1
+ 5
+ 0
+ 2
+ 0
+ 5
+ 2
+ 41
+ 6
+ 1
+ 2
+ 2
+ 42
+ 0
+ 1
+ 4
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 3
+ 0
+ 4
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6543,7 +23359,197 @@ EndChar
 StartChar: quotedblbase
 Encoding: 8222 8222 204
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 22
+ 6
+ 6
+ 0
+ 0
+ 6
+ 11
+ 6
+ 11
+ 10
+ 9
+ 8
+ 7
+ 0
+ 5
+ 0
+ 5
+ 4
+ 3
+ 2
+ 1
+ 8
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 13
+LT
+IF
+NPUSHB
+ 25
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 0
+ 2
+ 32
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 3
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 24
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 2
+ 44
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 3
+ 1
+ 0
+ 0
+ 8
+ 0
+ 23
+ 3
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 34
+ 7
+ 5
+ 6
+ 3
+ 2
+ 0
+ 2
+ 44
+ 4
+ 1
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 4
+ 1
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 3
+ 1
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+ELSE
+NPUSHB
+ 47
+ 7
+ 1
+ 5
+ 0
+ 2
+ 0
+ 5
+ 2
+ 41
+ 6
+ 1
+ 2
+ 2
+ 42
+ 0
+ 1
+ 4
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 4
+ 0
+ 3
+ 0
+ 4
+ 3
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 6
+EIF
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6567,6 +23573,7 @@ EndChar
 StartChar: bullet
 Encoding: 8226 8226 205
 Width: 285
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6586,7 +23593,161 @@ EndChar
 StartChar: ellipsis
 Encoding: 8230 8230 206
 Width: 236
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 26
+ 8
+ 8
+ 4
+ 4
+ 0
+ 0
+ 8
+ 11
+ 8
+ 11
+ 10
+ 9
+ 4
+ 7
+ 4
+ 7
+ 6
+ 5
+ 0
+ 3
+ 0
+ 3
+ 2
+ 1
+ 9
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 151
+LT
+IF
+NPUSHB
+ 21
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 8
+ 5
+ 7
+ 3
+ 6
+ 5
+ 1
+ 1
+ 8
+ 1
+ 23
+ 2
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 32
+ 4
+ 2
+ 2
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 4
+ 2
+ 2
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 8
+ 5
+ 7
+ 3
+ 6
+ 5
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 3
+ELSE
+NPUSHB
+ 46
+ 0
+ 0
+ 2
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 4
+ 8
+ 1
+ 5
+ 3
+ 4
+ 5
+ 0
+ 0
+ 29
+ 0
+ 2
+ 7
+ 1
+ 3
+ 1
+ 2
+ 3
+ 0
+ 0
+ 29
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 6
+ 1
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 5
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6611,7 +23772,84 @@ EndChar
 StartChar: guilsinglleft
 Encoding: 8249 8249 207
 Width: 198
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 4
+ 3
+ 1
+ 0
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 21
+ 5
+ 2
+ 2
+ 1
+ 0
+ 1
+ 21
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 0
+ 10
+ 1
+ 23
+ 3
+ELSE
+NPUSHB
+ 30
+ 5
+ 2
+ 2
+ 1
+ 0
+ 1
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 26
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 0
+ 1
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6628,7 +23866,84 @@ EndChar
 StartChar: guilsinglright
 Encoding: 8250 8250 208
 Width: 199
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 6
+ 5
+ 4
+ 2
+ 1
+ 2
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 21
+ 3
+ 0
+ 2
+ 0
+ 1
+ 1
+ 21
+ 0
+ 0
+ 0
+ 1
+ 0
+ 0
+ 27
+ 0
+ 1
+ 1
+ 10
+ 0
+ 23
+ 3
+ELSE
+NPUSHB
+ 30
+ 3
+ 0
+ 2
+ 0
+ 1
+ 1
+ 21
+ 0
+ 1
+ 0
+ 0
+ 1
+ 0
+ 0
+ 26
+ 0
+ 1
+ 1
+ 0
+ 0
+ 0
+ 27
+ 0
+ 0
+ 1
+ 0
+ 0
+ 0
+ 24
+ 4
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6645,6 +23960,7 @@ EndChar
 StartChar: Euro
 Encoding: 8364 8364 209
 Width: 200
+GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
@@ -6692,7 +24008,236 @@ EndChar
 StartChar: trademark
 Encoding: 8482 8482 210
 Width: 269
+GlyphClass: 2
 Flags: HW
+TtInstrs:
+NPUSHB
+ 24
+ 0
+ 0
+ 22
+ 21
+ 20
+ 19
+ 18
+ 17
+ 16
+ 15
+ 0
+ 14
+ 0
+ 14
+ 11
+ 10
+ 7
+ 6
+ 5
+ 4
+ 2
+ 1
+ 10
+ 7
+CALL
+MPPEM
+PUSHB_1
+ 126
+LT
+IF
+NPUSHB
+ 51
+ 13
+ 12
+ 8
+ 3
+ 4
+ 3
+ 6
+ 1
+ 21
+ 0
+ 3
+ 6
+ 2
+ 6
+ 3
+ 2
+ 41
+ 8
+ 1
+ 6
+ 6
+ 0
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 0
+ 0
+ 7
+ 22
+ 7
+ 9
+ 4
+ 3
+ 2
+ 2
+ 0
+ 0
+ 0
+ 27
+ 5
+ 1
+ 2
+ 0
+ 0
+ 7
+ 2
+ 23
+ 6
+ELSE
+MPPEM
+PUSHB_1
+ 245
+LT
+IF
+NPUSHB
+ 50
+ 13
+ 12
+ 8
+ 3
+ 4
+ 3
+ 6
+ 1
+ 21
+ 0
+ 3
+ 6
+ 2
+ 6
+ 3
+ 2
+ 41
+ 5
+ 1
+ 2
+ 0
+ 8
+ 1
+ 6
+ 3
+ 0
+ 6
+ 0
+ 0
+ 29
+ 5
+ 1
+ 2
+ 0
+ 0
+ 2
+ 0
+ 0
+ 27
+ 7
+ 9
+ 4
+ 3
+ 2
+ 0
+ 2
+ 0
+ 0
+ 24
+ 5
+ELSE
+NPUSHB
+ 75
+ 13
+ 12
+ 8
+ 3
+ 4
+ 3
+ 6
+ 1
+ 21
+ 0
+ 8
+ 5
+ 6
+ 6
+ 8
+ 33
+ 0
+ 3
+ 6
+ 7
+ 6
+ 3
+ 7
+ 41
+ 0
+ 7
+ 4
+ 6
+ 7
+ 4
+ 39
+ 0
+ 1
+ 5
+ 2
+ 1
+ 0
+ 0
+ 26
+ 0
+ 5
+ 0
+ 6
+ 3
+ 5
+ 6
+ 0
+ 0
+ 29
+ 0
+ 0
+ 9
+ 1
+ 4
+ 2
+ 0
+ 4
+ 0
+ 0
+ 29
+ 0
+ 1
+ 1
+ 2
+ 0
+ 0
+ 27
+ 0
+ 2
+ 1
+ 2
+ 0
+ 0
+ 24
+ 9
+EIF
+EIF
+PUSHB_1
+ 47
+CALL
+EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6721,21 +24266,6 @@ SplineSet
  40 684 l 1,21,-1
  20 684 l 1,22,-1
  20 700 l 1,15,-1
-EndSplineSet
-EndChar
-
-StartChar: minus
-Encoding: 8722 8722 211
-Width: 299
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-20 316 m 1,0,-1
- 280 316 l 1,1,-1
- 280 301 l 1,2,-1
- 20 301 l 1,3,-1
- 20 316 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
