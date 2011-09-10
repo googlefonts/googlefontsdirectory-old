@@ -2,7 +2,7 @@ license: OFL
 payment: DESIGNER
 url: http://aldusleaf.org/
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Crimson Text
 
@@ -29,6 +29,9 @@ description: <p>Crimson Text is a font family \
   to enjoy Crimson Text as a beautiful \
   workhorse.</p>
 
+font.CrimsonText-Roman.ttf.style: normal
+font.CrimsonText-Semibold.ttf.style: normal
+font.CrimsonText-Bold.ttf.style: normal
 font.CrimsonText-Italic.ttf.style: italic
 font.CrimsonText-SemiboldItalic.ttf.style: italic
 font.CrimsonText-BoldItalic.ttf.style: italic
@@ -40,4 +43,30 @@ font.CrimsonText-SemiboldItalic.ttf.weight: 600
 font.CrimsonText-Bold.ttf.weight: 700
 font.CrimsonText-BoldItalic.ttf.weight: 700
 
-conversion: Converted from SFD to TTF using FontForge, see src/build/generate.py for details
+conversion: Converted from SFD to TTF using FontForge by hand
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Crimson Text" \
+# ~/googlefontdirectory/crimson/CrimsonText-Roman.{ttf,menu}; \
+# cd ~/googlefontdirectory/crimson/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  CrimsonText-Roman.menu; \
+
+# cd ~/googlefontdirectory/crimson/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in crimson; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/crimson/; \
