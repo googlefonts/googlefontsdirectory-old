@@ -35,7 +35,11 @@ description: <p>Syncopate was designed in 2010 as \
   and fresh.</p> \
   <p>A true bold was added in April 2011.</p>
 
+font.Syncopate-Regular.ttf.weight: normal
 font.Syncopate-Bold.ttf.weight: bold
+
+font.Syncopate-Regular.ttf.style: normal
+font.Syncopate-Bold.ttf.style: normal
 
 # cd ~/src/font-optimizer;
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
