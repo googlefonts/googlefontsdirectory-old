@@ -11,11 +11,11 @@ Basic Font Information
 Merriweather was designed to be a text face that 
 is pleasant to read on screens.
 
-Merriweather is an evolving and will be updated.
+Merriweather is evolving and will be updated.
 As of now there are 4 styles: Regular, Light, Bold, 
 and Black. There will also be Italic in each
 of these weights. And fairly soon after that there
-will also be a sans serif version which mirrors the
+will also be a Sans Serif version which mirrors the
 weights and styles of the Serif design.
 
 Designed by Eben Sorkin, Merriweather features a
@@ -23,7 +23,7 @@ very large x height, slightly condensed letterforms,
 a mild diagonal stress, sturdy serifs and open
 forms.
 
-Because Merriweather is a work in progress and
+Merriweather is a work in progress and
 will be improved regularly. This means you can request
 improvements and even fund specific features if
 if they are outside of the current scope of work.
@@ -52,14 +52,14 @@ ChangeLog
 
 29 July 2011 (Eben Sorkin) Merriweather v1.3
 
-- Altered and improved 90% of the glyphs. Some in moinor ways 
+- Altered and improved 90% of the glyphs. Some in minor ways 
   and other in fairly significant ways. For example: 
   The lc a was a small change.
-  The changes to the numbers corrected weight consistency isues 
-  and were moe significant. 
+  The changes to the numbers corrected weight consistency issues 
+  were more significant. 
 - Added glyphs to support texts originating from Windows
   ANSI and Mac Roman encodings. 
-- Adjusted diacrics further
+- Adjusted diacritics further
 - This may be the last update to shapes before work 
   begins on the Sans. This means that VTT hinting 
   should be next.
