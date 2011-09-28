@@ -3,6 +3,7 @@ category: handwriting
 subsets: menu,latin
 
 family: Delius
+group: Delius
 
 designer: Natalia Raices
 
@@ -22,6 +23,16 @@ font.Delius-Regular.ttf.style: normal
 font.Delius-Regular.ttf.weight: 400
 # font.Delius-Bold.ttf.weight: 700
 
+<<<<<<< local
+font.DeliusUnicase-Regular.ttf.subfamily: Unicase
+font.DeliusUnicase-Regular.ttf.style: normal
+# font.DeliusUnicase-Bold.ttf.style: normal
+font.DeliusUnicase-Regular.ttf.weight: 400
+# font.DeliusUnicase-Bold.ttf.weight: 700
+
+
+=======
+>>>>>>> other
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
