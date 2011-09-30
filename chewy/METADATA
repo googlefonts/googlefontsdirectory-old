@@ -16,3 +16,13 @@ description: <p>Finally. A font you can really sink \
   sealed for freshness in an easy-open package. \
   Be sure to sample Squid's other main courses \
   and side dishes!</p>
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Chewy" \
+#     ~/googlefontdirectory/chewy/Chewy.ttf \
+#     ~/googlefontdirectory/chewy/Chewy.menu; \
+# cd ~/googlefontdirectory/chewy/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Chewy.menu; \
+
