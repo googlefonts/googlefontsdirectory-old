@@ -1,14 +1,13 @@
 # WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE TRADEMARK NAME "UBUNTU" and only then with approval
 
 payment: DESIGNER
-# TODO DC ensure UFL is okay
 license: UFL
-# licenseurl: http://font.ubuntu.com/ufl/
 url: http://font.ubuntu.com
 category: sans-serif
 subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
 
 family: Ubuntu
+group: Ubuntu
 
 designer: Dalton Maag
 
@@ -48,15 +47,6 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
   <p>Ubuntu and Canonical are registered \
   trademarks of Canonical Ltd.</p>
 
-# fontforge -lang=ff -script menusubset-ubuntu.ff Ubuntu-Regular.ttf;
-# mv Ubuntu-Regular.{ttf.menu.ttf,menu};
-#
-# cd ~/src/font-optimizer/; ./subset.pl -v \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     --chars="Ubunt КаилрцΕάεηικλν()" \
-#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf \
-#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.menu; \
-# cd ~/googlefontdirectory/ubuntu/; \
 
 # cd ~/googlefontdirectory/ubuntu/; \
 # mv Ubuntu-L.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Light.ttf; \
@@ -67,7 +57,33 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 # mv Ubuntu-MI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-MediumItalic.ttf; \
 # mv Ubuntu-B.ttf ~/googlefontdirectory/ubuntu/Ubuntu-Bold.ttf; \
 # mv Ubuntu-BI.ttf ~/googlefontdirectory/ubuntu/Ubuntu-BoldItalic.ttf;
+# mv Ubuntu-C.ttf ~/googlefontdirectory/ubuntu/UbuntuCondensed-Regular.ttf;
+
+# fontforge -lang=ff -script menusubset-ubuntu.ff Ubuntu-Regular.ttf;
+# mv Ubuntu-Regular.{ttf.menu.ttf,menu};
 #
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Ubuntu КаилрцΕάεηικλν()" \
+#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.ttf \
+#     ~/googlefontdirectory/ubuntu/Ubuntu-Regular.menu; \
+# cd ~/googlefontdirectory/ubuntu/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Ubuntu-Regular.menu; \
+
+# fontforge -lang=ff -script menusubset-ubuntucondensed.ff UbuntuCondensed-Regular.ttf;
+# mv UbuntuCondensed-Regular.{ttf.menu.ttf,menu};
+#
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Ubuntu Condensed Каилрц Εάεηικλν()" \
+#     ~/googlefontdirectory/ubuntu/UbuntuCondensed-Regular.ttf \
+#     ~/googlefontdirectory/ubuntu/UbuntuCondensed-Regular.menu; \
+# cd ~/googlefontdirectory/ubuntu/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  UbuntuCondensed-Regular.menu; \
+
+
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
 # for family in ubuntu; do \
@@ -86,7 +102,7 @@ description: <p>The <a href="http://font.ubuntu.com">Ubuntu \
 # done; \
 # cd ~/googlefontdirectory/ubuntu/; \
 
-
+font.UbuntuCondensed-Regular.ttf.subfamily: Condensed
 
 font.Ubuntu-LightItalic.ttf.style: italic
 font.Ubuntu-Italic.ttf.style: italic
@@ -103,3 +119,5 @@ font.Ubuntu-Medium.ttf.weight: 500
 font.Ubuntu-MediumItalic.ttf.weight: 500
 font.Ubuntu-Bold.ttf.weight: bold
 font.Ubuntu-BoldItalic.ttf.weight: bold
+
+font.UbuntuCondensed-Regular.ttf.weight: 400
