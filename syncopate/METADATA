@@ -45,5 +45,5 @@ font.Syncopate-Bold.ttf.style: normal
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Syncopate" \
-# ~/googlefontdirectory/syncopate/Syncopate.{ttf,menu};
+# ~/googlefontdirectory/syncopate/Syncopate-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/syncopate/; 
