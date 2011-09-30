@@ -1,0 +1,32 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Andada
+
+designer: Carolina Giovagnoli
+
+approved: true
+description: <p>Andada is a text font \
+  with an organic-slab serif, hybrid style, a solid \
+  design of medium stroke contrast. This font has \
+  received an award at the \
+  <a href="http://www.bid-dimad.org/galeria_profesionales_2010/TipografiaandadaHT2">Ibero-America \
+  Design Biennial</a>. The Biennial has been shown \
+  in Spain, Argentina, Chile, El Salvador, Uruguay, \
+  Bolivia, Colombia and Venezuela.</p>
+
+font.Andada-Regular.ttf.style: normal
+
+font.Andada-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Andada" \
+# ~/googlefontdirectory/andada/Andada-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/andada/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Andada-Regular.menu; \
+
