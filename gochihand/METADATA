@@ -1,0 +1,31 @@
+visibility: SANDBOX
+license: OFL
+category: handwriting
+subsets: menu,latin
+
+family: Gochi Hand
+
+designer: Juan Pablo del Peral
+
+approved: true
+description: <p>Gochi Hand is a typographic interpretation \
+  of the handwriting of a teenage girl. The style is fresh, \
+  not like the letters made by a calligrapher, but those of an \
+  ordinary person. The text line is spontaneous but solid \
+  and consistent, expressive and works well on screen, \
+  even in small sizes. The glyphs were carefully designed \
+  with a good curve quality that makes it able to look good \
+  when printed too.</p>
+
+font.GochiHand-Regular.ttf.style: normal
+
+font.GochiHand-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Gochi Hand" \
+# ~/googlefontdirectory/gochihand/GochiHand-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/gochihand/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  GochiHand-Regular.menu; \
