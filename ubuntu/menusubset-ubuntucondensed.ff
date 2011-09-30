@@ -21,11 +21,11 @@ SelectMore(0u0070) # p
 SelectMore(0u0074) # t
 SelectMore(0u0075) # u
 SelectMore(0u0076) # v
-SelectMore(0x0043) # C
-SelectMore(0x0064) # d
-SelectMore(0x0065) # e
-SelectMore(0x006F) # o
-SelectMore(0x0073) # s
+SelectMore(0u0043) # C
+SelectMore(0u0064) # d
+SelectMore(0u0065) # e
+SelectMore(0u006F) # o
+SelectMore(0u0073) # s
 SelectMore(0u0138) # kgreenlandic
 SelectMore(0u041A) # afii10028 cyrillic
 SelectMore(0u0430) # afii10065 cyrillic
