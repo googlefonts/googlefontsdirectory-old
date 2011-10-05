@@ -8,7 +8,6 @@ group: Delius
 designer: Natalia Raices
 
 approved: true
-#2011-07-22 Designer yet to send real description
 description: <p>Delius is a high quality comic book \
   lettering typeface super-family; it has several families, \
   Delis, Delius Unicase and Delius Swash Caps.</p> \
@@ -23,16 +22,6 @@ font.Delius-Regular.ttf.style: normal
 font.Delius-Regular.ttf.weight: 400
 # font.Delius-Bold.ttf.weight: 700
 
-<<<<<<< local
-font.DeliusUnicase-Regular.ttf.subfamily: Unicase
-font.DeliusUnicase-Regular.ttf.style: normal
-# font.DeliusUnicase-Bold.ttf.style: normal
-font.DeliusUnicase-Regular.ttf.weight: 400
-# font.DeliusUnicase-Bold.ttf.weight: 700
-
-
-=======
->>>>>>> other
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
