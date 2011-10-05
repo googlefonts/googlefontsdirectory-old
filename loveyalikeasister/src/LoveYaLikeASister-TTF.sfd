@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
 FontName: LoveYaLikeASister
-FullName: LoveYaLikeASister
+FullName: Love Ya Like A Sister
 FamilyName: Love Ya Like A Sister
 Weight: Book
 Copyright: Copyright (c) 2011 by Kimberly Geswein. All rights reserved.
@@ -20,7 +20,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1309521175
-ModificationTime: 1309532822
+ModificationTime: 1317831758
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2StrikeYPos: 256
 OS2Vendor: 'HL  '
 OS2CodePages: 00000093.00000000
 OS2UnicodeRanges: a000002f.5000004a.00000000.00000000
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 PUSHW_1
@@ -81,7 +82,7 @@ ShortTable: maxp 16
   1
 EndShort
 LangName: 1033 "" "" "Regular" "KimberlyGeswein: Love Ya Like A Sister: 2011" "" "Version 1.002 2007" "" "Love Ya Like A Sister is a trademark of Kimberly Geswein." "Kimberly Geswein" "Kimberly Geswein" "Copyright (c) 2011 by Kimberly Geswein. All rights reserved." "http://www.kimberlygeswein.com" "http://www.kimberlygeswein.com" "Copyright (c) 2010, Kimberly Geswein (kimberlygeswein.com)+AA0ADQAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.  This license is available with a FAQ at:  http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
-GaspTable: 1 65535 15
+GaspTable: 1 65535 3
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: Adobe Glyph List
@@ -89,6 +90,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 34 34 13
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65540 355
 
 StartChar: .notdef
