@@ -45,12 +45,7 @@ description: <p>Lato is a sanserif typeface family \
   “Male and female, serious but friendly. With \
   the feeling of the Summer,” says Łukasz.</p> \
   <p>Lato consists of five weights (plus corresponding \
-  italics), including a beautiful hairline style. \
-  The first release only includes the Western \
-  character set, but pan-European Latin, Cyrillic \
-  and Greek extensions, as well as small caps and \
-  other typographic niceties are expected \
-  in 2011.</p>
+  italics), including a beautiful hairline style.</p>
 
 font.Lato-HairlineItalic.ttf.style: italic
 font.Lato-LightItalic.ttf.style: italic
@@ -72,86 +67,12 @@ font.Lato-BlackItalic.ttf.weight: 900
 description.de: <p>Lato ist ein serifenlose Schriftfamilie, die im Sommer 2010 vom Warschauer Designer Łukasz Dziedzic entworfen wurde (der Sommer heißt auf Polnisch „Lato“). Im Dezember 2010 veröffentlichte sein Studio tyPoland, mit Unterstützung von Google, die Lato-Familie unter der OpenSource-OFL-Lizenz.</p><p>In den letzten zehn Jahren, in den Łukasz Schriften entwarf, sind seine meisten Projekte auf Basis von einer existierenden Designaufgabe entstandnen. Mit Lato war es nicht anders. Ursprünglich war die Familie als eine Corporate-Schrift für einen großen Kunden konzipiert. Dieser entschied sich am Ende, eine andere Stilrichtung zu verfolgen — somit stand die Familie für eine breite Veröffentlichung zur Verfügung.</p><p>Bei der Arbeit an Lato versuchte Łukasz, einige potentiell gegenläufige Prioritäten sorgfältig abzuwägen. Er wollte eine Schrift gestalten, die einerseits ziemlich „durchsichtig“ im Fließtext wirken würde, in Displaygrößen sollte sie aber einige originelle Züge aufweisen. Durch klassische Proportionen (besonders sichtbar in den Großbuchstaben) verlieh er der Schrift Harmonie und Eleganz. Zugleich schuf er schlichte serifenlose Formen, durch die offensichtlich wird, dass die Schrift im Jahre 2010 entstand — obwohl sie keinem aktuellen Trend folgt.</p><p>Die halbrunden Details verleihen der Lato ein Wärmegefühl während die starke Struktur für Stabilität und Seriosität sorgt. „Männlich und weiblich, ernst aber freundlich. Mit dem Gefühl des Sommers“ — sagt Łukasz.</p><p>Lato besteht aus fünf Strichstärken, plus Kursiven, darunter ein schöner ultradünner Schnitt. Die Erstauflage enthält lediglich den Westeuropa-Zeichensatz. Das paneuropäische Lateinalphabet, das Kyrillische, das Griechische, sowie Kapitälchen und andere typografische Feinheiten sollen 2011 folgen.</p>
 
 
-visibility: SANDBOX|INTERNAL
-license: Apache2|OFL
-category: serif|sans-serif|display|handwriting
-subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
-
-family: Familyname
-
-designer: Some Designer
-originaldesigner: Famous de Signer
-
-approved: false|true
-description: <p>English description</p>
-
-font.Familyname-Regular.ttf.subfamily: Subfamily
-font.Familyname-Regular.ttf.description: <p>Familyname  is cool.</p>
-
-font.Familyname-Regular.ttf.style: normal
-font.Familyname-Italic.ttf.style: italic
-font.Familyname-Bold.ttf.style: normal
-font.Familyname-BoldItalic.ttf.style: italic
-
-# 2010-11-03 DC This needs more checking/refining
-font.Familyname-Thin.ttf.weight: 100
-font.Familyname-ExtraLight.ttf.weight: 200
-font.Familyname-UltraLight.ttf.weight: 200
-font.Familyname-Light.ttf.weight: 300
-font.Familyname-Normal.ttf.weight: 400
-font.Familyname-Regular.ttf.weight: 400
-font.Familyname-Medium.ttf.weight: 500
-font.Familyname-SemiBold.ttf.weight: 600
-font.Familyname-DemiBold.ttf.weight: 600
-font.Familyname-Bold.ttf.weight: 700
-font.Familyname-ExtraBold.ttf.weight: 800
-font.Familyname-UltraBold.ttf.weight: 800
-font.Familyname-Black.ttf.weight: 900
-font.Familyname-Heavy.ttf.weight: 900 
-
-font.Familyname-ThinItalic.ttf.weight: 100
-font.Familyname-ExtraLightItalic.ttf.weight: 200
-font.Familyname-UltraLightItalic.ttf.weight: 200
-font.Familyname-LightItalic.ttf.weight: 300
-font.Familyname-Italic.ttf.weight: 400
-font.Familyname-Italic.ttf.weight: 400
-font.Familyname-MediumItalic.ttf.weight: 500
-font.Familyname-SemiBoldItalic.ttf.weight: 600
-font.Familyname-DemiBoldItalic.ttf.weight: 600
-font.Familyname-BoldItalic.ttf.weight: 700
-font.Familyname-ExtraBoldItalic.ttf.weight: 800
-font.Familyname-UltraBoldItalic.ttf.weight: 800
-font.Familyname-BlackItalic.ttf.weight: 900
-font.Familyname-HeavyItalic.ttf.weight: 900 
-
-
-conversion: Converted from OTF to TTF using FontForge
-conversion: used FontForge to update FullName to 'GFS Didot Regular', also added standard prep table
-
-# familynamedir
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Familyname" \
-# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/familynamedir/; \
+#  --chars="Lato" \
+# ~/googlefontdirectory/lato/Lato-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/lato/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Familyname-Regular.menu; \
-
-# cd ~/googlefontdirectory/familynamedir/; \
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
-# cd ~/googlefontdirectory/; \
-# for family in familynamedir; do \
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-#        for subset in \
-#            latin latin-ext; do \
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset; \
-#            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log; \
-#        done; \
-#    done; \
-# done; \
-# cd ~/googlefontdirectory/familynamedir/; \
+#  Lato-Regular.menu; \
