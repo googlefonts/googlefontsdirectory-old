@@ -1,0 +1,31 @@
+visibility: SANDBOX
+license: Apache2
+category: handwriting
+subsets: menu,latin
+
+family: Rancho
+
+designer: Font Diner
+
+approved: true
+description: <p>Howdy pardner! Need a little southwest \
+  flair in your type trunk? Well Squid and Sideshow \
+  have a brush (sagebrush, that is) script they've \
+  branded Rancho that'll do the trick. It's as \
+  comfortable as your favorite dungarees and works \
+  just as well in the barn or at the country club. \
+  Download it now and saddle up for action!</p>
+
+
+font.Rancho-Regular.ttf.style: normal
+
+font.Rancho-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Rancho" \
+# ~/googlefontdirectory/rancho/Rancho-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rancho/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Rancho-Regular.menu; \
