@@ -1,0 +1,26 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Vast Shadow
+
+designer: Nicole Fally
+
+approved: true
+description: <p>Vast is a Victorian slab serif \
+  advertising type. Vast has a feeling of sturdy \
+  solidity combined with just a little bit of \
+  refinement. Because Vast Shadow has a thin \
+  shadow that won't display well at small \
+  sizes we recommend that you use it from \
+  32px and larger.</p>
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Vast Shadow" \
+# ~/googlefontdirectory/vastshadow/VastShadow-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/vastshadow/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  VastShadow-Regular.menu; \
