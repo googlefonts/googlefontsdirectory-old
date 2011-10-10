@@ -19,9 +19,9 @@ description: <p>Delius Unicase is part of a high quality comic \
   ductus imitates the movements of handwriting.</p>
 
 font.DeliusUnicase-Regular.ttf.style: normal
-# font.DeliusUnicase-Bold.ttf.style: normal
+font.DeliusUnicase-Bold.ttf.style: normal
 font.DeliusUnicase-Regular.ttf.weight: 400
-# font.DeliusUnicase-Bold.ttf.weight: 700
+font.DeliusUnicase-Bold.ttf.weight: 700
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
