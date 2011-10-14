@@ -8,8 +8,6 @@ family: Playfair Display
 
 designer: Claus Eggers Sørensen
 
-# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
-# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>Playfair is a transitional design. \
   From the time of enlightenment in the late 18th \
@@ -55,12 +53,20 @@ description: <p>Playfair is a transitional design. \
   using the latin script are supported. →A set \
   of eight arrow devices are also included←.</p>
 
+font.PlayfairDisplay-Regular.ttf.style: normal
+font.PlayfairDisplay-Italic.ttf.style: italic
+
+font.PlayfairDisplay-Regular.ttf.weight: 400
+font.PlayfairDisplay-Italic.ttf.weight: 400
+
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,cpsp,kern,liga,case,locl" \
-#    --chars="Playfair Display" \
-#   ~/googlefontdirectory/playfairdisplay/PlayfairDisplay-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/playfairdisplay/; 
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Playfair Display" \
+# ~/googlefontdirectory/playfairdisplay/PlayfairDisplay-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/playfairdisplay/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  PlayfairDisplay-Regular.menu; \
 
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
