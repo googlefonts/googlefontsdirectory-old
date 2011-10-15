@@ -24,9 +24,11 @@ description: <p>Rokkitt is inspired by the type \
   also be usefull as an alternative to sans \
   serif text fonts.</p>
 
+font.Rokkitt-Light.ttf.style: normal
 font.Rokkitt-Regular.ttf.style: normal
 font.Rokkitt-Bold.ttf.style: normal
 
+font.Rokkitt-Light.ttf.style: 300
 font.Rokkitt-Regular.ttf.weight: 400
 font.Rokkitt-Bold.ttf.weight: 700
 
