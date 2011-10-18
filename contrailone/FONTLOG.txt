@@ -1,14 +1,16 @@
-FONTLOG for the Contrail font
+FONTLOG for the Contrail One fonts
 
-This file provides detailed information on the Contrail font Software.
-This information should be distributed along with the Contrail font
-and any derivative works.
+This file provides detailed information on the Contrail One 
+font Software.
+
+This information should be distributed along with the 
+Contrail One font and any derivative works.
 
 Basic Font Information
 
-Contrail is a Unicode typeface family that supports languages that
-use the Latin script and its variants, and could be expanded 
-to support other scripts.
+Contrail One is a Unicode typeface family that supports 
+languages that use the Latin script and its variants, 
+and could be expanded to support other scripts.
 
 More specifically, this release supports the following 
 Unicode ranges: Latin-1
@@ -17,6 +19,8 @@ To contribute to the project contact Eben Sorkin at
 sorkineben@gmail.com
 
 ChangeLog
+
+17 Oct 2011 Renamed "Contrail One"
 
 1 Sept 2011 (Eben Sorkin) Contrail v1.002
 - Mastered Font from Fontlab VBF to TTF
