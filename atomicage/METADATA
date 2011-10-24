@@ -19,8 +19,6 @@ description: <p>Atomic Age was inspired by 1950s \
 font.AtomicAge-Regular.ttf.style: normal
 font.AtomicAge-Regular.ttf.weight: 400
 
-# atomicagedir
-
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
@@ -29,20 +27,3 @@ font.AtomicAge-Regular.ttf.weight: 400
 # cd ~/googlefontdirectory/atomicagedir/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  AtomicAge-Regular.menu; \
-
-# cd ~/googlefontdirectory/atomicagedir/; \
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
-# cd ~/googlefontdirectory/; \
-# for family in atomicagedir; do \
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-#        for subset in \
-#            latin latin-ext; do \
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset; \
-#            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log; \
-#        done; \
-#    done; \
-# done; \
-# cd ~/googlefontdirectory/atomicagedir/; \
