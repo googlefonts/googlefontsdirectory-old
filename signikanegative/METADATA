@@ -1,0 +1,65 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Signika Negative
+
+designer: Anna Giedryś
+
+approved: true
+description: <p>Signika is a sans-serif with a gentle \
+  character, developed for wayfinding, signage, and \
+  other media where clarity of information is \
+  required. It has a low contrast and tall x-height \
+  to improve readability of texts in small sizes \
+  as well as in large distances from the reader.</p> \
+  <p>The typeface comes with a wide character set \
+  supporting Western European languages, Polish, \
+  and Czech. The figures are designed as tabular.</p> \
+  <p><strong>This is the \
+  <a href="http://www.google.com/webfonts/specimen/Signika+Negative">alternative \
+  Negative version</a>, \
+  optimised to solve the effect of \
+  juxtaposed positive and negative text \
+  setting, where the text in negative tends \
+  to look thicker.</strong></p> \
+  <p>Small caps and small-cap figures will be published \
+  soon.</p>
+
+
+font.SignikaNegative-Light.ttf.style: normal
+font.SignikaNegative-Regular.ttf.style: normal
+font.SignikaNegative-SemiBold.ttf.style: normal
+font.SignikaNegative-Bold.ttf.style: normal
+
+font.SignikaNegative-Light.ttf.weight: 300
+font.SignikaNegative-Regular.ttf.weight: 400
+font.SignikaNegative-SemiBold.ttf.weight: 600
+font.SignikaNegative-Bold.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Signika Negative" \
+# ~/googlefontdirectory/signikanegative/SignikaNegative-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/signikanegative/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  SignikaNegative-Regular.menu; \
+
+# cd ~/googlefontdirectory/signikanegative/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in signikanegative; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/signikanegative/; \
