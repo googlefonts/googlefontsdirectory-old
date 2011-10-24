@@ -27,8 +27,10 @@ description: <p>Poly is a medium contrast \
   South American language families.</p>
 
 font.Poly-Regular.ttf.style: normal
+font.Poly-Italic.ttf.style: italic
 
 font.Poly-Regular.ttf.weight: 400
+font.Poly-Italic.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
