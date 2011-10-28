@@ -1,0 +1,30 @@
+license: Apache2
+category: serif
+subsets: menu,khmer
+
+family: Nokora
+
+designer: Danh Hong
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>This font was designed especially for the \
+  user interfaces of mobile platforms. The metrics are \
+  compatible with the Latin glyphs of Droid Sans and \
+  the number of glyphs is less than in other Khmer \
+  fonts, so the file size of font is smaller and loads \
+  faster on the web. The font has been prepared specially \
+  for use on the web.</p> \
+  <p>This version of Nokora has the OpenType tables \
+  required for Khmer rendering with the Harfbuzz \
+  found in Android 3.1+ and Android 4.0. \
+  The OpenType tables in this font also work with \
+  Uniscribe system in Microsoft Windows \
+  the CoreText system found in Apple Mac OS X Lion.</p>
+
+font.Nokora-Regular.ttf.style: normal
+font.Nokora-Regular.ttf.weight: 400
+
+# menu subset made by Danh Hongvisibility: SANDBOX|INTERNAL
+
