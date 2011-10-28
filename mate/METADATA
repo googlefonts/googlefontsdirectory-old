@@ -1,0 +1,63 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Mate
+
+designer: Eduardo Tunni
+
+approved: true
+description: <p>Simple in its structure; sharp \
+  and generous counter-shapes which create a \
+  medium texture that calls for good page color, \
+  in addition to offering a more relaxed reading \
+  experience for each line of text: Mate.</p> \
+  <p>The italics that accompany the regular \
+  style show their quality in the shading \
+  of strokes, in the counters and the unusual \
+  shapes for this style as well as the \
+  calligraphic reminiscences that give this \
+  style a different and pleasant visual rhythm.</p> \
+  <p>The Small Caps (SC) style, featuring \
+  traditional proportions, completes this initial \
+  release with its medium height numbers in \
+  all styles.</p> \
+  <p>The primary use for the family is in \
+  text, yet due to the constructive details of \
+  letterforms, this family can be used in larger \
+  sizes for display typography.</p>
+
+font.Mate-Regular.ttf.style: normal
+font.Mate-Italic.ttf.style: italic
+
+font.Mate-Regular.ttf.weight: 400
+font.Mate-Italic.ttf.weight: 400
+
+# mate
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Mate" \
+# ~/googlefontdirectory/mate/Mate-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/mate/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Mate-Regular.menu; \
+
+# cd ~/googlefontdirectory/mate/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in mate; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/mate/; \
