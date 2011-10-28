@@ -1,0 +1,21 @@
+visibility: INTERNAL
+license: OFL
+category: handwriting
+subsets: menu,arabic
+
+family: Lateef
+
+# 2011-10-28 DC to ask SIL who to attribute this to
+designer: SIL International
+
+approved: true
+description: <p>Lateef, an extended Arabic font, is \
+  named after Shah Abdul Lateef Bhitai, the famous \
+  Sindhi mystic and poet. It is intended to be an \
+  appropriate style for use in Sindhi and other \
+  languages of the South Asian region.</p>
+
+font.LateefRegOT.ttf.style: normal
+font.LateefRegOT.ttf.weight: 400
+
+# 2011-10-28 DC need to create a .menu file!
