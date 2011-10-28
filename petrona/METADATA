@@ -1,0 +1,64 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Petrona
+
+designer: Ringo Romei
+
+approved: true
+description: <p>How many characteristics is it possible \
+  to add to a font, without changing its text type genre? \
+   Petrona is inspired in every home's cook, who \
+  playfully maneuvers ingredients and decors with a \
+  personal touch, without derailing from the original \
+  recipe.</p> \
+  <p>This font has been created like in the kitchen, \
+  with sharp elements that forge its structure and \
+  with gestural strokes for finishing features.</p> \
+  <p>Isolated, its glyphs are just ingredients. \
+  Caps with heavy asymmetric serifs, and arms of \
+  inverted angles, offer a certain flavor. Lower \
+  cases with great "x" height, pronounced ascenders \
+  and soft curves of low contrast, offer a different \
+  flavor.  When combined in a word, they reveal a \
+  contemporary bite.  They get lost when mingled \
+  in a paragraph, to integrate again into a new menu \
+  which is proposed by the text.</p> \
+  <p>Petronas' expression evokes a personal culinary \
+  style; its numbers of uniform height include \
+  fractions to describe ingredients.  This is why \
+  connoisseurs recommend it for culinary texts.  \
+  But taste and creativity are personal, for \
+  which every one will apply it according to \
+  their own preference.</p>
+
+font.Petrona-Regular.ttf.style: normal
+font.Petrona-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Petrona" \
+# ~/googlefontdirectory/petrona/Petrona-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/petrona/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Petrona-Regular.menu; \
+
+# cd ~/googlefontdirectory/petrona/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in petrona; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/petrona/; \
