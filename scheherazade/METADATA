@@ -1,0 +1,22 @@
+visibility: INTERNAL
+license: OFL
+category: handwriting
+subsets: menu,arabic
+
+family: Scheherazade
+
+# 2011-10-28 DC to ask SIL who to attribute this to
+designer: SIL International
+
+approved: true
+description: <p>Scheherazade is an Arabic font \
+  with a design based on traditional typefaces \
+  such as Monotype Naskh, extended to cover the \
+  full Unicode Arabic repertoire. It is named \
+  after the heroine of the classic Arabian \
+  Nights tale.</p>
+
+font.ScheherazadeRegOT.ttf.style: normal
+font.ScheherazadeRegOT.ttf.weight: 400
+
+# 2011-10-28 DC need to create a .menu file!
