@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Rammetto One
+
+designer: Vernon Adams
+
+approved: true
+description: <p>Rammetto is a typeface based on the \
+  Stephenson Blake uppercase display font, Basuto, \
+  released in 1926. The Rammetto design refines some \
+  of the old font's forms, introduces a full set of \
+  lowercase characters and adds extended support for \
+  European languages.</p>
+
+font.RammettoOne-Regular.ttf.style: normal
+font.RammettoOne-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Rammetto One" \
+# ~/googlefontdirectory/rammettoone/RammettoOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rammettoone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  RammettoOne-Regular.menu; \
+
+# cd ~/googlefontdirectory/rammettoone/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in rammettoone; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/rammettoone/; \
