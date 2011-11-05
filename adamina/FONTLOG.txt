@@ -1,6 +1,7 @@
 FONTLOG for the Adamina font
 
-This file provides detailed information on the Adamina font Software.
+This file provides detailed information on the 
+Adamina font Software.
 
 This information should be distributed along with the 
 Adamina fonts and any derivative works.
@@ -25,9 +26,15 @@ ranges: Latin-1
 To contribute to the project contact Alexei Vanyashin at 
 a@cyreal.org
 
-There are two .vfb Source files:
-1. Adamina_PS_Source.vfb (Original Source files with contour overlaps)
-2. Adamina_merged_and_optimized.vfb (Merged and optimized file)
+There are three .vfb Source files:
+
+1. Adamina-Regular.vfb Original Source files with contour overlaps
+
+2. Adamina-Regular-OTF.vfb Merged contours and optimized file 
+   corresponding to the OTF file
+
+3. Adamina-Regular-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
 
 ChangeLog
 
