@@ -1,0 +1,69 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Convergence
+
+designer: Multiple Designers
+
+approved: true
+description: <p>Convergence is a low contrast \
+  Upright Italic Sans Serif Typeface with a \
+  large x-height.  It was created by two \
+  designers with very different ideas, who \
+  took advantage of their divergent criteria \
+  to draw glyphs that made the Upright and \
+  Italic styles converge without mixing them.</p> \
+  <p>In this way, it was possible to converge \
+  the inclination of an Upright Sans Serif \
+  with a Sans Serif Italic.  Looking at the \
+  font in detail, the bottom halves of the \
+  glyphs have Transitive serifs while the \
+  upper halves conserve the Sans Serif \
+  terminals.  Other specific details can \
+  be seen in the a, g, and e glyphs, which \
+  have an Italic structure, not an Upright \
+  one.  In addition, the glyph for the \
+  letter r has a relatively closed \
+  instroke.</p> \
+  <p>The references used to develop this \
+  font were Bree from TypeTogether, Parisine \
+  de Porchez Typofonderie, and, undeniably, \
+  Ludovico Degli Arrighi's manuscript about \
+  the structure the "humanistic cursive" \
+  that is Convergence.</p> \
+  <p>Designed by \
+  <a href="https://plus.google.com/112934564034615336086/posts">Nicolas \
+  Silva</a> (<a href="http://twitter.com/zar_nicolas20">@zar_nicolas20</a>) \
+  and <a href="https://plus.google.com/104510930456899325757/posts">John \
+  Vargas</a> (<a href="http://twitter.com/vargas74">@vargas74</a>)</p>
+
+font.Convergence-Regular.ttf.style: normal
+font.Convergence-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Convergence" \
+# ~/googlefontdirectory/convergence/Convergence-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/convergence/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Convergence-Regular.menu; \
+
+# cd ~/googlefontdirectory/convergence/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in convergence; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/convergence/; \
