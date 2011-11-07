@@ -1,3 +1,4 @@
+visibility: SANDBOX
 license: Apache2
 category: serif
 subsets: menu,khmer
@@ -26,5 +27,9 @@ description: <p>This font was designed especially for the \
 font.Nokora-Regular.ttf.style: normal
 font.Nokora-Regular.ttf.weight: 400
 
-# menu subset made by Danh Hongvisibility: SANDBOX|INTERNAL
+font.Nokora-Bold.ttf.style: normal
+font.Nokora-Bold.ttf.weight: 700
+
+
+# menu subset made by Danh Hong
 
