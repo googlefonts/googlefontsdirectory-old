@@ -3,43 +3,43 @@ FontName: MountainsofChristmas-Bold
 FullName: Mountains of Christmas Bold
 FamilyName: Mountains of Christmas
 Weight: Bold
-Copyright: Copyright (c) 2011, Font Diner, Inc DBA Tart Workshop. All rights reserved.
+Copyright: Copyright (c) 2011 by Font Diner, Inc DBA Tart Workshop. All rights reserved.
 Version: 1.001
 ItalicAngle: 0
 UnderlinePosition: -116
 UnderlineWidth: 20
 Ascent: 819
 Descent: 205
-sfntRevision: 0x00010000
+sfntRevision: 0x00010042
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
-XUID: [1021 288 713564382 7818129]
+XUID: [1021 288 713564382 7217799]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1292286877
-ModificationTime: 1321466664
-PfmFamily: 81
-TTFWeight: 400
+CreationTime: 1292286840
+ModificationTime: 1321482564
+PfmFamily: 65
+TTFWeight: 700
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 3 0 5 0 5 6 0 10 0 4
 OS2TypoAscent: 1066
 OS2TypoAOffset: 0
-OS2TypoDescent: -348
+OS2TypoDescent: -354
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
 OS2WinAscent: 1066
 OS2WinAOffset: 0
-OS2WinDescent: 348
+OS2WinDescent: 354
 OS2WinDOffset: 0
 HheadAscent: 1066
 HheadAOffset: 0
-HheadDescent: -348
+HheadDescent: -354
 HheadDOffset: 0
 OS2SubXSize: 717
 OS2SubYSize: 666
@@ -53,8 +53,8 @@ OS2StrikeYSize: 51
 OS2StrikeYPos: 256
 OS2Vendor: 'dinr'
 OS2CodePages: 00000001.00000000
-OS2UnicodeRanges: 80000027.40000042.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+OS2UnicodeRanges: 80000027.4000004a.00000000.00000000
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -65,7 +65,7 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-LangName: 1033 "" "" "Bold" "" "" "Version 1.001" "" "Mountains of Christmas Bold is a trademark of Font Diner, Inc DBA Tart Workshop." "Font Diner, Inc DBA Tart Workshop" "Crystal Kluge" "This font is great! :)" "http://www.fontbros.com/tartworkshop.php" "http://www.tartworkshop.com" "This Font Software is licensed under the SIL Open Font License,+AA0A-Version 1.1. This license is available with a FAQ at:+AA0A-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Mountains of Christmas" "Bold" "Mountains of Christmas" 
+LangName: 1033 "" "" "" "FontDiner,IncDBATartWorkshop: Mountains of Christmas Bold: 2011" "" "Version 1.001" "" "Mountains of Christmas Bold is a trademark of Font Diner, Inc DBA Tart Workshop." "Font Diner, Inc DBA Tart Workshop" "Crystal Kluge" "" "http://www.fontbros.com/tartworkshop.php" "http://www.tartworkshop.com" "This Font Software is licensed under the SIL Open Font License,+AA0A-Version 1.1. This license is available with a FAQ at:+AA0A-http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" "" "Mountains of Christmas" "Bold" "Mountains of Christmas Bold" 
 GaspTable: 1 65535 15
 Encoding: UnicodeBmp
 UnicodeInterp: none
