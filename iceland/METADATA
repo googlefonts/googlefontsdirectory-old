@@ -1,0 +1,96 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Iceland
+
+designer: Cyreal
+
+approved: true
+description: <p>The idea of geometric typefaces with a \
+  look reminiscent of the machinery, technology, and \
+  interior design of the 1950s originated in Eurostile \
+  family by Aldo Novarese and Alessandro Butti (1952).</p> \
+  <p>Iceland is a modular square-shaped webfont with \
+  a cold brutal character designed with the intension \
+  to perform well on screen starting from low \
+  resolutions. For this purpose the strokes are \
+  deliberatly kept vertical and diagonal cuts have \
+  a 45° angle, outlines are rounded.</p> \
+  <p>Features like wide proportions and generous \
+  x-height are introduced for better legibility. \
+  Unconventional and simplified letterforms like \
+  k, f, r aid readability at small sizes. While \
+  at display sizes they add a crisp and sharp \
+  impression.</p>
+  <p>Uppercase letters are decently heavier \
+  compared to lowercase as a tribute to the \
+  old typographic tradition. This way uppercase \
+  is easily distinguished from lowercase, and \
+  allows scaling down to be used as Small Caps.</p> \
+  <p>Because of its ascetic modular character \
+  and squarish proportions Iceland webfont is \
+  easily integrated in modular grids and \
+  logotypes.</p> \
+  <p>Iceland is designed by Viktor Kharyk in 2011.</p>
+
+font.Familyname-Regular.ttf.subfamily: Subfamily
+font.Familyname-Regular.ttf.description: <p>Familyname  is cool.</p>
+
+font.Familyname-Regular.ttf.style: normal
+font.Familyname-Italic.ttf.style: italic
+font.Familyname-Bold.ttf.style: normal
+font.Familyname-BoldItalic.ttf.style: italic
+
+# 2010-11-03 DC This needs more checking/refining
+font.Familyname-Thin.ttf.weight: 100
+font.Familyname-ExtraLight.ttf.weight: 200
+font.Familyname-Light.ttf.weight: 300
+font.Familyname-Regular.ttf.weight: 400
+font.Familyname-Medium.ttf.weight: 500
+font.Familyname-SemiBold.ttf.weight: 600
+font.Familyname-Bold.ttf.weight: 700
+font.Familyname-ExtraBold.ttf.weight: 800
+font.Familyname-Black.ttf.weight: 900
+
+font.Familyname-ThinItalic.ttf.weight: 100
+font.Familyname-ExtraLightItalic.ttf.weight: 200
+font.Familyname-LightItalic.ttf.weight: 300
+font.Familyname-Italic.ttf.weight: 400
+font.Familyname-MediumItalic.ttf.weight: 500
+font.Familyname-SemiBoldItalic.ttf.weight: 600
+font.Familyname-BoldItalic.ttf.weight: 700
+font.Familyname-ExtraBoldItalic.ttf.weight: 800
+font.Familyname-BlackItalic.ttf.weight: 900
+
+conversion: Converted from OTF to TTF using FontForge
+conversion: used FontForge to update FullName to 'GFS Didot Regular', also added standard prep table
+
+# familynamedir
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Familyname" \
+# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/familynamedir/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Familyname-Regular.menu; \
+
+# cd ~/googlefontdirectory/familynamedir/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in familynamedir; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/familynamedir/; \
