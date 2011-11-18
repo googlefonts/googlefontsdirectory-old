@@ -35,53 +35,25 @@ description: <p>The idea of geometric typefaces with a \
   logotypes.</p> \
   <p>Iceland is designed by Viktor Kharyk in 2011.</p>
 
-font.Familyname-Regular.ttf.subfamily: Subfamily
-font.Familyname-Regular.ttf.description: <p>Familyname  is cool.</p>
+font.Iceland-Regular.ttf.style: normal
 
-font.Familyname-Regular.ttf.style: normal
-font.Familyname-Italic.ttf.style: italic
-font.Familyname-Bold.ttf.style: normal
-font.Familyname-BoldItalic.ttf.style: italic
+font.Iceland-Regular.ttf.weight: 400
 
-# 2010-11-03 DC This needs more checking/refining
-font.Familyname-Thin.ttf.weight: 100
-font.Familyname-ExtraLight.ttf.weight: 200
-font.Familyname-Light.ttf.weight: 300
-font.Familyname-Regular.ttf.weight: 400
-font.Familyname-Medium.ttf.weight: 500
-font.Familyname-SemiBold.ttf.weight: 600
-font.Familyname-Bold.ttf.weight: 700
-font.Familyname-ExtraBold.ttf.weight: 800
-font.Familyname-Black.ttf.weight: 900
-
-font.Familyname-ThinItalic.ttf.weight: 100
-font.Familyname-ExtraLightItalic.ttf.weight: 200
-font.Familyname-LightItalic.ttf.weight: 300
-font.Familyname-Italic.ttf.weight: 400
-font.Familyname-MediumItalic.ttf.weight: 500
-font.Familyname-SemiBoldItalic.ttf.weight: 600
-font.Familyname-BoldItalic.ttf.weight: 700
-font.Familyname-ExtraBoldItalic.ttf.weight: 800
-font.Familyname-BlackItalic.ttf.weight: 900
-
-conversion: Converted from OTF to TTF using FontForge
-conversion: used FontForge to update FullName to 'GFS Didot Regular', also added standard prep table
-
-# familynamedir
+conversion: hinted with ttfautohint!
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Familyname" \
-# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/familynamedir/; \
+#  --chars="Iceland" \
+# ~/googlefontdirectory/iceland/Iceland-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/iceland/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Familyname-Regular.menu; \
+#  Iceland-Regular.menu; \
 
-# cd ~/googlefontdirectory/familynamedir/; \
+# cd ~/googlefontdirectory/iceland/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in familynamedir; do \
+# for family in iceland; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -93,4 +65,4 @@ conversion: used FontForge to update FullName to 'GFS Didot Regular', also added
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/familynamedir/; \
+# cd ~/googlefontdirectory/iceland/; \
