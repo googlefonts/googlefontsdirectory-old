@@ -3,37 +3,37 @@ license: OFL
 category: display
 subsets: menu,latin
 
-family: Spiral
+family: Spirax
 
 designer: Brenda Gallo
 
 approved: true
-description: <p>In geometry, a spiral is a curved line \
+description: <p>In geometry, a spirax is a curved line \
   starting from a central \
   point and moving progressively away and around that point. \
-  The Spiral font is inspired in this concept, trying to make you \
+  The Spirax font is inspired in this concept, trying to make you \
   feel that you can go away from your starting point but you’ll \
-  never be foreign. Spiral has a pronounced contrast and original \
-  curves. It can be used for headlines and shorter texts. Spiral \
+  never be foreign. Spirax has a pronounced contrast and original \
+  curves. It can be used for headlines and shorter texts. Spirax \
   is cute at all sizes!</p>
 
-font.Spiral-Regular.ttf.style: normal
+font.Spirax-Regular.ttf.style: normal
 
-font.Spiral-Regular.ttf.weight: 400
+font.Spirax-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Spiral" \
-# ~/googlefontdirectory/spiral/Spiral-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/spiral/; \
+#  --chars="Spirax" \
+# ~/googlefontdirectory/spirax/Spirax-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/spirax/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Spiral-Regular.menu; \
+#  Spirax-Regular.menu; \
 
-# cd ~/googlefontdirectory/spiral/; \
+# cd ~/googlefontdirectory/spirax/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in spiral; do \
+# for family in spirax; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -45,4 +45,4 @@ font.Spiral-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/spiral/; \
+# cd ~/googlefontdirectory/spirax/; \

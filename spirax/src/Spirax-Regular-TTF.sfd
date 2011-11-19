@@ -1,46 +1,46 @@
 SplineFontDB: 3.0
-FontName: Spiral-Regular
-FullName: Spiral Regular
-FamilyName: Spiral
+FontName: Spirax-Regular
+FullName: Spirax
+FamilyName: Spirax
 Weight: Regular
-Copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name Spiral.
-Version: 001.001
+Copyright: Copyright (c) 2011 by Brenda Gallo (gbrenda1987@gmail.com), with Reserved Font Name Spirax.
+Version: 001.002
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
-sfntRevision: 0x00010042
+sfntRevision: 0x00010083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
 NeedsXUIDChange: 1
-XUID: [1021 288 713564382 3874563]
+XUID: [1021 288 713564382 4293834]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1320659897
-ModificationTime: 1320685142
-PfmFamily: 17
+CreationTime: 1321701142
+ModificationTime: 1321730224
+PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 3 8 0 0 2 0 3
-OS2TypoAscent: 147
-OS2TypoAOffset: 1
-OS2TypoDescent: -88
-OS2TypoDOffset: 1
+OS2TypoAscent: 947
+OS2TypoAOffset: 0
+OS2TypoDescent: -288
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 947
+OS2WinAOffset: 0
+OS2WinDescent: 288
+OS2WinDOffset: 0
+HheadAscent: 947
+HheadAOffset: 0
+HheadDescent: -288
+HheadDOffset: 0
 OS2SubXSize: 700
 OS2SubYSize: 650
 OS2SubXOff: 0
@@ -211,7 +211,7 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-LangName: 1033 "" "" "" "BrendaGallo: Spiral Regular: 2011" "Spiral-Regular" "Version 1.001" "" "Spiral is a trademark of Brenda Gallo (gbrenda1987@gmail.com)." "Brenda Gallo" "Brenda Gallo (gbrenda1987@gmail.com)" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "BrendaGallo: Spirax: 2011" "Spirax-Regular" "Version 1.002" "" "Spirax is a trademark of Brenda Gallo (gbrenda1987@gmail.com)." "Brenda Gallo" "Brenda Gallo (gbrenda1987@gmail.com)" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15
 Encoding: UnicodeBmp
 UnicodeInterp: none
