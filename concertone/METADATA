@@ -1,0 +1,46 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Concert One
+
+designer: Multiple Designers
+
+approved: true
+description: <p>Concert One is a new display type by \
+  Mihkel Virkus and Johan Kallas. It is based on a mid \
+  19th century lead type found on an elaborate and \
+  well set typographic culture poster. The original had \
+  a shadow effect, and the letterforms \
+  also work well without this.</p>
+
+font.ConcertOne-Regular.ttf.style: normal
+font.ConcertOne-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Concert One" \
+# ~/googlefontdirectory/concertone/ConcertOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/concertone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  ConcertOne-Regular.menu; \
+
+# cd ~/googlefontdirectory/concertone/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in concertone; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/concertone/; \
+
