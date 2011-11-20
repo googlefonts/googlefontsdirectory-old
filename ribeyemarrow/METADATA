@@ -1,0 +1,49 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Ribeye Marrow
+
+designer: Astigmatic
+
+approved: true
+description: <p><a href="http://www.google.com/webfonts/specimen/Ribeye">Ribeye</a> \
+  and <a href="http://www.google.com/webfonts/specimen/Ribeye+Marrow">Ribeye Marrow</a> \
+  are reminiscent of a cartoon tattoo style of \
+  lettering, but exhibit a playfulness that \
+  breaks traditional weight distribution across \
+  its letterforms.</p> \
+  <p>An edgy attitude, friendly syncopation, \
+  and highly legible letterforms makes these \
+  fonts a real pair of charmers.</p>
+
+font.RibeyeMarrow-Regular.ttf.style: normal
+
+font.RibeyeMarrow-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Ribeye Marrow" \
+# ~/googlefontdirectory/ribeyemarrow/RibeyeMarrow-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/ribeyemarrow/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  RibeyeMarrow-Regular.menu; \
+
+# cd ~/googlefontdirectory/ribeyemarrow/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in ribeyemarrow; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/ribeyemarrow/; \
