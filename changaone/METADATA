@@ -25,6 +25,9 @@ description: <p>Changa One is intended for titles, with its \
 
 font.ChangaOne-Regular.ttf.style: normal
 font.ChangaOne-Regular.ttf.weight: normal
+font.ChangaOne-Italic.ttf.style: italic
+font.ChangaOne-Italic.ttf.weight: normal
+
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
