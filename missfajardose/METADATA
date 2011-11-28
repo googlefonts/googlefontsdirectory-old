@@ -1,0 +1,64 @@
+visibility: SANDBOX
+license: OFL
+category: handwriting
+subsets: menu,latin,latin-ext
+
+family: Miss Fajardose
+
+designer: Sudtipos
+
+approved: true
+description: <p>The Charles Bluemlein Script Collection \
+  is an intriguing reminder of the heady days of hand \
+  lettering and calligraphy in the United States. \
+  From the early 1930s through World War II, there \
+  were about 200 professional hand letterers working \
+  in New York City alone. This occupation saw its \
+  demise with the advent of photo lettering, and \
+  after digital typography it became virtually extinct. \
+  The odd way in which the Bluemlein scripts were \
+  assembled and created - by collecting different \
+  signatures and then building complete alphabets \
+  from them - is a fascinating calligraphic adventure. \
+  Because the set of constructed designs looked \
+  nothing like the original signatures, fictitious \
+  names were assigned to the new script typefaces. \
+  The typeface styles were then showcased in \
+  Higgins Ink catalogs.</p> \
+  <p>Alejandro Paul and Sudtipos bring the Bluemlein \
+  scripts back to life in a set of expanded digital \
+  versions, reflecting the demands of today’s \
+  designer. Extreme care has been taken to render \
+  the original scripts authentically, keeping the \
+  fictitious names originally assigned to them by \
+  Bluemlein.</p>
+
+font.MissFajardose-Regular.ttf.style: normal
+font.MissFajardose-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Miss Fajardose" \
+# ~/googlefontdirectory/missfajardose/MissFajardose-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/missfajardose/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MissFajardose-Regular.menu; \
+
+# cd ~/googlefontdirectory/missfajardose/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in missfajardose; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/missfajardose/; \
+
