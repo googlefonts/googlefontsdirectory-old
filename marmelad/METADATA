@@ -1,0 +1,41 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Marmelad
+
+designer: Cyreal
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Marmelad is designed specifically \
+  for medium to large-size headlines and remains \
+  well-balanced for long text setting because of \
+  its regular proportions and medium contrast. \
+  Ascenders and descenders are elegant and details \
+  refined. The name and overall feel refers to \
+  marmalade sweets - soft and ductile.</p> \
+  <p>All vertical strokes are rounded towards \
+  the baseline, which is why technically there \
+  is no sense for overshoots in rounded letters \
+  like O. Marmelad performs well on screen \
+  because of its soft rounded features and \
+  generous x-height.<p> \
+  <p>The font supports Latin-1, Cyrillic \
+  and Turkish(Latin-5) encoding. Marmelad \
+  is designed by Manvel Shmavonyan.</p>
+
+font.Marmelad-Regular.ttf.style: normal
+font.Marmelad-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Marmelad" \
+# ~/googlefontdirectory/marmelad/Marmelad-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/marmelad/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Marmelad-Regular.menu; \
+
