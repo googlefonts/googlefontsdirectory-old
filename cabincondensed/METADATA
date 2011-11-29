@@ -1,0 +1,43 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Cabin Condensed
+
+designer: Pablo Impallari
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>This is the condensed set of styles in the \
+  Cabin font family; a humanist sans \
+  with 4 weights plus true italics, inspired by Edward \
+  Johnston’s and Eric \
+  Gill’s typefaces, with a touch of modernism.</p> \
+  <p>Cabin incorporates modern proportions, \
+  optical adjustments, and some elements \
+  of the geometric sans.</p> \
+  <p>It remains true to its roots, \
+  but has its own personality.</p> \
+  <p>The weight distribution is almost monotone, \
+  although top and bottom curves are slightly \
+  thin.</p> \
+  <p>Counters of the b, g, p and q are rounded \
+  and optically adjusted. The curved stem \
+  endings have a 10 degree angle. E and F \
+  have shorter center arms. M is splashed.</p>
+
+# Note: weight values are slightly inconsistent, as original checkin
+# used "bold", but additional weights added have numeric values.
+font.CabinCondensed-Regular.ttf.weight: 400
+font.CabinCondensed-Medium.ttf.weight: 500
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Cabin Condensed" \
+# ~/googlefontdirectory/cabincondensed/CabinCondensed-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/cabincondensed/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  CabinCondensed-Regular.menu; \
