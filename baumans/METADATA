@@ -1,0 +1,53 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Baumans
+
+designer: Cyreal
+
+approved: true
+description: <p>Baumans is a geometric typeface for \
+  headlines. Its letterforms are inspired by Bauhaus \
+  typefaces and preconstructivist forms.</p> \
+  <p>The concept of the typeface fits with \
+  Moholy-Nagy's typography statement that type must \
+  be clear, legible, and communicate its message.</p> \
+  <p>The main distinctive features are the sharp \
+  corners in MVW, curved Z and unicase-like N. \
+  Contrast is monolinear and proportions are \
+  balanced.</p> \
+  <p>Baumans is suitable for medium to large \
+  sizes and optimized for screen.</p> \
+  <p>Designed by Henadij Zarechnjuk.</p>
+
+font.Baumans-Regular.ttf.style: normal
+font.Baumans-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Baumans" \
+# ~/googlefontdirectory/baumans/Baumans-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/baumans/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Baumans-Regular.menu; \
+
+# cd ~/googlefontdirectory/baumans/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in baumans; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/baumans/; \
+
