@@ -1,4 +1,3 @@
-visibility: SANDBOX
 license: OFL
 category: handwriting
 subsets: menu,latin,latin-ext
@@ -20,8 +19,6 @@ description: <p>Niccone is based on the designs of \
 
 font.Niconne-Regular.ttf.style: normal
 font.Niconne-Regular.ttf.weight: 400
-
-# niconne
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
