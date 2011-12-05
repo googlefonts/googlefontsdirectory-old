@@ -1,0 +1,47 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Original Surfer
+
+designer: Astigmatic
+
+approved: true
+description: <p>Original Surfer is an offbeat \
+  sans serif font with loads of personality. \
+  Inspired by a vintage advertisement for the \
+  "California Cliffs Caravan Park", this font \
+  exudes all of the fun of a summer vacation \
+  anytime of the year. The letterforms are \
+  clear and cleanly legible, while nothing \
+  is formal or uptight about this font.</p>
+
+font.OriginalSurfer-Regular.ttf.style: normal
+font.OriginalSurfer-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Original Surfer" \
+# ~/googlefontdirectory/originalsurfer/OriginalSurfer-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/originalsurfer/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  OriginalSurfer-Regular.menu; \
+
+# cd ~/googlefontdirectory/originalsurfer/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in originalsurfer; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/originalsurfer/; \
