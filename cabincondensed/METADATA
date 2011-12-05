@@ -32,6 +32,8 @@ description: <p>This is the condensed set of styles in the \
 # used "bold", but additional weights added have numeric values.
 font.CabinCondensed-Regular.ttf.weight: 400
 font.CabinCondensed-Medium.ttf.weight: 500
+font.CabinCondensed-SemiBold.ttf.weight: 600
+font.CabinCondensed-Bold.ttf.weight: 700
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
