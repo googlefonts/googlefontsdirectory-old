@@ -12,7 +12,19 @@ description: <p>Omnibus Type proudly presents Rosario, \
   and weak endings. Carefully produced, elegant, ideal \
   for magazines and academic journals. Rosario is the \
   name of the city of the designer, Héctor Gatti.</p> \
-  <p>An italic was added on 7th September 2011.</p>
+  <p>An italic was added on 7th September 2011.</p> \
+  <p>An bold and bold italic were added on 6th December 2011.</p>
+
+font.Rosario-Regular.ttf.style: normal
+font.Rosario-Italic.ttf.style: italic
+font.Rosario-Bold.ttf.style: normal
+font.Rosario-BoldItalic.ttf.style: italic
+
+font.Rosario-Regular.ttf.weight: 400
+font.Rosario-Bold.ttf.weight: 700
+
+font.Rosario-Italic.ttf.weight: 400
+font.Rosario-BoldItalic.ttf.weight: 700
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
