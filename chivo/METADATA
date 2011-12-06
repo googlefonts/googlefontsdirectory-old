@@ -13,13 +13,18 @@ description: <p>Chivo (Goat) is a new Omnibus-Type grotesque \
   and headlines. Chivo Regular's elegance makes it ideal for \
   combining with the strength of Chivo Black and for \
   for continuous reading settings. Its design details make it \
-  an indispensable ally for any designer.</p>
+  an indispensable ally for any designer.</p> \
+  <p>Italics were added on 6th December 2011</p>
 
 font.Chivo-Regular.ttf.style: normal
+font.Chivo-Italic.ttf.style: italic
 font.Chivo-Black.ttf.style: normal
+font.Chivo-BoldItalic.ttf.style: italic
 
 font.Chivo-Regular.ttf.weight: 400
+font.Chivo-Italic.ttf.weight: 400
 font.Chivo-Black.ttf.weight: 900
+font.Chivo-BlackItalic.ttf.weight: 900
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
