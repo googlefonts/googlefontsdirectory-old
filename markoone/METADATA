@@ -1,0 +1,55 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Marko One
+
+designer: Cyreal
+
+approved: true
+description: <p>Marko One is a typeface designed \
+  for children's literature. The initial idea \
+  was to create a typeface-companion for \
+  <a href="http://cyreal.org/archives/696">Marko \
+  the Sparrow</a> - a cartoon character by \
+  illustrator and type designer Zhenya Spizhovyi.</p> \
+  <p>Marko One is simple and smooth, has special \
+  inner tension and eye-catchy detailing. The \
+  letterforms are based on calligraphy and \
+  sketches - this is what makes Marko lively, \
+  enchanting, and amiable. Marko One typeface \
+  will work best in medium to large sizes and \
+  captivating headlines. It is technically \
+  optimized for better performance on screen, \
+  while carefully adjusted outlines promise \
+  good quality in print too.</p>
+
+font.MarkoOne-Regular.ttf.style: normal
+font.MarkoOne-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Marko One" \
+# ~/googlefontdirectory/markoone/MarkoOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/markoone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MarkoOne-Regular.menu; \
+
+# cd ~/googlefontdirectory/markoone/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in markoone; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/markoone/; \
