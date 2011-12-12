@@ -1,6 +1,6 @@
 license: OFL
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Radley
 
@@ -37,6 +37,10 @@ description: <p>Radley is based on lettering \
 font.Radley-Regular.ttf.style: normal
 font.Radley-Regular.ttf.weight: 400
 
+font.Radley-Italic.ttf.style: italic
+font.Radley-Italic.ttf.weight: 400
+
+
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
@@ -61,4 +65,5 @@ font.Radley-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/radley/; \
+# cd ~/googlefontdirectory/radley/; 
+
