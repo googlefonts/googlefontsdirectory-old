@@ -28,14 +28,14 @@ at astigma@astigmatic.com
 
 There are three Source files:
 
-1. OriginalSurfer-Regular-OTF.vfb Merged contours and optimized file 
+1. OriginalSurfer-Regular.vfb Original Source files with contour
+   overlaps
+
+2. OriginalSurfer-Regular-OTF.vfb Merged contours and optimized file 
    corresponding to the OTF file
 
-2. OriginalSurfer-Regular-TTF.vfb TrueType outlines with hinting 
+3. OriginalSurfer-Regular-TTF.vfb TrueType outlines with hinting 
    adjustments corresponding to the TTF file
-
-3. OriginalSurfer-Regular.vfb Original Source files with contour
-   overlaps
 
 ChangeLog
 
