@@ -73,11 +73,11 @@ def main(argv):
 
 #   Set PREP to magic prep
     prepTextMagic = """PUSHW_1
-     511
-    SCANCTRL
-    PUSHB_1
-     4
-    SCANTYPE"""
+ 511
+SCANCTRL
+PUSHB_1
+ 4
+SCANTYPE"""
     prepAsmMagic = fontforge.parseTTInstrs(prepTextMagic)
     font.setTableData("prep",prepAsmMagic)
 
