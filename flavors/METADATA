@@ -1,0 +1,47 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Flavors
+
+designer: Sideshow
+
+approved: true
+description: <p>Does your blog taste bland? \
+  Is you website cooked up from the same old \
+  recipe? Ladies and gentlemen, we have the \
+  missing ingredient! With Flavors you'll \
+  get the zest and zing not found in those \
+  boring vanilla fonts. Another tasty \
+  typeface designed by Squid and brought \
+  to you by Dave 'Squid' Cohen of Sideshow</p>
+
+font.Flavors-Regular.ttf.style: normal
+font.Flavors-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Flavors" \
+# ~/googlefontdirectory/flavors/Flavors-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/flavors/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Flavors-Regular.menu; \
+
+# cd ~/googlefontdirectory/flavors/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in flavors; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/flavors/; \
