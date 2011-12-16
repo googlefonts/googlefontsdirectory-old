@@ -1,0 +1,48 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Bree Serif
+
+designer: TypeTogether
+
+approved: true
+description: <p>This friendly upright italic is the serif \
+  cousin of TypeTogether's award winning font \
+  <a href="http://www.type-together.com/Bree">Bree</a>. \
+  Designed by Veronika Burian and José Scaglione, \
+  Bree was originally released in 2008 and it became \
+  an immediate success because of its originality, \
+  charming appearance and versatility. The new \
+  serif style adds some extra flavour to this \
+  tasty font.</p>
+
+font.BreeSerif-Regular.ttf.style: normal
+font.BreeSerif-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Bree Serif" \
+# ~/googlefontdirectory/breeserif/BreeSerif-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/breeserif/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  BreeSerif-Regular.menu; \
+
+# cd ~/googlefontdirectory/breeserif/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in breeserif; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/breeserif/; \
