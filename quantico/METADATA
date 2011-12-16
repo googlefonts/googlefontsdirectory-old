@@ -1,0 +1,54 @@
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Quantico
+
+designer: MADType
+
+approved: true
+description: <p>Quantico is an angular \
+  typeface family that was inspired by old \
+  beer packaging and military lettering. It utilizes 30 degree \
+  angles and completely straight lines to form unique character \
+  shapes.</p> \
+  <p>Documentation can be found at \
+  <a href="http://www.madtype.com">www.madtype.com</a> \
+  and to contribute to the project contact Matthew \
+  Desmond at <a href="mailto:mattdesmond@gmail.com">mattdesmond@gmail.com</a></p>
+
+font.Quantico-Regular.ttf.style: normal
+font.Quantico-Italic.ttf.style: italic
+font.Quantico-Bold.ttf.style: normal
+font.Quantico-BoldItalic.ttf.style: italic
+
+font.Quantico-Regular.ttf.weight: 400
+font.Quantico-Bold.ttf.weight: 700
+font.Quantico-Italic.ttf.weight: 400
+font.Quantico-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Quantico" \
+# ~/googlefontdirectory/quantico/Quantico-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/quantico/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Quantico-Regular.menu; \
+
+# cd ~/googlefontdirectory/quantico/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in quantico; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/quantico/; \
