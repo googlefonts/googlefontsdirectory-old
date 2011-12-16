@@ -3,6 +3,7 @@
 # setnonhinting-fonttools.py
 #
 # Copyright (c) 2011 Khaled Hosny <khaledhosny@eglug.org>
+# Copyright (c) 2011 Dave Crossland <dave@understandingfonts.com>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -50,6 +51,18 @@ from fontTools.ttLib.tables import ttProgram
 # Open the font file supplied as the first argument on the command line
 font = ttLib.TTFont(sys.argv[1])
 
+# Print the Gasp table
+if font.has_key('gasp') == 1:
+  print "GASP was: ", font["gasp"].gaspRange
+else:
+  print "GASP wasn't there"
+
+# Print the PREP table
+if font.has_key('prep') == 1:
+  print "PREP was: ", ttProgram.Program.getAssembly(font["prep"].program)
+else:
+  print "PREP wasn't there"
+
 # Create a new GASP table
 gasp = ttLib.newTable("gasp")
 
@@ -75,4 +88,13 @@ font["prep"] = prep
 # Save the font to the filename supplied as the second 
 # argument on the command line
 
-font.save(sys.argv[2])
+# Print the Gasp table
+print "GASP now: ", font["gasp"].gaspRange
+
+# Print the PREP table
+print "PREP now: ", ttProgram.Program.getAssembly(font["prep"].program)
+
+# This should be better, like the FontForge one
+outfont = sys.argv[1] + "-prep-gasp.ttf"
+print outfont
+font.save(outfont)
