@@ -44,9 +44,11 @@ description: <p>People read and interact with \
 
 font.Bitter-Regular.ttf.style: normal
 font.Bitter-Italic.ttf.style: italic
+font.Bitter-Bold.ttf.style: normal
 
 font.Bitter-Regular.ttf.weight: 400
 font.Bitter-Italic.ttf.weight: 400
+font.Bitter-Bold.ttf.weight: 700
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
