@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Armata
+
+designer: Viktoriya Grabowska
+
+approved: true
+description: <p>Armata is a low contrast sans \
+  serif text face. In Aramata we find a mixture \
+  of a the familiar shapes and an aesthetic \
+  steadiness and strength with a small number \
+  of innovative and delicate gestures. Armata \
+  can be used in a wide range of sizes.</p>
+
+font.Armata-Regular.ttf.style: normal
+font.Armata-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Armata" \
+# ~/googlefontdirectory/armata/Armata-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/armata/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Armata-Regular.menu; \
+
+# cd ~/googlefontdirectory/armata/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in armata; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/armata/; \
