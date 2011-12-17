@@ -1,0 +1,47 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Uncial Antiqua
+
+designer: Astigmatic
+
+approved: true
+description: <p>Uncial Antiqua is a hybrid \
+  typeface which combines the speedier penned \
+  styles of Uncial and Half Uncial letterforms \
+  together in a formal text representation. \
+  Signature letterforms to the Uncial & Half \
+  Uncial styles are not sacrificed in this \
+  compilation, yet readability is surprisingly \
+  maintained when read in context.</p>
+
+font.UncialAntiqua-Regular.ttf.style: normal
+font.UncialAntiqua-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt" \
+#  --chars="Uncial Antiqua" \
+# ~/googlefontdirectory/uncialantiqua/UncialAntiqua-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/uncialantiqua/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  UncialAntiqua-Regular.menu; \
+
+# cd ~/googlefontdirectory/uncialantiqua/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in uncialantiqua; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/uncialantiqua/; \
