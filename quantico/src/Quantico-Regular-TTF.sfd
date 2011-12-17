@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
 FontName: Quantico-Regular
-FullName: Quantico-Regular
+FullName: Quantico
 FamilyName: Quantico
 Weight: Book
 Copyright: Copyright (c) 2011 Matthew Desmond (http://www.madtype.com | mattdesmond@gmail.com), with Reserved Font Name "Quantico"
@@ -14,13 +14,13 @@ sfntRevision: 0x00020083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 288 713564382 11691126]
+XUID: [1021 288 713564382 884154]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1323786021
-ModificationTime: 1323815064
+ModificationTime: 1324085283
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -91,6 +91,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 34 34 13
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65546 268
 
 StartChar: .notdef
