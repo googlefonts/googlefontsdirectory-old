@@ -1,0 +1,46 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Stoke
+
+designer: Nicole Fally
+
+approved: true
+description: <p>Stoke is a semi-wide high contrast \
+  serifed text typeface. Stoke is inspired by letters \
+  found on 20th century UK posters showing an odd \
+  combination of seriousness of form and whimsical \
+  proportions and details. Stoke's low x height \
+  make it most suitable for use at medium to \
+  large sizes.</p>
+
+font.Stoke-Regular.ttf.style: normal
+font.Stoke-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Stoke" \
+# ~/googlefontdirectory/stoke/Stoke-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/stoke/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Stoke-Regular.menu; \
+
+# cd ~/googlefontdirectory/stoke/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in stoke; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/stoke/; \
