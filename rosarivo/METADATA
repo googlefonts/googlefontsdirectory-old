@@ -1,0 +1,54 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Rosarivo
+
+designer: Pablo Ugerman
+
+approved: true
+description: <p>Rosarivo is a typeface designed for use \
+  in letterpress printing and that is why it has a lighter \
+  color than typical text romans. Its features include \
+  gradual stroke and marked contrast, calligraphic \
+  and humanistic style, with large ascenders \
+  and descenders. An elegant and luxurious typeface with \
+  many high quality details, it is perfect for delicate \
+  editorial design. \
+  It is designed to work well in long texts \
+  with generous spaces. Its origins stem from the \
+  work presented in the post-graduation course in \
+  type design at the University of Buenos Aires.</p>
+
+font.Rosarivo-Regular.ttf.style: normal
+font.Rosarivo-Italic.ttf.style: italic
+
+font.Rosarivo-Regular.ttf.weight: 400
+font.Rosarivo-Italic.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Rosarivo" \
+# ~/googlefontdirectory/rosarivo/Rosarivo-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rosarivo/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Rosarivo-Regular.menu; \
+
+# cd ~/googlefontdirectory/rosarivo/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in rosarivo; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/rosarivo/; \
