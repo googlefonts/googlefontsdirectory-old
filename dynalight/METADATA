@@ -1,0 +1,44 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Dynalight
+
+designer: Astigmatic
+
+approved: true
+description: <p>Dynalight is a dynamic high speed script \
+  inspired by a vintage luggage tag for the Southern \
+  Pacific 4449 Daylight steam locomotive. Loaded with \
+  curves and soft angles, this connecting script is \
+  an attention getter.</p>
+
+font.Dynalight-Regular.ttf.style: normal
+font.Dynalight-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Dynalight" \
+# ~/googlefontdirectory/dynalight/Dynalight-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/dynalight/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Dynalight-Regular.menu; \
+
+# cd ~/googlefontdirectory/dynalight/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in dynalight; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/dynalight/; \
