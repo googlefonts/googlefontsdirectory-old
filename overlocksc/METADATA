@@ -1,0 +1,54 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Overlock SC
+
+designer: Dario Manuel Muhafara
+
+approved: true
+description: <p>The Overlock typeface family was \
+  selected by the Letras Latinas Biennal in 2006. \
+  The initial idea of this typeface was to simulate \
+  the Overlock sewing technique. The special thing \
+  about these forms is the warm feeling that they \
+  give to your text, because of the particular \
+  rounded glyph shapes that emerge. As a result, \
+  the Overlock typeface family is great for titles \
+  and short texts in magazine style layouts. It \
+  looks its very best at bigger sizes. The main \
+  <a href="http://www.google.com/webfonts/specimen/Overlock+SC">Overlock \
+  family</a> comes in three weights, Regular, Bold \
+  and Black, each with a true italic. It has two \
+  set of numbers and small caps, which are available \
+  in this sister family.</p>
+
+font.OverlockSC-Regular.ttf.style: normal
+font.OverlockSC-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Overlock SC" \
+# ~/googlefontdirectory/overlocksc/OverlockSC-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/overlocksc/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  OverlockSC-Regular.menu; \
+
+# cd ~/googlefontdirectory/overlocksc/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in overlocksc; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/overlocksc/; \
