@@ -1,0 +1,66 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Overlock
+
+designer: Dario Manuel Muhafara
+
+approved: true
+description: <p>The Overlock typeface family was \
+  selected by the Letras Latinas Biennal in 2006. \
+  The initial idea of this typeface was to simulate \
+  the Overlock sewing technique. The special thing \
+  about these forms is the warm feeling that they \
+  give to your text, because of the particular \
+  rounded glyph shapes that emerge. As a result, \
+  the Overlock typeface family is great for titles \
+  and short texts in magazine style layouts. It \
+  looks its very best at bigger sizes. It comes \
+  in three weights, Regular, Bold and Black, each \
+  with a true italic. It has two set of numbers \
+  and small caps which are available as a sister family, \
+  <a href="http://www.google.com/webfonts/specimen/Overlock+SC">Overlock \
+  SC</a>.</p>
+
+font.Overlock-Regular.ttf.style: normal
+font.Overlock-Italic.ttf.style: italic
+font.Overlock-Bold.ttf.style: normal
+font.Overlock-BoldItalic.ttf.style: italic
+font.Overlock-Black.ttf.style: normal
+font.Overlock-BlackItalic.ttf.style: italic
+
+font.Overlock-Regular.ttf.weight: 400
+font.Overlock-Bold.ttf.weight: 700
+font.Overlock-Black.ttf.weight: 900
+
+font.Overlock-Italic.ttf.weight: 400
+font.Overlock-BoldItalic.ttf.weight: 700
+font.Overlock-BlackItalic.ttf.weight: 900
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Overlock" \
+# ~/googlefontdirectory/overlock/Overlock-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/overlock/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Overlock-Regular.menu; \
+
+# cd ~/googlefontdirectory/overlock/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in overlock; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/overlock/; \
