@@ -1,6 +1,6 @@
 SplineFontDB: 3.0
 FontName: BreeSerif-Regular
-FullName: BreeSerif-Regular
+FullName: Bree Serif
 FamilyName: Bree Serif
 Weight: Book
 Copyright: Copyright (c) 2011, TypeTogether (www.type-together.com), with Reserved Font Names "Bree" and "Bree Serif"
@@ -14,13 +14,13 @@ sfntRevision: 0x00010042
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 288 713564382 5764570]
+XUID: [1021 288 713564382 400633]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1324049202
-ModificationTime: 1324078114
+ModificationTime: 1324085090
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -91,6 +91,8 @@ DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 34 34 13
+BeginPrivate: 0
+EndPrivate
 BeginChars: 65558 416
 
 StartChar: .notdef
