@@ -1,0 +1,48 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Miniver
+
+designer: Open Window
+
+approved: true
+description: <p>Miniver was inspired by a trip \
+  made to the library, looking for new ideas. \
+  Immediately gravitating towards the DVD for \
+  the 1942 film Mrs. Miniver, the hand-lettered \
+  title on the cover had a very contemporary \
+  look and feel so, there was the 'springboard' \
+  into a new font. First drawn were the inline \
+  forms and then they were traced, utilizing a \
+  playful 'cutout' effect.</p>
+
+font.Miniver-Regular.ttf.style: normal
+font.Miniver-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Miniver" \
+# ~/googlefontdirectory/miniver/Miniver-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/miniver/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Miniver-Regular.menu; \
+
+# cd ~/googlefontdirectory/miniver/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in miniver; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/miniver/; \
