@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Inder
+
+designer: Irina Smirnova
+
+approved: true
+description: <p>Inder is a low contrast workhorse \
+  sans serif text face design. It was inspired by \
+  German art noveau style lettering and the Amsterdam \
+  School of architecture. Inder has been carefully \
+  adjusted to the restrictions of the screen. Inder \
+  can be used in a wide range of sizes.</p>
+
+font.Inder-Regular.ttf.style: normal
+font.Inder-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Inder" \
+# ~/googlefontdirectory/inder/Inder-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/inder/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Inder-Regular.menu; \
+
+# cd ~/googlefontdirectory/inder/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in inder; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/inder/; \
