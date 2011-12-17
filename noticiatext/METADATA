@@ -1,0 +1,72 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Noticia Text
+
+designer: José Solé
+
+approved: true
+description: <p>Noticia Text is a \
+  contemporary humanist slab serif typeface \
+  designed to be used for running text on digital newspapers \
+  (both on websites and mobile apps). It has a large x-height, \
+  ample proportions, big serifs and large apertures that allow \
+  the letters to be clear, even at small sizes on low \
+  resolution screens. The capitals are unusually small, \
+  allowing them to be used as substitutes for small caps. \
+  (Its recommended to add some tracking if used in \
+  this way.)</p> \
+  <p>One major feature is the break in the internal curves of \
+  round characters. While this break makes some interesting \
+  forms at large sizes, their true purpose is to help \
+  make the counterforms more open at small sizes by allowing \
+  straighter stems. This reasoning is famously known as \
+  W.A. Dwiggins' “M-formula.”</p> \
+  <p>The italics were designed to contrast with the roman \
+  styles while maintaining good legibility. The true italic \
+  forms also have big counterforms and simple curves.</p> \
+  <p>The fonts have been manually hinted to get the best \
+  possible rasterization in Windows.</p> \
+  <p>The Noticia font family project is envisioned as 18 \
+  different fonts styles, with text, condensed, display \
+  and sans variants, different weights and including \
+  italic versions, all designed and hinted to work well \
+  on computer and mobile devices screens.</p>
+
+font.NoticiaText-Regular.ttf.style: normal
+font.NoticiaText-Italic.ttf.style: italic
+font.NoticiaText-Bold.ttf.style: normal
+font.NoticiaText-BoldItalic.ttf.style: italic
+
+font.NoticiaText-Regular.ttf.weight: 400
+font.NoticiaText-Bold.ttf.weight: 700
+font.NoticiaText-Italic.ttf.weight: 400
+font.NoticiaText-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Noticia Text" \
+# ~/googlefontdirectory/noticiatext/NoticiaText-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/noticiatext/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  NoticiaText-Regular.menu; \
+
+# cd ~/googlefontdirectory/noticiatext/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in noticiatext; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/noticiatext/; \
