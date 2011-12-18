@@ -1,0 +1,50 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Buenard
+
+designer: FontFuror
+
+approved: true
+description: <p>Buenard is a high-quality \
+  serif typeface for art books. \
+  Its based on the Transitional Roman classical structure, \
+  with less contrasted strokes and heavier serifs.</p> \
+  <p>It has its own contemporary style, combining elegance, \
+  consistency and legibility for all text sizes, making \
+  it an excellent choice when selecting a serif font.</p> \
+  <p>Buenard was initially designed for an Argentinian \
+  art publisher and progressed as a final project in the \
+  Postgraduate Career in Typography at the University \
+  of Buenos Aires.</p>
+
+font.Buenard-Regular.ttf.style: normal
+font.Buenard-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Buenard" \
+# ~/googlefontdirectory/buenard/Buenard-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/buenard/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Buenard-Regular.menu; \
+
+# cd ~/googlefontdirectory/buenard/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in buenard; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/buenard/; \
