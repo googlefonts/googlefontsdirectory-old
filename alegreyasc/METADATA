@@ -1,0 +1,73 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Alegreya SC
+
+designer: Juan Pablo del Peral
+
+approved: true
+description: <p>Alegreya was chosen \
+  as one of 53 "Fonts of the Decade" at \
+  the ATypI Letter2 competition in September 2011, and one \
+  of the top 14 text type systems. It was also selected in \
+  the 2nd Bienal Iberoamericana de Diseño, competition \
+  held in Madrid in 2010.</p> \
+  <p>Alegreya is a typeface originally intended for literature. \
+  Among its crowning characteristics, it conveys a dynamic \
+  and varied rhythm which facilitates the reading of long \
+  texts. Also, it provides freshness to the page while \
+  referring to the calligraphic letter, not as a literal \
+  interpretation, but rather in a contemporary typographic \
+  language.</p> \
+  <p>The italic has just as much care and attention to detail \
+  in the design as the roman. The bold weights are strong, \
+  and the Black weights are really experimental for \
+  the genre. This is the Small Caps sister family that \
+  complements the master \
+  <a href="http://www.google.com/webfonts/specimen/Alegreya">Alegreya</a> \
+  family.</p> \
+  <p>Not only does Alegreya provide great performance, but \
+  also achieves a strong and harmonious text by means of \
+  elements designed in an atmosphere of diversity.</p>
+
+font.AlegreyaSC-Regular.ttf.style: normal
+font.AlegreyaSC-Italic.ttf.style: italic
+font.AlegreyaSC-Bold.ttf.style: normal
+font.AlegreyaSC-BoldItalic.ttf.style: italic
+font.AlegreyaSC-Black.ttf.style: normal
+font.AlegreyaSC-BlackItalic.ttf.style: italic
+
+font.AlegreyaSC-Regular.ttf.weight: 400
+font.AlegreyaSC-Bold.ttf.weight: 700
+font.AlegreyaSC-Italic.ttf.weight: 400
+font.AlegreyaSC-BoldItalic.ttf.weight: 700
+font.AlegreyaSC-Black.ttf.weight: 900
+font.AlegreyaSC-BlackItalic.ttf.weight: 900
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Alegreya SC" \
+# ~/googlefontdirectory/alegreyasc/AlegreyaSC-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/alegreyasc/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  AlegreyaSC-Regular.menu; \
+
+# cd ~/googlefontdirectory/alegreyasc/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in alegreyasc; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/alegreyasc/; \
