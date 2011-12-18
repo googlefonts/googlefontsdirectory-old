@@ -1,0 +1,49 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Acme
+
+designer: Juan Pablo del Peral
+
+approved: true
+description: <p>Acme is a condensed display \
+  typeface inspired by the visual language of \
+  classic cartoons and comics. It is designed \
+  to be used in headlines, and has a particular \
+  and groovy rhythm. The resulting texts are \
+  vivid but consistent, and its expressive \
+  characteristics work as well on screen as in \
+  print. The glyphs were each carefully designed, \
+  with top curve quality. It is well balanced, \
+  and carefully spaced by eye.</p>
+
+font.Acme-Regular.ttf.style: normal
+font.Acme-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Acme" \
+# ~/googlefontdirectory/acme/Acme-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/acme/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Acme-Regular.menu; \
+
+# cd ~/googlefontdirectory/acme/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in acme; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/acme/; \
