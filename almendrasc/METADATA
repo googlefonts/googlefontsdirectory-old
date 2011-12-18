@@ -1,0 +1,53 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Almendra SC
+
+designer: Ana Sanfelippo
+
+approved: true
+description: <p><a href="http://www.google.com/webfonts/specimen/Almendra">Almendra</a> \
+  is a typeface design based on \
+  calligraphy. Its style is related to the chancery and \
+  gothic hands. It is intended to be used in long texts, \
+  especially young children's literature. Almendra's \
+  black and white forms generate a nice texture in small \
+  sizes, while its many details appear when given the \
+  opportunity in huge sizes. The main challenge was to \
+  make compatible dialectic elements, especially \
+  balancing legibility and formal identity. Almendra \
+  was selected to be exhibited at the Bienal \
+  Iberoamericana de Diseo in 2010 and was part of \
+  the German editorial project Typodarium 2012.</p> \
+  <p>This is the sister Small Cap family.</p>  
+  
+font.AlmendraSC-Regular.ttf.style: normal
+font.AlmendraSC-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Almendra SC" \
+# ~/googlefontdirectory/almendrasc/AlmendraSC-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/almendrasc/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  AlmendraSC-Regular.menu; \
+
+# cd ~/googlefontdirectory/almendrasc/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in almendrasc; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/almendrasc/; \
