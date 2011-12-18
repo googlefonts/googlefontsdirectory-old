@@ -1,0 +1,42 @@
+visibility: SANDBOX
+license: OFL
+category: handwriting
+subsets: menu,latin
+
+family: Ruge Boogie
+
+designer: TypeSETit
+
+approved: true
+description: <p>Ruge Boogie is fun, funky, bouncy \
+  and playful. Having a party? Invite Ruge Boogie \
+  to liven things up.</p>
+
+font.RugeBoogie-Regular.ttf.style: normal
+font.RugeBoogie-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Ruge Boogie" \
+# ~/googlefontdirectory/rugeboogie/RugeBoogie-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/rugeboogie/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  RugeBoogie-Regular.menu; \
+
+# cd ~/googlefontdirectory/rugeboogie/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in rugeboogie; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/rugeboogie/; \
