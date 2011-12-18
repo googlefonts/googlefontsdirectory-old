@@ -49,7 +49,14 @@ from fontTools import ttLib
 from fontTools.ttLib.tables import ttProgram
 
 # Open the font file supplied as the first argument on the command line
-font = ttLib.TTFont(sys.argv[1])
+fontfile = sys.argv[1]
+font = ttLib.TTFont(fontfile)
+
+# Save a backup
+backupfont = fontfile[0:-4] + '-backup-fonttools-prep-gasp' + fontfile[-4:]
+# print "Saving to ", backupfont
+font.save(backupfont)
+print backupfont, "saved."
 
 # Print the Gasp table
 if font.has_key('gasp') == 1:
@@ -85,16 +92,13 @@ prep.program = program
 font["gasp"] = gasp
 font["prep"] = prep
 
-# Save the font to the filename supplied as the second 
-# argument on the command line
-
 # Print the Gasp table
 print "GASP now: ", font["gasp"].gaspRange
 
 # Print the PREP table
 print "PREP now: ", ttProgram.Program.getAssembly(font["prep"].program)
 
-# This should be better, like the FontForge one
-outfont = sys.argv[1] + "-prep-gasp.ttf"
-print outfont
-font.save(outfont)
+# Save the new file with the name of the input file
+newfont = fontfile[0:-4] + '-after-fonttools-prep-gasp' + fontfile[-4:]
+font.save(newfont)
+print newfont, "saved."
