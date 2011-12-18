@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin
+
+family: Asul
+
+designer: Mariela Monsalve
+
+approved: true
+description: <p>Asul can be described \
+  as a baroque humanist typface; it has semi-serifs \
+  and it is a type revival project developed for \
+  editorial use. It is based on a typeface \
+  found in some Argentinian books and magazines \
+  from the early 20th century.</p>
+
+font.Asul-Regular.ttf.style: normal
+font.Asul-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Asul" \
+# ~/googlefontdirectory/asul/Asul-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/asul/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Asul-Regular.menu; \
+
+# cd ~/googlefontdirectory/asul/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in asul; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/asul/; \
