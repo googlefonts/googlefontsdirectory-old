@@ -14,31 +14,31 @@ sfntRevision: 0x00010083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 780 1537322829 529834]
+XUID: [1021 849 1658081461 297424]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1324147564
-ModificationTime: 1324180762
+CreationTime: 1324154598
+ModificationTime: 1324183918
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 3 5 0 0 2 0 4
-OS2TypoAscent: 150
+OS2TypoAscent: 216
 OS2TypoAOffset: 1
-OS2TypoDescent: -50
+OS2TypoDescent: -145
 OS2TypoDOffset: 1
 OS2TypoLinegap: 0
-OS2WinAscent: -27
+OS2WinAscent: 39
 OS2WinAOffset: 1
-OS2WinDescent: -68
+OS2WinDescent: 27
 OS2WinDOffset: 1
-HheadAscent: -27
+HheadAscent: 39
 HheadAOffset: 1
-HheadDescent: 68
+HheadDescent: -27
 HheadDOffset: 1
 OS2SubXSize: 650
 OS2SubYSize: 600
@@ -48,8 +48,8 @@ OS2SupXSize: 650
 OS2SupYSize: 600
 OS2SupXOff: 0
 OS2SupYOff: 350
-OS2StrikeYSize: 56
-OS2StrikeYPos: 277
+OS2StrikeYSize: 50
+OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000093.00000000
 OS2UnicodeRanges: 00000007.00000001.00000000.00000000
