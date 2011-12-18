@@ -19,8 +19,7 @@
 #
 # This program takes a OpenType-CFF font with Cubic (aka PostScript) 
 # Outlines and converts them to Quadratic (aka TrueType) outlines,
-# and then adds extrema points to aid autoinstructing
-# and then simplifies all contours to reduce filesize
+# and then adds exrema and simplifies all contours to reduce filesize
 # and generates a new TTF file
 
 # Import our system library and fontTools ttLib
