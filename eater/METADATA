@@ -1,0 +1,42 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Eater
+
+designer: Typomondo
+
+approved: true
+description: <p>Eater is a display font infected \
+  by the darkest of rare disease that slowly spreads \
+  at night while the webfont user sleeps.</p>
+
+font.Eater-Regular.ttf.style: normal
+font.Eater-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Eater " \
+# ~/googlefontdirectory/eater/Eater-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/eater/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Eater-Regular.menu; \
+
+# cd ~/googlefontdirectory/eater/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in eater; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/eater/; \
