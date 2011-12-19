@@ -1,0 +1,46 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Creepster 
+
+designer: Sideshow
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Its ghastly! Its gory! Its \
+  gruesomely gleeful! Its Creepster, the \
+  blood-curdling new font from Squid and \
+  Sideshow. This fright-filled font has so \
+  many alternates its like stitching \
+  together your own monster every time you \
+  use it. Creepster: Perfect for all of \
+  your grisly graphic needs!</p>
+
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Creepster" \
+#     ~/googlefontdirectory/creepster/Creepster-Regular.ttf \
+#     ~/googlefontdirectory/creepster/Creepster-Regular.menu; \
+# cd ~/googlefontdirectory/creepster/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Creepster-Regular.menu; \
+
+# cd ~/googlefontdirectory/creepster/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in creepster; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/creepster/; \
