@@ -21,8 +21,7 @@ ChangeLog
 
 - Fixed Brackets in the and Brace and Braces in the Brackets
 - Used Fontforge "simplify" command to reduce file size.
-- Tested Fontlab Autohinting but rejected it - this font uses Google magic 
-tables instead (again).
+- Tested Fontlab Autohinting but rejected it - this font again uses Google "magic tables" in the "prep" TT table.
 
 12 August 2011 (Eben Sorkin) Spinnaker v1.002
 
