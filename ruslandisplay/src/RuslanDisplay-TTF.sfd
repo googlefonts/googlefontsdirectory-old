@@ -1,10 +1,10 @@
 SplineFontDB: 3.0
-FontName: RuslanDisplay
-FullName: RuslanDisplay
+FontName: RuslanDisplay-Regular
+FullName: Ruslan Display
 FamilyName: Ruslan Display
 Weight: Book
-Copyright: Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>, Vladimir Rabdu. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
-Version: 1.000
+Copyright: Copyright (c) 2010, 2011, Denis Masharov (denis.masharov@gmail.com), Copyright (c) 2010, 2011,  Vladimir Rabdu
+Version: 1.001
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -81,7 +81,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "Regular" "DenisMasharov,VladimirRabdu: Ruslan Display: 2011" "" "Version 1.000" "" "Ruslan Display" "Denis Masharov, Vladimir Rabdu" "Denis Masharov, Vladimir Rabdu" "Copyright (c) 2010, 2011, Denis Masharov <denis.masharov@gmail.com>, Vladimir Rabdu. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "Regular" "DenisMasharov,VladimirRabdu: Ruslan Display: 2011" "" "Version 1.001" "" "Ruslan Display" "Denis Masharov, Vladimir Rabdu" "Denis Masharov, Vladimir Rabdu" "Font akcident, decorative, stylized, based on an ancient Russian script of the 16th century, which is called poluustav. Suitable for lettering, Rusland Display can also be used in to set short texts. Ruslan Display was done in collaboration with Vladimir Rabdu." "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15
 Encoding: UnicodeBmp
 UnicodeInterp: none
