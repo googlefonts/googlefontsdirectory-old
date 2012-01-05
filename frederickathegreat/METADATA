@@ -9,22 +9,22 @@ designer: Tart Workshop
 
 approved: true
 description: <p>Fredericka recalls my college days of nights spent \
-  creating handdrawn presentation boards, architectural \ 
+  creating handdrawn presentation boards, architectural \
   sketches and student union posters.  She's fun, she's \
   casual, she's preppy, she's classic, she's Great! \
   Designed by Crystal Kluge of Tart Workshop.</p>
 
-font.Fredericka the Great-Regular.ttf.style: normal
-font.Fredericka the Great-Regular.ttf.weight: 400
+font.FrederickatheGreat-Regular.ttf.style: normal
+font.FrederickatheGreat-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Fredericka the Great" \
-# ~/googlefontdirectory/frederickathegreat/Fredericka the Great-Regular.{ttf,menu}; \
+# ~/googlefontdirectory/frederickathegreat/FrederickatheGreat-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/frederickathegreat/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Fredericka the Great-Regular.menu; \
+#  FrederickatheGreat-Regular.menu; \
 
 # cd ~/googlefontdirectory/frederickathegreat/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
