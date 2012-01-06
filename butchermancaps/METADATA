@@ -12,22 +12,22 @@ description: <p>Butcherman Caps is a zombified \
   display font, hacked and chopped and left \
   for dead, yet still crawling.</p>
 
-font.ButchermanCaps-Regular.ttf.style: normal
-font.ButchermanCaps-Regular.ttf.weight: 400
+font.ButchermannCaps-Regular.ttf.style: normal
+font.ButchermannCaps-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Butcherman Caps" \
-# ~/googlefontdirectory/butchermancaps/ButchermanCaps-Regular.{ttf,menu}; \
+#  --chars="Butchermann Caps" \
+# ~/googlefontdirectory/butchermancaps/ButchermannCaps-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/butchermancaps/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  ButchermanCaps-Regular.menu; \
+#  ButchermannCaps-Regular.menu; \
 
 # cd ~/googlefontdirectory/butchermancaps/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in butchermancaps; do \
+# for family in butchermanncaps; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
