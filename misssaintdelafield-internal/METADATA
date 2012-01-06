@@ -33,22 +33,22 @@ description: <p>The Charles Bluemlein Script Collection \
   fictitious names originally assigned to them by \
   Bluemlein.</p>
 
-font.MissSaintDelafield-Regular.ttf.style: normal
-font.MissSaintDelafield-Regular.ttf.weight: 400
+font.MrsSaintDelafield-Regular.ttf.style: normal
+font.MrsSaintDelafield-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Miss Saint Delafield" \
-# ~/googlefontdirectory/misssaintdelafield/MissSaintDelafield-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/misssaintdelafield/; \
+# ~/googlefontdirectory/misssaintdelafield-internal/MrsSaintDelafield-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/misssaintdelafield-internal/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  MissSaintDelafield-Regular.menu; \
+#  MrsSaintDelafield-Regular.menu; \
 
-# cd ~/googlefontdirectory/misssaintdelafield/; \
+# cd ~/googlefontdirectory/misssaintdelafield-internal/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in misssaintdelafield; do \
+# for family in misssaintdelafield-internal; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -60,5 +60,5 @@ font.MissSaintDelafield-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/misssaintdelafield/; \
+# cd ~/googlefontdirectory/misssaintdelafield-internal/; \
 
