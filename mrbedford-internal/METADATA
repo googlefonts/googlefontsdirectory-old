@@ -1,3 +1,4 @@
+visibility: INTERNAL
 license: OFL
 category: handwriting
 subsets: menu,latin,latin-ext
@@ -32,22 +33,22 @@ description: <p>The Charles Bluemlein Script Collection \
   fictitious names originally assigned to them by \
   Bluemlein.</p>
 
-font.MrBedford-Regular.ttf.style: normal
-font.MrBedford-Regular.ttf.weight: 400
+font.MrBedfort-Regular.ttf.style: normal
+font.MrBedfort-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Mr Bedford" \
-# ~/googlefontdirectory/mrbedford/MrBedford-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/mrbedford/; \
+# ~/googlefontdirectory/mrbedford-internal/MrBedfort-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/mrbedford-internal/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  MrBedford-Regular.menu; \
+#  MrBedfort-Regular.menu; \
 
-# cd ~/googlefontdirectory/mrbedford/; \
+# cd ~/googlefontdirectory/mrbedford-internal/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in mrbedford; do \
+# for family in mrbedford-internal; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -59,5 +60,5 @@ font.MrBedford-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/mrbedford/; \
+# cd ~/googlefontdirectory/mrbedford-internal/; \
 
