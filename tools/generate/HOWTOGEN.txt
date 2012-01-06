@@ -1,0 +1,86 @@
+# This document documents the commands used by dcrossland when
+# preparing fonts from VFB sources with magic hinting in batches
+
+# FontLab, check all metadata correct, save
+for vfb in `ls -1 */src/*vfb`; do open -a FontLab $vfb; done;
+
+# remove BAK files
+for bak in `ls -1 */src/*bak`; do rm $bak; done;
+
+# open all *-OTF.vfb (by hand check they are all there) and Generate All OTFs in ~
+for vfb in `ls -1 */src/*OTF-vfb`; do open -a FontLab $vfb; done;
+
+# move the OTFs in by hand
+
+# ttx all the new OTFs and remove the OTFs
+for font in `ls -1 */src/*OTF.otf`; do ttx $font; rm $font; done;
+
+# check BOTH the "Full Name" namerecord tags with nameID="4" are correct (ie, no Regular in regular fonts)
+# check BOTH the "PS Name"   namerecord tags with nameID="6" are correct (ie, w -Regular in regular fonts)
+for ttx in `ls -1 */src/*ttx`; do smultron $ttx; done;
+
+# ttx back the OTFs
+for ttx in `ls -1 */src/*ttx`; do ttx $ttx; rm $ttx; done;
+
+# Convert the OTFs to TTFs
+for otf in `ls -1 */src/*otf`; do ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+
+# watch out for warnings like this which mean going back to the ttx
+#
+# Warning: Mac and Windows entries in the 'name' table differ for the
+#  Family string in the language English (US)
+#  Mac String: Cambo Regular
+# Windows String: Cambo
+
+
+# Add PREP and GASP with TTX
+# for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+
+# Remove the backup files created by the prep-gasp tool
+for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done;
+for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
+
+# check v metrics
+# for i in `ls -1 */src/*tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
+
+for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
+
+# remove if all good
+rm tmp-*;
+
+# Rename the OTFs
+for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done;
+
+# Rename the TTFs
+for ttf in `ls -1 */src/*after*ttf`; do rename s/-OTF-after-fonttools-prep-gasp//g $ttf; done;
+
+# Generate SFDs
+# for ttf in `ls -1 */src/*ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/ttf2sfd.py $ttf; done;
+
+
+# Move the TTFs up tree
+# for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; mv src/*ttf .; cd ..; done;
+mv *sfd src;
+
+# cp in METADATA template
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; cat ~/dcrossland-fontdirectory/INCOMING/METADATAtemplate-simple.txt >> METADATA; cd ..; done;
+
+# edit the METADATA, OFL and FONTLOG files
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do smultron $dir/METADATA; smultron $dir/*txt; done;
+
+# extract the subset scripts
+grep \# */METADATA | cut -d: -f2 | tr -d "#" >> tmp-4-subsets.sh;
+
+# Move dirs to GFD repo
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mv $dir ~/googlefontdirectory/; done
+
+# Run the subset scripts
+bash tmp-4-subsets.sh;
+
+# Check in the fonts
+cd ~/googlefontdirectory;
+
+for newdir in `hg st | grep "?" | cut -d" " -f2 | cut -d/ -f1 | sort | uniq`; do hg add $newdir; hg ci $newdir -m "Adding $newdir"; done
+
