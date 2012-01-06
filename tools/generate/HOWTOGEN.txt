@@ -38,16 +38,16 @@ for otf in `ls -1 */src/*otf`; do ~/googlefontdirectory/tools/nonhinting/setquad
 for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
 
 # Remove the backup files created by the prep-gasp tool
-for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done;
-for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
+for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done; for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
 
 # check v metrics
-# for i in `ls -1 */src/*tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
+# for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir/src/; for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*; cd ../../; done;
 
 for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
 
 # remove if all good
-rm tmp-*;
+# rm */src/tmp*;
+rm tmp*;
 
 # Rename the OTFs
 for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done;
@@ -69,6 +69,9 @@ for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir;
 
 # edit the METADATA, OFL and FONTLOG files
 for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do smultron $dir/METADATA; smultron $dir/*txt; done;
+
+# ensure they are all good
+# TODO write some actual tests for family key, filename and internal metadata congruence, font.* key and filename congruence, line breaks are correct (no trailing space) etc
 
 # extract the subset scripts
 grep \# */METADATA | cut -d: -f2 | tr -d "#" >> tmp-4-subsets.sh;
