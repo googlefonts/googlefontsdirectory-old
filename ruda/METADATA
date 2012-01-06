@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Ruda
+
+designer: Multiple Designers
+
+approved: true
+description: <p>Ruda is a sans serif \
+  typeface originally developed \
+  for a specific context of use, product labels. \
+  Designed by Mariela Monsalve and Angelina Snchez, \
+  Ruda features a very large x-height, low cap-height \
+  and open forms.</p>
+
+font.Ruda-Regular.ttf.style: normal
+font.Ruda-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Ruda" \
+# ~/googlefontdirectory/ruda/Ruda-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/ruda/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Ruda-Regular.menu; \
+
+# cd ~/googlefontdirectory/ruda/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in ruda; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/ruda/; \
