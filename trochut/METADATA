@@ -1,0 +1,49 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Trochut
+
+designer: Andreu Balius
+
+approved: true
+description: <p>Trochut is a funny geometric \
+  typeface developed by Andreu Balius as an \
+  homage to Joan Trochut Blanchart (1920-1980) \
+  from its Bisonte type specimen. Useful for \
+  your cool magazine stuff, it also works quite \
+  well on posters, book jackets and other display \
+  uses on the web. Trochut currently includes \
+  Regular, Italic and Bold styles. More \
+  are available from \
+  <a href="http://www.TypeRepublic.com">TypeRepublic</a>.</p>
+
+font.Trochut-Regular.ttf.style: normal
+font.Trochut-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Trochut" \
+# ~/googlefontdirectory/trochut/Trochut-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/trochut/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Trochut-Regular.menu; \
+
+# cd ~/googlefontdirectory/trochut/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in trochut; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/trochut/; \
