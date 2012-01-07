@@ -38,7 +38,7 @@ def main(argv):
 #   Add Extrema
     font.addExtrema()
 #   Simplify
-    font.simplify(1,('mergelines','setstarttoextremum','removesingletonpoints'))
+    font.simplify(1,('setstarttoextremum','removesingletonpoints'))
 #   Correct Directions
     font.correctDirection()
 
