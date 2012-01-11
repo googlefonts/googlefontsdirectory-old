@@ -1,0 +1,45 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Emblema One
+
+designer: Riccardo De Franceschi
+
+approved: true
+description: <p>Emblema One is inspired by UK Victorian \
+  era bold italic display type. It breaks from tradition \
+  by using a stenciled kind ofconstruction. The stencil \
+  style too is atypical and gives the font its distinctive \
+  feeling. Emblema One has been made for display purposes \
+  and should be used from medium to large sizes.</p>
+
+font.EmblemaOne-Regular.ttf.style: normal
+font.EmblemaOne-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Emblema One" \
+# ~/googlefontdirectory/emblemaone/EmblemaOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/emblemaone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  EmblemaOne-Regular.menu; \
+
+# cd ~/googlefontdirectory/emblemaone/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in emblemaone; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/emblemaone/; \
