@@ -1,4 +1,3 @@
-visibility: SANDBOX
 license: OFL
 category: serif
 subsets: menu,latin,latin-ext
@@ -22,6 +21,9 @@ description: <p>Buenard is a high-quality \
 
 font.Buenard-Regular.ttf.style: normal
 font.Buenard-Regular.ttf.weight: 400
+
+font.Buenard-Bold.ttf.style: normal
+font.Buenard-Bold.ttf.weight: 700
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \

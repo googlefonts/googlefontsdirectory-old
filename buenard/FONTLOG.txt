@@ -1,4 +1,4 @@
-FONTLOG for the Buenard font
+FONTLOG for the Buenard fonts
 
 This file provides detailed information on the Buenard 
 Font Software.
@@ -36,7 +36,7 @@ There are six Source files:
 1. Buenard-Bold-OTF.vfb Merged contours and optimized 
    file corresponding to the OTF file
 
-2. Buenard-Bold-TTF.vfb TrueType outlines with hinting 
+2. Buenard-Bold-TTF.sfd TrueType outlines with hinting 
    adjustments corresponding to the TTF file
 
 3. Buenard-Bold.vfb Original Source files with contour overlaps
@@ -44,13 +44,19 @@ There are six Source files:
 4. Buenard-Regular-OTF.vfb Merged contours and optimized 
    file corresponding to the OTF file
 
-5. Buenard-Regular-TTF.vfb TrueType outlines with hinting 
+5. Buenard-Regular-TTF.sfd TrueType outlines with hinting 
    adjustments corresponding to the TTF file
 
 6. Buenard-Regular.vfb Original Source files with contour 
    overlaps
 
 ChangeLog
+
+12 Jan 2012 (Gustavo Ibarra) Buenard v1.001
+- Extended Latin character set for Regular and Bold styles
+
+18 Dec 2011 (Gustavo Ibarra) Buenard v1.000
+- Initial release of Regular and Bold styles
 
 If you make modifications be sure to add your name (N), 
 email (E), web-address (if you have one) (W) and 
