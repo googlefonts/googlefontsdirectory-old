@@ -1,0 +1,46 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin
+
+family: Sirin Stencil
+
+designer: Cyreal
+
+approved: true
+description: <p>Sirin Stencil is a display humanist \
+  sans typeface by Olga Karpushina with careful \
+  brush-inspired detailing. It is designed for large \
+  sizes, but works surprizingly well in small body \
+  copy, when its stencil gaps merge. Sirin will work \
+  well on colored backgrounds creating an \
+  optical 3D effect.</p>
+
+font.SirinStencil-Regular.ttf.style: normal
+font.SirinStencil-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="SirinStencil" \
+# ~/googlefontdirectory/sirinstencil/SirinStencil-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/sirinstencil/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  SirinStencil-Regular.menu; \
+
+# cd ~/googlefontdirectory/sirinstencil/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in sirinstencil; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/sirinstencil/; \
