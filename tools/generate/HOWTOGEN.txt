@@ -8,7 +8,7 @@ for vfb in `ls -1 */src/*vfb`; do open -a FontLab $vfb; done;
 for bak in `ls -1 */src/*bak`; do rm $bak; done;
 
 # open all *-OTF.vfb (by hand check they are all there) and Generate All OTFs in ~
-for vfb in `ls -1 */src/*OTF-vfb`; do open -a FontLab $vfb; done;
+for vfb in `ls -1 */src/*OTF.vfb`; do open -a FontLab $vfb; done;
 
 # move the OTFs in by hand
 
@@ -23,7 +23,7 @@ for ttx in `ls -1 */src/*ttx`; do smultron $ttx; done;
 for ttx in `ls -1 */src/*ttx`; do ttx $ttx; rm $ttx; done;
 
 # Convert the OTFs to TTFs
-for otf in `ls -1 */src/*otf`; do ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for otf in `ls -1 */src/*otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
 
 # watch out for warnings like this which mean going back to the ttx
 #
