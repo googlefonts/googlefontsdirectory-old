@@ -31,8 +31,10 @@ Unicode ranges: Latin-1
 
 Source files for the final TTF include:
 
-* RougeScript-Regular-OTF.vfb - original drawing file in 
-  FontLab format
+* RougeScript-Regular.vfb - original drawing file in 
+  FontLab format with overlaps
+* RougeScript-Regular-OTF.vfb - source used to generate OTF in 
+  FontLab format without overlaps
 * RougeScript-Regular.otf - OpenType font with PostScript outlines
 * RougeScript-Regular-TTF.sfd - FontForge source used to generate
   final TTF file
@@ -41,6 +43,9 @@ To contribute to the project contact Sabrina Mariela Lopez at
 typesenses@live.com.ar
 
 ChangeLog
+
+13 Jan 2012 (Sabrina Mariela Lopez) Rouge Script v1.003
+- Updated with adjustment to caps to avoid clipping on the web
 
 4 Jan 2012 (Sabrina Mariela Lopez) Rouge Script v1.002
 - Initial release
