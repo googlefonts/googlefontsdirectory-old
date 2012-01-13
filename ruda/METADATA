@@ -13,10 +13,20 @@ description: <p>Ruda is a sans serif \
   for a specific context of use, product labels. \
   Designed by Mariela Monsalve and Angelina Snchez, \
   Ruda features a very large x-height, low cap-height \
-  and open forms.</p>
+  and open forms.</p> \
+  <p>Ruda is a collaboration between \
+  <a href="http://www.mukamonsalve.com.ar">marie monsalve</a> \
+  and <a href="http://www.angelinasanchez.com.ar">Angelina \
+  Sanchez</a>.</p>
 
 font.Ruda-Regular.ttf.style: normal
 font.Ruda-Regular.ttf.weight: 400
+
+font.Ruda-Bold.ttf.style: normal
+font.Ruda-Bold.ttf.weight: 700
+
+font.Ruda-Black.ttf.style: normal
+font.Ruda-Black.ttf.weight: 900
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
