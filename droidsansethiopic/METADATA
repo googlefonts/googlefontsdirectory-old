@@ -1,0 +1,17 @@
+visibility: SANDBOX
+license: Apache2
+subsets: menu,ethiopic
+
+family: Droid Sans Ethiopic
+
+designer: Monotype
+
+approved: true
+description: <p>Droid Sans Ethiopic is a typeface intended to \
+  harmonize with sans serif typeface families like Droid Sans.</p>
+
+font.DroidSansEthiopic-Regular-Regular.ttf.style: normal
+font.DroidSansEthiopic-Regular-Bold.ttf.style: normal
+
+font.DroidSansEthiopic-Regular-Regular.ttf.weight: 700  
+font.DroidSansEthiopic-Regular-Bold.ttf.weight: 700
