@@ -1,5 +1,5 @@
 # This document documents the commands used by dcrossland when
-# preparing fonts from VFB sources with magic hinting in batches
+# preparing fonts from VFB sources with nonhinting in batches
 
 # FontLab, check all metadata correct, save
 for vfb in `ls -1 */src/*vfb`; do open -a FontLab $vfb; done;
@@ -11,6 +11,16 @@ for bak in `ls -1 */src/*bak`; do rm $bak; done;
 for vfb in `ls -1 */src/*OTF.vfb`; do open -a FontLab $vfb; done;
 
 # move the OTFs in by hand
+
+# check v metrics
+# for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir/src/; for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*; cd ../../; done;
+for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
+
+# Correct V metrics and regenerate if needed
+
+# remove metrics check files if all good
+# rm */src/tmp*;
+rm tmp*;
 
 # ttx all the new OTFs and remove the OTFs
 for font in `ls -1 */src/*OTF.otf`; do ttx $font; rm $font; done;
@@ -39,15 +49,6 @@ for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhintin
 
 # Remove the backup files created by the prep-gasp tool
 for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done; for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
-
-# check v metrics
-# for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir/src/; for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*; cd ../../; done;
-
-for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
-
-# remove if all good
-# rm */src/tmp*;
-rm tmp*;
 
 # Rename the OTFs
 for otf in `ls -1 */src/*otf`; do rename s/-OTF//g $otf; done;
