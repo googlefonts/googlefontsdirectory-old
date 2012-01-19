@@ -25,11 +25,9 @@ ranges: Latin-1
 To contribute to the project contact Alexei Vanyashin at 
 a at cyreal.org
 
-There are two source files:
+There is one .vfb Source file:
 
 1. Iceberg-Regular-OTF.vfb (Merged and optimized file)
-
-2. Iceberg-Regular-TTF.sfd (Magic hinting applied)
 
 ChangeLog
 
@@ -40,6 +38,9 @@ ChangeLog
 — Fixed glyph /t/
 — Mastered TTF file
 — Added GASP table
+
+19 January 2012 (Alexei Vanyashin) Iceberg v 1.002
+— scaled font 10% larger
 
 If you make modifications be sure to add your name (N), 
 email (E), web-address (if you have one) (W) and description (D). 
