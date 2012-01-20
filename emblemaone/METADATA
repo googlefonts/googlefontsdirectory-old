@@ -25,7 +25,7 @@ font.EmblemaOne-Regular.ttf.weight: 400
 # ~/googlefontdirectory/emblemaone/EmblemaOne-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/emblemaone/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  EmblemaOne-Regular.menu; \
+#  EmblemaOne-Regular.menu; 
 
 # cd ~/googlefontdirectory/emblemaone/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
