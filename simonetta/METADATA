@@ -27,8 +27,8 @@ description: <p>The Simonetta font is \
 font.Simonetta-Regular.ttf.style: normal
 font.Simonetta-Regular.ttf.weight: 400
 
-font.Simonetta-Regular.ttf.style: italic
-font.Simonetta-Regular.ttf.weight: 400
+font.Simonetta-Italic.ttf.style: italic
+font.Simonetta-Italic.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
