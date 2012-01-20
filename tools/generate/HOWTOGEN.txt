@@ -14,6 +14,7 @@ for vfb in `ls -1 */src/*OTF.vfb`; do open -a FontLab $vfb; done;
 
 # check v metrics
 # for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir/src/; for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*; cd ../../; done;
+
 for i in `ls -1 *tf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $i >> tmp-1-vmetrics-report; done; grep scen tmp-1-vmetrics-report | sort | uniq > tmp-2-vmetrics-summary; grep linegap tmp-1-vmetrics-report | sort | uniq >> tmp-2-vmetrics-summary; grep bbox tmp-1-vmetrics-report | sort | uniq > tmp-3-bbox; smultron tmp-*;
 
 # Correct V metrics and regenerate if needed
