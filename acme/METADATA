@@ -5,7 +5,7 @@ subsets: menu,latin
 
 family: Acme
 
-designer: Juan Pablo del Peral
+designer: Huerta Tipográfica
 
 approved: true
 description: <p>Acme is a condensed display \
@@ -17,7 +17,10 @@ description: <p>Acme is a condensed display \
   characteristics work as well on screen as in \
   print. The glyphs were each carefully designed, \
   with top curve quality. It is well balanced, \
-  and carefully spaced by eye.</p>
+  and carefully spaced by eye.</p> \
+  <p>Designed by Juan Pablo del Peral for \
+  <a href="http://www.huertatipografica.com.ar">Huerta \
+  Tipográfica</a>.</p>
 
 font.Acme-Regular.ttf.style: normal
 font.Acme-Regular.ttf.weight: 400
