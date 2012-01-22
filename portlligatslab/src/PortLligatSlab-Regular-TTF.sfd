@@ -4,23 +4,23 @@ FullName: Port Lligat Slab
 FamilyName: Port Lligat Slab
 Weight: Book
 Copyright: Copyright (c) 2011, Tipo (http://www.tipo.net.ar), with Reserved Font Name "Port Lligat Slab"
-Version: 1.001
+Version: 1.002
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
-sfntRevision: 0x00010042
+sfntRevision: 0x00010083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 731 481365563 12141426]
+XUID: [1021 367 2052057094 8190789]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1326325478
-ModificationTime: 1326322699
+CreationTime: 1327249796
+ModificationTime: 1327249979
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -81,7 +81,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "Tipo: Port Lligat Slab: 2011" "" "Version 1.001" "" "Port Lligat Slab is a trademark of Tipo." "Tipo" "Dario Muhafara, Eduardo Rodriguez Tunni" "" "http://www.tipo.net.ar" "http://www.tipo.net.ar" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "Tipo: Port Lligat Slab: 2011" "" "Version 1.002" "" "Port Lligat Slab is a trademark of Tipo." "Tipo" "Dario Muhafara, Eduardo Rodriguez Tunni" "" "http://www.tipo.net.ar" "http://www.tipo.net.ar" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -590,31 +590,31 @@ EndChar
 
 StartChar: one
 Encoding: 49 49 20
-Width: 410
+Width: 375
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-232 648 m 1,0,1
- 241 649 241 649 254 649 c 128,-1,2
- 267 649 267 649 278 648 c 128,-1,3
- 289 647 289 647 297 647 c 1,4,5
- 283 539 283 539 283 348.5 c 128,-1,6
- 283 158 283 158 291 63 c 1,7,-1
- 388 55 l 1,8,9
- 390 39 390 39 390 27.5 c 128,-1,10
- 390 16 390 16 387 -1 c 1,11,12
- 328 0 328 0 246 0 c 128,-1,13
- 164 0 164 0 106 -1 c 1,14,15
- 103 14 103 14 103 25.5 c 128,-1,16
- 103 37 103 37 105 55 c 1,17,-1
- 200 63 l 1,18,19
- 208 170 208 170 208 328.5 c 128,-1,20
- 208 487 208 487 202 553 c 1,21,22
- 90 479 90 479 71 460 c 1,23,24
- 32 503 32 503 25 540 c 1,25,26
- 89 566 89 566 232 648 c 1,0,1
+207 648 m 1,0,1
+ 216 649 216 649 229 649 c 128,-1,2
+ 242 649 242 649 253 648 c 128,-1,3
+ 264 647 264 647 272 647 c 1,4,5
+ 258 539 258 539 258 348.5 c 128,-1,6
+ 258 158 258 158 266 63 c 1,7,-1
+ 363 55 l 1,8,9
+ 365 39 365 39 365 27.5 c 128,-1,10
+ 365 16 365 16 362 -1 c 1,11,12
+ 303 0 303 0 221 0 c 128,-1,13
+ 139 0 139 0 81 -1 c 1,14,15
+ 78 14 78 14 78 25.5 c 128,-1,16
+ 78 37 78 37 80 55 c 1,17,-1
+ 175 63 l 1,18,19
+ 183 170 183 170 183 328.5 c 128,-1,20
+ 183 487 183 487 177 553 c 1,21,22
+ 65 479 65 479 46 460 c 1,23,24
+ 7 503 7 503 0 540 c 1,25,26
+ 64 566 64 566 207 648 c 1,0,1
 EndSplineSet
 EndChar
 
@@ -7938,42 +7938,42 @@ EndChar
 
 StartChar: oe
 Encoding: 339 339 195
-Width: 749
+Width: 744
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-238 478 m 0,0,1
- 344 478 344 478 389 397 c 1,2,3
- 440 478 440 478 537 478 c 0,4,5
- 615 478 615 478 656.5 432 c 128,-1,6
- 698 386 698 386 698 318 c 0,7,8
- 698 282 698 282 686 246 c 1,9,10
- 611 222 611 222 537.5 222 c 128,-1,11
- 464 222 464 222 426 227 c 1,12,13
- 426 104 426 104 479 72 c 0,14,15
- 503 57 503 57 538 57 c 0,16,17
- 595 57 595 57 662 119 c 1,18,19
- 691 89 691 89 699 40 c 1,20,21
- 616 -16 616 -16 530 -16 c 0,22,23
- 428 -16 428 -16 384 64 c 1,24,25
- 340 -15 340 -15 238 -15 c 0,26,27
- 125 -15 125 -15 84 61 c 0,28,29
- 50 126 50 126 50 237 c 0,30,31
- 50 478 50 478 238 478 c 0,0,1
-238 57 m 128,-1,33
- 344 57 344 57 344 239.5 c 128,-1,34
- 344 422 344 422 238 422 c 128,-1,35
- 132 422 132 422 132 239.5 c 128,-1,32
- 132 57 132 57 238 57 c 128,-1,33
-530 422 m 0,36,37
- 437 422 437 422 426 285 c 1,38,39
- 469 280 469 280 523.5 280 c 128,-1,40
- 578 280 578 280 609 290 c 1,41,42
- 612 308 612 308 612 326 c 0,43,44
- 612 367 612 367 592.5 394.5 c 128,-1,45
- 573 422 573 422 530 422 c 0,36,37
+233 478 m 0,0,1
+ 339 478 339 478 384 397 c 1,2,3
+ 435 478 435 478 532 478 c 0,4,5
+ 610 478 610 478 651.5 432 c 128,-1,6
+ 693 386 693 386 693 318 c 0,7,8
+ 693 282 693 282 681 246 c 1,9,10
+ 606 222 606 222 532 222 c 128,-1,11
+ 458 222 458 222 421 227 c 1,12,13
+ 421 104 421 104 474 72 c 0,14,15
+ 498 57 498 57 533 57 c 0,16,17
+ 590 57 590 57 657 119 c 1,18,19
+ 686 89 686 89 694 40 c 1,20,21
+ 611 -16 611 -16 525 -16 c 0,22,23
+ 423 -16 423 -16 379 64 c 1,24,25
+ 335 -15 335 -15 233 -15 c 0,26,27
+ 120 -15 120 -15 80 61 c 0,28,29
+ 45 126 45 126 45 237 c 0,30,31
+ 45 478 45 478 233 478 c 0,0,1
+233 57 m 128,-1,33
+ 339 57 339 57 339 239.5 c 128,-1,34
+ 339 422 339 422 233 422 c 128,-1,35
+ 127 422 127 422 127 239.5 c 128,-1,32
+ 127 57 127 57 233 57 c 128,-1,33
+525 422 m 0,36,37
+ 432 422 432 422 421 285 c 1,38,39
+ 464 280 464 280 518.5 280 c 128,-1,40
+ 573 280 573 280 604 290 c 1,41,42
+ 607 308 607 308 607 326 c 0,43,44
+ 607 367 607 367 587.5 394.5 c 128,-1,45
+ 568 422 568 422 525 422 c 0,36,37
 EndSplineSet
 EndChar
 
@@ -8633,7 +8633,7 @@ EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 217
-Width: 412
+Width: 442
 GlyphClass: 2
 Flags: W
 LayerCount: 2
