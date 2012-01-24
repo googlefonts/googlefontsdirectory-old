@@ -25,7 +25,7 @@ font.RopaSans-Italic.ttf.weight: 400
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="RopaSans" \
+#  --chars="Ropa Sans" \
 # ~/googlefontdirectory/ropasans/RopaSans-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/ropasans/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
