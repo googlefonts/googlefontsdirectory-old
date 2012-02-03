@@ -5,7 +5,7 @@ subsets: menu,latin,latin-ext
 
 family: Alegreya SC
 
-designer: Juan Pablo del Peral
+designer: Huerta Tipográfica
 
 approved: true
 description: <p>Alegreya was chosen \
@@ -46,14 +46,17 @@ font.AlegreyaSC-BoldItalic.ttf.weight: 700
 font.AlegreyaSC-Black.ttf.weight: 900
 font.AlegreyaSC-BlackItalic.ttf.weight: 900
 
+# cd ~/googlefontdirectory/alegreyasc/; \
+# for font in `ls -1 *ttf | cut -d. -f1`; do
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Alegreya SC" \
-# ~/googlefontdirectory/alegreyasc/AlegreyaSC-Regular.{ttf,menu}; \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Alegreya SC" \
+#   ~/googlefontdirectory/alegreyasc/$font.{ttf,menu}; \
 # cd ~/googlefontdirectory/alegreyasc/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  AlegreyaSC-Regular.menu; \
+#  $font.menu; \
+# done; 
 
 # cd ~/googlefontdirectory/alegreyasc/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
