@@ -32,14 +32,17 @@ font.Asap-Bold.ttf.weight: 700
 font.Asap-BoldItalic.ttf.style: italic
 font.Asap-BoldItalic.ttf.weight: 700
 
+# cd ~/googlefontdirectory/asap/; \
+# for font in `ls -1 *ttf | cut -d. -f1`; do
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Asap" \
-# ~/googlefontdirectory/asap/Asap-Regular.{ttf,menu}; \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Asap" \
+#   ~/googlefontdirectory/asap/$font.{ttf,menu}; \
 # cd ~/googlefontdirectory/asap/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Asap-Regular.menu; 
+#  $font.menu; \
+# done; 
 
 # cd ~/googlefontdirectory/asap/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
