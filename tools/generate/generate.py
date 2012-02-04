@@ -34,6 +34,8 @@ Optional arguments:
  -o, --otf       output a OpenType file
 
  -t, --ttf       output a TrueType file
+ 
+ -s, --simplifiedotf output a OpenType file, simplified
 
  FontOut.ext     specify the name of the output file, and 
                  determine type from file extension
@@ -53,11 +55,22 @@ def gen(f, type):
             print "OTF", font_out,
             f.generate(font_out)
             print "done."
+    if type == "sotf":
+            font_out = f.fontname + '.otf'
+            print "OTF", font_out,
+            # Add Extrema
+            f.addExtrema()
+            # Simplify
+            f.simplify(1,('setstarttoextremum','removesingletonpoints'))
+            # Correct Directions
+            f.correctDirection()
+            f.generate(font_out)
+            print "done."
 
 
 def main(argv):
     try:                                
-        optlist, args = getopt.gnu_getopt(argv, 'oth', ['otf', 'ttf', 'help'])
+        optlist, args = getopt.gnu_getopt(argv, 'oths', ['otf', 'ttf', 'help', 'simplifiedotf'])
     except getopt.GetoptError, err: 
         print str(err)
         usage()
@@ -79,8 +92,11 @@ def main(argv):
         if opt in ("-t", "--ttf"):
             gen(f, "ttf")
             sys.exit()
-        elif opt in ("-o", "--otf"):
+        if opt in ("-o", "--otf"):
             gen(f, "otf")
+            sys.exit()
+        if opt in ("-s", "--simplifiedotf"):
+            gen(f, "sotf")
             sys.exit()
     gen(f, "ttf")
     gen(f, "otf")
