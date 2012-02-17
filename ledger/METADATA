@@ -1,0 +1,58 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Ledger
+
+designer: Denis Masharov
+
+approved: true
+description: <p>The austere and concise \
+  personality and flexibility make it a \
+  real multiple-purpose typeface. The letter \
+  forms are distinguished by a large x-height, \
+  sufficient stroke contrast, robust but \
+  elegant wedge-like serifs and terminals. \
+  These features have been specially designed \
+  to reach maximum of quality and readability \
+  when used in unfavorable print and display \
+  processes - such as in newspapers, laser \
+  printed documents and on low resolution \
+  screens. The typeface can be qualified as \
+  matched to modern trends of type design \
+  and of enhanced legibility. These \
+  characteristics provide an undeniable \
+  distinction to the typeface, making it \
+  suitable for editorial use in newspapers \
+  and magazines, corporate ID, advertising \
+  and display typography.</p>
+
+font.Ledger-Regular.ttf.style: normal
+font.Ledger-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Ledger" \
+# ~/googlefontdirectory/ledger/Ledger-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/ledger/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Ledger-Regular.menu; 
+
+# cd ~/googlefontdirectory/ledger/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in ledger; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/ledger/; \
