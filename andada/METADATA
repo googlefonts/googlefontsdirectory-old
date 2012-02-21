@@ -1,6 +1,6 @@
 license: OFL
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Andada
 
@@ -32,3 +32,20 @@ font.Andada-Regular.ttf.weight: 400
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  Andada-Regular.menu; \
 
+
+# cd ~/googlefontdirectory/andada/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in andada; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/andada/; \
