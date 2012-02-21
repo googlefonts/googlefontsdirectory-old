@@ -1,0 +1,32 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "Ledger Каилрц()", and also the ligatures needed
+# 
+# fontforge -lang=ff -script menusubset-ledger.ff Ledger-Regular.ttf;
+# mv Ledger-Regular.{ttf.menu.ttf,menu};
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0u000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+SelectMore(0u004B) # K
+
+SelectMore(0u004C) # L
+SelectMore(0u0064) # d
+SelectMore(0u0065) # e
+SelectMore(0u0067) # g
+SelectMore(0u0072) # r
+
+SelectMore(0u0138) # kgreenlandic
+SelectMore(0u041A) # afii10028 cyrillic
+SelectMore(0u0430) # afii10065 cyrillic
+SelectMore(0u0438) # afii10074 cyrillic
+SelectMore(0u043B) # afii10077 cyrillic
+SelectMore(0u0440) # afii10082 cyrillic
+SelectMore(0u0446) # afii10088 cyrillic
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
