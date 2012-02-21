@@ -1,7 +1,7 @@
 visibility: SANDBOX
 license: OFL
 category: serif
-subsets: menu,latin,latin-ext
+subsets: menu,latin,latin-ext,cyrillic+latin
 
 family: Ledger
 
@@ -46,7 +46,8 @@ font.Ledger-Regular.ttf.weight: 400
 # for family in ledger; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
-#            latin latin-ext; do \
+#            latin latin-ext 
+#            cyrillic+latin cyrillic-ext+latin; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset; \
 #            python tools/subset/subset.py --null --nmr --roundtrip \
