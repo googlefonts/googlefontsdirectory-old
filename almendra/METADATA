@@ -27,14 +27,21 @@ description: <p>Almendra is a typeface design based on \
 font.Almendra-Regular.ttf.style: normal
 font.Almendra-Regular.ttf.weight: 400
 
+font.Almendra-Regular.ttf.style: italic
+font.Almendra-Regular.ttf.weight: 400
+
+
+# cd ~/googlefontdirectory/almendra/; \
+# for font in `ls -1 *ttf | cut -d. -f1`; do
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Almendra" \
-# ~/googlefontdirectory/almendra/Almendra-Regular.{ttf,menu}; \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Almendra" \
+#   ~/googlefontdirectory/almendra/$font.{ttf,menu}; \
 # cd ~/googlefontdirectory/almendra/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Almendra-Regular.menu; \
+#  $font.menu; \
+# done; 
 
 # cd ~/googlefontdirectory/almendra/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
