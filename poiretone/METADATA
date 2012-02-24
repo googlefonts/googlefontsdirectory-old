@@ -1,0 +1,53 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext,cyrillic+latin
+
+family: Poiret One
+
+designer: Denis Masharov
+
+approved: true
+description: <p>A fresh decorative geometric grotesque \
+  with a hint of Art Deco and constructivism. Poiret One \
+  is a unique typeface with light forms and pure elegance. \
+  Sleek and simple. Based on geometric forms, it has \
+  stylish lines and graceful curves. The font is applicable \
+  for large signs, labels, titles, headlines and any type \
+  of graphic design on the web, in motion graphics, or in \
+  print - from t-shirts to posters and logos.</p> \
+  <p>It is also well-suited for short texts and advertising \
+  where style is desired. Complete with a lower-case letters, \
+  the Poiret One is also useful for all-caps usage.</p> \
+  <p>To contribute to the project contact \
+  <a href="mailto:denis.masharov@gmail.com">Denis \
+  Masharov</a>.</p>
+
+font.Familyname-Regular.ttf.style: normal
+font.Familyname-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Familyname" \
+# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/familynamedir/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Familyname-Regular.menu; 
+
+# cd ~/googlefontdirectory/familynamedir/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in familynamedir; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext cyrillic+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/familynamedir/; \
