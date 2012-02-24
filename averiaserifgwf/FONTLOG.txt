@@ -1,9 +1,9 @@
 FONTLOG
-Avería Serif GWF font family
+Averia Serif GWF font family
 ========================
 
-This file provides detailed information on the Avería family of fonts. This
-information should be distributed along with the Avería fonts and any
+This file provides detailed information on the Averia Serif GWF family of fonts. This
+information should be distributed along with the Averia Serif GWF fonts and any
 derivative works.
 
 Basic Font Information
@@ -30,18 +30,18 @@ U+0370-U+03D5   Greek
 U+2000-U+2122   General Punctuation
 U+2200-U+25CS   Mathematical Operators
 
-Avería Serif GWF exists in Regular, Bold, Italic, Bold Italic, Light and
-Light Italic styles - as well as a "Gruesa" semi-italic variant made from
-an average of all 725 source fonts in a separate family.
+Averia Serif GWF exists in Regular, Bold, Italic, Bold Italic, Light and
+Light Italic styles - and there are also the Averia Gruesa GWF, Averia Sans GWF 
+and Averia Serif GWF families.
 
 Source Fonts
 ------------
 
-The Avería GWF families of fonts are based on the average of all fonts
+The Averia GWF families of fonts are based on the average of all fonts
 in the Google Web Fonts project, released under the SIL Open Font License,
-as of 9 Nov 2011. The Avería Serif GWF family is based on the subset of
+as of 9 Nov 2011. The Averia Serif GWF family is based on the subset of
 these fonts having serifs. The full list of source fonts averaged over the
-Avería GWF families is as follows:
+Averia GWF families is as follows:
 
 Abel-Regular, AbrilFatface-Regular, Actor-Regular, Adamina-Regular,
 Aldrich-Regular, Alice-Regular, Alike-Regular, AlikeAngular-Regular,
@@ -173,10 +173,10 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-Feb 24 2012 (Dave Crossland)  Avería Guesa GWF version 1.001
+Feb 24 2012 (Dave Crossland)  Averia Guesa GWF version 1.001
 - Minor metadata corrections for GWF release
 
-13 Nov 2011 (Dan Sayers) Avería Serif GWF version 1.00
+13 Nov 2011 (Dan Sayers) Averia Serif GWF version 1.00
 - First public release
 - Kerning is based on averaged kerning pairs from source fonts
 - Included glyphs are those available in over half the source fonts
