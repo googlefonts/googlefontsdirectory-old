@@ -1,7 +1,7 @@
 visibility: SANDBOX
 license: OFL
 category: serif
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Almendra
 
@@ -27,8 +27,11 @@ description: <p>Almendra is a typeface design based on \
 font.Almendra-Regular.ttf.style: normal
 font.Almendra-Regular.ttf.weight: 400
 
-font.Almendra-Regular.ttf.style: italic
-font.Almendra-Regular.ttf.weight: 400
+font.Almendra-Bold.ttf.style: normal
+font.Almendra-Bold.ttf.weight: 700
+
+font.Almendra-Italic.ttf.style: italic
+font.Almendra-Italic.ttf.weight: 400
 
 
 # cd ~/googlefontdirectory/almendra/; \
