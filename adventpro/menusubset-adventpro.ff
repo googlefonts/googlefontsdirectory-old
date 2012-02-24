@@ -1,0 +1,40 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "Advent Pro Εάεηικλν()", and also the ligatures needed
+# 
+# fontforge -lang=ff -script menusubset-adventpro.ff AdventPro-Regular.ttf;
+# mv AdventPro-Regular.{ttf.menu.ttf,menu};
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0u000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+
+SelectMore(0u0041) # A
+SelectMore(0u0050) # P
+SelectMore(0u0064) # d
+SelectMore(0u0065) # e
+SelectMore(0u006E) # n
+SelectMore(0u006F) # o
+SelectMore(0u0072) # r
+SelectMore(0u0074) # t
+
+SelectMore(0u0076) # v
+SelectMore(0u0045) # E
+SelectMore(0u0138) # kgreenlandic
+SelectMore(0u0384) # tonos
+SelectMore(0u0395) # Epsilon
+SelectMore(0u03B1) # alpha
+SelectMore(0u03AC) # alphatonos
+SelectMore(0u03B5) # epsilon
+SelectMore(0u03B7) # eta
+SelectMore(0u03B9) # iota
+SelectMore(0u03BA) # kappa
+SelectMore(0u03BB) # lambda
+SelectMore(0u03BD) # nu
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
