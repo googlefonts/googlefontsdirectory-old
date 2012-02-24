@@ -1,0 +1,71 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Economica
+
+designer: Vicente Lamónaca
+
+approved: true
+description: <p>Economica is the first digital \
+  typeface created in Montevideo, Uruguay, to be \
+  distributed internationally. The development of \
+  the typeface took most of 2007 and received the \
+  assistance of type design colleagues from all \
+  over Latin America.</p> \
+  <p>Economica has four basic styles: Regular, \
+  Bold, Italic and Bold Italic. It includes a \
+  comprehensive character set that lets you work \
+  with diverse European languages.</p> \
+  <p>This typeface family was designed for the \
+  output of inkjet printers. It was inspired by \
+  the concept of saving space in publishing texts \
+  without loss of height. This means it is a very \
+  condensed type.</p> \
+  <p>The visual advantage of Economica is that \
+  accomplishes this horizontal compression while \
+  keeping a strong personality. It is not a typical, \
+  neutral, sans serif. The open forms and tendency \
+  towards flattened curves allow it to be used in \
+  very small spaces while retaining high legibility.</p> \
+  <p>To contribute to the project contact \
+  Vicente Lamónaca produccion.taller@gmail.com</p>
+
+font.Economica-Regular.ttf.style: normal
+font.Economica-Bold.ttf.style: normal
+
+font.Economica-Italic.ttf.style: italic
+font.Economica-BoldItalic.ttf.style: italic
+
+font.Economica-Regular.ttf.weight: 400
+font.Economica-Bold.ttf.weight: 700
+
+font.Economica-Italic.ttf.weight: 400
+font.Economica-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Economica" \
+# ~/googlefontdirectory/economica/Economica-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/economica/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Economica-Regular.menu; 
+
+# cd ~/googlefontdirectory/economica/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in economica; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/economica/; 
