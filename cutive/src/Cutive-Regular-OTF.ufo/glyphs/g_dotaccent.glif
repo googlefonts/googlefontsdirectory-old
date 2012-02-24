@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gdotaccent" format="1">
+  <advance width="1988"/>
+  <unicode hex="0120"/>
+  <outline>
+    <component base="G"/>
+    <component base="dotaccent" xOffset="843.5" yOffset="1791"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-25</integer>
+	    <key>width</key>	    <integer>189</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>696</integer>
+	    <key>width</key>	    <integer>176</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1550</integer>
+	    <key>width</key>	    <integer>189</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1694</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1841</integer>
+	    <key>width</key>	    <integer>254</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>74</integer>
+	    <key>width</key>
+	    <integer>262</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>865</integer>
+	    <key>width</key>
+	    <integer>252</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>1350</integer>
+	    <key>width</key>
+	    <integer>559</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>1540</integer>
+	    <key>width</key>
+	    <integer>176</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>1575</integer>
+	    <key>width</key>
+	    <integer>176</integer>
+	  </dict>
+	</array>
+      </dict>
+    <key>com.typemytype.robofont.layerData</key>
+    </dict>
+  </lib>
+</glyph>
