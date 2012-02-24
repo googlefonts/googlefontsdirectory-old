@@ -23,22 +23,26 @@ description: <p>A fresh decorative geometric grotesque \
   <a href="mailto:denis.masharov@gmail.com">Denis \
   Masharov</a>.</p>
 
-font.Familyname-Regular.ttf.style: normal
-font.Familyname-Regular.ttf.weight: 400
+font.PoiretOne-Regular.ttf.style: normal
+font.PoiretOne-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Familyname" \
-# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/familynamedir/; \
+#  --chars="Poiret One" \
+# ~/googlefontdirectory/poiretone/PoiretOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/poiretone/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Familyname-Regular.menu; 
+#  PoiretOne-Regular.menu; 
 
-# cd ~/googlefontdirectory/familynamedir/; \
+# fontforge -lang=ff -script menusubset-poiretone.ff PoiretOne-Regular.ttf; \
+# mv PoiretOne-Regular.{ttf.menu.ttf,menu};
+
+
+# cd ~/googlefontdirectory/poiretone/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in familynamedir; do \
+# for family in poiretone; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext cyrillic+latin; do \
@@ -50,4 +54,4 @@ font.Familyname-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/familynamedir/; \
+# cd ~/googlefontdirectory/poiretone/; \
