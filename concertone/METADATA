@@ -1,20 +1,19 @@
 visibility: SANDBOX
 license: OFL
 category: display
-subsets: menu,latin
+subsets: menu,latin,latin-ext
 
 family: Concert One
 
 designer: Multiple Designers
 
 approved: true
-description: <p>Concert One is a new rounded grotesque \
-  display type by \
-  Mihkel Virkus and Johan Kallas. It is inspired by a mid \
-  19th century 3D lettering found on an elaborate and \
-  well set chamber concert poster. The original had \
-  a shadow effect, and the letterforms \
-  also work well without this.</p>
+description: <p>Concert One is a rounded grotesque typeface \
+  inspired by 19th century 3D lettering from a leaflet \
+  announcing a chamber concert.</p> \
+  <p>To contribute to the project contact \
+  <a href="mailto:johankallas@gmail.com">Johan Kallas</a> or \
+  <a href="mailto:mihkelvirkus@gmail.com">Mihkel Virkus</a>.</p>
 
 font.ConcertOne-Regular.ttf.style: normal
 font.ConcertOne-Regular.ttf.weight: 400
@@ -26,7 +25,7 @@ font.ConcertOne-Regular.ttf.weight: 400
 # ~/googlefontdirectory/concertone/ConcertOne-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/concertone/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  ConcertOne-Regular.menu; \
+#  ConcertOne-Regular.menu; 
 
 # cd ~/googlefontdirectory/concertone/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
@@ -44,4 +43,3 @@ font.ConcertOne-Regular.ttf.weight: 400
 #    done; \
 # done; \
 # cd ~/googlefontdirectory/concertone/; \
-
