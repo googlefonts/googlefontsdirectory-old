@@ -1,0 +1,53 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Averia Serif GWF
+
+designer: Dan Sayers
+
+approved: true
+description: <p>English description</p>
+
+font.AveriaSerifGWF-Light.ttf.style: normal
+font.AveriaSerifGWF-Regular.ttf.style: normal
+font.AveriaSerifGWF-Bold.ttf.style: normal
+
+font.AveriaSerifGWF-LightItalic.ttf.style: italic
+font.AveriaSerifGWF-Italic.ttf.style: italic
+font.AveriaSerifGWF-BoldItalic.ttf.style: italic
+
+font.AveriaSerifGWF-Light.ttf.weight: 300
+font.AveriaSerifGWF-Regular.ttf.weight: 400
+font.AveriaSerifGWF-Bold.ttf.weight: 700
+
+font.AveriaSerifGWF-LightItalic.ttf.weight: 300
+font.AveriaSerifGWF-Italic.ttf.weight: 400
+font.AveriaSerifGWF-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Averia Serif GWF" \
+# ~/googlefontdirectory/averiaserifgwf/AveriaSerifGWF-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/averiaserifgwf/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  AveriaSerifGWF-Regular.menu; 
+
+# cd ~/googlefontdirectory/averiaserifgwf/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in averiaserifgwf; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/averiaserifgwf/; \
