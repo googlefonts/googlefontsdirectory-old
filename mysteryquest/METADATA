@@ -1,0 +1,48 @@
+visibility: SANDBOX
+license: OFL
+category: display
+subsets: menu,latin,latin-ext
+
+family: Mystery Quest
+
+designer: Sideshow
+
+approved: true
+description: <p>Grab your gear! Check \
+  your nerves! Get ready for \
+  Mystery Quest! This far-out funky font brings danger \
+  with every curve! You never know what this playful \
+  1960s mod inspired typeface will bring and design \
+  adventure is just around the corner! Are you ready?</p> \
+  <p>Designed by Dave 'Squid' Cohen of Sideshow (a DBA of \
+  Font Diner, Inc.) To contribute to the project, \
+  contact the <a href="mailto:support@fontdiner.com">Font Diner</a>.</p>
+
+font.MysteryQuest-Regular.ttf.style: normal
+font.MysteryQuest-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="MysteryQuest" \
+# ~/googlefontdirectory/mysteryquest/MysteryQuest-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/mysteryquest/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MysteryQuest-Regular.menu; 
+
+# cd ~/googlefontdirectory/mysteryquest/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in mysteryquest; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/mysteryquest/; \
