@@ -3,7 +3,7 @@ license: OFL
 category: sans-serif
 subsets: menu,latin,latin-ext
 
-family: Potano Sans
+family: Pontano Sans
 
 designer: Vernon Adams
 
@@ -16,22 +16,22 @@ description: <p>Pontano Sans is a minimalist and \
   by web browsers on desktop computers, laptops \
   and mobile devices.</p>
 
-font.PotanoSans-Regular.ttf.style: normal
-font.PotanoSans-Regular.ttf.weight: 400
+font.PontanoSans-Regular.ttf.style: normal
+font.PontanoSans-Regular.ttf.weight: 400
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Potano Sans" \
-# ~/googlefontdirectory/potanosans/PotanoSans-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/potanosans/; \
+#  --chars="Pontano Sans" \
+# ~/googlefontdirectory/pontanosans/PontanoSans-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/pontanosans/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  PotanoSans-Regular.menu; 
+#  PontanoSans-Regular.menu; 
 
-# cd ~/googlefontdirectory/potanosans/; \
+# cd ~/googlefontdirectory/pontanosans/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in potanosans; do \
+# for family in pontanosans; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -43,4 +43,4 @@ font.PotanoSans-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/potanosans/; \
+# cd ~/googlefontdirectory/pontanosans/; \
