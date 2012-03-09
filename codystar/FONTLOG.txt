@@ -12,27 +12,29 @@ As you stroll down Manhattan streets and through
 Times Square, look all around you at the sizzling 
 lights! Sparkling. Brilliant. Codystar.
 
-Designed by Crystal Kluge of Neapolitan (a DBA of 
-Font Diner, Inc)
+Designed by Crystal Kluge of Neapolitan (a DBA of Font Diner, Inc)
 
 Codystar is a Unicode typeface family that supports 
-languages that use the Latin script and its variants, 
-and  could be expanded to support other scripts.
+languages that use the Latin script and its variants, and 
+could be expanded to support other scripts.
 
-More specifically, this release supports the 
-following Unicode ranges: Latin-1
+More specifically, this release supports the following Unicode
+ranges: Latin-1
 
 To contribute to the project contact the Font Diner at 
 support@fontdiner.com
 
-There is one .vfb Source file:
+There are two .vfb Source files:
 
 1. Codystar-Regular-TTF.vfb TrueType outlines with hinting 
    adjustments corresponding to the TTF file
 
+2. Codystar-Light-TTF.vfb TrueType outlines with hinting 
+   adjustments corresponding to the TTF file
+
 ChangeLog
 
-20 February. (v1.0) (Font Diner)
+09 March (v1.0) (Font Diner)
 - Initial Font Release
 
 If you make modifications be sure to add your name (N), 
