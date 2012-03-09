@@ -93,9 +93,7 @@ for newdir in `hg st | grep "?" | cut -d" " -f2 | cut -d/ -f1 | sort | uniq`; do
 
 # Make up push spreadsheet, prepare tweets:
 
-for url in `cat ~/tmp-1-urls.txt`; do echo curl https://www.googleapis.com/urlshortener/v1/url -H \'Content-Type: application/json\' -d \'{\"longUrl\": \"$url\"}\' >> tmp-2-shorturls.txt; done 
-  
-
+for url in `cat ~/tmp-1-urls.txt`; do echo curl https://www.googleapis.com/urlshortener/v1/url -H \'Content-Type: application/json\' -d \'{\"longUrl\": \"$url\"}\' >> tmp-2-shorturls.txt; done; bash tmp-2-shorturls.txt >> tmp-3-api.txt; grep goo.gl tmp-3-api.txt | cut -d\" -f4 >> tmp-4-shorturls.txt; smultron tmp-1-urls.txt tmp-4-shorturls.txt;
 
 # compact
 
