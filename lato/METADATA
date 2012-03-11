@@ -65,10 +65,6 @@ font.Lato-BoldItalic.ttf.weight: 700
 font.Lato-Black.ttf.weight: 900
 font.Lato-BlackItalic.ttf.weight: 900
 
-description.de: <p>Lato ist ein serifenlose Schriftfamilie, die im Sommer 2010 vom Warschauer Designer Łukasz Dziedzic entworfen wurde (der Sommer heißt auf Polnisch „Lato“). Im Dezember 2010 veröffentlichte sein Studio tyPoland, mit Unterstützung von Google, die Lato-Familie unter der OpenSource-OFL-Lizenz.</p><p>In den letzten zehn Jahren, in den Łukasz Schriften entwarf, sind seine meisten Projekte auf Basis von einer existierenden Designaufgabe entstandnen. Mit Lato war es nicht anders. Ursprünglich war die Familie als eine Corporate-Schrift für einen großen Kunden konzipiert. Dieser entschied sich am Ende, eine andere Stilrichtung zu verfolgen — somit stand die Familie für eine breite Veröffentlichung zur Verfügung.</p><p>Bei der Arbeit an Lato versuchte Łukasz, einige potentiell gegenläufige Prioritäten sorgfältig abzuwägen. Er wollte eine Schrift gestalten, die einerseits ziemlich „durchsichtig“ im Fließtext wirken würde, in Displaygrößen sollte sie aber einige originelle Züge aufweisen. Durch klassische Proportionen (besonders sichtbar in den Großbuchstaben) verlieh er der Schrift Harmonie und Eleganz. Zugleich schuf er schlichte serifenlose Formen, durch die offensichtlich wird, dass die Schrift im Jahre 2010 entstand — obwohl sie keinem aktuellen Trend folgt.</p><p>Die halbrunden Details verleihen der Lato ein Wärmegefühl während die starke Struktur für Stabilität und Seriosität sorgt. „Männlich und weiblich, ernst aber freundlich. Mit dem Gefühl des Sommers“ — sagt Łukasz.</p><p>Lato besteht aus fünf Strichstärken, plus Kursiven, darunter ein schöner ultradünner Schnitt. Die Erstauflage enthält lediglich den Westeuropa-Zeichensatz. Das paneuropäische Lateinalphabet, das Kyrillische, das Griechische, sowie Kapitälchen und andere typografische Feinheiten sollen 2011 folgen.</p>
-
-
-
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
@@ -77,3 +73,14 @@ description.de: <p>Lato ist ein serifenlose Schriftfamilie, die im Sommer 2010 v
 # cd ~/googlefontdirectory/lato/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  Lato-Regular.menu; \
+
+# mv Lato-Hai.ttf Lato-Hairline.ttf 
+# mv Lato-HaiIta.ttf Lato-HairlineItalic.ttf 
+# mv Lato-Lig.ttf Lato-Light.ttf 
+# mv Lato-LigIta.ttf Lato-LightItalic.ttf 
+# mv Lato-Reg.ttf Lato-Regular.ttf 
+# mv Lato-RegIta.ttf Lato-Italic.ttf
+# mv Lato-Bol.ttf Lato-Bold.ttf 
+# mv Lato-BolIta.ttf Lato-BoldItalic.ttf 
+# mv Lato-Bla.ttf Lato-Black.ttf 
+# mv Lato-BlaIta.ttf Lato-BlackItalic.ttf 

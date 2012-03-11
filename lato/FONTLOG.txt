@@ -3,7 +3,7 @@ Lato font family
 
 ================
 
-Version 1.102; Western+Polish opensource
+Version 1.104; Western+Polish opensource
 
 Created by: tyPoland Lukasz Dziedzic
 Creation year: 2011
@@ -30,6 +30,11 @@ Lato consists of five weights (plus corresponding italics), including a beautifu
 ================
 
 REVISION LOG:
+
+# Version 1.104 (2011-11-08)
+Merged the distribution again
+Autohinted with updated ttfautohint 0.4 (which no longer causes Adobe and iOS problems) 
+except the Hai and Lig weights which are hinted in FLS 5.1.
 
 # Version 1.102 (2011-10-28)
 Added OpenType Layout features
