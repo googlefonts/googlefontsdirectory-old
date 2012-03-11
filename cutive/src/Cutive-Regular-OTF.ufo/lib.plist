@@ -107,9 +107,9 @@
 	<key>com.typemytype.robofont.compileSettings.decompose</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>
-	<string>/Users/vern/GitHub/CutiveFont/src/CutiveRF.ttf</string>
+	<string>/Users/vern/GitHub/CutiveFont/src/CutiveFF.otf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
@@ -1000,7 +1000,6 @@
 		<string>fl</string>
 		<string>ffi</string>
 		<string>ffl</string>
-		<string>uni021B.add_1</string>
 		<string>mu</string>
 		<string>uni01C5</string>
 		<string>uni01F2</string>
