@@ -54,10 +54,25 @@ description: <p>Playfair is a transitional design. \
   of eight arrow devices are also included←.</p>
 
 font.PlayfairDisplay-Regular.ttf.style: normal
-font.PlayfairDisplay-Italic.ttf.style: italic
+font.PlayfairDisplay-SemiBold.ttf.style: normal
+font.PlayfairDisplay-Bold.ttf.style: normal
+font.PlayfairDisplay-Black.ttf.style: normal
 
+font.PlayfairDisplay-Italic.ttf.style: italic
+font.PlayfairDisplay-SemiBoldItalic.ttf.style: italic
+font.PlayfairDisplay-BoldItalic.ttf.style: italic
+font.PlayfairDisplay-BlackItalic.ttf.style: italic
+
+# 2010-11-03 DC This needs more checking/refining
 font.PlayfairDisplay-Regular.ttf.weight: 400
+font.PlayfairDisplay-SemiBold.ttf.weight: 600
+font.PlayfairDisplay-Bold.ttf.weight: 700
+font.PlayfairDisplay-Black.ttf.weight: 900
+
 font.PlayfairDisplay-Italic.ttf.weight: 400
+font.PlayfairDisplay-SemiBoldItalic.ttf.weight: 600
+font.PlayfairDisplay-BoldItalic.ttf.weight: 700
+font.PlayfairDisplay-BlackItalic.ttf.weight: 900
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
