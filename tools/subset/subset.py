@@ -1,6 +1,6 @@
 #!/usr/bin/python
-
-# Copyright 2010, Google Inc.
+#
+# Copyright 2010-2012, Google Inc.
 # Author: Raph Levien (<firstname.lastname>@gmail.com)
 # Author: Dave Crossland (dave@understandinglimited.com)
 #
@@ -16,6 +16,8 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
+# Version 1.01 Released 2012-03-27
+#
 # A script for subsetting a font, using FontForge. See README for details.
 
 import fontforge
@@ -24,17 +26,19 @@ import getopt
 import os
 import struct
 
+def log_namelist(nam, unicode):
+    if nam and isinstance(unicode, int):
+        print >> nam, "0x%0.4X" % unicode, fontforge.nameFromUnicode(unicode)
+
 def select_with_refs(font, unicode, newfont, pe = None, nam = None):
     newfont.selection.select(('more', 'unicode'), unicode)
-    if nam:
-        print >> nam, "0x%0.4X" % unicode, fontforge.nameFromUnicode(unicode)
+    log_namelist(nam, unicode)
     if pe:
         print >> pe, "SelectMore(%d)" % unicode
     try:
         for ref in font[unicode].references:
             newfont.selection.select(('more',), ref[0])
-            if nam:
-                print >> nam, "0x%0.4X" % ref[0], fontforge.nameFromUnicode(ref[0])
+            log_namelist(nam, ref[0])
             if pe:
                 print >> pe, 'SelectMore("%s")' % ref[0]
     except:
