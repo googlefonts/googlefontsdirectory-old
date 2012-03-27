@@ -1,0 +1,26 @@
+visibility: INTERNAL
+
+
+license: OFL
+
+category: sans-serif
+subsets: menu,latin
+
+family: Terminal Dosis Light
+
+designer: Multiple Designers
+
+profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+approved: true
+description: <p>Dosis Light is the initial style that \
+  has become the Dosis family.</p>
+
+font.DosisLight-Regular.ttf.weight: normal
+
+# cd ~/src/font-optimizer/; 
+# ./subset.pl -v \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Dosis Light" \
+# ~/googlefontdirectory/dosislight/DosisLight-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/dosislight; 
