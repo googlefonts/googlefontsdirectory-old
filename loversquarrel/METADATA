@@ -24,15 +24,15 @@ font.LoversQuarrel-Regular.ttf.weight: 400
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Lovers Quarrel" \
-# ~/googlefontdirectory/familynamedir/LoversQuarrel-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/familynamedir/; \
+# ~/googlefontdirectory/loversquarrel/LoversQuarrel-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/loversquarrel/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  LoversQuarrel-Regular.menu; 
 
-# cd ~/googlefontdirectory/familynamedir/; \
+# cd ~/googlefontdirectory/loversquarrel/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
-# for family in familynamedir; do \
+# for family in loversquarrel; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
@@ -44,4 +44,4 @@ font.LoversQuarrel-Regular.ttf.weight: 400
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory/familynamedir/; \
+# cd ~/googlefontdirectory/loversquarrel/; \
