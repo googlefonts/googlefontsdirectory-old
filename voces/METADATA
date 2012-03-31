@@ -1,4 +1,6 @@
-visibility: SANDBOX
+# NOTE THAT THIS FONT HAS IPA CHARS IN THE LATIN-EXT SUBSET THAT ARE
+# NON-STANDARD FOR THE latin-ext RANGE
+
 license: OFL
 category: display
 subsets: menu,latin,latin-ext
