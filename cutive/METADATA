@@ -8,14 +8,20 @@ family: Cutive
 designer: Vernon Adams
 
 approved: true
-description: <p>The design of Cutive is based on a number of \
-  classic typewriter typefaces, in particular the faces of IBM's \
-  'Executive', and the older 'Smith-Premier'.  In Cutive \
-  these old faces re-emerge as a webfont that is useful \
-  for adding character to body texts as well as in \
-  larger sizes for headlines and other display uses.</p> \
+description: <p>The design of Cutive is based on a \
+  number of classic typewriter typefaces, in \
+  particular the faces of IBM's 'Executive,' and \
+  the older 'Smith-Premier.'  In Cutive these old \
+  faces re-emerge as a webfont that is useful for \
+  adding character to body texts as well as using \
+  in larger sizes for headers and display.</p> \
+  <p>Cutive is a Unicode typeface family that \
+  supports languages that use the Latin script \
+  and its variants, and could be expanded to \
+  support other scripts.</p> \
   <p>To contribute to the project see \
-  <a href="https://github.com/vernnobile/CutiveFont/tree/master/src">Cutive on GitHub</a>.</p>
+  <a href="https://github.com/vernnobile/CutiveFont/tree/master/src">Cutive \
+  on GitHub</a>.</p>
 
 font.Cutive-Regular.ttf.style: normal
 font.Cutive-Regular.ttf.weight: 400
@@ -30,16 +36,16 @@ font.Cutive-Regular.ttf.weight: 400
 #  Cutive-Regular.menu; 
 
 # cd ~/googlefontdirectory/cutive/; \
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
 # cd ~/googlefontdirectory/; \
 # for family in cutive; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
 #            latin latin-ext; do \
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#            echo subset.py --null --nmr --roundtrip --script \
 #                --subset=$subset $font.ttf $font.$subset; \
 #            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
+#                --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log; \
 #        done; \
 #    done; \

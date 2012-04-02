@@ -10,7 +10,7 @@ Basic Font Information
 
 The design of Cutive is based on a number of classic 
 typewriter typefaces, in particular the faces of IBM's 
-'Executive', and the older 'Smith-Premier'.  In Cutive 
+'Executive,' and the older 'Smith-Premier.'  In Cutive 
 these old faces re-emerge as a webfont that is useful 
 for adding character to body texts as well as in 
 larger sizes for headlines and other display uses.
@@ -22,13 +22,20 @@ expanded to support other scripts.
 More specifically, this release supports the following 
 Unicode ranges: Latin-1
 
-To contribute to the project see Cutive on GitHub
-https://github.com/vernnobile/CutiveFont/tree/master/src
+The source files are available at:
+
+     https://github.com/vernnobile/Cutive
+
+To contribute to the project contact Vernon Adams
+at vern@newtypography.co.uk
 
 ChangeLog
 
+27th March 2012 (Vernon Adams) Cutive v1.003
+- Minor updates
+
 11 Mar 2012 (Vernon Adams) Cutive v1.002
-- Update
+- Minor updates
 
 24 Feb 2012 (Vernon Adams) Cutive v1.001
 - Initial release
@@ -41,5 +48,5 @@ description (D). This list is in alphabetical order.
 
 N: Vernon Adams
 E: vern@newtypography.co.uk
-W: www.newtypography.co.uk
+W: http://code.newtypography.co.uk
 D: Original Type Designer
