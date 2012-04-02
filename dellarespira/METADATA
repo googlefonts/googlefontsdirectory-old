@@ -1,0 +1,48 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Della Respira
+
+designer: Nathan Willis
+
+approved: true
+description: <p>Della Respira a revival of the \
+  Della Robbia typeface by American Type Founders (ATF).</p> \
+  <p>Della Respira is a Unicode typeface family that \
+  supports languages that use the Latin script and its \
+  variants, and could be expanded to support other scripts.</p> \
+  <p>To contribute to the project contact \
+  <a href="mailto:nwillis@glyphography.com">Nathan \
+  Willis</a> and see the source files on \
+  <a href="https://launchpad.net/revivalism-fonts/">Launchpad</a>.</p>
+
+font.DellaRespira-Regular.ttf.style: normal
+font.DellaRespira-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Della Respira" \
+# ~/googlefontdirectory/dellarespira/DellaRespira-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/dellarespira/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  DellaRespira-Regular.menu; 
+
+# cd ~/googlefontdirectory/dellarespira/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in dellarespira; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/dellarespira/; \
