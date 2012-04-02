@@ -1,7 +1,7 @@
 visibility: SANDBOX
 license: OFL
-category: display
-subsets: menu,latin
+category: serif
+subsets: menu,latin,latin-ext
 
 family: Simonetta
 
@@ -32,6 +32,12 @@ font.Simonetta-Regular.ttf.weight: 400
 
 font.Simonetta-Italic.ttf.style: italic
 font.Simonetta-Italic.ttf.weight: 400
+
+font.Simonetta-Black.ttf.style: normal
+font.Simonetta-Black.ttf.weight: 900
+
+font.Simonetta-BlackItalic.ttf.style: italic
+font.Simonetta-BlackItalic.ttf.weight: 900
 
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
