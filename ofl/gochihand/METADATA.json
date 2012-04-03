@@ -1,0 +1,21 @@
+{
+  "name": "Gochi Hand",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24848,
+  "fonts": [
+    {
+      "name": "Gochi Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GochiHand-Regular.ttf",
+      "postScriptName": "GochiHand-Regular",
+      "fullName": "Gochi Hand"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

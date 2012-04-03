@@ -1,0 +1,50 @@
+{
+  "name": "Anonymous Pro",
+  "designer": "Mark Simonson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 71287,
+  "fonts": [
+    {
+      "name": "Anonymous Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AnonymousPro-Regular.ttf",
+      "postScriptName": "AnonymousPro",
+      "fullName": "Anonymous Pro"
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AnonymousPro-Italic.ttf",
+      "postScriptName": "AnonymousPro-Italic",
+      "fullName": "Anonymous Pro Italic"
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AnonymousPro-Bold.ttf",
+      "postScriptName": "AnonymousPro-Bold",
+      "fullName": "Anonymous Pro Bold"
+    },
+    {
+      "name": "Anonymous Pro",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AnonymousPro-BoldItalic.ttf",
+      "postScriptName": "AnonymousPro-BoldItalic",
+      "fullName": "Anonymous Pro Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin"
+  ]
+}

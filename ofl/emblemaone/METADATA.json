@@ -1,0 +1,22 @@
+{
+  "name": "Emblema One",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 28852,
+  "fonts": [
+    {
+      "name": "Emblema One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EmblemaOne-Regular.ttf",
+      "postScriptName": "EmblemaOne-Regular",
+      "fullName": "Emblema One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

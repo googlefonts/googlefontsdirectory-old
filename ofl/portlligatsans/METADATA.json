@@ -1,0 +1,21 @@
+{
+  "name": "Port Lligat Sans",
+  "designer": "Tipo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 18104,
+  "fonts": [
+    {
+      "name": "Port Lligat Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PortLligatSans-Regular.ttf",
+      "postScriptName": "PortLligatSans-Regular",
+      "fullName": "Port Lligat Sans"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

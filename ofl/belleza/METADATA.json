@@ -1,0 +1,22 @@
+{
+  "name": "Belleza",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 16085,
+  "fonts": [
+    {
+      "name": "Belleza",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Belleza-Regular.ttf",
+      "postScriptName": "Belleza-Regular",
+      "fullName": "Belleza"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

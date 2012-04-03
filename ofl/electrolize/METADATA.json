@@ -1,0 +1,21 @@
+{
+  "name": "Electrolize",
+  "designer": "Gaslight",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 24536,
+  "fonts": [
+    {
+      "name": "Electrolize",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Electrolize-Regular.ttf",
+      "postScriptName": "Electrolize-Regular",
+      "fullName": "Electrolize"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

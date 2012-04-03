@@ -1,0 +1,21 @@
+{
+  "name": "Fredoka One",
+  "designer": "Milena Brandao",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21866,
+  "fonts": [
+    {
+      "name": "Fredoka One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FredokaOne-Regular.ttf",
+      "postScriptName": "FredokaOne-Regular",
+      "fullName": "Fredoka One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

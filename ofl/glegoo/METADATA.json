@@ -1,0 +1,22 @@
+{
+  "name": "Glegoo",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15296,
+  "fonts": [
+    {
+      "name": "Glegoo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Glegoo-Regular.ttf",
+      "postScriptName": "Glegoo-Regular",
+      "fullName": "Glegoo"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

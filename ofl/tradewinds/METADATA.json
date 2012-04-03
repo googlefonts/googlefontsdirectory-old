@@ -1,0 +1,21 @@
+{
+  "name": "Trade Winds",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 47446,
+  "fonts": [
+    {
+      "name": "Trade Winds",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TradeWinds-Regular.ttf",
+      "postScriptName": "TradeWinds",
+      "fullName": "Trade Winds"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Wellfleet",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34556,
+  "fonts": [
+    {
+      "name": "Wellfleet",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Wellfleet-Regular.ttf",
+      "postScriptName": "Wellfleet-Regular",
+      "fullName": "Wellfleet"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

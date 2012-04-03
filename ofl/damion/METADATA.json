@@ -1,0 +1,21 @@
+{
+  "name": "Damion",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30578,
+  "fonts": [
+    {
+      "name": "Damion",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Damion-Regular.ttf",
+      "postScriptName": "Damion",
+      "fullName": "Damion"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

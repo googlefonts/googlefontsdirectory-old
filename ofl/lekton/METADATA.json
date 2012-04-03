@@ -1,0 +1,37 @@
+{
+  "name": "Lekton",
+  "designer": "multiple designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 48685,
+  "fonts": [
+    {
+      "name": "Lekton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lekton-Regular.ttf",
+      "postScriptName": "Lekton-Regular",
+      "fullName": "Lekton"
+    },
+    {
+      "name": "Lekton",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Lekton-Italic.ttf",
+      "postScriptName": "Lekton-Italic",
+      "fullName": "Lekton-Italic"
+    },
+    {
+      "name": "Lekton",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Lekton-Bold.ttf",
+      "postScriptName": "Lekton-Bold",
+      "fullName": "Lekton-Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

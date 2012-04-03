@@ -1,0 +1,22 @@
+{
+  "name": "Sonsie One",
+  "designer": "Riccardo De Franceschi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35123,
+  "fonts": [
+    {
+      "name": "Sonsie One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SonsieOne-Regular.ttf",
+      "postScriptName": "SonsieOne-Regular",
+      "fullName": "Sonsie One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

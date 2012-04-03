@@ -1,0 +1,46 @@
+{
+  "name": "Quattrocento Sans",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 39176,
+  "fonts": [
+    {
+      "name": "Quattrocento Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "QuattrocentoSans-Regular.ttf",
+      "postScriptName": "QuattrocentoSans",
+      "fullName": "Quattrocento Sans"
+    },
+    {
+      "name": "Quattrocento Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "QuattrocentoSans-Italic.ttf",
+      "postScriptName": "QuattrocentoSans-Italic",
+      "fullName": "Quattrocento Sans Italic"
+    },
+    {
+      "name": "Quattrocento Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "QuattrocentoSans-Bold.ttf",
+      "postScriptName": "QuattrocentoSans-Bold",
+      "fullName": "Quattrocento Sans Bold"
+    },
+    {
+      "name": "Quattrocento Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "QuattrocentoSans-BoldItalic.ttf",
+      "postScriptName": "QuattrocentoSans-BoldItalic",
+      "fullName": "Quattrocento Sans Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

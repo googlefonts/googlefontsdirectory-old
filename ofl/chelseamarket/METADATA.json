@@ -1,0 +1,22 @@
+{
+  "name": "Chelsea Market",
+  "designer": "Tart Workshop",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 82147,
+  "fonts": [
+    {
+      "name": "Chelsea Market",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ChelseaMarket-Regular.ttf",
+      "postScriptName": "ChelseaMarket-Regular",
+      "fullName": "Chelsea Market"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

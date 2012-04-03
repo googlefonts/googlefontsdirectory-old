@@ -1,0 +1,29 @@
+{
+  "name": "Poly",
+  "designer": "Nicolás Silva",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 33294,
+  "fonts": [
+    {
+      "name": "Poly",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Poly-Regular.ttf",
+      "postScriptName": "Poly-Regular",
+      "fullName": "Poly-Regular"
+    },
+    {
+      "name": "Poly",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Poly-Italic.ttf",
+      "postScriptName": "Poly-Italic",
+      "fullName": "Poly-Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

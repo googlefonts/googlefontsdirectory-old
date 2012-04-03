@@ -1,0 +1,21 @@
+{
+  "name": "Nova Square",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 36395,
+  "fonts": [
+    {
+      "name": "Nova Square",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaSquare.ttf",
+      "postScriptName": "NovaSquare",
+      "fullName": "Nova Square"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Fanwood Text",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 63489,
+  "fonts": [
+    {
+      "name": "Fanwood Text",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FanwoodText-Regular.ttf",
+      "postScriptName": "FanwoodText-Regular",
+      "fullName": "Fanwood Text"
+    },
+    {
+      "name": "Fanwood Text",
+      "style": "italic",
+      "weight": 400,
+      "filename": "FanwoodText-Italic.ttf",
+      "postScriptName": "FanwoodText-Italic",
+      "fullName": "Fanwood Text Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

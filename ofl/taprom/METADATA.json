@@ -1,0 +1,21 @@
+{
+  "name": "Taprom",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 67537,
+  "fonts": [
+    {
+      "name": "Taprom",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Taprom.ttf",
+      "postScriptName": "Taprom",
+      "fullName": "Taprom"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Cabin",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 85829,
+  "fonts": [
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cabin-Regular.ttf",
+      "postScriptName": "Cabin-Regular",
+      "fullName": "Cabin Regular"
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cabin-Italic.ttf",
+      "postScriptName": "Cabin-Italic",
+      "fullName": "Cabin Italic"
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Cabin-Medium.ttf",
+      "postScriptName": "Cabin-Medium",
+      "fullName": "Cabin Medium"
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Cabin-MediumItalic.ttf",
+      "postScriptName": "Cabin-MediumItalic",
+      "fullName": "Cabin Medium Italic"
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Cabin-SemiBold.ttf",
+      "postScriptName": "Cabin-SemiBold",
+      "fullName": "Cabin SemiBold"
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 600,
+      "filename": "Cabin-SemiBoldItalic.ttf",
+      "postScriptName": "Cabin-SemiBoldItalic",
+      "fullName": "Cabin SemiBold Italic"
+    },
+    {
+      "name": "Cabin",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cabin-Bold.ttf",
+      "postScriptName": "Cabin-Bold",
+      "fullName": "Cabin Bold"
+    },
+    {
+      "name": "Cabin",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Cabin-BoldItalic.ttf",
+      "postScriptName": "Cabin-BoldItalic",
+      "fullName": "Cabin Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

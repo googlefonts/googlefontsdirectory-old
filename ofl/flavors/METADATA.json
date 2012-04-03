@@ -1,0 +1,21 @@
+{
+  "name": "Flavors",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 95171,
+  "fonts": [
+    {
+      "name": "Flavors",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Flavors-Regular.ttf",
+      "postScriptName": "Flavors-Regular",
+      "fullName": "Flavors"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

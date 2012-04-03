@@ -1,0 +1,21 @@
+{
+  "name": "Brawler",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 55409,
+  "fonts": [
+    {
+      "name": "Brawler",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Brawler-Regular.ttf",
+      "postScriptName": "Brawler",
+      "fullName": "Brawler"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

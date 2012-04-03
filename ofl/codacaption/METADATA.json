@@ -1,0 +1,21 @@
+{
+  "name": "Coda Caption",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 45481,
+  "fonts": [
+    {
+      "name": "Coda Caption",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Coda-Caption-Heavy.ttf",
+      "postScriptName": "Coda-Heavy",
+      "fullName": "Coda Heavy"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

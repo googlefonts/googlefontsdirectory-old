@@ -1,0 +1,22 @@
+{
+  "name": "Seaweed Script",
+  "designer": "Neapolitan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 58115,
+  "fonts": [
+    {
+      "name": "Seaweed Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SeaweedScript-Regular.ttf",
+      "postScriptName": "SeaweedScript-Regular",
+      "fullName": "Seaweed Script"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

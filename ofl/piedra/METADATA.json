@@ -1,0 +1,22 @@
+{
+  "name": "Piedra",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 36358,
+  "fonts": [
+    {
+      "name": "Piedra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Piedra-Regular.ttf",
+      "postScriptName": "Piedra-Regular",
+      "fullName": "Piedra Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

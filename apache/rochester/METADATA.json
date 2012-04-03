@@ -1,0 +1,21 @@
+{
+  "name": "Rochester",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24135,
+  "fonts": [
+    {
+      "name": "Rochester",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rochester-Regular.ttf",
+      "postScriptName": "Rochester-Regular",
+      "fullName": "Rochester"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

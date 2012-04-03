@@ -1,0 +1,37 @@
+{
+  "name": "Old Standard TT",
+  "designer": "Alexey Kryukov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 32103,
+  "fonts": [
+    {
+      "name": "Old Standard TT",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OldStandard-Regular.ttf",
+      "postScriptName": "OldStandardTT-Regular",
+      "fullName": "Old Standard TT Regular"
+    },
+    {
+      "name": "Old Standard TT",
+      "style": "italic",
+      "weight": 400,
+      "filename": "OldStandard-Italic.ttf",
+      "postScriptName": "OldStandardTT-Italic",
+      "fullName": "Old Standard TT Italic"
+    },
+    {
+      "name": "Old Standard TT",
+      "style": "normal",
+      "weight": 700,
+      "filename": "OldStandard-Bold.ttf",
+      "postScriptName": "OldStandardTT-Bold",
+      "fullName": "Old Standard TT Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

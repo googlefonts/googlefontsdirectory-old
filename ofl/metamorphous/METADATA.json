@@ -1,0 +1,22 @@
+{
+  "name": "Metamorphous",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27161,
+  "fonts": [
+    {
+      "name": "Metamorphous",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Metamorphous-Regular.ttf",
+      "postScriptName": "Metamorphous",
+      "fullName": "Metamorphous"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

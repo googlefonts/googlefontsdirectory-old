@@ -1,0 +1,22 @@
+{
+  "name": "Chango",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 20879,
+  "fonts": [
+    {
+      "name": "Chango",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chango-Regular.ttf",
+      "postScriptName": "Chango-Regular",
+      "fullName": "Chango Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

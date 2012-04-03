@@ -1,0 +1,22 @@
+{
+  "name": "Felipa",
+  "designer": "Fontstage",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 21605,
+  "fonts": [
+    {
+      "name": "Felipa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Felipa-Regular.ttf",
+      "postScriptName": "Felipa-Regular",
+      "fullName": "Felipa"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

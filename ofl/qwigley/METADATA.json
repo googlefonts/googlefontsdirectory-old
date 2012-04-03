@@ -1,0 +1,22 @@
+{
+  "name": "Qwigley",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22365,
+  "fonts": [
+    {
+      "name": "Qwigley",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Qwigley-Regular.ttf",
+      "postScriptName": "Qwigley-Regular",
+      "fullName": "Qwigley"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

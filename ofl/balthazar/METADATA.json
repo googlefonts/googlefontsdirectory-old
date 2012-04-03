@@ -1,0 +1,21 @@
+{
+  "name": "Balthazar",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15754,
+  "fonts": [
+    {
+      "name": "Balthazar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Balthazar-Regular.ttf",
+      "postScriptName": "Balthazar-Regular",
+      "fullName": "Balthazar Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

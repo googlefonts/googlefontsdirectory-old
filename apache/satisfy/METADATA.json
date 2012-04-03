@@ -1,0 +1,21 @@
+{
+  "name": "Satisfy",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28939,
+  "fonts": [
+    {
+      "name": "Satisfy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Satisfy-Regular.ttf",
+      "postScriptName": "Satisfy",
+      "fullName": "Satisfy"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

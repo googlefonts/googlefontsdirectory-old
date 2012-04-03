@@ -1,0 +1,45 @@
+{
+  "name": "Yanone Kaffeesatz",
+  "designer": "Yanone",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 39032,
+  "fonts": [
+    {
+      "name": "Yanone Kaffeesatz",
+      "style": "normal",
+      "weight": 200,
+      "filename": "YanoneKaffeesatz-Thin.ttf",
+      "postScriptName": "YanoneKaffeesatz-Thin",
+      "fullName": "Yanone Kaffeesatz Thin"
+    },
+    {
+      "name": "Yanone Kaffeesatz",
+      "style": "normal",
+      "weight": 300,
+      "filename": "YanoneKaffeesatz-Light.ttf",
+      "postScriptName": "YanoneKaffeesatz-Light",
+      "fullName": "Yanone Kaffeesatz Light"
+    },
+    {
+      "name": "Yanone Kaffeesatz",
+      "style": "normal",
+      "weight": 400,
+      "filename": "YanoneKaffeesatz-Regular.ttf",
+      "postScriptName": "YanoneKaffeesatz-Regular",
+      "fullName": "Yanone Kaffeesatz Regular"
+    },
+    {
+      "name": "Yanone Kaffeesatz",
+      "style": "normal",
+      "weight": 700,
+      "filename": "YanoneKaffeesatz-Bold.ttf",
+      "postScriptName": "YanoneKaffeesatz-Bold",
+      "fullName": "Yanone Kaffeesatz Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

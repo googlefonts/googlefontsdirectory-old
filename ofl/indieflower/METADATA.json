@@ -1,0 +1,21 @@
+{
+  "name": "Indie Flower",
+  "designer": "Kimberly Geswein",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 33416,
+  "fonts": [
+    {
+      "name": "Indie Flower",
+      "style": "normal",
+      "weight": 400,
+      "filename": "IndieFlower.ttf",
+      "postScriptName": "IndieFlower",
+      "fullName": "Indie Flower"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

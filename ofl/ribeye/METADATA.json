@@ -1,0 +1,22 @@
+{
+  "name": "Ribeye",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 44724,
+  "fonts": [
+    {
+      "name": "Ribeye",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ribeye-Regular.ttf",
+      "postScriptName": "Ribeye-Regular",
+      "fullName": "Ribeye"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

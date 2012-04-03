@@ -1,0 +1,22 @@
+{
+  "name": "Jim Nightshade",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 83742,
+  "fonts": [
+    {
+      "name": "Jim Nightshade",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JimNightshade-Regular.ttf",
+      "postScriptName": "JimNightshade-Regular",
+      "fullName": "Jim Nightshade"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

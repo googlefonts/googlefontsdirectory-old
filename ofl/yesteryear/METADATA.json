@@ -1,0 +1,21 @@
+{
+  "name": "Yesteryear",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 37158,
+  "fonts": [
+    {
+      "name": "Yesteryear",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Yesteryear-Regular.ttf",
+      "postScriptName": "Yesteryear-Regular",
+      "fullName": "Yesteryear"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

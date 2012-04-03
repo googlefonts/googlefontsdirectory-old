@@ -1,0 +1,21 @@
+{
+  "name": "Schoolbell",
+  "designer": "Font Diner",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 28795,
+  "fonts": [
+    {
+      "name": "Schoolbell",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Schoolbell.ttf",
+      "postScriptName": "Schoolbell",
+      "fullName": "Schoolbell"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

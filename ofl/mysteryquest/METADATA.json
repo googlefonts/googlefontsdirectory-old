@@ -1,0 +1,22 @@
+{
+  "name": "Mystery Quest",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27518,
+  "fonts": [
+    {
+      "name": "Mystery Quest",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MysteryQuest-Regular.ttf",
+      "postScriptName": "MysteryQuest",
+      "fullName": "Mystery Quest"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

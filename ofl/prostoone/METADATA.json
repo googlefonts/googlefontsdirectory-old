@@ -1,0 +1,23 @@
+{
+  "name": "Prosto One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 49033,
+  "fonts": [
+    {
+      "name": "Prosto One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ProstoOne-Regular.ttf",
+      "postScriptName": "ProstoOne-Regular",
+      "fullName": "Prosto One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

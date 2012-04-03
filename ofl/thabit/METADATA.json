@@ -1,0 +1,45 @@
+{
+  "name": "Thabit",
+  "designer": "Khaled Hosny",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 57602,
+  "fonts": [
+    {
+      "name": "Thabit",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Thabit.ttf",
+      "postScriptName": "Thabit",
+      "fullName": "Thabit"
+    },
+    {
+      "name": "Thabit",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Thabit-Oblique.ttf",
+      "postScriptName": "Thabit-Oblique",
+      "fullName": "Thabit-Oblique Oblique"
+    },
+    {
+      "name": "Thabit",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Thabit-Bold.ttf",
+      "postScriptName": "Thabit-Bold",
+      "fullName": "Thabit-Bold Bold"
+    },
+    {
+      "name": "Thabit",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Thabit-BoldOblique.ttf",
+      "postScriptName": "Thabit-Bold-Oblique",
+      "fullName": "Thabit-Bold-Oblique Bold Oblique"
+    }
+  ],
+  "subsets": [
+    "arabic"
+  ]
+}

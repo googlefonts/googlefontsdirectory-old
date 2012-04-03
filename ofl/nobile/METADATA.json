@@ -1,0 +1,45 @@
+{
+  "name": "Nobile",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 25553,
+  "fonts": [
+    {
+      "name": "Nobile",
+      "style": "normal",
+      "weight": 400,
+      "filename": "nobile.ttf",
+      "postScriptName": "Nobile",
+      "fullName": "Nobile"
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 400,
+      "filename": "nobile_italic.ttf",
+      "postScriptName": "Nobile-italic",
+      "fullName": "Nobile-italic"
+    },
+    {
+      "name": "Nobile",
+      "style": "normal",
+      "weight": 700,
+      "filename": "nobile_bold.ttf",
+      "postScriptName": "Nobile",
+      "fullName": "Nobile-bold"
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 700,
+      "filename": "nobile_bold_italic.ttf",
+      "postScriptName": "Nobile",
+      "fullName": "Nobile"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

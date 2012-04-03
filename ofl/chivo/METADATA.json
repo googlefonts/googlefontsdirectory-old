@@ -1,0 +1,45 @@
+{
+  "name": "Chivo",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 28146,
+  "fonts": [
+    {
+      "name": "Chivo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chivo-Regular.ttf",
+      "postScriptName": "Chivo-Regular",
+      "fullName": "Chivo"
+    },
+    {
+      "name": "Chivo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Chivo-Italic.ttf",
+      "postScriptName": "Chivo-Italic",
+      "fullName": "Chivo-Italic"
+    },
+    {
+      "name": "Chivo",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Chivo-Black.ttf",
+      "postScriptName": "Chivo-Black",
+      "fullName": "Chivo Black"
+    },
+    {
+      "name": "Chivo",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Chivo-BlackItalic.ttf",
+      "postScriptName": "Chivo-BlackItalic",
+      "fullName": "Chivo-BlackItalic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Averia Serif Libre",
+  "designer": "Dan Sayers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 62212,
+  "fonts": [
+    {
+      "name": "Averia Serif Libre",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AveriaSerifLibre-Light.ttf",
+      "postScriptName": "AveriaSerifLibre-Light",
+      "fullName": "Averia Serif Libre Light"
+    },
+    {
+      "name": "Averia Serif Libre",
+      "style": "italic",
+      "weight": 300,
+      "filename": "AveriaSerifLibre-LightItalic.ttf",
+      "postScriptName": "AveriaSerifLibre-LightItalic",
+      "fullName": "Averia Serif Libre Light Italic"
+    },
+    {
+      "name": "Averia Serif Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AveriaSerifLibre-Regular.ttf",
+      "postScriptName": "AveriaSerifLibre-Regular",
+      "fullName": "Averia Serif Libre Regular"
+    },
+    {
+      "name": "Averia Serif Libre",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AveriaSerifLibre-Italic.ttf",
+      "postScriptName": "AveriaSerifLibre-Italic",
+      "fullName": "Averia Serif Libre Italic"
+    },
+    {
+      "name": "Averia Serif Libre",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AveriaSerifLibre-Bold.ttf",
+      "postScriptName": "AveriaSerifLibre-Bold",
+      "fullName": "Averia Serif Libre Bold"
+    },
+    {
+      "name": "Averia Serif Libre",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AveriaSerifLibre-BoldItalic.ttf",
+      "postScriptName": "AveriaSerifLibre-BoldItalic",
+      "fullName": "Averia Serif Libre Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

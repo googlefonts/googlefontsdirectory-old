@@ -1,0 +1,21 @@
+{
+  "name": "Numans",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19302,
+  "fonts": [
+    {
+      "name": "Numans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Numans-Regular.ttf",
+      "postScriptName": "Numans-Regular",
+      "fullName": "Numans"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

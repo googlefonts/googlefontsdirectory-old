@@ -1,0 +1,37 @@
+{
+  "name": "Judson",
+  "designer": "Daniel Johnson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 100370,
+  "fonts": [
+    {
+      "name": "Judson",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Judson-Regular.ttf",
+      "postScriptName": "Judson-Regular",
+      "fullName": "Judson Regular"
+    },
+    {
+      "name": "Judson",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Judson-Italic.ttf",
+      "postScriptName": "Judson-Italic",
+      "fullName": "Judson Italic"
+    },
+    {
+      "name": "Judson",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Judson-Bold.ttf",
+      "postScriptName": "Judson-Bold",
+      "fullName": "Judson Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

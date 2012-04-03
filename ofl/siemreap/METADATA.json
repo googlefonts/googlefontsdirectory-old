@@ -1,0 +1,21 @@
+{
+  "name": "Siemreap",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 61459,
+  "fonts": [
+    {
+      "name": "Siemreap",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Siemreap.ttf",
+      "postScriptName": "Siemreap",
+      "fullName": "Siemreap"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

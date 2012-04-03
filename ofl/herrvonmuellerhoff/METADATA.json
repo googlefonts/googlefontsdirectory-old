@@ -1,0 +1,22 @@
+{
+  "name": "Herr Von Muellerhoff",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25280,
+  "fonts": [
+    {
+      "name": "Herr Von Muellerhoff",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HerrVonMuellerhoff-Regular.ttf",
+      "postScriptName": "HerrVonMuellerhoff-Regular",
+      "fullName": "Herr Von Muellerhoff Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

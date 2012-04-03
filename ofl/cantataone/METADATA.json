@@ -1,0 +1,22 @@
+{
+  "name": "Cantata One",
+  "designer": "Joana Correia da Silva",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22818,
+  "fonts": [
+    {
+      "name": "Cantata One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CantataOne-Regular.ttf",
+      "postScriptName": "CantataOne-Regular",
+      "fullName": "Cantata One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Voces",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35061,
+  "fonts": [
+    {
+      "name": "Voces",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Voces-Regular.ttf",
+      "postScriptName": "Voces-Regular",
+      "fullName": "Voces"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

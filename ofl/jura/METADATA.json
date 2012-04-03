@@ -1,0 +1,50 @@
+{
+  "name": "Jura",
+  "designer": "Daniel Johnson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 154325,
+  "fonts": [
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Jura-Light.ttf",
+      "postScriptName": "Jura-Light",
+      "fullName": "Jura Light"
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Jura-Regular.ttf",
+      "postScriptName": "Jura-Regular",
+      "fullName": "Jura Regular"
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Jura-Medium.ttf",
+      "postScriptName": "Jura-Medium",
+      "fullName": "Jura Medium"
+    },
+    {
+      "name": "Jura",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Jura-DemiBold.ttf",
+      "postScriptName": "Jura-DemiBold",
+      "fullName": "Jura DemiBold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin"
+  ]
+}

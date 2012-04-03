@@ -1,0 +1,21 @@
+{
+  "name": "Questrial",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 32655,
+  "fonts": [
+    {
+      "name": "Questrial",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Questrial-Regular.ttf",
+      "postScriptName": "Questrial-Regular",
+      "fullName": "Questrial"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

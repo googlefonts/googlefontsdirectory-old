@@ -1,0 +1,21 @@
+{
+  "name": "Londrina Outline",
+  "designer": "Marcelo Magalhães",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 43080,
+  "fonts": [
+    {
+      "name": "Londrina Outline",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LondrinaOutline-Regular.ttf",
+      "postScriptName": "LondrinaOutline-Regular",
+      "fullName": "Londrina Outline"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

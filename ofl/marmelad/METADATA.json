@@ -1,0 +1,23 @@
+{
+  "name": "Marmelad",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 58842,
+  "fonts": [
+    {
+      "name": "Marmelad",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Marmelad-Regular.ttf",
+      "postScriptName": "Marmelad-Regular",
+      "fullName": "Marmelad"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

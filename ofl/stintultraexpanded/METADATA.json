@@ -1,0 +1,22 @@
+{
+  "name": "Stint Ultra Expanded",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 23145,
+  "fonts": [
+    {
+      "name": "Stint Ultra Expanded",
+      "style": "normal",
+      "weight": 400,
+      "filename": "StintUltraExpanded-Regular.ttf",
+      "postScriptName": "StintUltraExpanded-Regular",
+      "fullName": "Stint Ultra Expanded"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Londrina Shadow",
+  "designer": "Marcelo Magalhães",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 44723,
+  "fonts": [
+    {
+      "name": "Londrina Shadow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LondrinaShadow-Regular.ttf",
+      "postScriptName": "LondrinaShadow-Regular",
+      "fullName": "Londrina Shadow"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

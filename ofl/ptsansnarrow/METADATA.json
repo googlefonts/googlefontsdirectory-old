@@ -1,0 +1,31 @@
+{
+  "name": "PT Sans Narrow",
+  "designer": "multiple designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 198698,
+  "fonts": [
+    {
+      "name": "PT Sans Narrow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Sans-Narrow-Web-Regular.ttf",
+      "postScriptName": "PTSans-Narrow",
+      "fullName": "PT Sans Narrow"
+    },
+    {
+      "name": "PT Sans Narrow",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Sans-Narrow-Web-Bold.ttf",
+      "postScriptName": "PTSans-NarrowBold",
+      "fullName": "PT Sans Narrow Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Chicle",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21180,
+  "fonts": [
+    {
+      "name": "Chicle",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chicle-Regular.ttf",
+      "postScriptName": "Chicle-Regular",
+      "fullName": "Chicle Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

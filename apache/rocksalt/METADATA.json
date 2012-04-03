@@ -1,0 +1,21 @@
+{
+  "name": "Rock Salt",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 76350,
+  "fonts": [
+    {
+      "name": "Rock Salt",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RockSalt.ttf",
+      "postScriptName": "RockSalt",
+      "fullName": "Rock Salt"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

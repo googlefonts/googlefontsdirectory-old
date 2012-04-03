@@ -1,0 +1,22 @@
+{
+  "name": "Jolly Lodger",
+  "designer": "Font Diner",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24196,
+  "fonts": [
+    {
+      "name": "Jolly Lodger",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JollyLodger-Regular.ttf",
+      "postScriptName": "JollyLodger",
+      "fullName": "Jolly Lodger"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Nunito",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 28307,
+  "fonts": [
+    {
+      "name": "Nunito",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Nunito-Light.ttf",
+      "postScriptName": "Nunito-Light",
+      "fullName": "Nunito-Light"
+    },
+    {
+      "name": "Nunito",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nunito-Regular.ttf",
+      "postScriptName": "Nunito-Regular",
+      "fullName": "Nunito-Regular"
+    },
+    {
+      "name": "Nunito",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Nunito-Bold.ttf",
+      "postScriptName": "Nunito-Bold",
+      "fullName": "Nunito-Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

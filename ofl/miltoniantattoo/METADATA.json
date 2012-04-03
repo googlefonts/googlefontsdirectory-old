@@ -1,0 +1,21 @@
+{
+  "name": "Miltonian Tattoo",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 100886,
+  "fonts": [
+    {
+      "name": "Miltonian Tattoo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MiltonianTattoo-Regular.ttf",
+      "postScriptName": "MiltonianTattoo",
+      "fullName": "Miltonian Tattoo"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

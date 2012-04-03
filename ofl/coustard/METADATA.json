@@ -1,0 +1,29 @@
+{
+  "name": "Coustard",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 38937,
+  "fonts": [
+    {
+      "name": "Coustard",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Coustard-Regular.ttf",
+      "postScriptName": "Coustard",
+      "fullName": "Coustard"
+    },
+    {
+      "name": "Coustard",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Coustard-Black.ttf",
+      "postScriptName": "Coustard-Black",
+      "fullName": "Coustard-Black"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

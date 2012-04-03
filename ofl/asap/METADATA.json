@@ -1,0 +1,46 @@
+{
+  "name": "Asap",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 15794,
+  "fonts": [
+    {
+      "name": "Asap",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Asap-Regular.ttf",
+      "postScriptName": "Asap-Regular",
+      "fullName": "Asap"
+    },
+    {
+      "name": "Asap",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Asap-Italic.ttf",
+      "postScriptName": "Asap-Italic",
+      "fullName": "Asap Italic"
+    },
+    {
+      "name": "Asap",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Asap-Bold.ttf",
+      "postScriptName": "Asap-Bold",
+      "fullName": "Asap Bold"
+    },
+    {
+      "name": "Asap",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Asap-BoldItalic.ttf",
+      "postScriptName": "Asap-BoldItalic",
+      "fullName": "Asap Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

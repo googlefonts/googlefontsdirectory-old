@@ -1,0 +1,21 @@
+{
+  "name": "Iceland",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19403,
+  "fonts": [
+    {
+      "name": "Iceland",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Iceland-Regular.ttf",
+      "postScriptName": "Iceland-Regular",
+      "fullName": "Iceland"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

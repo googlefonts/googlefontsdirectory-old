@@ -1,0 +1,21 @@
+{
+  "name": "Pinyon Script",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 33130,
+  "fonts": [
+    {
+      "name": "Pinyon Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PinyonScript-Regular.ttf",
+      "postScriptName": "PinyonScript",
+      "fullName": "Pinyon Script"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

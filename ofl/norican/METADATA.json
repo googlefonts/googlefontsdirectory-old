@@ -1,0 +1,22 @@
+{
+  "name": "Norican",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 27728,
+  "fonts": [
+    {
+      "name": "Norican",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Norican-Regular.ttf",
+      "postScriptName": "Norican-Regular",
+      "fullName": "Norican Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

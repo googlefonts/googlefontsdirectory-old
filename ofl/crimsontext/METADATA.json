@@ -1,0 +1,61 @@
+{
+  "name": "Crimson Text",
+  "designer": "Sebastian Kosch",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 96066,
+  "fonts": [
+    {
+      "name": "Crimson Text",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CrimsonText-Roman.ttf",
+      "postScriptName": "CrimsonText-Roman",
+      "fullName": "Crimson Text"
+    },
+    {
+      "name": "Crimson Text",
+      "style": "italic",
+      "weight": 400,
+      "filename": "CrimsonText-Italic.ttf",
+      "postScriptName": "CrimsonText-Italic",
+      "fullName": "Crimson Text Italic"
+    },
+    {
+      "name": "Crimson Text",
+      "style": "normal",
+      "weight": 600,
+      "filename": "CrimsonText-Semibold.ttf",
+      "postScriptName": "CrimsonText-Semibold",
+      "fullName": "Crimson Text Semibold"
+    },
+    {
+      "name": "Crimson Text",
+      "style": "italic",
+      "weight": 600,
+      "filename": "CrimsonText-SemiboldItalic.ttf",
+      "postScriptName": "CrimsonText-SemiboldItalic",
+      "fullName": "Crimson Text Semibold Italic"
+    },
+    {
+      "name": "Crimson Text",
+      "style": "normal",
+      "weight": 700,
+      "filename": "CrimsonText-Bold.ttf",
+      "postScriptName": "CrimsonText-Bold",
+      "fullName": "Crimson Text Bold"
+    },
+    {
+      "name": "Crimson Text",
+      "style": "italic",
+      "weight": 700,
+      "filename": "CrimsonText-BoldItalic.ttf",
+      "postScriptName": "CrimsonText-BoldItalic",
+      "fullName": "Crimson Text Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

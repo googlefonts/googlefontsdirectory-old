@@ -1,0 +1,29 @@
+{
+  "name": "Kameron",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 41226,
+  "fonts": [
+    {
+      "name": "Kameron",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kameron-Regular.ttf",
+      "postScriptName": "Kameron",
+      "fullName": "Kameron"
+    },
+    {
+      "name": "Kameron",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kameron-Bold.ttf",
+      "postScriptName": "Kameron-Bold",
+      "fullName": "Kameron Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

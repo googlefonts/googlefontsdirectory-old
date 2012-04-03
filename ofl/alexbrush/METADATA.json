@@ -1,0 +1,22 @@
+{
+  "name": "Alex Brush",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 25453,
+  "fonts": [
+    {
+      "name": "Alex Brush",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AlexBrush-Regular.ttf",
+      "postScriptName": "AlexBrush-Regular",
+      "fullName": "Alex Brush"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

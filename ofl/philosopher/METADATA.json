@@ -1,0 +1,46 @@
+{
+  "name": "Philosopher",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 110458,
+  "fonts": [
+    {
+      "name": "Philosopher",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Philosopher-Regular.ttf",
+      "postScriptName": "Philosopher",
+      "fullName": "Philosopher"
+    },
+    {
+      "name": "Philosopher",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Philosopher-Italic.ttf",
+      "postScriptName": "Philosopher-Italic",
+      "fullName": "Philosopher Italic"
+    },
+    {
+      "name": "Philosopher",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Philosopher-Bold.ttf",
+      "postScriptName": "Philosopher-Bold",
+      "fullName": "Philosopher Bold"
+    },
+    {
+      "name": "Philosopher",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Philosopher-BoldItalic.ttf",
+      "postScriptName": "Philosopher-BoldItalic",
+      "fullName": "Philosopher Bold Italic"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin"
+  ]
+}

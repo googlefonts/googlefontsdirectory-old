@@ -1,0 +1,29 @@
+{
+  "name": "Rokkitt",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27349,
+  "fonts": [
+    {
+      "name": "Rokkitt",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rokkitt-Regular.ttf",
+      "postScriptName": "Rokkitt",
+      "fullName": "Rokkitt"
+    },
+    {
+      "name": "Rokkitt",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Rokkitt-Bold.ttf",
+      "postScriptName": "Rokkitt-Bold",
+      "fullName": "Rokkitt Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

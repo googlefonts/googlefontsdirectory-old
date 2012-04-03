@@ -1,0 +1,22 @@
+{
+  "name": "Average",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 19073,
+  "fonts": [
+    {
+      "name": "Average",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Average-Regular.ttf",
+      "postScriptName": "Average-Regular",
+      "fullName": "Average"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Playfair Display",
+  "designer": "Claus Eggers Sørensen",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 73284,
+  "fonts": [
+    {
+      "name": "Playfair Display",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PlayfairDisplay-Regular.ttf",
+      "postScriptName": "PlayfairDisplay",
+      "fullName": "Playfair Display"
+    },
+    {
+      "name": "Playfair Display",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PlayfairDisplay-Italic.ttf",
+      "postScriptName": "PlayfairDisplay-Italic",
+      "fullName": "Playfair Display Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

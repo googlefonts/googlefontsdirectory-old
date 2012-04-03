@@ -1,0 +1,24 @@
+{
+  "name": "Andika",
+  "designer": "Annie Olsen",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 528562,
+  "fonts": [
+    {
+      "name": "Andika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Andika-R.ttf",
+      "postScriptName": "Andika",
+      "fullName": "Andika"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

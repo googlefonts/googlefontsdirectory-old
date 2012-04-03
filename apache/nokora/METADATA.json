@@ -1,0 +1,29 @@
+{
+  "name": "Nokora",
+  "designer": "Danh Hong",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22518,
+  "fonts": [
+    {
+      "name": "Nokora",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nokora-Regular.ttf",
+      "postScriptName": "Nokora",
+      "fullName": "Nokora"
+    },
+    {
+      "name": "Nokora",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Nokora-Bold.ttf",
+      "postScriptName": "Nokora-Bold",
+      "fullName": "Nokora Bold"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

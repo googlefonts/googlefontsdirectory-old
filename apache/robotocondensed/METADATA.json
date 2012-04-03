@@ -1,0 +1,50 @@
+{
+  "name": "Roboto Condensed",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 94623,
+  "fonts": [
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Roboto-Condensed.ttf",
+      "postScriptName": "Roboto-Condensed",
+      "fullName": "Roboto Condensed"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Roboto-CondensedItalic.ttf",
+      "postScriptName": "Roboto-CondensedItalic",
+      "fullName": "Roboto Condensed Italic"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Roboto-BoldCondensed.ttf",
+      "postScriptName": "Roboto-BoldCondensed",
+      "fullName": "Roboto Bold Condensed"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Roboto-BoldCondensedItalic.ttf",
+      "postScriptName": "Roboto-BoldCondensedItalic",
+      "fullName": "Roboto Bold Condensed Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin"
+  ]
+}

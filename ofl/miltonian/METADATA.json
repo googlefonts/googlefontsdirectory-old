@@ -1,0 +1,21 @@
+{
+  "name": "Miltonian",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 71367,
+  "fonts": [
+    {
+      "name": "Miltonian",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Miltonian-Regular.ttf",
+      "postScriptName": "Miltonian-Regular",
+      "fullName": "Miltonian"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

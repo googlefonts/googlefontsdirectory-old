@@ -1,0 +1,22 @@
+{
+  "name": "Sancreek",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 32131,
+  "fonts": [
+    {
+      "name": "Sancreek",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sancreek-Regular.ttf",
+      "postScriptName": "Sancreek-Regular",
+      "fullName": "Sancreek Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

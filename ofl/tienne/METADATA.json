@@ -1,0 +1,37 @@
+{
+  "name": "Tienne",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 39754,
+  "fonts": [
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tienne-Regular.ttf",
+      "postScriptName": "Tienne-Regular",
+      "fullName": "Tienne Regular"
+    },
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tienne-Bold.ttf",
+      "postScriptName": "Tienne-Bold",
+      "fullName": "Tienne Bold"
+    },
+    {
+      "name": "Tienne",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Tienne-Heavy.ttf",
+      "postScriptName": "Tienne-Heavy",
+      "fullName": "Tienne Heavy"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

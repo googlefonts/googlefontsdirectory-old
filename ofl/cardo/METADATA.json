@@ -1,0 +1,40 @@
+{
+  "name": "Cardo",
+  "designer": "David Perry",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 224897,
+  "fonts": [
+    {
+      "name": "Cardo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cardo-Regular.ttf",
+      "postScriptName": "Cardo-Regular",
+      "fullName": "Cardo"
+    },
+    {
+      "name": "Cardo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cardo-Italic.ttf",
+      "postScriptName": "Cardo-Italic",
+      "fullName": "Cardo Italic"
+    },
+    {
+      "name": "Cardo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cardo-Bold.ttf",
+      "postScriptName": "Cardo-Bold",
+      "fullName": "Cardo Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "greek",
+    "latin"
+  ]
+}

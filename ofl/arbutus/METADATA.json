@@ -1,0 +1,22 @@
+{
+  "name": "Arbutus",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 41531,
+  "fonts": [
+    {
+      "name": "Arbutus",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arbutus-Regular.ttf",
+      "postScriptName": "Arbutus",
+      "fullName": "Arbutus"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

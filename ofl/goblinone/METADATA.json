@@ -1,0 +1,21 @@
+{
+  "name": "Goblin One",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18847,
+  "fonts": [
+    {
+      "name": "Goblin One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GoblinOne.ttf",
+      "postScriptName": "GoblinOne",
+      "fullName": "Goblin One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

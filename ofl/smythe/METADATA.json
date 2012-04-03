@@ -1,0 +1,21 @@
+{
+  "name": "Smythe",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 47182,
+  "fonts": [
+    {
+      "name": "Smythe",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Smythe-Regular.ttf",
+      "postScriptName": "Smythe",
+      "fullName": "Smythe"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

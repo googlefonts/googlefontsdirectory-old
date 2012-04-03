@@ -1,0 +1,24 @@
+{
+  "name": "Tenor Sans",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 52475,
+  "fonts": [
+    {
+      "name": "Tenor Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "TenorSans-Regular.ttf",
+      "postScriptName": "TenorSans",
+      "fullName": "Tenor Sans"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

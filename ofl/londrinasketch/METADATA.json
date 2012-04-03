@@ -1,0 +1,21 @@
+{
+  "name": "Londrina Sketch",
+  "designer": "Marcelo Magalhães",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 83987,
+  "fonts": [
+    {
+      "name": "Londrina Sketch",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LondrinaSketch-Regular.ttf",
+      "postScriptName": "LondrinaSketch-Regular",
+      "fullName": "Londrina Sketch"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

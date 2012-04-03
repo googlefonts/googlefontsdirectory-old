@@ -1,0 +1,23 @@
+{
+  "name": "Poiret One",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22853,
+  "fonts": [
+    {
+      "name": "Poiret One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PoiretOne-Regular.ttf",
+      "postScriptName": "PoiretOne-Regular",
+      "fullName": "Poiret One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

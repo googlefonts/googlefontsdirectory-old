@@ -1,0 +1,46 @@
+{
+  "name": "Gentium Basic",
+  "designer": "Victor Gaultney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 102574,
+  "fonts": [
+    {
+      "name": "Gentium Basic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GenBasR.ttf",
+      "postScriptName": "GentiumBasic",
+      "fullName": "Gentium Basic"
+    },
+    {
+      "name": "Gentium Basic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "GenBasI.ttf",
+      "postScriptName": "GentiumBasic-Italic",
+      "fullName": "Gentium Basic Italic"
+    },
+    {
+      "name": "Gentium Basic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "GenBasB.ttf",
+      "postScriptName": "GentiumBasic-Bold",
+      "fullName": "Gentium Basic Bold"
+    },
+    {
+      "name": "Gentium Basic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "GenBasBI.ttf",
+      "postScriptName": "GentiumBasic-BoldItalic",
+      "fullName": "Gentium Basic Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

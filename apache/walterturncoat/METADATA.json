@@ -1,0 +1,21 @@
+{
+  "name": "Walter Turncoat",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 79445,
+  "fonts": [
+    {
+      "name": "Walter Turncoat",
+      "style": "normal",
+      "weight": 400,
+      "filename": "WalterTurncoat.ttf",
+      "postScriptName": "WalterTurncoat",
+      "fullName": "Walter Turncoat"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

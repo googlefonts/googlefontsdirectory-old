@@ -1,0 +1,21 @@
+{
+  "name": "Lateef",
+  "designer": "SIL International",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Handwriting",
+  "size": 109324,
+  "fonts": [
+    {
+      "name": "Lateef",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LateefRegOT.ttf",
+      "postScriptName": "Lateef",
+      "fullName": "Lateef"
+    }
+  ],
+  "subsets": [
+    "arabic"
+  ]
+}

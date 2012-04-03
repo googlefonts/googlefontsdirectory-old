@@ -1,0 +1,22 @@
+{
+  "name": "Bilbo",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23579,
+  "fonts": [
+    {
+      "name": "Bilbo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bilbo-Regular.ttf",
+      "postScriptName": "Bilbo-Regular",
+      "fullName": "Bilbo Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

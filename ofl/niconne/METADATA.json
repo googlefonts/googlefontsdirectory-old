@@ -1,0 +1,22 @@
+{
+  "name": "Niconne",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 24707,
+  "fonts": [
+    {
+      "name": "Niconne",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Niconne-Regular.ttf",
+      "postScriptName": "Niconne-Regular",
+      "fullName": "Niconne"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

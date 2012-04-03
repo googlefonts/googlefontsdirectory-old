@@ -1,0 +1,21 @@
+{
+  "name": "Creepster",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 37836,
+  "fonts": [
+    {
+      "name": "Creepster",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Creepster-Regular.ttf",
+      "postScriptName": "Creepster-Regular",
+      "fullName": "Creepster"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

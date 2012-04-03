@@ -1,0 +1,21 @@
+{
+  "name": "Montserrat",
+  "designer": "Julieta Ulanovsky",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14615,
+  "fonts": [
+    {
+      "name": "Montserrat",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Montserrat-Regular.ttf",
+      "postScriptName": "Montserrat-Regular",
+      "fullName": "Montserrat Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

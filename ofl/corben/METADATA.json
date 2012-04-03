@@ -1,0 +1,29 @@
+{
+  "name": "Corben",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 23543,
+  "fonts": [
+    {
+      "name": "Corben",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Corben-Regular.ttf",
+      "postScriptName": "Corben-Regular",
+      "fullName": "Corben Regular"
+    },
+    {
+      "name": "Corben",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Corben-Bold.ttf",
+      "postScriptName": "Corben",
+      "fullName": "Corben"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

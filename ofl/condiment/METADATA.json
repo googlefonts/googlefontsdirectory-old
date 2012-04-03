@@ -1,0 +1,22 @@
+{
+  "name": "Condiment",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 23826,
+  "fonts": [
+    {
+      "name": "Condiment",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Condiment-Regular.ttf",
+      "postScriptName": "Condiment-Regular",
+      "fullName": "Condiment"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

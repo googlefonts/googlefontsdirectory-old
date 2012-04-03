@@ -1,0 +1,21 @@
+{
+  "name": "Acme",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 13330,
+  "fonts": [
+    {
+      "name": "Acme",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Acme-Regular.ttf",
+      "postScriptName": "Acme-Regular",
+      "fullName": "Acme"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

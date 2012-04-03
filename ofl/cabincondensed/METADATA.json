@@ -1,0 +1,45 @@
+{
+  "name": "Cabin Condensed",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 77777,
+  "fonts": [
+    {
+      "name": "Cabin Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CabinCondensed-Regular.ttf",
+      "postScriptName": "CabinCondensed",
+      "fullName": "Cabin Condensed"
+    },
+    {
+      "name": "Cabin Condensed",
+      "style": "normal",
+      "weight": 500,
+      "filename": "CabinCondensed-Medium.ttf",
+      "postScriptName": "CabinCondensed-Medium",
+      "fullName": "Cabin Condensed Medium"
+    },
+    {
+      "name": "Cabin Condensed",
+      "style": "normal",
+      "weight": 600,
+      "filename": "CabinCondensed-SemiBold.ttf",
+      "postScriptName": "CabinCondensed-SemiBold",
+      "fullName": "Cabin Condensed SemiBold"
+    },
+    {
+      "name": "Cabin Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "CabinCondensed-Bold.ttf",
+      "postScriptName": "CabinCondensed-Bold",
+      "fullName": "Cabin Condensed Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

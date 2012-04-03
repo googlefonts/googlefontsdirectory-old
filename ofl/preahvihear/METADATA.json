@@ -1,0 +1,21 @@
+{
+  "name": "Preahvihear",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 54099,
+  "fonts": [
+    {
+      "name": "Preahvihear",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Preahvihear.ttf",
+      "postScriptName": "PreahVihear",
+      "fullName": "Preah Vihear"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

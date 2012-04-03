@@ -1,0 +1,22 @@
+{
+  "name": "Ribeye Marrow",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 45571,
+  "fonts": [
+    {
+      "name": "Ribeye Marrow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RibeyeMarrow-Regular.ttf",
+      "postScriptName": "RibeyeMarrow-Regular",
+      "fullName": "Ribeye Marrow"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

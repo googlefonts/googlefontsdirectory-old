@@ -1,0 +1,21 @@
+{
+  "name": "Kranky",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 101172,
+  "fonts": [
+    {
+      "name": "Kranky",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kranky.ttf",
+      "postScriptName": "Kranky",
+      "fullName": "Kranky"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

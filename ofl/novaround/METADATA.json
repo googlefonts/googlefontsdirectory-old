@@ -1,0 +1,21 @@
+{
+  "name": "Nova Round",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 41309,
+  "fonts": [
+    {
+      "name": "Nova Round",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaRound.ttf",
+      "postScriptName": "NovaRound",
+      "fullName": "Nova Round"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

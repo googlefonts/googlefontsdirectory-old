@@ -1,0 +1,21 @@
+{
+  "name": "Moulpali",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 64942,
+  "fonts": [
+    {
+      "name": "Moulpali",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Moulpali.ttf",
+      "postScriptName": "MoulPali",
+      "fullName": "Moul Pali"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

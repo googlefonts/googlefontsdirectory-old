@@ -1,0 +1,37 @@
+{
+  "name": "Kreon",
+  "designer": "Julia Petretta",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18771,
+  "fonts": [
+    {
+      "name": "Kreon",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Kreon-Light.ttf",
+      "postScriptName": "Kreon-Light",
+      "fullName": "Kreon Light"
+    },
+    {
+      "name": "Kreon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kreon-Regular.ttf",
+      "postScriptName": "Kreon-Regular",
+      "fullName": "Kreon Regular"
+    },
+    {
+      "name": "Kreon",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Kreon-Bold.ttf",
+      "postScriptName": "Kreon-Bold",
+      "fullName": "Kreon Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

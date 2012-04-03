@@ -1,0 +1,29 @@
+{
+  "name": "Mountains of Christmas",
+  "designer": "Tart Workshop",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 74391,
+  "fonts": [
+    {
+      "name": "Mountains of Christmas",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MountainsofChristmas-Regular.ttf",
+      "postScriptName": "MountainsofChristmas-Regular",
+      "fullName": "Mountains of Christmas"
+    },
+    {
+      "name": "Mountains of Christmas",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MountainsofChristmas-Bold.ttf",
+      "postScriptName": "MountainsofChristmas-Bold",
+      "fullName": "Mountains of Christmas Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

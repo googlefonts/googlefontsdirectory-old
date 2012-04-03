@@ -1,0 +1,30 @@
+{
+  "name": "Oleo Script",
+  "designer": "soytutype fonts",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18710,
+  "fonts": [
+    {
+      "name": "Oleo Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OleoScript-Regular.ttf",
+      "postScriptName": "OleoScript-Regular",
+      "fullName": "Oleo Script"
+    },
+    {
+      "name": "Oleo Script",
+      "style": "normal",
+      "weight": 700,
+      "filename": "OleoScript-Bold.ttf",
+      "postScriptName": "OleoScript-Bold",
+      "fullName": "Oleo Script Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

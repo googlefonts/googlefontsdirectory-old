@@ -1,0 +1,22 @@
+{
+  "name": "Ruthie",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30099,
+  "fonts": [
+    {
+      "name": "Ruthie",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Ruthie-Regular.ttf",
+      "postScriptName": "Ruthie-Regular",
+      "fullName": "Ruthie"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

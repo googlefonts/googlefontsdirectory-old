@@ -1,0 +1,22 @@
+{
+  "name": "Nova Mono",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 148642,
+  "fonts": [
+    {
+      "name": "Nova Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaMono.ttf",
+      "postScriptName": "NovaMono",
+      "fullName": "NovaMono"
+    }
+  ],
+  "subsets": [
+    "greek",
+    "latin"
+  ]
+}

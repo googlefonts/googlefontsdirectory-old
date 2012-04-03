@@ -1,0 +1,21 @@
+{
+  "name": "Iceberg",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19655,
+  "fonts": [
+    {
+      "name": "Iceberg",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Iceberg-Regular.ttf",
+      "postScriptName": "Iceberg-Regular",
+      "fullName": "Iceberg"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

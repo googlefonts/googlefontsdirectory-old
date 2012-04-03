@@ -1,0 +1,21 @@
+{
+  "name": "Pompiere",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25132,
+  "fonts": [
+    {
+      "name": "Pompiere",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Pompiere-Regular.ttf",
+      "postScriptName": "Pompiere-Regular",
+      "fullName": "Pompiere "
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

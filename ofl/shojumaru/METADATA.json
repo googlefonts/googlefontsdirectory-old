@@ -1,0 +1,22 @@
+{
+  "name": "Shojumaru",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 41714,
+  "fonts": [
+    {
+      "name": "Shojumaru",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Shojumaru-Regular.ttf",
+      "postScriptName": "Shojumaru-Regular",
+      "fullName": "Shojumaru"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

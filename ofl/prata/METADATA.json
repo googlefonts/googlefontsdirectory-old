@@ -1,0 +1,21 @@
+{
+  "name": "Prata",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18209,
+  "fonts": [
+    {
+      "name": "Prata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Prata-Regular.ttf",
+      "postScriptName": "Prata-Regular",
+      "fullName": "Prata"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

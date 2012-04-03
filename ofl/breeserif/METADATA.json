@@ -1,0 +1,22 @@
+{
+  "name": "Bree Serif",
+  "designer": "TypeTogether",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 22540,
+  "fonts": [
+    {
+      "name": "Bree Serif",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BreeSerif-Regular.ttf",
+      "postScriptName": "BreeSerif-Regular",
+      "fullName": "Bree Serif"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

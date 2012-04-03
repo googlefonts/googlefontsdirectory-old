@@ -1,0 +1,21 @@
+{
+  "name": "Julee",
+  "designer": "Julian Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 17649,
+  "fonts": [
+    {
+      "name": "Julee",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Julee-Regular.ttf",
+      "postScriptName": "Julee-Regular",
+      "fullName": "Julee-Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

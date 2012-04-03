@@ -1,0 +1,22 @@
+{
+  "name": "Patrick Hand",
+  "designer": "Patrick Wagesreiter",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 54194,
+  "fonts": [
+    {
+      "name": "Patrick Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PatrickHand-Regular.ttf",
+      "postScriptName": "PatrickHand-Regular",
+      "fullName": "Patrick Hand Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

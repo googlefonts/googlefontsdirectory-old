@@ -1,0 +1,22 @@
+{
+  "name": "Kotta One",
+  "designer": "Ania Kruk",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 17086,
+  "fonts": [
+    {
+      "name": "Kotta One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "KottaOne-Regular.ttf",
+      "postScriptName": "KottaOne-Regular",
+      "fullName": "Kotta One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

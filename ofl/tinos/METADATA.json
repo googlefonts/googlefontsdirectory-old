@@ -1,0 +1,45 @@
+{
+  "name": "Tinos",
+  "designer": "Steve Matteson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 38203,
+  "fonts": [
+    {
+      "name": "Tinos",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tinos-Regular.ttf",
+      "postScriptName": "Tinos",
+      "fullName": "Tinos"
+    },
+    {
+      "name": "Tinos",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tinos-Italic.ttf",
+      "postScriptName": "Tinos-Italic",
+      "fullName": "Tinos Italic"
+    },
+    {
+      "name": "Tinos",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tinos-Bold.ttf",
+      "postScriptName": "Tinos-Bold",
+      "fullName": "Tinos Bold"
+    },
+    {
+      "name": "Tinos",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Tinos-BoldItalic.ttf",
+      "postScriptName": "Tinos-BoldItalic",
+      "fullName": "Tinos Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

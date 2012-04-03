@@ -1,0 +1,21 @@
+{
+  "name": "Nova Flat",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 39835,
+  "fonts": [
+    {
+      "name": "Nova Flat",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaFlat.ttf",
+      "postScriptName": "NovaFlat",
+      "fullName": "Nova Flat"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

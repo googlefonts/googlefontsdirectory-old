@@ -1,0 +1,21 @@
+{
+  "name": "Black Ops One",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 14162,
+  "fonts": [
+    {
+      "name": "Black Ops One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BlackOpsOne.ttf",
+      "postScriptName": "BlackOpsOne-Regular",
+      "fullName": "Black Ops One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

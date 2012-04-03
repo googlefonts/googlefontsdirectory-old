@@ -1,0 +1,22 @@
+{
+  "name": "Overlock SC",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 18592,
+  "fonts": [
+    {
+      "name": "Overlock SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OverlockSC-Regular.ttf",
+      "postScriptName": "OverlockSC-Regular",
+      "fullName": "Overlock SC"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

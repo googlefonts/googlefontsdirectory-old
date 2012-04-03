@@ -1,0 +1,22 @@
+{
+  "name": "Mr Bedfort",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 21797,
+  "fonts": [
+    {
+      "name": "Mr Bedfort",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrBedfort-Regular.ttf",
+      "postScriptName": "MrBedfort-Regular",
+      "fullName": "Mr Bedfort"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

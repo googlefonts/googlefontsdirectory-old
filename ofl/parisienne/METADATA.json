@@ -1,0 +1,22 @@
+{
+  "name": "Parisienne",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 34951,
+  "fonts": [
+    {
+      "name": "Parisienne",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Parisienne-Regular.ttf",
+      "postScriptName": "Parisienne-Regular",
+      "fullName": "Parisienne"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "PT Mono",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 100999,
+  "fonts": [
+    {
+      "name": "PT Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PTM55FT.ttf",
+      "postScriptName": "PTMono-Regular",
+      "fullName": "PT Mono"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

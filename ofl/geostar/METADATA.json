@@ -1,0 +1,21 @@
+{
+  "name": "Geostar",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21536,
+  "fonts": [
+    {
+      "name": "Geostar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Geostar-Regular.ttf",
+      "postScriptName": "Geostar-Regular",
+      "fullName": "Geostar"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

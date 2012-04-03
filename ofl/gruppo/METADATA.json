@@ -1,0 +1,22 @@
+{
+  "name": "Gruppo",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 35183,
+  "fonts": [
+    {
+      "name": "Gruppo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gruppo-Regular.ttf",
+      "postScriptName": "Gruppo",
+      "fullName": "Gruppo"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

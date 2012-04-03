@@ -1,0 +1,21 @@
+{
+  "name": "Yellowtail",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 32495,
+  "fonts": [
+    {
+      "name": "Yellowtail",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Yellowtail-Regular.ttf",
+      "postScriptName": "Yellowtail",
+      "fullName": "Yellowtail"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

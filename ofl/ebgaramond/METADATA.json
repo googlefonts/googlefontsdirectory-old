@@ -1,0 +1,25 @@
+{
+  "name": "EB Garamond",
+  "designer": "Georg Duffner",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 120378,
+  "fonts": [
+    {
+      "name": "EB Garamond",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EBGaramond-Regular.ttf",
+      "postScriptName": "EBGaramond",
+      "fullName": "EB Garamond"
+    }
+  ],
+  "subsets": [
+    "vietnamese",
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

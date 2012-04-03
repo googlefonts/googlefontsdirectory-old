@@ -1,0 +1,21 @@
+{
+  "name": "Geostar Fill",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 20292,
+  "fonts": [
+    {
+      "name": "Geostar Fill",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GeostarFill-Regular.ttf",
+      "postScriptName": "GeostarFill-Regular",
+      "fullName": "Geostar Fill"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

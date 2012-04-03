@@ -1,0 +1,38 @@
+{
+  "name": "Gudea",
+  "designer": "Agustina Mingote",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 14187,
+  "fonts": [
+    {
+      "name": "Gudea",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Gudea-Regular.ttf",
+      "postScriptName": "Gudea",
+      "fullName": "Gudea"
+    },
+    {
+      "name": "Gudea",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Gudea-Italic.ttf",
+      "postScriptName": "Gudea-Italic",
+      "fullName": "Gudea Italic"
+    },
+    {
+      "name": "Gudea",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Gudea-Bold.ttf",
+      "postScriptName": "Gudea-Bold",
+      "fullName": "Gudea Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

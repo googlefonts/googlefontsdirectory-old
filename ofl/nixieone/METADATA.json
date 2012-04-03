@@ -1,0 +1,21 @@
+{
+  "name": "Nixie One",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40924,
+  "fonts": [
+    {
+      "name": "Nixie One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NixieOne.ttf",
+      "postScriptName": "NixieOne",
+      "fullName": "Nixie One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

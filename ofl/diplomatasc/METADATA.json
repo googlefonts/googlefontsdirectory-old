@@ -1,0 +1,22 @@
+{
+  "name": "Diplomata SC",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21409,
+  "fonts": [
+    {
+      "name": "Diplomata SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DiplomataSC-Regular.ttf",
+      "postScriptName": "DiplomataSC-Regular",
+      "fullName": "Diplomata SC"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

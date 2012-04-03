@@ -1,0 +1,21 @@
+{
+  "name": "Supermercado One",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19460,
+  "fonts": [
+    {
+      "name": "Supermercado One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SupermercadoOne-Regular.ttf",
+      "postScriptName": "SupermercadoOne-Regular",
+      "fullName": "Supermercado One Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Rosarivo",
+  "designer": "Pablo Ugerman",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 21410,
+  "fonts": [
+    {
+      "name": "Rosarivo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rosarivo-Regular.ttf",
+      "postScriptName": "Rosarivo-Regular",
+      "fullName": "Rosarivo"
+    },
+    {
+      "name": "Rosarivo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Rosarivo-Italic.ttf",
+      "postScriptName": "Rosarivo-Italic",
+      "fullName": "Rosarivo Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

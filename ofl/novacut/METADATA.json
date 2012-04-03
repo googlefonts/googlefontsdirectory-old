@@ -1,0 +1,21 @@
+{
+  "name": "Nova Cut",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40359,
+  "fonts": [
+    {
+      "name": "Nova Cut",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaCut.ttf",
+      "postScriptName": "NovaCut",
+      "fullName": "Nova Cut"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

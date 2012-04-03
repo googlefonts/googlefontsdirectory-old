@@ -1,0 +1,24 @@
+{
+  "name": "Lobster",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 59225,
+  "fonts": [
+    {
+      "name": "Lobster",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lobster.ttf",
+      "postScriptName": "Lobster",
+      "fullName": "Lobster"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

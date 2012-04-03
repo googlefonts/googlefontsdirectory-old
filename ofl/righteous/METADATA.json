@@ -1,0 +1,22 @@
+{
+  "name": "Righteous",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 23485,
+  "fonts": [
+    {
+      "name": "Righteous",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Righteous-Regular.ttf",
+      "postScriptName": "Righteous-Regular",
+      "fullName": "Righteous"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Aubrey",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 55571,
+  "fonts": [
+    {
+      "name": "Aubrey",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Aubrey-Regular.ttf",
+      "postScriptName": "Aubrey-Regular",
+      "fullName": "Aubrey"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

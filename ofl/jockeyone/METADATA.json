@@ -1,0 +1,22 @@
+{
+  "name": "Jockey One",
+  "designer": "TypeTogether",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 22480,
+  "fonts": [
+    {
+      "name": "Jockey One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JockeyOne-Regular.ttf",
+      "postScriptName": "JockeyOne-Regular",
+      "fullName": "Jockey One"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

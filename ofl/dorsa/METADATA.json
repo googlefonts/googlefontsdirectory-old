@@ -1,0 +1,21 @@
+{
+  "name": "Dorsa",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 10949,
+  "fonts": [
+    {
+      "name": "Dorsa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dorsa-Regular.ttf",
+      "postScriptName": "Dorsa-Regular",
+      "fullName": "Dorsa"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

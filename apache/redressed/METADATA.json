@@ -1,0 +1,21 @@
+{
+  "name": "Redressed",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 43642,
+  "fonts": [
+    {
+      "name": "Redressed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Redressed.ttf",
+      "postScriptName": "Redressed",
+      "fullName": "Redressed"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Moul",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 75754,
+  "fonts": [
+    {
+      "name": "Moul",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Moul.ttf",
+      "postScriptName": "Moul",
+      "fullName": "Moul"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

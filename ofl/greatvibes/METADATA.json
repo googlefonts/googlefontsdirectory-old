@@ -1,0 +1,22 @@
+{
+  "name": "Great Vibes",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 49931,
+  "fonts": [
+    {
+      "name": "Great Vibes",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GreatVibes-Regular.ttf",
+      "postScriptName": "GreatVibes-Regular",
+      "fullName": "Great Vibes"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

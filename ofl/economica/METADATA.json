@@ -1,0 +1,46 @@
+{
+  "name": "Economica",
+  "designer": "Vicente Lamónaca",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 15255,
+  "fonts": [
+    {
+      "name": "Economica",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Economica-Regular.ttf",
+      "postScriptName": "Economica-Regular",
+      "fullName": "Economica"
+    },
+    {
+      "name": "Economica",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Economica-Italic.ttf",
+      "postScriptName": "Economica-Italic",
+      "fullName": "Economica Italic"
+    },
+    {
+      "name": "Economica",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Economica-Bold.ttf",
+      "postScriptName": "Economica-Bold",
+      "fullName": "Economica Bold"
+    },
+    {
+      "name": "Economica",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Economica-BoldItalic.ttf",
+      "postScriptName": "Economica-BoldItalic",
+      "fullName": "Economica Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

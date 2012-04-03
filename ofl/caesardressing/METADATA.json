@@ -1,0 +1,21 @@
+{
+  "name": "Caesar Dressing",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40370,
+  "fonts": [
+    {
+      "name": "Caesar Dressing",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CaesarDressing-Regular.ttf",
+      "postScriptName": "CaesarDressing-Regular",
+      "fullName": "Caesar Dressing"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Graduate",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 11170,
+  "fonts": [
+    {
+      "name": "Graduate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Graduate-Regular.ttf",
+      "postScriptName": "Graduate-Regular",
+      "fullName": "Graduate"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

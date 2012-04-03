@@ -1,0 +1,45 @@
+{
+  "name": "Rosario",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19392,
+  "fonts": [
+    {
+      "name": "Rosario",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Rosario-Regular.ttf",
+      "postScriptName": "Rosario-Regular",
+      "fullName": "Rosario Regular"
+    },
+    {
+      "name": "Rosario",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Rosario-Italic.ttf",
+      "postScriptName": "Rosario-Italic",
+      "fullName": "Rosario Italic"
+    },
+    {
+      "name": "Rosario",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Rosario-Bold.ttf",
+      "postScriptName": "Rosario-Bold",
+      "fullName": "Rosario Bold"
+    },
+    {
+      "name": "Rosario",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Rosario-BoldItalic.ttf",
+      "postScriptName": "Rosario-BoldItalic",
+      "fullName": "Rosario Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Monoton",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 26536,
+  "fonts": [
+    {
+      "name": "Monoton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Monoton-Regular.ttf",
+      "postScriptName": "Monoton-Regular",
+      "fullName": "Monoton"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Cambo",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15218,
+  "fonts": [
+    {
+      "name": "Cambo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cambo-Regular.ttf",
+      "postScriptName": "Cambo-Regular",
+      "fullName": "Cambo"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

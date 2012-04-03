@@ -1,0 +1,21 @@
+{
+  "name": "Nova Script",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 48058,
+  "fonts": [
+    {
+      "name": "Nova Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaScript.ttf",
+      "postScriptName": "NovaScript",
+      "fullName": "Nova Script"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

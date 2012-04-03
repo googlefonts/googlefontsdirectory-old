@@ -1,0 +1,21 @@
+{
+  "name": "Delius",
+  "designer": "Natalia Raices",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 37237,
+  "fonts": [
+    {
+      "name": "Delius",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Delius-Regular.ttf",
+      "postScriptName": "Delius-Regular",
+      "fullName": "Delius-Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

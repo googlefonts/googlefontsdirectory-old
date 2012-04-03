@@ -1,0 +1,22 @@
+{
+  "name": "Butcherman Caps",
+  "designer": "Typomondo",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 44712,
+  "fonts": [
+    {
+      "name": "Butcherman Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ButchermannCaps-Regular.ttf",
+      "postScriptName": "ButchermannCaps-Regular",
+      "fullName": "Butchermann Caps Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

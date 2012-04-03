@@ -1,0 +1,21 @@
+{
+  "name": "Merienda One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 17324,
+  "fonts": [
+    {
+      "name": "Merienda One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MeriendaOne-Regular.ttf",
+      "postScriptName": "MeriendaOne-Regular",
+      "fullName": "Merienda One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

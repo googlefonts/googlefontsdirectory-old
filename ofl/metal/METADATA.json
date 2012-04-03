@@ -1,0 +1,21 @@
+{
+  "name": "Metal",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 76193,
+  "fonts": [
+    {
+      "name": "Metal",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Metal.ttf",
+      "postScriptName": "Metal",
+      "fullName": "Metal"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

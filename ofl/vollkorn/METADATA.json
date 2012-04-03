@@ -1,0 +1,45 @@
+{
+  "name": "Vollkorn",
+  "designer": "Friedrich Althausen",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 31898,
+  "fonts": [
+    {
+      "name": "Vollkorn",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vollkorn-Regular.ttf",
+      "postScriptName": "Vollkorn-Regular",
+      "fullName": "Vollkorn Regular"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Vollkorn-Italic.ttf",
+      "postScriptName": "Vollkorn-Italic",
+      "fullName": "Vollkorn Italic"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Vollkorn-Bold.ttf",
+      "postScriptName": "Vollkorn-Bold",
+      "fullName": "Vollkorn Bold"
+    },
+    {
+      "name": "Vollkorn",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Vollkorn-BoldItalic.ttf",
+      "postScriptName": "Vollkorn-BoldItalic",
+      "fullName": "Vollkorn Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

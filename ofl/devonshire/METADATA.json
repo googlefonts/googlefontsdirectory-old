@@ -1,0 +1,22 @@
+{
+  "name": "Devonshire",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 30667,
+  "fonts": [
+    {
+      "name": "Devonshire",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Devonshire-Regular.ttf",
+      "postScriptName": "Devonshire-Regular",
+      "fullName": "Devonshire-Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

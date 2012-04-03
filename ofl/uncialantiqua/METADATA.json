@@ -1,0 +1,21 @@
+{
+  "name": "Uncial Antiqua",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34018,
+  "fonts": [
+    {
+      "name": "Uncial Antiqua",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UncialAntiqua-Regular.ttf",
+      "postScriptName": "UncialAntiqua-Regular",
+      "fullName": "Uncial Antiqua"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

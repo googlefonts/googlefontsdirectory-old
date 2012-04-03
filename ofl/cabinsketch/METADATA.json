@@ -1,0 +1,29 @@
+{
+  "name": "Cabin Sketch",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 103529,
+  "fonts": [
+    {
+      "name": "Cabin Sketch",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CabinSketch-Regular.ttf",
+      "postScriptName": "CabinSketch-Regular",
+      "fullName": "Cabin Sketch Regular"
+    },
+    {
+      "name": "Cabin Sketch",
+      "style": "normal",
+      "weight": 700,
+      "filename": "CabinSketch-Bold.ttf",
+      "postScriptName": "CabinSketch-Bold",
+      "fullName": "CabinSketch Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

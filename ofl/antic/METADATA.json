@@ -1,0 +1,21 @@
+{
+  "name": "Antic",
+  "designer": "Santiago Orozco",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20884,
+  "fonts": [
+    {
+      "name": "Antic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Antic-Regular.ttf",
+      "postScriptName": "Antic-Regular",
+      "fullName": "Antic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

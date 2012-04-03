@@ -1,0 +1,22 @@
+{
+  "name": "Cutive",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 43435,
+  "fonts": [
+    {
+      "name": "Cutive",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cutive-Regular.ttf",
+      "postScriptName": "Cutive-Regular",
+      "fullName": "Cutive"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

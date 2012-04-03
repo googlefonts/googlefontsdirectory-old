@@ -1,0 +1,21 @@
+{
+  "name": "Bangers",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21678,
+  "fonts": [
+    {
+      "name": "Bangers",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bangers.ttf",
+      "postScriptName": "Bangers-Regular",
+      "fullName": "Bangers"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

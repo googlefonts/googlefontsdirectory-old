@@ -1,0 +1,21 @@
+{
+  "name": "Macondo Swash Caps",
+  "designer": "John Vargas Beltrán",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 17700,
+  "fonts": [
+    {
+      "name": "Macondo Swash Caps",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MacondoSwashCaps-Regular.ttf",
+      "postScriptName": "MacondoSwashCaps-Regular",
+      "fullName": "Macondo Swash Caps"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Spinnaker",
+  "designer": "Elena Albertoni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 15865,
+  "fonts": [
+    {
+      "name": "Spinnaker",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Spinnaker-Regular.ttf",
+      "postScriptName": "Spinnaker-Regular",
+      "fullName": "Spinnaker"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

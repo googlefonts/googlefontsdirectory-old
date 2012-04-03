@@ -1,0 +1,22 @@
+{
+  "name": "Anton",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 23324,
+  "fonts": [
+    {
+      "name": "Anton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Anton.ttf",
+      "postScriptName": "Anton",
+      "fullName": "Anton"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

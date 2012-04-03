@@ -1,0 +1,21 @@
+{
+  "name": "Inconsolata",
+  "designer": "Raph Levien",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 56042,
+  "fonts": [
+    {
+      "name": "Inconsolata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Inconsolata.ttf",
+      "postScriptName": "Inconsolata",
+      "fullName": "Inconsolata"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

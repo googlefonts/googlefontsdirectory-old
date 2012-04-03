@@ -1,0 +1,29 @@
+{
+  "name": "Asul",
+  "designer": "Mariela Monsalve",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 18423,
+  "fonts": [
+    {
+      "name": "Asul",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Asul-Regular.ttf",
+      "postScriptName": "Asul-Regular",
+      "fullName": "Asul"
+    },
+    {
+      "name": "Asul",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Asul-Bold.ttf",
+      "postScriptName": "Asul-Bold",
+      "fullName": "Asul Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Slackey",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24108,
+  "fonts": [
+    {
+      "name": "Slackey",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Slackey.ttf",
+      "postScriptName": "Slackey",
+      "fullName": "Slackey"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

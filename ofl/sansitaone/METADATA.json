@@ -1,0 +1,21 @@
+{
+  "name": "Sansita One",
+  "designer": "Omnibus-Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24780,
+  "fonts": [
+    {
+      "name": "Sansita One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SansitaOne.ttf",
+      "postScriptName": "SansitaOne",
+      "fullName": "Sansita One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

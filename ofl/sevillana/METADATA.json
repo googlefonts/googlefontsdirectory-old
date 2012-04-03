@@ -1,0 +1,22 @@
+{
+  "name": "Sevillana",
+  "designer": "Brownfox",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 79591,
+  "fonts": [
+    {
+      "name": "Sevillana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sevillana-Regular.ttf",
+      "postScriptName": "Sevillana-Regular",
+      "fullName": "Sevillana"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

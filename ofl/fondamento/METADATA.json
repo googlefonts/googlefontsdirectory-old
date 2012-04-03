@@ -1,0 +1,30 @@
+{
+  "name": "Fondamento",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 44342,
+  "fonts": [
+    {
+      "name": "Fondamento",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fondamento-Regular.ttf",
+      "postScriptName": "Fondamento-Regular",
+      "fullName": "Fondamento Regular"
+    },
+    {
+      "name": "Fondamento",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Fondamento-Italic.ttf",
+      "postScriptName": "Fondamento-Italic",
+      "fullName": "Fondamento-Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

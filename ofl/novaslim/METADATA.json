@@ -1,0 +1,21 @@
+{
+  "name": "Nova Slim",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 39969,
+  "fonts": [
+    {
+      "name": "Nova Slim",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NovaSlim.ttf",
+      "postScriptName": "NovaSlim",
+      "fullName": "Nova Slim"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "PT Sans",
+  "designer": "multiple designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 229341,
+  "fonts": [
+    {
+      "name": "PT Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Sans-Web-Regular.ttf",
+      "postScriptName": "PTSans-Regular",
+      "fullName": "PT Sans"
+    },
+    {
+      "name": "PT Sans",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PT_Sans-Web-Italic.ttf",
+      "postScriptName": "PTSans-Italic",
+      "fullName": "PT Sans Italic"
+    },
+    {
+      "name": "PT Sans",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Sans-Web-Bold.ttf",
+      "postScriptName": "PTSans-Bold",
+      "fullName": "PT Sans Bold"
+    },
+    {
+      "name": "PT Sans",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PT_Sans-Web-BoldItalic.ttf",
+      "postScriptName": "PTSans-BoldItalic",
+      "fullName": "PT Sans Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Artifika",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 69110,
+  "fonts": [
+    {
+      "name": "Artifika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Artifika-Regular.ttf",
+      "postScriptName": "Artifika-Medium",
+      "fullName": "Artifika Medium"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

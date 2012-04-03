@@ -1,0 +1,29 @@
+{
+  "name": "Arapey",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 14833,
+  "fonts": [
+    {
+      "name": "Arapey",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arapey-Regular.ttf",
+      "postScriptName": "Arapey-Regular",
+      "fullName": "Arapey Regular"
+    },
+    {
+      "name": "Arapey",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Arapey-Italic.ttf",
+      "postScriptName": "Arapey-Italic",
+      "fullName": "Arapey Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

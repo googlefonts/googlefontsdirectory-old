@@ -1,0 +1,61 @@
+{
+  "name": "Averia Sans Libre",
+  "designer": "Dan Sayers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 61046,
+  "fonts": [
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AveriaSansLibre-Light.ttf",
+      "postScriptName": "AveriaSansLibre-Light",
+      "fullName": "Averia Sans Libre Light"
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 300,
+      "filename": "AveriaSansLibre-LightItalic.ttf",
+      "postScriptName": "AveriaSansLibre-LightItalic",
+      "fullName": "Averia Sans Libre Light Italic"
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AveriaSansLibre-Regular.ttf",
+      "postScriptName": "AveriaSansLibre-Regular",
+      "fullName": "Averia Sans Libre Regular"
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AveriaSansLibre-Italic.ttf",
+      "postScriptName": "AveriaSansLibre-Italic",
+      "fullName": "Averia Sans Libre Italic"
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AveriaSansLibre-Bold.ttf",
+      "postScriptName": "AveriaSansLibre-Bold",
+      "fullName": "Averia Sans Libre Bold"
+    },
+    {
+      "name": "Averia Sans Libre",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AveriaSansLibre-BoldItalic.ttf",
+      "postScriptName": "AveriaSansLibre-BoldItalic",
+      "fullName": "Averia Sans Libre Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Maven Pro",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 33149,
+  "fonts": [
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MavenPro-Regular.ttf",
+      "postScriptName": "MavenProRegular",
+      "fullName": "Maven Pro Regular"
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 500,
+      "filename": "MavenPro-Medium.ttf",
+      "postScriptName": "MavenProMedium",
+      "fullName": "Maven Pro Medium"
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MavenPro-Bold.ttf",
+      "postScriptName": "MavenProBold",
+      "fullName": "Maven Pro Bold"
+    },
+    {
+      "name": "Maven Pro",
+      "style": "normal",
+      "weight": 900,
+      "filename": "MavenPro-Black.ttf",
+      "postScriptName": "MavenProBlack",
+      "fullName": "Maven Pro Black"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

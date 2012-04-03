@@ -1,0 +1,21 @@
+{
+  "name": "Ceviche One",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22046,
+  "fonts": [
+    {
+      "name": "Ceviche One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CevicheOne-Regular.ttf",
+      "postScriptName": "CevicheOne-Regular",
+      "fullName": "Ceviche One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

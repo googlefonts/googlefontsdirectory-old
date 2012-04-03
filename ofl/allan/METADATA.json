@@ -1,0 +1,21 @@
+{
+  "name": "Allan",
+  "designer": "Anton Koovit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 42432,
+  "fonts": [
+    {
+      "name": "Allan",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Allan-Bold.ttf",
+      "postScriptName": "Allan",
+      "fullName": "Allan"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

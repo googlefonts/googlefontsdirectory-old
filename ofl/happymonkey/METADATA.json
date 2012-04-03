@@ -1,0 +1,21 @@
+{
+  "name": "Happy Monkey",
+  "designer": "Brenda Gallo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40103,
+  "fonts": [
+    {
+      "name": "Happy Monkey",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HappyMonkey-Regular.ttf",
+      "postScriptName": "HappyMonkey-Regular",
+      "fullName": "Happy Monkey"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Overlock",
+  "designer": "Dario Manuel Muhafara",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25546,
+  "fonts": [
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Overlock-Regular.ttf",
+      "postScriptName": "Overlock-Regular",
+      "fullName": "Overlock"
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Overlock-Italic.ttf",
+      "postScriptName": "Overlock-Italic",
+      "fullName": "Overlock-Italic"
+    },
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Overlock-Bold.ttf",
+      "postScriptName": "Overlock-Bold",
+      "fullName": "Overlock-Bold"
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Overlock-BoldItalic.ttf",
+      "postScriptName": "Overlock-BoldItalic",
+      "fullName": "Overlock-BoldItalic"
+    },
+    {
+      "name": "Overlock",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Overlock-Black.ttf",
+      "postScriptName": "Overlock-Black",
+      "fullName": "Overlock-Black"
+    },
+    {
+      "name": "Overlock",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Overlock-BlackItalic.ttf",
+      "postScriptName": "Overlock-BlackItalic",
+      "fullName": "Overlock-BlackItalic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Snippet",
+  "designer": "Gesine Todt",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 19466,
+  "fonts": [
+    {
+      "name": "Snippet",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Snippet.ttf",
+      "postScriptName": "Snippet",
+      "fullName": "Snippet"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

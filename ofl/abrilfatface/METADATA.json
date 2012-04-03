@@ -1,0 +1,22 @@
+{
+  "name": "Abril Fatface",
+  "designer": "TypeTogether",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 29201,
+  "fonts": [
+    {
+      "name": "Abril Fatface",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AbrilFatface-Regular.ttf",
+      "postScriptName": "AbrilFatface-Regular",
+      "fullName": "Abril Fatface"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

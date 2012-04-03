@@ -1,0 +1,21 @@
+{
+  "name": "Amethysta",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 35799,
+  "fonts": [
+    {
+      "name": "Amethysta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Amethysta-Regular.ttf",
+      "postScriptName": "Amethysta-Regular",
+      "fullName": "Amethysta"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

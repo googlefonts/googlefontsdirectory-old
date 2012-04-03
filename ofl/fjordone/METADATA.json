@@ -1,0 +1,21 @@
+{
+  "name": "Fjord One",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 26548,
+  "fonts": [
+    {
+      "name": "Fjord One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FjordOne-Regular.ttf",
+      "postScriptName": "Fjord-One",
+      "fullName": "Fjord One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

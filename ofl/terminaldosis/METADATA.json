@@ -1,0 +1,70 @@
+{
+  "name": "Terminal Dosis",
+  "designer": "Pablo Impallari",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 65681,
+  "fonts": [
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Dosis-ExtraLight.ttf",
+      "postScriptName": "Dosis-ExtraLight",
+      "fullName": "Dosis ExtraLight"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Dosis-Light.ttf",
+      "postScriptName": "Dosis-Light",
+      "fullName": "Dosis Light"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dosis-Regular.ttf",
+      "postScriptName": "Dosis-Regular",
+      "fullName": "Dosis Regular"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Dosis-Medium.ttf",
+      "postScriptName": "Dosis-Medium",
+      "fullName": "Dosis Medium"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 600,
+      "filename": "Dosis-SemiBold.ttf",
+      "postScriptName": "Dosis-SemiBold",
+      "fullName": "Dosis SemiBold"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Dosis-Bold.ttf",
+      "postScriptName": "Dosis-Bold",
+      "fullName": "Dosis Bold"
+    },
+    {
+      "name": "Terminal Dosis",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Dosis-ExtraBold.ttf",
+      "postScriptName": "Dosis-ExtraBold",
+      "fullName": "Dosis ExtraBold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

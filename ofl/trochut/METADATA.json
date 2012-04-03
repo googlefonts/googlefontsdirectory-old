@@ -1,0 +1,37 @@
+{
+  "name": "Trochut",
+  "designer": "Andreu Balius",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 12742,
+  "fonts": [
+    {
+      "name": "Trochut",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Trochut-Regular.ttf",
+      "postScriptName": "Trochut",
+      "fullName": "Trochut"
+    },
+    {
+      "name": "Trochut",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Trochut-Italic.ttf",
+      "postScriptName": "Trochut-Italic",
+      "fullName": "Trochut Italic"
+    },
+    {
+      "name": "Trochut",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Trochut-Bold.ttf",
+      "postScriptName": "Trochut-Bold",
+      "fullName": "Trochut Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

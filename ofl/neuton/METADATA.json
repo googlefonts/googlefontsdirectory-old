@@ -1,0 +1,62 @@
+{
+  "name": "Neuton",
+  "designer": "Brian Zick",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 29256,
+  "fonts": [
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 200,
+      "filename": "Neuton-ExtraLight.ttf",
+      "postScriptName": "Neuton-ExtraLight",
+      "fullName": "Neuton Extralight"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Neuton-Light.ttf",
+      "postScriptName": "Neuton-Light",
+      "fullName": "Neuton Light"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Neuton-Regular.ttf",
+      "postScriptName": "Neuton-Regular",
+      "fullName": "Neuton Regular"
+    },
+    {
+      "name": "Neuton",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Neuton-Italic.ttf",
+      "postScriptName": "Neuton-Italic",
+      "fullName": "Neuton Italic"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Neuton-Bold.ttf",
+      "postScriptName": "Neuton-Bold",
+      "fullName": "Neuton Bold"
+    },
+    {
+      "name": "Neuton",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Neuton-ExtraBold.ttf",
+      "postScriptName": "Neuton-ExtraBold",
+      "fullName": "Neuton Extrabold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

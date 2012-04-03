@@ -1,0 +1,21 @@
+{
+  "name": "Reenie Beanie",
+  "designer": "James Grieshaber",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 64386,
+  "fonts": [
+    {
+      "name": "Reenie Beanie",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ReenieBeanie.ttf",
+      "postScriptName": "ReenieBeanie",
+      "fullName": "Reenie Beanie"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

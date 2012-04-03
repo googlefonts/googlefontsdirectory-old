@@ -1,0 +1,50 @@
+{
+  "name": "Ubuntu Mono",
+  "designer": "Dalton Maag",
+  "license": "UFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 112445,
+  "fonts": [
+    {
+      "name": "Ubuntu Mono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UbuntuMono-Regular.ttf",
+      "postScriptName": "UbuntuMono-Regular",
+      "fullName": "Ubuntu Mono"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "italic",
+      "weight": 400,
+      "filename": "UbuntuMono-Italic.ttf",
+      "postScriptName": "UbuntuMono-Italic",
+      "fullName": "Ubuntu Mono Italic"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "normal",
+      "weight": 700,
+      "filename": "UbuntuMono-Bold.ttf",
+      "postScriptName": "UbuntuMono-Bold",
+      "fullName": "Ubuntu Mono Bold"
+    },
+    {
+      "name": "Ubuntu Mono",
+      "style": "italic",
+      "weight": 700,
+      "filename": "UbuntuMono-BoldItalic.ttf",
+      "postScriptName": "UbuntuMono-BoldItalic",
+      "fullName": "Ubuntu Mono Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin"
+  ]
+}

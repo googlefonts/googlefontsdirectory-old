@@ -1,0 +1,29 @@
+{
+  "name": "Coda",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19827,
+  "fonts": [
+    {
+      "name": "Coda",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Coda-Regular.ttf",
+      "postScriptName": "Coda-Regular",
+      "fullName": "Coda Regular"
+    },
+    {
+      "name": "Coda",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Coda-Heavy.ttf",
+      "postScriptName": "Coda-Heavy",
+      "fullName": "Coda-Heavy"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

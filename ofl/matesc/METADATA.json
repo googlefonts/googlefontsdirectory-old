@@ -1,0 +1,21 @@
+{
+  "name": "Mate SC",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15619,
+  "fonts": [
+    {
+      "name": "Mate SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MateSC-Regular.ttf",
+      "postScriptName": "MateSC-Regular",
+      "fullName": "Mate SC Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

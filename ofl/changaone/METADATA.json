@@ -1,0 +1,29 @@
+{
+  "name": "Changa One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 13542,
+  "fonts": [
+    {
+      "name": "Changa One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ChangaOne-Regular.ttf",
+      "postScriptName": "ChangaOne",
+      "fullName": "Changa One"
+    },
+    {
+      "name": "Changa One",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ChangaOne-Italic.ttf",
+      "postScriptName": "ChangaOne-Italic",
+      "fullName": "Changa One Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

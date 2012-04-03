@@ -1,0 +1,29 @@
+{
+  "name": "Dhyana",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 50586,
+  "fonts": [
+    {
+      "name": "Dhyana",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dhyana-Regular.ttf",
+      "postScriptName": "Dhyana",
+      "fullName": "Dhyana"
+    },
+    {
+      "name": "Dhyana",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Dhyana-Bold.ttf",
+      "postScriptName": "Dhyana-Bold",
+      "fullName": "Dhyana Bold"
+    }
+  ],
+  "subsets": [
+    "lao"
+  ]
+}

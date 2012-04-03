@@ -1,0 +1,22 @@
+{
+  "name": "Stoke",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27223,
+  "fonts": [
+    {
+      "name": "Stoke",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Stoke-Regular.ttf",
+      "postScriptName": "Stoke-Regular",
+      "fullName": "Stoke"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

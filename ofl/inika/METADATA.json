@@ -1,0 +1,30 @@
+{
+  "name": "Inika",
+  "designer": "Constanza Artigas",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 21019,
+  "fonts": [
+    {
+      "name": "Inika",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Inika-Regular.ttf",
+      "postScriptName": "Inika",
+      "fullName": "Inika"
+    },
+    {
+      "name": "Inika",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Inika-Bold.ttf",
+      "postScriptName": "Inika-Bold",
+      "fullName": "Inika Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

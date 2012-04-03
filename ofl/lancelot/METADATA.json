@@ -1,0 +1,21 @@
+{
+  "name": "Lancelot",
+  "designer": "Marion Kadi",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 31944,
+  "fonts": [
+    {
+      "name": "Lancelot",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lancelot-Regular.ttf",
+      "postScriptName": "Lancelot",
+      "fullName": "Lancelot"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

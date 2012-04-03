@@ -1,0 +1,22 @@
+{
+  "name": "MedievalSharp",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 75332,
+  "fonts": [
+    {
+      "name": "MedievalSharp",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MedievalSharp.ttf",
+      "postScriptName": "MedievalSharp",
+      "fullName": "MedievalSharp"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

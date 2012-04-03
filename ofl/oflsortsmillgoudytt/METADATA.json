@@ -1,0 +1,29 @@
+{
+  "name": "OFL Sorts Mill Goudy TT",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 81090,
+  "fonts": [
+    {
+      "name": "OFL Sorts Mill Goudy TT",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OFLGoudyStMTT.ttf",
+      "postScriptName": "OFLGoudyStMTT",
+      "fullName": "OFL Sorts Mill Goudy TT"
+    },
+    {
+      "name": "OFL Sorts Mill Goudy TT",
+      "style": "italic",
+      "weight": 400,
+      "filename": "OFLGoudyStMTT-Italic.ttf",
+      "postScriptName": "OFLGoudyStMTT-Italic",
+      "fullName": "OFL Sorts Mill Goudy TT Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

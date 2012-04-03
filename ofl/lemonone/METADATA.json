@@ -1,0 +1,21 @@
+{
+  "name": "Lemon One",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 17765,
+  "fonts": [
+    {
+      "name": "Lemon One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "LemonOne-Regular.ttf",
+      "postScriptName": "LemonOne-Regular",
+      "fullName": "Lemon One Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

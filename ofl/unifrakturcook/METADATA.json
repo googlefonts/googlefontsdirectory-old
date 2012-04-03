@@ -1,0 +1,21 @@
+{
+  "name": "UnifrakturCook",
+  "designer": "j. 'mach' wust",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27928,
+  "fonts": [
+    {
+      "name": "UnifrakturCook",
+      "style": "normal",
+      "weight": 700,
+      "filename": "UnifrakturCook-Bold.ttf",
+      "postScriptName": "UnifrakturCook-Bold",
+      "fullName": "UnifrakturCook"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

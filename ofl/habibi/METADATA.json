@@ -1,0 +1,22 @@
+{
+  "name": "Habibi",
+  "designer": "Magnus Gaarde",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 21968,
+  "fonts": [
+    {
+      "name": "Habibi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Habibi-Regular.ttf",
+      "postScriptName": "Habibi-Regular",
+      "fullName": "Habibi"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

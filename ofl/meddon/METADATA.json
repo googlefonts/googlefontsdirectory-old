@@ -1,0 +1,21 @@
+{
+  "name": "Meddon",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 85171,
+  "fonts": [
+    {
+      "name": "Meddon",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Meddon.ttf",
+      "postScriptName": "Meddon",
+      "fullName": "Meddon"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

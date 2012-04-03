@@ -1,0 +1,29 @@
+{
+  "name": "Tangerine",
+  "designer": "Toshi Omagari",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 32183,
+  "fonts": [
+    {
+      "name": "Tangerine",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tangerine_Regular.ttf",
+      "postScriptName": "Tangerine",
+      "fullName": "Tangerine"
+    },
+    {
+      "name": "Tangerine",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tangerine_Bold.ttf",
+      "postScriptName": "Tangerine-Bold",
+      "fullName": "Tangerine Bold"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

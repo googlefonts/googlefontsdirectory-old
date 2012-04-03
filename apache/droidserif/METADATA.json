@@ -1,0 +1,45 @@
+{
+  "name": "Droid Serif",
+  "designer": "Steve Matteson",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27804,
+  "fonts": [
+    {
+      "name": "Droid Serif",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DroidSerif.ttf",
+      "postScriptName": "DroidSerif",
+      "fullName": "Droid Serif"
+    },
+    {
+      "name": "Droid Serif",
+      "style": "italic",
+      "weight": 400,
+      "filename": "DroidSerif-Italic.ttf",
+      "postScriptName": "DroidSerif-Italic",
+      "fullName": "Droid Serif Italic"
+    },
+    {
+      "name": "Droid Serif",
+      "style": "normal",
+      "weight": 700,
+      "filename": "DroidSerif-Bold.ttf",
+      "postScriptName": "DroidSerif-Bold",
+      "fullName": "Droid Serif Bold"
+    },
+    {
+      "name": "Droid Serif",
+      "style": "italic",
+      "weight": 700,
+      "filename": "DroidSerif-BoldItalic.ttf",
+      "postScriptName": "DroidSerif-BoldItalic",
+      "fullName": "Droid Serif Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

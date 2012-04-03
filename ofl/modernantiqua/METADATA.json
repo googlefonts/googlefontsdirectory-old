@@ -1,0 +1,22 @@
+{
+  "name": "Modern Antiqua",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 26792,
+  "fonts": [
+    {
+      "name": "Modern Antiqua",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ModernAntiqua-Regular.ttf",
+      "postScriptName": "ModernAntiqua-Regular",
+      "fullName": "Modern Antiqua Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

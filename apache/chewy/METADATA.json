@@ -1,0 +1,21 @@
+{
+  "name": "Chewy",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25143,
+  "fonts": [
+    {
+      "name": "Chewy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chewy.ttf",
+      "postScriptName": "Chewy",
+      "fullName": "Chewy"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

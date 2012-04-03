@@ -1,0 +1,29 @@
+{
+  "name": "Mate",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 15411,
+  "fonts": [
+    {
+      "name": "Mate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Mate-Regular.ttf",
+      "postScriptName": "Mate-Regular",
+      "fullName": "Mate-Regular"
+    },
+    {
+      "name": "Mate",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Mate-Italic.ttf",
+      "postScriptName": "Mate-Italic",
+      "fullName": "Mate Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

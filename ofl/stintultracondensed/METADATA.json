@@ -1,0 +1,22 @@
+{
+  "name": "Stint Ultra Condensed",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21994,
+  "fonts": [
+    {
+      "name": "Stint Ultra Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "StintUltraCondensed-Regular.ttf",
+      "postScriptName": "StintUltraCondensed-Regular",
+      "fullName": "Stint Ultra Condensed"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

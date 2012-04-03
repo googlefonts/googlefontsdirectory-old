@@ -1,0 +1,48 @@
+{
+  "name": "Caudex",
+  "designer": "Nidud",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 188237,
+  "fonts": [
+    {
+      "name": "Caudex",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Caudex-Regular.ttf",
+      "postScriptName": "Caudex",
+      "fullName": "Caudex"
+    },
+    {
+      "name": "Caudex",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Caudex-Italic.ttf",
+      "postScriptName": "Caudex-Italic",
+      "fullName": "Caudex Italic"
+    },
+    {
+      "name": "Caudex",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Caudex-Bold.ttf",
+      "postScriptName": "Caudex-Bold",
+      "fullName": "Caudex Bold"
+    },
+    {
+      "name": "Caudex",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Caudex-BoldItalic.ttf",
+      "postScriptName": "Caudex-BoldItalic",
+      "fullName": "Caudex Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "greek",
+    "latin"
+  ]
+}

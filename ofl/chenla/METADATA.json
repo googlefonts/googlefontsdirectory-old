@@ -1,0 +1,21 @@
+{
+  "name": "Chenla",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 62116,
+  "fonts": [
+    {
+      "name": "Chenla",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Chenla.ttf",
+      "postScriptName": "Chenla",
+      "fullName": "Chenla"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

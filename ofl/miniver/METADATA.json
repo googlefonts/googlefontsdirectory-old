@@ -1,0 +1,21 @@
+{
+  "name": "Miniver",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 29283,
+  "fonts": [
+    {
+      "name": "Miniver",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Miniver-Regular.ttf",
+      "postScriptName": "Miniver",
+      "fullName": "Miniver"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Vast Shadow",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 32235,
+  "fonts": [
+    {
+      "name": "Vast Shadow",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VastShadow-Regular.ttf",
+      "postScriptName": "VastShadow-Regular",
+      "fullName": "Vast Shadow Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

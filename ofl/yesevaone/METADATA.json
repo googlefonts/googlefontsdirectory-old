@@ -1,0 +1,21 @@
+{
+  "name": "Yeseva One",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 15436,
+  "fonts": [
+    {
+      "name": "Yeseva One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "YesevaOne.ttf",
+      "postScriptName": "YesevaOne-Regular",
+      "fullName": "Yeseva One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

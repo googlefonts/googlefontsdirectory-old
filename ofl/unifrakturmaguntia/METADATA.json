@@ -1,0 +1,21 @@
+{
+  "name": "UnifrakturMaguntia",
+  "designer": "j. 'mach' wust",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 45486,
+  "fonts": [
+    {
+      "name": "UnifrakturMaguntia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "UnifrakturMaguntia-Book.ttf",
+      "postScriptName": "UnifrakturMaguntia",
+      "fullName": "UnifrakturMaguntia"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

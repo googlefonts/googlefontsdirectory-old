@@ -1,0 +1,22 @@
+{
+  "name": "Cuprum",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 86698,
+  "fonts": [
+    {
+      "name": "Cuprum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cuprum.ttf",
+      "postScriptName": "Cuprum",
+      "fullName": "Cuprum"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin"
+  ]
+}

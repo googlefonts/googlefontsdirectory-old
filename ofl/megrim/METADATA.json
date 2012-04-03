@@ -1,0 +1,21 @@
+{
+  "name": "Megrim",
+  "designer": "Daniel Johnson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 27044,
+  "fonts": [
+    {
+      "name": "Megrim",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Megrim.ttf",
+      "postScriptName": "Megrim",
+      "fullName": "Megrim"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

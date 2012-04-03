@@ -1,0 +1,47 @@
+{
+  "name": "Noticia Text",
+  "designer": "JM Solé",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 60942,
+  "fonts": [
+    {
+      "name": "Noticia Text",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NoticiaText-Regular.ttf",
+      "postScriptName": "NoticiaText-Regular",
+      "fullName": "Noticia Text"
+    },
+    {
+      "name": "Noticia Text",
+      "style": "italic",
+      "weight": 400,
+      "filename": "NoticiaText-Italic.ttf",
+      "postScriptName": "NoticiaText-Italic",
+      "fullName": "Noticia Text Italic"
+    },
+    {
+      "name": "Noticia Text",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NoticiaText-Bold.ttf",
+      "postScriptName": "NoticiaText-Bold",
+      "fullName": "Noticia Text Bold"
+    },
+    {
+      "name": "Noticia Text",
+      "style": "italic",
+      "weight": 700,
+      "filename": "NoticiaText-BoldItalic.ttf",
+      "postScriptName": "NoticiaText-BoldItalic",
+      "fullName": "Noticia Text Bold Italic"
+    }
+  ],
+  "subsets": [
+    "vietnamese",
+    "latin-ext",
+    "latin"
+  ]
+}

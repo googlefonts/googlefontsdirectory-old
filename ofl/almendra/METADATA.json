@@ -1,0 +1,38 @@
+{
+  "name": "Almendra",
+  "designer": "Ana Sanfelippo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27396,
+  "fonts": [
+    {
+      "name": "Almendra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Almendra-Regular.ttf",
+      "postScriptName": "Almendra-Regular",
+      "fullName": "Almendra"
+    },
+    {
+      "name": "Almendra",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Almendra-Italic.ttf",
+      "postScriptName": "Almendra-Italic",
+      "fullName": "Almendra Italic"
+    },
+    {
+      "name": "Almendra",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Almendra-Bold.ttf",
+      "postScriptName": "Almendra-Bold",
+      "fullName": "Almendra Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

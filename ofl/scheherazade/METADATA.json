@@ -1,0 +1,21 @@
+{
+  "name": "Scheherazade",
+  "designer": "SIL International",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Handwriting",
+  "size": 118029,
+  "fonts": [
+    {
+      "name": "Scheherazade",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ScheherazadeRegOT.ttf",
+      "postScriptName": "Scheherazade",
+      "fullName": "Scheherazade"
+    }
+  ],
+  "subsets": [
+    "arabic"
+  ]
+}

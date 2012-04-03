@@ -1,0 +1,30 @@
+{
+  "name": "Radley",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 46103,
+  "fonts": [
+    {
+      "name": "Radley",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Radley-Regular.ttf",
+      "postScriptName": "Radley",
+      "fullName": "Radley"
+    },
+    {
+      "name": "Radley",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Radley-Italic.ttf",
+      "postScriptName": "Radley-Italic",
+      "fullName": "Radley Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

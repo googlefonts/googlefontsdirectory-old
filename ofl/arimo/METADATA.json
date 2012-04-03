@@ -1,0 +1,45 @@
+{
+  "name": "Arimo",
+  "designer": "Steve Matteson",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 26956,
+  "fonts": [
+    {
+      "name": "Arimo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arimo-Regular.ttf",
+      "postScriptName": "Arimo",
+      "fullName": "Arimo"
+    },
+    {
+      "name": "Arimo",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Arimo-Italic.ttf",
+      "postScriptName": "Arimo-Italic",
+      "fullName": "Arimo Italic"
+    },
+    {
+      "name": "Arimo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arimo-Bold.ttf",
+      "postScriptName": "Arimo-Bold",
+      "fullName": "Arimo Bold"
+    },
+    {
+      "name": "Arimo",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Arimo-BoldItalic.ttf",
+      "postScriptName": "Arimo-BoldItalic",
+      "fullName": "Arimo Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

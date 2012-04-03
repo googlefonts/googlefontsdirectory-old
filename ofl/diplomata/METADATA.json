@@ -1,0 +1,22 @@
+{
+  "name": "Diplomata",
+  "designer": "Eduardo Tunni",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22203,
+  "fonts": [
+    {
+      "name": "Diplomata",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Diplomata-Regular.ttf",
+      "postScriptName": "Diplomata-Regular",
+      "fullName": "Diplomata"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

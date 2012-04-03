@@ -1,0 +1,21 @@
+{
+  "name": "Montaga",
+  "designer": "Alejandra Rodriguez",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 17847,
+  "fonts": [
+    {
+      "name": "Montaga",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Montaga-Regular.ttf",
+      "postScriptName": "Montaga-Regular",
+      "fullName": "Montaga"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

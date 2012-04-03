@@ -1,0 +1,21 @@
+{
+  "name": "Sniglet",
+  "designer": "Haley Fiege",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 17327,
+  "fonts": [
+    {
+      "name": "Sniglet",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Sniglet-Regular.ttf",
+      "postScriptName": "Sniglet",
+      "fullName": "Sniglet"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

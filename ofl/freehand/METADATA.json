@@ -1,0 +1,21 @@
+{
+  "name": "Freehand",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 81250,
+  "fonts": [
+    {
+      "name": "Freehand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Freehand.ttf",
+      "postScriptName": "Freehand",
+      "fullName": "Freehand"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

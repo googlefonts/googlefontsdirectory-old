@@ -1,0 +1,21 @@
+{
+  "name": "Macondo",
+  "designer": "John Vargas Beltrán",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 22083,
+  "fonts": [
+    {
+      "name": "Macondo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Macondo-Regular.ttf",
+      "postScriptName": "Macondo-Regular",
+      "fullName": "Macondo"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

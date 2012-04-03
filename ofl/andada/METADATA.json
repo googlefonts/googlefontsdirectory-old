@@ -1,0 +1,22 @@
+{
+  "name": "Andada",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 33234,
+  "fonts": [
+    {
+      "name": "Andada",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Andada-Regular.ttf",
+      "postScriptName": "Andada-Regular",
+      "fullName": "Andada-Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

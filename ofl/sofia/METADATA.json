@@ -1,0 +1,21 @@
+{
+  "name": "Sofia",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 16989,
+  "fonts": [
+    {
+      "name": "Sofia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sofia-Regular.ttf",
+      "postScriptName": "Sofia-Regular",
+      "fullName": "Sofia"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

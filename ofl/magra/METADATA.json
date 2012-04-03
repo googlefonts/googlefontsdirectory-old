@@ -1,0 +1,30 @@
+{
+  "name": "Magra",
+  "designer": "FontFuror",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 23060,
+  "fonts": [
+    {
+      "name": "Magra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Magra-Regular.ttf",
+      "postScriptName": "Magra",
+      "fullName": "Magra"
+    },
+    {
+      "name": "Magra",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Magra-Bold.ttf",
+      "postScriptName": "Magra-Bold",
+      "fullName": "Magra Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

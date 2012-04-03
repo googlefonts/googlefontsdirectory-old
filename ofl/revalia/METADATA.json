@@ -1,0 +1,22 @@
+{
+  "name": "Revalia",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 30510,
+  "fonts": [
+    {
+      "name": "Revalia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Revalia-Regular.ttf",
+      "postScriptName": "Revalia-Regular",
+      "fullName": "Revalia-Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

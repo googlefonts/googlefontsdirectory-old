@@ -1,0 +1,21 @@
+{
+  "name": "Federo",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 69453,
+  "fonts": [
+    {
+      "name": "Federo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Federo-Regular.ttf",
+      "postScriptName": "Federo-Regular",
+      "fullName": "Federo"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

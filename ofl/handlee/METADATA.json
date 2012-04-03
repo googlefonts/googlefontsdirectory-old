@@ -1,0 +1,21 @@
+{
+  "name": "Handlee",
+  "designer": "Joe Prince",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22842,
+  "fonts": [
+    {
+      "name": "Handlee",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Handlee-Regular.ttf",
+      "postScriptName": "Handlee-Regular",
+      "fullName": "Handlee Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

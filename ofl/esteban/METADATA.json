@@ -1,0 +1,22 @@
+{
+  "name": "Esteban",
+  "designer": "Angélica Díaz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23463,
+  "fonts": [
+    {
+      "name": "Esteban",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Esteban-Regular.ttf",
+      "postScriptName": "Esteban",
+      "fullName": "Esteban"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

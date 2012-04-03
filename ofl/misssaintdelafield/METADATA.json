@@ -1,0 +1,22 @@
+{
+  "name": "Miss Saint Delafield",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Handwriting",
+  "size": 26638,
+  "fonts": [
+    {
+      "name": "Miss Saint Delafield",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MrsSaintDelafield-Regular.ttf",
+      "postScriptName": "MrsSaintDelafield-Regular",
+      "fullName": "Mrs Saint Delafield Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

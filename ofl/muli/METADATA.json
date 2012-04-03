@@ -1,0 +1,45 @@
+{
+  "name": "Muli",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 32086,
+  "fonts": [
+    {
+      "name": "Muli",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Muli-Light.ttf",
+      "postScriptName": "Muli-Light",
+      "fullName": "Muli Light"
+    },
+    {
+      "name": "Muli",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Muli-LightItalic.ttf",
+      "postScriptName": "Muli-LightItalic",
+      "fullName": "Muli Light Italic"
+    },
+    {
+      "name": "Muli",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Muli-Regular.ttf",
+      "postScriptName": "Muli",
+      "fullName": "Muli"
+    },
+    {
+      "name": "Muli",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Muli-Italic.ttf",
+      "postScriptName": "Muli-Italic",
+      "fullName": "Muli Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

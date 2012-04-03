@@ -1,0 +1,21 @@
+{
+  "name": "Just Another Hand",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 94296,
+  "fonts": [
+    {
+      "name": "Just Another Hand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "JustAnotherHand.ttf",
+      "postScriptName": "JustAnotherHand-Regular",
+      "fullName": "Just Another Hand"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

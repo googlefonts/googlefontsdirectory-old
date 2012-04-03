@@ -1,0 +1,93 @@
+{
+  "name": "Lato",
+  "designer": "Łukasz Dziedzic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 51318,
+  "fonts": [
+    {
+      "name": "Lato",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Lato-Hairline.ttf",
+      "postScriptName": "Lato-Hairline",
+      "fullName": "Lato Hairline"
+    },
+    {
+      "name": "Lato",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Lato-HairlineItalic.ttf",
+      "postScriptName": "Lato-HairlineItalic",
+      "fullName": "Lato Hairline Italic"
+    },
+    {
+      "name": "Lato",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Lato-Light.ttf",
+      "postScriptName": "Lato-Light",
+      "fullName": "Lato Light"
+    },
+    {
+      "name": "Lato",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Lato-LightItalic.ttf",
+      "postScriptName": "Lato-LightItalic",
+      "fullName": "Lato Light Italic"
+    },
+    {
+      "name": "Lato",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Lato-Regular.ttf",
+      "postScriptName": "Lato-Regular",
+      "fullName": "Lato Regular"
+    },
+    {
+      "name": "Lato",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Lato-Italic.ttf",
+      "postScriptName": "Lato-Italic",
+      "fullName": "Lato Italic"
+    },
+    {
+      "name": "Lato",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Lato-Bold.ttf",
+      "postScriptName": "Lato-Bold",
+      "fullName": "Lato Bold"
+    },
+    {
+      "name": "Lato",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Lato-BoldItalic.ttf",
+      "postScriptName": "Lato-BoldItalic",
+      "fullName": "Lato Bold Italic"
+    },
+    {
+      "name": "Lato",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Lato-Black.ttf",
+      "postScriptName": "Lato-Black",
+      "fullName": "Lato Black"
+    },
+    {
+      "name": "Lato",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Lato-BlackItalic.ttf",
+      "postScriptName": "Lato-BlackItalic",
+      "fullName": "Lato Black Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

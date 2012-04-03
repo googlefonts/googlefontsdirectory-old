@@ -1,0 +1,21 @@
+{
+  "name": "Fascinate",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 25808,
+  "fonts": [
+    {
+      "name": "Fascinate",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fascinate-Regular.ttf",
+      "postScriptName": "Fascinate-Regular",
+      "fullName": "Fascinate"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

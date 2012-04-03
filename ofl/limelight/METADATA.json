@@ -1,0 +1,21 @@
+{
+  "name": "Limelight",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24948,
+  "fonts": [
+    {
+      "name": "Limelight",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Limelight.ttf",
+      "postScriptName": "Limelight",
+      "fullName": "Limelight"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

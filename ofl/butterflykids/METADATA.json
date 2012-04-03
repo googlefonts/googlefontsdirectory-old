@@ -1,0 +1,22 @@
+{
+  "name": "Butterfly Kids",
+  "designer": "Tart Workshop",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 98240,
+  "fonts": [
+    {
+      "name": "Butterfly Kids",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ButterflyKids-Regular.ttf",
+      "postScriptName": "ButterflyKids",
+      "fullName": "Butterfly Kids"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

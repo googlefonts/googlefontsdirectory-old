@@ -1,0 +1,24 @@
+{
+  "name": "Ruslan Display",
+  "designer": "Denis Masharov",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 20086,
+  "fonts": [
+    {
+      "name": "Ruslan Display",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RuslanDisplay.ttf",
+      "postScriptName": "RuslanDisplay",
+      "fullName": "Ruslan Display"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "latin"
+  ]
+}

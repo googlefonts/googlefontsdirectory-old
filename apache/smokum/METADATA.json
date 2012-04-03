@@ -1,0 +1,21 @@
+{
+  "name": "Smokum",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 34510,
+  "fonts": [
+    {
+      "name": "Smokum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Smokum-Regular.ttf",
+      "postScriptName": "Smokum-Regular",
+      "fullName": "Smokum"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

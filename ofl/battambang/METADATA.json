@@ -1,0 +1,29 @@
+{
+  "name": "Battambang",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 78272,
+  "fonts": [
+    {
+      "name": "Battambang",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Battambang-Regular.ttf",
+      "postScriptName": "Battambang",
+      "fullName": "Battambang"
+    },
+    {
+      "name": "Battambang",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Battambang-Bold.ttf",
+      "postScriptName": "Battambang-Bold",
+      "fullName": "Battambang Bold"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

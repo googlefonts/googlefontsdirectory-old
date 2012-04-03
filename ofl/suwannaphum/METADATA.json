@@ -1,0 +1,21 @@
+{
+  "name": "Suwannaphum",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 65842,
+  "fonts": [
+    {
+      "name": "Suwannaphum",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Suwannaphum.ttf",
+      "postScriptName": "Suwannaphum",
+      "fullName": "Suwannaphum"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

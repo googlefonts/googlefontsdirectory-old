@@ -1,0 +1,21 @@
+{
+  "name": "Sunshiney",
+  "designer": "Sideshow",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 82687,
+  "fonts": [
+    {
+      "name": "Sunshiney",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Sunshiney.ttf",
+      "postScriptName": "Sunshiney",
+      "fullName": "Sunshiney"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

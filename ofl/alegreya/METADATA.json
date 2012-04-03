@@ -1,0 +1,62 @@
+{
+  "name": "Alegreya",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 31786,
+  "fonts": [
+    {
+      "name": "Alegreya",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Alegreya-Regular.ttf",
+      "postScriptName": "Alegreya-Regular",
+      "fullName": "Alegreya"
+    },
+    {
+      "name": "Alegreya",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Alegreya-Italic.ttf",
+      "postScriptName": "Alegreya-Italic",
+      "fullName": "Alegreya Italic"
+    },
+    {
+      "name": "Alegreya",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Alegreya-Bold.ttf",
+      "postScriptName": "Alegreya-Bold",
+      "fullName": "Alegreya Bold"
+    },
+    {
+      "name": "Alegreya",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Alegreya-BoldItalic.ttf",
+      "postScriptName": "Alegreya-BoldItalic",
+      "fullName": "Alegreya Bold Italic"
+    },
+    {
+      "name": "Alegreya",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Alegreya-Black.ttf",
+      "postScriptName": "Alegreya-Black",
+      "fullName": "Alegreya Black"
+    },
+    {
+      "name": "Alegreya",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Alegreya-BlackItalic.ttf",
+      "postScriptName": "Alegreya-BlackItalic",
+      "fullName": "Alegreya Black Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

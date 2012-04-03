@@ -1,0 +1,21 @@
+{
+  "name": "Permanent Marker",
+  "designer": "Font Diner",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 41554,
+  "fonts": [
+    {
+      "name": "Permanent Marker",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PermanentMarker.ttf",
+      "postScriptName": "PermanentMarker",
+      "fullName": "Permanent Marker"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

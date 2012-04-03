@@ -1,0 +1,30 @@
+{
+  "name": "Codystar",
+  "designer": "Neapolitan",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 55871,
+  "fonts": [
+    {
+      "name": "Codystar",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Codystar-Light.ttf",
+      "postScriptName": "Codystar-Light",
+      "fullName": "Codystar Light"
+    },
+    {
+      "name": "Codystar",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Codystar-Regular.ttf",
+      "postScriptName": "Codystar",
+      "fullName": "Codystar"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

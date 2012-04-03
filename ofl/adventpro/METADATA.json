@@ -1,0 +1,71 @@
+{
+  "name": "Advent Pro",
+  "designer": "Andreas Kalpakidis",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 22611,
+  "fonts": [
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 100,
+      "filename": "AdventPro-Thin.ttf",
+      "postScriptName": "AdventPro-Thin",
+      "fullName": "Advent Pro Thin"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 200,
+      "filename": "AdventPro-ExtraLight.ttf",
+      "postScriptName": "AdventPro-ExtraLight",
+      "fullName": "Advent Pro ExtraLight"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 300,
+      "filename": "AdventPro-Light.ttf",
+      "postScriptName": "AdventPro-Light",
+      "fullName": "Advent Pro Light"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AdventPro-Regular.ttf",
+      "postScriptName": "AdventPro-Regular",
+      "fullName": "Advent Pro Regular"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 500,
+      "filename": "AdventPro-Medium.ttf",
+      "postScriptName": "AdventPro-Medium",
+      "fullName": "Advent Pro Medium"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 600,
+      "filename": "AdventPro-SemiBold.ttf",
+      "postScriptName": "AdventPro-SemiBold",
+      "fullName": "Advent Pro SemiBold"
+    },
+    {
+      "name": "Advent Pro",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AdventPro-Bold.ttf",
+      "postScriptName": "AdventPro-Bold",
+      "fullName": "Advent Pro Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek",
+    "latin"
+  ]
+}

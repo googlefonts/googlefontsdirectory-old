@@ -1,0 +1,21 @@
+{
+  "name": "Baumans",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 28145,
+  "fonts": [
+    {
+      "name": "Baumans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Baumans-Regular.ttf",
+      "postScriptName": "Baumans-Regular",
+      "fullName": "Baumans"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

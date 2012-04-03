@@ -1,0 +1,21 @@
+{
+  "name": "Maiden Orange",
+  "designer": "Astigmatic",
+  "license": "Apache2",
+  "visibility": "External",
+  "category": "Display",
+  "size": 32926,
+  "fonts": [
+    {
+      "name": "Maiden Orange",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MaidenOrange.ttf",
+      "postScriptName": "MaidenOrange-Regular",
+      "fullName": "Maiden Orange"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

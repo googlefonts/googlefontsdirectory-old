@@ -1,0 +1,21 @@
+{
+  "name": "Bokor",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 66624,
+  "fonts": [
+    {
+      "name": "Bokor",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bokor.ttf",
+      "postScriptName": "Bokor",
+      "fullName": "Bokor"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Puritan",
+  "designer": "Ben Weiner",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 28730,
+  "fonts": [
+    {
+      "name": "Puritan",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Puritan-Regular.ttf",
+      "postScriptName": "Puritan-Regular",
+      "fullName": "Puritan Regular"
+    },
+    {
+      "name": "Puritan",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Puritan-Italic.ttf",
+      "postScriptName": "Puritan-Italic",
+      "fullName": "Puritan Italic"
+    },
+    {
+      "name": "Puritan",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Puritan-Bold.ttf",
+      "postScriptName": "Puritan-Bold",
+      "fullName": "Puritan Bold"
+    },
+    {
+      "name": "Puritan",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Puritan-BoldItalic.ttf",
+      "postScriptName": "Puritan-BoldItalic",
+      "fullName": "Puritan Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

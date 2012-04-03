@@ -1,0 +1,21 @@
+{
+  "name": "Belgrano",
+  "designer": "LatinoType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 17516,
+  "fonts": [
+    {
+      "name": "Belgrano",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Belgrano-Regular.ttf",
+      "postScriptName": "Belgrano-Regular",
+      "fullName": "Belgrano"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

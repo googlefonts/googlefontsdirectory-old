@@ -1,0 +1,29 @@
+{
+  "name": "Simonetta",
+  "designer": "Brownfox",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 78140,
+  "fonts": [
+    {
+      "name": "Simonetta",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Simonetta-Regular.ttf",
+      "postScriptName": "Simonetta-Regular",
+      "fullName": "Simonetta"
+    },
+    {
+      "name": "Simonetta",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Simonetta-Italic.ttf",
+      "postScriptName": "Simonetta-Italic",
+      "fullName": "Simonetta Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

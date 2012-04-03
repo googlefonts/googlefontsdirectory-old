@@ -1,0 +1,21 @@
+{
+  "name": "Dangrek",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 60839,
+  "fonts": [
+    {
+      "name": "Dangrek",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dangrek.ttf",
+      "postScriptName": "Dangrek",
+      "fullName": "Dangrek"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

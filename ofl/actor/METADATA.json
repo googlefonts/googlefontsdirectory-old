@@ -1,0 +1,21 @@
+{
+  "name": "Actor",
+  "designer": "Thomas Junold",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 32863,
+  "fonts": [
+    {
+      "name": "Actor",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Actor-Regular.ttf",
+      "postScriptName": "Actor-Regular",
+      "fullName": "Actor Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

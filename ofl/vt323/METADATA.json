@@ -1,0 +1,21 @@
+{
+  "name": "VT323",
+  "designer": "Peter Hull",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 51900,
+  "fonts": [
+    {
+      "name": "VT323",
+      "style": "normal",
+      "weight": 400,
+      "filename": "VT323.ttf",
+      "postScriptName": "VT323",
+      "fullName": "VT323"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

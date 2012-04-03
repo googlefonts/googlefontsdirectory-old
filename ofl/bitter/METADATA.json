@@ -1,0 +1,38 @@
+{
+  "name": "Bitter",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 45850,
+  "fonts": [
+    {
+      "name": "Bitter",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Bitter-Regular.ttf",
+      "postScriptName": "Bitter-Regular",
+      "fullName": "Bitter-Regular"
+    },
+    {
+      "name": "Bitter",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Bitter-Italic.ttf",
+      "postScriptName": "Bitter-Italic",
+      "fullName": "Bitter-Italic"
+    },
+    {
+      "name": "Bitter",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Bitter-Bold.ttf",
+      "postScriptName": "Bitter-Bold",
+      "fullName": "Bitter-Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

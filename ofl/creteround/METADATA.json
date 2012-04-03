@@ -1,0 +1,30 @@
+{
+  "name": "Crete Round",
+  "designer": "TypeTogether",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 24652,
+  "fonts": [
+    {
+      "name": "Crete Round",
+      "style": "normal",
+      "weight": 400,
+      "filename": "CreteRound-Regular.ttf",
+      "postScriptName": "CreteRound-Regular",
+      "fullName": "Crete Round"
+    },
+    {
+      "name": "Crete Round",
+      "style": "italic",
+      "weight": 400,
+      "filename": "CreteRound-Italic.ttf",
+      "postScriptName": "CreteRound-Italic",
+      "fullName": "Crete Round Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

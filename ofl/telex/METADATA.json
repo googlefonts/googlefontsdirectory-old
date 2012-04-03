@@ -1,0 +1,21 @@
+{
+  "name": "Telex",
+  "designer": "Huerta Tipográfica",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 27135,
+  "fonts": [
+    {
+      "name": "Telex",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Telex-Regular.ttf",
+      "postScriptName": "Telex-Regular",
+      "fullName": "Telex-Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

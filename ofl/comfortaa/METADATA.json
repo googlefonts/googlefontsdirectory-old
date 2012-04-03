@@ -1,0 +1,37 @@
+{
+  "name": "Comfortaa",
+  "designer": "Johan Aakerlund",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 43662,
+  "fonts": [
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Comfortaa-Light.ttf",
+      "postScriptName": "Comfortaa",
+      "fullName": "Comfortaa"
+    },
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Comfortaa-Regular.ttf",
+      "postScriptName": "Comfortaa",
+      "fullName": "Comfortaa"
+    },
+    {
+      "name": "Comfortaa",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Comfortaa-Bold.ttf",
+      "postScriptName": "Comfortaa",
+      "fullName": "Comfortaa"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

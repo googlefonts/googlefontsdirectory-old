@@ -1,0 +1,21 @@
+{
+  "name": "Raleway",
+  "designer": "Matt McInerney",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 24560,
+  "fonts": [
+    {
+      "name": "Raleway",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Raleway-Thin.ttf",
+      "postScriptName": "Raleway-Thin",
+      "fullName": "Raleway-Thin"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

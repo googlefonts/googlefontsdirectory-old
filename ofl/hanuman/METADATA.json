@@ -1,0 +1,29 @@
+{
+  "name": "Hanuman",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 45003,
+  "fonts": [
+    {
+      "name": "Hanuman",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Hanuman.ttf",
+      "postScriptName": "Hanuman",
+      "fullName": "Hanuman"
+    },
+    {
+      "name": "Hanuman",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Hanumanb.ttf",
+      "postScriptName": "Hanuman-Bold",
+      "fullName": "Hanuman Bold"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}

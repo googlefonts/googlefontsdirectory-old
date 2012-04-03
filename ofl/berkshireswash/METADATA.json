@@ -1,0 +1,22 @@
+{
+  "name": "Berkshire Swash",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 29257,
+  "fonts": [
+    {
+      "name": "Berkshire Swash",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BerkshireSwash-Regular.ttf",
+      "postScriptName": "BerkshireSwash-Regular",
+      "fullName": "Berkshire Swash"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

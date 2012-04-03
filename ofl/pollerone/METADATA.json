@@ -1,0 +1,21 @@
+{
+  "name": "Poller One",
+  "designer": "Yvonne Schüttler",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 16366,
+  "fonts": [
+    {
+      "name": "Poller One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PollerOne.ttf",
+      "postScriptName": "PollerOne-Regular",
+      "fullName": "Poller One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

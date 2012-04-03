@@ -1,0 +1,22 @@
+{
+  "name": "Dynalight",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 28233,
+  "fonts": [
+    {
+      "name": "Dynalight",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Dynalight-Regular.ttf",
+      "postScriptName": "Dynalight-Regular",
+      "fullName": "Dynalight"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

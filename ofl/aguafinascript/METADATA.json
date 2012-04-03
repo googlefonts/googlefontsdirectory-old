@@ -1,0 +1,22 @@
+{
+  "name": "Aguafina Script",
+  "designer": "Sudtipos",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 22551,
+  "fonts": [
+    {
+      "name": "Aguafina Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "AguafinaScript-Regular.ttf",
+      "postScriptName": "AguafinaScript-Regular",
+      "fullName": "Aguafina Script Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

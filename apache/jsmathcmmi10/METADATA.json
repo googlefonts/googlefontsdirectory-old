@@ -1,0 +1,21 @@
+{
+  "name": "jsMath cmmi10",
+  "designer": "Donald Knuth",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Serif",
+  "size": 27511,
+  "fonts": [
+    {
+      "name": "jsMath cmmi10",
+      "style": "normal",
+      "weight": 400,
+      "filename": "jsMath-cmmi10.ttf",
+      "postScriptName": "jsMath-cmmi10",
+      "fullName": "jsMath-cmmi10"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

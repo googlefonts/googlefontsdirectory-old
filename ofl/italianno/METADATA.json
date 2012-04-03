@@ -1,0 +1,22 @@
+{
+  "name": "Italianno",
+  "designer": "TypeSETit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 60195,
+  "fonts": [
+    {
+      "name": "Italianno",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Italianno-Regular.ttf",
+      "postScriptName": "Italianno-Regular",
+      "fullName": "Italianno"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

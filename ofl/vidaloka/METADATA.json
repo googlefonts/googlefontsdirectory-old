@@ -1,0 +1,21 @@
+{
+  "name": "Vidaloka",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 67261,
+  "fonts": [
+    {
+      "name": "Vidaloka",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vidaloka-Regular.ttf",
+      "postScriptName": "Vidaloka-Regular",
+      "fullName": "Vidaloka "
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Federant",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 37842,
+  "fonts": [
+    {
+      "name": "Federant",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Federant-Regular.ttf",
+      "postScriptName": "Federant-Medium",
+      "fullName": "Federant Medium"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

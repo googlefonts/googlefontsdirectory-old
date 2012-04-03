@@ -1,0 +1,114 @@
+{
+  "name": "Roboto",
+  "designer": "Christian Robertson",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 94354,
+  "fonts": [
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 100,
+      "filename": "Roboto-Thin.ttf",
+      "postScriptName": "Roboto-Thin",
+      "fullName": "Roboto Thin"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 100,
+      "filename": "Roboto-ThinItalic.ttf",
+      "postScriptName": "Roboto-ThinItalic",
+      "fullName": "Roboto Thin Italic"
+    },
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Roboto-Light.ttf",
+      "postScriptName": "Roboto-Light",
+      "fullName": "Roboto Light"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Roboto-LightItalic.ttf",
+      "postScriptName": "Roboto-LightItalic",
+      "fullName": "Roboto Light Italic"
+    },
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Roboto-Regular.ttf",
+      "postScriptName": "Roboto-Regular",
+      "fullName": "Roboto Regular"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Roboto-Italic.ttf",
+      "postScriptName": "Roboto-Italic",
+      "fullName": "Roboto Italic"
+    },
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Roboto-Medium.ttf",
+      "postScriptName": "Roboto-Medium",
+      "fullName": "Roboto Medium"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Roboto-MediumItalic.ttf",
+      "postScriptName": "Roboto-MediumItalic",
+      "fullName": "Roboto Medium Italic"
+    },
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Roboto-Bold.ttf",
+      "postScriptName": "Roboto-Bold",
+      "fullName": "Roboto Bold"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Roboto-BoldItalic.ttf",
+      "postScriptName": "Roboto-BoldItalic",
+      "fullName": "Roboto Bold Italic"
+    },
+    {
+      "name": "Roboto",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Roboto-Black.ttf",
+      "postScriptName": "Roboto-Black",
+      "fullName": "Roboto Black"
+    },
+    {
+      "name": "Roboto",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Roboto-BlackItalic.ttf",
+      "postScriptName": "Roboto-BlackItalic",
+      "fullName": "Roboto Black Italic"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "greek-ext",
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin"
+  ]
+}

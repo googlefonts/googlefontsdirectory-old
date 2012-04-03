@@ -1,0 +1,21 @@
+{
+  "name": "Kenia",
+  "designer": "Julia Petretta",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 33989,
+  "fonts": [
+    {
+      "name": "Kenia",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Kenia-Regular.ttf",
+      "postScriptName": "Kenia-Regular",
+      "fullName": "Kenia"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

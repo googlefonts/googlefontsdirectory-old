@@ -1,0 +1,22 @@
+{
+  "name": "Doppio One",
+  "designer": "Szymon Celej",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 31619,
+  "fonts": [
+    {
+      "name": "Doppio One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DoppioOne-Regular.ttf",
+      "postScriptName": "DoppioOne-Regular",
+      "fullName": "Doppio One Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

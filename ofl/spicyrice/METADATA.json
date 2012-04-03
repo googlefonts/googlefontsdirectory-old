@@ -1,0 +1,21 @@
+{
+  "name": "SpicyRice",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": 38719,
+  "fonts": [
+    {
+      "name": "SpicyRice",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SpicyRice-Regular.ttf",
+      "postScriptName": "SpicyRice-Regular",
+      "fullName": "Spicy Rice"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

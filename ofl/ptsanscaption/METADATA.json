@@ -1,0 +1,31 @@
+{
+  "name": "PT Sans Caption",
+  "designer": "multiple designers",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 197494,
+  "fonts": [
+    {
+      "name": "PT Sans Caption",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PT_Sans-Caption-Web-Regular.ttf",
+      "postScriptName": "PTSans-Caption",
+      "fullName": "PT Sans Caption"
+    },
+    {
+      "name": "PT Sans Caption",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PT_Sans-Caption-Web-Bold.ttf",
+      "postScriptName": "PTSans-CaptionBold",
+      "fullName": "PT Sans Caption Bold"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "cyrillic",
+    "latin"
+  ]
+}

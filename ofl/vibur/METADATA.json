@@ -1,0 +1,21 @@
+{
+  "name": "Vibur",
+  "designer": "Johan Kallas",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 91454,
+  "fonts": [
+    {
+      "name": "Vibur",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Vibur-Regular.ttf",
+      "postScriptName": "Vibur",
+      "fullName": "Vibur"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

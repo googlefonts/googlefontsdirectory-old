@@ -1,0 +1,21 @@
+{
+  "name": "Engagement",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Handwriting",
+  "size": 39511,
+  "fonts": [
+    {
+      "name": "Engagement",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Engagement-Regular.ttf",
+      "postScriptName": "Engagement-Regular",
+      "fullName": "Engagement"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

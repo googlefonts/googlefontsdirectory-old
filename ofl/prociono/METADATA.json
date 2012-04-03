@@ -1,0 +1,21 @@
+{
+  "name": "Prociono",
+  "designer": "Barry Schwartz",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 18835,
+  "fonts": [
+    {
+      "name": "Prociono",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Prociono-Regular.ttf",
+      "postScriptName": "Prociono-Regular",
+      "fullName": "Prociono"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sirin Stencil",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 40210,
+  "fonts": [
+    {
+      "name": "Sirin Stencil",
+      "style": "normal",
+      "weight": 400,
+      "filename": "SirinStencil-Regular.ttf",
+      "postScriptName": "SirinStencil-Regular",
+      "fullName": "SirinStencil"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

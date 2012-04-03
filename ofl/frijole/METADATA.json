@@ -1,0 +1,21 @@
+{
+  "name": "Frijole",
+  "designer": "Sideshow",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 122166,
+  "fonts": [
+    {
+      "name": "Frijole",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Frijole-Regular.ttf",
+      "postScriptName": "Frijole",
+      "fullName": "Frijole"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

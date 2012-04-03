@@ -1,0 +1,21 @@
+{
+  "name": "Monofett",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 21493,
+  "fonts": [
+    {
+      "name": "Monofett",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Monofett.ttf",
+      "postScriptName": "Monofett",
+      "fullName": "Monofett"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

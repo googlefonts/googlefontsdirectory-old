@@ -1,0 +1,21 @@
+{
+  "name": "Cagliostro",
+  "designer": "MADType",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 20763,
+  "fonts": [
+    {
+      "name": "Cagliostro",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Cagliostro-Regular.ttf",
+      "postScriptName": "Cagliostro-Regular",
+      "fullName": "Cagliostro Regular"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

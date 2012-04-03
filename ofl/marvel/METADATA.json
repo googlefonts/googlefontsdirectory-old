@@ -1,0 +1,45 @@
+{
+  "name": "Marvel",
+  "designer": "Carolina Trebol",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 21269,
+  "fonts": [
+    {
+      "name": "Marvel",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Marvel-Regular.ttf",
+      "postScriptName": "Marvel-Regular",
+      "fullName": "Marvel"
+    },
+    {
+      "name": "Marvel",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Marvel-Italic.ttf",
+      "postScriptName": "Marvel-Italic",
+      "fullName": "Marvel Italic"
+    },
+    {
+      "name": "Marvel",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Marvel-Bold.ttf",
+      "postScriptName": "Marvel-Bold",
+      "fullName": "Marvel Bold"
+    },
+    {
+      "name": "Marvel",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Marvel-BoldItalic.ttf",
+      "postScriptName": "Marvel-BoldItalic",
+      "fullName": "Marvel Bold Italic"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

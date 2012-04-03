@@ -1,0 +1,22 @@
+{
+  "name": "Francois One",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 54871,
+  "fonts": [
+    {
+      "name": "Francois One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "FrancoisOne.ttf",
+      "postScriptName": "FrancoisOne-Regular",
+      "fullName": "Francois One Regular"
+    }
+  ],
+  "subsets": [
+    "latin-ext",
+    "latin"
+  ]
+}

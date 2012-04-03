@@ -1,0 +1,21 @@
+{
+  "name": "Junge",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 39575,
+  "fonts": [
+    {
+      "name": "Junge",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Junge-Regular.ttf",
+      "postScriptName": "Junge-Regular",
+      "fullName": "Junge"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

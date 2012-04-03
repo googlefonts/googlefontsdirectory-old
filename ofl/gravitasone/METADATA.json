@@ -1,0 +1,21 @@
+{
+  "name": "Gravitas One",
+  "designer": "Sorkin Type",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 19700,
+  "fonts": [
+    {
+      "name": "Gravitas One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "GravitasOne.ttf",
+      "postScriptName": "GravitasOne",
+      "fullName": "Gravitas One"
+    }
+  ],
+  "subsets": [
+    "latin"
+  ]
+}

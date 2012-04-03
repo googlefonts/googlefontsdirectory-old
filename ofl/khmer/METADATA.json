@@ -1,0 +1,21 @@
+{
+  "name": "Khmer",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 74869,
+  "fonts": [
+    {
+      "name": "Khmer",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Khmer.ttf",
+      "postScriptName": "Khmer",
+      "fullName": "Khmer"
+    }
+  ],
+  "subsets": [
+    "khmer"
+  ]
+}
