@@ -41,17 +41,9 @@ font.IstokWeb-Italic.ttf.weight: 400
 font.IstokWeb-Bold.ttf.weight: 700
 font.IstokWeb-BoldItalic.ttf.weight: 700
 
-# fontforge -lang=ff -script menusubset-istokweb.ff IstokWeb-Regular.ttf;
-# mv IstokWeb-Regular.{ttf.menu.ttf,menu};
-
-# cd ~/src/font-optimizer; \
-# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Istok Web" \
-# ~/googlefontdirectory/istokweb/IstokWeb-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/istokweb/; \
-# ~/googlefontdirectory/tools/chars/showchars.py \
-#  IstokWeb-Regular.menu; \
+# fontforge -lang=ff -script menusubset-istokweb.ff IstokWeb-Regular.ttf; \
+# mv IstokWeb-Regular.{ttf.menu.ttf,menu}; \
+# ~/googlefontdirectory/tools/chars/showchars.py IstokWeb-Regular.menu; 
 
 # cd ~/googlefontdirectory/istokweb/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
