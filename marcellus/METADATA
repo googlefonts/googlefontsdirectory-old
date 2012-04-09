@@ -1,0 +1,52 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,latin,latin-ext
+
+family: Marcellus
+
+designer: Astigmatic
+approved: true
+description: <p>Marcellus and \
+  <a href="http://www.google.com/webfonts/specimen/Marcellus">Marcellus SC</a> \
+  (small caps) are a set of flared serif typeface \
+  families, inspired by classic Roman inscription letterforms. \
+  While the SC family leans more towards the titling style of \
+  Trajan, the Regular version lends itself to a wider range of usage. \
+  These elegant typefaces, when combined in use, exude clarity and beauty \
+  for both on screen and printed materials.</p> \
+  <p>Marcellus is a Unicode typeface family that supports languages that \
+  use the Latin script and its variants, and could be expanded to \
+  support other scripts. More specifically, this release supports the following \
+  Unicode ranges: Latin-1, Latin-2, Turkish, and Windows Baltic. \
+  To contribute to the project contact \
+  <a href="mailto:astigma@astigmatic.com">Brian J. Bonislawsky</a>.</p>
+
+font.Marcellus-Regular.ttf.style: normal
+font.Marcellus-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Marcellus" \
+# ~/googlefontdirectory/marcellus/Marcellus-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/marcellus/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Marcellus-Regular.menu; 
+
+# cd ~/googlefontdirectory/marcellus/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in marcellus; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/marcellus/; \
