@@ -1,9 +1,9 @@
 # 2011-03-25 DC vertical metrics checked
 visibility: INTERNAL
-payment: POOL
+
 
 license: Apache2
-url: http://www.droidfonts.com
+
 subsets: menu,arabic
 
 family: Droid Arabic Naskh
@@ -14,8 +14,8 @@ profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
 profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>Droid Arabic Naskh is an Arabic type designed \
-  for use in Google™ products such as Google ChromeOS™ and \
-  Android™. Designed to complement the Latin, Greek and \
+  for use in Google products such as Google ChromeOS and \
+  Android. Designed to complement the Latin, Greek and \
   Cyrillic provided in the Droid Serif family, the Arabic \
   matches the color, alignment and design detail of the Droid \
   Serif allowing them to be used together for multi-lingual \
@@ -26,6 +26,14 @@ description: <p>Droid Arabic Naskh is an Arabic type designed \
   are softened for less formal documents such as periodicals and \
   journals. The letterforms structures are based on the \
   calligraphic grammatical rules of the Naskh writing style while \
-  drawn with a contemporary feel.</p>
+  drawn with a contemporary feel.</p> \
+  <p>This is Version 1.0 of Droid Arabic Naskh Regular and Bold \
+  and contains the complete glyph set, fully hinted, with OpenType \
+  support.</p>
 
-font.DroidNaskh-Bold.ttf.weight: bold
+font.DroidNaskh-Regular.ttf.weight: 400
+font.DroidNaskh-Bold.ttf.weight: 700
+
+font.DroidNaskh-Regular.ttf.style: normal
+font.DroidNaskh-Bold.ttf.style: normal
+
