@@ -22,7 +22,7 @@ description: <p>It's like Chinese food. We take the \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Nixie One" \
-# ~/googlefontdirectory/nixieone/NixieOne.{ttf,menu};
+# ~/googlefontdirectory/nixieone/NixieOne-Regular.{ttf,menu};
 # cd ~/googlefontdirectory/nixieone/; \
 
 
