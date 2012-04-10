@@ -29,12 +29,12 @@ description: <p>&quot;YanoneKaffeesatz&quot; \
   it in an extensive article by Yves Peters on \
   <a href="http://fontfeed.com/archives/new-fontfonts-ff-kava-with-extra-flavour/">FontFeed</a>.</p>
 
-font.YanoneKaffeesatz-Thin.ttf.style: normal
+font.YanoneKaffeesatz-ExtraLight.ttf.style: normal
 font.YanoneKaffeesatz-Light.ttf.style: normal
 font.YanoneKaffeesatz-Regular.ttf.style: normal
 font.YanoneKaffeesatz-Bold.ttf.style: normal
 
-font.YanoneKaffeesatz-Thin.ttf.weight: 200
+font.YanoneKaffeesatz-ExtraLight.ttf.weight: 200
 font.YanoneKaffeesatz-Light.ttf.weight: 300
 font.YanoneKaffeesatz-Regular.ttf.weight: 400
 font.YanoneKaffeesatz-Bold.ttf.weight: 700
@@ -43,7 +43,7 @@ font.YanoneKaffeesatz-Bold.ttf.weight: 700
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #  --chars="Yanone Kaffeesatz" \
-# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-Thin.{ttf,menu}; \
+# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-ExtraLight.{ttf,menu}; \
 # cd ~/googlefontdirectory/kaffeesatz/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  YanoneKaffeesatz-Regular.menu; 
