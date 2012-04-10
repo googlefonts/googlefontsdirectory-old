@@ -1,32 +1,101 @@
-designer: Yanone
-url: http://www.yanone.de/typedesign/kaffeesatz/
 license: OFL
-payment: DESIGNER
-description: <p>&quot;Yanone Kaffeesatz&quot; \
-was first published in 2004 and is Yanone’s first ever finished typeface. \
-Its Bold is reminiscent of 1920s coffee house typography, while the \
-rather thin fonts bridge the gap to present times. Lacking self confidence \
-and knowledge about the type scene, Yanone decided to publish the family \
-for free under a \
-<a href="http://creativecommons.org/licenses/by/2.0/de/deed.en">Creative \
-Commons License</a>. \
-A decision that should turn out one of the best he ever made. It has \
-been downloaded over 100,000 times to date, \
-and you can witness Kaffeesatz use on German fresh-water gyms, Dubai \
-mall promos and New Zealand McDonalds ads. And of course on coffee \
-and foodstuff packaging and café design around the globe.</p> \
-<p>In 2009 he reworked \
-much of the typeface and it got published in FontShop’s \
-<a href="http://www.fontfont.com/index.ep?aid=28">FontFont Library</a> \
-under the new name \
-<a href="http://www.yanone.de/typedesign/kava/">FF Kava</a>. \
- You can read more about \
-it in an extensive article by Yves Peters on \
-<a href="http://fontfeed.com/archives/new-fontfonts-ff-kava-with-extra-flavour/">FontFeed</a>.</p>
 category: sans-serif
-subsets: latin,menu
+subsets: menu,latin,latin-ext
+
+family: Yanone Kaffeesatz
+
+designer: Yanone
+
+approved: true
+description: <p>&quot;YanoneKaffeesatz&quot; \
+  was first published in 2004 and is Yanone’s first ever finished typeface. \
+  Its Bold is reminiscent of 1920s coffee house typography, while the \
+  rather thin fonts bridge the gap to present times. Lacking self confidence \
+  and knowledge about the type scene, Yanone decided to publish the family \
+  for free under a \
+  <a href="http://creativecommons.org/licenses/by/2.0/de/deed.en">Creative \
+  Commons License</a>. \
+  A decision that should turn out one of the best he ever made. It has \
+  been downloaded over 100,000 times to date, \
+  and you can witness Kaffeesatz use on German fresh-water gyms, Dubai \
+  mall promos and New Zealand McDonalds ads. And of course on coffee \
+  and foodstuff packaging and café design around the globe.</p> \
+  <p>In 2009 he reworked \
+  much of the typeface and it got published in FontShop’s \
+  <a href="http://www.fontfont.com/index.ep?aid=28">FontFont Library</a> \
+  under the new name \
+  <a href="http://www.yanone.de/typedesign/kava/">FF Kava</a>. \
+  You can read more about \
+  it in an extensive article by Yves Peters on \
+  <a href="http://fontfeed.com/archives/new-fontfonts-ff-kava-with-extra-flavour/">FontFeed</a>.</p>
+
+font.YanoneKaffeesatz-Thin.ttf.style: normal
+font.YanoneKaffeesatz-Light.ttf.style: normal
+font.YanoneKaffeesatz-Regular.ttf.style: normal
+font.YanoneKaffeesatz-Bold.ttf.style: normal
 
 font.YanoneKaffeesatz-Thin.ttf.weight: 200
 font.YanoneKaffeesatz-Light.ttf.weight: 300
 font.YanoneKaffeesatz-Regular.ttf.weight: 400
 font.YanoneKaffeesatz-Bold.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Yanone Kaffeesatz" \
+# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-Thin.{ttf,menu}; \
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  YanoneKaffeesatz-Regular.menu; 
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Yanone Kaffeesatz" \
+# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-Light.{ttf,menu}; \
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  YanoneKaffeesatz-Regular.menu; 
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Yanone Kaffeesatz" \
+# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  YanoneKaffeesatz-Regular.menu; 
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Yanone Kaffeesatz" \
+# ~/googlefontdirectory/kaffeesatz/YanoneKaffeesatz-Bold.{ttf,menu}; \
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  YanoneKaffeesatz-Regular.menu; 
+
+
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in kaffeesatz; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/kaffeesatz/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
