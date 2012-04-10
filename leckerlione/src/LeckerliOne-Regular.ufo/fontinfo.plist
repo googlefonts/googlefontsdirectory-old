@@ -7,17 +7,17 @@
 	<key>capHeight</key>
 	<integer>750</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 2011 Gesine Todt  (www.gesine-todt.de), with Reserved Font Names "Leckerli" and "Leckerli One". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<string>Copyright (c) 2011 Gesine Todt  (www.gesine-todt.de), with Reserved Font Names "Leckerli"</string>
 	<key>descender</key>
 	<integer>-240</integer>
 	<key>familyName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>italicAngle</key>
 	<real>0.0</real>
 	<key>macintoshFONDFamilyID</key>
 	<integer>128</integer>
 	<key>macintoshFONDName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>openTypeHeadLowestRecPPEM</key>
 	<integer>9</integer>
 	<key>openTypeHheaAscender</key>
@@ -27,15 +27,15 @@
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
 	<key>openTypeNameCompatibleFullName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>openTypeNameDescription</key>
-	<string>Copyright (c) 2011 by Gesine Todt. All rights reserved.</string>
+	<string></string>
 	<key>openTypeNameDesigner</key>
 	<string>Gesine Todt</string>
 	<key>openTypeNameDesignerURL</key>
 	<string>http://www.gesine-todt.de</string>
 	<key>openTypeNameLicense</key>
-	<string>Copyright (c) 2011 Gesine Todt  (www.gesine-todt.de), with Reserved Font Names "Leckerli" and "Leckerli One". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
@@ -43,13 +43,13 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://www.gesine-todt.de</string>
 	<key>openTypeNamePreferredFamilyName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
 	<key>openTypeNameUniqueID</key>
 	<string>GesineTodt: LeckerliOne: 2011</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000</string>
+	<string>Version 1.001</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 	</array>
@@ -143,11 +143,11 @@
 	<array>
 	</array>
 	<key>postscriptFontName</key>
-	<string>LeckerliOne</string>
+	<string>LeckerliOne-Regular</string>
 	<key>postscriptForceBold</key>
 	<false/>
 	<key>postscriptFullName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>postscriptIsFixedPitch</key>
 	<false/>
 	<key>postscriptOtherBlues</key>
@@ -174,7 +174,7 @@
 	<key>postscriptWindowsCharacterSet</key>
 	<integer>1</integer>
 	<key>styleMapFamilyName</key>
-	<string>LeckerliOne</string>
+	<string>Leckerli One</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
