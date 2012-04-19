@@ -1,0 +1,45 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "()Kelly Slab Каилрц", and also the ligatures needed for correct rendering.
+# 
+#
+#
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Kelly Slab" \
+# ~/googlefontdirectory/kellyslab/KellySlab-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/kellyslab/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  KellySlab-Regular.menu; \
+#
+#
+# fontforge -lang=ff -script menusubset-kelly.ff KellySlab-Regular.ttf;
+# mv KellySlab-Regular.{ttf.menu.ttf,menu};
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  KellySlab-Regular.menu; \
+# ENSURE THAT THE SPACE CHAR IS THERE
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0x000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+SelectMore(0u004B) # K
+SelectMore(0u0053) # S
+SelectMore(0u0061) # a
+SelectMore(0u0062) # b
+SelectMore(0u0065) # e
+SelectMore(0u006C) # l
+SelectMore(0u0079) # y
+SelectMore(0u041A) # afii10028 cyrillic
+SelectMore(0u0430) # afii10065 cyrillic
+SelectMore(0u0438) # afii10074 cyrillic
+SelectMore(0u043B) # afii10077 cyrillic
+SelectMore(0u0440) # afii10082 cyrillic
+SelectMore(0u0446) # afii10088 cyrillic
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")

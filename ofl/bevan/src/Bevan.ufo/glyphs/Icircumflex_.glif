@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Icircumflex" format="1">
+  <advance width="1012"/>
+  <unicode hex="00ce"/>
+  <outline>
+    <contour>
+      <point x="938" y="1623" type="line" smooth="no"/>
+      <point x="74" y="1623" type="line" smooth="no"/>
+      <point x="74" y="1270" type="line" smooth="no"/>
+      <point x="217" y="1270" type="line" smooth="no"/>
+      <point x="217" y="359" type="line" smooth="no"/>
+      <point x="70" y="359" type="line" smooth="no"/>
+      <point x="70" y="0" type="line" smooth="no"/>
+      <point x="932" y="0" type="line" smooth="no"/>
+      <point x="932" y="359" type="line" smooth="no"/>
+      <point x="791" y="359" type="line" smooth="no"/>
+      <point x="791" y="1270" type="line" smooth="no"/>
+      <point x="938" y="1270" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="370" y="2163" type="line" smooth="no"/>
+      <point x="97" y="1786" type="line" smooth="no"/>
+      <point x="251" y="1685" type="line" smooth="no"/>
+      <point x="506" y="1930" type="line" smooth="no"/>
+      <point x="761" y="1685" type="line" smooth="no"/>
+      <point x="915" y="1786" type="line" smooth="no"/>
+      <point x="641" y="2162" type="line" smooth="no"/>
+    </contour>
+  </outline>
+</glyph>

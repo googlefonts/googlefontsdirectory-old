@@ -1,0 +1,71 @@
+%!PS-Adobe-3.0
+%%Creator: FontLab
+%%Title:
+%%CreationDate: Fri Jun 23 18:43:07 1995
+%%BoundingBox: 90.00 -196.00 691.00 441.00
+%%EndComments
+%%BeginProlog
+/FontLab 24 dict def FontLab begin
+/Version 0 def
+/bd {bind def} def
+/n {newpath} bd
+/c {curveto} bd
+/C {curveto} bd
+/L {lineto} bd
+/l {lineto} bd
+/m {moveto} bd
+/f {closepath} bd
+/S {} bd
+/*u { } bd
+/*U { fill} bd
+/A {pop} bd
+/O {pop} bd
+/D {pop} bd
+/g {setgray} bd
+end
+%%EndProlog
+%%BeginSetup
+FontLab begin
+n
+%%EndSetup
+0 A  *u 0 O 0 g
+0 D
+90.00 127.00 m
+90.00 127.00 205.00 57.00 205.00 57.00 C
+205.00 57.00 368.00 57.00 368.00 57.00 C
+368.00 138.00 l
+215.00 138.00 l
+215.00 441.00 l
+90.00 441.00 l
+90.00 127.00 l
+f
+1 D
+90.00 -46.00 m
+90.00 -127.00 l
+90.00 -127.00 205.00 -196.00 205.00 -196.00 C
+368.00 -196.00 l
+368.00 -91.00 l
+215.00 -91.00 l
+215.00 -46.00 l
+90.00 -46.00 l
+f
+1 D
+563.00 441.00 m
+563.00 138.00 l
+413.00 138.00 l
+413.00 57.00 l
+563.00 57.00 l
+563.00 -91.00 l
+416.00 -91.00 l
+416.00 -196.00 l
+563.00 -196.00 l
+691.00 -127.00 l
+691.00 441.00 l
+563.00 441.00 l
+f
+*U
+%%PageTrailer
+showpage
+%%Trailer
+end
+%%EOF

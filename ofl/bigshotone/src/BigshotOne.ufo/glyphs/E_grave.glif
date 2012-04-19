@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Egrave" format="1">
+  <advance width="617"/>
+  <unicode hex="00C8"/>
+  <outline>
+    <contour>
+      <point x="25" y="615" type="line"/>
+      <point x="25" y="557" type="line"/>
+      <point x="114" y="557" type="line"/>
+      <point x="114" y="58" type="line"/>
+      <point x="25" y="58" type="line"/>
+      <point x="25" y="0" type="line"/>
+      <point x="567" y="0" type="line"/>
+      <point x="567" y="205" type="line"/>
+      <point x="434" y="205"/>
+      <point x="397" y="105"/>
+      <point x="387" y="58" type="curve"/>
+      <point x="282" y="58" type="line"/>
+      <point x="282" y="277" type="line"/>
+      <point x="457" y="277" type="line"/>
+      <point x="457" y="335" type="line"/>
+      <point x="282" y="335" type="line"/>
+      <point x="282" y="557" type="line"/>
+      <point x="372" y="557" type="line"/>
+      <point x="382" y="509"/>
+      <point x="420" y="411"/>
+      <point x="552" y="411" type="curve"/>
+      <point x="552" y="615" type="line"/>
+    </contour>
+    <contour>
+      <point x="175" y="842" type="line"/>
+      <point x="162" y="849"/>
+      <point x="152" y="853"/>
+      <point x="141" y="853" type="curve" smooth="yes"/>
+      <point x="119" y="853"/>
+      <point x="82" y="829"/>
+      <point x="82" y="789" type="curve" smooth="yes"/>
+      <point x="82" y="770"/>
+      <point x="91" y="752"/>
+      <point x="107" y="739" type="curve"/>
+      <point x="316" y="653" type="line"/>
+      <point x="338" y="682" type="line"/>
+    </contour>
+  </outline>
+</glyph>

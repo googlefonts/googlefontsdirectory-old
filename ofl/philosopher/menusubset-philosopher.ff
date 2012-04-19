@@ -1,0 +1,39 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "()Philosopher Каилрц", and also the ligatures needed for correct
+# 
+# fontforge -lang=ff -script menusubset-philosopher.ff Philosopher-Regular.ttf;
+# mv Philosopher-Regular.{ttf.menu.ttf,menu};
+
+Open($1)
+Select(0x0000) # null
+SelectMore(0x000D) # nonmarkingreturn
+SelectMore(0x0020) # space
+SelectMore(0x0028) # parenleft
+SelectMore(0x0029) # parenright
+SelectMore(0x0050) # P
+SelectMore(0x0065) # e
+SelectMore(0x0068) # h
+SelectMore(0x0069) # i
+SelectMore(0x006C) # l
+SelectMore(0x006F) # o
+SelectMore(0x0070) # p
+SelectMore(0x0072) # r
+SelectMore(0x0073) # s
+SelectMore(0x041A) # afii10028 cyrillic
+SelectMore(0x0430) # afii10065 cyrillic
+SelectMore(0x0438) # afii10074 cyrillic
+SelectMore(0x043B) # afii10077 cyrillic
+SelectMore(0x0440) # afii10082 cyrillic
+SelectMore(0x0446) # afii10088 cyrillic
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
+
+
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Philosopher" \
+# ~/googlefontdirectory/philosopher/Philosopher-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/philosopher/; \

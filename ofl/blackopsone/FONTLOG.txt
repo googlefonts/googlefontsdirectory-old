@@ -1,0 +1,60 @@
+FONTLOG for the Black Ops One font
+
+This file provides detailed information on the Black Ops One 
+Font Software.
+
+This information should be distributed along with the 
+Black Ops One font and any derivative works.
+
+Basic Font Information
+
+Black Ops One is a low contrast semi geometric typeface inspired 
+by military stencil lettering. Black Ops is heavy, sturdy, 
+and punchy. Because of the small cuts found in stencils 
+like this one, Black Ops will look best when used at 
+medium to large sizes.
+
+Black Ops is a Unicode typeface family that supports languages 
+that use the Latin script and its variants, and could be expanded 
+to support other scripts.
+
+More specifically, this release supports the following 
+Unicode ranges: Latin-1
+
+To contribute to the project contact Eben Sorkin 
+(sorkineben@gmail.com)
+
+
+
+ChangeLog
+
+19 July 2011 (Eben Sorkin) Black Ops v1.001
+- Fixed unicode error for numeral one.
+- Added PS hinting to the PS OTF font.
+
+15 July 2011 (Eben Sorkin) Black Ops One v1.002
+- Mastered Font from Fontlab VBF to TTF
+- Alted the shape of the thorn
+- Alted stencil gaps to be very slightly wider.
+- Altered slash and bar glyphs
+- Other small tweaks to shapes and spacing.
+
+9 July 2010 (James Grieshaber) Black Ops One v1.000
+- Completed first complete version of Black Ops One 
+  in Fontlab ( VBF format )
+
+Acknowledgements
+
+If you make modifications be sure to add your 
+name (N), email (E), web-address (if you have one) (W) 
+and description (D). This list is in alphabetical order.
+
+N: James Grieshaber
+E: james@typeco.com
+W: http://www.typeco.com/
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Spacing and Mastering
