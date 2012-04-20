@@ -1,0 +1,23 @@
+{
+  "name": "Marcellus SC",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 24844,
+  "fonts": [
+    {
+      "name": "Marcellus SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MarcellusSC-Regular.ttf",
+      "postScriptName": "MarcellusSC-Regular",
+      "fullName": "Marcellus SC"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
