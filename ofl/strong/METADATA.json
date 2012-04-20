@@ -1,0 +1,25 @@
+{
+  "name": "Strong",
+  "designer": "Gaslight",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 41614,
+  "fonts": [
+    {
+      "name": "Strong",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Strong-Regular.ttf",
+      "postScriptName": "Strong-Regular",
+      "fullName": "Strong"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
