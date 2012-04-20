@@ -1,0 +1,23 @@
+{
+  "name": "Bubbler One",
+  "designer": "Brenda Gallo",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 14978,
+  "fonts": [
+    {
+      "name": "Bubbler One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "BubblerOne-Regular.ttf",
+      "postScriptName": "BubblerOne",
+      "fullName": "Bubbler One"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
