@@ -1,0 +1,21 @@
+{
+  "name": "Nanum Pen Script",
+  "designer": "Sandoll Communication",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 1548776,
+  "fonts": [
+    {
+      "name": "Nanum Pen Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NanumPenScript-Regular.ttf",
+      "postScriptName": "NanumPen",
+      "fullName": "Nanum Pen"
+    }
+  ],
+  "subsets": [
+    "menu"
+  ]
+}
