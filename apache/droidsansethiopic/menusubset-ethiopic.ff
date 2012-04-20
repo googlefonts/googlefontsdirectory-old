@@ -1,0 +1,13 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in the word for ግዕዝ "Ge'ez script", and also the ligatures needed for correct
+# shaping. After running "fontforge -lang=ff -script menusubset-ethiopic.ff DroidSansEthiopic-Regular.ttf", 
+# do "mv DroidSansEthiopic-Regular.ttf.menu.ttf DroidSansEthiopic-Regular.menu".
+Open($1)
+Select(0u130D)
+SelectMore(0u12D5)
+SelectMore(0u12DD)
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
