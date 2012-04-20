@@ -1,0 +1,21 @@
+{
+  "name": "Nanum Brush Script",
+  "designer": "Sandoll Communication",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 1522342,
+  "fonts": [
+    {
+      "name": "Nanum Brush Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NanumBrushScript-Regular.ttf",
+      "postScriptName": "NanumBrush",
+      "fullName": "Nanum Brush Script"
+    }
+  ],
+  "subsets": [
+    "menu"
+  ]
+}
