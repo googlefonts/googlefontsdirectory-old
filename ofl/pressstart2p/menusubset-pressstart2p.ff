@@ -1,0 +1,51 @@
+#!/usr/local/bin/fontforge
+# A simple script to generate a menu subset. It outputs all unicode characters
+# in "Press Start 2P Каилрц Εάεηικλν()", and also the ligatures needed
+# 
+# fontforge -lang=ff -script menusubset-pressstart2p.ff PressStart2P-Regular.ttf;
+# mv PressStart2P-Regular.{ttf.menu.ttf,menu};
+# ~/googlefontdirectory/tools/chars/showchars.py PressStart2P-Regular.menu; 
+
+Open($1)
+Select(0u0000) # null
+SelectMore(0u000D) # nonmarkingreturn
+SelectMore(0u0020) # space
+
+SelectMore(0u0032) # two
+SelectMore(0u0050) # P
+SelectMore(0u0053) # S
+SelectMore(0u0061) # a
+SelectMore(0u0065) # e
+SelectMore(0u0072) # r
+SelectMore(0u0073) # s
+SelectMore(0u0074) # t
+
+SelectMore(0u0028) # parenleft
+SelectMore(0u0029) # parenright
+SelectMore(0u0045) # E
+SelectMore(0u004B) # K
+SelectMore(0u0061) # a
+SelectMore(0u006E) # n
+SelectMore(0u0070) # p
+SelectMore(0u0076) # v
+SelectMore(0u0138) # kgreenlandic
+SelectMore(0u041A) # afii10028 cyrillic
+SelectMore(0u0430) # afii10065 cyrillic
+SelectMore(0u0438) # afii10074 cyrillic
+SelectMore(0u043B) # afii10077 cyrillic
+SelectMore(0u0440) # afii10082 cyrillic
+SelectMore(0u0446) # afii10088 cyrillic
+SelectMore(0u0384) # tonos
+SelectMore(0u0395) # Epsilon
+SelectMore(0u03B1) # alpha
+SelectMore(0u03AC) # alphatonos
+SelectMore(0u03B5) # epsilon
+SelectMore(0u03B7) # eta
+SelectMore(0u03B9) # iota
+SelectMore(0u03BA) # kappa
+SelectMore(0u03BB) # lambda
+SelectMore(0u03BD) # nu
+SelectInvert()
+Clear()
+# This has to end in .ttf or it will not include all the needed glyphs
+Generate($1 + ".menu.ttf")
