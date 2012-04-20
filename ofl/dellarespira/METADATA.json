@@ -1,0 +1,22 @@
+{
+  "name": "Della Respira",
+  "designer": "Nathan Willis",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27795,
+  "fonts": [
+    {
+      "name": "Della Respira",
+      "style": "normal",
+      "weight": 400,
+      "filename": "DellaRespira-Regular.ttf",
+      "postScriptName": "DellaRespira-Regular",
+      "fullName": "Della Respira"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ]
+}
