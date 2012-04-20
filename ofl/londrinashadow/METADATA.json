@@ -1,6 +1,6 @@
 {
   "name": "Londrina Shadow",
-  "designer": "Marcelo Magalhães",
+  "designer": "Marcelo Magalh\u00e3es",
   "license": "OFL",
   "visibility": "External",
   "category": "Display",
@@ -16,6 +16,7 @@
     }
   ],
   "subsets": [
-    "latin"
+    "latin",
+    "menu"
   ]
 }

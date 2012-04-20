@@ -17,6 +17,8 @@
   ],
   "subsets": [
     "greek",
-    "latin"
+    "latin",
+    "latin-ext",
+    "menu"
   ]
 }

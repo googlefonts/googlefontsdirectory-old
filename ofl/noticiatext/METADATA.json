@@ -40,8 +40,9 @@
     }
   ],
   "subsets": [
-    "vietnamese",
+    "latin",
     "latin-ext",
-    "latin"
+    "menu",
+    "vietnamese"
   ]
 }

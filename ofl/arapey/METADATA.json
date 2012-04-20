@@ -24,6 +24,8 @@
     }
   ],
   "subsets": [
-    "latin"
-  ]
+    "latin",
+    "latin-ext",
+    "menu"
+   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Alegreya",
-  "designer": "Huerta Tipográfica",
+  "designer": "Huerta Tipogr\u00e1fica",
   "license": "OFL",
   "visibility": "External",
   "category": "Serif",
@@ -56,7 +56,8 @@
     }
   ],
   "subsets": [
+    "latin",
     "latin-ext",
-    "latin"
+    "menu"
   ]
 }

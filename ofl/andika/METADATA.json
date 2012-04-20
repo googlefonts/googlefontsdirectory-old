@@ -16,9 +16,10 @@
     }
   ],
   "subsets": [
-    "latin-ext",
     "cyrillic",
     "cyrillic-ext",
-    "latin"
+    "latin",
+    "latin-ext",
+    "menu"
   ]
 }

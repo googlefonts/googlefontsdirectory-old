@@ -17,6 +17,8 @@
   ],
   "subsets": [
     "cyrillic",
-    "latin"
+    "latin",
+    "latin-ext",
+    "menu"
   ]
 }

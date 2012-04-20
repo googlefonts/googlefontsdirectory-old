@@ -64,8 +64,9 @@
     }
   ],
   "subsets": [
-    "latin-ext",
     "greek",
-    "latin"
+    "latin",
+    "latin-ext",
+    "menu"
   ]
 }

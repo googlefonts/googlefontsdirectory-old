@@ -40,9 +40,10 @@
     }
   ],
   "subsets": [
-    "latin-ext",
-    "greek-ext",
     "greek",
-    "latin"
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
   ]
 }
