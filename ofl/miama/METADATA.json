@@ -1,0 +1,25 @@
+{
+  "name": "Miama",
+  "designer": "Linus Romer",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 108364,
+  "fonts": [
+    {
+      "name": "Miama",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Miama-Regular.ttf",
+      "postScriptName": "Miama-Regular",
+      "fullName": "Miama"
+    }
+  ],
+  "subsets": [
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
