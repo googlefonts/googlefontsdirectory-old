@@ -1,0 +1,23 @@
+{
+  "name": "Pecita",
+  "designer": "Phillipe Cochy",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 507313,
+  "fonts": [
+    {
+      "name": "Pecita",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Pecita.ttf",
+      "postScriptName": "Pecita",
+      "fullName": "Pecita"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
