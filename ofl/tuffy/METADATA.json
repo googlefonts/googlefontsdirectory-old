@@ -1,0 +1,51 @@
+{
+  "name": "Tuffy",
+  "designer": "Thatcher Ulrich",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Sans Serif",
+  "size": 76494,
+  "fonts": [
+    {
+      "name": "Tuffy",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tuffy-Bold.ttf",
+      "postScriptName": "Tuffy-Bold",
+      "fullName": "Tuffy Bold"
+    },
+    {
+      "name": "Tuffy",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Tuffy-BoldItalic.ttf",
+      "postScriptName": "Tuffy-BoldItalic",
+      "fullName": "Tuffy Bold Italic"
+    },
+    {
+      "name": "Tuffy",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tuffy-Italic.ttf",
+      "postScriptName": "Tuffy-Italic",
+      "fullName": "Tuffy Italic"
+    },
+    {
+      "name": "Tuffy",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tuffy-Regular.ttf",
+      "postScriptName": "Tuffy-Regular",
+      "fullName": "Tuffy Regular"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
