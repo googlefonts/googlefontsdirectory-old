@@ -1,0 +1,37 @@
+{
+  "name": "Nanum Myeongjo",
+  "designer": "Sandoll Communication",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 1355463,
+  "fonts": [
+    {
+      "name": "Nanum Myeongjo",
+      "style": "normal",
+      "weight": 600,
+      "filename": "NanumMyeongjo-Bold.ttf",
+      "postScriptName": "NanumMyeongjoBold",
+      "fullName": "NanumMyeongjoBold"
+    },
+    {
+      "name": "Nanum Myeongjo",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NanumMyeongjo-ExtraBold.ttf",
+      "postScriptName": "NanumMyeongjoExtraBold",
+      "fullName": "NanumMyeongjoExtraBold"
+    },
+    {
+      "name": "Nanum Myeongjo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NanumMyeongjo-Regular.ttf",
+      "postScriptName": "NanumMyeongjo",
+      "fullName": "NanumMyeongjo"
+    }
+  ],
+  "subsets": [
+    "menu"
+  ]
+}
