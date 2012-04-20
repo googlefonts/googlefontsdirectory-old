@@ -1,0 +1,23 @@
+{
+  "name": "Headland One",
+  "designer": "Gary Lonergan",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 26762,
+  "fonts": [
+    {
+      "name": "Headland One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "HeadlandOne-Regular.ttf",
+      "postScriptName": "HeadlandOne-Regular",
+      "fullName": "Headland One"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
