@@ -1,0 +1,29 @@
+{
+  "name": "Nanum Gothic Coding",
+  "designer": "Sandoll Communication",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 1003051,
+  "fonts": [
+    {
+      "name": "Nanum Gothic Coding",
+      "style": "normal",
+      "weight": 700,
+      "filename": "NanumGothicCoding-Bold.ttf",
+      "postScriptName": "NanumGothicCoding-Bold",
+      "fullName": "NanumGothicCoding-Bold"
+    },
+    {
+      "name": "Nanum Gothic Coding",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NanumGothicCoding-Regular.ttf",
+      "postScriptName": "NanumGothicCoding",
+      "fullName": "NanumGothicCoding"
+    }
+  ],
+  "subsets": [
+    "menu"
+  ]
+}
