@@ -1,0 +1,79 @@
+{
+  "name": "Playfair Display SC",
+  "designer": "Claus Eggers Sørensen",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 39887,
+  "fonts": [
+    {
+      "name": "Playfair Display SC",
+      "style": "normal",
+      "weight": 900,
+      "filename": "PlayfairDisplaySC-Black.ttf",
+      "postScriptName": "PlayfairDisplaySC-Black",
+      "fullName": "Playfair Display SC Black"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "italic",
+      "weight": 900,
+      "filename": "PlayfairDisplaySC-BlackItalic.ttf",
+      "postScriptName": "PlayfairDisplay-BlackItalic",
+      "fullName": "Playfair Display Black Italic"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-Bold.ttf",
+      "postScriptName": "PlayfairDisplaySC-Bold",
+      "fullName": "Playfair Display SC Bold"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-BoldItalic.ttf",
+      "postScriptName": "PlayfairDisplay-BoldItalic",
+      "fullName": "Playfair Display Bold Italic"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Italic.ttf",
+      "postScriptName": "PlayfairDisplaySC-Italic",
+      "fullName": "Playfair Display SC Italic"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Regular.ttf",
+      "postScriptName": "PlayfairDisplaySC",
+      "fullName": "Playfair Display SC"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "normal",
+      "weight": 600,
+      "filename": "PlayfairDisplaySC-SemiBold.ttf",
+      "postScriptName": "PlayfairDisplaySC-SemiBold",
+      "fullName": "Playfair Display SC SemiBold"
+    },
+    {
+      "name": "Playfair Display SC",
+      "style": "italic",
+      "weight": 600,
+      "filename": "PlayfairDisplaySC-SemiBoldItalic.ttf",
+      "postScriptName": "PlayfairDisplay-SemiBoldItalic",
+      "fullName": "Playfair Display SemiBold Italic"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
