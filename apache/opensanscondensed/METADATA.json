@@ -32,12 +32,13 @@
     }
   ],
   "subsets": [
-    "vietnamese",
-    "latin-ext",
-    "greek-ext",
     "cyrillic",
     "cyrillic-ext",
     "greek",
-    "latin"
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
   ]
 }
