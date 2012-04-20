@@ -1,0 +1,23 @@
+{
+  "name": "Trocchi",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 64941,
+  "fonts": [
+    {
+      "name": "Trocchi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Trocchi-Regular.ttf",
+      "postScriptName": "Trocchi",
+      "fullName": "Trocchi"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
