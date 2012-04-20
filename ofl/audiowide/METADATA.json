@@ -1,0 +1,23 @@
+{
+  "name": "Audiowide",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 33690,
+  "fonts": [
+    {
+      "name": "Audiowide",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Audiowide-Regular.ttf",
+      "postScriptName": "Audiowide-Regular",
+      "fullName": "Audiowide"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
