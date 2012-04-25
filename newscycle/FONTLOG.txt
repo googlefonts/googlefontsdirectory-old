@@ -7,10 +7,38 @@ and any derivative works.
 Basic Font Information
 ----- ---- -----------
 News Cycle is a realist, sans-serif typeface based primarily on a revival of the
-1908 News Gothic face by American Type Founders (ATF). 
+1908 News Gothic face by American Type Founders (ATF).
+
+The package currently contains the Regular and Bold weights.
 
 ChangeLog
 ---------
+26 Mar 2012 (Nathan Willis)
+- Merged iKern kerning for Bold Latin.
+- Generating a 0.5 release which includes Bold Latin.
+08 Feb 2012 (Nathan Willis)
+- Bold letterspacing done for Basic Latin.
+- Tweaked w, W, M
+- subsetting Bold to make 0.5 release, which will contain a Latin-1-only Bold, with extended Latin, Greek and Cyrillic to follow in 0.6.
+21 Dec 2011 (Nathan Willis)
+- Bold glyphs generally completed for Basic Latin.
+- Metrics have NOT yet been adjusted for Bold.
+07 Dec 2011 (Nathan Willis)
+- branching for 0.4 release
+- cloned initial Bold from News Cycle Regular
+03 Oct 2011 (Nathan Willis)
+- finished Greek, Coptic, Math glyphs
+- regularized metrics
+- exported gigantic namelist
+25 Jul 2011 (Nathan Willis)
+- finished Cyrillic glyphs
+- began working on remaining basic mathematical glyphs
+04 Jul 2011 (Nathan Willis)
+- basic Cyrillic added, upper and lower case
+- started archaic & extended Cyrillic
+- cleanup of existing mathematical symbols (stroke & vertical alignment)
+- added a few additional mathematical symbols
+- added a few Greek glyphs
 07 Apr 2011 (Nathan Willis) News Cycle Version 0.2
 - cleanup completed
 - vertical metrics fixed
