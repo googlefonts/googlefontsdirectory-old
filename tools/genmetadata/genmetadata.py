@@ -158,44 +158,56 @@ def inferSubsets(familydir):
     return ["latin"]
   return sorted(subsets)
 
+def setIfNotPresent(metadata, key, value):
+  if key not in metadata:
+    metadata[key] = value
+
 def genmetadata(familydir):
   metadata = InsertOrderedDict()
+  if hasMetadata(familydir):
+    metadata = loadMetadata(familydir)
   familyname = inferFamilyName(familydir)
-  metadata["name"] = familyname
-  metadata["designer"] = ""
-  metadata["license"] = inferLicense(familydir)
-  metadata["visibility"] = "Internal"
-  metadata["category"] = ""
-  metadata["size"] = -1
+  setIfNotPresent(metadata, "name", familyname)
+  setIfNotPresent(metadata, "designer", "")
+  setIfNotPresent(metadata, "license", inferLicense(familydir))
+  setIfNotPresent(metadata, "visibility", "Internal")
+  setIfNotPresent(metadata, "category", "")
+  setIfNotPresent(metadata, "size", -1)
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
-#  if hasMetadata(familydir):
-#    oldmetadata = loadMetadata(familydir)
-#  diff = set(metadata["subsets"]).difference(set(oldmetadata["subsets"]))
-#  if diff:
-#    oldmetadata["subsets"].extend([subset for subset in diff])
-#    writeOldMetadata(familydir, oldmetadata)
   return metadata
 
-#def hasMetadata(familydir):
-#  return os.path.exists(os.path.join(familydir, "METADATA.json"))
+def hasMetadata(familydir):
+  return os.path.exists(os.path.join(familydir, "METADATA.json"))
 
-#def loadMetadata(familydir):
-#  with open(os.path.join(familydir, "METADATA.json"), 'r') as fp:
-#    return json.load(fp)
+def loadMetadata(familydir):
+  with open(os.path.join(familydir, "METADATA.json"), 'r') as fp:
+    return sortOldMetadata(json.load(fp))
 
-#def sortFont(fonts):
-#  sortedfonts = []
-#  for font in fonts:
-#    metadatafont = InsertOrderedDict()
-#    metadatafont["name"] = font["name"]
-#    metadatafont["style"] = font["style"]
-#    metadatafont["weight"] = font["weight"]
-#    metadatafont["filename"] = font["filename"]
-#    metadatafont["postScriptName"] = font["postScriptName"]
-#    metadatafont["fullName"] = font["fullName"]
-#    sortedfonts.append(metadatafont)
-#  return sortedfonts
+def sortOldMetadata(oldmetadata):
+  orderedMetadata = InsertOrderedDict()
+  orderedMetadata["name"] = oldmetadata["name"]
+  orderedMetadata["designer"] = oldmetadata["designer"]
+  orderedMetadata["license"] = oldmetadata["license"]
+  orderedMetadata["visibility"] = oldmetadata["visibility"]
+  orderedMetadata["category"] = oldmetadata["category"]
+  orderedMetadata["size"] = oldmetadata["size"]
+  orderedMetadata["fonts"] = sortFont(oldmetadata["fonts"])
+  orderedMetadata["subsets"] = sorted(oldmetadata["subsets"])
+  return orderedMetadata
+
+def sortFont(fonts):
+  sortedfonts = []
+  for font in fonts:
+    fontMetadata = InsertOrderedDict()
+    fontMetadata["name"] = font["name"]
+    fontMetadata["style"] = font["style"]
+    fontMetadata["weight"] = font["weight"]
+    fontMetadata["filename"] = font["filename"]
+    fontMetadata["postScriptName"] = font["postScriptName"]
+    fontMetadata["fullName"] = font["fullName"]
+    sortedfonts.append(fontMetadata)
+  return sortedfonts
 
 def striplines(jsontext):
   lines = jsontext.split("\n")
@@ -204,27 +216,16 @@ def striplines(jsontext):
     newlines.append(line.rstrip())
   return "\n".join(newlines)
 
-#def writeOldMetadata(familydir, oldmetadata):
-#  metadataToWrite = InsertOrderedDict()
-#  metadataToWrite["name"] = oldmetadata["name"]
-#  metadataToWrite["designer"] = oldmetadata["designer"]
-#  metadataToWrite["license"] = oldmetadata["license"]
-#  metadataToWrite["visibility"] = oldmetadata["visibility"]
-#  metadataToWrite["category"] = oldmetadata["category"]
-#  metadataToWrite["size"] = oldmetadata["size"]
-#  metadataToWrite["fonts"] = sortFont(oldmetadata["fonts"])
-#  metadataToWrite["subsets"] = sorted(oldmetadata["subsets"])
-#  print json.dumps(metadataToWrite, indent=2)
-
 def writeFile(familydir, metadata):
-  with open(os.path.join(familydir, "METADATA.json"), 'w') as f:
+  filename = "METADATA.json"
+  if hasMetadata(familydir):
+    filename = "METADATA.json.new"
+  with open(os.path.join(familydir, filename), 'w') as f:
     f.write(striplines(json.dumps(metadata, indent=2)))
 
 def run(familydir):
  writeFile(familydir, genmetadata(familydir))
 
-# TODO: clean up code and enable overwriting of existing METADATA.json files
-# for update.
 def main(argv=None):
   if argv is None:
     argv = sys.argv
