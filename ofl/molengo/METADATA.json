@@ -11,12 +11,13 @@
       "style": "normal",
       "weight": 400,
       "filename": "Molengo-Regular.ttf",
-      "postScriptName": "Molengo",
+      "postScriptName": "Molengo-Regular",
       "fullName": "Molengo"
     }
   ],
   "subsets": [
     "latin",
+    "latin-ext",
     "menu"
   ]
 }
