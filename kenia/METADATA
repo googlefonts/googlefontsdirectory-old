@@ -1,6 +1,5 @@
 license: OFL
-payment: DESIGNER
-url: http://www.juliapetretta.com
+
 category: display
 subsets: menu,latin
 
@@ -22,3 +21,37 @@ description: <p>Inspired by travel and my stay in Kenya, \
   makes it suitable for happy typography in \
   magazines, blogs, online games and other \
   on-screen and print-based text.</p>
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Kenia" \
+# ~/googlefontdirectory/kenia/Kenia-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/kenia/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Kenia-Regular.menu; 
+
+# cd ~/googlefontdirectory/kenia/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in kenia; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/kenia/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
