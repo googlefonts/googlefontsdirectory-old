@@ -1,6 +1,8 @@
 #!/usr/bin/python2.6
 
-from UserDict import IterableUserDict
+from datetime import date
+
+import codecs
 import fontforge
 import json
 import logging
@@ -173,15 +175,19 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "visibility", "Internal")
   setIfNotPresent(metadata, "category", "")
   setIfNotPresent(metadata, "size", -1)
+  setIfNotPresent(metadata, "dateAdded", getToday())
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
   return metadata
+
+def getToday():
+  return unicode(date.today().strftime("%Y-%m-%d"))
 
 def hasMetadata(familydir):
   return os.path.exists(os.path.join(familydir, "METADATA.json"))
 
 def loadMetadata(familydir):
-  with open(os.path.join(familydir, "METADATA.json"), 'r') as fp:
+  with codecs.open(os.path.join(familydir, "METADATA.json"), 'r', encoding="utf_8") as fp:
     return sortOldMetadata(json.load(fp))
 
 def sortOldMetadata(oldmetadata):
@@ -194,6 +200,7 @@ def sortOldMetadata(oldmetadata):
   orderedMetadata["size"] = oldmetadata["size"]
   orderedMetadata["fonts"] = sortFont(oldmetadata["fonts"])
   orderedMetadata["subsets"] = sorted(oldmetadata["subsets"])
+  orderedMetadata["dateAdded"] = oldmetadata["dateAdded"]
   return orderedMetadata
 
 def sortFont(fonts):
@@ -213,15 +220,15 @@ def striplines(jsontext):
   lines = jsontext.split("\n")
   newlines = []
   for line in lines:
-    newlines.append(line.rstrip())
-  return "\n".join(newlines)
+    newlines.append("%s\n" % (line.rstrip()))
+  return "".join(newlines)
 
 def writeFile(familydir, metadata):
   filename = "METADATA.json"
   if hasMetadata(familydir):
     filename = "METADATA.json.new"
-  with open(os.path.join(familydir, filename), 'w') as f:
-    f.write(striplines(json.dumps(metadata, indent=2)))
+  with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
+    f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=False)))
 
 def run(familydir):
  writeFile(familydir, genmetadata(familydir))

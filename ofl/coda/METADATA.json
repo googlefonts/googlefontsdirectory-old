@@ -12,7 +12,7 @@
       "weight": 400,
       "filename": "Coda-Regular.ttf",
       "postScriptName": "Coda-Regular",
-      "fullName": "Coda Regular"
+      "fullName": "Coda"
     },
     {
       "name": "Coda",
@@ -20,12 +20,13 @@
       "weight": 800,
       "filename": "Coda-Heavy.ttf",
       "postScriptName": "Coda-Heavy",
-      "fullName": "Coda-Heavy"
+      "fullName": "Coda Heavy"
     }
   ],
   "subsets": [
     "latin",
     "latin-ext",
     "menu"
-  ]
+  ],
+  "dateAdded": "2010-12-07"
 }
