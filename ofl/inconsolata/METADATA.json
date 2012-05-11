@@ -10,9 +10,17 @@
       "name": "Inconsolata",
       "style": "normal",
       "weight": 400,
-      "filename": "Inconsolata.ttf",
+      "filename": "Inconsolata-Regular.ttf",
       "postScriptName": "Inconsolata",
       "fullName": "Inconsolata"
+    },
+    {
+      "name": "Inconsolata",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Inconsolata-Bold.ttf",
+      "postScriptName": "Inconsolata-Bold",
+      "fullName": "Inconsolata Bold"
     }
   ],
   "subsets": [
