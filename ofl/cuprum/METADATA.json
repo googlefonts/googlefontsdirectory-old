@@ -10,9 +10,33 @@
       "name": "Cuprum",
       "style": "normal",
       "weight": 400,
-      "filename": "Cuprum.ttf",
-      "postScriptName": "Cuprum",
+      "filename": "Cuprum-Regular.ttf",
+      "postScriptName": "Cuprum-Regular",
       "fullName": "Cuprum"
+    },
+    {
+      "name": "Cuprum",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Cuprum-Italic.ttf",
+      "postScriptName": "Cuprum-Italic",
+      "fullName": "Cuprum Italic"
+    },
+    {
+      "name": "Cuprum",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Cuprum-Bold.ttf",
+      "postScriptName": "Cuprum-Bold",
+      "fullName": "Cuprum Bold"
+    },
+    {
+      "name": "Cuprum",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Cuprum-BoldItalic.ttf",
+      "postScriptName": "Cuprum-BoldItalic",
+      "fullName": "Cuprum Bold Italic"
     }
   ],
   "subsets": [
