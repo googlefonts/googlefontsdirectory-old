@@ -16,6 +16,14 @@
     },
     {
       "name": "Quicksand",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Quicksand-LightItalic.ttf",
+      "postScriptName": "Quicksand-LightItalic",
+      "fullName": "Quicksand Light Italic"
+    },
+    {
+      "name": "Quicksand",
       "style": "normal",
       "weight": 400,
       "filename": "Quicksand-Regular.ttf",
@@ -24,11 +32,27 @@
     },
     {
       "name": "Quicksand",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Quicksand-Italic.ttf",
+      "postScriptName": "Quicksand-Italic",
+      "fullName": "Quicksand Italic"
+    },
+    {
+      "name": "Quicksand",
       "style": "normal",
       "weight": 700,
       "filename": "Quicksand-Bold.ttf",
       "postScriptName": "Quicksand-Bold",
       "fullName": "Quicksand Bold"
+    },
+    {
+      "name": "Quicksand",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Quicksand-BoldItalic.ttf",
+      "postScriptName": "Quicksand-BoldItalic",
+      "fullName": "Quicksand Bold Italic"
     }
   ],
   "subsets": [
