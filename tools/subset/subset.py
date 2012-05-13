@@ -254,7 +254,7 @@ def getsubset(subset):
                    0x06D0, 0x06D1, 0x06D4, 0x06FA, 0x06DD, 0x06DE, 
                    0x06E0, 0x06E9, 0x060D, 0xFD3E, 0xFD3F, 0x25CC,
                    # Added from https://groups.google.com/d/topic/googlefontdirectory-discuss/MwlMWMPNCXs/discussion
-                   0x0620]
+                   0x063b, 0x063c, 0x063d, 0x063e, 0x063f, 0x0620]
     return result
 
 # code for extracting vertical metrics from a TrueType font
