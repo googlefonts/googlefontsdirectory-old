@@ -1,0 +1,9 @@
+# COMMENTS
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,cpsp,aalt,liga,locl,CAPS" \
+# --chars="Prociono" \
+# ~/googlefontdirectory/prociono/Prociono-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/prociono/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Prociono-Regular.menu; \

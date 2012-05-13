@@ -1,0 +1,19 @@
+# COMMENTS
+# # menu subset made with menusubset.ff 
+# fontforge -lang=ff -script menusubset-tenorsans.ff TenorSans-Regular.ttf;
+# mv TenorSans-Regular.{ttf.menu.ttf,menu};
+# for some reason the space char isn't included, its 350 units wide, add it by hand
+# for family in tenorsans; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
+# cd tenorsans/;

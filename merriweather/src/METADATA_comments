@@ -1,0 +1,8 @@
+# COMMENTS
+  <a href="http://twitter.com/#!/MerriweatherFnt">Merriweather \
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Merriweather" \
+# ~/googlefontdirectory/merriweather/Merriweather-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/merriweather/; 

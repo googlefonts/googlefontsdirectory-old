@@ -1,0 +1,9 @@
+# COMMENTS
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Creepster Caps" \
+#     ~/googlefontdirectory/creepstercaps/CreepsterCaps-Regular.ttf \
+#     ~/googlefontdirectory/creepstercaps/CreepsterCaps-Regular.menu; \
+# cd ~/googlefontdirectory/creepstercaps/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  CreepsterCaps-Regular.menu; \

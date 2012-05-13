@@ -1,0 +1,6 @@
+# cd ~/src/font-optimizer/; 
+# ./subset.pl -v \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Dosis Light" \
+# ~/googlefontdirectory/dosislight/DosisLight-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/dosislight; 

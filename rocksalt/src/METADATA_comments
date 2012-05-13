@@ -1,0 +1,6 @@
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Rocksalt" \
+#  ~/googlefontdirectory/rocksalt/Rocksalt.{ttf,menu}; \
+# cd ~/googlefontdirectory/rocksalt/; \

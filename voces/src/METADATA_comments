@@ -1,0 +1,27 @@
+# COMMENTS
+# NOTE THAT THIS FONT HAS IPA CHARS IN THE LATIN-EXT SUBSET THAT ARE
+# NON-STANDARD FOR THE latin-ext RANGE
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Voces" \
+# ~/googlefontdirectory/voces/Voces-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/voces/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Voces-Regular.menu; 
+# cd ~/googlefontdirectory/voces/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in voces; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/voces/; \

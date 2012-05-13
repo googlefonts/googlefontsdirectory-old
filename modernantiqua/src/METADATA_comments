@@ -1,0 +1,17 @@
+# COMMENTS
+#     cd ~/src/font-optimizer/; \
+#     ./subset.pl -v --chars="Modern Antiqua" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#      ~/googlefontdirectory/modernantiqua/ModernAntiqua-Regular.{ttf,menu}; \
+#      cd ~/googlefontdirectory/modernantiqua/; \
+#   for font in `ls -1 *ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#   done; \
