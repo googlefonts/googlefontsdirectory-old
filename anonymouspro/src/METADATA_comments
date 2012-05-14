@@ -1,0 +1,22 @@
+# COMMENTS
+# TODO 2010-12-04 DC Is having 2 names correct? Since the original designers don't have profiles, I think it's okay, but maybe MD is better?
+# originaldesigner: Multiple Designers
+# TODO description.gr: 
+# TODO description.ru: 
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Anoymus PrКаилрцΕάεηικλν()" \
+#     A-R.ttf A-R.menu;
+# for family in anonymouspro; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;

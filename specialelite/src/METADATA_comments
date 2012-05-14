@@ -1,0 +1,7 @@
+# COMMENTS
+# cd ~/src/font-optimizer;
+# ./subset.pl -v \
+#   --exclude="aalt,c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#   --chars="Special Elite" \
+#  ~/googlefontdirectory/specialelite/SpecialElite.{ttf,menu};
+# cd ~/googlefontdirectory/specialelite/; 

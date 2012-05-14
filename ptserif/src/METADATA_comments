@@ -1,0 +1,12 @@
+# COMMENTS
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE RESERVED FONT NAMES
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,case,cpsp,kern,ccmp,liga" \
+#     --chars="PT Serif Caption Каилрц()" \
+# ~/googlefontdirectory/ptserif/PT_Serif-Caption-Web-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/ptserif/;
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,case,cpsp,kern,ccmp,liga" \
+#     --chars="PT Serif Каилрц()" \
+# ~/googlefontdirectory/ptserif/PT_Serif-Web-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/ptserif/;

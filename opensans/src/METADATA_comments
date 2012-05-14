@@ -1,0 +1,31 @@
+# COMMENTS
+# cd ~/googlefontdirectory/opensans/;
+# fontforge -lang=ff -script menusubset-opensanscondlight.ff OpenSans-CondLight.ttf;
+# mv OpenSans-CondLight.{ttf.menu.ttf,menu};
+# fontforge OpenSans-CondLight.menu;
+# echo "now remove the license from the font file and regenerate menu.ttf by hand";
+# ~/googlefontdirectory/tools/chars/showchars.py OpenSans-CondLight.menu;
+# cd ~/googlefontdirectory/opensans/;
+# fontforge -lang=ff -script menusubset-opensans.ff OpenSans-Regular.ttf;
+# mv OpenSans-Regular.{ttf.menu.ttf,menu};
+# fontforge OpenSans-Regular.menu;
+# echo "now remove the license from the font file and regenerate menu.ttf by hand";
+# ~/googlefontdirectory/tools/chars/showchars.py OpenSans-Regular.menu;
+# cd ~/googlefontdirectory/; \
+# for family in opensans; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin \
+#            vietnamese+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/opensans/; \
+# rm *log *nam; \

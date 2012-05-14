@@ -1,0 +1,9 @@
+# COMMENTS
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Merienda One" \
+#   ~/googlefontdirectory/meriendaone/MeriendaOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/meriendaone/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  MeriendaOne-Regular.menu; \

@@ -1,0 +1,11 @@
+# COMMENTS
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Coustard" \
+#   ~/googlefontdirectory/coustard/Coustard-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/coustard/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Coustard-Regular.menu; \

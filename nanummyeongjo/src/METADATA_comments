@@ -1,0 +1,5 @@
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# 2011-03-26 DC should include latin and do v3 subsetting
+# cd ~/googlefontdirectory/nanummyeongjo;
+# fontforge -lang=ff -script menusubset-korean.ff NanumMyeongjo-Regular.ttf;
+# mv NanumMyeongjo-Regular.ttf.menu.ttf NanumMyeongjo-Regular.menu;

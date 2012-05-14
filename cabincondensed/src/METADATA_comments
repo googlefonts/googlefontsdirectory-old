@@ -1,0 +1,11 @@
+# COMMENTS
+# Note: weight values are slightly inconsistent, as original checkin
+# used "bold", but additional weights added have numeric values.
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Cabin Condensed" \
+# ~/googlefontdirectory/cabincondensed/CabinCondensed-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/cabincondensed/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  CabinCondensed-Regular.menu; \

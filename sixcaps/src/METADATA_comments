@@ -1,0 +1,8 @@
+# COMMENTS
+# cd ~/src/font-optimizer;
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+# --exclude="smcp,ordn,sups,sinf,subs" \
+# --chars="Six Caps" \
+# ~/googlefontdirectory/sixcaps/SixCaps.ttf \
+# ~/googlefontdirectory/sixcaps/SixCaps.menu;
+# cd ~/googlefontdirectory/sixcaps/;

@@ -1,0 +1,31 @@
+#
+#                      IMPORTANT NOTICE
+#
+#     NOTE THAT ANY CHANGES TO FILES IN THIS DIR MUST BE 
+#   COPIED TO DIRECTORY USING THE NEW NAME OF THIS FAMILY!
+#
+#
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt,salt,ss01,ss04" \
+#  --chars="Dosis" \
+# ~/googlefontdirectory/terminaldosis/Dosis-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/terminaldosis/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Dosis-Regular.menu; \
+# cd ~/googlefontdirectory/terminaldosis/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in terminaldosis; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/terminaldosis/; \

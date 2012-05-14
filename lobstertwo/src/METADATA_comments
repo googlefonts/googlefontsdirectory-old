@@ -1,0 +1,7 @@
+# COMMENTS
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac,aalt,liga" \
+#     --chars="Lobster Two" \
+#     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.ttf \
+#     ~/googlefontdirectory/lobstertwo/LobsterTwo-Regular.menu; \
+#  cd ~/googlefontdirectory/lobstertwo/; \

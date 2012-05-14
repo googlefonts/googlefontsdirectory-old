@@ -1,0 +1,20 @@
+# COMMENTS
+#subsets: menu,latin,latin-ext
+# cd ~/src/font-optimizer/;
+# ./subset.pl -v --chars="Nova Slim" \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# ~/googlefontdirectory/novaslim/NovaSlim.{ttf,menu};
+# cd ~/googlefontdirectory/novaslim/;
+# cd novaslim;
+#    for font in `ls -1 *ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    cd ..;
+# done;

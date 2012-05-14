@@ -1,0 +1,9 @@
+# COMMENTS
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Chewy" \
+#     ~/googlefontdirectory/chewy/Chewy.ttf \
+#     ~/googlefontdirectory/chewy/Chewy.menu; \
+# cd ~/googlefontdirectory/chewy/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Chewy.menu; \

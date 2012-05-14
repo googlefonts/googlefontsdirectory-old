@@ -1,0 +1,6 @@
+# COMMENTS
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH RFN
+# 2011-03-26 DC should include latin and do v3 subsetting
+# cd ~/googlefontdirectory/nanumbrushscript;
+# fontforge -lang=ff -script menusubset-korean.ff NanumBrushScript-Regular.ttf;
+# mv NanumBrushScript-Regular.ttf.menu.ttf NanumBrushScript-Regular.menu;
