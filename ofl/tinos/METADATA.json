@@ -9,22 +9,6 @@
     {
       "name": "Tinos",
       "style": "normal",
-      "weight": 400,
-      "filename": "Tinos-Regular.ttf",
-      "postScriptName": "Tinos",
-      "fullName": "Tinos"
-    },
-    {
-      "name": "Tinos",
-      "style": "italic",
-      "weight": 400,
-      "filename": "Tinos-Italic.ttf",
-      "postScriptName": "Tinos-Italic",
-      "fullName": "Tinos Italic"
-    },
-    {
-      "name": "Tinos",
-      "style": "normal",
       "weight": 700,
       "filename": "Tinos-Bold.ttf",
       "postScriptName": "Tinos-Bold",
@@ -37,11 +21,33 @@
       "filename": "Tinos-BoldItalic.ttf",
       "postScriptName": "Tinos-BoldItalic",
       "fullName": "Tinos Bold Italic"
+    },
+    {
+      "name": "Tinos",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tinos-Italic.ttf",
+      "postScriptName": "Tinos-Italic",
+      "fullName": "Tinos Italic"
+    },
+    {
+      "name": "Tinos",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tinos-Regular.ttf",
+      "postScriptName": "Tinos",
+      "fullName": "Tinos"
     }
   ],
   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
     "latin",
-    "menu"
+    "latin-ext",
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2010-11-18"
 }
