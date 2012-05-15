@@ -250,7 +250,9 @@ def writeFile(familydir, metadata):
     f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=False)))
 
 def run(familydir):
- writeFile(familydir, genmetadata(familydir))
+ metadata = genmetadata(familydir)
+ writeFile(familydir, metadata)
+ print json.dumps(metadata, indent=2, ensure_ascii=False)
 
 def main(argv=None):
   if argv is None:
