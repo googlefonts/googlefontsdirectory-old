@@ -295,22 +295,22 @@ def getDesigner(familydir):
           filepath = os.path.join(familydir, f)
           ftfont = fontToolsOpenFont(filepath)
           desName = fontToolsGetDesignerName(ftfont)
-    if isinstance(desName, (str,unicode)):
-        string = "Designer's name from font is: " + desName
-        color = "green"
-        ansiprint(string, color)
-        return desName
-    else:
-        desName = unicode(raw_input("Designer?\n"))
-        if desName == "":
-          desName = "Multiple Designers"
-          ansiprint("No Designer Name known, using Multiple Designers for now...", "red")
-          return desName
-        else:
-          string = "Designer's name from input is " + desName
-          color = "green"
-          ansiprint(string, color)
-          return desName
+          if isinstance(desName, (str,unicode)):
+            string = "Designer's name from font is: " + desName
+            color = "green"
+            ansiprint(string, color)
+            return desName
+          else:
+            desName = unicode(raw_input("Designer?\n"))
+            if desName == "":
+              desName = "Multiple Designers"
+              ansiprint("No Designer Name known, using Multiple Designers for now...", "red")
+              return desName
+            else:
+              string = "Designer's name from input is " + desName
+              color = "green"
+              ansiprint(string, color)
+              return desName
 
 def getSize(familydir):
     files = os.listdir(familydir)
