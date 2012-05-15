@@ -127,6 +127,7 @@ SUPPORTED_SUBSETS = frozenset([
 def usage():
   print >> sys.stderr, "genmetadata.py family_directory"
 
+# DC This should check the NAME table for correct values of the license and licenseurl keys
 def inferLicense(familydir):
   if familydir.find("ufl/") != -1:
     return "UFL"
@@ -141,6 +142,7 @@ def inferStyle(ffont):
     return "normal"
   return "italic"
 
+# DC This should use fontTools not FontForge
 def inferFamilyName(familydir):
   files = os.listdir(familydir)
   for f in files:
@@ -149,6 +151,7 @@ def inferFamilyName(familydir):
       ffont = fontforge.open(filepath)
       return ffont.familyname
 
+# DC This should use fontTools not FontForge, perhaps using ttfquery code
 def createFonts(familydir, familyname):
   fonts = []
   files = os.listdir(familydir)
@@ -166,6 +169,7 @@ def createFonts(familydir, familyname):
       fonts.append(fontmetadata)
   return fonts
 
+# DC This should also print the subset filesizes and check they are smaller than the original ttf
 def inferSubsets(familydir):
   subsets = set()
   files = os.listdir(familydir)
@@ -189,12 +193,12 @@ def genmetadata(familydir):
     metadata = loadMetadata(familydir)
   familyname = inferFamilyName(familydir)
   setIfNotPresent(metadata, "name", familyname)
-  setIfNotPresent(metadata, "designer", "")
+  setIfNotPresent(metadata, "designer", getDesigner())  # DC Should get this from the font or prompt?
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Internal")
-  setIfNotPresent(metadata, "category", "")
-  setIfNotPresent(metadata, "size", -1)
-  setIfNotPresent(metadata, "dateAdded", getToday())
+  setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
+  setIfNotPresent(metadata, "size", -1)  # DC JEL, How is this calculated?
+  setIfNotPresent(metadata, "dateAdded", getToday())  # DC JEL, Should this be updated each time script is run?
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
   return metadata
