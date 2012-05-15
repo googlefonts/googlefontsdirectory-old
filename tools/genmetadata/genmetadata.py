@@ -5,8 +5,6 @@
 # Author: Jeremie Lenfant-Engelmann (jeremiele a google com)
 # Author: Dave Crossland (dcrossland a google com )
 #
-# Copyright (c) 2003, Michael C. Fletcher
-#
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
 #   You may obtain a copy of the License at
@@ -19,9 +17,9 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-# A script for generating METADATA.json files, using FontForge
+# Portions Copyright (c) 2003, Michael C. Fletcher, TTFQuery Project
 #
-# DC Q: what and where is size calculated?
+# A script for generating METADATA.json files, using FontForge
 
 from datetime import date
 from fontTools import ttLib
@@ -32,6 +30,7 @@ import json
 import logging
 import os
 import sys
+import gzip
 
 # This is only here to have the JSON file data written in a predictable way
 # We only care about the the json object being able to iterate over the keys, so
@@ -293,11 +292,10 @@ def setIfNotPresent(metadata, key, value):
   if key not in metadata:
     metadata[key] = value
 
-# DC Should get this from the font
 def getDesigner(familydir):
     files = os.listdir(familydir)
     for f in files:
-        if f.endswith("Regular.ttf"):
+        if f.endswith("Regular.ttf"): #DC should ansiprint red if no Reg exemplar
           filepath = os.path.join(familydir, f)
           ftfont = fontToolsOpenFont(filepath)
           desName = fontToolsGetDesignerName(ftfont)
@@ -318,6 +316,23 @@ def getDesigner(familydir):
           ansiprint(string, color)
           return desName
 
+def getSize(familydir):
+    files = os.listdir(familydir)
+    for f in files:
+        if f.endswith("Regular.ttf"): # DC should ansiprint red if no Reg exemplar
+          filepath = os.path.join(familydir, f)
+          tmpgzip = "/tmp/tempfont.gz"
+          # print "Original size", os.path.getsize(filepath)
+          f_in = open(filepath, 'rb')
+          f_out = gzip.open(tmpgzip, 'wb')
+          f_out.writelines(f_in)
+          f_out.close()
+          f_in.close()
+          gzipSize = str(os.path.getsize(tmpgzip))
+          string = "Gzip size " + gzipSize
+          color = "green"
+          ansiprint(string, color)
+          return str(gzipSize)
 
 def genmetadata(familydir):
   metadata = InsertOrderedDict()
@@ -329,7 +344,7 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Internal")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
-  setIfNotPresent(metadata, "size", -1)  # DC Make this the gzipped filesize of a file passed in as an arg
+  setIfNotPresent(metadata, "size", getSize(familydir)) #-1)  # DC Make this the gzipped filesize of a file passed in as an arg
   setIfNotPresent(metadata, "dateAdded", getToday())  # DC This is used for the Date Added sort in the GWF Directory - DC to check all existing values in hg repo are correct
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
