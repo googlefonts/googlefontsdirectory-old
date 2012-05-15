@@ -157,8 +157,8 @@ def inferFamilyName(familydir):
 
 def fontToolsOpenFont(filepath):
   if isinstance(filepath, (str,unicode)):
-    filename = open(filepath, 'rb')
-    return ttLib.TTFont(filename)
+    file = open(filepath, 'rb')
+    return ttLib.TTFont(file)
 
 # DC This should check both PSNames match, using something like this, from ttfquery:
 #
