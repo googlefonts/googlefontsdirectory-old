@@ -152,10 +152,34 @@ def inferFamilyName(familydir):
       ffont = fontforge.open(filepath)
       return ffont.familyname
 
-# DC This should check both PSNames match
-def fontToolsGetPSName(fontfile):
-  filepath = os.path.join(familydir, f)
-  ftfont = fontToolsOpenFont(filepath)
+def fontToolsOpenFont(filepath):
+  if isinstance(filepath, (str,unicode)):
+    filename = open(filepath, 'rb')
+    return ttLib.TTFont(filename)
+
+# DC This should check both PSNames match, using something like this, from ttfquery:
+#
+# FONT_SPECIFIER_NAME_ID = 4
+# FONT_SPECIFIER_FAMILY_ID = 1
+# def shortName( font ):
+# 	"""Get the short name from the font's names table"""
+# 	name = ""
+# 	family = ""
+# 	for record in font['name'].names:
+# 		if record.nameID == FONT_SPECIFIER_NAME_ID and not name:
+# 			if '\000' in record.string:
+# 				name = unicode(record.string, 'utf-16-be').encode('utf-8')
+# 			else:
+# 				name = record.string
+# 		elif record.nameID == FONT_SPECIFIER_FAMILY_ID and not family:
+# 			if '\000' in record.string:
+# 				family = unicode(record.string, 'utf-16-be').encode('utf-8')
+# 			else:
+# 				family = record.string
+# 		if name and family:
+# 			break
+# 	return name, family
+def fontToolsGetPSName(ftfont):
   for record in ftfont['name'].names:
     if record.nameID == 6:
       if '\000' in record.string:
@@ -173,13 +197,14 @@ def createFonts(familydir, familyname):
       fontmetadata = InsertOrderedDict()
       filepath = os.path.join(familydir, f)
       ffont = fontforge.open(filepath)
+      ftfont = fontToolsOpenFont(filepath)
       fontmetadata["name"] = familyname
       fontmetadata["style"] = inferStyle(ffont)
       fontmetadata["weight"] = ffont.os2_weight
       fontmetadata["filename"] = f
     # DC This was previously done with FontForge
     # fontmetadata["postScriptName"] = ffont.fontname
-      fontmetadata["postScriptName"] = fontToolsGetPSName(f)
+      fontmetadata["postScriptName"] = fontToolsGetPSName(ftfont)
       fontmetadata["fullName"] = ffont.fullname
       fonts.append(fontmetadata)
   return fonts
