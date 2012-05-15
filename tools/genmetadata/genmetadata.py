@@ -1,4 +1,5 @@
 #!/usr/bin/python2.6
+# -*- coding: utf-8 -*-
 #
 # Copyright 2012, Google Inc.
 # Author: Jeremie Lenfant-Engelmann (jeremiele a google com)
