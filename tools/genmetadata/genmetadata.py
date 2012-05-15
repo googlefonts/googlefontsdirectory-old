@@ -252,6 +252,7 @@ def writeFile(familydir, metadata):
     filename = "METADATA.json.new"
   with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
     f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=False)))
+  print json.dumps(metadata, indent=2, ensure_ascii=False)
 
 def ansiprint(string, color):
   if sys.stdout.isatty():
@@ -288,9 +289,7 @@ def writeDescHtml(familydir):
 
 def run(familydir):
  writeDescHtml(familydir)
- metadata = genmetadata(familydir)
- writeFile(familydir, metadata)
- print json.dumps(metadata, indent=2, ensure_ascii=False)
+ writeFile(familydir, genmetadata(familydir))
 
 def main(argv=None):
   if argv is None:
