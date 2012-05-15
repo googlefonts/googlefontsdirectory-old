@@ -315,7 +315,7 @@ def getDesigner(familydir):
 def getSize(familydir):
     files = os.listdir(familydir)
     for f in files:
-        if f.endswith("Regular.ttf"): # DC should ansiprint red if no Reg exemplar
+        if f.endswith("Regular.ttf"):
           filepath = os.path.join(familydir, f)
           tmpgzip = "/tmp/tempfont.gz"
           # print "Original size", os.path.getsize(filepath)
@@ -327,8 +327,12 @@ def getSize(familydir):
           gzipSize = str(os.path.getsize(tmpgzip))
           string = "Gzip size " + gzipSize
           color = "green"
-          ansiprint(string, color)
-          return str(gzipSize)
+        else:
+          gzipSize = str(-1)
+          string = "WARNING: No *-Regular.ttf to calculate gzipped filesize!"
+          color = "red"
+        ansiprint(string, color)
+        return str(gzipSize)
 
 def setIfNotPresent(metadata, key, value):
   if key not in metadata:
@@ -344,7 +348,7 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Internal")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
-  setIfNotPresent(metadata, "size", getSize(familydir)) #-1)  # DC Make this the gzipped filesize of a file passed in as an arg
+  setIfNotPresent(metadata, "size", getSize(familydir))
   setIfNotPresent(metadata, "dateAdded", getToday())  # DC This is used for the Date Added sort in the GWF Directory - DC to check all existing values in hg repo are correct
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
