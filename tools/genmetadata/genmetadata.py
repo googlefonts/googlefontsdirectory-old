@@ -249,7 +249,41 @@ def writeFile(familydir, metadata):
   with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
     f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=False)))
 
+def ansiprint(string, color):
+  if sys.stdout.isatty():
+    attr = []
+    if color == "green":
+        attr.append('32') # green
+        attr.append('1') # bold
+    else:
+        attr.append('31') # red
+        attr.append('1') # bold
+    print '\x1b[%sm%s\x1b[0m' % (';'.join(attr), string)
+  else:
+    print string
+
+def writeDescHtml(familydir):
+  # DC FontForge can't extract descriptions from NAME tables to write to DESCRIPTION.en_us.html - can fontTools?
+  filename = "DESCRIPTION.en_us.html"
+  if os.path.exists(os.path.join(familydir, filename)):
+    string = filename + " exists - check it is okay"
+    color = "green"
+    ansiprint(string, color)
+    return
+  else:
+    # DC sanitize this raw_input as real HTML
+    descHtml = unicode(raw_input("Description HTML?\n"))
+    if descHtml == "":
+      string = "Create " + filename
+      color = "red"
+      ansiprint(string, color)
+      return
+    with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
+      f.write(descHtml)
+    print = "Created " + filename
+
 def run(familydir):
+ writeDescHtml(familydir)
  metadata = genmetadata(familydir)
  writeFile(familydir, metadata)
  print json.dumps(metadata, indent=2, ensure_ascii=False)
