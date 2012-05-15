@@ -288,10 +288,6 @@ def inferSubsets(familydir):
     return ["latin"]
   return sorted(subsets)
 
-def setIfNotPresent(metadata, key, value):
-  if key not in metadata:
-    metadata[key] = value
-
 def getDesigner(familydir):
     files = os.listdir(familydir)
     for f in files:
@@ -333,6 +329,10 @@ def getSize(familydir):
           color = "green"
           ansiprint(string, color)
           return str(gzipSize)
+
+def setIfNotPresent(metadata, key, value):
+  if key not in metadata:
+    metadata[key] = value
 
 def genmetadata(familydir):
   metadata = InsertOrderedDict()
