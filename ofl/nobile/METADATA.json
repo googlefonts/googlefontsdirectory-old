@@ -25,6 +25,22 @@
     {
       "name": "Nobile",
       "style": "normal",
+      "weight": 500,
+      "filename": "nobile_medium.ttf",
+      "postScriptName": "Nobile-Medium",
+      "fullName": "Nobile Medium"
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 500,
+      "filename": "nobile_medium_italic.ttf",
+      "postScriptName": "Nobile-MediumItalic",
+      "fullName": "Nobile Medium Italic"
+    },
+    {
+      "name": "Nobile",
+      "style": "normal",
       "weight": 700,
       "filename": "nobile_bold.ttf",
       "postScriptName": "Nobile",
