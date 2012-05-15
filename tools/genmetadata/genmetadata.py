@@ -187,6 +187,10 @@ def setIfNotPresent(metadata, key, value):
   if key not in metadata:
     metadata[key] = value
 
+# DC Should get this from the font
+def getDesigner():
+  return unicode(raw_input("Designer?\n"))
+
 def genmetadata(familydir):
   metadata = InsertOrderedDict()
   if hasMetadata(familydir):
@@ -197,7 +201,7 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Internal")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
-  setIfNotPresent(metadata, "size", -1)  # DC JEL, How is this calculated?
+  setIfNotPresent(metadata, "size", -1)  # DC JEL, Why is this faked as -1 and how is it really calculated?
   setIfNotPresent(metadata, "dateAdded", getToday())  # DC JEL, Should this be updated each time script is run?
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
