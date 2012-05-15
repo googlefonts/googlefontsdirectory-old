@@ -304,7 +304,7 @@ def writeDescHtml(familydir):
       return
     with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
       f.write(descHtml)
-    print = "Created " + filename
+    print "Created " + filename
 
 def run(familydir):
  writeDescHtml(familydir)
