@@ -160,36 +160,45 @@ def fontToolsOpenFont(filepath):
     file = open(filepath, 'rb')
     return ttLib.TTFont(file)
 
-# DC This should check both PSNames match, using something like this, from ttfquery:
-#
-# FONT_SPECIFIER_NAME_ID = 4
-# FONT_SPECIFIER_FAMILY_ID = 1
-# def shortName( font ):
-# 	"""Get the short name from the font's names table"""
-# 	name = ""
-# 	family = ""
-# 	for record in font['name'].names:
-# 		if record.nameID == FONT_SPECIFIER_NAME_ID and not name:
-# 			if '\000' in record.string:
-# 				name = unicode(record.string, 'utf-16-be').encode('utf-8')
-# 			else:
-# 				name = record.string
-# 		elif record.nameID == FONT_SPECIFIER_FAMILY_ID and not family:
-# 			if '\000' in record.string:
-# 				family = unicode(record.string, 'utf-16-be').encode('utf-8')
-# 			else:
-# 				family = record.string
-# 		if name and family:
-# 			break
-# 	return name, family
+# DC This should check both names match
 def fontToolsGetPSName(ftfont):
+  NAMEID_PSNAME = 6
+  psName = ""
   for record in ftfont['name'].names:
-    if record.nameID == 6:
+    if record.nameID == NAMEID_PSNAME and not psName:
       if '\000' in record.string:
         psName = unicode(record.string, 'utf-16-be').encode('utf-8')
       else:
         psName = record.string
-  return psName
+    if psName:
+      return psName
+
+# DC This should check both names match
+def fontToolsGetFamilyName(ftfont):
+  NAMEID_FAMILYNAME = 1
+  familyName = ""
+  for record in ftfont['name'].names:
+    if record.nameID == NAMEID_FAMILYNAME and not familyName:
+      if '\000' in record.string:
+        familyName = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        familyName = record.string
+    if familyName:
+      return familyName
+
+# DC This should check both names match
+def fontToolsGetFullName(ftfont):
+  NAMEID_FULLNAME = 4
+  fullName = ""
+  for record in ftfont['name'].names:
+    if record.nameID == NAMEID_FULLNAME and not fullName:
+      if '\000' in record.string:
+        fullName = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        fullName = record.string
+    if fullName:
+      return fullName
+
 
 # DC This should use fontTools not FontForge, perhaps using ttfquery code
 def createFonts(familydir, familyname):
@@ -201,14 +210,18 @@ def createFonts(familydir, familyname):
       filepath = os.path.join(familydir, f)
       ffont = fontforge.open(filepath)
       ftfont = fontToolsOpenFont(filepath)
-      fontmetadata["name"] = familyname
+    # DC This was previously done with FontForge
+    # fontmetadata["name"] = familyname
+      fontmetadata["name"] = fontToolsGetFamilyName(ftfont)
       fontmetadata["style"] = inferStyle(ffont)
       fontmetadata["weight"] = ffont.os2_weight
       fontmetadata["filename"] = f
     # DC This was previously done with FontForge
     # fontmetadata["postScriptName"] = ffont.fontname
       fontmetadata["postScriptName"] = fontToolsGetPSName(ftfont)
-      fontmetadata["fullName"] = ffont.fullname
+    # DC This was previously done with FontForge
+    # fontmetadata["fullName"] = ffont.fullname
+      fontmetadata["fullName"] = fontToolsGetFullName(ftfont)
       fonts.append(fontmetadata)
   return fonts
 
