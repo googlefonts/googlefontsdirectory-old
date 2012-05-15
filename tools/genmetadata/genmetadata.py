@@ -20,6 +20,7 @@
 # DC Q: what and where is size calculated?
 
 from datetime import date
+from fontTools import ttLib
 
 import codecs
 import fontforge
@@ -151,6 +152,18 @@ def inferFamilyName(familydir):
       ffont = fontforge.open(filepath)
       return ffont.familyname
 
+# DC This should check both PSNames match
+def fontToolsGetPSName(fontfile):
+  filepath = os.path.join(familydir, f)
+  ftfont = fontToolsOpenFont(filepath)
+  for record in ftfont['name'].names:
+    if record.nameID == 6:
+      if '\000' in record.string:
+        psName = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        psName = record.string
+  return psName
+
 # DC This should use fontTools not FontForge, perhaps using ttfquery code
 def createFonts(familydir, familyname):
   fonts = []
@@ -164,7 +177,9 @@ def createFonts(familydir, familyname):
       fontmetadata["style"] = inferStyle(ffont)
       fontmetadata["weight"] = ffont.os2_weight
       fontmetadata["filename"] = f
-      fontmetadata["postScriptName"] = ffont.fontname
+    # DC This was previously done with FontForge
+    # fontmetadata["postScriptName"] = ffont.fontname
+      fontmetadata["postScriptName"] = fontToolsGetPSName(f)
       fontmetadata["fullName"] = ffont.fullname
       fonts.append(fontmetadata)
   return fonts
