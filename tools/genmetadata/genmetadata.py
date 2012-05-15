@@ -422,9 +422,11 @@ def writeDescHtml(familydir):
   # DC FontForge can't extract descriptions from NAME tables to write to DESCRIPTION.en_us.html - can fontTools?
   filename = "DESCRIPTION.en_us.html"
   if os.path.exists(os.path.join(familydir, filename)):
-    string = filename + " exists - check it is okay"
+    string = filename + " exists - check it is okay: "
     color = "green"
     ansiprint(string, color)
+    f = open(filename)
+    print f.read()
     return
   else:
     # DC sanitize this raw_input as real HTML
