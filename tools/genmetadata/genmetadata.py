@@ -142,6 +142,7 @@ def inferLicense(familydir):
     return "Apache2"
   return ""
 
+# DC This should check the italicangle matches the other ways italic can be seen - filename, full name, psname, macstyle, others?
 def inferStyle(ffont):
   if ffont.italicangle == 0.0:
     return "normal"
@@ -161,7 +162,7 @@ def fontToolsOpenFont(filepath):
     file = open(filepath, 'rb')
     return ttLib.TTFont(file)
 
-# DC This should check both names match
+# DC This should check both names match, and stems match across the family
 def fontToolsGetPSName(ftfont):
   NAMEID_PSNAME = 6
   psName = ""
@@ -174,7 +175,7 @@ def fontToolsGetPSName(ftfont):
     if psName:
       return psName
 
-# DC This should check both names match
+# DC This should check both names match, and match across the family
 def fontToolsGetFamilyName(ftfont):
   NAMEID_FAMILYNAME = 1
   familyName = ""
@@ -187,7 +188,7 @@ def fontToolsGetFamilyName(ftfont):
     if familyName:
       return familyName
 
-# DC This should check both names match
+# DC This should check both names match, and stems match across the family, and italic/bold match other metadata (weight, macstyle, italicangle)
 def fontToolsGetFullName(ftfont):
   NAMEID_FULLNAME = 4
   fullName = ""
@@ -200,8 +201,7 @@ def fontToolsGetFullName(ftfont):
     if fullName:
       return fullName
 
-
-# DC This should use fontTools not FontForge, perhaps using ttfquery code
+# DC This should use fontTools not FontForge for everything
 def createFonts(familydir, familyname):
   fonts = []
   files = os.listdir(familydir)
