@@ -201,6 +201,19 @@ def fontToolsGetFullName(ftfont):
     if fullName:
       return fullName
 
+# DC This should check both names match, and is found in designers.json
+def fontToolsGetDesignerName(ftfont):
+  NAMEID_DESIGNERNAME = 9
+  desName = ""
+  for record in ftfont['name'].names:
+    if record.nameID == NAMEID_DESIGNERNAME and not desName:
+      if '\000' in record.string:
+        desName = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        desName = record.string
+    if desName:
+      return desName
+
 # DC This should use fontTools not FontForge for everything
 def createFonts(familydir, familyname):
   fonts = []
@@ -245,8 +258,29 @@ def setIfNotPresent(metadata, key, value):
     metadata[key] = value
 
 # DC Should get this from the font
-def getDesigner():
-  return unicode(raw_input("Designer?\n"))
+def getDesigner(familydir):
+    files = os.listdir(familydir)
+    for f in files:
+        if f.endswith("Regular.ttf"):
+          filepath = os.path.join(familydir, f)
+          ftfont = fontToolsOpenFont(filepath)
+          desName = fontToolsGetDesignerName(ftfont)
+    if isinstance(desName, (str,unicode)):
+        string = "Designer's name from font is: " + desName
+        color = "green"
+        ansiprint(string, color)
+        return desName
+    else:
+        desName = unicode(raw_input("Designer?\n"))
+        if desName == "":
+          desName = "Multiple Designers"
+          ansiprint("No Designer Name known, using Multiple Designers for now...", "red")
+          return desName
+        else:
+          string = "Designer's name from input is " + desName
+          color = "green"
+          ansiprint(string, color)
+          return desName
 
 def genmetadata(familydir):
   metadata = InsertOrderedDict()
@@ -254,7 +288,7 @@ def genmetadata(familydir):
     metadata = loadMetadata(familydir)
   familyname = inferFamilyName(familydir)
   setIfNotPresent(metadata, "name", familyname)
-  setIfNotPresent(metadata, "designer", getDesigner())  # DC Should get this from the font or prompt?
+  setIfNotPresent(metadata, "designer", getDesigner(familydir))  # DC Should check it against profiles.json
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Internal")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
