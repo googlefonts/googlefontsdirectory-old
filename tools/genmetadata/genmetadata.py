@@ -214,6 +214,19 @@ def fontToolsGetDesignerName(ftfont):
     if desName:
       return desName
 
+# DC This should check both names match
+def fontToolsGetDesc(ftfont):
+  NAMEID_DESC = 10
+  fontDesc = ""
+  for record in ftfont['name'].names:
+    if record.nameID == NAMEID_DESC and not fontDesc:
+      if '\000' in record.string:
+        fontDesc = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        fontDesc = record.string
+    if fontDesc:
+      return fontDesc
+
 # DC NameIDs are as follows:
 #    0	Copyright notice.
 #    2	Font Subfamily name (should matcht the OS/2.fsSelection bit - eg, fsSelection bit 6 set = Regular)
@@ -389,15 +402,27 @@ def writeDescHtml(familydir):
     return
   else:
     # DC sanitize this raw_input as real HTML
-    descHtml = unicode(raw_input("Description HTML?\n"))
+    files = os.listdir(familydir)
+    for f in files:
+      if f.endswith("Regular.ttf"):
+        filepath = os.path.join(familydir, f)
+        ftfont = fontToolsOpenFont(filepath)
+        fontDesc = fontToolsGetDesc(ftfont)
+    if isinstance(fontDesc, (str,unicode)):
+      descHtml = "<p>" + fontDesc + "</p>"
+    else:
+      descHtml = unicode(raw_input("Description HTML?\n"))
     if descHtml == "":
-      string = "Create " + filename
+      string = "REMEMBER! Create a " + filename
       color = "red"
       ansiprint(string, color)
       return
     with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
       f.write(descHtml)
-    print "Created " + filename
+    string = "Created " + filename + " with:"
+    color = "green"
+    ansiprint(string, color)
+    ansiprint(descHtml, color)
 
 def run(familydir):
  writeDescHtml(familydir)
