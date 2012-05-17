@@ -11,7 +11,7 @@
       "style": "normal",
       "weight": 400,
       "filename": "nobile.ttf",
-      "postScriptName": "Nobile",
+      "postScriptName": "Nobile-Regular",
       "fullName": "Nobile"
     },
     {
@@ -19,8 +19,8 @@
       "style": "italic",
       "weight": 400,
       "filename": "nobile_italic.ttf",
-      "postScriptName": "Nobile-italic",
-      "fullName": "Nobile-italic"
+      "postScriptName": "Nobile-Italic",
+      "fullName": "Nobile Italic"
     },
     {
       "name": "Nobile",
@@ -43,16 +43,16 @@
       "style": "normal",
       "weight": 700,
       "filename": "nobile_bold.ttf",
-      "postScriptName": "Nobile",
-      "fullName": "Nobile-bold"
+      "postScriptName": "Nobile-Bold",
+      "fullName": "Nobile Bold"
     },
     {
       "name": "Nobile",
       "style": "italic",
       "weight": 700,
       "filename": "nobile_bold_italic.ttf",
-      "postScriptName": "Nobile",
-      "fullName": "Nobile"
+      "postScriptName": "Nobile-BoldItalic",
+      "fullName": "Nobile Bold Italic"
     }
   ],
   "subsets": [
