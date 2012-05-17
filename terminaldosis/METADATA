@@ -1,9 +1,7 @@
 #
 #                      IMPORTANT NOTICE
 #
-#     NOTE THAT ANY CHANGES TO FILES IN THIS DIR MUST BE 
-#   COPIED TO DIRECTORY USING THE NEW NAME OF THIS FAMILY!
-#
+#     NOTE THAT FILES IN THIS DIR SHOULD NEVER BE USED!
 #
 
 visibility: INTERNAL
@@ -43,8 +41,8 @@ font.Dosis-ExtraBold.ttf.weight: 800
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,aalt,salt,ss01,ss04" \
-#  --chars="Dosis" \
-# ~/googlefontdirectory/terminaldosis/Dosis-Regular.{ttf,menu}; \
+#  --chars="Terminal Dosis" \
+# ~/googlefontdirectory/terminaldosis/TerminalDosis-Regular.{ttf,menu}; \
 # cd ~/googlefontdirectory/terminaldosis/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  Dosis-Regular.menu; \
