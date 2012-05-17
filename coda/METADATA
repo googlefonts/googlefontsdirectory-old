@@ -33,9 +33,9 @@ font.Coda-Heavy.ttf.weight: 800
 font.Coda-Heavy.ttf.style: normal
 
 
-font.Coda-Caption-Heavy.ttf.subfamily: Caption
-font.Coda-Caption-Heavy.ttf.weight: 800
-font.Coda-Caption-Heavy.ttf.style: normal
+font.CodaCaption-Heavy.ttf.subfamily: Caption
+font.CodaCaption-Heavy.ttf.weight: 800
+font.CodaCaption-Heavy.ttf.style: normal
 
 
 # cd ~/src/font-optimizer; \
@@ -51,10 +51,10 @@ font.Coda-Caption-Heavy.ttf.style: normal
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
 #    --chars="Coda Caption" \
-#   ~/googlefontdirectory/coda/Coda-Caption-Heavy.{ttf,menu}; \
+#   ~/googlefontdirectory/coda/CodaCaption-Heavy.{ttf,menu}; \
 # cd ~/googlefontdirectory/coda/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
-#  Coda-Caption-Heavy.menu; \
+#  CodaCaption-Heavy.menu; \
 
 # cd ~/googlefontdirectory/coda/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
