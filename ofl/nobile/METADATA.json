@@ -9,40 +9,8 @@
     {
       "name": "Nobile",
       "style": "normal",
-      "weight": 400,
-      "filename": "nobile.ttf",
-      "postScriptName": "Nobile-Regular",
-      "fullName": "Nobile"
-    },
-    {
-      "name": "Nobile",
-      "style": "italic",
-      "weight": 400,
-      "filename": "nobile_italic.ttf",
-      "postScriptName": "Nobile-Italic",
-      "fullName": "Nobile Italic"
-    },
-    {
-      "name": "Nobile",
-      "style": "normal",
-      "weight": 500,
-      "filename": "nobile_medium.ttf",
-      "postScriptName": "Nobile-Medium",
-      "fullName": "Nobile Medium"
-    },
-    {
-      "name": "Nobile",
-      "style": "italic",
-      "weight": 500,
-      "filename": "nobile_medium_italic.ttf",
-      "postScriptName": "Nobile-MediumItalic",
-      "fullName": "Nobile Medium Italic"
-    },
-    {
-      "name": "Nobile",
-      "style": "normal",
       "weight": 700,
-      "filename": "nobile_bold.ttf",
+      "filename": "Nobile-Bold.ttf",
       "postScriptName": "Nobile-Bold",
       "fullName": "Nobile Bold"
     },
@@ -50,13 +18,46 @@
       "name": "Nobile",
       "style": "italic",
       "weight": 700,
-      "filename": "nobile_bold_italic.ttf",
+      "filename": "Nobile-BoldItalic.ttf",
       "postScriptName": "Nobile-BoldItalic",
       "fullName": "Nobile Bold Italic"
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Nobile-Italic.ttf",
+      "postScriptName": "Nobile-Italic",
+      "fullName": "Nobile Italic"
+    },
+    {
+      "name": "Nobile",
+      "style": "normal",
+      "weight": 500,
+      "filename": "Nobile-Medium.ttf",
+      "postScriptName": "Nobile-Medium",
+      "fullName": "Nobile Medium"
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 500,
+      "filename": "Nobile-MediumItalic.ttf",
+      "postScriptName": "Nobile-MediumItalic",
+      "fullName": "Nobile Medium Italic"
+    },
+    {
+      "name": "Nobile",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Nobile-Regular.ttf",
+      "postScriptName": "Nobile-Regular",
+      "fullName": "Nobile"
     }
   ],
   "subsets": [
     "latin",
+    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-05-10"
