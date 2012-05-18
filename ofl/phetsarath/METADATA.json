@@ -1,0 +1,30 @@
+{
+  "name": "Phetsarath",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Serif",
+  "size": 15159,
+  "dateAdded": "2012-05-18",
+  "fonts": [
+    {
+      "name": "Phetsarath",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Phetsarath-Bold.ttf",
+      "postScriptName": "Phetsarath-Bold",
+      "fullName": "Phetsarath Bold"
+    },
+    {
+      "name": "Phetsarath",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Phetsarath-Regular.ttf",
+      "postScriptName": "Phetsarath-Regular",
+      "fullName": "Phetsarath Regular"
+    }
+  ],
+  "subsets": [
+    "lao"
+  ]
+}
