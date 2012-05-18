@@ -1,0 +1,23 @@
+visibility: SANDBOX
+license: OFL
+category: serif
+subsets: menu,lao
+
+family: Phetsarath
+
+designer: Danh Hong
+
+approved: true
+description: <p>Phetsarath is a font for the Laotian \
+  language of Laos. It was commmissioned by the \
+  <a href="http://www.phetsarath.gov.la">Ministry \
+  of Posts and Telecommunications</a> \
+  of the Laos government.</p>
+
+font.Phetsarath-Regular.ttf.style: normal
+font.Phetsarath-Bold.ttf.style: normal
+
+font.Phetsarath-Regular.ttf.weight: 400
+font.Phetsarath-Bold.ttf.weight: 700
+
+# 2012-05-18 TODO DC will ask Danh Hong to make a MENU file when the GDEF table is confirmed fixed
