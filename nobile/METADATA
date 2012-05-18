@@ -1,7 +1,4 @@
-payment: DESIGNER
-
 license: OFL
-url: http://www.newtypography.co.uk/
 category: sans-serif
 subsets: menu,latin
 
@@ -9,27 +6,78 @@ family: Nobile
 
 designer: Vernon Adams
 
-profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
-profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
 approved: true
 description: <p>&quot;Nobile&quot; \
-is designed to work with the technologies of digital screens and \
-handheld devices without losing the distinctive look more usually found \
-in fonts designed for printing. Going back to William Morris's baseline \
-&quot;Have nothing in your house that you do not know to be useful, or \
-believe to be beautiful&quot;, the aim was to design a font that could \
-function well, have good legibility on screen yet also be good looking, \
-not only at larger display sizes but also right down to small text \
-sizes.</p>
+  is designed to work with the technologies of digital screens and \
+  handheld devices without losing the distinctive look more usually found \
+  in fonts designed for printing. Going back to William Morris's baseline \
+  &quot;Have nothing in your house that you do not know to be useful, or \
+  believe to be beautiful&quot;, the aim was to design a font that could \
+  function well, have good legibility on screen yet also be good looking, \
+  not only at larger display sizes but also right down to small text \
+  sizes.</p>
 
-font.nobile_italic.ttf.style: italic
-font.nobile_medium_italic.ttf.style: italic
-font.nobile_bold_italic.ttf.style: italic
+font.Nobile-Regular.ttf.style: normal
+font.Nobile-Medium.ttf.style: normal
+font.Nobile-Bold.ttf.style: normal
 
-font.nobile.ttf.weight: 400
-font.nobile_italic.ttf.weight: 400
-font.nobile_medium_italic.ttf.weight: 500
-font.nobile_medium.ttf.weight: 500
-font.nobile_bold_italic.ttf.weight: 700
-font.nobile_bold.ttf.weight: 700
+font.Nobile-Italic.ttf.style: italic
+font.Nobile-MediumItalic.ttf.style: italic
+font.Nobile-BoldItalic.ttf.style: italic
 
+font.Nobile-Regular.ttf.weight: 400
+font.Nobile-Medium.ttf.weight: 500
+font.Nobile-Bold.ttf.weight: 700
+
+font.Nobile-Italic.ttf.weight: 400
+font.Nobile-MediumItalic.ttf.weight: 500
+font.Nobile-BoldItalic.ttf.weight: 700
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Nobile" \
+# ~/googlefontdirectory/nobile/Nobile-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/nobile/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Nobile-Regular.menu; 
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Nobile" \
+# ~/googlefontdirectory/nobile/Nobile-Medium.{ttf,menu}; \
+# cd ~/googlefontdirectory/nobile/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Nobile-Medium.menu; 
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Nobile" \
+# ~/googlefontdirectory/nobile/Nobile-Bold.{ttf,menu}; \
+# cd ~/googlefontdirectory/nobile/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Nobile-Bold.menu; 
+
+# cd ~/googlefontdirectory/nobile/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in nobile; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/nobile/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
