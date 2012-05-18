@@ -1,4 +1,3 @@
-# COMMENTS
 # cd ~/src/font-optimizer; \
 # ./subset.pl -v --licensesubst="SIL OFL 1.1" \
 #  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
@@ -7,6 +6,14 @@
 # cd ~/googlefontdirectory/inconsolata/; \
 # ~/googlefontdirectory/tools/chars/showchars.py \
 #  Inconsolata-Regular.menu; \
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Inconsolata" \
+# ~/googlefontdirectory/inconsolata/Inconsolata-Bold.{ttf,menu}; \
+# cd ~/googlefontdirectory/inconsolata/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Inconsolata-Bold.menu; \
 # cd ~/googlefontdirectory/inconsolata/; \
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
