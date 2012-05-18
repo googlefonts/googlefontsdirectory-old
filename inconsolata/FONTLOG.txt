@@ -59,13 +59,20 @@ Unicode ranges: Latin-1
 
 For the Bold style there are two .vfb Source files:
 
-1. Inconsolata Bold-OTF.vfb - Merged contours, corresponding
+1. InconsolataBold-OTF.vfb - Merged contours, corresponding
    to Inconsolata-Bold.otf
 
-2. Inconsolata Bold-TTF.vfb - TTF countours, corresponding
+2. InconsolataBold-TTF.sfd - TTF countours, corresponding
    to Inconsolata-Bold.ttf
 
 ChangeLog
+
+18 May 2012 (Dav Crossland) Inconsolata v. 1.012
+- Converted Bold em size to 1000 to match Regular
+- Updated NAME table of both font files, setting version
+  of both to 1.012
+- Updated vertical metrics to match the bbox values of the 
+  new Bold file
 
 7 December 2011 (Kirill Tkachev) Inconsolata Bold v. 1.000
 - Initial release of Bold style of Inconsolata
