@@ -10,9 +10,9 @@
       "name": "Yanone Kaffeesatz",
       "style": "normal",
       "weight": 200,
-      "filename": "YanoneKaffeesatz-Thin.ttf",
-      "postScriptName": "YanoneKaffeesatz-Thin",
-      "fullName": "Yanone Kaffeesatz Thin"
+      "filename": "YanoneKaffeesatz-ExtraLight.ttf",
+      "postScriptName": "YanoneKaffeesatz-ExtraLight",
+      "fullName": "Yanone Kaffeesatz ExtraLight"
     },
     {
       "name": "Yanone Kaffeesatz",
@@ -41,6 +41,7 @@
   ],
   "subsets": [
     "latin",
+    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-05-11"
