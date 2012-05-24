@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="1">
   <advance width="1017"/>
-  <unicode hex="201C"/>
+  <unicode hex="201c"/>
   <outline>
     <contour>
-      <point x="857" y="1464" type="line"/>
-      <point x="857" y="1148" type="line"/>
-      <point x="554" y="1148" type="line"/>
+      <point x="857" y="1464" type="line" smooth="no"/>
+      <point x="857" y="1148" type="line" smooth="no"/>
+      <point x="554" y="1148" type="line" smooth="no"/>
       <point x="554" y="1417" type="line" smooth="yes"/>
       <point x="554" y="1597"/>
       <point x="654" y="1696"/>
-      <point x="801" y="1738" type="curve"/>
-      <point x="856" y="1636" type="line"/>
+      <point x="801" y="1738" type="curve" smooth="no"/>
+      <point x="856" y="1636" type="line" smooth="no"/>
       <point x="771" y="1607"/>
       <point x="716" y="1576"/>
-      <point x="716" y="1464" type="curve"/>
+      <point x="716" y="1464" type="curve" smooth="no"/>
     </contour>
     <contour>
-      <point x="459" y="1464" type="line"/>
-      <point x="459" y="1148" type="line"/>
-      <point x="155" y="1148" type="line"/>
+      <point x="459" y="1464" type="line" smooth="no"/>
+      <point x="459" y="1148" type="line" smooth="no"/>
+      <point x="155" y="1148" type="line" smooth="no"/>
       <point x="155" y="1417" type="line" smooth="yes"/>
       <point x="155" y="1597"/>
       <point x="256" y="1696"/>
-      <point x="403" y="1738" type="curve"/>
-      <point x="458" y="1636" type="line"/>
+      <point x="403" y="1738" type="curve" smooth="no"/>
+      <point x="458" y="1636" type="line" smooth="no"/>
       <point x="373" y="1607"/>
       <point x="317" y="1576"/>
-      <point x="317" y="1464" type="curve"/>
+      <point x="317" y="1464" type="curve" smooth="no"/>
     </contour>
   </outline>
   <lib>

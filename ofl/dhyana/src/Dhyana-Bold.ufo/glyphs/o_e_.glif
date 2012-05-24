@@ -4,18 +4,18 @@
   <unicode hex="0152"/>
   <outline>
     <contour>
-      <point x="1200" y="0" type="line"/>
-      <point x="1200" y="1607" type="line"/>
-      <point x="2249" y="1607" type="line"/>
-      <point x="2249" y="1405" type="line"/>
-      <point x="1505" y="1405" type="line"/>
-      <point x="1505" y="931" type="line"/>
-      <point x="2154" y="931" type="line"/>
-      <point x="2154" y="745" type="line"/>
-      <point x="1505" y="745" type="line"/>
-      <point x="1505" y="199" type="line"/>
-      <point x="2260" y="199" type="line"/>
-      <point x="2260" y="0" type="line"/>
+      <point x="1200" y="0" type="line" smooth="no"/>
+      <point x="1200" y="1607" type="line" smooth="no"/>
+      <point x="2249" y="1607" type="line" smooth="no"/>
+      <point x="2249" y="1405" type="line" smooth="no"/>
+      <point x="1505" y="1405" type="line" smooth="no"/>
+      <point x="1505" y="931" type="line" smooth="no"/>
+      <point x="2154" y="931" type="line" smooth="no"/>
+      <point x="2154" y="745" type="line" smooth="no"/>
+      <point x="1505" y="745" type="line" smooth="no"/>
+      <point x="1505" y="199" type="line" smooth="no"/>
+      <point x="2260" y="199" type="line" smooth="no"/>
+      <point x="2260" y="0" type="line" smooth="no"/>
     </contour>
     <contour>
       <point x="805" y="1635" type="curve" smooth="yes"/>

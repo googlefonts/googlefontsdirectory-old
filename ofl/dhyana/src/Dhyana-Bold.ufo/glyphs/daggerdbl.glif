@@ -4,26 +4,26 @@
   <unicode hex="2021"/>
   <outline>
     <contour>
-      <point x="202" y="444" type="line"/>
-      <point x="537" y="444" type="line"/>
-      <point x="537" y="1020" type="line"/>
-      <point x="202" y="1020" type="line"/>
-      <point x="202" y="1161" type="line"/>
-      <point x="537" y="1161" type="line"/>
-      <point x="537" y="1468" type="line"/>
-      <point x="730" y="1468" type="line"/>
-      <point x="730" y="1161" type="line"/>
-      <point x="1056" y="1161" type="line"/>
-      <point x="1056" y="1020" type="line"/>
-      <point x="728" y="1020" type="line"/>
-      <point x="728" y="444" type="line"/>
-      <point x="1054" y="444" type="line"/>
-      <point x="1054" y="305" type="line"/>
-      <point x="728" y="305" type="line"/>
-      <point x="728" y="0" type="line"/>
-      <point x="537" y="0" type="line"/>
-      <point x="537" y="305" type="line"/>
-      <point x="202" y="305" type="line"/>
+      <point x="202" y="444" type="line" smooth="no"/>
+      <point x="537" y="444" type="line" smooth="no"/>
+      <point x="537" y="1020" type="line" smooth="no"/>
+      <point x="202" y="1020" type="line" smooth="no"/>
+      <point x="202" y="1161" type="line" smooth="no"/>
+      <point x="537" y="1161" type="line" smooth="no"/>
+      <point x="537" y="1468" type="line" smooth="no"/>
+      <point x="730" y="1468" type="line" smooth="no"/>
+      <point x="730" y="1161" type="line" smooth="no"/>
+      <point x="1056" y="1161" type="line" smooth="no"/>
+      <point x="1056" y="1020" type="line" smooth="no"/>
+      <point x="728" y="1020" type="line" smooth="no"/>
+      <point x="728" y="444" type="line" smooth="no"/>
+      <point x="1054" y="444" type="line" smooth="no"/>
+      <point x="1054" y="305" type="line" smooth="no"/>
+      <point x="728" y="305" type="line" smooth="no"/>
+      <point x="728" y="0" type="line" smooth="no"/>
+      <point x="537" y="0" type="line" smooth="no"/>
+      <point x="537" y="305" type="line" smooth="no"/>
+      <point x="202" y="305" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

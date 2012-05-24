@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ordmasculine" format="1">
   <advance width="1265"/>
-  <unicode hex="00BA"/>
+  <unicode hex="00ba"/>
   <outline>
     <contour>
       <point x="1063" y="1152" type="curve" smooth="yes"/>
@@ -32,10 +32,10 @@
       <point x="371" y="1353"/>
     </contour>
     <contour>
-      <point x="300" y="575" type="line"/>
-      <point x="984" y="575" type="line"/>
-      <point x="984" y="446" type="line"/>
-      <point x="300" y="446" type="line"/>
+      <point x="300" y="575" type="line" smooth="no"/>
+      <point x="984" y="575" type="line" smooth="no"/>
+      <point x="984" y="446" type="line" smooth="no"/>
+      <point x="300" y="446" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

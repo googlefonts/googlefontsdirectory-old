@@ -4,18 +4,18 @@
   <unicode hex="0049"/>
   <outline>
     <contour>
-      <point x="273" y="150" type="line"/>
-      <point x="273" y="1454" type="line"/>
-      <point x="87" y="1454" type="line"/>
-      <point x="87" y="1607" type="line"/>
-      <point x="763" y="1607" type="line"/>
-      <point x="763" y="1454" type="line"/>
-      <point x="574" y="1454" type="line"/>
-      <point x="574" y="150" type="line"/>
-      <point x="763" y="150" type="line"/>
-      <point x="763" y="0" type="line"/>
-      <point x="87" y="0" type="line"/>
-      <point x="87" y="150" type="line"/>
+      <point x="273" y="150" type="line" smooth="no"/>
+      <point x="273" y="1454" type="line" smooth="no"/>
+      <point x="87" y="1454" type="line" smooth="no"/>
+      <point x="87" y="1607" type="line" smooth="no"/>
+      <point x="763" y="1607" type="line" smooth="no"/>
+      <point x="763" y="1454" type="line" smooth="no"/>
+      <point x="574" y="1454" type="line" smooth="no"/>
+      <point x="574" y="150" type="line" smooth="no"/>
+      <point x="763" y="150" type="line" smooth="no"/>
+      <point x="763" y="0" type="line" smooth="no"/>
+      <point x="87" y="0" type="line" smooth="no"/>
+      <point x="87" y="150" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

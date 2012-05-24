@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="comma" format="1">
   <advance width="661"/>
-  <unicode hex="002C"/>
+  <unicode hex="002c"/>
   <outline>
     <contour>
-      <point x="154" y="373" type="line"/>
-      <point x="516" y="373" type="line"/>
+      <point x="154" y="373" type="line" smooth="no"/>
+      <point x="516" y="373" type="line" smooth="no"/>
       <point x="516" y="51" type="line" smooth="yes"/>
       <point x="516" y="-161"/>
       <point x="370" y="-243"/>
-      <point x="206" y="-291" type="curve"/>
-      <point x="155" y="-183" type="line"/>
+      <point x="206" y="-291" type="curve" smooth="no"/>
+      <point x="155" y="-183" type="line" smooth="no"/>
       <point x="244" y="-151"/>
       <point x="316" y="-117"/>
-      <point x="316" y="0" type="curve"/>
-      <point x="154" y="0" type="line"/>
+      <point x="316" y="0" type="curve" smooth="no"/>
+      <point x="154" y="0" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

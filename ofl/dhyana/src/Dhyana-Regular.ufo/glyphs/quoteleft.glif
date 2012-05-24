@@ -4,10 +4,10 @@
   <unicode hex="2018"/>
   <outline>
     <contour>
-      <point x="501" y="384" type="line"/>
-      <point x="429" y="356" type="line"/>
-      <point x="74" y="956" type="line"/>
-      <point x="336" y="1052" type="line"/>
+      <point x="501" y="384" type="line" smooth="no"/>
+      <point x="429" y="356" type="line" smooth="no"/>
+      <point x="74" y="956" type="line" smooth="no"/>
+      <point x="336" y="1052" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

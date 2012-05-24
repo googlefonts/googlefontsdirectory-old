@@ -947,7 +947,13 @@ feature kern {
 } kern;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\uni0000 \uni000D \space \exclam \quotedbl \numbersign \dollar 
+@GDEF_Simple = [\dotlessi \ccedilla \Abreve \Amacron \Aogonek \Cacute \Ccaron 
+	\Ccircumflex \Emacron \Eogonek \Gcedilla \Imacron \Iogonek \Itilde \Jcircumflex 
+	\Nacute \Racute \Rcaron \Rcommaaccent \Sacute \Umacron \Uogonek \Zacute 
+	\Zdotaccent \abreve \amacron \aogonek \cacute \ccaron \ccircumflex \emacron 
+	\eogonek \gcedilla \imacron \iogonek \itilde \jcircumflex \kcommaaccent \nacute 
+	\rcaron \rcommaaccent \sacute \umacron \uogonek \zacute \zdotaccent ];
+@GDEF_Ligature = [\uni0000 \uni000D \space \exclam \quotedbl \numbersign \dollar 
 	\percent \ampersand \quotesingle \parenleft \parenright \asterisk \plus \comma 
 	\hyphen \period \slash \zero \one \two \three \four \five \six \seven \eight \nine 
 	\colon \semicolon \less \equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L 
@@ -980,14 +986,8 @@ feature kern {
 	\guilsinglright \Euro \uni20AD \trademark \uni25CC \uniE002 \uniE003 \uniE004 
 	\uniE005 \uniE006 \uniE007 \uniE008 \uniE009 \uniE00A \uniE00B \uniE00C \uniE00D 
 	\uniE00E \uniE00F \uniE010 \uniE011 \uniE012 \uniE013 \uniE014 \uniE015 \uniE016 
-	\uniE017 \uniE018 \macron \asciicircum.001 \uni0ECD_uni0EB2 \dotlessi 
-	\ccedilla \Abreve \Amacron \Aogonek \Cacute \Ccaron \Ccircumflex \Emacron 
-	\Eogonek \Gcedilla \Imacron \Iogonek \Itilde \Jcircumflex \Nacute \Racute 
-	\Rcaron \Rcommaaccent \Sacute \Umacron \Uogonek \Zacute \Zdotaccent \abreve 
-	\amacron \aogonek \cacute \ccaron \ccircumflex \emacron \eogonek \gcedilla 
-	\imacron \iogonek \itilde \jcircumflex \kcommaaccent \nacute \rcaron 
-	\rcommaaccent \sacute \umacron \uogonek \zacute \zdotaccent ];
-@GDEF_Ligature = [\uni0EB1_uni0EC8 \uni0EB4_uni0EC8 \uni0EB6_uni0EC8 
+	\uniE017 \uniE018 \macron \asciicircum.001 \uni0ECD_uni0EB2 ];
+@GDEF_Mark = [\uni0EB1_uni0EC8 \uni0EB4_uni0EC8 \uni0EB6_uni0EC8 
 	\uni0EB5_uni0EC8 \uni0EB7_uni0EC8 \uni0EBB_uni0EC8 \uni0ECC_uni0EC8 
 	\uni0ECD_uni0EC8 \uni0EB1_uni0EC9 \uni0EB4_uni0EC9 \uni0EB6_uni0EC9 
 	\uni0EB5_uni0EC9 \uni0EB7_uni0EC9 \uni0EBB_uni0EC9 \uni0ECC_uni0EC9 
@@ -996,9 +996,10 @@ feature kern {
 	\uni0ECD_uni0ECA \uni0EB1_uni0ECB \uni0EB4_uni0ECB \uni0EB6_uni0ECB 
 	\uni0EB5_uni0ECB \uni0EB7_uni0ECB \uni0EBB_uni0ECB \uni0ECC_uni0ECB 
 	\uni0ECD_uni0ECB ];
+@GDEF_Component = [];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, @GDEF_Ligature,  ,  ;
+  GlyphClassDef @GDEF_Simple @GDEF_Ligature @GDEF_Mark @GDEF_Component;
 
 } GDEF;
 
