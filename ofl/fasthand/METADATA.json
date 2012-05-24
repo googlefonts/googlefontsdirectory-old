@@ -1,0 +1,23 @@
+{
+  "name": "Fasthand",
+  "designer": "Danh Hong",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "serif",
+  "size": "43339",
+  "dateAdded": "2012-05-24",
+  "fonts": [
+    {
+      "name": "Fasthand",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Fasthand-Regular.ttf",
+      "postScriptName": "Fasthand-Regular",
+      "fullName": "Fasthand"
+    }
+  ],
+  "subsets": [
+    "menu",
+    "khmer"
+  ]
+}
