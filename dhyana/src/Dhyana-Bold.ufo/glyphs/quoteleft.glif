@@ -4,17 +4,17 @@
   <unicode hex="2018"/>
   <outline>
     <contour>
-      <point x="481" y="966" type="line"/>
-      <point x="119" y="966" type="line"/>
+      <point x="481" y="966" type="line" smooth="no"/>
+      <point x="119" y="966" type="line" smooth="no"/>
       <point x="119" y="1290" type="line" smooth="yes"/>
       <point x="119" y="1501"/>
       <point x="266" y="1583"/>
-      <point x="429" y="1631" type="curve"/>
-      <point x="480" y="1523" type="line"/>
+      <point x="429" y="1631" type="curve" smooth="no"/>
+      <point x="480" y="1523" type="line" smooth="no"/>
       <point x="392" y="1490"/>
       <point x="319" y="1458"/>
-      <point x="319" y="1340" type="curve"/>
-      <point x="481" y="1340" type="line"/>
+      <point x="319" y="1340" type="curve" smooth="no"/>
+      <point x="481" y="1340" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

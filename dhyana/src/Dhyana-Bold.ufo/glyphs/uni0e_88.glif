@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0E88" format="1">
   <advance width="1421"/>
-  <unicode hex="0E88"/>
+  <unicode hex="0e88"/>
   <outline>
     <contour>
       <point x="642.495" y="840" type="curve" smooth="yes"/>
       <point x="1055.5" y="840"/>
       <point x="866.495" y="342"/>
-      <point x="1068.5" y="140" type="curve"/>
+      <point x="1068.5" y="140" type="curve" smooth="no"/>
       <point x="1068.5" y="676" type="line" smooth="yes"/>
       <point x="1068.5" y="910"/>
       <point x="935.495" y="991"/>
       <point x="694.495" y="991" type="curve" smooth="yes"/>
       <point x="480.495" y="991"/>
       <point x="290.495" y="929"/>
-      <point x="290.495" y="719" type="curve"/>
-      <point x="38.4951" y="719" type="line"/>
+      <point x="290.495" y="719" type="curve" smooth="no"/>
+      <point x="38.4951" y="719" type="line" smooth="no"/>
       <point x="41.4951" y="1062"/>
       <point x="346.495" y="1170"/>
       <point x="700.495" y="1170" type="curve" smooth="yes"/>
       <point x="1098.5" y="1170"/>
       <point x="1331.5" y="1018"/>
       <point x="1331.5" y="625" type="curve" smooth="yes"/>
-      <point x="1331.5" y="18" type="line"/>
-      <point x="1055.5" y="-82" type="line"/>
+      <point x="1331.5" y="18" type="line" smooth="no"/>
+      <point x="1055.5" y="-82" type="line" smooth="no"/>
       <point x="1010.5" y="-56" type="line" smooth="yes"/>
       <point x="837.495" y="42"/>
       <point x="736.495" y="206"/>
-      <point x="694.495" y="431" type="curve"/>
+      <point x="694.495" y="431" type="curve" smooth="no"/>
       <point x="644.495" y="416" type="line" smooth="yes"/>
       <point x="623.495" y="410"/>
       <point x="598.495" y="405"/>
@@ -49,7 +49,7 @@
       <point x="552.495" y="561"/>
       <point x="589.495" y="537"/>
       <point x="643.495" y="537" type="curve" smooth="yes"/>
-      <point x="684.495" y="537" type="line"/>
+      <point x="684.495" y="537" type="line" smooth="no"/>
       <point x="683.495" y="540"/>
       <point x="683.495" y="545"/>
       <point x="683.495" y="551" type="curve" smooth="yes"/>

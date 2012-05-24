@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0EA5" format="1">
   <advance width="1373"/>
-  <unicode hex="0EA5"/>
+  <unicode hex="0ea5"/>
   <outline>
     <contour>
       <point x="385.525" y="137" type="curve" smooth="yes"/>
@@ -10,8 +10,8 @@
       <point x="474.525" y="225" type="curve" smooth="yes"/>
       <point x="474.525" y="271"/>
       <point x="444.525" y="296"/>
-      <point x="386.525" y="300" type="curve"/>
-      <point x="325.525" y="300" type="line"/>
+      <point x="386.525" y="300" type="curve" smooth="no"/>
+      <point x="325.525" y="300" type="line" smooth="no"/>
       <point x="325.525" y="295" type="line" smooth="yes"/>
       <point x="325.525" y="276" type="line" smooth="yes"/>
       <point x="325.525" y="209"/>
@@ -21,11 +21,11 @@
       <point x="1035.53" y="660" type="line" smooth="yes"/>
       <point x="1035.53" y="910"/>
       <point x="958.525" y="980"/>
-      <point x="717.525" y="991" type="curve"/>
+      <point x="717.525" y="991" type="curve" smooth="no"/>
       <point x="527.525" y="991"/>
       <point x="407.525" y="937"/>
-      <point x="387.525" y="780" type="curve"/>
-      <point x="158.525" y="780" type="line"/>
+      <point x="387.525" y="780" type="curve" smooth="no"/>
+      <point x="158.525" y="780" type="line" smooth="no"/>
       <point x="158.525" y="1076"/>
       <point x="420.525" y="1170"/>
       <point x="723.525" y="1170" type="curve" smooth="yes"/>
@@ -41,10 +41,10 @@
       <point x="471.525" y="477" type="curve" smooth="yes"/>
       <point x="404.525" y="477"/>
       <point x="364.525" y="446"/>
-      <point x="341.525" y="392" type="curve"/>
+      <point x="341.525" y="392" type="curve" smooth="no"/>
       <point x="377.525" y="408"/>
       <point x="397.525" y="409"/>
-      <point x="436.525" y="409" type="curve"/>
+      <point x="436.525" y="409" type="curve" smooth="no"/>
       <point x="550.525" y="399"/>
       <point x="629.525" y="326"/>
       <point x="629.525" y="218" type="curve" smooth="yes"/>

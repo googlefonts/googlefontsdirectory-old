@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="1">
   <advance width="1559"/>
-  <unicode hex="00D0"/>
+  <unicode hex="00d0"/>
   <outline>
     <contour>
       <point x="619" y="199" type="line" smooth="yes"/>
@@ -11,12 +11,12 @@
       <point x="1145" y="1211"/>
       <point x="1034" y="1414"/>
       <point x="619" y="1414" type="curve" smooth="yes"/>
-      <point x="466" y="1414" type="line"/>
-      <point x="466" y="924" type="line"/>
-      <point x="723" y="924" type="line"/>
-      <point x="723" y="729" type="line"/>
-      <point x="466" y="729" type="line"/>
-      <point x="466" y="199" type="line"/>
+      <point x="466" y="1414" type="line" smooth="no"/>
+      <point x="466" y="924" type="line" smooth="no"/>
+      <point x="723" y="924" type="line" smooth="no"/>
+      <point x="723" y="729" type="line" smooth="no"/>
+      <point x="466" y="729" type="line" smooth="no"/>
+      <point x="466" y="199" type="line" smooth="no"/>
     </contour>
     <contour>
       <point x="691" y="1607" type="line" smooth="yes"/>
@@ -26,12 +26,12 @@
       <point x="1454" y="289"/>
       <point x="1203" y="0"/>
       <point x="691" y="0" type="curve" smooth="yes"/>
-      <point x="161" y="0" type="line"/>
-      <point x="161" y="729" type="line"/>
-      <point x="-2" y="729" type="line"/>
-      <point x="-2" y="924" type="line"/>
-      <point x="161" y="924" type="line"/>
-      <point x="161" y="1607" type="line"/>
+      <point x="161" y="0" type="line" smooth="no"/>
+      <point x="161" y="729" type="line" smooth="no"/>
+      <point x="-2" y="729" type="line" smooth="no"/>
+      <point x="-2" y="924" type="line" smooth="no"/>
+      <point x="161" y="924" type="line" smooth="no"/>
+      <point x="161" y="1607" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>

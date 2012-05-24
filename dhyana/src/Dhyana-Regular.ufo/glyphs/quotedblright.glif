@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="1">
   <advance width="898"/>
-  <unicode hex="201D"/>
+  <unicode hex="201d"/>
   <outline>
     <contour>
-      <point x="521" y="1389" type="line"/>
-      <point x="521" y="1705" type="line"/>
-      <point x="825" y="1705" type="line"/>
+      <point x="521" y="1389" type="line" smooth="no"/>
+      <point x="521" y="1705" type="line" smooth="no"/>
+      <point x="825" y="1705" type="line" smooth="no"/>
       <point x="825" y="1436" type="line" smooth="yes"/>
       <point x="825" y="1256"/>
       <point x="725" y="1158"/>
-      <point x="578" y="1116" type="curve"/>
-      <point x="523" y="1217" type="line"/>
+      <point x="578" y="1116" type="curve" smooth="no"/>
+      <point x="523" y="1217" type="line" smooth="no"/>
       <point x="607" y="1246"/>
       <point x="663" y="1279"/>
-      <point x="663" y="1389" type="curve"/>
+      <point x="663" y="1389" type="curve" smooth="no"/>
     </contour>
     <contour>
-      <point x="123" y="1389" type="line"/>
-      <point x="123" y="1705" type="line"/>
-      <point x="426" y="1705" type="line"/>
+      <point x="123" y="1389" type="line" smooth="no"/>
+      <point x="123" y="1705" type="line" smooth="no"/>
+      <point x="426" y="1705" type="line" smooth="no"/>
       <point x="426" y="1436" type="line" smooth="yes"/>
       <point x="426" y="1256"/>
       <point x="326" y="1158"/>
-      <point x="179" y="1116" type="curve"/>
-      <point x="124" y="1217" type="line"/>
+      <point x="179" y="1116" type="curve" smooth="no"/>
+      <point x="124" y="1217" type="line" smooth="no"/>
       <point x="208" y="1246"/>
       <point x="264" y="1279"/>
-      <point x="264" y="1389" type="curve"/>
+      <point x="264" y="1389" type="curve" smooth="no"/>
     </contour>
   </outline>
   <lib>

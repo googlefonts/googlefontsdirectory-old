@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="k" format="1">
   <advance width="1322"/>
-  <unicode hex="006B"/>
+  <unicode hex="006b"/>
   <outline>
     <contour>
-      <point x="446" y="0" type="line"/>
-      <point x="154" y="0" type="line"/>
-      <point x="154" y="1668" type="line"/>
-      <point x="446" y="1713" type="line"/>
-      <point x="446" y="706" type="line"/>
-      <point x="942" y="1185" type="line"/>
-      <point x="1267" y="1185" type="line"/>
-      <point x="729" y="660" type="line"/>
-      <point x="1287" y="0" type="line"/>
-      <point x="954" y="0" type="line"/>
-      <point x="550" y="529" type="line"/>
-      <point x="446" y="436" type="line"/>
+      <point x="446" y="0" type="line" smooth="no"/>
+      <point x="154" y="0" type="line" smooth="no"/>
+      <point x="154" y="1668" type="line" smooth="no"/>
+      <point x="446" y="1713" type="line" smooth="no"/>
+      <point x="446" y="706" type="line" smooth="no"/>
+      <point x="942" y="1185" type="line" smooth="no"/>
+      <point x="1267" y="1185" type="line" smooth="no"/>
+      <point x="729" y="660" type="line" smooth="no"/>
+      <point x="1287" y="0" type="line" smooth="no"/>
+      <point x="954" y="0" type="line" smooth="no"/>
+      <point x="550" y="529" type="line" smooth="no"/>
+      <point x="446" y="436" type="line" smooth="no"/>
     </contour>
   </outline>
   <lib>
