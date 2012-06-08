@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #
 # showttf Font.ttf | grep -E '(scen|gap|(HHEAD|OS/2) table)'
 #
