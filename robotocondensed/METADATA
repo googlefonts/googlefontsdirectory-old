@@ -22,17 +22,19 @@ description: <p>The Android design language relies on \
   <a href="http://www.google.com/webfonts/specimen/Roboto">normal \
   width family</a>.</p>
 
-# These files should be renamed to fit the conventions
+font.RobotoCondensed-Bold.ttf.weight: 700
+font.RobotoCondensed-BoldItalic.ttf.weight: 700
+font.RobotoCondensed-Italic.ttf.weight: 400
+font.RobotoCondensed-Light.ttf.weight: 300
+font.RobotoCondensed-LightItalic.ttf.weight: 300
+font.RobotoCondensed-Regular.ttf.weight: 400
 
-font.Roboto-BoldCondensed.ttf.weight: 700
-font.Roboto-BoldCondensedItalic.ttf.weight: 700
-font.Roboto-Condensed.ttf.ttf.weight: 400
-font.Roboto-CondensedItalic.ttf.ttf.weight: 400
-
-font.Roboto-BoldCondensed.ttf.style: normal
-font.Roboto-BoldCondensedItalic.ttf.style: italic
-font.Roboto-Condensed.ttf.style: normal
-font.Roboto-CondensedItalic.ttf.style: italic
+font.RobotoCondensed-Bold.ttf.style: normal
+font.RobotoCondensed-BoldItalic.ttf.style: italic
+font.RobotoCondensed-Italic.ttf.style: italic
+font.RobotoCondensed-Light.ttf.style: normal
+font.RobotoCondensed-LightItalic.ttf.style: italic
+font.RobotoCondensed-Regular.ttf.style: normal
 
 # fontforge -lang=ff -script menusubset-robotocondensed.ff RobotoCondensed-Regular.ttf;
 # mv RobotoCondensed-Regular.{ttf.menu.ttf,menu};
