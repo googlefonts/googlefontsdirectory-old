@@ -4,39 +4,55 @@
   "license": "Apache2",
   "visibility": "Internal",
   "category": "Sans Serif",
-  "size": 94623,
+  "size": 116648,
   "fonts": [
     {
       "name": "Roboto Condensed",
       "style": "normal",
       "weight": 400,
       "filename": "Roboto-Condensed.ttf",
-      "postScriptName": "Roboto-Condensed",
-      "fullName": "Roboto Condensed"
+      "postScriptName": "RobotoCondensed-Regular",
+      "fullName": "Roboto Condensed Regular"
     },
     {
       "name": "Roboto Condensed",
       "style": "italic",
       "weight": 400,
-      "filename": "Roboto-CondensedItalic.ttf",
-      "postScriptName": "Roboto-CondensedItalic",
-      "fullName": "Roboto Condensed Italic"
+      "filename": "RobotoCondensed-Italic.ttf",
+      "postScriptName": "RobotoCondensed-Italic",
+      "fullName": "Roboto Italic Condensed"
     },
     {
       "name": "Roboto Condensed",
       "style": "normal",
       "weight": 700,
-      "filename": "Roboto-BoldCondensed.ttf",
-      "postScriptName": "Roboto-BoldCondensed",
-      "fullName": "Roboto Bold Condensed"
+      "filename": "RobotoCondensed-Bold.ttf",
+      "postScriptName": "RobotoCondensed-Bold",
+      "fullName": "Roboto Condensed Bold"
     },
     {
       "name": "Roboto Condensed",
       "style": "italic",
       "weight": 700,
-      "filename": "Roboto-BoldCondensedItalic.ttf",
-      "postScriptName": "Roboto-BoldCondensedItalic",
-      "fullName": "Roboto Bold Condensed Italic"
+      "filename": "RobotoCondensed-BoldItalic.ttf",
+      "postScriptName": "RobotoCondensed-BoldItalic",
+      "fullName": "Roboto Condensed Bold Italic"
+    }
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 300,
+      "filename": "RobotoCondensed-Light.ttf",
+      "postScriptName": "RobotoCondensed-Light",
+      "fullName": "Roboto Condensed Light"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 300,
+      "filename": "RobotoCondensed-LightItalic.ttf",
+      "postScriptName": "RobotoCondensed-LightItalic",
+      "fullName": "Roboto Condensed Light Italic"
     }
   ],
   "subsets": [
