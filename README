@@ -1,31 +1,34 @@
-This project contains the sources for the various libre/open fonts available in
-Google Webfonts.
+This project contains the binary and source files for the collection of 
+libre/open fonts available in Google Web Fonts.
 
-Please see http://google.com/webfonts for access to those fonts through
-the Google webfonts API.
+Please see http://www.google.com/webfonts for access to those fonts through
+the Google Web Fonts API.
 
-Each subdirectory contains fonts from a single designer. The .ttf font
-files at the top level of each directory represent the files served
-through the API. Various source files are often present in a src/ directory
-under that in a variety of formats including cross-toolkit ones. Each directory
-also contains a METADATA file (in simple Java properties file format, but UTF-8
-encoding) with metadata for the font files.
+Each of the top level directories indicates the license of all fonts found
+in further subdirectories that are named according to the family name of the
+fonts within. 
 
-Most fonts use the SIL Open Font License, version 1.1. A few fonts use the
-Apache 2 license. Each directory contains the appropriate license file for the
-fonts in that directory and the fonts files themselves also contain the
-licensing and authorship metadata.
+The .ttf font files at the top level of each family directory are those served
+through the Web Fonts API. Each directory contains a METADATA.json file with
+metadata for the font files, and a DESCRIPTION.en_us.html with a description
+of the family in US English. 
 
-All the fonts in this project are libre/open fonts and many have upstream
-websites when the corresponding designer hosts the project and makes releases:
-you can find upstream information in the corresponding README.txt and
-FONTLOG.txt.
+Most of the fonts in this use the SIL Open Font License, version 1.1. A few
+fonts use the Apache 2 license. Each font family directory contains the
+appropriate license file for the fonts in that directory and the fonts files
+themselves also contain the licensing and authorship metadata.
 
-When branching to modify or extend the fonts, please be mindful of the need to
-use your own name and not conflict with existing namespace, reserved names, trademarks
-and consider the recommended best practices to publish and merge changes
-upstream.
+Various source files for each family are usually present in a src/
+subdirectory. All the fonts in this collection are libre/open fonts and many
+have upstream websites where the corresponding designer hosts the project and
+releases updates: you can find upstream information in the corresponding
+FONTLOG.txt files.
 
-Enjoy the fonts!
+When customising or remixing fonts, please remember that the SIL Open Font
+License usually requires you to use your own family names to avoid conflicts
+with original versions already installed, and other designers' trademarks. If
+you are improving fonts, please contact the original designer to understand what they might need in order to include your improvements.
 
-The Google webfonts team.
+Most of all: Enjoy the fonts!
+
+– The Google Web Fonts team
