@@ -25,7 +25,7 @@
 #   Change WinAscent to 1842
 #   Change TypoAscent to 1842
 #   Change HHeadAscent to 1842
-#   Change WinDescent to -755
+#   Change WinDescent to 755
 #   Change TypoDescent to -755
 #   Change HHeadDescent to -755
 #   Change TypoLineGap to 0
@@ -71,7 +71,7 @@ def main(argv):
     if ymax != os2['usWinAscender']: print "Change WinAscent to", ymax
     if ymax != os2['sTypoAscender']: print "Change TypoAscent to", ymax
     if ymax != hhea['Ascender']: print "Change HHeadAscent to", ymax
-    if ymin != os2['usWinDescender']:    print "Change WinDescent to", ymin
+    if ymin != -os2['usWinDescender']:    print "Change WinDescent to", -ymin
     if ymin != os2['sTypoDescender']:    print "Change TypoDescent to", ymin
     if ymin != hhea['Descender']: print "Change HHeadDescent to", ymin
     if 0 != os2['sTypoLineGap']: print "Change TypoLineGap to 0"
