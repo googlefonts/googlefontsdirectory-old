@@ -1,7 +1,5 @@
-# Note this should have a vietnamese subset in future
-
 # rm *.nam *.log *.latin* *.cyrillic* *.greek*; \
-# cd ~/googlefontdirectory-new_tree/ofl/; \
+# cd ~/googlefontdirectory-new_tree/apache/; \
 # for family in roboto; do \
 #    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
 #        for subset in \
@@ -17,4 +15,4 @@
 #        done; \
 #    done; \
 # done; \
-# cd ~/googlefontdirectory-new_tree/ofl/roboto/; \
+# cd ~/googlefontdirectory-new_tree/apache/roboto/; \
