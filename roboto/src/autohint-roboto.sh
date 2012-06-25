@@ -3,8 +3,8 @@
 #
 # autohint.sh
 #
-# This script calls ttfautohint and ttx to autohint a set of fonts.  Please
-# adjust the parameters of ttfautohint as needed for your purposes.
+# This script calls ttfautohint 0.9 and ttx to auto-hint a set of fonts. 
+# Please adjust the parameters of ttfautohint as needed for your purposes.
 #
 # Example call:
 #
@@ -13,7 +13,8 @@
 # This script appends `-TA' to the output font name.  For example, input
 # file `bar.ttf' is converted to `bar-TA.ttf'.
 #
-# The `--hinting-limit' option is available since ttfautohint version 0.8.
+# Since the old Roboto values are now the default, it has
+# become much simpler
 
 for i; do
   infile=`basename $i`
@@ -23,10 +24,6 @@ for i; do
   echo $infile
 
   ttfautohint --verbose \
-              --increase-x-height \
-              --hinting-range-min=8 \
-              --hinting-range-max=50 \
-              --hinting-limit=200 \
               $i $outfile
 
   rm -f $ttxfile
