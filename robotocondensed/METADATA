@@ -1,7 +1,7 @@
 visibility: INTERNAL
 license: Apache2
 category: sans-serif
-subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin
+subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin,vietnamese
 
 family: Roboto Condensed
 
@@ -22,32 +22,21 @@ description: <p>The Android design language relies on \
   <a href="http://www.google.com/webfonts/specimen/Roboto">normal \
   width family</a>.</p>
 
-font.RobotoCondensed-Bold.ttf.weight: 700
-font.RobotoCondensed-BoldItalic.ttf.weight: 700
-font.RobotoCondensed-Italic.ttf.weight: 400
 font.RobotoCondensed-Light.ttf.weight: 300
 font.RobotoCondensed-LightItalic.ttf.weight: 300
 font.RobotoCondensed-Regular.ttf.weight: 400
+font.RobotoCondensed-Italic.ttf.weight: 400
+font.RobotoCondensed-Bold.ttf.weight: 700
+font.RobotoCondensed-BoldItalic.ttf.weight: 700
 
-font.RobotoCondensed-Bold.ttf.style: normal
-font.RobotoCondensed-BoldItalic.ttf.style: italic
-font.RobotoCondensed-Italic.ttf.style: italic
 font.RobotoCondensed-Light.ttf.style: normal
 font.RobotoCondensed-LightItalic.ttf.style: italic
 font.RobotoCondensed-Regular.ttf.style: normal
+font.RobotoCondensed-Italic.ttf.style: italic
+font.RobotoCondensed-Bold.ttf.style: normal
+font.RobotoCondensed-BoldItalic.ttf.style: italic
 
-# fontforge -lang=ff -script menusubset-robotocondensed.ff RobotoCondensed-Regular.ttf;
-# mv RobotoCondensed-Regular.{ttf.menu.ttf,menu};
-#
-# cd ~/src/font-optimizer/; ./subset.pl -v \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     --chars="Roboto Condensed Каилрц Εάεηικλν()" \
-#     ~/googlefontdirectory/robotocondensed/RobotoCondensed-Regular.ttf \
-#     ~/googlefontdirectory/robotocondensed/RobotoCondensed-Regular.menu; \
-# cd ~/googlefontdirectory/robotocondensed/; \
-# ~/googlefontdirectory/tools/chars/showchars.py \
-#  RobotoCondensed-Regular.menu; \
-
+# see menusubset-roboto.ff
 
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
@@ -56,10 +45,11 @@ font.RobotoCondensed-Regular.ttf.style: normal
 #        for subset in \
 #            latin latin-ext \
 #            cyrillic+latin cyrillic-ext+latin \
-#            greek+latin greek-ext+latin; do \
+#            greek+latin greek-ext+latin \
+#            vietnamese; do \
 #            echo subset.py --null --nmr --roundtrip --namelist --script \
 #                --subset=$subset $font.ttf $font.$subset; \
-#            python tools/subset/subset.py --null --nmr --roundtrip \
+#            python ~/googlefontdirectory/tools/subset/subset.py --null --nmr --roundtrip \
 #                --namelist --script --subset=$subset \
 #                $font.ttf $font.$subset > $font.$subset.log; \
 #        done; \
