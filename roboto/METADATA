@@ -48,17 +48,7 @@ font.Roboto-BoldItalic.ttf.style: italic
 font.Roboto-Black.ttf.style: normal
 font.Roboto-BlackItalic.ttf.style: italic
 
-# fontforge -lang=ff -script menusubset-roboto.ff Roboto-Regular.ttf;
-# mv Roboto-Regular.{ttf.menu.ttf,menu};
-#
-# cd ~/src/font-optimizer/; ./subset.pl -v \
-#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
-#     --chars="Roboto КаилрцΕάεηικλν()" \
-#     ~/googlefontdirectory/roboto/Roboto-Regular.ttf \
-#     ~/googlefontdirectory/roboto/Roboto-Regular.menu; \
-# cd ~/googlefontdirectory/roboto/; \
-# ~/googlefontdirectory/tools/chars/showchars.py \
-#  Roboto-Regular.menu; \
+# see menusubset-roboto.ff
 
 # rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
 # cd ~/googlefontdirectory/; \
