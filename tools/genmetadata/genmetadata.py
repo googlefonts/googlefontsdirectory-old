@@ -421,7 +421,6 @@ def ansiprint(string, color):
     print string
 
 def writeDescHtml(familydir):
-  # DC FontForge can't extract descriptions from NAME tables to write to DESCRIPTION.en_us.html - can fontTools?
   filename = "DESCRIPTION.en_us.html"
   fullPath = os.path.join(familydir, filename)
   if os.path.exists(fullPath):
