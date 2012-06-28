@@ -321,15 +321,15 @@ def getSize(familydir):
     else:
       filepath = os.path.join(familydir, matchedFiles[0])
       tmpgzip = "/tmp/tempfont.gz"
-      string = "Original size"
-      string  str(os.path.getsize(filepath))
+      string = "Original size: "
+      string += str(os.path.getsize(filepath))
       f_in = open(filepath, 'rb')
       f_out = gzip.open(tmpgzip, 'wb')
       f_out.writelines(f_in)
       f_out.close()
       f_in.close()
       gzipSize = str(os.path.getsize(tmpgzip))
-      string += "\nGzip size "
+      string += "\nGzip size: "
       string += gzipSize
       color = "green"
     ansiprint(string, color)
