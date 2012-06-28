@@ -256,17 +256,17 @@ def createFonts(familydir, familyname):
       filepath = os.path.join(familydir, f)
       ftfont = fontToolsOpenFont(filepath)
       fontmetadata["name"] = familyname
-      ansiprint("name from font is: " + fontmetadata["name"], "green")
-      fontmetadata["style"] = inferStyle(ftfont)
-      ansiprint("style from font is: " + fontmetadata["style"], "green")
-      fontmetadata["weight"] = ftfont['OS/2'].usWeightClass
-      ansiprint("weight from font is: " + str(fontmetadata["weight"]), "green")
-      fontmetadata["filename"] = f
-      ansiprint("filename from font is: " + fontmetadata["filename"], "green")
+      ansiprint("Family Name: " + fontmetadata["name"], "green")
       fontmetadata["postScriptName"] = fontToolsGetPSName(ftfont)
-      ansiprint("postScriptName from font is: " + fontmetadata["postScriptName"], "green")
+      ansiprint("PS Name: " + fontmetadata["postScriptName"], "green")
       fontmetadata["fullName"] = fontToolsGetFullName(ftfont)
-      ansiprint("fullname from font is: " + fontmetadata["fullName"], "green")
+      ansiprint("Full Name: " + fontmetadata["fullName"], "green")
+      fontmetadata["style"] = inferStyle(ftfont)
+      ansiprint("Style: " + fontmetadata["style"], "green")
+      fontmetadata["weight"] = ftfont['OS/2'].usWeightClass
+      ansiprint("Weight: " + str(fontmetadata["weight"]), "green")
+      fontmetadata["filename"] = f
+      ansiprint("Filename: " + fontmetadata["filename"], "green")
       fonts.append(fontmetadata)
   return fonts
 
