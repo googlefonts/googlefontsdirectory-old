@@ -143,8 +143,8 @@ def inferLicense(familydir):
 
 # DC This should use fontTools not FontForge
 # DC This should check the italicangle matches the other ways italic can be seen - filename, full name, psname, macstyle, others?
-def inferStyle(ffont):
-  if ffont.italicangle == 0.0:
+def inferStyle(ftfont):
+  if ftfont['post'].italicAngle == 0.0:
     return "normal"
   return "italic"
 
@@ -174,6 +174,7 @@ def fontToolsGetPSName(ftfont):
         psName = record.string
     if psName:
       return psName
+    # DC What happens if there is no PSName set?
 
 # DC This should check both names match, and match across the family
 def fontToolsGetFamilyName(ftfont):
@@ -254,22 +255,16 @@ def createFonts(familydir, familyname):
       filepath = os.path.join(familydir, f)
       ffont = fontforge.open(filepath)
       ftfont = fontToolsOpenFont(filepath)
-    # DC This was previously done with FontForge
-    # fontmetadata["name"] = familyname
       fontmetadata["name"] = fontToolsGetFamilyName(ftfont)
       ansiprint("name from font is: " + fontmetadata["name"], "green")
-      fontmetadata["style"] = inferStyle(ffont)
+      fontmetadata["style"] = inferStyle(ftfont)
       ansiprint("style from font is: " + fontmetadata["style"], "green")
-      fontmetadata["weight"] = ffont.os2_weight # DC This should use fontTools not FontForge
+      fontmetadata["weight"] = ftfont['OS/2'].usWeightClass
       ansiprint("weight from font is: " + str(fontmetadata["weight"]), "green")
       fontmetadata["filename"] = f
       ansiprint("filename from font is: " + fontmetadata["filename"], "green")
-    # DC This was previously done with FontForge
-    # fontmetadata["postScriptName"] = ffont.fontname
       fontmetadata["postScriptName"] = fontToolsGetPSName(ftfont)
       ansiprint("postScriptName from font is: " + fontmetadata["postScriptName"], "green")
-    # DC This was previously done with FontForge
-    # fontmetadata["fullName"] = ffont.fullname
       fontmetadata["fullName"] = fontToolsGetFullName(ftfont)
       ansiprint("fullname from font is: " + fontmetadata["fullName"], "green")
       fonts.append(fontmetadata)
