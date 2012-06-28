@@ -189,19 +189,6 @@ def fontToolsGetPSName(ftfont):
       return psName
     # DC What happens if there is no PSName set?
 
-# DC This should check both names match, and match across the family
-def fontToolsGetFamilyName(ftfont):
-  NAMEID_FAMILYNAME = 1
-  familyName = ""
-  for record in ftfont['name'].names:
-    if record.nameID == NAMEID_FAMILYNAME and not familyName:
-      if '\000' in record.string:
-        familyName = unicode(record.string, 'utf-16-be').encode('utf-8')
-      else:
-        familyName = record.string
-    if familyName:
-      return familyName
-
 # DC This should check both names match, and stems match across the family, and italic/bold match other metadata (weight, macstyle, italicangle)
 def fontToolsGetFullName(ftfont):
   NAMEID_FULLNAME = 4
@@ -268,9 +255,8 @@ def createFonts(familydir, familyname):
     if f.endswith(".ttf"):
       fontmetadata = InsertOrderedDict()
       filepath = os.path.join(familydir, f)
-      ffont = fontforge.open(filepath)
       ftfont = fontToolsOpenFont(filepath)
-      fontmetadata["name"] = fontToolsGetFamilyName(ftfont)
+      fontmetadata["name"] = familyname
       ansiprint("name from font is: " + fontmetadata["name"], "green")
       fontmetadata["style"] = inferStyle(ftfont)
       ansiprint("style from font is: " + fontmetadata["style"], "green")
