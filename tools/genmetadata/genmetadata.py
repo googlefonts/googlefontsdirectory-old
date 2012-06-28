@@ -25,7 +25,7 @@ from datetime import date
 from fontTools import ttLib
 
 import codecs
-import fontforge
+# import fontforge
 import json
 import logging
 import os
