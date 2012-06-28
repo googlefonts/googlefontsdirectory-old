@@ -148,14 +148,27 @@ def inferStyle(ftfont):
     return "normal"
   return "italic"
 
-# DC This should use fontTools not FontForge
 def inferFamilyName(familydir):
+  NAMEID_FAMILYNAME = 1
   files = os.listdir(familydir)
+  familyName = ""
   for f in files:
-    if f.endswith(".ttf"):
+    if f.endswith("Regular.ttf"):
       filepath = os.path.join(familydir, f)
-      ffont = fontforge.open(filepath)
-      return ffont.familyname
+      ftfont = fontToolsOpenFont(filepath)
+      for record in ftfont['name'].names:
+        if record.nameID == NAMEID_FAMILYNAME:
+          if '\000' in record.string:
+            familyName = unicode(record.string, 'utf-16-be').encode('utf-8')
+          else:
+            familyName = record.string
+  if familyName == "":
+    string = "FATAL: No *-Regular.ttf found to set family name!"
+    color = "red"
+    ansiprint(string, color)
+    sys.exit()
+  else:
+    return familyName
 
 def fontToolsOpenFont(filepath):
   if isinstance(filepath, (str,unicode)):
@@ -230,12 +243,14 @@ def fontToolsGetDesc(ftfont):
 
 # DC NameIDs are as follows:
 #    0	Copyright notice.
+#    1	Family name
 #    2	Font Subfamily name (should matcht the OS/2.fsSelection bit - eg, fsSelection bit 6 set = Regular)
 #    5	Version string (Should be 'Version <number>.<number>' Caps with a space between “Version” and the number; one or more digits (0-9) of value less than 65535 followed by period followed by one or more digits of value less than 65535; Any character other than a digit will terminate the minor number and act as comment string “;” is sometimes used)
 #    6	Postscript name (Must have Platform: 1 [Macintosh]; Platform-specific encoding: 0 [Roman]; Language: 0 [English]  and Platform: 3 [Windows]; Platform-specific encoding: 1 [Unicode]; Language: 0x409 [English (American)]  and any nameID=6s other than those are out of spec; both must be identical; no longer than 63 characters; and restricted to the printable ASCII subset, codes 33 through 126; identical to the font name as stored in the CFF's Name INDEX; 
 #    7	Trademark
 #    8	Manufacturer Name.
 #    9	Designer Name
+#    10	Description
 #    11	URL Vendor (should have http://)
 #    12	URL Designer (should have http://)
 #    13	License Description
