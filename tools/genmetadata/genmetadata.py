@@ -311,25 +311,30 @@ def getDesigner(familydir):
 
 def getSize(familydir):
     files = os.listdir(familydir)
+    matchedFiles = []
     for f in files:
-        if f.endswith("Regular.ttf"):
-          filepath = os.path.join(familydir, f)
-          tmpgzip = "/tmp/tempfont.gz"
-          # print "Original size", os.path.getsize(filepath)
-          f_in = open(filepath, 'rb')
-          f_out = gzip.open(tmpgzip, 'wb')
-          f_out.writelines(f_in)
-          f_out.close()
-          f_in.close()
-          gzipSize = str(os.path.getsize(tmpgzip))
-          string = "Gzip size " + gzipSize
-          color = "green"
-        else:
-          gzipSize = str(-1)
-          string = "WARNING: No *-Regular.ttf to calculate gzipped filesize!"
-          color = "red"
-        ansiprint(string, color)
-        return str(gzipSize)
+      if f.endswith("Regular.ttf"):
+        matchedFiles.append(f)
+    if matchedFiles == []:
+      gzipSize = str(-1)
+      string = "WARNING: No *-Regular.ttf to calculate gzipped filesize!"
+      color = "red"
+    else:
+      filepath = os.path.join(familydir, matchedFiles[0])
+      tmpgzip = "/tmp/tempfont.gz"
+      string = "Original size"
+      string  str(os.path.getsize(filepath))
+      f_in = open(filepath, 'rb')
+      f_out = gzip.open(tmpgzip, 'wb')
+      f_out.writelines(f_in)
+      f_out.close()
+      f_in.close()
+      gzipSize = str(os.path.getsize(tmpgzip))
+      string += "\nGzip size "
+      string += gzipSize
+      color = "green"
+    ansiprint(string, color)
+    return str(gzipSize)
 
 def setIfNotPresent(metadata, key, value):
   if key not in metadata:
