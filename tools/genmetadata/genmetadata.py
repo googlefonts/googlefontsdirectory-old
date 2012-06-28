@@ -19,13 +19,12 @@
 #
 # Portions Copyright (c) 2003, Michael C. Fletcher, TTFQuery Project
 #
-# A script for generating METADATA.json files, using FontForge
+# A script for generating METADATA.json files, using fontTools
 
 from datetime import date
 from fontTools import ttLib
 
 import codecs
-# import fontforge
 import json
 import logging
 import os
