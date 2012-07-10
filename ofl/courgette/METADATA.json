@@ -1,0 +1,24 @@
+{
+  "name": "Courgette",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": "55174",
+  "dateAdded": "2012-07-10",
+  "fonts": [
+    {
+      "name": "Courgette",
+      "postScriptName": "Courgette-Regular",
+      "fullName": "Courgette Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Courgette-Regular.ttf"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
