@@ -1,0 +1,58 @@
+visibility: SANDBOX
+license: OFL
+category: sans-serif
+subsets: menu,latin,latin-ext
+
+family: Capriola
+
+designer: Viktoriya Grabowska
+
+approved: true
+description: <p>Capriola is a sans-serif \
+  typeface whose unique style draws upon \
+  forms seen in handwriting and italic types. Skeletons of the most \
+  characteristic glyphs are inspired by quick handwriting and based \
+  on a single hand movement (G,a,g,k,e). Capriola ambitiously seeks \
+  push boundary of originality in the genre without \
+  loosing a legibility.</p> \
+  <p>The unusual glyphs are quite noticeable in large sizes which allows \
+  for distinctive headlines. However in small sizes these gestures \
+  become less noticeable making it possible to set longer texts. The \
+  name "Capriola" means somersault in English. Such glyphs as "a", \
+  "e" or "G" are the real acrobats and the "g" makes a double salto! \
+  Capriola was spaced for web. Capriola's originality combined \
+  with utility makes it ideal for a wide range of uses.</p>
+
+font.Capriola-Regular.ttf.style: normal
+font.Capriola-Regular.ttf.weight: 400
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Capriola" \
+# ~/googlefontdirectory/capriola/Capriola-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/capriola/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Capriola-Regular.menu; 
+
+# cd ~/googlefontdirectory/capriola/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in capriola; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/capriola/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
