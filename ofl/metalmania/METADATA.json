@@ -1,0 +1,24 @@
+{
+  "name": "Metal Mania",
+  "designer": "Open Window",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Display",
+  "size": "123068",
+  "dateAdded": "2012-07-11",
+  "fonts": [
+    {
+      "name": "Metal Mania",
+      "postScriptName": "MetalMania-Regular",
+      "fullName": "Metal Mania",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MetalMania-Regular.ttf"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
