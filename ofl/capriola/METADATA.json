@@ -1,0 +1,24 @@
+{
+  "name": "Capriola",
+  "designer": "Viktoriya Grabowska",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": "47884",
+  "dateAdded": "2012-07-10",
+  "fonts": [
+    {
+      "name": "Capriola",
+      "postScriptName": "Capriola-Regular",
+      "fullName": "Capriola Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Capriola-Regular.ttf"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
