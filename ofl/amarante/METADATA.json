@@ -1,0 +1,24 @@
+{
+  "name": "Amarante",
+  "designer": "Karolina Lach",
+  "license": "OFL",
+  "visibility": "Internal",
+  "category": "Display",
+  "size": "55376",
+  "dateAdded": "2012-07-10",
+  "fonts": [
+    {
+      "name": "Amarante",
+      "postScriptName": "Amarante-Regular",
+      "fullName": "Amarante Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Amarante-Regular.ttf"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
