@@ -1,0 +1,24 @@
+{
+  "name": "Eagle Lake",
+  "designer": "Astigmatic",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": "46135",
+  "dateAdded": "2012-07-11",
+  "fonts": [
+    {
+      "name": "Eagle Lake",
+      "postScriptName": "EagleLake-Regular",
+      "fullName": "Eagle Lake",
+      "style": "normal",
+      "weight": 400,
+      "filename": "EagleLake-Regular.ttf"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
