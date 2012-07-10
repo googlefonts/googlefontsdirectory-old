@@ -347,7 +347,7 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "name", familyname)
   setIfNotPresent(metadata, "designer", getDesigner(familydir))  # DC Should check it against profiles.json
   setIfNotPresent(metadata, "license", inferLicense(familydir))
-  setIfNotPresent(metadata, "visibility", "Internal")
+  setIfNotPresent(metadata, "visibility", "Sandbox")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
   setIfNotPresent(metadata, "size", getSize(familydir))
   setIfNotPresent(metadata, "dateAdded", getToday())  # DC This is used for the Date Added sort in the GWF Directory - DC to check all existing values in hg repo are correct
