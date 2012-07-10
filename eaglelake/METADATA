@@ -1,0 +1,49 @@
+visibility: SANDBOX
+license: OFL
+category: handwriting
+subsets: menu,latin,latin-ext
+
+family: Eagle Lake
+
+designer: Astigmatic
+
+approved: true
+description: <p>The Eagle Lake typeface is a calligraphic \
+  lettering style based on the practical Running Book Hand. \
+  It has shorter capitals that create a visually taller \
+  x-height lending to high legibility and fluidity.</p>
+
+font.EagleLake-Regular.ttf.style: normal
+font.EagleLake-Regular.ttf.weight: 400
+
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,kern,aalt" \
+#  --chars="Eagle Lake" \
+# ~/googlefontdirectory/eaglelake/EagleLake-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/eaglelake/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  EagleLake-Regular.menu; 
+
+# cd ~/googlefontdirectory/eaglelake/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in eaglelake; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/eaglelake/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
