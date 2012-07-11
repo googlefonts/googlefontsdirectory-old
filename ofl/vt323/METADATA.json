@@ -8,11 +8,11 @@
   "fonts": [
     {
       "name": "VT323",
+      "postScriptName": "VT323-Regular",
+      "fullName": "VT323",
       "style": "normal",
       "weight": 400,
-      "filename": "VT323.ttf",
-      "postScriptName": "VT323",
-      "fullName": "VT323"
+      "filename": "VT323-Regular.ttf"
     }
   ],
   "subsets": [
