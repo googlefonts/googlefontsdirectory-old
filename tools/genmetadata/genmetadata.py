@@ -140,13 +140,13 @@ def inferLicense(familydir):
     return "Apache2"
   return ""
 
-# DC This should use fontTools not FontForge
 # DC This should check the italicangle matches the other ways italic can be seen - filename, full name, psname, macstyle, others?
 def inferStyle(ftfont):
   if ftfont['post'].italicAngle == 0.0:
     return "normal"
   return "italic"
 
+# DC This should check both names match, and match across the family
 def inferFamilyName(familydir):
   NAMEID_FAMILYNAME = 1
   files = os.listdir(familydir)
