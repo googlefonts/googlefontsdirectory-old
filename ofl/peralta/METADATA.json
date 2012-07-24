@@ -4,21 +4,22 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Display",
-  "size": "35616",
-  "dateAdded": "2012-07-11",
+  "size": 35616,
   "fonts": [
     {
       "name": "Peralta",
-      "postScriptName": "Peralta-Regular",
-      "fullName": "Peralta",
       "style": "normal",
       "weight": 400,
-      "filename": "Peralta-Regular.ttf"
+      "filename": "Peralta-Regular.ttf",
+      "postScriptName": "Peralta-Regular",
+      "fullName": "Peralta",
+      "copyright": "Copyright (c) 2012 by Brian J. Bonislawsky DBA Astigmatic (AOETI) (astigma@astigmatic.com), with Reserved Font Name \"Peralta\""
     }
   ],
   "subsets": [
     "latin",
     "latin-ext",
     "menu"
-  ]
+  ],
+  "dateAdded": "2012-07-11"
 }

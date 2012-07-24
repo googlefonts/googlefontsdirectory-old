@@ -8,11 +8,12 @@
   "fonts": [
     {
       "name": "VT323",
-      "postScriptName": "VT323-Regular",
-      "fullName": "VT323",
       "style": "normal",
       "weight": 400,
-      "filename": "VT323-Regular.ttf"
+      "filename": "VT323-Regular.ttf",
+      "postScriptName": "VT323-Regular",
+      "fullName": "VT323",
+      "copyright": "Copyright (c) 2011, Peter Hull (peter.hull@oikoi.com), with Reserved Font Name \"VT323\"."
     }
   ],
   "subsets": [

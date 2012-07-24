@@ -8,19 +8,21 @@
   "fonts": [
     {
       "name": "Chau Philomene One",
-      "style": "italic",
-      "weight": 400,
-      "filename": "ChauPhilomeneOne-Italic.ttf",
-      "postScriptName": "ChauPhilomeneOne-Italic",
-      "fullName": "Chau Philomene One"
-    },
-    {
-      "name": "Chau Philomene One",
       "style": "normal",
       "weight": 400,
       "filename": "ChauPhilomeneOne-Regular.ttf",
       "postScriptName": "ChauPhilomeneOne-Regular",
-      "fullName": "Chau Philomene One"
+      "fullName": "Chau Philomene One",
+      "copyright": "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com), with Reserved Font Name \"Chau Philomene\""
+    },
+    {
+      "name": "Chau Philomene One",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ChauPhilomeneOne-Italic.ttf",
+      "postScriptName": "ChauPhilomeneOne-Italic",
+      "fullName": "Chau Philomene One",
+      "copyright": "Copyright (c) 2010-2012, TipoType (produccion.taller@gmail.com www.tipotype.com), with Reserved Font Name \"Chau Philomene\""
     }
   ],
   "subsets": [

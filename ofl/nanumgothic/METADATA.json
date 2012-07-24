@@ -9,10 +9,20 @@
     {
       "name": "Nanum Gothic",
       "style": "normal",
+      "weight": 400,
+      "filename": "NanumGothic-Regular.ttf",
+      "postScriptName": "NanumGothic",
+      "fullName": "NanumGothic",
+      "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
+    },
+    {
+      "name": "Nanum Gothic",
+      "style": "normal",
       "weight": 600,
       "filename": "NanumGothic-Bold.ttf",
       "postScriptName": "NanumGothicBold",
-      "fullName": "NanumGothicBold"
+      "fullName": "NanumGothicBold",
+      "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
     },
     {
       "name": "Nanum Gothic",
@@ -20,15 +30,8 @@
       "weight": 700,
       "filename": "NanumGothic-ExtraBold.ttf",
       "postScriptName": "NanumGothicExtraBold",
-      "fullName": "NanumGothicExtraBold"
-    },
-    {
-      "name": "Nanum Gothic",
-      "style": "normal",
-      "weight": 400,
-      "filename": "NanumGothic-Regular.ttf",
-      "postScriptName": "NanumGothic",
-      "fullName": "NanumGothic"
+      "fullName": "NanumGothicExtraBold",
+      "copyright": "Copyright © 2010 NHN Corporation. All rights reserved. Font designed by Sandoll Communications Inc."
     }
   ],
   "subsets": [
