@@ -4,21 +4,22 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Serif",
-  "size": "52277",
-  "dateAdded": "2012-07-10",
+  "size": 52277,
   "fonts": [
     {
       "name": "Quando",
-      "postScriptName": "Quando-Regular",
-      "fullName": "Quando-Regular",
       "style": "normal",
       "weight": 400,
-      "filename": "Quando-Regular.ttf"
+      "filename": "Quando-Regular.ttf",
+      "postScriptName": "Quando-Regular",
+      "fullName": "Quando-Regular",
+      "copyright": "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Quando\""
     }
   ],
   "subsets": [
     "latin",
     "latin-ext",
     "menu"
-  ]
+  ],
+  "dateAdded": "2012-07-10"
 }

@@ -9,42 +9,11 @@
     {
       "name": "Roboto Condensed",
       "style": "normal",
-      "weight": 400,
-      "filename": "RobotoCondensed-Regular.ttf",
-      "postScriptName": "RobotoCondensed-Regular",
-      "fullName": "Roboto Condensed Regular"
-    },
-    {
-      "name": "Roboto Condensed",
-      "style": "italic",
-      "weight": 400,
-      "filename": "RobotoCondensed-Italic.ttf",
-      "postScriptName": "RobotoCondensed-Italic",
-      "fullName": "Roboto Italic Condensed"
-    },
-    {
-      "name": "Roboto Condensed",
-      "style": "normal",
-      "weight": 700,
-      "filename": "RobotoCondensed-Bold.ttf",
-      "postScriptName": "RobotoCondensed-Bold",
-      "fullName": "Roboto Condensed Bold"
-    },
-    {
-      "name": "Roboto Condensed",
-      "style": "italic",
-      "weight": 700,
-      "filename": "RobotoCondensed-BoldItalic.ttf",
-      "postScriptName": "RobotoCondensed-BoldItalic",
-      "fullName": "Roboto Condensed Bold Italic"
-    },
-    {
-      "name": "Roboto Condensed",
-      "style": "normal",
       "weight": 300,
       "filename": "RobotoCondensed-Light.ttf",
       "postScriptName": "RobotoCondensed-Light",
-      "fullName": "Roboto Condensed Light"
+      "fullName": "Roboto Condensed Light",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto Condensed",
@@ -52,7 +21,44 @@
       "weight": 300,
       "filename": "RobotoCondensed-LightItalic.ttf",
       "postScriptName": "RobotoCondensed-LightItalic",
-      "fullName": "Roboto Condensed Light Italic"
+      "fullName": "Roboto Condensed Light Italic",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RobotoCondensed-Regular.ttf",
+      "postScriptName": "RobotoCondensed-Regular",
+      "fullName": "Roboto Condensed Regular",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 400,
+      "filename": "RobotoCondensed-Italic.ttf",
+      "postScriptName": "RobotoCondensed-Italic",
+      "fullName": "Roboto Italic Condensed",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "normal",
+      "weight": 700,
+      "filename": "RobotoCondensed-Bold.ttf",
+      "postScriptName": "RobotoCondensed-Bold",
+      "fullName": "Roboto Condensed Bold",
+      "copyright": "Font data copyright Google 2012"
+    },
+    {
+      "name": "Roboto Condensed",
+      "style": "italic",
+      "weight": 700,
+      "filename": "RobotoCondensed-BoldItalic.ttf",
+      "postScriptName": "RobotoCondensed-BoldItalic",
+      "fullName": "Roboto Condensed Bold Italic",
+      "copyright": "Font data copyright Google 2012"
     }
   ],
   "subsets": [
@@ -62,8 +68,8 @@
     "greek-ext",
     "latin",
     "latin-ext",
-    "vietnamese",
-    "menu"
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2012-06-26"
 }

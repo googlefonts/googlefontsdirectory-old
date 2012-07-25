@@ -9,18 +9,11 @@
     {
       "name": "Nobile",
       "style": "normal",
-      "weight": 700,
-      "filename": "Nobile-Bold.ttf",
-      "postScriptName": "Nobile-Bold",
-      "fullName": "Nobile Bold"
-    },
-    {
-      "name": "Nobile",
-      "style": "italic",
-      "weight": 700,
-      "filename": "Nobile-BoldItalic.ttf",
-      "postScriptName": "Nobile-BoldItalic",
-      "fullName": "Nobile Bold Italic"
+      "weight": 400,
+      "filename": "Nobile-Regular.ttf",
+      "postScriptName": "Nobile-Regular",
+      "fullName": "Nobile",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
     },
     {
       "name": "Nobile",
@@ -28,7 +21,8 @@
       "weight": 400,
       "filename": "Nobile-Italic.ttf",
       "postScriptName": "Nobile-Italic",
-      "fullName": "Nobile Italic"
+      "fullName": "Nobile Italic",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
     },
     {
       "name": "Nobile",
@@ -36,7 +30,8 @@
       "weight": 500,
       "filename": "Nobile-Medium.ttf",
       "postScriptName": "Nobile-Medium",
-      "fullName": "Nobile Medium"
+      "fullName": "Nobile Medium",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
     },
     {
       "name": "Nobile",
@@ -44,15 +39,26 @@
       "weight": 500,
       "filename": "Nobile-MediumItalic.ttf",
       "postScriptName": "Nobile-MediumItalic",
-      "fullName": "Nobile Medium Italic"
+      "fullName": "Nobile Medium Italic",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
     },
     {
       "name": "Nobile",
       "style": "normal",
-      "weight": 400,
-      "filename": "Nobile-Regular.ttf",
-      "postScriptName": "Nobile-Regular",
-      "fullName": "Nobile"
+      "weight": 700,
+      "filename": "Nobile-Bold.ttf",
+      "postScriptName": "Nobile-Bold",
+      "fullName": "Nobile Bold",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
+    },
+    {
+      "name": "Nobile",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Nobile-BoldItalic.ttf",
+      "postScriptName": "Nobile-BoldItalic",
+      "fullName": "Nobile Bold Italic",
+      "copyright": "Copyright (c) 2010 by vernon adams. All rights reserved."
     }
   ],
   "subsets": [

@@ -12,7 +12,8 @@
       "weight": 300,
       "filename": "Roboto-Light.ttf",
       "postScriptName": "Roboto-Light",
-      "fullName": "Roboto Light"
+      "fullName": "Roboto Light",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -20,7 +21,8 @@
       "weight": 300,
       "filename": "Roboto-LightItalic.ttf",
       "postScriptName": "Roboto-LightItalic",
-      "fullName": "Roboto Light Italic"
+      "fullName": "Roboto Light Italic",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -28,7 +30,8 @@
       "weight": 400,
       "filename": "Roboto-Regular.ttf",
       "postScriptName": "Roboto-Regular",
-      "fullName": "Roboto Regular"
+      "fullName": "Roboto Regular",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -36,7 +39,8 @@
       "weight": 400,
       "filename": "Roboto-Italic.ttf",
       "postScriptName": "Roboto-Italic",
-      "fullName": "Roboto Italic"
+      "fullName": "Roboto Italic",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -44,7 +48,8 @@
       "weight": 500,
       "filename": "Roboto-Medium.ttf",
       "postScriptName": "Roboto-Medium",
-      "fullName": "Roboto Medium"
+      "fullName": "Roboto Medium",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -52,7 +57,8 @@
       "weight": 500,
       "filename": "Roboto-MediumItalic.ttf",
       "postScriptName": "Roboto-MediumItalic",
-      "fullName": "Roboto Medium Italic"
+      "fullName": "Roboto Medium Italic",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -60,7 +66,8 @@
       "weight": 700,
       "filename": "Roboto-Bold.ttf",
       "postScriptName": "Roboto-Bold",
-      "fullName": "Roboto Bold"
+      "fullName": "Roboto Bold",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -68,7 +75,8 @@
       "weight": 700,
       "filename": "Roboto-BoldItalic.ttf",
       "postScriptName": "Roboto-BoldItalic",
-      "fullName": "Roboto Bold Italic"
+      "fullName": "Roboto Bold Italic",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -76,7 +84,8 @@
       "weight": 900,
       "filename": "Roboto-Black.ttf",
       "postScriptName": "Roboto-Black",
-      "fullName": "Roboto Black"
+      "fullName": "Roboto Black",
+      "copyright": "Font data copyright Google 2012"
     },
     {
       "name": "Roboto",
@@ -84,7 +93,8 @@
       "weight": 900,
       "filename": "Roboto-BlackItalic.ttf",
       "postScriptName": "Roboto-BlackItalic",
-      "fullName": "Roboto Black Italic"
+      "fullName": "Roboto Black Italic",
+      "copyright": "Font data copyright Google 2012"
     }
   ],
   "subsets": [
@@ -94,8 +104,8 @@
     "greek-ext",
     "latin",
     "latin-ext",
-    "vietnamese",
-    "menu"
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2012-06-26"
 }
