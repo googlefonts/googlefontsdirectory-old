@@ -23,6 +23,7 @@ def usage():
 	print >> sys.stderr, "copyrightnotices.py /directory/tree/of/fonts/ html_file_to_output_notices_to.html "
 
 # TODO: .decode() doesn't work very well, this should be improved
+# TODO make this drop fonts in directories where a METADATA.json if found with Visibility: Internal
 
 # Pseudo Code:
 #
@@ -135,6 +136,7 @@ def writeFile(htmlfilename, html):
 
 def run(path, htmlfilename):
 	# get fontfilenames from path's tree
+	# TODO make this drop fonts in directories where a METADATA.json if found with Visibility: Internal
 	fontfilenames = []
 	for root, subFolders, files in os.walk(path):
 		if '.hg' in subFolders:
@@ -142,6 +144,9 @@ def run(path, htmlfilename):
 		for file in files:
 			if file.endswith("ttf"):
 				fontfilenames.append(os.path.join(root,file))
+
+
+
 	# make a parent dictionary for metadata with filepath as key
 	pathmetadata = {}
 	for filename in fontfilenames:
