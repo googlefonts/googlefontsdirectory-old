@@ -1,0 +1,18 @@
+# rm *.nam *.log *.latin* *.cyrillic* *.greek*; \
+# cd ~/googlefontdirectory-new_tree/apache/; \
+# for family in robotocondensed; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic cyrillic-ext \
+#            greek greek-ext \
+#            vietnamese; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory-new_tree/tools/subset/subset.py \
+#                --null --nmr --roundtrip --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory-new_tree/apache/roboto/; \

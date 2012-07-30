@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zdotaccent" format="1">
+  <advance width="1032"/>
+  <unicode hex="017C"/>
+  <outline>
+    <component base="uni0307" xOffset="356" yOffset="-91"/>
+    <component base="z"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>67</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>699</integer>
+	    <key>width</key>	    <integer>67</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>908</integer>
+	    <key>width</key>	    <integer>115</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>460</integer>
+	    <key>width</key>
+	    <integer>118</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

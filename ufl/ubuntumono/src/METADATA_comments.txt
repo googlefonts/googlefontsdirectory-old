@@ -1,0 +1,35 @@
+# COMMENTS
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE TRADEMARK NAME "UBUNTU" and only then with approval
+# fontforge -lang=ff -script menusubset-ubuntumono.ff UbuntuMono-Regular.ttf;
+# mv UbuntuMono-Regular.{ttf.menu.ttf,menu};
+#
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="Ubuntu Mono КаилрцΕάεηικλν()" \
+#     ~/googlefontdirectory/ubuntumono/UbuntuMono-Regular.ttf \
+#     ~/googlefontdirectory/ubuntumono/UbuntuMono-Regular.menu; \
+# cd ~/googlefontdirectory/ubuntumono/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  UbuntuMono-Regular.menu; \
+# cd ~/googlefontdirectory/ubuntu/; \
+# mv UbuntuMono-R.ttf ~/googlefontdirectory/ubuntumono/UbuntuMono-Regular.ttf; \
+# mv UbuntuMono-RI.ttf ~/googlefontdirectory/ubuntumono/UbuntuMono-Italic.ttf; \
+# mv UbuntuMono-B.ttf ~/googlefontdirectory/ubuntumono/UbuntuMono-Bold.ttf; \
+# mv UbuntuMono-BI.ttf ~/googlefontdirectory/ubuntumono/UbuntuMono-BoldItalic.ttf;
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in ubuntumono; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/ubuntumono/; \

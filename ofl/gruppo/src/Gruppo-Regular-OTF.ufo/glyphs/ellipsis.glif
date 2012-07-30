@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="1">
+  <advance width="936"/>
+  <unicode hex="2026"/>
+  <outline>
+    <component base="period" xOffset="624"/>
+    <component base="period" xOffset="312"/>
+    <component base="period"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-10</integer>
+	    <key>width</key>	    <integer>127</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>93</integer>
+	    <key>width</key>
+	    <integer>130</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>405</integer>
+	    <key>width</key>
+	    <integer>130</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>717</integer>
+	    <key>width</key>
+	    <integer>130</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

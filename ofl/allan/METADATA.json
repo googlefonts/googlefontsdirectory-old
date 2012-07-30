@@ -1,0 +1,24 @@
+{
+  "name": "Allan",
+  "designer": "Anton Koovit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 42432,
+  "fonts": [
+    {
+      "name": "Allan",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Allan-Bold.ttf",
+      "postScriptName": "Allan",
+      "fullName": "Allan",
+      "copyright": "Copyright: Copyright (c) 2010, Anton Koovit (info@kork.ee). All rights reserved. Licenced under SIL OFL v1.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

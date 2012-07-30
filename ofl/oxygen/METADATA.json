@@ -1,0 +1,25 @@
+{
+  "name": "Oxygen",
+  "designer": "Vernon Adams",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Sans Serif",
+  "size": 36354,
+  "fonts": [
+    {
+      "name": "Oxygen",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Oxygen-Regular.ttf",
+      "postScriptName": "Oxygen",
+      "fullName": "Oxygen",
+      "copyright": "Copyright (c) 2012, vernon adams (vern@newtypography.co.uk), with Reserved Font Names \"Oxygen\" and \"Oxygen Regular\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-03-29"
+}

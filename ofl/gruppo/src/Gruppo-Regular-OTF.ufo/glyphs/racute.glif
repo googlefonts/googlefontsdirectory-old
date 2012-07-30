@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="racute" format="1">
+  <advance width="809"/>
+  <unicode hex="0155"/>
+  <outline>
+    <component base="acute" xOffset="414" yOffset="-69"/>
+    <component base="r"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>697</integer>
+	    <key>width</key>	    <integer>65</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>722</integer>
+	    <key>width</key>	    <integer>64</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>746</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>888</integer>
+	    <key>width</key>	    <integer>331</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>158</integer>
+	    <key>width</key>
+	    <integer>80</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>429</integer>
+	    <key>width</key>
+	    <integer>349</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

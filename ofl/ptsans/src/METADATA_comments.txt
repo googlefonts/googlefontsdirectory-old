@@ -1,0 +1,19 @@
+# COMMENTS
+# WARNING: NOTE THAT ONLY GOOGLE INC MAY DISTRIBUTE MODIFIED VERSIONS WITH THE RESERVED FONT NAMES
+# TODO 2011-01-19 DC check Unicode encoding is correct
+# for family in ptsans ptserif; do
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PTSans Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Web-Regular.{ttf,menu}; cd ~/googlefontdirectory/ptsans;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Narrow Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.ttf ~/googlefontdirectory/ptsans/PT_Sans-Narrow-Web-Regular.menu; cd ~/googlefontdirectory/ptsans;
+#cd ~/src/font-optimizer; ./subset.pl -v --licensesubst="SIL OFL 1.1" --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" --chars="PT Sans Caption Каилрц()" ~/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.ttf ~/googlefontdirectory/ptsans/PT_Sans-Caption-Web-Regular.menu ; cd ~/googlefontdirectory/ptsans;

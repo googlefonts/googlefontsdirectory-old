@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="1805"/>
+  <unicode hex="00c6"/>
+  <outline>
+    <contour>
+      <point x="1769" y="0" type="line" smooth="no"/>
+      <point x="930" y="0" type="line" smooth="no"/>
+      <point x="930" y="371" type="line" smooth="no"/>
+      <point x="378" y="371" type="line" smooth="no"/>
+      <point x="186" y="0" type="line" smooth="no"/>
+      <point x="-23" y="0" type="line" smooth="no"/>
+      <point x="803" y="1579" type="line" smooth="no"/>
+      <point x="1741" y="1579" type="line" smooth="no"/>
+      <point x="1741" y="1436" type="line" smooth="no"/>
+      <point x="1093" y="1436" type="line" smooth="no"/>
+      <point x="1093" y="891" type="line" smooth="no"/>
+      <point x="1698" y="891" type="line" smooth="no"/>
+      <point x="1698" y="764" type="line" smooth="no"/>
+      <point x="1095" y="764" type="line" smooth="no"/>
+      <point x="1095" y="143" type="line" smooth="no"/>
+      <point x="1769" y="143" type="line" smooth="no"/>
+    </contour>
+    <contour>
+      <point x="928" y="1459" type="line" smooth="no"/>
+      <point x="438" y="493" type="line" smooth="no"/>
+      <point x="928" y="493" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>143</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>371</integer>
+	    <key>width</key>	    <integer>122</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>764</integer>
+	    <key>width</key>	    <integer>127</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1436</integer>
+	    <key>width</key>	    <integer>143</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>928</integer>
+	    <key>width</key>
+	    <integer>167</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

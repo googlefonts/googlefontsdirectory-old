@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ydieresis" format="1">
+  <advance width="1170"/>
+  <unicode hex="00FF"/>
+  <outline>
+    <component base="dieresis" xOffset="221" yOffset="-32"/>
+    <component base="y"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-334</integer>
+	    <key>width</key>	    <integer>59</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>-10</integer>
+	    <key>width</key>	    <integer>59</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>746</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>908</integer>
+	    <key>width</key>	    <integer>115</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>147</integer>
+	    <key>width</key>
+	    <integer>80</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>308</integer>
+	    <key>width</key>
+	    <integer>118</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>747</integer>
+	    <key>width</key>
+	    <integer>118</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>946</integer>
+	    <key>width</key>
+	    <integer>80</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,6 @@
+# COMMENTS
+# cd ~/src/font-optimizer/; ./subset.pl -v \
+# --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+# --chars="Molengo" \
+# ~/googlefontdirectory/molengo/Molengo-Regular.{ttf,menu};
+# cd ~/googlefontdirectory/molengo;

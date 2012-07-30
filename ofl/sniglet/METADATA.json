@@ -1,0 +1,24 @@
+{
+  "name": "Sniglet",
+  "designer": "Haley Fiege",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 17327,
+  "fonts": [
+    {
+      "name": "Sniglet",
+      "style": "normal",
+      "weight": 800,
+      "filename": "Sniglet-Regular.ttf",
+      "postScriptName": "Sniglet",
+      "fullName": "Sniglet",
+      "copyright": "Haley Fiege kingdomofawesome.com"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2010-12-15"
+}

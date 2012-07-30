@@ -1,0 +1,27 @@
+# COMMENTS
+# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
+# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Dorsa" \
+# ~/googlefontdirectory/dorsa/Dorsa-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/dorsa/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Dorsa-Regular.menu; \
+# cd ~/googlefontdirectory/dorsa/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in dorsa; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/dorsa/; \

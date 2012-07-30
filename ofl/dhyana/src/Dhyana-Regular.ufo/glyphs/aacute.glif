@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aacute" format="1">
+  <advance width="1193"/>
+  <unicode hex="00e1"/>
+  <outline>
+    <component base="acutecomb" xOffset="75" yOffset="-347"/>
+    <component base="a"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-20</integer>
+	    <key>width</key>	    <integer>137</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>590</integer>
+	    <key>width</key>	    <integer>125</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1047</integer>
+	    <key>width</key>	    <integer>143</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1292</integer>
+	    <key>width</key>	    <integer>637</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>110</integer>
+	    <key>width</key>
+	    <integer>191</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>564</integer>
+	    <key>width</key>
+	    <integer>391</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>885</integer>
+	    <key>width</key>
+	    <integer>190</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>935</integer>
+	    <key>width</key>
+	    <integer>140</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

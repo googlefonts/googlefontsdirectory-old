@@ -1,0 +1,25 @@
+{
+  "name": "Stoke",
+  "designer": "Nicole Fally",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27223,
+  "fonts": [
+    {
+      "name": "Stoke",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Stoke-Regular.ttf",
+      "postScriptName": "Stoke-Regular",
+      "fullName": "Stoke",
+      "copyright": "Copyright (c) 2010 by Sorkin Type Co with Reserved Font Name Stoke."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

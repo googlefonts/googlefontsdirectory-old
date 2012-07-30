@@ -1,0 +1,24 @@
+{
+  "name": "Yeseva One",
+  "designer": "Jovanny Lemonad",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 15436,
+  "fonts": [
+    {
+      "name": "Yeseva One",
+      "style": "normal",
+      "weight": 400,
+      "filename": "YesevaOne.ttf",
+      "postScriptName": "YesevaOne-Regular",
+      "fullName": "Yeseva One",
+      "copyright": "Copyright (c) May 20, 2011, Jovanny Lemonad (lemonad@jovanny.ru), with Reserved Font Name \"Yeseva\" and \"Yeseva One\"."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-07-13"
+}

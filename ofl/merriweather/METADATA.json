@@ -1,0 +1,51 @@
+{
+  "name": "Merriweather",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 23289,
+  "fonts": [
+    {
+      "name": "Merriweather",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Merriweather-Light.ttf",
+      "postScriptName": "Merriweather-Light",
+      "fullName": "Merriweather Light",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Merriweather\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Merriweather",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Merriweather-Regular.ttf",
+      "postScriptName": "Merriweather",
+      "fullName": "Merriweather",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Merriweather\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Merriweather",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Merriweather-Bold.ttf",
+      "postScriptName": "Merriweather-Bold",
+      "fullName": "Merriweather Bold",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Merriweather\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    },
+    {
+      "name": "Merriweather",
+      "style": "normal",
+      "weight": 900,
+      "filename": "Merriweather-Black.ttf",
+      "postScriptName": "Merriweather-Heavy",
+      "fullName": "Merriweather Heavy",
+      "copyright": "Copyright (c) 2011, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name \"Merriweather\". This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2011-05-11"
+}

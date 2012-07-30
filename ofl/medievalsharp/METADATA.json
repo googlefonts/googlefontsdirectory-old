@@ -1,0 +1,25 @@
+{
+  "name": "MedievalSharp",
+  "designer": "Wojciech Kalinowski",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Display",
+  "size": 75332,
+  "fonts": [
+    {
+      "name": "MedievalSharp",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MedievalSharp.ttf",
+      "postScriptName": "MedievalSharp",
+      "fullName": "MedievalSharp",
+      "copyright": "wmk69 SIL Open Font License v.1.1"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-03-02"
+}

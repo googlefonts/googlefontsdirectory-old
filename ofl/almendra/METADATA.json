@@ -1,0 +1,43 @@
+{
+  "name": "Almendra",
+  "designer": "Ana Sanfelippo",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27396,
+  "fonts": [
+    {
+      "name": "Almendra",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Almendra-Regular.ttf",
+      "postScriptName": "Almendra-Regular",
+      "fullName": "Almendra",
+      "copyright": "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
+    },
+    {
+      "name": "Almendra",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Almendra-Italic.ttf",
+      "postScriptName": "Almendra-Italic",
+      "fullName": "Almendra Italic",
+      "copyright": "Copyright (c) 2011, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Names \"Almendra\" and \"Almendra SC\""
+    },
+    {
+      "name": "Almendra",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Almendra-Bold.ttf",
+      "postScriptName": "Almendra-Bold",
+      "fullName": "Almendra Bold",
+      "copyright": "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2011-12-19"
+}

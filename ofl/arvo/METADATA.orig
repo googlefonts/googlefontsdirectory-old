@@ -1,0 +1,34 @@
+license: OFL
+category: serif
+subsets: menu,latin
+
+family: Arvo
+designer: Anton Koovit
+
+approved: true
+description: <p>Arvo is a geometric slab-serif typeface family \
+  suited for screen and print. The family includes 4 cuts: Roman, \
+  Italic, Roman Bold, Bold Italic. It is a open font distributed \
+  through Google Web Fonts. The flavour of the font is rather \
+  mixed. Its monolinearish, but has tiny bit of contrast (which \
+  increases the legibility a little in Mac OS X.) The name Arvo is a \
+  typical Estonian man's name, but is not used widely any more. In the \
+  Finnish language, Arvo means "number, value, worth." Considering how \
+  much programming is behind hinting, 'number' is also true.</p>
+
+font.Arvo-BoldItalic.ttf.style: italic
+font.Arvo-BoldItalic.ttf.weight: bold
+font.Arvo-Bold.ttf.weight: bold
+font.Arvo-Italic.ttf.style: italic
+
+# cd ~/googlefontdirectory/arvo/; \
+# for font in `ls -1 *ttf | cut -d. -f1`; do
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#    --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#    --chars="Arvo" \
+#   ~/googlefontdirectory/arvo/$font.{ttf,menu}; \
+# cd ~/googlefontdirectory/arvo/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  $font.menu; \
+# done; 

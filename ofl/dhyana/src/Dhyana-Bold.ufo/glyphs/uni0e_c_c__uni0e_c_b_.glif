@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0ECC_uni0ECB" format="1">
+  <advance width="4"/>
+  <outline>
+    <component base="uni0ECC" xOffset="-187.189" yOffset="-36"/>
+    <component base="uni0ECB" xOffset="-2.18877" yOffset="420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1447</integer>
+	    <key>width</key>	    <integer>107</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1661</integer>
+	    <key>width</key>	    <integer>162</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1923</integer>
+	    <key>width</key>	    <integer>112</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>-991</integer>
+	    <key>width</key>
+	    <integer>103</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-766</integer>
+	    <key>width</key>
+	    <integer>88</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-753</integer>
+	    <key>width</key>
+	    <integer>121</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-538</integer>
+	    <key>width</key>
+	    <integer>147</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

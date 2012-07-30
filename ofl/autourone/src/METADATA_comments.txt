@@ -1,0 +1,25 @@
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Autour One" \
+# ~/googlefontdirectory-new_tree/ofl/autourone/AutourOne-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory-new_tree/ofl/autourone/; \
+# ~/googlefontdirectory-new_tree/tools/chars/showchars.py \
+#  AutourOne-Regular.menu; 
+# 
+# cd ~/googlefontdirectory-new_tree/ofl/autourone/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory-new_tree/ofl/; \
+# for family in autourone; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory-new_tree/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory-new_tree/ofl/autourone/; \

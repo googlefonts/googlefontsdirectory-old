@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zacute" format="1">
+  <advance width="1032"/>
+  <unicode hex="017A"/>
+  <outline>
+    <component base="acute" xOffset="469.5" yOffset="-49"/>
+    <component base="z"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>67</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>699</integer>
+	    <key>width</key>	    <integer>67</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>908</integer>
+	    <key>width</key>	    <integer>331</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>484</integer>
+	    <key>width</key>
+	    <integer>349</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

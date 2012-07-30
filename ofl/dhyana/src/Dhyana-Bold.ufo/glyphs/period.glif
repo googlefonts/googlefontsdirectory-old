@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="1">
+  <advance width="714"/>
+  <unicode hex="002e"/>
+  <outline>
+    <contour>
+      <point x="176" y="373" type="line" smooth="no"/>
+      <point x="539" y="373" type="line" smooth="no"/>
+      <point x="539" y="0" type="line" smooth="no"/>
+      <point x="176" y="0" type="line" smooth="no"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>373</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>176</integer>
+	    <key>width</key>
+	    <integer>363</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

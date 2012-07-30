@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0EB4_uni0EC9" format="1">
+  <advance width="3"/>
+  <outline>
+    <component base="uni0EB4" xOffset="-50.4391" yOffset="-15"/>
+    <component base="uni0EC9" xOffset="-37.1215" yOffset="549"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1232</integer>
+	    <key>width</key>	    <integer>157</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1604</integer>
+	    <key>width</key>	    <integer>163</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1925</integer>
+	    <key>width</key>	    <integer>79</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1925</integer>
+	    <key>width</key>	    <integer>166</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>2124</integer>
+	    <key>width</key>	    <integer>102</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>2340</integer>
+	    <key>width</key>	    <integer>131</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>-1245</integer>
+	    <key>width</key>
+	    <integer>137</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-1201</integer>
+	    <key>width</key>
+	    <integer>213</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-973</integer>
+	    <key>width</key>
+	    <integer>171</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-446</integer>
+	    <key>width</key>
+	    <integer>214</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>-348</integer>
+	    <key>width</key>
+	    <integer>209</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

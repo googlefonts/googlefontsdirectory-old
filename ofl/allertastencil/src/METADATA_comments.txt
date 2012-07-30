@@ -1,0 +1,17 @@
+# COMMENTS
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Allerta" \
+# ~/googlefontdirectory/allerta/Allerta-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/allerta/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Allerta-Regular.menu; \
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Allerta Stencil" \
+# ~/googlefontdirectory/allerta/AllertaStencil-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/allerta/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  AllertaStencil-Regular.menu; \

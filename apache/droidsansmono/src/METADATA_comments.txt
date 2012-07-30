@@ -1,0 +1,42 @@
+# COMMENTS
+# 2010-12-15 DC/RL needs vertical metrics of subsets checked
+# 2010-12-11 DC unused subsets: arabic,hebrew,japanese,thai
+# 2010-11-16 DC TODO descriptions for these when ready
+# DroidSans-Regular.arabic
+# DroidSans-Regular.thai
+# DroidSans-Regular.hebrew
+# DroidSans-Regular.japanese
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="DroidSans PrКаилрцΕάεηικλνQuốcNgữ()" \
+#     DroidSans-Regular.ttf DroidSerif-Regular.menu
+#
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="DroidSansM PrКаилрцΕάεηικλνQuốcNgữ()" \
+#     DroidSansMono-Regular.ttf DroidSerif-Regular.menu
+#
+# font-optimizer$ ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#     --exclude="smcp,ordn,sups,sinf,subs,dlig,frac" \
+#     --chars="DroidSerf PrКаилрцΕάεηικλνQuốcNgữ()" \
+#     DroidSerif-Regular.ttf DroidSerif-Regular.menu
+# for family in droid; do
+#    for font in `ls -1 $family/Droid*ttf | cut -d. -f1`; do
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            vietnamese+latin \
+#            greek+latin greek-ext+latin; do
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset;
+#            python tools/subset/subset.py --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log;
+#        done;
+#    done;
+# done;
+# for font in `ls -1 droid/Droid*`; do
+#     fontaine -T $font > $font.txt;
+# done;
+# cd droid;
+# rm `ls -l | grep " 0 " | cut -d" " -f 15`;
+# rm *menu.txt;

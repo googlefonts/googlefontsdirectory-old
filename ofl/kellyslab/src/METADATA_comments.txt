@@ -1,0 +1,23 @@
+# COMMENTS
+# fontforge -lang=ff -script menusubset-kelly.ff KellySlab-Regular.ttf;
+# mv KellySlab-Regular.{ttf.menu.ttf,menu};
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  KellySlab-Regular.menu; \
+# ENSURE THAT THE SPACE CHAR IS THERE
+# cd ~/googlefontdirectory/kellyslab/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+# cd ~/googlefontdirectory/; \
+# for family in kellyslab; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --namelist --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python tools/subset/subset.py --null --nmr --roundtrip \
+#                --namelist --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/kellyslab/; \
