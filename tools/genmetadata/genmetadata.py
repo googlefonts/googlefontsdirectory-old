@@ -174,6 +174,21 @@ def fontToolsOpenFont(filepath):
     file = open(filepath, 'rb')
     return ttLib.TTFont(file)
 
+
+# DC This should check both copyright strings match
+def fontToolsGetCopyright(ftfont):
+  NAMEID_PSNAME = 0
+  copyright = ""
+  for record in ftfont['name'].names:
+    if record.nameID == NAMEID_PSNAME and not copyright:
+      if '\000' in record.string:
+        copyright = unicode(record.string, 'utf-16-be').encode('utf-8')
+      else:
+        copyright = record.string
+    if copyright:
+      return copyright
+    # DC What happens if there is no copyright set?
+
 # DC This should check both names match, and stems match across the family
 def fontToolsGetPSName(ftfont):
   NAMEID_PSNAME = 6
@@ -268,6 +283,8 @@ def createFonts(familydir, familyname):
       fontmetadata["filename"] = f
       ansiprint("Filename: " + fontmetadata["filename"], "green")
       fonts.append(fontmetadata)
+      fontmetadata["copyright"] = fontToolsGetCopyright(ftfont)
+      ansiprint("Copyright: " + fontmetadata["copyright"], "green")
   return fonts
 
 # DC This should also print the subset filesizes and check they are smaller than the original ttf
@@ -388,6 +405,7 @@ def sortFont(fonts):
     fontMetadata["filename"] = font["filename"]
     fontMetadata["postScriptName"] = font["postScriptName"]
     fontMetadata["fullName"] = font["fullName"]
+    fontMetadata["copyright"] = font["copyright"]
     sortedfonts.append(fontMetadata)
   return sortedfonts
 
