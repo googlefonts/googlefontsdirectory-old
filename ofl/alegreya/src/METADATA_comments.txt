@@ -1,25 +1,30 @@
 # COMMENTS
-# cd ~/src/font-optimizer; \
-# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
-#  --chars="Alegreya " \
-# ~/googlefontdirectory/alegreya/Alegreya-Regular.{ttf,menu}; \
-# cd ~/googlefontdirectory/alegreya/; \
-# ~/googlefontdirectory/tools/chars/showchars.py \
-#  Alegreya-Regular.menu; \
-# cd ~/googlefontdirectory/alegreya/; \
-# rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
-# cd ~/googlefontdirectory/; \
-# for family in alegreya; do \
-#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-#        for subset in \
-#            latin latin-ext; do \
-#            echo subset.py --null --nmr --roundtrip --namelist --script \
-#                --subset=$subset $font.ttf $font.$subset; \
-#            python tools/subset/subset.py --null --nmr --roundtrip \
-#                --namelist --script --subset=$subset \
-#                $font.ttf $font.$subset > $font.$subset.log; \
-#        done; \
-#    done; \
-# done; \
-# cd ~/googlefontdirectory/alegreya/; \
+
+
+for font in `ls -1 *ttf | cut -d. -f1`; do \
+    cd ~/src/font-optimizer; \
+    ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+     --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+     --chars="Alegreya " \
+    ~/googlefontdirectory/ofl/alegreya/$font.{ttf,menu}; \
+    cd ~/googlefontdirectory/ofl/alegreya/; \
+    ~/googlefontdirectory/tools/chars/showchars.py \
+     $font.menu; \
+    cd ~/googlefontdirectory/ofl/alegreya/; \
+done; \
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic+latin *.cyrillic-ext+latin *.greek+latin *.greek-ext+latin; \
+cd ~/googlefontdirectory/ofl/; \
+for family in alegreya; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           latin latin-ext; do \
+           echo subset.py --null --nmr --roundtrip --namelist --script \
+               --subset=$subset $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+           --null --nmr --roundtrip --namelist --script --subset=$subset \
+           $font.ttf $font.$subset > $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/ofl/alegreya/; \
