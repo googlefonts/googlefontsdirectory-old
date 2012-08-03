@@ -19,10 +19,10 @@ languages that use the Latin script and its variants,
 and could be expanded to support other scripts.
 
 More specifically, this release supports the following 
-Unicode ranges: Latin-1, Latin-2: Easern Europe, Turkish, 
+Unicode ranges: Latin-1, Latin-2: Eastern Europe, Turkish, 
 Macintosh Character Set.
 
-There are 3 Source files:
+There are three Source files:
 
 1. AutourOne-Regular.vfb Original Source Files with 
    contour overlaps
@@ -41,6 +41,14 @@ sorkineben@gmail.com
 
 ChangeLog
 
+5 April 2012 (Eben Sorkin) Autour One v1.005
+- Altered unicode so that there was no more double mapping of glyphs
+- Separate glyphs for the Greek letter Delta mu and Omega and the math symbols 
+- Added ffi and ffl glyphs
+- True type hinting using TTF Autohint version 0.8
+- Mastered Font from Fontlab VBF to TTF and OTF
+- Completed second complete version of Autour in Fontlab (VBF format)
+
 22 June 2012 (Eben Sorkin) Autour One v1.003
 - Removed italic angle and remastered
 
@@ -49,6 +57,12 @@ ChangeLog
 - Added true type hinting using TTF Autohint version 0.8
 - Completed first complete version of Autour in 
   FontLab (VBF format)
+
+5 April 2012 (Eben Sorkin) Autour One v1.001
+- Added true type hinting using TTF Autohint version 0.8
+- Mastered Font from Fontlab VBF to TTF and OTF
+- Completed first complete version of Autour in 
+  Fontlab (VBF format)
 
 Acknowledgements
 
@@ -59,4 +73,6 @@ description (D). This list is in alphabetical order.
 N: Eben Sorkin
 E: sorkineben@gmail.com
 W: www.sorkintype.com
-D: Designer and Mastering
+D: Designer, Mastering
+
+
