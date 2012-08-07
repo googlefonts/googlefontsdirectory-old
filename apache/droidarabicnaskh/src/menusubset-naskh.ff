@@ -1,8 +1,8 @@
 #!/usr/local/bin/fontforge
 # A simple script to generate a menu subset. It outputs all unicode characters
 # in the word for "Arabic script", and also the ligatures needed for correct
-# shaping. After running "fontforge -lang=ff -script menusubset-naskh.ff Font.ttf", 
-# do "mv Font.menu.ttf Font.menu".
+# fontforge -lang=ff -script menusubset-naskh.ff Font.ttf
+# mv Font.menu.ttf Font.menu
 Open($1)
 Select(0u20)
 SelectMore(0u54)

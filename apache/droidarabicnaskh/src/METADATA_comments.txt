@@ -1,1 +1,4 @@
-# 2011-03-25 DC vertical metrics checked
+fontforge -lang=ff -script src/menusubset-naskh.ff DroidNaskh-Regular.ttf;
+mv DroidNaskh-Regular.ttf.menu.ttf DroidNaskh-Regular.menu;
+fontforge -lang=ff -script src/menusubset-naskh.ff DroidNaskh-Bold.ttf;
+mv DroidNaskh-Bold.ttf.menu.ttf DroidNaskh-Bold.menu;
