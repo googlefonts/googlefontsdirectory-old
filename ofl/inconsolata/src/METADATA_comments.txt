@@ -1,3 +1,4 @@
+
 cd ~/src/font-optimizer; \
 ./subset.pl -v --licensesubst="SIL OFL 1.1" \
  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
