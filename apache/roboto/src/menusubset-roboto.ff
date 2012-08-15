@@ -3,7 +3,7 @@
 # in "Roboto Каилрц Εάεηικλν()", and also the ligatures needed
 # 
 # for font in `ls *ttf`; do
-# fontforge -lang=ff -script menusubset-roboto.ff $font;
+# fontforge -lang=ff -script src/menusubset-roboto.ff $font;
 # done;
 # rename s/ttf.menu.ttf/menu/g *;
 
