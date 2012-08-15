@@ -282,9 +282,9 @@ def createFonts(familydir, familyname):
       ansiprint("Weight: " + str(fontmetadata["weight"]), "green")
       fontmetadata["filename"] = f
       ansiprint("Filename: " + fontmetadata["filename"], "green")
-      fonts.append(fontmetadata)
       fontmetadata["copyright"] = fontToolsGetCopyright(ftfont)
       ansiprint("Copyright: " + fontmetadata["copyright"], "green")
+      fonts.append(fontmetadata)
   return fonts
 
 # DC This should also print the subset filesizes and check they are smaller than the original ttf
