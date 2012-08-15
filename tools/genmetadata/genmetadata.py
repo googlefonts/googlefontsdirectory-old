@@ -350,7 +350,7 @@ def getSize(familydir):
       string += gzipSize
       color = "green"
     ansiprint(string, color)
-    return str(gzipSize)
+    return int(gzipSize)
 
 def setIfNotPresent(metadata, key, value):
   if key not in metadata:
