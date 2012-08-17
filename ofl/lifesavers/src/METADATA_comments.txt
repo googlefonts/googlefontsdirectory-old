@@ -3,8 +3,8 @@ cd ~/googlefontdirectory/ofl/; \
     for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
       cd ~/src/font-optimizer; \
       ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,kern,liga,salt" \
-       --chars="Lifesavers" \
+      --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,kern,liga,salt" \
+       --chars="Life Savers" \
       ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
       cd ~/googlefontdirectory/ofl/; \
       ~/googlefontdirectory/tools/chars/showchars.py \
