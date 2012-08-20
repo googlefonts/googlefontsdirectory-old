@@ -42,6 +42,13 @@ sorkineben@gmail.com
 
 ChangeLog
 
+4 April 2011 (Eben Sorkin) Headland v1.002
+- Made changes to weight to improve rendering in browsers 
+  still using GDI 
+- Mastered Font from Fontlab VBF to TTF and OTF
+- Added true type hinting using TTF Autohint version 0.8
+
+
 30 March 2011 (Eben Sorkin) Headland One v1.001
 - Mastered Font from Fontlab VBF to TTF and OTF
 - Added true type hinting using TTF Autohint version 0.8
