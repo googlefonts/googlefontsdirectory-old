@@ -1,16 +1,11 @@
 FONTLOG for the Cantata font
 
 This file provides detailed information on Cantata Font Software. 
+
 This information should be distributed along with the Cantata font 
 and any derivative works.
 
 Basic Font Information
-
-Cantata One is a high contrast extended Didone style text face. 
-In addition to being useful in medium to large text sizes, 
-Cantata One is meant to evoke luxury when used in display sizes. 
-Cantata One was originally inspired by hand written letters made 
-with a pointed pen on an old map handmade map of NYC.
 
 Cantata is a Unicode typeface family that supports languages that use 
 the Latin script and its variants, and could be expanded to support 
@@ -21,15 +16,22 @@ Latin-1, Latin-2: Easern Europe, Turkish, Macintosh Character Set
 
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
+There are three Source files:
+
+1. CantataOne-Regular.vfb Original Source Files with 
+   contour overlaps
+
+2. CantataOne-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+3. CantataOne-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
 ChangeLog
 
-23 Feb 2011 (Eben Sorkin) Cantata v1.003
-- Mastered Font from Fontlab VBF to TTF
-
-23 Feb 2011 (Joana Maria Correia da Silva) Cantata v1.002
-- Made small improvements to the b,d,e,f,h,k,l,p,q,u,v,w,z,
-  A,B,D,E,F,H,K,M,N,P,Q,R,T,U,&,2,3,5,6,8,9,?,iogonek 
-  and some math symbols.
+18 Feb 2011 (Eben Sorkin) Cantata v1.002
+- Added .nodef glyph
+- Added hinting to the TTF via TTFAutohint v0.8
 
 18 Feb 2011 (Eben Sorkin) Cantata v1.001
 - Mastered Font from Fontlab VBF to TTF
@@ -39,9 +41,8 @@ ChangeLog
 
 Acknowledgements
 
-If you make modifications be sure to add your name (N), 
-email (E), web-address (if you have one) (W) and 
-description (D). This list is in alphabetical order.
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
 
 N: Joana Maria Correia da Silva
 E: joanamcsilva@gmail.com
