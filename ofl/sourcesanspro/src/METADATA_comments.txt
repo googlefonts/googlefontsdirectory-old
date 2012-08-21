@@ -7,7 +7,7 @@ cd ~/src/font-optimizer; \
 cd ~/googlefontdirectory/ofl/sourcesanspro/; \
 ~/googlefontdirectory/tools/chars/showchars.py \
  $font.menu; \
- done; \
+done; \
 
 
 
