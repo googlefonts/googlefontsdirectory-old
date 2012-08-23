@@ -8,20 +8,20 @@
   "fonts": [
     {
       "name": "Playfair Display",
-      "postScriptName": "PlayfairDisplay-Black",
-      "fullName": "Playfair Display Black Regular",
+      "postScriptName": "PlayfairDisplay-Regular",
+      "fullName": "Playfair Display Regular",
       "style": "normal",
-      "weight": 900,
-      "filename": "PlayfairDisplay-Black.ttf",
+      "weight": 400,
+      "filename": "PlayfairDisplay-Regular.ttf",
       "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
     },
     {
       "name": "Playfair Display",
-      "postScriptName": "PlayfairDisplay-BlackItalic",
-      "fullName": "Playfair Display Black Italic",
+      "postScriptName": "PlayfairDisplay-Italic",
+      "fullName": "Playfair Display Italic",
       "style": "italic",
-      "weight": 900,
-      "filename": "PlayfairDisplay-BlackItalic.ttf",
+      "weight": 400,
+      "filename": "PlayfairDisplay-Italic.ttf",
       "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
     },
     {
@@ -44,20 +44,20 @@
     },
     {
       "name": "Playfair Display",
-      "postScriptName": "PlayfairDisplay-Italic",
-      "fullName": "Playfair Display Italic",
-      "style": "italic",
-      "weight": 400,
-      "filename": "PlayfairDisplay-Italic.ttf",
+      "postScriptName": "PlayfairDisplay-Black",
+      "fullName": "Playfair Display Black Regular",
+      "style": "normal",
+      "weight": 900,
+      "filename": "PlayfairDisplay-Black.ttf",
       "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
     },
     {
       "name": "Playfair Display",
-      "postScriptName": "PlayfairDisplay-Regular",
-      "fullName": "Playfair Display Regular",
-      "style": "normal",
-      "weight": 400,
-      "filename": "PlayfairDisplay-Regular.ttf",
+      "postScriptName": "PlayfairDisplay-BlackItalic",
+      "fullName": "Playfair Display Black Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "PlayfairDisplay-BlackItalic.ttf",
       "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
     }
   ],
