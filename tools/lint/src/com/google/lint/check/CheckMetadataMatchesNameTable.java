@@ -46,7 +46,7 @@ public class CheckMetadataMatchesNameTable implements LintCheck {
       String familyNameFromFont = extractNameFromNameTable(font);
       if (!familyName.equals(familyNameFromFont)) {
         String report = String.format("%s: Family name was supposed to be \"%s\" but is \"%s\"",
-            new File(familyDirectory, fontData.getFilename()).getPath(), familyName,
+            new File(familyDirectory, fontMetadata.getFilename()).getPath(), familyName,
             familyNameFromFont);
         context.report(Severity.ERROR, report);
       }
