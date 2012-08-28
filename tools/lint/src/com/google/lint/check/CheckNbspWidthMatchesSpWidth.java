@@ -23,8 +23,8 @@ import java.util.List;
  */
 public class CheckNbspWidthMatchesSpWidth implements LintCheck {
 
-  private static final int SP = 0x0020;
-  private static final int NBSP = 0x00A0;
+  private static final int SP = 0x000020;
+  private static final int NBSP = 0x0000A0;
   private final MetadataStore metadataStore;
   private final FontStore fontStore;
 
@@ -64,6 +64,8 @@ public class CheckNbspWidthMatchesSpWidth implements LintCheck {
     }
     int spGlyphAdvanceWidth = getAdvanceWidth(spGlyphId, font);
     int nbspGlyphAdvanceWidth = getAdvanceWidth(nbspGlyphId, font);
+    System.out.println("spGlyphAdvanceWidth: " + spGlyphAdvanceWidth + " nbspGlypAdvanceWidth: " +
+        nbspGlyphAdvanceWidth);
     if (spGlyphAdvanceWidth != nbspGlyphAdvanceWidth) {
       context.report(Severity.ERROR, String.format("%s: The nbsp advance width does not match " +
             "the sp advance width", fontFilePath));
