@@ -3,6 +3,7 @@ package com.google.lint;
 import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;
 import com.google.inject.multibindings.Multibinder;
+import com.google.lint.check.CheckFamilyNameMatchesFontNames;
 import com.google.lint.check.CheckMetadataMatchesNameTable;
 import com.google.lint.common.Context;
 import com.google.lint.common.FontStore;
@@ -22,5 +23,6 @@ public class LintModule extends AbstractModule {
 
     Multibinder<LintCheck> multibinder = Multibinder.newSetBinder(binder(), LintCheck.class);
     multibinder.addBinding().to(CheckMetadataMatchesNameTable.class).in(Singleton.class);
+    multibinder.addBinding().to(CheckFamilyNameMatchesFontNames.class).in(Singleton.class);
   }
 }
