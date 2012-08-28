@@ -35,10 +35,6 @@ public class FontStore {
     return fontData;
   }
 
-  public Font getSfntlyFont(String familyDirectory, FontMetadata fontMetadata) {
-    return getSfntlyFont(getFontData(familyDirectory, fontMetadata));
-  }
-
   public Font getSfntlyFont(FontData fontData) {
     Font sfntlyFont = sfntlyFonts.get(fontData);
     if (sfntlyFont == null) {
