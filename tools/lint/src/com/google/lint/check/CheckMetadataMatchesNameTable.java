@@ -3,7 +3,6 @@ package com.google.lint.check;
 import com.google.inject.Inject;
 import com.google.lint.common.Context;
 import com.google.lint.common.FamilyMetadata;
-import com.google.lint.common.FontData;
 import com.google.lint.common.FontMetadata;
 import com.google.lint.common.FontStore;
 import com.google.lint.common.LintCheck;
@@ -43,8 +42,7 @@ public class CheckMetadataMatchesNameTable implements LintCheck {
       FamilyMetadata familyMetadata) {
     String familyName = familyMetadata.getName();
     for (FontMetadata fontMetadata : familyMetadata.getFontsMetadata()) {
-      FontData fontData = fontStore.getFontData(familyDirectory, fontMetadata);
-      Font font = fontStore.getSfntlyFont(fontData);
+      Font font = fontStore.getSfntlyFont(familyDirectory, fontMetadata);
       String familyNameFromFont = extractNameFromNameTable(font);
       if (!familyName.equals(familyNameFromFont)) {
         String report = String.format("%s: Family name was supposed to be \"%s\" but is \"%s\"",
