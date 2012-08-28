@@ -27,6 +27,10 @@ public class FamilyMetadata {
     return fonts;
   }
 
+  public List<String> getSubsets() {
+    return subsets;
+  }
+
   @Override
   public boolean equals(Object obj) {
     if (!(obj instanceof FamilyMetadata)) {
