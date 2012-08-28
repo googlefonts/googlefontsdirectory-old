@@ -19,6 +19,14 @@ public class FontMetadata {
     return name;
   }
 
+  public String getStyle() {
+    return style;
+  }
+
+  public int getWeight() {
+    return weight;
+  }
+
   public String getFilename() {
     return filename;
   }
