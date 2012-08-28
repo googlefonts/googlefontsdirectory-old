@@ -4,7 +4,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Singleton;
 import com.google.inject.multibindings.Multibinder;
 import com.google.lint.check.CheckCanonicalFilenames;
-import com.google.lint.check.CheckCanonicalStyleNames;
+import com.google.lint.check.CheckCanonicalStyles;
 import com.google.lint.check.CheckCanonicalWeights;
 import com.google.lint.check.CheckFamilyNameMatchesFontNames;
 import com.google.lint.check.CheckMetadataMatchesNameTable;
@@ -30,7 +30,7 @@ public class LintModule extends AbstractModule {
     multibinder.addBinding().to(CheckMetadataMatchesNameTable.class).in(Singleton.class);
     multibinder.addBinding().to(CheckFamilyNameMatchesFontNames.class).in(Singleton.class);
     multibinder.addBinding().to(CheckNbspWidthMatchesSpWidth.class).in(Singleton.class);
-    multibinder.addBinding().to(CheckCanonicalStyleNames.class).in(Singleton.class);
+    multibinder.addBinding().to(CheckCanonicalStyles.class).in(Singleton.class);
     multibinder.addBinding().to(CheckCanonicalWeights.class).in(Singleton.class);
     multibinder.addBinding().to(CheckCanonicalFilenames.class).in(Singleton.class);
     multibinder.addBinding().to(CheckSubsetsExist.class).in(Singleton.class);

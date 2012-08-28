@@ -40,6 +40,13 @@ public class CheckSubsetsExist implements LintCheck {
         if (!subsetFile.exists()) {
           context.report(Severity.ERROR, String.format("%s: The subset file for the %s subset" +
               " does not exist", subsetFile.getPath(), subset));
+        } else {
+          File originalTtf = new File(familyDirectory, fontMetadata.getFilename());
+          if (subsetFile.length() > originalTtf.length()) {
+            context.report(Severity.ERROR, String.format("%s: The subset file %s is bigger than " +
+                "the original file %s", subsetFile.getPath(), subsetFilename,
+                fontMetadata.getFilename()));
+          }
         }
       }
     }
