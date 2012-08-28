@@ -64,8 +64,6 @@ public class CheckNbspWidthMatchesSpWidth implements LintCheck {
     }
     int spGlyphAdvanceWidth = getAdvanceWidth(spGlyphId, font);
     int nbspGlyphAdvanceWidth = getAdvanceWidth(nbspGlyphId, font);
-    System.out.println("spGlyphAdvanceWidth: " + spGlyphAdvanceWidth + " nbspGlypAdvanceWidth: " +
-        nbspGlyphAdvanceWidth);
     if (spGlyphAdvanceWidth != nbspGlyphAdvanceWidth) {
       context.report(Severity.ERROR, String.format("%s: The nbsp advance width does not match " +
             "the sp advance width", fontFilePath));
