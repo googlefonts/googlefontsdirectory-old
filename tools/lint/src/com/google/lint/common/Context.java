@@ -23,10 +23,14 @@ public class Context {
   }
 
   public void printReports() {
-    for (Map.Entry<Severity, List<String>> entry : reports.entrySet()) {
-      Severity severity = entry.getKey();
-      for (String report : entry.getValue()) {
-        System.out.println(String.format("[%s] %s", severity, report));
+
+    // The enum is ordered from highest severity to lowest
+    for (Severity severity : Severity.values()) {
+      List<String> severityReports = reports.get(severity);
+      if (severityReports != null) {
+        for (String report : severityReports) {
+          System.out.println(String.format("[%s] %s", severity, report));
+        } 
       }
     }
   }

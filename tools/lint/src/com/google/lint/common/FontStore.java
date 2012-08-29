@@ -24,6 +24,7 @@ public class FontStore {
 
   private final Map<String, FontData> fontsData = Maps.newHashMap();
   private final Map<FontData, Font> sfntlyFonts = Maps.newHashMap();
+  private final Map<String, Font> subsets = Maps.newHashMap();
 
   public FontData getFontData(String familyDirectory, FontMetadata fontMetadata) {
     String filePath = createFilePath(familyDirectory, fontMetadata);
@@ -33,6 +34,25 @@ public class FontStore {
       fontsData.put(filePath, fontData);
     }
     return fontData;
+  }
+
+  public Font getSfntlyFont(String familyDirectory, FontMetadata fontMetadata, String subset) {
+    String subsetFilename = fontMetadata.getFilename().replace(".ttf", "." + subset);
+    Font font = subsets.get(subsetFilename);
+    if (font == null) {
+      font = loadSubset(familyDirectory, subsetFilename);
+      subsets.put(subsetFilename, font);
+    }
+    return font;
+  }
+
+  private Font loadSubset(String familyDirectory, String subsetFilename) {
+    File filePath = new File(familyDirectory, subsetFilename);
+    try {
+      return parse(filePath.getName(), Files.toByteArray(filePath));
+    } catch (IOException e) {
+      throw new RuntimeException(String.format("Could not load subset file: %s", filePath), e);
+    }
   }
 
   public Font getSfntlyFont(String familyDirectory, FontMetadata fontMetadata) {
@@ -49,12 +69,14 @@ public class FontStore {
   }
 
   private Font parse(FontData fontData) {
-    Font sfntlyFont;
+    return parse(fontData.getFilename(), fontData.getBytes());
+  }
+
+  private Font parse(String filename, byte[] bytes) {
     try {
-      return FONT_FACTORY.loadFonts(fontData.getBytes())[0];
+      return FONT_FACTORY.loadFonts(bytes)[0];
     } catch (IOException e) {
-      throw new RuntimeException(String.format("Could not parse font: %s (%s)", fontData.getName(),
-          fontData.getFilename()), e);
+      throw new RuntimeException(String.format("Could not parse font: %s", filename), e);
     }
   }
 

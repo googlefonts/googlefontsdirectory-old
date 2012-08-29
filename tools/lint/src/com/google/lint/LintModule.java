@@ -7,6 +7,7 @@ import com.google.lint.check.CheckCanonicalFilenames;
 import com.google.lint.check.CheckCanonicalStyles;
 import com.google.lint.check.CheckCanonicalWeights;
 import com.google.lint.check.CheckFamilyNameMatchesFontNames;
+import com.google.lint.check.CheckMenuSubsetContainsProperGlyphs;
 import com.google.lint.check.CheckMetadataMatchesNameTable;
 import com.google.lint.check.CheckNbspWidthMatchesSpWidth;
 import com.google.lint.check.CheckSubsetsExist;
@@ -34,5 +35,6 @@ public class LintModule extends AbstractModule {
     multibinder.addBinding().to(CheckCanonicalWeights.class).in(Singleton.class);
     multibinder.addBinding().to(CheckCanonicalFilenames.class).in(Singleton.class);
     multibinder.addBinding().to(CheckSubsetsExist.class).in(Singleton.class);
+    multibinder.addBinding().to(CheckMenuSubsetContainsProperGlyphs.class).in(Singleton.class);
   }
 }
