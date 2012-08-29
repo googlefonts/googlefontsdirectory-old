@@ -39,8 +39,12 @@ public class CheckMenuSubsetContainsProperGlyphs implements LintCheck {
     for (String familyDirectory : familyDirectories) {
       FamilyMetadata familyMetadata = metadataStore.getFamilyMetadata(familyDirectory);
       for (FontMetadata fontMetadata : familyMetadata.getFontsMetadata()) {
-        Font font = fontStore.getSfntlyFont(familyDirectory, fontMetadata, "menu");
-        checkContainsProperGlyph(context, familyDirectory, fontMetadata, font);
+        File menuFile = new File(familyDirectory,
+            fontMetadata.getFilename().replace(".ttf", ".menu"));
+        if (menuFile.exists()) {
+          Font font = fontStore.getSfntlyFont(familyDirectory, fontMetadata, "menu");
+          checkContainsProperGlyph(context, familyDirectory, fontMetadata, font);
+        }
       }
     }
   }

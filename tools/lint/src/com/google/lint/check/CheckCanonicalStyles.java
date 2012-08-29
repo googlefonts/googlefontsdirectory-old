@@ -12,9 +12,16 @@ import com.google.lint.common.MetadataStore;
 import com.google.lint.common.Severity;
 import com.google.typography.font.sfntly.Font;
 import com.google.typography.font.sfntly.Tag;
+import com.google.typography.font.sfntly.table.Header;
+import com.google.typography.font.sfntly.table.Table;
+import com.google.typography.font.sfntly.table.core.FontHeaderTable;
+import com.google.typography.font.sfntly.table.core.NameTable;
+import com.google.typography.font.sfntly.table.core.FontHeaderTable.MacStyle;
+import com.google.typography.font.sfntly.table.core.NameTable.NameEntry;
 import com.google.typography.font.sfntly.table.core.PostScriptTable;
 
 import java.io.File;
+import java.util.EnumSet;
 import java.util.List;
 import java.util.Set;
 
@@ -63,22 +70,35 @@ public class CheckCanonicalStyles implements LintCheck {
 
   private void checkStyleMatchesInFontFile(
       Context context, String familyDirectory, FontMetadata fontMetadata) {
-    String filePath = new File(familyDirectory, fontMetadata.getFilename()).getPath();
+    String filePath = new File(familyDirectory, fontMetadata.getFilename()).getPath();  
     Font font = fontStore.getSfntlyFont(familyDirectory, fontMetadata);
-    PostScriptTable postTable = font.getTable(Tag.post);
-    int angle = postTable.italicAngle();
+    FontHeaderTable head = font.getTable(Tag.head);
+    int macStyle = head.macStyleAsInt();
     String fontStyle = fontMetadata.getStyle();
+    PostScriptTable postTable = font.getTable(Tag.post);
+    boolean isItalic = (macStyle & MacStyle.Italic.mask()) ==  MacStyle.Italic.mask() ||
+        postTable.italicAngle() != 0 || findItalicInNameTable(font);
 
-    if (angle == 0) {
-      if (!"normal".equals(fontStyle)) {
-        context.report(Severity.ERROR, String.format("%s: The font style is %s but it should " +
-            "be normal", filePath, fontStyle));
-      }
-    } else {
+    if (isItalic) {
       if (!"italic".equals(fontStyle)) {
         context.report(Severity.ERROR, String.format("%s: The font style is %s but it should " +
             "be italic", filePath, fontStyle));
       }
+    } else {
+      if (!"normal".equals(fontStyle)) {
+        context.report(Severity.ERROR, String.format("%s: The font style is %s but it should " +
+            "be normal", filePath, fontStyle));
+      }
     }
+  }
+
+  private boolean findItalicInNameTable(Font font) {
+    NameTable name = font.getTable(Tag.name);
+    for (NameEntry entry : name.names()) {
+      if (entry.name().toLowerCase().contains("italic")) {
+        return true;
+      }
+    }
+    return false;
   }
 }

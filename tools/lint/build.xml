@@ -25,6 +25,7 @@
 		<mkdir dir="${dist.dir}" />
 		<jar destfile="${dist.dir}/${ant.project.name}.jar" basedir="${classes.dir}">
 			<zipfileset src="${lib.dir}/aopalliance.jar" />
+			<zipfileset src="${lib.dir}/gson-2.2.2.jar" />
 			<zipfileset src="${lib.dir}/guava-11.0.2.jar" />
 			<zipfileset src="${lib.dir}/guice-3.0.jar" />
 			<zipfileset src="${lib.dir}/guice-multibindings-3.0.jar" />
