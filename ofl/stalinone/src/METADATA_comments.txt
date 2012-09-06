@@ -19,7 +19,7 @@ for family in stalinone; do \
    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
        for subset in \
            latin latin-ext+latin \
-           cyrillic+latin cyrillic-ext+latin; do \
+           cyrillic+latin; do \
            echo subset.py --null --nmr --roundtrip --script \
                --subset=$subset $font.ttf $font.$subset; \
            python ~/googlefontdirectory/tools/subset/subset.py \
