@@ -8,29 +8,38 @@
   "fonts": [
     {
       "name": "Almendra",
+      "postScriptName": "Almendra-Bold",
+      "fullName": "Almendra Bold",
       "style": "normal",
-      "weight": 400,
-      "filename": "Almendra-Regular.ttf",
-      "postScriptName": "Almendra-Regular",
-      "fullName": "Almendra",
+      "weight": 700,
+      "filename": "Almendra-Bold.ttf",
       "copyright": "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
     },
     {
       "name": "Almendra",
+      "postScriptName": "Almendra-BoldItalic",
+      "fullName": "Almendra Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Almendra-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2012 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Name \"Almendra\""
+    },
+    {
+      "name": "Almendra",
+      "postScriptName": "Almendra-Italic",
+      "fullName": "Almendra Italic",
       "style": "italic",
       "weight": 400,
       "filename": "Almendra-Italic.ttf",
-      "postScriptName": "Almendra-Italic",
-      "fullName": "Almendra Italic",
       "copyright": "Copyright (c) 2011, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Names \"Almendra\" and \"Almendra SC\""
     },
     {
       "name": "Almendra",
+      "postScriptName": "Almendra-Regular",
+      "fullName": "Almendra",
       "style": "normal",
-      "weight": 700,
-      "filename": "Almendra-Bold.ttf",
-      "postScriptName": "Almendra-Bold",
-      "fullName": "Almendra Bold",
+      "weight": 400,
+      "filename": "Almendra-Regular.ttf",
       "copyright": "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
     }
   ],
