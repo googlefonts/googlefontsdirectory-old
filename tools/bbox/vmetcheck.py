@@ -56,26 +56,29 @@ class Sfnt:
         return r
 
 def main(argv):
-    font_in = argv[0]
-    font = fontforge.open(font_in)
-    ymin = 0
-    ymax = 0
-    for g in fontforge.activeFont().glyphs():
-        bbox = g.boundingBox()
-        if bbox[3] > ymax: ymax = int(bbox[3])
-        if bbox[1] < ymin: ymin = int(bbox[1])
-    data = file(font_in, 'rb').read()
-    sfnt = Sfnt(data)
-    hhea = sfnt.hhea()
-    os2 = sfnt.os2()
-    if ymax != os2['usWinAscender']: print "Change WinAscent to", ymax
-    if ymax != os2['sTypoAscender']: print "Change TypoAscent to", ymax
-    if ymax != hhea['Ascender']: print "Change HHeadAscent to", ymax
-    if ymin != -os2['usWinDescender']:    print "Change WinDescent to", -ymin
-    if ymin != os2['sTypoDescender']:    print "Change TypoDescent to", ymin
-    if ymin != hhea['Descender']: print "Change HHeadDescent to", ymin
-    if 0 != os2['sTypoLineGap']: print "Change TypoLineGap to 0"
-    if 0 != hhea['LineGap']: print "Change HHeadLineGap to 0"
+    for font_in in argv:
+        print font_in,
+        font = fontforge.open(font_in)
+        print "checked:",
+        ymin = 0
+        ymax = 0
+        for g in fontforge.activeFont().glyphs():
+            bbox = g.boundingBox()
+            if bbox[3] > ymax: ymax = int(bbox[3])
+            if bbox[1] < ymin: ymin = int(bbox[1])
+        data = file(font_in, 'rb').read()
+        sfnt = Sfnt(data)
+        hhea = sfnt.hhea()
+        os2 = sfnt.os2()
+        if ymax != os2['usWinAscender']: print "Change WinAscent to", ymax
+        elif ymax != os2['sTypoAscender']: print "Change TypoAscent to", ymax
+        elif ymax != hhea['Ascender']: print "Change HHeadAscent to", ymax
+        elif ymin != -os2['usWinDescender']:    print "Change WinDescent to", -ymin
+        elif ymin != os2['sTypoDescender']:    print "Change TypoDescent to", ymin
+        elif ymin != hhea['Descender']: print "Change HHeadDescent to", ymin
+        elif 0 != os2['sTypoLineGap']: print "Change TypoLineGap to 0"
+        elif 0 != hhea['LineGap']: print "Change HHeadLineGap to 0"
+        else: print "OK"
 
 if __name__ == '__main__':
-    main(sys.argv[1:2])
+    main(sys.argv[1:])
