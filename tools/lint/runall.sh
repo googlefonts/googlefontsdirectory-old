@@ -9,6 +9,6 @@ done
 
 ant lint-jar
 
-java -jar dist/lint.jar $DIRECTORIES
+JVM_ARGS="-Xmx1024m" java -jar dist/lint.jar $DIRECTORIES
 
 cd - > /dev/null
