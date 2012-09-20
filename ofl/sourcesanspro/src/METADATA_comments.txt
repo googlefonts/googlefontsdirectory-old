@@ -1,3 +1,5 @@
+rename s/It.ttf/Italic.ttf/g *;
+
 for font in `ls -1 *ttf | cut -d. -f1`; do \
 cd ~/src/font-optimizer; \
 ./subset.pl -v --licensesubst="SIL OFL 1.1" \
