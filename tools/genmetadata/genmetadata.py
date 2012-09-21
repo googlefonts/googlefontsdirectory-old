@@ -1,4 +1,4 @@
-#!/usr/bin/python2.6
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 #
 # Copyright 2012, Google Inc.
@@ -19,7 +19,8 @@
 #
 # Portions Copyright (c) 2003, Michael C. Fletcher, TTFQuery Project
 #
-# A script for generating METADATA.json files, using fontTools
+# A script for generating METADATA.json files, using fontTools,
+# written in Python 2.6
 
 from datetime import date
 from fontTools import ttLib
@@ -421,8 +422,8 @@ def writeFile(familydir, metadata):
   if hasMetadata(familydir):
     filename = "METADATA.json.new"
   with codecs.open(os.path.join(familydir, filename), 'w', encoding="utf_8") as f:
-    f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=False)))
-  print json.dumps(metadata, indent=2, ensure_ascii=False)
+    f.write(striplines(json.dumps(metadata, indent=2, ensure_ascii=True)))
+  print json.dumps(metadata, indent=2, ensure_ascii=True)
 
 def ansiprint(string, color):
   if sys.stdout.isatty():
