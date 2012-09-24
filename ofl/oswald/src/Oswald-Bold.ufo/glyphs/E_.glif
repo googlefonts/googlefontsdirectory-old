@@ -17,21 +17,10 @@
       <point x="858" y="250" type="line"/>
       <point x="858" y="0" type="line"/>
     </contour>
-    <contour>
-      <point x="445" y="1800" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="445" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="800" y="10" type="move" name="ogonek"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+    <key>com.typemytype.robofont.layerData</key>
     </dict>
   </lib>
 </glyph>

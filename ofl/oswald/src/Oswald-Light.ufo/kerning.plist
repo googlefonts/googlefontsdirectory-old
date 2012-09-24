@@ -19,6 +19,10 @@
 	</dict>
 	<key>K</key>
 	<dict>
+	    <key>w</key>
+	    <integer>-8</integer>
+	    <key>v</key>
+	    <integer>-7</integer>
 	    <key>uni020D</key>
 	    <integer>-29</integer>
 	    <key>ccircumflex</key>
@@ -36,11 +40,47 @@
 	    <integer>-160</integer>
 	    <key>quotedbl</key>
 	    <integer>-100</integer>
+	    <key>W</key>
+	    <integer>-29</integer>
+	    <key>V</key>
+	    <integer>-37</integer>
+	</dict>
+	<key>P</key>
+	<dict>
+	    <key>period</key>
+	    <integer>-220</integer>
+	    <key>comma</key>
+	    <integer>-270</integer>
 	</dict>
 	<key>T</key>
 	<dict>
 	    <key>agrave</key>
 	    <integer>-73</integer>
+	</dict>
+	<key>V</key>
+	<dict>
+	    <key>s</key>
+	    <integer>-11</integer>
+	    <key>period</key>
+	    <integer>-60</integer>
+	    <key>g</key>
+	    <integer>-14</integer>
+	    <key>comma</key>
+	    <integer>-70</integer>
+	</dict>
+	<key>W</key>
+	<dict>
+	    <key>period</key>
+	    <integer>-50</integer>
+	    <key>comma</key>
+	    <integer>-60</integer>
+	</dict>
+	<key>a</key>
+	<dict>
+	    <key>w</key>
+	    <integer>-11</integer>
+	    <key>v</key>
+	    <integer>-10</integer>
 	</dict>
 	<key>b</key>
 	<dict>
@@ -69,6 +109,8 @@
 	<dict>
 	    <key>x</key>
 	    <integer>-19</integer>
+	    <key>w</key>
+	    <integer>-4</integer>
 	</dict>
 	<key>f</key>
 	<dict>
@@ -167,6 +209,18 @@
 	    <integer>-46</integer>
 	    <key>ccircumflex</key>
 	    <integer>-46</integer>
+	</dict>
+	<key>v</key>
+	<dict>
+	    <key>period</key>
+	    <integer>-60</integer>
+	    <key>comma</key>
+	    <integer>-80</integer>
+	</dict>
+	<key>w</key>
+	<dict>
+	    <key>comma</key>
+	    <integer>-50</integer>
 	</dict>
 	<key>x</key>
 	<dict>

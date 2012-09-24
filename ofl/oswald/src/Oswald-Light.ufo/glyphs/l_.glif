@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="L" format="1">
   <advance width="772"/>
-  <unicode hex="004c"/>
+  <unicode hex="004C"/>
   <outline>
     <contour>
-      <point x="146" y="0" type="line" smooth="no"/>
-      <point x="146" y="1721" type="line" smooth="no"/>
-      <point x="298" y="1721" type="line" smooth="no"/>
-      <point x="298" y="122" type="line" smooth="no"/>
-      <point x="779" y="122" type="line" smooth="no"/>
-      <point x="779" y="0" type="line" smooth="no"/>
-    </contour>
-    <contour>
-      <point x="392" y="1721" type="move" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="392" y="0" type="move" smooth="yes"/>
+      <point x="146" y="0" type="line"/>
+      <point x="146" y="1721" type="line"/>
+      <point x="298" y="1721" type="line"/>
+      <point x="298" y="122" type="line"/>
+      <point x="779" y="122" type="line"/>
+      <point x="779" y="0" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ffi" format="1">
-  <advance width="1839"/>
+  <advance width="1840"/>
   <unicode hex="FB03"/>
   <outline>
+    <contour>
+      <point x="1407" y="1419" type="line"/>
+      <point x="1407" y="1734" type="line"/>
+      <point x="1744" y="1734" type="line"/>
+      <point x="1744" y="1419" type="line"/>
+    </contour>
     <contour>
       <point x="141" y="0" type="line"/>
       <point x="141" y="1080" type="line"/>
@@ -54,12 +60,6 @@
       <point x="760" y="1080" type="line"/>
       <point x="478" y="1080" type="line"/>
       <point x="478" y="0" type="line"/>
-    </contour>
-    <contour>
-      <point x="1407" y="1419" type="line"/>
-      <point x="1407" y="1734" type="line"/>
-      <point x="1744" y="1734" type="line"/>
-      <point x="1744" y="1419" type="line"/>
     </contour>
   </outline>
 </glyph>

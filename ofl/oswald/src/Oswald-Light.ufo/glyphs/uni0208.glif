@@ -4,6 +4,11 @@
   <unicode hex="0208"/>
   <outline>
     <component base="I"/>
-    <component base="uni030F" xOffset="-199" yOffset="439"/>
+    <component base="uni030F" xOffset="-199" yOffset="500"/>
   </outline>
+  <lib>
+    <dict>
+    <key>com.typemytype.robofont.layerData</key>
+    </dict>
+  </lib>
 </glyph>

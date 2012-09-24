@@ -50,18 +50,10 @@
       <point x="207" y="-37"/>
       <point x="59" y="233"/>
     </contour>
-    <contour>
-      <point x="525" y="1800" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="525" y="0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.layerData</key>
-      <dict>
-      </dict>
+    <key>com.typemytype.robofont.layerData</key>
     </dict>
   </lib>
 </glyph>
