@@ -367,7 +367,7 @@ def genmetadata(familydir):
   setIfNotPresent(metadata, "license", inferLicense(familydir))
   setIfNotPresent(metadata, "visibility", "Sandbox")
   setIfNotPresent(metadata, "category", "") # DC Should get this from the font or prompt?
-  setIfNotPresent(metadata, "size", getSize(familydir))
+  setIfNotPresent(metadata, "size", getSize(familydir)) # DC: this should check the filesize got smaller than last time
   setIfNotPresent(metadata, "dateAdded", getToday())  # DC This is used for the Date Added sort in the GWF Directory - DC to check all existing values in hg repo are correct
   metadata["fonts"] = createFonts(familydir, familyname)
   metadata["subsets"] = inferSubsets(familydir)
