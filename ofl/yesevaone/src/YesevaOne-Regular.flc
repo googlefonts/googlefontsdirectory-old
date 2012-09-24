@@ -1,0 +1,136 @@
+%%FONTLAB CLASSES
+
+%%CLASS _a
+%%GLYPHS  a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde
+%%KERNING LR 0
+%%END
+
+%%CLASS _A
+%%GLYPHS  A' Agrave Aacute Acircumflex Atilde Adieresis Amacron Aogonek Aring Abreve
+%%KERNING LR 0
+%%END
+
+%%CLASS _S
+%%GLYPHS  S' Scaron Sacute Scedilla Scircumflex Scommaaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _s
+%%GLYPHS  s' scaron sacute scircumflex scommaaccent scedilla
+%%KERNING LR 0
+%%END
+
+%%CLASS _U
+%%GLYPHS  U' Ugrave Uacute Ucircumflex Udieresis Umacron Uogonek Uring Utilde Uhungarumlaut Ubreve
+%%KERNING LR 0
+%%END
+
+%%CLASS _u
+%%GLYPHS  u' uacute ubreve ucircumflex udieresis uhungarumlaut ugrave umacron uogonek uring utilde
+%%KERNING LR 0
+%%END
+
+%%CLASS _Z
+%%GLYPHS  Z' Zcaron Zacute Zdotaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _z
+%%GLYPHS  z' zcaron zacute zdotaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _C
+%%GLYPHS  C' Ccedilla Cacute Ccaron Ccircumflex Cdotaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _c
+%%GLYPHS  c' cacute ccaron ccedilla ccircumflex cdotaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _E
+%%GLYPHS  E' AE OE Egrave Eacute Ecircumflex Edieresis Ecaron Emacron Eogonek Edotaccent Ebreve
+%%KERNING L 0
+%%END
+
+%%CLASS _e
+%%GLYPHS  e' ae oe eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek
+%%KERNING LR 0
+%%END
+
+%%CLASS _O
+%%GLYPHS  O' Ograve Oacute Ocircumflex Otilde Odieresis Omacron Ohungarumlaut Oslash Obreve Oslashacute
+%%KERNING LR 0
+%%END
+
+%%CLASS _o
+%%GLYPHS  o' eth oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde
+%%KERNING LR 0
+%%END
+
+%%CLASS _W
+%%GLYPHS  W' Wacute Wcircumflex Wdieresis Wgrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _w
+%%GLYPHS  w' wacute wcircumflex wdieresis wgrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _L
+%%GLYPHS  L' Lslash Lacute Lcaron Lcommaaccent Ldot
+%%KERNING LR 0
+%%END
+
+%%CLASS _l
+%%GLYPHS  l' lacute lcaron lcommaaccent ldot lslash
+%%KERNING LR 0
+%%END
+
+%%CLASS _Y
+%%GLYPHS  Y' Ydieresis Yacute Ycircumflex Ygrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _y
+%%GLYPHS  y' yacute ycircumflex ydieresis ygrave
+%%KERNING LR 0
+%%END
+
+%%CLASS _N
+%%GLYPHS  N' Ntilde Nacute Ncaron Ncommaaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _n
+%%GLYPHS  n' nacute ncaron ncommaaccent ntilde
+%%KERNING LR 0
+%%END
+
+%%CLASS _D
+%%GLYPHS  D' Thorn Dcaron Dcroat Eth
+%%KERNING L 0
+%%END
+
+%%CLASS _p
+%%GLYPHS  p' thorn
+%%KERNING LR 0
+%%END
+
+%%CLASS _G
+%%GLYPHS  G' Gcircumflex Gdotaccent Gbreve Gcommaaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _g
+%%GLYPHS  g' gbreve gcircumflex gcommaaccent gdotaccent
+%%KERNING LR 0
+%%END
+
+%%CLASS _kern27
+%%GLYPHS  
+%%KERNING LR 0
+%%END
