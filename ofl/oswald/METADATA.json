@@ -4,33 +4,33 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Sans Serif",
-  "size": 23932,
+  "size": 23673,
   "fonts": [
     {
       "name": "Oswald",
-      "style": "normal",
-      "weight": 300,
-      "filename": "Oswald-Light.ttf",
-      "postScriptName": "Oswald-Light",
-      "fullName": "Oswald Light",
-      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
-    },
-    {
-      "name": "Oswald",
-      "style": "normal",
-      "weight": 400,
-      "filename": "Oswald-Regular.ttf",
-      "postScriptName": "Oswald",
-      "fullName": "Oswald ",
-      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
-    },
-    {
-      "name": "Oswald",
+      "postScriptName": "Oswald-Bold",
+      "fullName": "Oswald Bold",
       "style": "normal",
       "weight": 700,
       "filename": "Oswald-Bold.ttf",
-      "postScriptName": "Oswald-Bold",
-      "fullName": "Oswald Bold",
+      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
+    },
+    {
+      "name": "Oswald",
+      "postScriptName": "Oswald-Light",
+      "fullName": "Oswald Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "Oswald-Light.ttf",
+      "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
+    },
+    {
+      "name": "Oswald",
+      "postScriptName": "Oswald",
+      "fullName": "Oswald",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Oswald-Regular.ttf",
       "copyright": "Copyright (c) 2011 by vernon adams. All rights reserved."
     }
   ],
