@@ -1,4 +1,5 @@
 rename s/It.ttf/Italic.ttf/g *;
+rename s/It.ttf/Italic.ttf/g src/*;
 
 for font in `ls -1 *ttf | cut -d. -f1`; do \
 cd ~/src/font-optimizer; \
