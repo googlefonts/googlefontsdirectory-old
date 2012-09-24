@@ -8,18 +8,16 @@
   "fonts": [
     {
       "name": "Autour One",
+      "postScriptName": "AutourOne-Regular",
+      "fullName": "Autour One",
       "style": "normal",
       "weight": 400,
       "filename": "AutourOne-Regular.ttf",
-      "postScriptName": "AutourOne-Regular",
-      "fullName": "Autour One Regular",
-      "copyright": "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Names \"Autour\" and \"Autour One\""
+      "copyright": "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Autour'"
     }
   ],
   "subsets": [
-    "latin",
-    "latin-ext",
-    "menu"
+    "latin"
   ],
   "dateAdded": "2012-05-15"
 }
