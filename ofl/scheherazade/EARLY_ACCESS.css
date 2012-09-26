@@ -1,0 +1,11 @@
+/* 
+ * Scheherazade (Arabic) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Scheherazade';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/scheherazade/v1/ScheherazadeRegOT.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/scheherazade/v1/ScheherazadeRegOT.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/scheherazade/v1/ScheherazadeRegOT.ttf) format('truetype');
+}
