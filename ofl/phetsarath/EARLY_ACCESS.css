@@ -1,0 +1,19 @@
+/* 
+ * Phetsarath (Lao) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Phetsarath';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Phetsarath';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/phetsarath/v2/Phetsarath-Bold.ttf) format('truetype');
+}
