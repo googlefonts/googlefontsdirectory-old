@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+SMITH=debian/bin/smith
+%:
+	dh $@
+
+override_dh_auto_configure :
+	${SMITH} configure
+
+override_dh_auto_build :
+	${SMITH} build
+
+override_dh_auto_clean :
+	${SMITH} distclean
+
+override_dh_auto_test :
+
+override_dh_auto_install :
+
