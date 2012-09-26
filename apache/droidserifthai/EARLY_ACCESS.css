@@ -1,0 +1,19 @@
+/* 
+ * Droid Serif Thai (Thai) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Serif Thai';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Serif Thai';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/droidserifthai/v1/DroidSerifThai-Regular.ttf) format('truetype');
+}
