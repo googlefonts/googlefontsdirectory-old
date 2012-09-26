@@ -1,0 +1,35 @@
+/* 
+ * Thabit (Arabic) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Thabit';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Thabit';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Thabit';
+  font-style: italic;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-BoldOblique.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-BoldOblique.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-BoldOblique.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Thabit';
+  font-style: italic;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Oblique.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Oblique.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/thabit/v5/Thabit-Oblique.ttf) format('truetype');
+}
