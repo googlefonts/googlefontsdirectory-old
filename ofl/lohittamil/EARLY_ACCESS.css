@@ -1,0 +1,11 @@
+/* 
+ * Lohit Tamil (Tamil) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Lohit Tamil';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/lohittamil/v2/Lohit-Tamil.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/lohittamil/v2/Lohit-Tamil.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/lohittamil/v2/Lohit-Tamil.ttf) format('truetype');
+}
