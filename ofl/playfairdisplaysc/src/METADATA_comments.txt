@@ -1,6 +1,6 @@
-ttx -x webf *ttf; 
-rm *ttf; 
-ttx *ttx; 
+#ttx -x webf *ttf; 
+#rm *ttf; 
+#ttx *ttx; 
 
 for font in `ls -1 *ttf`; do ~/googlefontdirectory/tools/bbox/vmet.sh $font; done
 

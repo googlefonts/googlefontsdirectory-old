@@ -8,48 +8,12 @@
   "fonts": [
     {
       "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-Regular",
-      "fullName": "Playfair Display Regular",
-      "style": "normal",
-      "weight": 400,
-      "filename": "PlayfairDisplaySC-Regular.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
-    },
-    {
-      "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-Italic",
-      "fullName": "Playfair Display Italic",
-      "style": "italic",
-      "weight": 400,
-      "filename": "PlayfairDisplaySC-Italic.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
-    },
-    {
-      "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-Bold",
-      "fullName": "Playfair Display Bold",
-      "style": "normal",
-      "weight": 700,
-      "filename": "PlayfairDisplaySC-Bold.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
-    },
-    {
-      "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-BoldItalic",
-      "fullName": "Playfair Display Bold Italic",
-      "style": "italic",
-      "weight": 700,
-      "filename": "PlayfairDisplaySC-BoldItalic.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
-    },
-    {
-      "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-Black",
-      "fullName": "Playfair Display Black Regular",
+      "postScriptName": "PlayfairDisplaySC-Black",
+      "fullName": "Playfair Display SC Black",
       "style": "normal",
       "weight": 900,
       "filename": "PlayfairDisplaySC-Black.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
     },
     {
       "name": "Playfair Display SC",
@@ -58,7 +22,43 @@
       "style": "italic",
       "weight": 900,
       "filename": "PlayfairDisplaySC-BlackItalic.ttf",
-      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name \"Playfair\" and \"Playfair Display\"."
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Bold",
+      "fullName": "Playfair Display SC Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-Bold.ttf",
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplay-BoldItalic",
+      "fullName": "Playfair Display Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "PlayfairDisplaySC-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC-Italic",
+      "fullName": "Playfair Display SC Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Italic.ttf",
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+    },
+    {
+      "name": "Playfair Display SC",
+      "postScriptName": "PlayfairDisplaySC",
+      "fullName": "Playfair Display SC",
+      "style": "normal",
+      "weight": 400,
+      "filename": "PlayfairDisplaySC-Regular.ttf",
+      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
     }
   ],
   "subsets": [
