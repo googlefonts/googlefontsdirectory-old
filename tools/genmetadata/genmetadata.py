@@ -178,6 +178,7 @@ def fontToolsOpenFont(filepath):
 
 # DC This should check both copyright strings match
 def fontToolsGetCopyright(ftfont):
+  return 'COPYRIGHT'
   NAMEID_PSNAME = 0
   copyright = ""
   for record in ftfont['name'].names:
