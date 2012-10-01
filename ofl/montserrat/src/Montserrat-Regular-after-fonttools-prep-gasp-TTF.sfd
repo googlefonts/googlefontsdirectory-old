@@ -14,7 +14,7 @@ sfntRevision: 0x00020042
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 86 1199709515 3941879]
+XUID: [1021 191 1205543246 2079784]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
@@ -55,6 +55,14 @@ OS2CodePages: 20000001.00000000
 OS2UnicodeRanges: 8000002f.4000204a.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 DEI: 91125
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 4
+SCANTYPE
+EndTTInstrs
 ShortTable: maxp 16
   1
   0
@@ -74,7 +82,7 @@ ShortTable: maxp 16
   0
 EndShort
 LangName: 1033 "" "" "" "JulietaUlanovsky: Montserrat: 2010" "" "Version 2.001" "" "Montserrat is a trademark of Julieta Ulanovsky." "Julieta Ulanovsky" "Julieta Ulanovsky" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
-GaspTable: 1 65535 2 0
+GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts

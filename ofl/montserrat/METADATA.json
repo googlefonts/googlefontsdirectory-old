@@ -8,17 +8,25 @@
   "fonts": [
     {
       "name": "Montserrat",
+      "postScriptName": "Montserrat-Bold",
+      "fullName": "Montserrat-Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Montserrat-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
+    },
+    {
+      "name": "Montserrat",
+      "postScriptName": "Montserrat-Regular",
+      "fullName": "Montserrat-Regular",
       "style": "normal",
       "weight": 400,
       "filename": "Montserrat-Regular.ttf",
-      "postScriptName": "Montserrat-Regular",
-      "fullName": "Montserrat Regular",
-      "copyright": "Copyright (c) 2011 Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names \"Montserrat\""
+      "copyright": "Copyright (c) 2011-2012, Julieta Ulanovsky (julieta.ulanovsky@gmail.com), with Reserved Font Names 'Montserrat'"
     }
   ],
   "subsets": [
     "latin",
-    "latin-ext",
     "menu"
   ],
   "dateAdded": "2011-12-13"
