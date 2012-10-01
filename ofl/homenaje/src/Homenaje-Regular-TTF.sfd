@@ -1,60 +1,68 @@
 SplineFontDB: 3.0
 FontName: Homenaje-Regular
-FullName: Homenaje
+FullName: Homenaje-Regular
 FamilyName: Homenaje
 Weight: Book
-Copyright: Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name "Homenaje"
-Version: 1.001
+Copyright: Copyright (c) 2011, Agustina Mingote (agustinamingote@gmail.com), Copyright (c) 2011, Constanza Artigas Preller (artigasconstanza@gmail.com), with Reserved Font Name 'Homenaje'
+Version: 1.002
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
-sfntRevision: 0x00010042
+sfntRevision: 0x00010083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 988 1790501131 4707657]
+XUID: [1021 247 1396877594 14106407]
 FSType: 0
-OS2Version: 2
+OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1326325461
-ModificationTime: 1326322698
+CreationTime: 1253988600
+ModificationTime: 1349069703
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 2 0 0 0 0 0 0 0 0 0
-OS2TypoAscent: 92
-OS2TypoAOffset: 1
-OS2TypoDescent: -4
-OS2TypoDOffset: 1
+OS2TypoAscent: 892
+OS2TypoAOffset: 0
+OS2TypoDescent: -204
+OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
-OS2SubXSize: 700
-OS2SubYSize: 650
+OS2WinAscent: 892
+OS2WinAOffset: 0
+OS2WinDescent: 204
+OS2WinDOffset: 0
+HheadAscent: 892
+HheadAOffset: 0
+HheadDescent: -204
+HheadDOffset: 0
+OS2SubXSize: 650
+OS2SubYSize: 600
 OS2SubXOff: 0
-OS2SubYOff: 140
-OS2SupXSize: 700
-OS2SupYSize: 650
+OS2SubYOff: 75
+OS2SupXSize: 650
+OS2SupYSize: 600
 OS2SupXOff: 0
-OS2SupYOff: 477
+OS2SupYOff: 350
 OS2StrikeYSize: 50
-OS2StrikeYPos: 250
+OS2StrikeYPos: 312
 OS2Vendor: 'pyrs'
-OS2CodePages: 00000001.00000000
+OS2CodePages: 20000001.00000000
 OS2UnicodeRanges: 800000e7.10000002.00000000.00000000
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0"  {"'kern' Horizontal Kerning lookup 0 per glyph data 0"  "'kern' Horizontal Kerning lookup 0 per glyph data 1"  "'kern' Horizontal Kerning lookup 0 kerning class 2"  } ['kern' ('DFLT' <'dflt' > ) ]
 DEI: 91125
+KernClass2: 2+ 5 "'kern' Horizontal Kerning lookup 0 kerning class 2" 
+ 22 V W Y Yacute Ydieresis
+ 50 A Agrave Aacute Acircumflex Atilde Adieresis Aring
+ 50 A Agrave Aacute Acircumflex Atilde Adieresis Aring
+ 53 a agrave aacute acircumflex atilde adieresis aring ae
+ 92 e o egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis oslash oe
+ 22 V W Y Yacute Ydieresis
+ 0 {} -55 {} -65 {} -65 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {}
 TtTable: prep
 PUSHW_1
  511
@@ -69,8 +77,8 @@ ShortTable: maxp 16
   240
   66
   5
-  31
-  3
+  0
+  0
   2
   0
   1
@@ -78,14 +86,14 @@ ShortTable: maxp 16
   0
   64
   0
-  2
-  1
+  0
+  0
 EndShort
-LangName: 1033 "" "" "" "ConstanzaArtigasPreller,AgustinaMingote: Homenaje: 2011" "" "Version 1.001" "" "Homenaje is a trademark of Constanza Artigas Preller, Agustina Mingote." "Constanza Artigas Preller, Agustina Mingote" "Constanza Artigas Preller, Agustina Mingote" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "ConstanzaArtigasPreller,AgustinaMingote: Homenaje: 2011" "" "Version 1.002" "" "Homenaje is a trademark of Constanza Artigas Preller, Agustina Mingote." "Constanza Artigas Preller, Agustina Mingote" "Constanza Artigas Preller, Agustina Mingote" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
-NameList: Adobe Glyph List
+NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
@@ -1057,7 +1065,7 @@ SplineSet
  165 274 l 1,11,-1
  317 274 l 1,8,-1
 EndSplineSet
-Kerns2: 57 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: B
@@ -1335,7 +1343,13 @@ SplineSet
  366 0 l 1,5,-1
  73 0 l 1,0,-1
 EndSplineSet
-Kerns2: 57 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  55 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 216 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  158 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  60 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  58 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  57 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" Ydieresis dx=0 dy=0 dh=-65 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" Yacute dx=0 dy=0 dh=-65 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" Y dx=0 dy=0 dh=-65 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" W dx=0 dy=0 dh=-65 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" V dx=0 dy=0 dh=-65 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" T dx=0 dy=0 dh=-45 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: M
@@ -1572,7 +1586,7 @@ SplineSet
  248 0 l 1,7,-1
  160 0 l 1,0,-1
 EndSplineSet
-Kerns2: 36 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 134 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  133 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  132 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  131 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  130 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  129 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  36 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
 EndChar
 
 StartChar: U
@@ -1616,7 +1630,7 @@ SplineSet
  117 700 l 1,6,-1
  256 80 l 1,0,-1
 EndSplineSet
-Kerns2: 88 -35 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  72 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  68 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 88 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  72 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  68 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  36 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: W
@@ -1642,6 +1656,7 @@ SplineSet
  247 85 l 1,12,-1
  340 518 l 1,0,-1
 EndSplineSet
+Kerns2: 88 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  72 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  68 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  36 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: X
@@ -1687,6 +1702,7 @@ SplineSet
  222 278 l 1,8,-1
  222 0 l 1,0,-1
 EndSplineSet
+Kerns2: 88 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  72 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  68 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  36 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Z
@@ -3652,8 +3668,28 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 36 65 N 1 0 0 1 0 0 2
-Refer: 67 96 N 1 0 0 1 83 180 2
+SplineSet
+178 700 m 1,0,-1
+ 311 700 l 1,1,-1
+ 463 0 l 1,2,-1
+ 381 0 l 1,3,-1
+ 332 206 l 1,4,-1
+ 150 206 l 1,5,-1
+ 105 0 l 1,6,-1
+ 20 0 l 1,7,-1
+ 178 700 l 1,0,-1
+317 274 m 1,8,-1
+ 245 634 l 1,9,-1
+ 238 634 l 1,10,-1
+ 165 274 l 1,11,-1
+ 317 274 l 1,8,-1
+278 769 m 1,12,-1
+ 245 739 l 1,13,-1
+ 111 821 l 1,14,-1
+ 162 868 l 1,15,-1
+ 278 769 l 1,12,-1
+EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Aacute
@@ -3663,8 +3699,28 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 36 65 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 125 180 2
+SplineSet
+178 700 m 1,0,-1
+ 311 700 l 1,1,-1
+ 463 0 l 1,2,-1
+ 381 0 l 1,3,-1
+ 332 206 l 1,4,-1
+ 150 206 l 1,5,-1
+ 105 0 l 1,6,-1
+ 20 0 l 1,7,-1
+ 178 700 l 1,0,-1
+317 274 m 1,8,-1
+ 245 634 l 1,9,-1
+ 238 634 l 1,10,-1
+ 165 274 l 1,11,-1
+ 317 274 l 1,8,-1
+236 739 m 1,12,-1
+ 203 769 l 1,13,-1
+ 319 868 l 1,14,-1
+ 370 821 l 1,15,-1
+ 236 739 l 1,12,-1
+EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Acircumflex
@@ -3697,6 +3753,7 @@ SplineSet
  165 274 l 1,17,-1
  317 274 l 1,14,-1
 EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Atilde
@@ -3742,6 +3799,7 @@ SplineSet
  317 760 317 760 298.5 760 c 128,-1,12
  280 760 280 760 235 776.5 c 128,-1,13
 EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Adieresis
@@ -3777,6 +3835,7 @@ SplineSet
  352 778 l 1,19,-1
  272 778 l 1,16,-1
 EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Aring
@@ -3820,6 +3879,7 @@ SplineSet
  165 274 l 1,31,-1
  317 274 l 1,28,-1
 EndSplineSet
+Kerns2: 57 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  55 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: AE
@@ -3903,8 +3963,26 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 40 69 N 1 0 0 1 0 0 2
-Refer: 67 96 N 1 0 0 1 77 180 2
+SplineSet
+73 0 m 1,0,-1
+ 73 700 l 1,1,-1
+ 378 700 l 1,2,-1
+ 378 632 l 1,3,-1
+ 161 632 l 1,4,-1
+ 161 408 l 1,5,-1
+ 337 408 l 1,6,-1
+ 337 340 l 1,7,-1
+ 161 340 l 1,8,-1
+ 161 68 l 1,9,-1
+ 388 68 l 1,10,-1
+ 388 0 l 1,11,-1
+ 73 0 l 1,0,-1
+272 769 m 1,12,-1
+ 239 739 l 1,13,-1
+ 105 821 l 1,14,-1
+ 156 868 l 1,15,-1
+ 272 769 l 1,12,-1
+EndSplineSet
 EndChar
 
 StartChar: Eacute
@@ -3914,8 +3992,26 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 40 69 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 71 180 2
+SplineSet
+73 0 m 1,0,-1
+ 73 700 l 1,1,-1
+ 378 700 l 1,2,-1
+ 378 632 l 1,3,-1
+ 161 632 l 1,4,-1
+ 161 408 l 1,5,-1
+ 337 408 l 1,6,-1
+ 337 340 l 1,7,-1
+ 161 340 l 1,8,-1
+ 161 68 l 1,9,-1
+ 388 68 l 1,10,-1
+ 388 0 l 1,11,-1
+ 73 0 l 1,0,-1
+182 739 m 1,12,-1
+ 149 769 l 1,13,-1
+ 265 868 l 1,14,-1
+ 316 821 l 1,15,-1
+ 182 739 l 1,12,-1
+EndSplineSet
 EndChar
 
 StartChar: Ecircumflex
@@ -4055,8 +4151,23 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 44 73 N 1 0 0 1 0 0 2
-Refer: 105 168 N 1 0 0 1 -60 180 2
+SplineSet
+73 0 m 1,0,-1
+ 73 700 l 1,1,-1
+ 161 700 l 1,2,-1
+ 161 0 l 1,3,-1
+ 73 0 l 1,0,-1
+5 778 m 1,4,-1
+ 5 859 l 1,5,-1
+ 85 859 l 1,6,-1
+ 85 778 l 1,7,-1
+ 5 778 l 1,4,-1
+150 778 m 1,8,-1
+ 150 859 l 1,9,-1
+ 230 859 l 1,10,-1
+ 230 778 l 1,11,-1
+ 150 778 l 1,8,-1
+EndSplineSet
 EndChar
 
 StartChar: Eth
@@ -4145,8 +4256,35 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 50 79 N 1 0 0 1 0 0 2
-Refer: 67 96 N 1 0 0 1 119 180 2
+SplineSet
+426 173 m 2,0,1
+ 426 88 426 88 377 40.5 c 128,-1,2
+ 328 -7 328 -7 234.5 -7 c 128,-1,3
+ 141 -7 141 -7 92 40.5 c 128,-1,4
+ 43 88 43 88 43 173 c 2,5,-1
+ 43 527 l 2,6,7
+ 43 612 43 612 92 659.5 c 128,-1,8
+ 141 707 141 707 234.5 707 c 128,-1,9
+ 328 707 328 707 377 659.5 c 128,-1,10
+ 426 612 426 612 426 527 c 2,11,-1
+ 426 173 l 2,0,1
+131 156 m 2,12,13
+ 131 110 131 110 160.5 84.5 c 128,-1,14
+ 190 59 190 59 234 59 c 128,-1,15
+ 278 59 278 59 308 84.5 c 128,-1,16
+ 338 110 338 110 338 156 c 2,17,-1
+ 338 544 l 2,18,19
+ 338 590 338 590 308 615.5 c 128,-1,20
+ 278 641 278 641 234 641 c 128,-1,21
+ 190 641 190 641 160.5 615.5 c 128,-1,22
+ 131 590 131 590 131 544 c 2,23,-1
+ 131 156 l 2,12,13
+314 769 m 1,24,-1
+ 281 739 l 1,25,-1
+ 147 821 l 1,26,-1
+ 198 868 l 1,27,-1
+ 314 769 l 1,24,-1
+EndSplineSet
 EndChar
 
 StartChar: Oacute
@@ -4394,8 +4532,26 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 56 85 N 1 0 0 1 0 0 2
-Refer: 67 96 N 1 0 0 1 68 180 2
+SplineSet
+131 700 m 1,0,-1
+ 131 156 l 2,1,2
+ 131 108 131 108 154.5 83.5 c 128,-1,3
+ 178 59 178 59 220 59 c 128,-1,4
+ 262 59 262 59 286 83.5 c 128,-1,5
+ 310 108 310 108 310 156 c 2,6,-1
+ 310 700 l 1,7,-1
+ 398 700 l 1,8,-1
+ 398 173 l 2,9,10
+ 398 -7 398 -7 220.5 -7 c 128,-1,11
+ 43 -7 43 -7 43 173 c 2,12,-1
+ 43 700 l 1,13,-1
+ 131 700 l 1,0,-1
+263 769 m 1,14,-1
+ 230 739 l 1,15,-1
+ 96 821 l 1,16,-1
+ 147 868 l 1,17,-1
+ 263 769 l 1,14,-1
+EndSplineSet
 EndChar
 
 StartChar: Uacute
@@ -4499,8 +4655,24 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 60 89 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 78 180 2
+SplineSet
+222 0 m 1,0,-1
+ 134 0 l 1,1,-1
+ 134 278 l 1,2,-1
+ -7 700 l 1,3,-1
+ 81 700 l 1,4,-1
+ 181 369 l 1,5,-1
+ 283 700 l 1,6,-1
+ 371 700 l 1,7,-1
+ 222 278 l 1,8,-1
+ 222 0 l 1,0,-1
+189 739 m 1,9,-1
+ 156 769 l 1,10,-1
+ 272 868 l 1,11,-1
+ 323 821 l 1,12,-1
+ 189 739 l 1,9,-1
+EndSplineSet
+Kerns2: 88 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  72 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  68 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  36 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: Thorn
@@ -5913,8 +6085,33 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 44 73 N 1 0 0 1 0 0 2
-Refer: 221 732 N 1 0 0 1 -91 181 2
+SplineSet
+73 0 m 1,0,-1
+ 73 700 l 1,1,-1
+ 161 700 l 1,2,-1
+ 161 0 l 1,3,-1
+ 73 0 l 1,0,-1
+123 777.5 m 128,-1,5
+ 78 794 78 794 69 794 c 128,-1,6
+ 60 794 60 794 56 793 c 128,-1,7
+ 52 792 52 792 49.5 788 c 128,-1,8
+ 47 784 47 784 46.5 781.5 c 128,-1,9
+ 46 779 46 779 45 771.5 c 128,-1,10
+ 44 764 44 764 43 761 c 1,11,-1
+ -20 761 l 1,12,13
+ -19 806 -19 806 -3 829.5 c 128,-1,14
+ 13 853 13 853 55 853 c 0,15,16
+ 66 853 66 853 111 836.5 c 128,-1,17
+ 156 820 156 820 166 820 c 128,-1,18
+ 176 820 176 820 181 824.5 c 128,-1,19
+ 186 829 186 829 187 833.5 c 128,-1,20
+ 188 838 188 838 189.5 848.5 c 128,-1,21
+ 191 859 191 859 192 863 c 1,22,-1
+ 255 863 l 1,23,24
+ 255 784 255 784 221 768 c 0,25,26
+ 205 761 205 761 186.5 761 c 128,-1,4
+ 168 761 168 761 123 777.5 c 128,-1,5
+EndSplineSet
 EndChar
 
 StartChar: itilde
@@ -6243,8 +6440,24 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 49 78 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 163 181 2
+SplineSet
+464 0 m 1,0,-1
+ 338 0 l 1,1,-1
+ 153 636 l 1,2,-1
+ 153 0 l 1,3,-1
+ 65 0 l 1,4,-1
+ 65 700 l 1,5,-1
+ 212 700 l 1,6,-1
+ 375 95 l 1,7,-1
+ 375 700 l 1,8,-1
+ 464 700 l 1,9,-1
+ 464 0 l 1,0,-1
+274 740 m 1,10,-1
+ 241 770 l 1,11,-1
+ 357 869 l 1,12,-1
+ 408 822 l 1,13,-1
+ 274 740 l 1,10,-1
+EndSplineSet
 EndChar
 
 StartChar: nacute
@@ -6254,8 +6467,30 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 81 110 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 93 0 2
+SplineSet
+60 520 m 1,0,-1
+ 122 520 l 1,1,-1
+ 131 491 l 1,2,3
+ 145 495 145 495 175.5 504 c 128,-1,4
+ 206 513 206 513 219 516 c 0,5,6
+ 258 527 258 527 289.5 527 c 128,-1,7
+ 321 527 321 527 338 502 c 128,-1,8
+ 355 477 355 477 355 437 c 2,9,-1
+ 355 0 l 1,10,-1
+ 275 0 l 1,11,-1
+ 275 411 l 2,12,13
+ 275 440 275 440 271 451.5 c 128,-1,14
+ 267 463 267 463 255 463 c 128,-1,15
+ 243 463 243 463 140 431 c 1,16,-1
+ 140 0 l 1,17,-1
+ 60 0 l 1,18,-1
+ 60 520 l 1,0,-1
+204 559 m 1,19,-1
+ 171 589 l 1,20,-1
+ 287 688 l 1,21,-1
+ 338 641 l 1,22,-1
+ 204 559 l 1,19,-1
+EndSplineSet
 EndChar
 
 StartChar: OE
@@ -6358,8 +6593,32 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 53 82 N 1 0 0 1 0 0 2
-Refer: 117 180 N 1 0 0 1 130 181 2
+SplineSet
+161 634 m 1,0,-1
+ 161 373 l 1,1,-1
+ 232 373 l 2,2,3
+ 289 373 289 373 320.5 412.5 c 128,-1,4
+ 352 452 352 452 352 514 c 0,5,6
+ 352 634 352 634 232 634 c 2,7,-1
+ 161 634 l 1,0,-1
+159 307 m 1,8,-1
+ 159 0 l 1,9,-1
+ 73 0 l 1,10,-1
+ 73 700 l 1,11,-1
+ 258 700 l 2,12,13
+ 438 700 438 700 438 514 c 0,14,15
+ 438 444 438 444 411 392 c 128,-1,16
+ 384 340 384 340 334 320 c 1,17,-1
+ 473 0 l 1,18,-1
+ 387 0 l 1,19,-1
+ 251 307 l 1,20,-1
+ 159 307 l 1,8,-1
+241 740 m 1,21,-1
+ 208 770 l 1,22,-1
+ 324 869 l 1,23,-1
+ 375 822 l 1,24,-1
+ 241 740 l 1,21,-1
+EndSplineSet
 EndChar
 
 StartChar: Rcommaaccent
@@ -6467,8 +6726,25 @@ GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
-Refer: 85 114 N 1 0 0 1 0 0 2
-Refer: 219 711 N 1 0 0 1 -47 0 2
+SplineSet
+253 468 m 1,0,1
+ 227 468 227 468 140 426 c 1,2,-1
+ 140 0 l 1,3,-1
+ 60 0 l 1,4,-1
+ 60 520 l 1,5,-1
+ 122 520 l 1,6,-1
+ 131 483 l 1,7,8
+ 176 506 176 506 205 518 c 0,9,10
+ 228 527 228 527 253 527 c 1,11,-1
+ 253 468 l 1,0,1
+147 545 m 1,12,-1
+ 31 644 l 1,13,-1
+ 64 674 l 1,14,-1
+ 147 623 l 1,15,-1
+ 230 674 l 1,16,-1
+ 263 644 l 1,17,-1
+ 147 545 l 1,12,-1
+EndSplineSet
 EndChar
 
 StartChar: Ydieresis
@@ -6500,6 +6776,7 @@ SplineSet
  294 778 l 1,16,-1
  214 778 l 1,13,-1
 EndSplineSet
+Kerns2: 88 -35 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  72 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  68 -65 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  36 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 EndChar
 
 StartChar: zcaron
@@ -6683,11 +6960,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-112 98 m 1,0,-1
- 120 -92 l 1,1,-1
- 40 -92 l 1,2,-1
- 27 98 l 1,3,-1
- 112 98 l 1,0,-1
+112 700 m 1,0,-1
+ 120 510 l 1,1,-1
+ 40 510 l 1,2,-1
+ 27 700 l 1,3,-1
+ 112 700 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -6699,11 +6976,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-27 -92 m 1,0,-1
- 35 98 l 1,1,-1
- 120 98 l 1,2,-1
- 107 -92 l 1,3,-1
- 27 -92 l 1,0,-1
+27 510 m 1,0,-1
+ 35 700 l 1,1,-1
+ 120 700 l 1,2,-1
+ 107 510 l 1,3,-1
+ 27 510 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -6731,16 +7008,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-174 509 m 1,0,-1
- 166 699 l 1,1,-1
- 246 699 l 1,2,-1
- 259 509 l 1,3,-1
- 174 509 l 1,0,-1
-34 509 m 1,4,-1
- 26 699 l 1,5,-1
- 106 699 l 1,6,-1
- 119 509 l 1,7,-1
- 34 509 l 1,4,-1
+174 510 m 1,0,-1
+ 166 700 l 1,1,-1
+ 246 700 l 1,2,-1
+ 259 510 l 1,3,-1
+ 174 510 l 1,0,-1
+34 510 m 1,4,-1
+ 26 700 l 1,5,-1
+ 106 700 l 1,6,-1
+ 119 510 l 1,7,-1
+ 34 510 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -6752,16 +7029,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-166 -92 m 1,0,-1
- 174 98 l 1,1,-1
- 259 98 l 1,2,-1
- 246 -92 l 1,3,-1
- 166 -92 l 1,0,-1
-26 -92 m 1,4,-1
- 34 98 l 1,5,-1
- 119 98 l 1,6,-1
- 106 -92 l 1,7,-1
- 26 -92 l 1,4,-1
+166 510 m 1,0,-1
+ 174 700 l 1,1,-1
+ 259 700 l 1,2,-1
+ 246 510 l 1,3,-1
+ 166 510 l 1,0,-1
+26 510 m 1,4,-1
+ 34 700 l 1,5,-1
+ 119 700 l 1,6,-1
+ 106 510 l 1,7,-1
+ 26 510 l 1,4,-1
 EndSplineSet
 EndChar
 
