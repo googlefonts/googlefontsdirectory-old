@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcroat" format="1">
+  <advance width="878"/>
+  <unicode hex="0110"/>
+  <outline>
+    <contour>
+      <point x="315.058" y="795.361" type="line"/>
+      <point x="605.058" y="795.361" type="line"/>
+      <point x="605.058" y="880.361" type="line"/>
+      <point x="315.058" y="880.361" type="line"/>
+    </contour>
+    <contour>
+      <point x="-90" y="479.931" type="line"/>
+      <point x="-56" y="558.776"/>
+      <point x="-2" y="629.038"/>
+      <point x="142.862" y="644.004" type="curve"/>
+      <point x="142.862" y="72.728" type="line" smooth="yes"/>
+      <point x="142.136" y="37.9562"/>
+      <point x="113.767" y="9.97943"/>
+      <point x="78.811" y="9.97943" type="curve" smooth="yes"/>
+      <point x="66.161" y="10" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="444.536" y="0" type="line" smooth="yes"/>
+      <point x="695" y="0"/>
+      <point x="844" y="130"/>
+      <point x="843.678" y="349.836" type="curve"/>
+      <point x="844" y="570"/>
+      <point x="695" y="700"/>
+      <point x="444.536" y="699.975" type="curve" smooth="yes"/>
+      <point x="213.404" y="699.975" type="line" smooth="yes"/>
+      <point x="51.066" y="699.582"/>
+      <point x="-72" y="632.434"/>
+      <point x="-100" y="483.931" type="curve"/>
+    </contour>
+    <contour>
+      <point x="347.983" y="648.307" type="line"/>
+      <point x="424.536" y="649.944" type="line" smooth="yes"/>
+      <point x="549" y="650"/>
+      <point x="624" y="538"/>
+      <point x="623.678" y="349.909" type="curve" smooth="yes"/>
+      <point x="624" y="161"/>
+      <point x="549" y="50"/>
+      <point x="424.536" y="50.4444" type="curve" smooth="yes"/>
+      <point x="347.983" y="50.4444" type="line"/>
+    </contour>
+  </outline>
+</glyph>
