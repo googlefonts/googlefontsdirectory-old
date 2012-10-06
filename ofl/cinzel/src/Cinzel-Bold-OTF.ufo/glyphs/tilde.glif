@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde" format="1">
+  <advance width="600"/>
+  <unicode hex="02DC"/>
+  <outline>
+    <contour>
+      <point x="452.176" y="790.659" type="line"/>
+      <point x="463.297" y="742.061"/>
+      <point x="430.462" y="665.365"/>
+      <point x="355.64" y="665.585" type="curve" smooth="yes"/>
+      <point x="300.907" y="665.722"/>
+      <point x="262.513" y="709.286"/>
+      <point x="210.388" y="715.629" type="curve" smooth="yes"/>
+      <point x="173.298" y="719.967"/>
+      <point x="143.068" y="692.63"/>
+      <point x="133.246" y="668.595" type="curve"/>
+      <point x="121.817" y="668.595" type="line"/>
+      <point x="115.829" y="721.816"/>
+      <point x="146.056" y="800.036"/>
+      <point x="218.181" y="800.105" type="curve" smooth="yes"/>
+      <point x="271.26" y="800.146"/>
+      <point x="306.142" y="757.115"/>
+      <point x="363.875" y="751.062" type="curve" smooth="yes"/>
+      <point x="402.106" y="747.35"/>
+      <point x="433.002" y="771.659"/>
+      <point x="440.747" y="790.659" type="curve"/>
+    </contour>
+    <contour>
+      <point x="272.973" y="665.533" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

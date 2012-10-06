@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idotaccent" format="1">
+  <advance width="418"/>
+  <unicode hex="0130"/>
+  <outline>
+    <contour>
+      <point x="249.004" y="764"/>
+      <point x="281.993" y="796.988"/>
+      <point x="281.993" y="837.687" type="curve" smooth="yes"/>
+      <point x="281.993" y="878.385"/>
+      <point x="249.004" y="911.376"/>
+      <point x="208.306" y="911.376" type="curve" smooth="yes"/>
+      <point x="167.607" y="911.376"/>
+      <point x="134.619" y="878.385"/>
+      <point x="134.619" y="837.687" type="curve" smooth="yes"/>
+      <point x="134.619" y="796.988"/>
+      <point x="167.607" y="764"/>
+      <point x="208.306" y="764" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="388.626" y="10" type="line"/>
+      <point x="375.976" y="9.979" type="line" smooth="yes"/>
+      <point x="340.974" y="9.979"/>
+      <point x="312.577" y="38.029"/>
+      <point x="311.922" y="72.864" type="curve"/>
+      <point x="311.922" y="627.818" type="line" smooth="yes"/>
+      <point x="312.9" y="662.363"/>
+      <point x="341.167" y="690.08"/>
+      <point x="375.959" y="690.08" type="curve" smooth="yes"/>
+      <point x="388.609" y="690.06" type="line"/>
+      <point x="388.771" y="700.06" type="line"/>
+      <point x="30.0161" y="700.06" type="line"/>
+      <point x="30.1781" y="690.06" type="line"/>
+      <point x="42.8281" y="690.08" type="line" smooth="yes"/>
+      <point x="77.6918" y="690.08"/>
+      <point x="106.003" y="662.249"/>
+      <point x="106.873" y="627.605" type="curve" smooth="yes"/>
+      <point x="106.873" y="72.8635" type="line" smooth="yes"/>
+      <point x="106.21" y="38.0285"/>
+      <point x="77.813" y="9.97847"/>
+      <point x="42.811" y="9.97847" type="curve" smooth="yes"/>
+      <point x="30.161" y="9.99947" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="388.787" y="0" type="line"/>
+    </contour>
+  </outline>
+</glyph>
