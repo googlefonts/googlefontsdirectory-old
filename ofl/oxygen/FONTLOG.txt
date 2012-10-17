@@ -18,9 +18,6 @@ This is a web font version of Oxygen, designed to be
 used freely across the internet by web browsers on 
 desktop computers, laptops and mobile devices.
 
-All source files for the Oxygen Font family are hosted at 
-https://projects.kde.org/projects/playground/artwork/oxygen-fonts
-
 Oxygen is a Unicode typeface family that supports languages 
 that use the Latin script and its variants, and could be 
 expanded to support other scripts.
@@ -28,24 +25,18 @@ expanded to support other scripts.
 More specifically, this release supports the following 
 Unicode ranges: Latin-1
 
-There are 4 Source files:
-
-1. Oxygen-Regular.ufo Original Source Files with 
-   contour overlaps
-
-2. Oxygen-Regular-OTF.sfd Merged contours and 
-   optimized file corresponding to the OTF file
-
-3. Oxygen-Regular-TTF.sfd TrueType outlines with 
-   non-hinting adjustments corresponding to the TTF file
-
-4. Oxygen-Regular-kern.fea OpenType Kerning Feature file
+All source files for the Oxygen Font family are hosted at 
+https://projects.kde.org/projects/playground/artwork/oxygen-fonts
 
 To contribute to the project contact Vernon Adams
 at vern@newtypography.co.uk and use the KDE Project git
 repository.
 
 ChangeLog
+
+4 April 2012 (Vernon Adams) Oxygen v0.2.2
+- Bold, Medium, Light weights added
+- Some reshaping also to characters
 
 27 March 2012 (Vernon Adams) Oxygen v1.001
 - Initial release
