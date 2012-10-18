@@ -220,6 +220,7 @@ def fontToolsGetFullName(ftfont):
 
 # DC This should check both names match, and is found in designers.json
 def fontToolsGetDesignerName(ftfont):
+  return 'DESIGNER'
   NAMEID_DESIGNERNAME = 9
   desName = ""
   for record in ftfont['name'].names:
