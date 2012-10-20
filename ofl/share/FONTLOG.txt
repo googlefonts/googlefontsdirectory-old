@@ -8,8 +8,6 @@ Share fonts and any derivative works.
 
 Basic Font Information
 
-
-
 Share was designed by Botio Nikoltchev.
 
 Share is a Unicode typeface that supports 
@@ -22,31 +20,19 @@ Unicode ranges: Latin-1
 To contribute to the project contact Ralph Carrois at 
 post@carrois.com
 
-There are four .VFB Source files and four .SFD source files:
+There are four .VFB Source files:
 
-1. RopsSans-Regular-OTF.vfb (Merged contours and optimized file 
+1. Share-Regular-OTF.vfb (Merged contours and optimized file 
                          corresponding to the OTF file)
 
-2. RopaSans-Regular-TTF.vfb (TrueType outlines with hinting 
-                         adjustments corresponding to the TTF file)
-
-3. RopsSans-Italic-OTF.vfb (Merged contours and optimized file 
+2. Share-Italic-OTF.vfb (Merged contours and optimized file 
                          corresponding to the OTF file)
 
-4. RopaSans-Italic-TTF.vfb (TrueType outlines with hinting 
-                         adjustments corresponding to the TTF file)
-
-5. RopsSans-Bold-OTF.vfb (Merged contours and optimized file 
+3. Share-Bold-OTF.vfb (Merged contours and optimized file 
                          corresponding to the OTF file)
 
-6. RopaSans-Bold-TTF.vfb (TrueType outlines with hinting 
-                         adjustments corresponding to the TTF file)
-
-7. RopsSans-BoldItalic-OTF.vfb (Merged contours and optimized file 
+4. Share-BoldItalic-OTF.vfb (Merged contours and optimized file 
                          corresponding to the OTF file)
-
-8. RopaSans-BoldItalic-TTF.vfb (TrueType outlines with hinting 
-                         adjustments corresponding to the TTF file)
 
 ChangeLog
 
