@@ -4,7 +4,7 @@
   "license": "OFL",
   "visibility": "Sandbox",
   "category": "Serif",
-  "size": 39887,
+  "size": 60282,
   "fonts": [
     {
       "name": "Playfair Display SC",
@@ -13,16 +13,16 @@
       "style": "normal",
       "weight": 900,
       "filename": "PlayfairDisplaySC-Black.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     },
     {
       "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-BlackItalic",
-      "fullName": "Playfair Display Black Italic",
+      "postScriptName": "PlayfairDisplaySC-BlackItalic",
+      "fullName": "Playfair Display SC Black Italic",
       "style": "italic",
       "weight": 900,
       "filename": "PlayfairDisplaySC-BlackItalic.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     },
     {
       "name": "Playfair Display SC",
@@ -31,16 +31,16 @@
       "style": "normal",
       "weight": 700,
       "filename": "PlayfairDisplaySC-Bold.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     },
     {
       "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplay-BoldItalic",
-      "fullName": "Playfair Display Bold Italic",
+      "postScriptName": "PlayfairDisplaySC-BoldItalic",
+      "fullName": "Playfair Display SC Bold Italic",
       "style": "italic",
       "weight": 700,
       "filename": "PlayfairDisplaySC-BoldItalic.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     },
     {
       "name": "Playfair Display SC",
@@ -49,16 +49,16 @@
       "style": "italic",
       "weight": 400,
       "filename": "PlayfairDisplaySC-Italic.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     },
     {
       "name": "Playfair Display SC",
-      "postScriptName": "PlayfairDisplaySC",
+      "postScriptName": "PlayfairDisplaySC-Regular",
       "fullName": "Playfair Display SC",
       "style": "normal",
       "weight": 400,
       "filename": "PlayfairDisplaySC-Regular.ttf",
-      "copyright": "Copyright (c) 2011, Claus Eggers Sørensen, with Reserved Font Names 'Playfair'."
+      "copyright": "Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net), with Reserved Font Name 'Playfair'"
     }
   ],
   "subsets": [
@@ -67,5 +67,5 @@
     "latin-ext",
     "menu"
   ],
-  "dateAdded": "2012-05-09"
+  "dateAdded": "2012-10-26"
 }
