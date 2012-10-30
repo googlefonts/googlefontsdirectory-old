@@ -14,13 +14,13 @@ sfntRevision: 0x00010042
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 539 1246218172 3454933]
+XUID: [1021 910 1887179563 9405868]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1320186180
-ModificationTime: 1351265105
+ModificationTime: 1351616939
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -75,7 +75,7 @@ EndTTInstrs
 ShortTable: maxp 16
   1
   0
-  246
+  247
   208
   7
   0
@@ -98,7 +98,7 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65539 246
+BeginChars: 65539 247
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -1973,7 +1973,7 @@ SplineSet
  20 670 20 670 20 705 c 128,-1,13
  20 740 20 740 40 740 c 2,0,-1
 EndSplineSet
-Kerns2: 197 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  195 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  183 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  177 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  175 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  166 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
+Kerns2: 198 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  196 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  184 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  182 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  176 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  171 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
 EndChar
 
 StartChar: U
@@ -2029,7 +2029,7 @@ SplineSet
  461 48 461 48 429 16.5 c 128,-1,0
  397 -15 397 -15 318 -15 c 128,-1,1
 EndSplineSet
-Kerns2: 222 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  218 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  215 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  197 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  195 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  183 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  177 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  175 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  166 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  17 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  15 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
+Kerns2: 223 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  219 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  216 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  198 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  196 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  184 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  182 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  176 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  171 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  17 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  15 -55 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
 EndChar
 
 StartChar: W
@@ -2073,7 +2073,7 @@ SplineSet
  594 133 l 2,37,0
  599 92 599 92 617 73.5 c 128,-1,1
 EndSplineSet
-Kerns2: 222 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  218 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  215 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  197 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  195 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  183 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  177 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  175 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  166 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  17 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  15 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
+Kerns2: 223 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  219 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  216 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  198 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  196 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  184 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  182 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  181 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  180 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  179 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  178 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  176 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  171 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  170 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  169 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  168 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  167 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  86 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  85 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  84 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  83 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  82 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  74 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  72 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  71 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  70 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  17 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1"  15 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 
 EndChar
 
 StartChar: X
@@ -2552,7 +2552,7 @@ SplineSet
  60 530 60 530 60 565 c 128,-1,32
  60 600 60 600 80 600 c 2,0,-1
 EndSplineSet
-Kerns2: 217 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  216 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  214 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  213 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  96 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  64 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  34 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  12 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  10 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  5 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  4 60 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
+Kerns2: 218 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  217 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  215 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  214 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  96 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  64 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  34 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  12 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  10 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  5 80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  4 60 "'kern' Horizontal Kerning lookup 0 per glyph data 0" 
 PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" quotedblright dx=0 dy=0 dh=80 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" quotedblleft dx=0 dy=0 dh=80 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning lookup 0 per glyph data 1" quoteright dx=0 dy=0 dh=80 dv=0 dx=0 dy=0 dh=0 dv=0
@@ -3356,8 +3356,16 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: nbspace
+Encoding: 160 160 98
+Width: 370
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+EndChar
+
 StartChar: exclamdown
-Encoding: 161 161 98
+Encoding: 161 161 99
 Width: 301
 GlyphClass: 2
 Flags: W
@@ -3382,7 +3390,7 @@ EndSplineSet
 EndChar
 
 StartChar: cent
-Encoding: 162 162 99
+Encoding: 162 162 100
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3421,7 +3429,7 @@ EndSplineSet
 EndChar
 
 StartChar: sterling
-Encoding: 163 163 100
+Encoding: 163 163 101
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3463,7 +3471,7 @@ EndSplineSet
 EndChar
 
 StartChar: yen
-Encoding: 165 165 101
+Encoding: 165 165 102
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3514,7 +3522,7 @@ EndSplineSet
 EndChar
 
 StartChar: brokenbar
-Encoding: 166 166 102
+Encoding: 166 166 103
 Width: 320
 GlyphClass: 2
 Flags: W
@@ -3539,7 +3547,7 @@ EndSplineSet
 EndChar
 
 StartChar: section
-Encoding: 167 167 103
+Encoding: 167 167 104
 Width: 590
 GlyphClass: 2
 Flags: W
@@ -3603,7 +3611,7 @@ EndSplineSet
 EndChar
 
 StartChar: dieresis
-Encoding: 168 168 104
+Encoding: 168 168 105
 Width: 487
 GlyphClass: 2
 Flags: W
@@ -3628,7 +3636,7 @@ EndSplineSet
 EndChar
 
 StartChar: copyright
-Encoding: 169 169 105
+Encoding: 169 169 106
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -3677,7 +3685,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordfeminine
-Encoding: 170 170 106
+Encoding: 170 170 107
 Width: 472
 GlyphClass: 2
 Flags: W
@@ -3721,7 +3729,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotleft
-Encoding: 171 171 107
+Encoding: 171 171 108
 Width: 579
 GlyphClass: 2
 Flags: W
@@ -3762,7 +3770,7 @@ EndSplineSet
 EndChar
 
 StartChar: logicalnot
-Encoding: 172 172 108
+Encoding: 172 172 109
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3783,7 +3791,7 @@ EndSplineSet
 EndChar
 
 StartChar: registered
-Encoding: 174 174 109
+Encoding: 174 174 110
 Width: 795
 GlyphClass: 2
 Flags: W
@@ -3838,7 +3846,7 @@ EndSplineSet
 EndChar
 
 StartChar: macron
-Encoding: 175 175 110
+Encoding: 175 175 111
 Width: 507
 GlyphClass: 2
 Flags: W
@@ -3856,7 +3864,7 @@ EndSplineSet
 EndChar
 
 StartChar: degree
-Encoding: 176 176 111
+Encoding: 176 176 112
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -3883,7 +3891,7 @@ EndSplineSet
 EndChar
 
 StartChar: plusminus
-Encoding: 177 177 112
+Encoding: 177 177 113
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -3918,7 +3926,7 @@ EndSplineSet
 EndChar
 
 StartChar: twosuperior
-Encoding: 178 178 113
+Encoding: 178 178 114
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -3950,7 +3958,7 @@ EndSplineSet
 EndChar
 
 StartChar: threesuperior
-Encoding: 179 179 114
+Encoding: 179 179 115
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -3994,7 +4002,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute
-Encoding: 180 180 115
+Encoding: 180 180 116
 Width: 305
 GlyphClass: 2
 Flags: W
@@ -4016,7 +4024,7 @@ EndSplineSet
 EndChar
 
 StartChar: mu
-Encoding: 181 181 116
+Encoding: 181 181 117
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -4048,7 +4056,7 @@ EndSplineSet
 EndChar
 
 StartChar: paragraph
-Encoding: 182 182 117
+Encoding: 182 182 118
 Width: 593
 GlyphClass: 2
 Flags: W
@@ -4076,7 +4084,7 @@ EndSplineSet
 EndChar
 
 StartChar: periodcentered
-Encoding: 183 183 118
+Encoding: 183 183 119
 Width: 201
 GlyphClass: 2
 Flags: W
@@ -4094,7 +4102,7 @@ EndSplineSet
 EndChar
 
 StartChar: cedilla
-Encoding: 184 184 119
+Encoding: 184 184 120
 Width: 596
 GlyphClass: 2
 Flags: W
@@ -4123,7 +4131,7 @@ EndSplineSet
 EndChar
 
 StartChar: onesuperior
-Encoding: 185 185 120
+Encoding: 185 185 121
 Width: 470
 GlyphClass: 2
 Flags: W
@@ -4150,7 +4158,7 @@ EndSplineSet
 EndChar
 
 StartChar: ordmasculine
-Encoding: 186 186 121
+Encoding: 186 186 122
 Width: 491
 GlyphClass: 2
 Flags: W
@@ -4179,7 +4187,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotright
-Encoding: 187 187 122
+Encoding: 187 187 123
 Width: 579
 GlyphClass: 2
 Flags: W
@@ -4220,7 +4228,7 @@ EndSplineSet
 EndChar
 
 StartChar: onequarter
-Encoding: 188 188 123
+Encoding: 188 188 124
 Width: 1011
 GlyphClass: 2
 Flags: W
@@ -4281,7 +4289,7 @@ EndSplineSet
 EndChar
 
 StartChar: onehalf
-Encoding: 189 189 124
+Encoding: 189 189 125
 Width: 1011
 GlyphClass: 2
 Flags: W
@@ -4336,7 +4344,7 @@ EndSplineSet
 EndChar
 
 StartChar: threequarters
-Encoding: 190 190 125
+Encoding: 190 190 126
 Width: 1011
 GlyphClass: 2
 Flags: W
@@ -4414,7 +4422,7 @@ EndSplineSet
 EndChar
 
 StartChar: questiondown
-Encoding: 191 191 126
+Encoding: 191 191 127
 Width: 467
 GlyphClass: 2
 Flags: W
@@ -4458,7 +4466,7 @@ EndSplineSet
 EndChar
 
 StartChar: Agrave
-Encoding: 192 192 127
+Encoding: 192 192 128
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4499,7 +4507,7 @@ EndSplineSet
 EndChar
 
 StartChar: Aacute
-Encoding: 193 193 128
+Encoding: 193 193 129
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4541,7 +4549,7 @@ EndSplineSet
 EndChar
 
 StartChar: Acircumflex
-Encoding: 194 194 129
+Encoding: 194 194 130
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4588,7 +4596,7 @@ EndSplineSet
 EndChar
 
 StartChar: Atilde
-Encoding: 195 195 130
+Encoding: 195 195 131
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4636,7 +4644,7 @@ EndSplineSet
 EndChar
 
 StartChar: Adieresis
-Encoding: 196 196 131
+Encoding: 196 196 132
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4681,7 +4689,7 @@ EndSplineSet
 EndChar
 
 StartChar: Aring
-Encoding: 197 197 132
+Encoding: 197 197 133
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -4728,7 +4736,7 @@ EndSplineSet
 EndChar
 
 StartChar: AE
-Encoding: 198 198 133
+Encoding: 198 198 134
 Width: 965
 GlyphClass: 2
 Flags: W
@@ -4785,7 +4793,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ccedilla
-Encoding: 199 199 134
+Encoding: 199 199 135
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -4832,7 +4840,7 @@ EndSplineSet
 EndChar
 
 StartChar: Egrave
-Encoding: 200 200 135
+Encoding: 200 200 136
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -4886,7 +4894,7 @@ EndSplineSet
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 136
+Encoding: 201 201 137
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -4941,7 +4949,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 202 202 137
+Encoding: 202 202 138
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -5001,7 +5009,7 @@ EndSplineSet
 EndChar
 
 StartChar: Edieresis
-Encoding: 203 203 138
+Encoding: 203 203 139
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -5059,7 +5067,7 @@ EndSplineSet
 EndChar
 
 StartChar: Igrave
-Encoding: 204 204 139
+Encoding: 204 204 140
 Width: 320
 GlyphClass: 2
 Flags: W
@@ -5087,7 +5095,7 @@ EndSplineSet
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 140
+Encoding: 205 205 141
 Width: 320
 GlyphClass: 2
 Flags: W
@@ -5116,7 +5124,7 @@ EndSplineSet
 EndChar
 
 StartChar: Icircumflex
-Encoding: 206 206 141
+Encoding: 206 206 142
 Width: 320
 GlyphClass: 2
 Flags: W
@@ -5150,7 +5158,7 @@ EndSplineSet
 EndChar
 
 StartChar: Idieresis
-Encoding: 207 207 142
+Encoding: 207 207 143
 Width: 320
 GlyphClass: 2
 Flags: W
@@ -5182,7 +5190,7 @@ EndSplineSet
 EndChar
 
 StartChar: Eth
-Encoding: 208 208 143
+Encoding: 208 208 144
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -5225,7 +5233,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ntilde
-Encoding: 209 209 144
+Encoding: 209 209 145
 Width: 713
 GlyphClass: 2
 Flags: W
@@ -5280,7 +5288,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ograve
-Encoding: 210 210 145
+Encoding: 210 210 146
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5317,7 +5325,7 @@ EndSplineSet
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 146
+Encoding: 211 211 147
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5355,7 +5363,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 212 212 147
+Encoding: 212 212 148
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5398,7 +5406,7 @@ EndSplineSet
 EndChar
 
 StartChar: Otilde
-Encoding: 213 213 148
+Encoding: 213 213 149
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5442,7 +5450,7 @@ EndSplineSet
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 149
+Encoding: 214 214 150
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5483,7 +5491,7 @@ EndSplineSet
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 150
+Encoding: 215 215 151
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -5519,7 +5527,7 @@ EndSplineSet
 EndChar
 
 StartChar: Oslash
-Encoding: 216 216 151
+Encoding: 216 216 152
 Width: 663
 GlyphClass: 2
 Flags: W
@@ -5563,7 +5571,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ugrave
-Encoding: 217 217 152
+Encoding: 217 217 153
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -5598,7 +5606,7 @@ EndSplineSet
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 153
+Encoding: 218 218 154
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -5634,7 +5642,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 219 219 154
+Encoding: 219 219 155
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -5675,7 +5683,7 @@ EndSplineSet
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 155
+Encoding: 220 220 156
 Width: 683
 GlyphClass: 2
 Flags: W
@@ -5714,7 +5722,7 @@ EndSplineSet
 EndChar
 
 StartChar: Yacute
-Encoding: 221 221 156
+Encoding: 221 221 157
 Width: 580
 GlyphClass: 2
 Flags: W
@@ -5759,7 +5767,7 @@ EndSplineSet
 EndChar
 
 StartChar: Thorn
-Encoding: 222 222 157
+Encoding: 222 222 158
 Width: 613
 GlyphClass: 2
 Flags: W
@@ -5792,7 +5800,7 @@ EndSplineSet
 EndChar
 
 StartChar: germandbls
-Encoding: 223 223 158
+Encoding: 223 223 159
 Width: 687
 GlyphClass: 2
 Flags: W
@@ -5847,7 +5855,7 @@ EndSplineSet
 EndChar
 
 StartChar: agrave
-Encoding: 224 224 159
+Encoding: 224 224 160
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -5901,7 +5909,7 @@ EndSplineSet
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 160
+Encoding: 225 225 161
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -5956,7 +5964,7 @@ EndSplineSet
 EndChar
 
 StartChar: acircumflex
-Encoding: 226 226 161
+Encoding: 226 226 162
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -6016,7 +6024,7 @@ EndSplineSet
 EndChar
 
 StartChar: atilde
-Encoding: 227 227 162
+Encoding: 227 227 163
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -6077,7 +6085,7 @@ EndSplineSet
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 163
+Encoding: 228 228 164
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -6135,7 +6143,7 @@ EndSplineSet
 EndChar
 
 StartChar: aring
-Encoding: 229 229 164
+Encoding: 229 229 165
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -6195,7 +6203,7 @@ EndSplineSet
 EndChar
 
 StartChar: ae
-Encoding: 230 230 165
+Encoding: 230 230 166
 Width: 951
 GlyphClass: 2
 Flags: W
@@ -6256,7 +6264,7 @@ EndSplineSet
 EndChar
 
 StartChar: ccedilla
-Encoding: 231 231 166
+Encoding: 231 231 167
 Width: 596
 GlyphClass: 2
 Flags: W
@@ -6305,7 +6313,7 @@ EndSplineSet
 EndChar
 
 StartChar: egrave
-Encoding: 232 232 167
+Encoding: 232 232 168
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6354,7 +6362,7 @@ EndSplineSet
 EndChar
 
 StartChar: eacute
-Encoding: 233 233 168
+Encoding: 233 233 169
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6404,7 +6412,7 @@ EndSplineSet
 EndChar
 
 StartChar: ecircumflex
-Encoding: 234 234 169
+Encoding: 234 234 170
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6459,7 +6467,7 @@ EndSplineSet
 EndChar
 
 StartChar: edieresis
-Encoding: 235 235 170
+Encoding: 235 235 171
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -6512,7 +6520,7 @@ EndSplineSet
 EndChar
 
 StartChar: igrave
-Encoding: 236 236 171
+Encoding: 236 236 172
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -6544,7 +6552,7 @@ EndSplineSet
 EndChar
 
 StartChar: iacute
-Encoding: 237 237 172
+Encoding: 237 237 173
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -6577,7 +6585,7 @@ EndSplineSet
 EndChar
 
 StartChar: icircumflex
-Encoding: 238 238 173
+Encoding: 238 238 174
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -6615,7 +6623,7 @@ EndSplineSet
 EndChar
 
 StartChar: idieresis
-Encoding: 239 239 174
+Encoding: 239 239 175
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -6651,7 +6659,7 @@ EndSplineSet
 EndChar
 
 StartChar: eth
-Encoding: 240 240 175
+Encoding: 240 240 176
 Width: 654
 GlyphClass: 2
 Flags: W
@@ -6696,7 +6704,7 @@ EndSplineSet
 EndChar
 
 StartChar: ntilde
-Encoding: 241 241 176
+Encoding: 241 241 177
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -6739,7 +6747,7 @@ EndSplineSet
 EndChar
 
 StartChar: ograve
-Encoding: 242 242 177
+Encoding: 242 242 178
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -6778,7 +6786,7 @@ EndSplineSet
 EndChar
 
 StartChar: oacute
-Encoding: 243 243 178
+Encoding: 243 243 179
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -6818,7 +6826,7 @@ EndSplineSet
 EndChar
 
 StartChar: ocircumflex
-Encoding: 244 244 179
+Encoding: 244 244 180
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -6863,7 +6871,7 @@ EndSplineSet
 EndChar
 
 StartChar: otilde
-Encoding: 245 245 180
+Encoding: 245 245 181
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -6909,7 +6917,7 @@ EndSplineSet
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 181
+Encoding: 246 246 182
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -6952,7 +6960,7 @@ EndSplineSet
 EndChar
 
 StartChar: divide
-Encoding: 247 247 182
+Encoding: 247 247 183
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -6984,7 +6992,7 @@ EndSplineSet
 EndChar
 
 StartChar: oslash
-Encoding: 248 248 183
+Encoding: 248 248 184
 Width: 633
 GlyphClass: 2
 Flags: W
@@ -7028,7 +7036,7 @@ EndSplineSet
 EndChar
 
 StartChar: ugrave
-Encoding: 249 249 184
+Encoding: 249 249 185
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -7064,7 +7072,7 @@ EndSplineSet
 EndChar
 
 StartChar: uacute
-Encoding: 250 250 185
+Encoding: 250 250 186
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -7101,7 +7109,7 @@ EndSplineSet
 EndChar
 
 StartChar: ucircumflex
-Encoding: 251 251 186
+Encoding: 251 251 187
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -7143,7 +7151,7 @@ EndSplineSet
 EndChar
 
 StartChar: udieresis
-Encoding: 252 252 187
+Encoding: 252 252 188
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -7183,7 +7191,7 @@ EndSplineSet
 EndChar
 
 StartChar: yacute
-Encoding: 253 253 188
+Encoding: 253 253 189
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -7231,7 +7239,7 @@ EndSplineSet
 EndChar
 
 StartChar: thorn
-Encoding: 254 254 189
+Encoding: 254 254 190
 Width: 643
 GlyphClass: 2
 Flags: W
@@ -7264,7 +7272,7 @@ EndSplineSet
 EndChar
 
 StartChar: ydieresis
-Encoding: 255 255 190
+Encoding: 255 255 191
 Width: 610
 GlyphClass: 2
 Flags: W
@@ -7315,7 +7323,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotlessi
-Encoding: 305 305 191
+Encoding: 305 305 192
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -7337,7 +7345,7 @@ EndSplineSet
 EndChar
 
 StartChar: Lslash
-Encoding: 321 321 192
+Encoding: 321 321 193
 Width: 460
 GlyphClass: 2
 Flags: W
@@ -7372,7 +7380,7 @@ Kerns2: 58 -45 "'kern' Horizontal Kerning lookup 0 per glyph data 0"  57 -55 "'k
 EndChar
 
 StartChar: lslash
-Encoding: 322 322 193
+Encoding: 322 322 194
 Width: 300
 GlyphClass: 2
 Flags: W
@@ -7404,7 +7412,7 @@ EndSplineSet
 EndChar
 
 StartChar: OE
-Encoding: 338 338 194
+Encoding: 338 338 195
 Width: 986
 GlyphClass: 2
 Flags: W
@@ -7458,7 +7466,7 @@ EndSplineSet
 EndChar
 
 StartChar: oe
-Encoding: 339 339 195
+Encoding: 339 339 196
 Width: 991
 GlyphClass: 2
 Flags: W
@@ -7508,7 +7516,7 @@ EndSplineSet
 EndChar
 
 StartChar: Scaron
-Encoding: 352 352 196
+Encoding: 352 352 197
 Width: 617
 GlyphClass: 2
 Flags: W
@@ -7575,7 +7583,7 @@ EndSplineSet
 EndChar
 
 StartChar: scaron
-Encoding: 353 353 197
+Encoding: 353 353 198
 Width: 632
 GlyphClass: 2
 Flags: W
@@ -7639,7 +7647,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ydieresis
-Encoding: 376 376 198
+Encoding: 376 376 199
 Width: 580
 GlyphClass: 2
 Flags: W
@@ -7687,7 +7695,7 @@ EndSplineSet
 EndChar
 
 StartChar: Zcaron
-Encoding: 381 381 199
+Encoding: 381 381 200
 Width: 595
 GlyphClass: 2
 Flags: W
@@ -7745,7 +7753,7 @@ EndSplineSet
 EndChar
 
 StartChar: zcaron
-Encoding: 382 382 200
+Encoding: 382 382 201
 Width: 573
 GlyphClass: 2
 Flags: W
@@ -7800,7 +7808,7 @@ EndSplineSet
 EndChar
 
 StartChar: florin
-Encoding: 402 402 201
+Encoding: 402 402 202
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -7839,7 +7847,7 @@ EndSplineSet
 EndChar
 
 StartChar: circumflex
-Encoding: 710 710 202
+Encoding: 710 710 203
 Width: 484
 GlyphClass: 2
 Flags: W
@@ -7866,7 +7874,7 @@ EndSplineSet
 EndChar
 
 StartChar: caron
-Encoding: 711 711 203
+Encoding: 711 711 204
 Width: 484
 GlyphClass: 2
 Flags: W
@@ -7893,7 +7901,7 @@ EndSplineSet
 EndChar
 
 StartChar: breve
-Encoding: 728 728 204
+Encoding: 728 728 205
 Width: 344
 GlyphClass: 2
 Flags: W
@@ -7918,7 +7926,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent
-Encoding: 729 729 205
+Encoding: 729 729 206
 Width: 287
 GlyphClass: 2
 Flags: W
@@ -7936,7 +7944,7 @@ EndSplineSet
 EndChar
 
 StartChar: ring
-Encoding: 730 730 206
+Encoding: 730 730 207
 Width: 287
 GlyphClass: 2
 Flags: W
@@ -7963,7 +7971,7 @@ EndSplineSet
 EndChar
 
 StartChar: ogonek
-Encoding: 731 731 207
+Encoding: 731 731 208
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -7996,7 +8004,7 @@ EndSplineSet
 EndChar
 
 StartChar: tilde
-Encoding: 732 732 208
+Encoding: 732 732 209
 Width: 517
 GlyphClass: 2
 Flags: W
@@ -8024,7 +8032,7 @@ EndSplineSet
 EndChar
 
 StartChar: hungarumlaut
-Encoding: 733 733 209
+Encoding: 733 733 210
 Width: 517
 GlyphClass: 2
 Flags: W
@@ -8057,7 +8065,7 @@ EndSplineSet
 EndChar
 
 StartChar: pi
-Encoding: 960 960 210
+Encoding: 960 960 211
 Width: 635
 GlyphClass: 2
 Flags: W
@@ -8089,7 +8097,7 @@ EndSplineSet
 EndChar
 
 StartChar: endash
-Encoding: 8211 8211 211
+Encoding: 8211 8211 212
 Width: 653
 GlyphClass: 2
 Flags: W
@@ -8107,7 +8115,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 8212 8212 212
+Encoding: 8212 8212 213
 Width: 966
 GlyphClass: 2
 Flags: W
@@ -8125,7 +8133,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 8216 8216 213
+Encoding: 8216 8216 214
 Width: 201
 GlyphClass: 2
 Flags: W
@@ -8152,7 +8160,7 @@ Kerns2: 45 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
 
 StartChar: quoteright
-Encoding: 8217 8217 214
+Encoding: 8217 8217 215
 Width: 201
 GlyphClass: 2
 Flags: W
@@ -8179,7 +8187,7 @@ Kerns2: 45 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 8218 8218 215
+Encoding: 8218 8218 216
 Width: 201
 GlyphClass: 2
 Flags: W
@@ -8205,7 +8213,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblleft
-Encoding: 8220 8220 216
+Encoding: 8220 8220 217
 Width: 371
 GlyphClass: 2
 Flags: W
@@ -8247,7 +8255,7 @@ Kerns2: 45 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
 
 StartChar: quotedblright
-Encoding: 8221 8221 217
+Encoding: 8221 8221 218
 Width: 371
 GlyphClass: 2
 Flags: W
@@ -8289,7 +8297,7 @@ Kerns2: 45 -80 "'kern' Horizontal Kerning lookup 0 per glyph data 0"
 EndChar
 
 StartChar: quotedblbase
-Encoding: 8222 8222 218
+Encoding: 8222 8222 219
 Width: 371
 GlyphClass: 2
 Flags: W
@@ -8330,7 +8338,7 @@ EndSplineSet
 EndChar
 
 StartChar: dagger
-Encoding: 8224 8224 219
+Encoding: 8224 8224 220
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -8358,7 +8366,7 @@ EndSplineSet
 EndChar
 
 StartChar: daggerdbl
-Encoding: 8225 8225 220
+Encoding: 8225 8225 221
 Width: 500
 GlyphClass: 2
 Flags: W
@@ -8396,7 +8404,7 @@ EndSplineSet
 EndChar
 
 StartChar: bullet
-Encoding: 8226 8226 221
+Encoding: 8226 8226 222
 Width: 311
 GlyphClass: 2
 Flags: W
@@ -8414,7 +8422,7 @@ EndSplineSet
 EndChar
 
 StartChar: ellipsis
-Encoding: 8230 8230 222
+Encoding: 8230 8230 223
 Width: 603
 GlyphClass: 2
 Flags: W
@@ -8446,7 +8454,7 @@ EndSplineSet
 EndChar
 
 StartChar: perthousand
-Encoding: 8240 8240 223
+Encoding: 8240 8240 224
 Width: 1412
 GlyphClass: 2
 Flags: W
@@ -8512,7 +8520,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglleft
-Encoding: 8249 8249 224
+Encoding: 8249 8249 225
 Width: 370
 GlyphClass: 2
 Flags: W
@@ -8538,7 +8546,7 @@ EndSplineSet
 EndChar
 
 StartChar: guilsinglright
-Encoding: 8250 8250 225
+Encoding: 8250 8250 226
 Width: 370
 GlyphClass: 2
 Flags: W
@@ -8564,7 +8572,7 @@ EndSplineSet
 EndChar
 
 StartChar: fraction
-Encoding: 8260 8260 226
+Encoding: 8260 8260 227
 Width: 1011
 GlyphClass: 2
 Flags: W
@@ -8582,7 +8590,7 @@ EndSplineSet
 EndChar
 
 StartChar: Euro
-Encoding: 8364 8364 227
+Encoding: 8364 8364 228
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -8632,7 +8640,7 @@ EndSplineSet
 EndChar
 
 StartChar: trademark
-Encoding: 8482 8482 228
+Encoding: 8482 8482 229
 Width: 1051
 GlyphClass: 2
 Flags: W
@@ -8685,7 +8693,7 @@ EndSplineSet
 EndChar
 
 StartChar: Omega
-Encoding: 8486 8486 229
+Encoding: 8486 8486 230
 Width: 856
 GlyphClass: 2
 Flags: W
@@ -8743,7 +8751,7 @@ EndSplineSet
 EndChar
 
 StartChar: partialdiff
-Encoding: 8706 8706 230
+Encoding: 8706 8706 231
 Width: 654
 GlyphClass: 2
 Flags: W
@@ -8785,7 +8793,7 @@ EndSplineSet
 EndChar
 
 StartChar: Delta
-Encoding: 8710 8710 231
+Encoding: 8710 8710 232
 Width: 673
 GlyphClass: 2
 Flags: W
@@ -8818,7 +8826,7 @@ EndSplineSet
 EndChar
 
 StartChar: product
-Encoding: 8719 8719 232
+Encoding: 8719 8719 233
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -8860,7 +8868,7 @@ EndSplineSet
 EndChar
 
 StartChar: summation
-Encoding: 8721 8721 233
+Encoding: 8721 8721 234
 Width: 704
 GlyphClass: 2
 Flags: W
@@ -8886,7 +8894,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus
-Encoding: 8722 8722 234
+Encoding: 8722 8722 235
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -8904,7 +8912,7 @@ EndSplineSet
 EndChar
 
 StartChar: radical
-Encoding: 8730 8730 235
+Encoding: 8730 8730 236
 Width: 636
 GlyphClass: 2
 Flags: W
@@ -8936,7 +8944,7 @@ EndSplineSet
 EndChar
 
 StartChar: infinity
-Encoding: 8734 8734 236
+Encoding: 8734 8734 237
 Width: 810
 GlyphClass: 2
 Flags: W
@@ -8990,7 +8998,7 @@ EndSplineSet
 EndChar
 
 StartChar: integral
-Encoding: 8747 8747 237
+Encoding: 8747 8747 238
 Width: 505
 GlyphClass: 2
 Flags: W
@@ -9020,7 +9028,7 @@ EndSplineSet
 EndChar
 
 StartChar: approxequal
-Encoding: 8776 8776 238
+Encoding: 8776 8776 239
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -9061,7 +9069,7 @@ EndSplineSet
 EndChar
 
 StartChar: notequal
-Encoding: 8800 8800 239
+Encoding: 8800 8800 240
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -9099,7 +9107,7 @@ EndSplineSet
 EndChar
 
 StartChar: lessequal
-Encoding: 8804 8804 240
+Encoding: 8804 8804 241
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -9138,7 +9146,7 @@ EndSplineSet
 EndChar
 
 StartChar: greaterequal
-Encoding: 8805 8805 241
+Encoding: 8805 8805 242
 Width: 600
 GlyphClass: 2
 Flags: W
@@ -9177,7 +9185,7 @@ EndSplineSet
 EndChar
 
 StartChar: lozenge
-Encoding: 9674 9674 242
+Encoding: 9674 9674 243
 Width: 623
 GlyphClass: 2
 Flags: W
@@ -9238,7 +9246,7 @@ EndSplineSet
 EndChar
 
 StartChar: apple
-Encoding: 63743 63743 243
+Encoding: 63743 63743 244
 Width: 923
 GlyphClass: 2
 Flags: W
@@ -9434,7 +9442,7 @@ EndSplineSet
 EndChar
 
 StartChar: fi
-Encoding: 64257 64257 244
+Encoding: 64257 64257 245
 Width: 685
 GlyphClass: 3
 Flags: W
@@ -9485,7 +9493,7 @@ Ligature2: "'liga' Standard Ligatures lookup 0 subtable" f i
 EndChar
 
 StartChar: fl
-Encoding: 64258 64258 245
+Encoding: 64258 64258 246
 Width: 685
 GlyphClass: 3
 Flags: W
