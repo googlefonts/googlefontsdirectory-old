@@ -178,7 +178,7 @@ def fontToolsOpenFont(filepath):
 
 # DC This should check both copyright strings match
 def fontToolsGetCopyright(ftfont):
-  return 'COPYRIGHT'
+#  return 'COPYRIGHT'
   NAMEID_PSNAME = 0
   copyright = ""
   for record in ftfont['name'].names:
@@ -220,7 +220,7 @@ def fontToolsGetFullName(ftfont):
 
 # DC This should check both names match, and is found in designers.json
 def fontToolsGetDesignerName(ftfont):
-  return 'DESIGNER'
+#  return 'DESIGNER'
   NAMEID_DESIGNERNAME = 9
   desName = ""
   for record in ftfont['name'].names:
