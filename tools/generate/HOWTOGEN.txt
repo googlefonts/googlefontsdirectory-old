@@ -72,6 +72,9 @@ mv *sfd src;
 # cp in subsets template
 for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; cp ~/dcrossland-fontdirectory/INCOMING/METADATA_comments.txt src/; cd ..; done;
 
+# edit the templates
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mate $dir/src/METADATA_comments.txt; cd ..; done;
+
 # generate METADATA.json
 for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd ..; done;
 
@@ -81,19 +84,35 @@ for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mate $di
 # ensure they are all good
 # TODO write some actual tests for family key, filename and internal metadata congruence, font.* key and filename congruence, line breaks are correct (no trailing space) etc
 
-# extract the subset scripts
-grep \# */METADATA | cut -d: -f2 | tr -d "#" >> tmp-4-subsets.sh;
+# note the family dir names
+# ls -1 >> dirs.txt
 
 # Move dirs to GFD repo
-for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mv $dir ~/googlefontdirectory/; done
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mv $dir ~/googlefontdirectory/ofl/; done
 
 # Run the subset scripts
-bash tmp-4-subsets.sh;
+for dir in `cat dirs.txt`; do bash ~/googlefontdirectory/ofl/$dir/src/METADATA_comments.txt; done
+
+
+# Rerun the metadata generator
+for dir in `cat dirs.txt`; do cd ~/googlefontdirectory/ofl/$dir;  ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; done;
+
+# Run the lint tool
+for dir in `cat dirs.txt`; do cd ~/googlefontdirectory/ofl/$dir; java -jar ~/googlefontdirectory/tools/lint/dist/lint.jar .; done;
+
+
+
+# Check the METADATA.json - especially for dateAdded details
+
+for dir in `cat dirs.txt`; do mate ~/googlefontdirectory/ofl/$dir/METADATA.json; done;
+
+# Check the fonts
 
 # Check in the fonts
-cd ~/googlefontdirectory;
-
-for newdir in `hg st | grep "?" | cut -d" " -f2 | cut -d/ -f1 | sort | uniq`; do hg add $newdir; hg ci $newdir -m "Adding $newdir"; done
+for dir in `cat dirs.txt`; do 
+cd ~/googlefontdirectory/ofl;
+hg add $dir;
+hg ci $newdir -m "Adding $newdir"; done
 
 # Make up push spreadsheet, prepare tweets:
 
