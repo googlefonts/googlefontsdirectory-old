@@ -17,7 +17,18 @@ Its counter-shapes are rectangular, featuring small
 curvatures in opposite vertexes which accompany and break 
 the shapes, thus evoking a modern style.
 
-Documentation can be found at http://www.tipo.net.ar
+There are 2 Source files:
+
+1. Changa-Regular-OTF.vfb Merged contours and 
+   optimized file corresponding to the OTF file
+
+2. Changa-Regular-TTF.sfd TrueType outlines with 
+   hinting adjustments corresponding to the TTF file
+
+Source files are available from
+http://code.google.com/p/googlefontdirectory/
+
+
 
 ChangeLog
 
