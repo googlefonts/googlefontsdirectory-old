@@ -30,7 +30,7 @@ for font in `ls -1 */src/*OTF.otf`; do ttx $font; mv $font /tmp; done;
 
 # check BOTH the "Full Name" namerecord tags with nameID="4" are correct (ie, no Regular in regular fonts)
 # check BOTH the "PS Name"   namerecord tags with nameID="6" are correct (ie, w -Regular in regular fonts)
-for ttx in `ls -1 */src/*ttx`; do mate $ttx; done;
+for ttx in `ls -1 */src/*ttx`; do gedit $ttx; done;
 
 # ttx back the OTFs
 for ttx in `ls -1 */src/*ttx`; do ttx $ttx; done;
@@ -73,13 +73,13 @@ mv *sfd src;
 for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; cp ~/dcrossland-fontdirectory/INCOMING/METADATA_comments.txt src/; cd ..; done;
 
 # edit the templates
-for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mate $dir/src/METADATA_comments.txt; cd ..; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/src/METADATA_comments.txt; cd ..; done;
 
 # generate METADATA.json
 for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd ..; done;
 
 # edit the METADATA, OFL and FONTLOG files
-for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do mate $dir/METADATA.json; mate $dir/*txt; done;
+for dir in `for i in * ; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/METADATA.json; gedit $dir/*txt; done;
 
 # ensure they are all good
 # TODO write some actual tests for family key, filename and internal metadata congruence, font.* key and filename congruence, line breaks are correct (no trailing space) etc
@@ -104,7 +104,7 @@ for dir in `cat dirs.txt`; do cd ~/googlefontdirectory/ofl/$dir; java -jar ~/goo
 
 # Check the METADATA.json - especially for dateAdded details
 
-for dir in `cat dirs.txt`; do mate ~/googlefontdirectory/ofl/$dir/METADATA.json; done;
+for dir in `cat dirs.txt`; do gedit ~/googlefontdirectory/ofl/$dir/METADATA.json; done;
 
 # Check the fonts
 
