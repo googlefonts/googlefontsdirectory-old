@@ -4,7 +4,7 @@ FullName: Text Me One
 FamilyName: Text Me One
 Weight: Book
 Copyright: Copyright (c) 2012, Julia Petretta (julia.petretta@googlemail.com), with Reserved Font Name 'Text Me'
-Version: 1.002
+Version: 1.003
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -14,13 +14,13 @@ sfntRevision: 0x00010083
 LayerCount: 2
 Layer: 0 1 "Back"  1
 Layer: 1 1 "Fore"  0
-XUID: [1021 453 1310736302 11033089]
+XUID: [1021 532 355987292 11278716]
 FSType: 0
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1350640860
-ModificationTime: 1351749402
+ModificationTime: 1352054462
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -89,7 +89,7 @@ EndTTInstrs
 ShortTable: maxp 16
   1
   0
-  249
+  250
   96
   7
   0
@@ -104,7 +104,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "JuliaPetretta: Text Me One: 2012" "" "Version 1.002" "" "Text Me is a trademark of Julia Petretta." "Julia Petretta" "Julia Petretta" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "JuliaPetretta: Text Me One: 2012" "" "Version 1.003" "" "Text Me is a trademark of Julia Petretta." "Julia Petretta" "Julia Petretta" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "http://scripts.sil.org/OFL" 
 GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -112,7 +112,7 @@ NameList: AGL For New Fonts
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-BeginChars: 65543 249
+BeginChars: 65544 250
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -147,7 +147,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 4
-Width: 300
+Width: 500
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -11533,6 +11533,14 @@ SplineSet
  168 636 168 636 171 647 c 1,47,0
  176 681 176 681 207 706.5 c 128,-1,1
 EndSplineSet
+EndChar
+
+StartChar: nbspace
+Encoding: 65543 -1 249
+Width: 500
+GlyphClass: 2
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
