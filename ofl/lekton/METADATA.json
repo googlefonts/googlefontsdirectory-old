@@ -1,6 +1,6 @@
 {
   "name": "Lekton",
-  "designer": "multiple designers",
+  "designer": "Multiple Designers",
   "license": "OFL",
   "visibility": "External",
   "category": "Sans Serif",
@@ -36,6 +36,7 @@
   ],
   "subsets": [
     "latin",
+    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-12-20"
