@@ -458,6 +458,10 @@ def writeDescHtml(familydir):
         filepath = os.path.join(familydir, f)
         ftfont = fontToolsOpenFont(filepath)
         fontDesc = fontToolsGetDesc(ftfont)
+      else:
+        string = "No Regular found, only " + f
+        color = "red"
+        ansiprint(string, color)
     if isinstance(fontDesc, (str,unicode)):
       descHtml = "<p>" + fontDesc + "</p>"
     else:
