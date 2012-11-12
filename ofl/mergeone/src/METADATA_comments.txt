@@ -29,9 +29,5 @@ for family in mergeone; do \
    done; \
 done; \
 cd ~/googlefontdirectory/ofl/mergeone/; \
-rename s/latin-ext\\+latin/latin-ext/g *; \
-rename s/cyrillic\\+latin/cyrillic/g *; \
-rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
-rename s/greek\\+latin/greek/g *; \
-rename s/greek-ext\\+latin/greek-ext/g *; \
-rename s/vietnamese\\+latin/vietnamese/g *; \
+rename 's/([^+])\+latin$/$1/' *;
+
