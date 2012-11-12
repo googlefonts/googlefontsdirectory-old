@@ -8,21 +8,21 @@
   "fonts": [
     {
       "name": "Oleo Script",
-      "style": "normal",
-      "weight": 400,
-      "filename": "OleoScript-Regular.ttf",
-      "postScriptName": "OleoScript-Regular",
-      "fullName": "Oleo Script",
-      "copyright": "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname \"Oleo Script\""
-    },
-    {
-      "name": "Oleo Script",
+      "postScriptName": "OleoScript-Bold",
+      "fullName": "Oleo Script Bold",
       "style": "normal",
       "weight": 700,
       "filename": "OleoScript-Bold.ttf",
-      "postScriptName": "OleoScript-Bold",
-      "fullName": "Oleo Script Bold",
-      "copyright": "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname \"Oleo Script\""
+      "copyright": "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
+    },
+    {
+      "name": "Oleo Script",
+      "postScriptName": "OleoScript-Regular",
+      "fullName": "Oleo Script",
+      "style": "normal",
+      "weight": 400,
+      "filename": "OleoScript-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Soytutype (contact@soytutype.com.ar|soytutype@gmail.com), with reserved fontname 'Oleo'"
     }
   ],
   "subsets": [
