@@ -4,16 +4,43 @@
   "license": "OFL",
   "visibility": "External",
   "category": "Serif",
-  "size": 17115,
+  "size": 17424,
   "fonts": [
     {
       "name": "Almendra SC",
+      "postScriptName": "AlmendraSC-Bold",
+      "fullName": "Almendra SC Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "AlmendraSC-Bold.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra SC",
+      "postScriptName": "AlmendraSC-BoldItalic",
+      "fullName": "Almendra SC Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "AlmendraSC-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra SC",
+      "postScriptName": "AlmendraSC-Italic",
+      "fullName": "Almendra SC Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "AlmendraSC-Italic.ttf",
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
+    },
+    {
+      "name": "Almendra SC",
+      "postScriptName": "AlmendraSC-Regular",
+      "fullName": "Almendra SC",
       "style": "normal",
       "weight": 400,
       "filename": "AlmendraSC-Regular.ttf",
-      "postScriptName": "AlmendraSC-Regular",
-      "fullName": "Almendra SC",
-      "copyright": "Copyright (c) 2011 by Ana Sanfelippo (anasanfe@gmail.com). Reserved Font Names \"Almendra\" \"Almendra SC\""
+      "copyright": "Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'"
     }
   ],
   "subsets": [
@@ -21,5 +48,5 @@
     "latin-ext",
     "menu"
   ],
-  "dateAdded": "2011-12-19"
+  "dateAdded": "2012-11-12"
 }
