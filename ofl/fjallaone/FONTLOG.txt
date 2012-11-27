@@ -1,14 +1,20 @@
 FONTLOG for the Fjalla One font
 
-This file provides detailed information on Fjalla One Font Software.This information should be distributed along with the Fjalla One font and any derivative works.
+This file provides detailed information on Fjalla One Font Software.This
+information should be distributed along with the Fjalla One font and any
+derivative works.
 
 Basic Font Information
 
-Fjalla is a medium contrast display sans serif. Fjalla has been carefully adjusted to the restrictions of the screen. Despite having display characteristics Fjalla can be used in a wide range of sizes.
+Fjalla One is a medium contrast display sans serif. Fjalla has been carefully
+adjusted to the restrictions of the screen. Despite having display
+characteristics Fjalla can be used in a wide range of sizes.
 
-Fjalla One is a Unicode typeface family that supports languages that use the Latin script and its variants, and could be expanded to support other scripts.
+Fjalla One is a Unicode typeface family that supports languages that use the
+Latin script and its variants, and could be expanded to support other scripts.
 
-More specifically, this release partially supports the following Unicode ranges: Latin-1
+More specifically, this release partially supports the following Unicode
+ranges: Latin-1
 
 There are four source files:
 
@@ -27,7 +33,8 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
-27 Oct 2012 (Eben Sorkin) Fjalla One v1.001
+10 Nov 2012 (Eben Sorkin) Fjalla One v1.000
+- Adjusted outlines and v metrics to improve windows Post-TTFA rendering.
 - Mastered VBF to TTF and other formats.
 - hinted font Using TTFAutohint version 0.92
 
