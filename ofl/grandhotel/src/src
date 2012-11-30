@@ -1,0 +1,87 @@
+visibility: SANDBOX|INTERNAL
+license: Apache2|OFL
+category: serif|sans-serif|display|handwriting
+subsets: menu,latin,latin-ext,cyrillic,cyrillic-ext,greek,greek-ext
+
+family: Familyname
+
+designer: Some Designer
+
+approved: false|true
+description: <p>English description</p>
+
+font.Familyname-Regular.ttf.subfamily: Subfamily
+font.Familyname-Regular.ttf.description: <p>Subfamily description.</p>
+
+font.Familyname-Thin.ttf.style: normal
+font.Familyname-ExtraLight.ttf.style: normal
+font.Familyname-Light.ttf.style: normal
+font.Familyname-Regular.ttf.style: normal
+font.Familyname-Medium.ttf.style: normal
+font.Familyname-SemiBold.ttf.style: normal
+font.Familyname-Bold.ttf.style: normal
+font.Familyname-ExtraBold.ttf.style: normal
+font.Familyname-Black.ttf.style: normal
+
+font.Familyname-ThinItalic.ttf.style: italic
+font.Familyname-ExtraLightItalic.ttf.style: italic
+font.Familyname-LightItalic.ttf.style: italic
+font.Familyname-Italic.ttf.style: italic
+font.Familyname-MediumItalic.ttf.style: italic
+font.Familyname-SemiBoldItalic.ttf.style: italic
+font.Familyname-BoldItalic.ttf.style: italic
+font.Familyname-ExtraBoldItalic.ttf.style: italic
+font.Familyname-BlackItalic.ttf.style: italic
+
+font.Familyname-Thin.ttf.weight: 100
+font.Familyname-ExtraLight.ttf.weight: 200
+font.Familyname-Light.ttf.weight: 300
+font.Familyname-Regular.ttf.weight: 400
+font.Familyname-Medium.ttf.weight: 500
+font.Familyname-SemiBold.ttf.weight: 600
+font.Familyname-Bold.ttf.weight: 700
+font.Familyname-ExtraBold.ttf.weight: 800
+font.Familyname-Black.ttf.weight: 900
+
+font.Familyname-ThinItalic.ttf.weight: 100
+font.Familyname-ExtraLightItalic.ttf.weight: 200
+font.Familyname-LightItalic.ttf.weight: 300
+font.Familyname-Italic.ttf.weight: 400
+font.Familyname-MediumItalic.ttf.weight: 500
+font.Familyname-SemiBoldItalic.ttf.weight: 600
+font.Familyname-BoldItalic.ttf.weight: 700
+font.Familyname-ExtraBoldItalic.ttf.weight: 800
+font.Familyname-BlackItalic.ttf.weight: 900
+
+# cd ~/src/font-optimizer; \
+# ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#  --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
+#  --chars="Familyname" \
+# ~/googlefontdirectory/familynamedir/Familyname-Regular.{ttf,menu}; \
+# cd ~/googlefontdirectory/familynamedir/; \
+# ~/googlefontdirectory/tools/chars/showchars.py \
+#  Familyname-Regular.menu; 
+
+# cd ~/googlefontdirectory/familynamedir/; \
+# rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+# cd ~/googlefontdirectory/; \
+# for family in familynamedir; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#        for subset in \
+#            latin latin-ext \
+#            cyrillic+latin cyrillic-ext+latin \
+#            greek+latin greek-ext+latin; do \
+#            echo subset.py --null --nmr --roundtrip --script \
+#                --subset=$subset $font.ttf $font.$subset; \
+#            python ~/googlefontdirectory/tools/subset/subset.py \
+#                --null --nmr --roundtrip --script --subset=$subset \
+#                $font.ttf $font.$subset > $font.$subset.log; \
+#        done; \
+#    done; \
+# done; \
+# cd ~/googlefontdirectory/familynamedir/; \
+# rename s/cyrillic\\+latin/cyrillic/g *; \
+# rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
+# rename s/greek\\+latin/greek/g *; \
+# rename s/greek-ext\\+latin/greek-ext/g *; \
+# rename s/vietnamese\\+latin/vietnamese/g *; \
