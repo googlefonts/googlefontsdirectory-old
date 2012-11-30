@@ -34,13 +34,21 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
-24 Nov 2012 (Eben Sorkin) Fjalla One v1.001
+28 Nov 2012 (Eben Sorkin) Denk One v1.002
+- Rebuilt TTF OTFs and related files to fix a bug that left several 
+composite glyphs without diacritics
+- Added OpenType code to support automatic fractions for the fractions in the font.
+Now if you type 1/4 1/2 3/4 you get the fractions.
+- Added OpenType code to support ordinals (a o)and superiors (1 2 3) 
+- Added omacron and Omacron
+
+24 Nov 2012 (Eben Sorkin) Denk One v1.001
 - Adjusted outlines and v metrics to improve windows Post-TTFA rendering.
 - Mastered VBF to TTF and other formats.
 - hinted font Using TTFAutohint version 0.92
 
-25 Oct 2012 (Irina Smirnova) Fjalla One v1.000
-- Completed first complete version of Fjalla One in Fontlab ( VBF format )
+25 Oct 2012 (Irina Smirnova) Denk One v1.000
+- Completed first complete version of Denk One in Fontlab ( VBF format )
 
 Acknowledgements
 
