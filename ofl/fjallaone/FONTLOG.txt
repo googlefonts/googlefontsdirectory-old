@@ -33,6 +33,12 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+4 Dec 2012 (Eben Sorkin) Fjalla One v1.001
+- Altered the widths of dicritics to not be zero with negative sidebearing
+  values because this appears to be causing the dicrittics not to appear in
+  the font preview for Google web fonts.Instead all diacritics have
+  sidebearings of 114 now.
+
 10 Nov 2012 (Eben Sorkin) Fjalla One v1.000
 - Adjusted outlines and v metrics to improve windows Post-TTFA rendering.
 - Mastered VBF to TTF and other formats.
