@@ -1,7 +1,8 @@
 FONTLOG for the Donegal font
 
-This file provides detailed information on Donegal Font Software. This
-information should be distributed along with the Donegal font and any
+This file provides detailed information on 
+Donegal Font Software. This information should be 
+distributed along with the Donegal font and any 
 derivative works.
 
 Basic Font Information
@@ -35,18 +36,27 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+4 Dec 2012 (Eben Sorkin) Donegal v1.004
+- Altered the widths of dicritics to not be zero with negative sidebearing
+  values because this appears to be causing the dicrittics not to appear in
+  the font preview for Google web fonts. Instead all diacritics have
+  sidebearings of 114 now.
+- Altered the gcommaaccent by decomposing the accent to solve a misrendering
+  bug seen in the Google web fonts system when the undercomma accent is
+  rotated and repositioned above the g.
+
 24 Nov 2012 (Eben Sorkin) Donegal v1.003
-- hinted font Using TTFAutohint version 0.92
+- Hinted font Using TTFAutohint version 0.92
 - Mastered VBF to TTF and other formats.
 - Altered naming to be compatible with Google web fonts
 - Fixed rendering problems seen in the letters e and L
 - Added OpenType code to support ordinals, superiors (1234), onehalf, onequarter, 
-threequarters percent and perthousand signs 
+  threequarters percent and perthousand signs 
 - Completed third complete version of Donegal in Fontlab ( VBF format )
 
 22 Nov 2012 (Eben Sorkin) Donegal v1.002
-- hinted font Using TTFAutohint version 0.92
-- Added Sumbols for tcedilla, Tcedilla, exclamdbl, minute and second
+- Hinted font Using TTFAutohint version 0.92
+- Added Symbols for tcedilla, Tcedilla, exclamdbl, minute and second
 - Altered i and j so they use components to avoid a rendering bug in Windows
 - Completed second complete version of Donegal in Fontlab ( VBF format )
 
