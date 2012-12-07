@@ -34,11 +34,17 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+4 Dec 2012 (Eben Sorkin) Denk One v1.002
+- Altered the widths of dicritics to not be zero with negative sidebearing
+  values because this appears to be causing the dicrittics not to appear in
+  the font preview for Google web fonts. Instead all diacritics have
+  sidebearings of 114 now.
+
 28 Nov 2012 (Eben Sorkin) Denk One v1.002
-- Rebuilt TTF OTFs and related files to fix a bug that left several 
-composite glyphs without diacritics
-- Added OpenType code to support automatic fractions for the fractions in the font.
-Now if you type 1/4 1/2 3/4 you get the fractions.
+- Rebuilt TTF OTFs and related files to fix a bug that left several composite
+  glyphs without diacritics
+- Added OpenType code to support automatic fractions for the fractions in the
+  font. Now if you type 1/4 1/2 3/4 you get the fractions.
 - Added OpenType code to support ordinals (a o)and superiors (1 2 3) 
 - Added omacron and Omacron
 
