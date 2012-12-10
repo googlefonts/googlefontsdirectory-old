@@ -1,0 +1,52 @@
+{
+  "name": "Tagoni",
+  "designer": "Andres Torresi",
+  "license": "",
+  "visibility": "Sandbox",
+  "category": "",
+  "size": 49675,
+  "dateAdded": "2012-12-10",
+  "fonts": [
+    {
+      "name": "Tagoni",
+      "postScriptName": "Tagoni-Bold",
+      "fullName": "Tagoni Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Tagoni-Bold.ttf",
+      "copyright": "Copyright (c) 2012 Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name \"Tagoni\""
+    },
+    {
+      "name": "Tagoni",
+      "postScriptName": "Tagoni-BoldItalic",
+      "fullName": "Tagoni Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Tagoni-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2012 Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name \"Tagoni\""
+    },
+    {
+      "name": "Tagoni",
+      "postScriptName": "Tagoni-Italic",
+      "fullName": "Tagoni Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Tagoni-Italic.ttf",
+      "copyright": "Copyright (c) 2012 Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name \"Tagoni\""
+    },
+    {
+      "name": "Tagoni",
+      "postScriptName": "Tagoni-Regular",
+      "fullName": "Tagoni",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Tagoni-Regular.ttf",
+      "copyright": "Copyright (c) 2012 Andres Torresi (andres@huertatipografica.com.ar), with Reserved Font Name \"Tagoni\""
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ]
+}
