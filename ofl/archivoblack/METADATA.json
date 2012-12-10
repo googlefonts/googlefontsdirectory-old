@@ -9,7 +9,7 @@
     {
       "name": "Archivo Black",
       "postScriptName": "ArchivoBlack-Regular",
-      "fullName": "Archivo Black Regular",
+      "fullName": "Archivo Black",
       "style": "normal",
       "weight": 400,
       "filename": "ArchivoBlack-Regular.ttf",
@@ -17,9 +17,7 @@
     }
   ],
   "subsets": [
-    "latin",
-    "latin-ext",
-    "menu"
+    "latin"
   ],
   "dateAdded": "2012-09-18"
 }
