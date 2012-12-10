@@ -1,0 +1,52 @@
+{
+  "name": "Inconsesi",
+  "designer": "Cyreal",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 25426,
+  "fonts": [
+    {
+      "name": "Inconsesi",
+      "postScriptName": "Inconsesi-Bold",
+      "fullName": "Inconsesi Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Inconsesi-Bold.ttf",
+      "copyright": "Copyright (c) 2012, Alexei Vanyashin (a@cyreal.org). Based on Inconsolata by Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2006-2012."
+    },
+    {
+      "name": "Inconsesi",
+      "postScriptName": "Inconsesi-BoldItalic",
+      "fullName": "Inconsesi Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Inconsesi-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2012, Alexei Vanyashin (a@cyreal.org). Based on Inconsolata by Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2006-2012."
+    },
+    {
+      "name": "Inconsesi",
+      "postScriptName": "Inconsesi-Italic",
+      "fullName": "Inconsesi Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Inconsesi-Italic.ttf",
+      "copyright": "Copyright (c) 2012, Alexei Vanyashin (a@cyreal.org). Based on Inconsolata by Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2006-2012."
+    },
+    {
+      "name": "Inconsesi",
+      "postScriptName": "Inconsesi-Regular",
+      "fullName": "Inconsesi",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Inconsesi-Regular.ttf",
+      "copyright": "Copyright (c) 2012, Alexei Vanyashin (a@cyreal.org). Based on Inconsolata by Raph Levien (firstname.lastname@gmail.com), Copyright (c) 2006-2012."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2012-12-08"
+}
