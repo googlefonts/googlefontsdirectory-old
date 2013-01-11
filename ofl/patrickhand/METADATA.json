@@ -8,18 +8,19 @@
   "fonts": [
     {
       "name": "Patrick Hand",
+      "postScriptName": "PatrickHand-Regular",
+      "fullName": "Patrick Hand",
       "style": "normal",
       "weight": 400,
       "filename": "PatrickHand-Regular.ttf",
-      "postScriptName": "PatrickHand-Regular",
-      "fullName": "Patrick Hand Regular",
-      "copyright": "Copyright (c) 2010 by Patrick Wagesreiter. All rights reserved."
+      "copyright": "Copyright (c) 2012 Patrick Wagesreiter (mail@patrickwagesreiter.at)"
     }
   ],
   "subsets": [
     "latin",
     "latin-ext",
-    "menu"
+    "menu",
+    "vietnamese"
   ],
   "dateAdded": "2011-07-06"
 }
