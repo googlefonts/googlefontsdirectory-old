@@ -4,7 +4,7 @@ cd ~/googlefontdirectory/ofl/; \
       cd ~/src/font-optimizer; \
       ./subset.pl -v --licensesubst="SIL OFL 1.1" \
        --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,liga,salt" \
-       --chars="Family Name" \
+       --chars="Fruktur" \
       ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
       cd ~/googlefontdirectory/ofl/; \
       ~/googlefontdirectory/tools/chars/showchars.py \
