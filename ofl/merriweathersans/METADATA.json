@@ -1,0 +1,52 @@
+{
+  "name": "Merriweather Sans",
+  "designer": "Eben Sorkin",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 31707,
+  "fonts": [
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Bold",
+      "fullName": "Merriweather Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "MerriweatherSans-Bold.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Light",
+      "fullName": "Merriweather Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "MerriweatherSans-Light.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-ExtraBold",
+      "fullName": "Merriweather Sans Extra Bold",
+      "style": "normal",
+      "weight": 800,
+      "filename": "MerriweatherSans-ExtraBold.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather Sans",
+      "postScriptName": "MerriweatherSans-Regular",
+      "fullName": "Merriweather Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MerriweatherSans-Regular.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2013-02-27"
+}
