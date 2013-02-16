@@ -36,6 +36,12 @@ To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
 
+23 Jan 2013 (Eben Sorkin) Tauri v1.003
+- Added hinting using TTFautohint version 0.93.8-669f
+- Mastered typeface to TTF and OTF
+- Improved PS hinting of the Q
+- Made the sidebearings of all diacritic glyphs 50 units
+
 09 Jan 2013 (Eben Sorkin) Tauri v1.002
 - Removed custom Cmap and excess OpenType tables
 - Mastered typeface to TTF and OTF
