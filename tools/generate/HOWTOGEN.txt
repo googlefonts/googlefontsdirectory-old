@@ -56,8 +56,8 @@ for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhintin
 # Remove the backup files created by the prep-gasp tool
 # for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done;
 # for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
-for ttf in `ls -1 */src/*OTF.ttf`; do rm $ttf; done;
-for ttf in `ls -1 */src/*OTF-backup*.ttf`; do rm $ttf; done;
+for ttf in `ls -1 *OTF.ttf`; do rm $ttf; done;
+for ttf in `ls -1 *OTF-backup*.ttf`; do rm $ttf; done;
 
 
 # Rename the OTFs
