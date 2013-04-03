@@ -200,10 +200,10 @@ def getsubset(subset):
         result += range(0x370, 0x400) + range(0x1f00, 0x2000)
     if 'cyrillic' in subset:
         # Based on character frequency analysis
-        result += range(0x400, 0x460) + [0x490, 0x491, 0x4b0, 0x4b1]
+        result += range(0x400, 0x460) + [0x490, 0x491, 0x4b0, 0x4b1, 0x2116]
     if 'cyrillic-ext' in subset:
         result += (range(0x400, 0x530) +
-                   [0x20b4] +
+                   [0x20b4, 0x2116] + # 0x2116 is the russian No, a number abbreviation similar to the latin #, suggested by Alexei Vanyashin
                    range(0x2de0, 0x2e00) +
                    range(0xa640, 0xa6a0))
     if 'arabic' in subset:
