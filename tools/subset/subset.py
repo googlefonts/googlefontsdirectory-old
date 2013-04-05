@@ -137,7 +137,7 @@ def subset_font(font_in, font_out, unicodes, opts):
 # 2011-02-14 DC this needs to only happen with --namelist is used
 #        os.rename(font_out_raw + '.nam', font_out + '.nam')
 
-def getsubset(subset):
+def getsubset(subset, font_in):
     subsets = subset.split('+')
 
     quotes  = [0x2013] # endash
@@ -171,6 +171,11 @@ def getsubset(subset):
     latin += [0xf000] # PUA: font ppem size indicator: run `ftview -f 1255 10 Ubuntu-Regular.ttf` to see it in action!
 
     result = quotes
+
+    if 'menu' in subset:
+        font = fontforge.open(font_in)
+        result = map(ord, font.familyname)
+
     if 'latin' in subset:
         result += latin
     if 'latin-ext' in subset:
@@ -256,6 +261,7 @@ def getsubset(subset):
                    # Added from https://groups.google.com/d/topic/googlefontdirectory-discuss/MwlMWMPNCXs/discussion
                    0x063b, 0x063c, 0x063d, 0x063e, 0x063f, 0x0620,
                    0x0674, 0x0674, 0x06EC]
+    print result
     return result
 
 # code for extracting vertical metrics from a TrueType font
@@ -317,7 +323,7 @@ def main(argv):
     if '--string' in opts:
         subset = map(ord, opts['--string'])
     else:
-        subset = getsubset(opts.get('--subset', 'latin'))
+        subset = getsubset(opts.get('--subset', 'latin'), font_in)
     subset_font(font_in, font_out, subset, opts)
 
 if __name__ == '__main__':
