@@ -1,0 +1,113 @@
+cd ~/googlefontdirectory/apache/robotoslab/src/tmp/; \
+for font in `ls -1 *ttf | grep -v TA | cut -d. -f1`; do \
+  echo ttfautohinting $font; \
+  export tasetting_x=14; \
+  export tasetting_gGD=; \
+  export tasetting_min=8; \
+  export tasetting_max=12; \
+  export tasettings=TA_x$tasetting_x-stems_$tasetting_gGD-ranges_$tasetting_min-$tasetting_max; \
+  ttfautohint --verbose --debug \
+    --windows-compatibility \
+    --increase-x-height=$tasetting_x \
+     --strong-stem-width=$tasetting_gGD \
+     --hinting-range-min=$tasetting_min \
+     --hinting-range-max=$tasetting_max \
+     $font.ttf $font-$tasettings.ttf \
+    2>> $font-$tasettings.log; \
+done;
+
+cd ~/googlefontdirectory/apache/robotoslab/src/tmp/; \
+for font in `ls -1 *ttf | grep -v TA | cut -d. -f1`; do \
+  echo ttfautohinting $font; \
+  export tasetting_x=14; \
+  export tasetting_gGD=GD; \
+  export tasetting_min=8; \
+  export tasetting_max=12; \
+  export tasettings=TA_x$tasetting_x-stems_$tasetting_gGD-ranges_$tasetting_min-$tasetting_max; \
+  ttfautohint --verbose --debug \
+    --windows-compatibility \
+    --increase-x-height=$tasetting_x \
+     --strong-stem-width=$tasetting_gGD \
+     --hinting-range-min=$tasetting_min \
+     --hinting-range-max=$tasetting_max \
+     $font.ttf $font-$tasettings.ttf \
+    2>> $font-$tasettings.log; \
+done;
+
+cd ~/googlefontdirectory/apache/robotoslab/src/tmp/; \
+for font in `ls -1 *ttf | grep -v TA | cut -d. -f1`; do \
+  echo ttfautohinting $font; \
+  ttfautohint --verbose --debug \
+    --windows-compatibility \
+    --increase-x-height=12 \
+     --strong-stem-width=gGD \
+     --hinting-range-min=8 \
+     --hinting-range-max=16 \
+     $font{.ttf,-TA_x12_gGD_8-16.ttf} \
+   # 2>> $font.$subset.log; \
+done;
+
+cd ~/googlefontdirectory/apache/robotoslab/src/tmp/; \
+for font in `ls -1 *ttf | grep -v TA | cut -d. -f1`; do \
+  echo ttfautohinting $font; \
+  ttfautohint --verbose --debug \
+    --windows-compatibility \
+    --increase-x-height=12 \
+     --strong-stem-width=gGD \
+     --hinting-range-min=7 \
+     --hinting-range-max=28 \
+     $font{.ttf,-TA_x12_gGD_7-28.ttf} \
+   # 2>> $font.$subset.log; \
+done;
+
+
+cd ~/googlefontdirectory/apache/robotoslab/src/tmp/; \
+for font in `ls -1 *ttf | grep -v TA | cut -d. -f1`; do \
+  echo ttfautohinting $font; \
+  ttfautohint --verbose --debug \
+    --windows-compatibility \
+    --increase-x-height=12 \
+     --strong-stem-width=gGD \
+     --hinting-range-min=7 \
+     --hinting-range-max=50 \
+     $font{.ttf,-TA_x12_gGD_7-50.ttf} \
+   # 2>> $font.$subset.log; \
+done;
+
+
+cd ~/googlefontdirectory/apache/; \
+  for family in robotoslab; do \
+    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+      cd ~/src/font-optimizer; \
+      ./subset.pl -v --licensesubst="Apache 2.0" \
+       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,liga,salt" \
+       --chars="Roboto Slab" \
+      ~/googlefontdirectory/apache/$font.{ttf,menu}; \
+      cd ~/googlefontdirectory/apache/; \
+      ~/googlefontdirectory/tools/chars/showchars.py \
+       $font.menu; 
+    cd ~/googlefontdirectory/apache/robotoslab/; \
+  done;
+done;
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *vietnamese; \
+cd ~/googlefontdirectory/apache/; \
+for family in robotoslab; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           latin latin-ext+latin \
+           cyrillic+latin cyrillic-ext+latin \
+           greek+latin greek-ext+latin \
+           vietnamese+latin; do \
+           echo subset.py --null --nmr --roundtrip --script \
+               --subset=$subset $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+               --null --nmr --roundtrip --script --subset=$subset \
+               $font.ttf $font.$subset >> $font.$subset.log \
+              # 2>> $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/apache/robotoslab/; \
+rename 's/([^+])\+latin$/$1/' *;
+
