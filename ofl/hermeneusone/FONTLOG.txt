@@ -7,11 +7,10 @@ and any derivative works.
 
 Basic Font Information
 
-Hermeneus is a Grecian style font, inspired by the works of Jim Parkinson and
-Ortiz Lopez. It condensation lets you fit more characters in a line of text,
-giving your paragraphs more efficiency at the moment of composing them. It's
-intended to be read at small text sizes, but also works on large headers and
-titles.
+Hermeneus is a Grecian style font. It condensation lets you fit more 
+characters in a line of text, giving your paragraphs more efficiency 
+at the moment of composing them. It is intended to be read at small 
+text sizes, but also works on large headers and titles.
 
 Join the project at: http://www.impallari.com/projects/overview/hermeneus
 
@@ -37,6 +36,15 @@ Documentation can be found at www.impallari.com
 To contribute to the project contact Pablo Impallari at impallari@gmail.com or Rodrigo Fuenzalida hello@rfuenzalida.com
 
 ChangeLog
+
+10 Nov 2011  (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Hermeneus v1.2
+- Hinted using the latest version of TTFAutohint, currently v0.9.3
+- Even smaller file size for faster loading on the web
+
+10 Nov 2011  (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Hermeneus v1.1
+- Fixed Vertical Metrics, Font Info and other small bugs
+- Removed the KERN table, now we are using GPOS based Kerning.
+- Smaller file size for faster loading on the web
 
 26 Jun 2011  (Pablo Impallari, Rodrigo Fuenzalida, Igino Marini) Hermeneus v1.0
 - Version 1 Release
