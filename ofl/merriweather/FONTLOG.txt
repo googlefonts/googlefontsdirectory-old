@@ -8,13 +8,15 @@ Merriweather fonts and any derivative works.
 
 Basic Font Information
 
-Merriweather was designed to be a text face that is pleasant to read on
-screens.
+Merriweather is a low-contrast semi-condensed-serif typeface family
+designed to be readable at very small sizes. Merriweather is 
+traditional in feeling despite the modern shapes it has adopted for screens. 
 
 Merriweather is an evolving project and will be updated. As of now there are 5
-styles: Regular, Light, Bold, and Black Roman styles, and a Regular Italic style. There will be Italic styles in each of these weights.
+styles: Regular, Light, Bold, and Black Roman and Italic styles.
 
-There is also Merriweather Sans, a sans-serif version which closely harmonizes with the weights and styles of this serif family.
+There is also Merriweather Sans, a sans-serif version which closely 
+harmonizes with the weights and styles of this serif family.
 
 http://www.google.com/webfonts/specimen/Merriweather+Sans
 
@@ -41,7 +43,8 @@ languages that use the Latin script and its variants, and
 could be expanded to support other scripts.
 
 More specifically, this release supports the following Unicode 
-ranges: Latin-1
+ranges: Latin-1, Latin-2: Eastern Europe, Turkish, 
+Macintosh Character Set and Adobe Latin 3 character set.
 
 There are four source files for each style:
 
@@ -59,6 +62,16 @@ There are four source files for each style:
 To contribute to the project contact Eben Sorkin at sorkineben@gmail.com
 
 ChangeLog
+
+1 May 2013 (Eben Sorkin) Merriweather v1.4
+- Italic Light, Bold, Black added
+- Hinted fonts using TTFAutohint version 0.93.8-669f
+- Mastered VBF to TTF and other formats.
+- Improved the design in response to additional print 
+  and rendering tests and added glyphs to cover the entire 
+  Adobe Latin 3 character set. ( VBF format )
+- Completed first complete version of Merriweather in 
+  Fontlab ( VBF format )
 
 14 March 2013 (Eben Sorkin) Merriweather v1.4
 - Italic Regular added
