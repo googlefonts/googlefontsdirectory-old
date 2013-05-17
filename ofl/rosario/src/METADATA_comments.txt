@@ -18,7 +18,7 @@ cd ~/googlefontdirectory/ofl/; \
 for family in rosario; do \
    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
        for subset in \
-           latin latin-ext+latin; do \
+           latin; do \
            echo subset.py --null --nmr --roundtrip --script \
                --subset=$subset $font.ttf $font.$subset; \
            python ~/googlefontdirectory/tools/subset/subset.py \
