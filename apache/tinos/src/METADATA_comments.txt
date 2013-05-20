@@ -1,0 +1,29 @@
+# COMMENTS
+# TODO subsets: coptic,venda,igboonwu,ipa,pinyin
+
+# subsets: menu,latin,latin-ext,cyrillic+latin,cyrillic-ext+latin,greek+latin,greek-ext+latin,vietnamese+latin,hebrew,ipa
+
+for font in `ls *ttf`; do
+fontforge -lang=ff -script src/menusubset-tinos.ff $font;
+done;
+rename s/ttf.menu.ttf/menu/g *;
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext; \
+cd ~/googlefontdirectory/apache/; \
+for family in tinos; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           latin latin-ext \
+           cyrillic+latin cyrillic-ext+latin \
+           vietnamese+latin \
+           greek+latin greek-ext+latin; do \
+           echo subset.py --null --nmr --roundtrip --script \
+               --subset=$subset $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+               --null --nmr --roundtrip --script --subset=$subset \
+               $font.ttf $font.$subset > $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/apache/tinos/; \
+rename 's/([^+])\+latin$/$1/' *;
