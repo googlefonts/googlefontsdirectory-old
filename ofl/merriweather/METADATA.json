@@ -17,6 +17,15 @@
     },
     {
       "name": "Merriweather",
+      "postScriptName": "Merriweather-LightItalic",
+      "fullName": "Merriweather Light Italic",
+      "style": "italic",
+      "weight": 300,
+      "filename": "Merriweather-LightItalic.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
       "postScriptName": "Merriweather",
       "fullName": "Merriweather",
       "style": "normal",
@@ -44,12 +53,30 @@
     },
     {
       "name": "Merriweather",
+      "postScriptName": "Merriweather-BoldItalic",
+      "fullName": "Merriweather Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "Merriweather-BoldItalic.ttf",
+      "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
       "postScriptName": "Merriweather-Heavy",
       "fullName": "Merriweather Heavy",
       "style": "normal",
       "weight": 900,
       "filename": "Merriweather-Black.ttf",
       "copyright": "Copyright (c) 2010-2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
+    },
+    {
+      "name": "Merriweather",
+      "postScriptName": "Merriweather-HeavyItalic",
+      "fullName": "Merriweather Heavy Italic",
+      "style": "italic",
+      "weight": 900,
+      "filename": "Merriweather-HeavyItalic.ttf",
+      "copyright": "Copyright (c) 2013, Sorkin Type Co (www.sorkintype.com) with Reserved Font Name 'Merriweather'"
     }
   ],
   "subsets": [
