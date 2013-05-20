@@ -1,0 +1,6198 @@
+SplineFontDB: 3.0
+FontName: Cousine-Italic
+FullName: Cousine Italic
+FamilyName: Cousine
+Weight: Book
+Copyright: Digitized data copyright (c) 2010-2012 Google Corporation.
+Version: 1.21
+ItalicAngle: -12
+UnderlinePosition: -435
+UnderlineWidth: 84
+Ascent: 1638
+Descent: 410
+sfntRevision: 0x000135c3
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+XUID: [1021 143 1589919024 12096789]
+FSType: 8
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1277886966
+ModificationTime: 1369028125
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 7 4 9 2 2 5 9 4 4
+OS2TypoAscent: 1255
+OS2TypoAOffset: 0
+OS2TypoDescent: -386
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1705
+OS2WinAOffset: 0
+OS2WinDescent: 615
+OS2WinDOffset: 0
+HheadAscent: 1705
+HheadAOffset: 0
+HheadDescent: -615
+HheadDOffset: 0
+OS2SubXSize: 1434
+OS2SubYSize: 1331
+OS2SubXOff: 30
+OS2SubYOff: 285
+OS2SupXSize: 1434
+OS2SupYSize: 1331
+OS2SupXOff: 80
+OS2SupYOff: 865
+OS2StrikeYSize: 102
+OS2StrikeYPos: 530
+OS2FamilyClass: 2053
+OS2Vendor: 'MONO'
+OS2CodePages: 600001bf.dff70000
+OS2UnicodeRanges: e0000aff.400078ff.00000001.00000000
+Lookup: 4 1 0 "'dlig' Discretionary Ligatures in Hebrew lookup 0"  {"'dlig' Discretionary Ligatures in Hebrew lookup 0 subtable"  } ['dlig' ('hebr' <'dflt' > ) ]
+Lookup: 4 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 1"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 1 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 6 1 0 "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2"  {"'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable"  } ['ccmp' ('hebr' <'dflt' > ) ]
+Lookup: 4 1 0 "Ligature Substitution lookup 3"  {"Ligature Substitution lookup 3 subtable"  } []
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 0"  {"'mark' Mark Positioning in Hebrew lookup 0 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 7 0 "'mark' Mark Positioning in Hebrew lookup 1"  {"'mark' Mark Positioning in Hebrew lookup 1 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 2"  {"'mark' Mark Positioning in Hebrew lookup 2 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 3"  {"'mark' Mark Positioning in Hebrew lookup 3 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 4"  {"'mark' Mark Positioning in Hebrew lookup 4 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 5"  {"'mark' Mark Positioning in Hebrew lookup 5 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 5 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 5 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 5 contextual 3"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 6"  {"'mark' Mark Positioning in Hebrew lookup 6 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 6 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 6 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 6 contextual 3"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 7"  {"'mark' Mark Positioning in Hebrew lookup 7 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 7 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 7 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 7 contextual 3"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 8"  {"'mark' Mark Positioning in Hebrew lookup 8 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 8 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 8 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 8 contextual 3"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 9"  {"'mark' Mark Positioning in Hebrew lookup 9 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 10"  {"'mark' Mark Positioning in Hebrew lookup 10 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Hebrew lookup 11"  {"'mark' Mark Positioning in Hebrew lookup 11 subtable"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 12"  {"'mark' Mark Positioning in Hebrew lookup 12 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 3"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 4"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 5"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 6"  "'mark' Mark Positioning in Hebrew lookup 12 contextual 7"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 13"  {"'mark' Mark Positioning in Hebrew lookup 13 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 1"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 2"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 3"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 4"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 5"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 6"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 7"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 8"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 9"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 10"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 11"  "'mark' Mark Positioning in Hebrew lookup 13 contextual 12"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 264 1 0 "'mark' Mark Positioning in Hebrew lookup 14"  {"'mark' Mark Positioning in Hebrew lookup 14 contextual 0"  "'mark' Mark Positioning in Hebrew lookup 14 contextual 1"  } ['mark' ('hebr' <'dflt' > ) ]
+Lookup: 260 1 0 "Mark to base attachment lookup 15"  {"Mark to base attachment lookup 15 subtable"  } []
+Lookup: 260 1 0 "Mark to base attachment lookup 16"  {"Mark to base attachment lookup 16 subtable"  } []
+Lookup: 260 1 0 "Mark to base attachment lookup 17"  {"Mark to base attachment lookup 17 subtable"  } []
+Lookup: 260 1 0 "Mark to base attachment lookup 18"  {"Mark to base attachment lookup 18 subtable"  } []
+Lookup: 257 1 0 "Single Positioning lookup 19"  {"Single Positioning lookup 19 subtable"  } []
+Lookup: 257 1 0 "Single Positioning lookup 20"  {"Single Positioning lookup 20 subtable"  } []
+Lookup: 258 1 0 "Pairwise Positioning (kerning) lookup 21"  {"Pairwise Positioning (kerning) lookup 21 subtable"  } []
+DEI: 91125
+ChainSub2: coverage "'ccmp' Glyph Composition/Decomposition in Hebrew lookup 2 subtable"  0 0 0 1
+ 2 0 1
+  Coverage: 22 alef bet kaf pe yodyod
+  Coverage: 17 patah qamats rafe
+  FCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 3" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 14 contextual 1"  0 0 0 1
+ 2 2 0
+  Coverage: 7 uni05A4
+  Coverage: 7 uni05A5
+  BCoverage: 6 dagesh
+  BCoverage: 4 ayin
+ 1
+  SeqLookup: 0 "Pairwise Positioning (kerning) lookup 21" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 14 contextual 0"  0 0 0 1
+ 2 2 0
+  Coverage: 7 uni05A4
+  Coverage: 7 uni05A5
+  BCoverage: 5 holam
+  BCoverage: 4 ayin
+ 1
+  SeqLookup: 0 "Pairwise Positioning (kerning) lookup 21" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 12"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 5 meteg
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 11"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni05A4
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 10"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni05A3
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 9"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni059A
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 8"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni0596
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 7"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 5 hiriq
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 6"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 5 sheva
+  BCoverage: 6 qamats
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 5"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni0596
+  BCoverage: 5 patah
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 4"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni059A
+  BCoverage: 5 segol
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 3"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni05A3
+  BCoverage: 5 segol
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 2"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 5 meteg
+  BCoverage: 5 tsere
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 1"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 7 uni05A3
+  BCoverage: 5 tsere
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 13 contextual 0"  0 0 0 1
+ 1 2 0
+  Coverage: 45 uni0591 uni0596 uni05A3 uni05A4 uni05A5 meteg
+  BCoverage: 5 meteg
+  BCoverage: 5 hiriq
+ 1
+  SeqLookup: 0 "Single Positioning lookup 20" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 7"  0 0 0 1
+ 1 2 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 6"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 6 qamats
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 5"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 5 patah
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 4"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 5 tsere
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 3"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 5 hiriq
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 2"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 meteg
+  BCoverage: 5 sheva
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 1"  0 0 0 1
+ 1 3 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 5 hiriq
+  BCoverage: 5 sheva
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 12 contextual 0"  0 0 0 1
+ 1 2 0
+  Coverage: 15 uni059A uni05AD
+  BCoverage: 131 sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 195 gimel dalet vav zayin yod lamed nun resh daletwide lamedwide reshwide gimeldagesh daletdagesh vavdagesh zayindagesh yoddagesh lameddagesh nundagesh reshdagesh vavholam lamedholamdagesh lamedholam
+ 1
+  SeqLookup: 0 "Single Positioning lookup 19" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 8 contextual 3"  0 0 0 1
+ 1 2 0
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 79 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 18" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 8 contextual 2"  0 0 0 1
+ 1 2 0
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 131 sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 18" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 8 contextual 1"  0 0 0 1
+ 1 2 0
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 79 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 18" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 8 contextual 0"  0 0 0 1
+ 1 2 0
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 131 sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 18" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 7 contextual 3"  0 0 0 1
+ 1 1 1
+  Coverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+  FCoverage: 12 rafe uniFB1E
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 17" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 7 contextual 2"  0 0 0 1
+ 1 2 0
+  Coverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 12 rafe uniFB1E
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 17" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 7 contextual 1"  0 0 0 1
+ 1 1 1
+  Coverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+  FCoverage: 12 rafe uniFB1E
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 17" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 7 contextual 0"  0 0 0 1
+ 1 2 0
+  Coverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 12 rafe uniFB1E
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 17" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 6 contextual 3"  0 0 0 1
+ 1 1 1
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+  FCoverage: 79 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 16" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 6 contextual 2"  0 0 0 1
+ 1 1 1
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+  FCoverage: 131 sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 16" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 6 contextual 1"  0 0 0 1
+ 1 1 1
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+  FCoverage: 131 sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 16" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 6 contextual 0"  0 0 0 1
+ 1 1 1
+  Coverage: 211 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA sheva hatafsegol hatafpatah hatafqamats hiriq tsere segol patah qamats qubuts meteg qamatsqatan uni05B105BD uni05B205BD uni05B305BD
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+  FCoverage: 79 uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 16" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 5 contextual 3"  0 0 0 1
+ 1 2 0
+  Coverage: 12 rafe uniFB1E
+  BCoverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 15" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 5 contextual 2"  0 0 0 1
+ 1 1 1
+  Coverage: 12 rafe uniFB1E
+  BCoverage: 422 yodyod_patah shinshindot shinsindot shindageshshindot shindageshsindot alefpatah alefqamats alefmapiq betdagesh gimeldagesh daletdagesh hedagesh vavdagesh zayindagesh tetdagesh yoddagesh finalkafdagesh kafdagesh lameddagesh memdagesh nundagesh samekhdagesh finalpedagesh pedagesh tsadidagesh qofdagesh reshdagesh shindagesh tavdagesh vavholam betrafe kafrafe perafe lamedholamdagesh lamedholam finalkafqamats finalkafsheva
+  FCoverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 15" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 5 contextual 1"  0 0 0 1
+ 1 2 0
+  Coverage: 12 rafe uniFB1E
+  BCoverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 15" 
+EndFPST
+ChainPos2: coverage "'mark' Mark Positioning in Hebrew lookup 5 contextual 0"  0 0 0 1
+ 1 1 1
+  Coverage: 12 rafe uniFB1E
+  BCoverage: 251 uni25CC alef bet gimel dalet he vav zayin het tet yod finalkaf kaf lamed finalmem mem finalnun nun samekh ayin finalpe pe finaltsadi tsadi qof resh shin tav vavvav vavyod yodyod alefwide daletwide hewide kafwide lamedwide finalmemwide reshwide tavwide
+  FCoverage: 111 uni0592 uni0593 uni0594 uni0595 uni0597 uni0598 uni059C uni059E uni059F uni05A1 uni05A8 uni05AB uni05AC uni05AF
+ 1
+  SeqLookup: 0 "Mark to base attachment lookup 15" 
+EndFPST
+TtTable: prep
+NPUSHW
+ 38
+ 339
+ 1
+ 333
+ 85
+ 338
+ 1
+ 333
+ 85
+ 342
+ 340
+ 20
+ 31
+ 341
+ 340
+ 31
+ 31
+ 335
+ 51
+ 334
+ 85
+ 332
+ 51
+ 333
+ 85
+ 317
+ 61
+ 316
+ 85
+ 316
+ 1
+ 314
+ 85
+ 315
+ 61
+ 314
+ 85
+ 309
+ 308
+PUSHB_3
+ 128
+ 31
+ 0
+NPUSHW
+ 45
+ 308
+ 16
+ 308
+ 2
+ 308
+ 2
+ 302
+ 85
+ 307
+ 72
+ 306
+ 85
+ 128
+ 306
+ 1
+ 306
+ 2
+ 302
+ 85
+ 305
+ 61
+ 304
+ 85
+ 15
+ 304
+ 1
+ 304
+ 2
+ 302
+ 85
+ 303
+ 61
+ 302
+ 85
+ 32
+ 302
+ 96
+ 302
+ 2
+ 0
+ 302
+ 32
+ 302
+ 2
+ 302
+PUSHB_3
+ 1
+ 0
+ 85
+PUSHW_1
+ 301
+PUSHB_3
+ 61
+ 0
+ 85
+PUSHW_1
+ 300
+PUSHB_4
+ 0
+ 255
+ 31
+ 128
+NPUSHW
+ 17
+ 324
+ 1
+ 324
+ 1
+ 318
+ 85
+ 323
+ 61
+ 322
+ 85
+ 322
+ 1
+ 318
+ 85
+ 319
+ 61
+ 318
+NPUSHB
+ 71
+ 85
+ 16
+ 253
+ 1
+ 245
+ 80
+ 40
+ 31
+ 244
+ 70
+ 42
+ 31
+ 241
+ 70
+ 40
+ 31
+ 240
+ 70
+ 53
+ 31
+ 159
+ 238
+ 175
+ 238
+ 191
+ 238
+ 3
+ 127
+ 239
+ 159
+ 239
+ 2
+ 207
+ 239
+ 1
+ 176
+ 239
+ 1
+ 47
+ 239
+ 111
+ 239
+ 127
+ 239
+ 3
+ 0
+ 236
+ 16
+ 236
+ 48
+ 236
+ 64
+ 236
+ 80
+ 236
+ 112
+ 236
+ 128
+ 236
+ 7
+ 9
+ 16
+ 235
+ 1
+ 0
+ 235
+ 176
+ 235
+ 2
+ 17
+ 64
+PUSHW_1
+ 296
+NPUSHB
+ 56
+ 21
+ 27
+ 70
+ 64
+ 233
+ 18
+ 23
+ 70
+ 231
+ 228
+ 38
+ 31
+ 230
+ 228
+ 61
+ 31
+ 229
+ 228
+ 30
+ 31
+ 15
+ 228
+ 1
+ 29
+ 227
+ 226
+ 70
+ 31
+ 15
+ 226
+ 1
+ 64
+ 226
+ 70
+ 22
+ 31
+ 225
+ 224
+ 70
+ 31
+ 191
+ 224
+ 207
+ 224
+ 223
+ 224
+ 3
+ 64
+ 224
+ 51
+ 54
+ 70
+ 224
+ 70
+ 24
+ 31
+PUSHW_5
+ 276
+ 62
+ 274
+ 85
+ 275
+NPUSHB
+ 12
+ 61
+ 3
+ 85
+ 223
+ 61
+ 221
+ 85
+ 222
+ 61
+ 220
+ 85
+ 0
+NPUSHW
+ 23
+ 278
+ 1
+ 278
+ 1
+ 277
+ 85
+ 175
+ 277
+ 1
+ 32
+ 277
+ 80
+ 277
+ 2
+ 15
+ 277
+ 1
+ 0
+ 274
+ 48
+ 274
+ 2
+ 274
+PUSHB_3
+ 1
+ 3
+ 85
+PUSHW_1
+ 273
+NPUSHB
+ 80
+ 3
+ 255
+ 31
+ 221
+ 1
+ 220
+ 85
+ 32
+ 220
+ 80
+ 220
+ 128
+ 220
+ 176
+ 220
+ 4
+ 15
+ 220
+ 1
+ 208
+ 21
+ 51
+ 31
+ 191
+ 194
+ 1
+ 96
+ 192
+ 112
+ 192
+ 128
+ 192
+ 3
+ 63
+ 192
+ 1
+ 32
+ 192
+ 1
+ 0
+ 192
+ 1
+ 193
+ 80
+ 38
+ 31
+ 112
+ 190
+ 1
+ 32
+ 190
+ 48
+ 190
+ 192
+ 190
+ 3
+ 112
+ 190
+ 128
+ 190
+ 2
+ 189
+ 188
+ 60
+ 31
+ 186
+ 173
+ 23
+ 31
+ 185
+ 173
+ 38
+ 31
+ 80
+ 184
+ 112
+ 184
+ 128
+ 184
+ 3
+PUSHW_1
+ -64
+PUSHB_4
+ 184
+ 19
+ 41
+ 70
+PUSHW_1
+ -64
+NPUSHB
+ 16
+ 184
+ 9
+ 12
+ 70
+ 16
+ 183
+ 1
+ 32
+ 183
+ 80
+ 183
+ 128
+ 183
+ 176
+ 183
+ 4
+PUSHW_1
+ 291
+NPUSHB
+ 10
+ 181
+ 49
+ 31
+ 15
+ 179
+ 63
+ 179
+ 239
+ 179
+ 3
+PUSHW_2
+ 289
+ 287
+PUSHB_3
+ 60
+ 31
+ 64
+PUSHW_1
+ 287
+PUSHB_3
+ 29
+ 32
+ 70
+PUSHW_1
+ 269
+NPUSHB
+ 31
+ 170
+ 72
+ 31
+ 47
+ 175
+ 63
+ 175
+ 2
+ 160
+ 173
+ 176
+ 173
+ 2
+ 192
+ 173
+ 208
+ 173
+ 2
+ 47
+ 172
+ 63
+ 172
+ 2
+ 159
+ 171
+ 1
+ 192
+ 170
+ 208
+ 170
+ 2
+PUSHW_2
+ -32
+ 286
+PUSHB_4
+ 32
+ 35
+ 70
+ 75
+NPUSHW
+ 40
+ 286
+ 1
+ 36
+ 286
+ 1
+ 164
+ 286
+ 1
+ 137
+ 286
+ 1
+ 91
+ 286
+ 1
+ 73
+ 286
+ 1
+ 45
+ 286
+ 61
+ 286
+ 2
+ 21
+ 286
+ 1
+ 6
+ 286
+ 1
+ 271
+ 50
+ 270
+ 85
+ 0
+ 270
+ 16
+ 270
+ 32
+ 270
+ 112
+ 270
+PUSHB_5
+ 4
+ 157
+ 156
+ 18
+ 31
+PUSHW_1
+ -64
+NPUSHB
+ 20
+ 156
+ 14
+ 17
+ 70
+ 32
+ 153
+ 48
+ 153
+ 2
+ 153
+ 150
+ 18
+ 31
+ 152
+ 70
+ 38
+ 31
+ 16
+ 151
+ 1
+PUSHW_1
+ -64
+PUSHB_4
+ 150
+ 22
+ 28
+ 70
+PUSHW_1
+ -64
+NPUSHB
+ 42
+ 150
+ 14
+ 17
+ 70
+ 149
+ 27
+ 255
+ 31
+ 15
+ 148
+ 175
+ 148
+ 191
+ 148
+ 3
+ 64
+ 148
+ 29
+ 49
+ 70
+ 64
+ 148
+ 22
+ 27
+ 70
+ 64
+ 148
+ 12
+ 15
+ 70
+ 15
+ 147
+ 47
+ 147
+ 63
+ 147
+ 127
+ 147
+ 239
+ 147
+ 5
+ 15
+PUSHW_3
+ 268
+ 111
+ 268
+NPUSHB
+ 32
+ 2
+ 146
+ 141
+ 38
+ 31
+ 145
+ 83
+ 255
+ 31
+ 223
+ 144
+ 1
+ 48
+ 144
+ 1
+ 31
+ 144
+ 47
+ 144
+ 2
+ 111
+ 144
+ 127
+ 144
+ 2
+ 0
+ 143
+ 16
+ 143
+ 32
+ 143
+ 3
+PUSHW_1
+ -64
+NPUSHB
+ 34
+ 143
+ 24
+ 28
+ 70
+ 16
+ 142
+ 32
+ 142
+ 48
+ 142
+ 3
+ 79
+ 141
+ 95
+ 141
+ 111
+ 141
+ 3
+ 48
+ 140
+ 1
+ 15
+ 140
+ 31
+ 140
+ 47
+ 140
+ 3
+ 64
+ 140
+ 16
+ 19
+ 70
+ 16
+PUSHW_8
+ 267
+ 32
+ 267
+ 48
+ 267
+ 3
+ -64
+ 267
+PUSHB_3
+ 23
+ 32
+ 70
+PUSHW_2
+ -64
+ 267
+PUSHB_6
+ 16
+ 20
+ 70
+ 128
+ 139
+ 1
+PUSHW_1
+ -64
+NPUSHB
+ 39
+ 139
+ 12
+ 15
+ 70
+ 137
+ 74
+ 60
+ 31
+ 136
+ 132
+ 60
+ 31
+ 112
+ 134
+ 128
+ 134
+ 2
+ 159
+ 133
+ 175
+ 133
+ 191
+ 133
+ 3
+ 48
+ 130
+ 1
+ 129
+ 109
+ 255
+ 31
+ 128
+ 3
+ 255
+ 31
+ 115
+ 80
+ 38
+ 31
+PUSHW_1
+ 284
+PUSHB_4
+ 70
+ 17
+ 31
+ 16
+PUSHW_1
+ 283
+NPUSHB
+ 67
+ 23
+ 26
+ 70
+ 219
+ 114
+ 235
+ 114
+ 251
+ 114
+ 3
+ 32
+ 114
+ 29
+ 33
+ 70
+ 196
+ 114
+ 212
+ 114
+ 2
+ 113
+ 111
+ 72
+ 31
+ 111
+ 70
+ 53
+ 31
+ 110
+ 70
+ 53
+ 31
+ 26
+ 1
+ 24
+ 85
+ 25
+ 51
+ 24
+ 85
+ 7
+ 51
+ 3
+ 85
+ 6
+ 3
+ 255
+ 31
+ 41
+ 109
+ 1
+ 108
+ 3
+ 255
+ 31
+ 97
+ 80
+ 28
+ 31
+ 96
+ 80
+ 38
+ 31
+ 95
+ 80
+ 38
+ 31
+PUSHW_1
+ 281
+PUSHB_4
+ 70
+ 44
+ 31
+ 207
+PUSHW_5
+ 280
+ 223
+ 280
+ 2
+ 280
+PUSHB_3
+ 70
+ 28
+ 31
+PUSHW_1
+ 279
+NPUSHB
+ 35
+ 70
+ 38
+ 31
+ 94
+ 90
+ 72
+ 31
+ 92
+ 70
+ 49
+ 31
+ 91
+ 90
+ 72
+ 31
+ 90
+ 70
+ 49
+ 31
+ 20
+ 1
+ 18
+ 85
+ 19
+ 50
+ 18
+ 85
+ 5
+ 1
+ 3
+ 85
+ 4
+ 50
+ 3
+ 85
+PUSHW_1
+ 264
+NPUSHB
+ 14
+ 27
+ 60
+ 31
+ 15
+ 3
+ 1
+ 150
+ 89
+ 166
+ 89
+ 2
+ 111
+ 83
+ 1
+PUSHW_1
+ 282
+NPUSHB
+ 57
+ 80
+ 38
+ 31
+ 82
+ 80
+ 27
+ 31
+ 239
+ 81
+ 255
+ 81
+ 2
+ 64
+ 81
+ 53
+ 56
+ 70
+ 64
+ 81
+ 37
+ 40
+ 70
+ 207
+ 80
+ 1
+ 79
+ 76
+ 60
+ 31
+ 78
+ 70
+ 49
+ 31
+ 77
+ 70
+ 49
+ 31
+ 22
+ 76
+ 38
+ 76
+ 54
+ 76
+ 3
+ 7
+ 76
+ 1
+ 231
+ 76
+ 247
+ 76
+ 2
+ 75
+ 70
+ 52
+ 31
+ 80
+PUSHW_1
+ 293
+NPUSHB
+ 98
+ 1
+ 74
+ 70
+ 38
+ 31
+ 73
+ 70
+ 53
+ 31
+ 72
+ 70
+ 53
+ 31
+ 71
+ 70
+ 53
+ 31
+ 175
+ 70
+ 1
+ 223
+ 70
+ 239
+ 70
+ 2
+ 128
+ 70
+ 1
+ 28
+ 72
+ 27
+ 85
+ 23
+ 1
+ 21
+ 85
+ 22
+ 50
+ 21
+ 85
+ 17
+ 1
+ 15
+ 85
+ 16
+ 50
+ 15
+ 85
+ 2
+ 1
+ 0
+ 85
+ 1
+ 0
+ 1
+ 31
+ 31
+ 15
+ 63
+ 15
+ 95
+ 15
+ 127
+ 15
+ 4
+ 15
+ 15
+ 47
+ 15
+ 79
+ 15
+ 111
+ 15
+ 143
+ 15
+ 223
+ 15
+ 255
+ 15
+ 7
+ 63
+ 15
+ 127
+ 15
+ 239
+ 15
+ 3
+ 111
+ 0
+ 1
+ 79
+ 0
+ 1
+ 144
+ 22
+ 1
+ 5
+ 1
+PUSHW_1
+ 400
+PUSHB_2
+ 84
+ 83
+CALL
+CALL
+MPPEM
+PUSHW_1
+ 2047
+GT
+MPPEM
+PUSHB_1
+ 9
+LT
+OR
+PUSHB_1
+ 1
+GETINFO
+PUSHB_1
+ 37
+GTEQ
+PUSHB_1
+ 1
+GETINFO
+PUSHB_1
+ 64
+LTEQ
+AND
+PUSHB_1
+ 6
+GETINFO
+PUSHB_1
+ 0
+NEQ
+AND
+OR
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+SCANCTRL
+SCANTYPE
+SCANTYPE
+SVTCA[y-axis]
+WS
+SCVTCI
+MPPEM
+PUSHB_1
+ 50
+GTEQ
+IF
+PUSHB_1
+ 96
+SCVTCI
+EIF
+MPPEM
+PUSHB_1
+ 100
+GTEQ
+IF
+PUSHB_1
+ 64
+SCVTCI
+EIF
+MPPEM
+PUSHB_1
+ 128
+GTEQ
+IF
+PUSHB_1
+ 16
+SCVTCI
+PUSHB_2
+ 22
+ 0
+WS
+EIF
+DELTAC1
+DELTAC2
+DELTAC1
+DELTAC2
+DELTAC3
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+DELTAC1
+DELTAC2
+DELTAC3
+CALL
+CALL
+CALL
+CALL
+DELTAC1
+SVTCA[y-axis]
+CALL
+DELTAC1
+DELTAC2
+DELTAC2
+CALL
+CALL
+CALL
+DELTAC2
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+DELTAC1
+SVTCA[x-axis]
+DELTAC1
+SVTCA[y-axis]
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+CALL
+CALL
+CALL
+SVTCA[y-axis]
+CALL
+CALL
+CALL
+DELTAC2
+CALL
+CALL
+CALL
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+CALL
+CALL
+SVTCA[y-axis]
+CALL
+DELTAC1
+CALL
+DELTAC2
+CALL
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+DELTAC2
+DELTAC1
+DELTAC1
+CALL
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+DELTAC1
+SVTCA[y-axis]
+CALL
+DELTAC1
+DELTAC2
+DELTAC2
+DELTAC2
+CALL
+DELTAC3
+DELTAC1
+DELTAC2
+DELTAC2
+DELTAC2
+CALL
+CALL
+DELTAC1
+DELTAC1
+CALL
+CALL
+CALL
+DELTAC1
+CALL
+SVTCA[x-axis]
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+DELTAC2
+SVTCA[y-axis]
+CALL
+CALL
+DELTAC1
+CALL
+SVTCA[x-axis]
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC2
+DELTAC2
+CALL
+DELTAC1
+DELTAC1
+DELTAC2
+SVTCA[y-axis]
+DELTAC1
+DELTAC2
+DELTAC2
+CALL
+CALL
+CALL
+DELTAC1
+SVTCA[x-axis]
+CALL
+SVTCA[y-axis]
+DELTAC1
+DELTAC2
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+DELTAC1
+DELTAC2
+DELTAC3
+SVTCA[y-axis]
+CALL
+SVTCA[x-axis]
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+SVTCA[y-axis]
+DELTAC1
+CALL
+DELTAC1
+DELTAC1
+CALL
+CALL
+CALL
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC1
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+CALL
+CALL
+DELTAC2
+CALL
+CALL
+SDB
+DELTAC1
+CALL
+SVTCA[y-axis]
+SDB
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+CALL
+SVTCA[x-axis]
+SDB
+DELTAC1
+DELTAC3
+SDB
+DELTAC1
+SVTCA[y-axis]
+DELTAC1
+DELTAC1
+DELTAC1
+DELTAC2
+DELTAC1
+SVTCA[x-axis]
+CALL
+CALL
+SVTCA[y-axis]
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+DELTAC1
+DELTAC2
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+DELTAC1
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+CALL
+RTG
+EndTTInstrs
+TtTable: fpgm
+NPUSHB
+ 71
+ 91
+ 90
+ 89
+ 88
+ 85
+ 84
+ 83
+ 82
+ 81
+ 80
+ 79
+ 78
+ 77
+ 76
+ 75
+ 74
+ 73
+ 72
+ 71
+ 70
+ 69
+ 68
+ 67
+ 66
+ 65
+ 64
+ 63
+ 62
+ 61
+ 60
+ 59
+ 58
+ 57
+ 56
+ 55
+ 54
+ 53
+ 49
+ 48
+ 47
+ 46
+ 45
+ 44
+ 40
+ 39
+ 38
+ 37
+ 36
+ 35
+ 34
+ 33
+ 31
+ 24
+ 20
+ 17
+ 16
+ 15
+ 14
+ 13
+ 11
+ 10
+ 9
+ 8
+ 7
+ 6
+ 5
+ 4
+ 3
+ 2
+ 1
+ 0
+FDEF
+DUP
+PUSHB_1
+ 1
+ADD
+RCVT
+PUSHB_1
+ 3
+CINDEX
+DUP
+SRP1
+GC[cur]
+SUB
+SWAP
+RCVT
+SWAP
+SUB
+SCFS
+ENDF
+FDEF
+DUP
+RCVT
+RTG
+ROUND[Grey]
+WCVTP
+ENDF
+FDEF
+RCVT
+SWAP
+GC[cur]
+ADD
+PUSHB_1
+ 32
+SUB
+DUP
+PUSHB_1
+ 70
+ADD
+PUSHB_1
+ 4
+MINDEX
+SWAP
+SCFS
+SCFS
+ENDF
+FDEF
+RCVT
+SWAP
+GC[cur]
+SWAP
+SUB
+PUSHB_1
+ 32
+ADD
+DUP
+PUSHB_1
+ 38
+SUB
+PUSHB_1
+ 32
+SUB
+PUSHB_1
+ 4
+MINDEX
+SWAP
+SCFS
+SCFS
+ENDF
+FDEF
+RCVT
+SWAP
+GC[cur]
+ADD
+PUSHB_1
+ 64
+SUB
+DUP
+PUSHB_1
+ 102
+ADD
+PUSHB_1
+ 4
+MINDEX
+SWAP
+SCFS
+SCFS
+ENDF
+FDEF
+RCVT
+SWAP
+GC[cur]
+SWAP
+SUB
+PUSHB_1
+ 64
+ADD
+DUP
+PUSHB_1
+ 38
+SUB
+PUSHB_1
+ 64
+SUB
+PUSHB_1
+ 4
+MINDEX
+SWAP
+SCFS
+SCFS
+ENDF
+FDEF
+SVTCA[x-axis]
+SRP0
+DUP
+ALIGNRP
+SVTCA[y-axis]
+ALIGNRP
+ENDF
+FDEF
+DUP
+RCVT
+SWAP
+DUP
+PUSHB_1
+ 205
+WCVTP
+SWAP
+DUP
+PUSHW_1
+ 346
+LTEQ
+IF
+SWAP
+DUP
+PUSHB_1
+ 141
+WCVTP
+SWAP
+EIF
+DUP
+PUSHB_1
+ 237
+LTEQ
+IF
+SWAP
+DUP
+PUSHB_1
+ 77
+WCVTP
+SWAP
+EIF
+DUP
+PUSHB_1
+ 4
+MINDEX
+LTEQ
+IF
+SWAP
+DUP
+PUSHB_1
+ 13
+WCVTP
+SWAP
+EIF
+POP
+POP
+ENDF
+FDEF
+DUP
+DUP
+RCVT
+RTG
+ROUND[Grey]
+WCVTP
+DUP
+PUSHB_1
+ 1
+ADD
+DUP
+RCVT
+PUSHB_1
+ 70
+SROUND
+ROUND[Grey]
+ROLL
+RCVT
+ADD
+WCVTP
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_2
+ 11
+ 10
+RS
+SWAP
+RS
+NEG
+SPVFS
+ENDF
+FDEF
+SVTCA[y-axis]
+PUSHB_2
+ 10
+ 11
+RS
+SWAP
+RS
+SFVFS
+ENDF
+FDEF
+SVTCA[y-axis]
+PUSHB_1
+ 40
+SWAP
+WCVTF
+PUSHB_2
+ 1
+ 40
+MIAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_1
+ 40
+SWAP
+WCVTF
+PUSHB_2
+ 2
+ 40
+RCVT
+MSIRP[no-rp0]
+PUSHB_2
+ 2
+ 0
+SFVTL[parallel]
+GFV
+ENDF
+FDEF
+DUP
+RCVT
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SUB
+ABS
+PUSHB_1
+ 80
+LTEQ
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+MD[grid]
+PUSHB_1
+ 14
+SWAP
+WCVTP
+ENDF
+FDEF
+DUP
+RCVT
+PUSHB_1
+ 0
+RS
+ADD
+WCVTP
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 6
+RS
+PUSHB_1
+ 7
+RS
+NEG
+SPVFS
+ENDF
+FDEF
+DUP
+ROUND[Black]
+PUSHB_1
+ 64
+SUB
+PUSHB_1
+ 0
+MAX
+DUP
+PUSHB_2
+ 44
+ 192
+ROLL
+MIN
+PUSHW_1
+ 4096
+DIV
+ADD
+CALL
+GPV
+ABS
+SWAP
+ABS
+SUB
+NOT
+IF
+PUSHB_1
+ 3
+SUB
+EIF
+ENDF
+FDEF
+ROLL
+SPVTCA[x-axis]
+RCVT
+ROLL
+ROLL
+SDPVTL[orthog]
+PUSHB_1
+ 17
+CALL
+PUSHB_1
+ 41
+SWAP
+WCVTP
+PUSHB_1
+ 41
+ROFF
+MIRP[rnd,grey]
+RTG
+ENDF
+FDEF
+RCVT
+NEG
+PUSHB_1
+ 44
+SWAP
+WCVTP
+RCVT
+PUSHB_1
+ 43
+SWAP
+WCVTP
+ENDF
+FDEF
+MPPEM
+GT
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+MPPEM
+LTEQ
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 5
+CINDEX
+SRP0
+SWAP
+DUP
+ROLL
+MIRP[rp0,rnd,black]
+SVTCA[y-axis]
+PUSHB_1
+ 1
+ADD
+SWAP
+MIRP[min,rnd,black]
+MIRP[min,rnd,grey]
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 5
+CINDEX
+SRP0
+SWAP
+DUP
+ROLL
+MIRP[rp0,rnd,black]
+SVTCA[y-axis]
+PUSHB_1
+ 1
+SUB
+SWAP
+MIRP[min,rnd,black]
+MIRP[min,rnd,grey]
+ENDF
+FDEF
+SVTCA[x-axis]
+PUSHB_1
+ 6
+CINDEX
+SRP0
+MIRP[rp0,rnd,black]
+SVTCA[y-axis]
+MIRP[min,rnd,black]
+MIRP[min,rnd,grey]
+ENDF
+FDEF
+PUSHB_1
+ 2
+RS
+PUSHB_1
+ 1
+GT
+IF
+POP
+POP
+POP
+POP
+POP
+ELSE
+GC[cur]
+SWAP
+GC[cur]
+ADD
+ROLL
+ROLL
+GC[cur]
+SWAP
+DUP
+GC[cur]
+ROLL
+ADD
+ROLL
+SUB
+PUSHW_1
+ -128
+DIV
+SWAP
+DUP
+SRP0
+SWAP
+ROLL
+PUSHB_2
+ 12
+ 12
+ROLL
+WCVTF
+RCVT
+ADD
+DUP
+PUSHB_1
+ 0
+LT
+IF
+PUSHB_1
+ 1
+SUB
+PUSHW_1
+ -70
+MAX
+ELSE
+PUSHB_1
+ 70
+MIN
+EIF
+PUSHB_1
+ 16
+ADD
+ROUND[Grey]
+SVTCA[x-axis]
+MSIRP[no-rp0]
+EIF
+ENDF
+FDEF
+DUP
+RCVT
+PUSHB_1
+ 3
+CINDEX
+GC[cur]
+GT
+MPPEM
+PUSHB_1
+ 19
+LTEQ
+OR
+IF
+PUSHB_1
+ 2
+CINDEX
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+PUSHB_1
+ 3
+CINDEX
+PUSHB_1
+ 3
+CINDEX
+MIAP[rnd]
+SWAP
+POP
+SHPIX
+ELSE
+POP
+SRP1
+EIF
+ENDF
+FDEF
+DUP
+RCVT
+PUSHB_1
+ 3
+CINDEX
+GC[cur]
+LT
+IF
+PUSHB_1
+ 2
+CINDEX
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+PUSHB_1
+ 3
+CINDEX
+PUSHB_1
+ 3
+CINDEX
+MIAP[rnd]
+SWAP
+POP
+SHPIX
+ELSE
+POP
+SRP1
+EIF
+ENDF
+FDEF
+SVTCA[y-axis]
+PUSHB_1
+ 7
+RS
+PUSHB_1
+ 6
+RS
+SFVFS
+ENDF
+FDEF
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+LT
+IF
+ROLL
+DUP
+RCVT
+ROLL
+MAX
+WCVTP
+POP
+ELSE
+POP
+RCVT
+WCVTP
+EIF
+ENDF
+FDEF
+POP
+PUSHB_1
+ 128
+LTEQ
+IF
+GPV
+ABS
+SWAP
+ABS
+MAX
+PUSHW_1
+ 8192
+DIV
+ELSE
+PUSHB_3
+ 0
+ 64
+ 47
+CALL
+EIF
+PUSHB_1
+ 2
+ADD
+ENDF
+FDEF
+POP
+PUSHB_1
+ 192
+LTEQ
+IF
+GPV
+ABS
+SWAP
+ABS
+MAX
+PUSHW_1
+ 5461
+DIV
+ELSE
+PUSHB_3
+ 0
+ 128
+ 47
+CALL
+EIF
+PUSHB_1
+ 2
+ADD
+ENDF
+FDEF
+GPV
+ABS
+SWAP
+ABS
+MAX
+PUSHW_1
+ 16384
+DIV
+ADD
+SWAP
+POP
+ENDF
+FDEF
+MPPEM
+GTEQ
+IF
+ROLL
+PUSHB_1
+ 4
+CINDEX
+MD[grid]
+ABS
+SWAP
+RCVT
+ROUND[Black]
+PUSHB_1
+ 64
+MAX
+SUB
+PUSHB_1
+ 128
+DIV
+PUSHB_1
+ 32
+SUB
+ROUND[White]
+PUSHB_1
+ 14
+SWAP
+WCVTP
+SWAP
+SRP0
+PUSHB_1
+ 14
+MIRP[rp0,rnd,white]
+ELSE
+POP
+SWAP
+ROLL
+SRP2
+SRP1
+DUP
+IP
+MDAP[rnd]
+EIF
+ENDF
+FDEF
+MPPEM
+GTEQ
+IF
+DUP
+PUSHB_1
+ 3
+CINDEX
+MD[grid]
+ABS
+ROUND[Black]
+DUP
+PUSHB_1
+ 5
+MINDEX
+PUSHB_1
+ 6
+CINDEX
+MD[grid]
+ABS
+SWAP
+SUB
+PUSHB_1
+ 128
+DIV
+PUSHB_1
+ 32
+SUB
+ROUND[White]
+PUSHB_1
+ 14
+SWAP
+WCVTP
+PUSHB_1
+ 4
+MINDEX
+SRP0
+PUSHB_1
+ 14
+MIRP[rp0,rnd,white]
+ROLL
+SRP0
+PUSHB_1
+ 14
+SWAP
+WCVTP
+PUSHB_1
+ 14
+MIRP[rp0,rnd,white]
+PUSHB_1
+ 14
+SWAP
+WCVTP
+PUSHB_1
+ 14
+MIRP[min,rnd,black]
+ELSE
+ROLL
+PUSHB_1
+ 4
+MINDEX
+SRP1
+SRP2
+DUP
+IP
+SWAP
+DUP
+IP
+MDAP[rnd]
+MDAP[rnd]
+EIF
+ENDF
+FDEF
+RCVT
+SWAP
+RCVT
+ADD
+SWAP
+RCVT
+ADD
+SWAP
+RCVT
+ADD
+SWAP
+SROUND
+ROUND[Grey]
+RTG
+PUSHB_1
+ 128
+DIV
+DUP
+ENDF
+FDEF
+PUSHB_1
+ 72
+CALL
+ENDF
+FDEF
+DUP
+RCVT
+PUSHB_1
+ 0
+EQ
+IF
+PUSHB_1
+ 64
+WCVTP
+DUP
+RCVT
+PUSHB_1
+ 64
+SUB
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+RCVT
+PUSHB_2
+ 48
+ 47
+RCVT
+SWAP
+RCVT
+SUB
+ADD
+PUSHB_1
+ 1
+ADD
+ROUND[Black]
+WCVTP
+ENDF
+FDEF
+MPPEM
+LTEQ
+IF
+PUSHB_1
+ 47
+SWAP
+WCVTF
+PUSHB_1
+ 20
+SWAP
+WS
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+MPPEM
+LTEQ
+IF
+DUP
+PUSHB_1
+ 3
+CINDEX
+RCVT
+ROUND[Black]
+GTEQ
+IF
+WCVTP
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+RCVT
+PUSHB_1
+ 20
+RS
+PUSHB_1
+ 0
+ADD
+MUL
+PUSHB_1
+ 1
+ADD
+ROUND[Black]
+WCVTP
+ENDF
+FDEF
+PUSHB_1
+ 47
+RCVT
+WCVTP
+ENDF
+FDEF
+RCVT
+SWAP
+DUP
+RCVT
+ROLL
+ADD
+WCVTP
+ENDF
+FDEF
+RCVT
+SWAP
+RCVT
+ADD
+WCVTP
+ENDF
+FDEF
+MPPEM
+SWAP
+LTEQ
+IF
+PUSHW_2
+ 51
+ -32
+PUSHB_2
+ 52
+ 32
+ELSE
+PUSHB_4
+ 51
+ 0
+ 52
+ 0
+EIF
+WCVTP
+WCVTP
+ENDF
+FDEF
+PUSHB_1
+ 22
+RS
+IF
+PUSHB_1
+ 3
+MINDEX
+RCVT
+ROLL
+IF
+ABS
+FLOOR
+PUSHB_1
+ 31
+ADD
+ELSE
+ABS
+PUSHB_1
+ 32
+ADD
+FLOOR
+DUP
+IF
+ELSE
+POP
+PUSHB_1
+ 64
+EIF
+PUSHB_1
+ 1
+SUB
+EIF
+SWAP
+IF
+NEG
+EIF
+PUSHB_1
+ 41
+SWAP
+WCVTP
+SWAP
+SRP0
+PUSHB_1
+ 41
+MIRP[grey]
+ELSE
+POP
+POP
+POP
+POP
+POP
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 2
+RS
+EQ
+IF
+MPPEM
+GTEQ
+SWAP
+MPPEM
+LTEQ
+AND
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+POP
+POP
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 22
+RS
+IF
+PUSHB_1
+ 4
+CINDEX
+RCVT
+ABS
+PUSHB_1
+ 32
+ADD
+FLOOR
+DUP
+IF
+ELSE
+POP
+PUSHB_1
+ 64
+EIF
+PUSHB_1
+ 1
+SUB
+SWAP
+IF
+ELSE
+NEG
+EIF
+PUSHB_1
+ 41
+SWAP
+WCVTP
+PUSHB_1
+ 5
+CINDEX
+PUSHB_1
+ 8
+CINDEX
+SFVTL[parallel]
+DUP
+IF
+SPVTCA[y-axis]
+ELSE
+SPVTCA[x-axis]
+EIF
+PUSHB_1
+ 4
+CINDEX
+SRP0
+PUSHB_1
+ 5
+CINDEX
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+SWAP
+WS
+ALIGNRP
+PUSHB_1
+ 4
+CINDEX
+PUSHB_1
+ 7
+CINDEX
+SFVTL[parallel]
+PUSHB_1
+ 7
+CINDEX
+SRP0
+PUSHB_1
+ 6
+CINDEX
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+PUSHB_1
+ 1
+ADD
+SWAP
+WS
+ALIGNRP
+DUP
+IF
+SVTCA[x-axis]
+ELSE
+SVTCA[y-axis]
+EIF
+PUSHB_1
+ 4
+CINDEX
+SRP0
+PUSHB_1
+ 5
+CINDEX
+PUSHB_1
+ 41
+MIRP[grey]
+PUSHB_1
+ 41
+DUP
+RCVT
+NEG
+WCVTP
+PUSHB_1
+ 7
+CINDEX
+SRP0
+PUSHB_1
+ 6
+CINDEX
+PUSHB_1
+ 41
+MIRP[grey]
+PUSHB_1
+ 5
+CINDEX
+PUSHB_1
+ 8
+CINDEX
+SFVTL[parallel]
+DUP
+IF
+SPVTCA[y-axis]
+ELSE
+SPVTCA[x-axis]
+EIF
+PUSHB_1
+ 5
+CINDEX
+PUSHB_1
+ 3
+CINDEX
+RS
+SCFS
+PUSHB_1
+ 4
+CINDEX
+PUSHB_1
+ 7
+CINDEX
+SFVTL[parallel]
+PUSHB_1
+ 6
+CINDEX
+PUSHB_1
+ 3
+CINDEX
+PUSHB_1
+ 1
+ADD
+RS
+SCFS
+ELSE
+POP
+EIF
+POP
+POP
+POP
+POP
+POP
+POP
+POP
+ENDF
+FDEF
+SPVTCA[y-axis]
+PUSHB_1
+ 4
+CINDEX
+DUP
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+SWAP
+WS
+PUSHB_1
+ 5
+CINDEX
+SFVTL[parallel]
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SCFS
+POP
+POP
+POP
+POP
+ENDF
+FDEF
+SPVTCA[y-axis]
+PUSHB_1
+ 3
+CINDEX
+DUP
+PUSHB_1
+ 4
+CINDEX
+SFVTL[parallel]
+PUSHB_1
+ 2
+CINDEX
+RS
+SCFS
+POP
+POP
+POP
+ENDF
+FDEF
+RCVT
+SWAP
+DUP
+RCVT
+RTG
+DUP
+PUSHB_1
+ 0
+LT
+DUP
+IF
+SWAP
+NEG
+SWAP
+EIF
+SWAP
+ROUND[Grey]
+DUP
+PUSHB_1
+ 64
+LT
+IF
+POP
+PUSHB_1
+ 64
+EIF
+SWAP
+IF
+NEG
+EIF
+ROLL
+ADD
+WCVTP
+ENDF
+FDEF
+MPPEM
+GTEQ
+SWAP
+MPPEM
+LTEQ
+AND
+IF
+DUP
+RCVT
+ROLL
+ADD
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+MPPEM
+EQ
+IF
+DUP
+RCVT
+ROLL
+ADD
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+MPPEM
+GTEQ
+SWAP
+MPPEM
+LTEQ
+AND
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 0
+POP
+MPPEM
+EQ
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 2
+RS
+EQ
+IF
+PUSHB_1
+ 70
+CALL
+ELSE
+POP
+POP
+POP
+POP
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 2
+RS
+EQ
+IF
+PUSHB_1
+ 71
+CALL
+ELSE
+POP
+POP
+POP
+EIF
+ENDF
+FDEF
+DUP
+PUSHB_1
+ 2
+EQ
+SWAP
+PUSHB_1
+ 0
+EQ
+OR
+IF
+PUSHB_1
+ 128
+PUSHB_1
+ 2
+RS
+LT
+PUSHB_1
+ 1
+PUSHB_1
+ 2
+RS
+EQ
+OR
+IF
+POP
+POP
+POP
+POP
+ELSE
+PUSHB_1
+ 72
+CALL
+EIF
+ELSE
+PUSHB_1
+ 128
+PUSHB_1
+ 2
+RS
+LT
+PUSHB_1
+ 1
+PUSHB_1
+ 2
+RS
+EQ
+OR
+IF
+PUSHB_1
+ 72
+CALL
+ELSE
+POP
+POP
+POP
+POP
+EIF
+EIF
+ENDF
+FDEF
+DUP
+PUSHB_1
+ 2
+EQ
+SWAP
+PUSHB_1
+ 0
+EQ
+OR
+IF
+PUSHB_1
+ 128
+PUSHB_1
+ 2
+RS
+LT
+PUSHB_1
+ 1
+PUSHB_1
+ 2
+RS
+EQ
+OR
+IF
+POP
+POP
+POP
+ELSE
+PUSHB_1
+ 73
+CALL
+EIF
+ELSE
+PUSHB_1
+ 128
+PUSHB_1
+ 2
+RS
+LT
+PUSHB_1
+ 1
+PUSHB_1
+ 2
+RS
+EQ
+OR
+IF
+PUSHB_1
+ 73
+CALL
+ELSE
+POP
+POP
+POP
+EIF
+EIF
+ENDF
+FDEF
+DUP
+ROLL
+SFVTL[parallel]
+SWAP
+MPPEM
+GTEQ
+ROLL
+MPPEM
+LTEQ
+AND
+IF
+SWAP
+SHPIX
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+SVTCA[y-axis]
+PUSHB_1
+ 2
+CINDEX
+SRP1
+PUSHB_1
+ 2
+CINDEX
+MD[grid]
+ROUND[White]
+DUP
+PUSHB_1
+ 0
+GTEQ
+IF
+PUSHB_1
+ 64
+ADD
+SHPIX
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+SVTCA[y-axis]
+PUSHB_1
+ 2
+CINDEX
+SRP1
+PUSHB_1
+ 2
+CINDEX
+MD[grid]
+ROUND[White]
+DUP
+PUSHB_1
+ 0
+LTEQ
+IF
+PUSHB_1
+ 64
+SUB
+SHPIX
+ELSE
+POP
+POP
+EIF
+ENDF
+FDEF
+DUP
+ROLL
+SWAP
+MD[grid]
+ABS
+ROLL
+SWAP
+GTEQ
+IF
+ALIGNRP
+ELSE
+POP
+EIF
+ENDF
+FDEF
+MPPEM
+GT
+IF
+RDTG
+ELSE
+ROFF
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 18
+SVTCA[y-axis]
+MPPEM
+SVTCA[x-axis]
+MPPEM
+EQ
+WS
+ENDF
+FDEF
+PUSHB_2
+ 2
+ 1
+WS
+PUSHB_2
+ 35
+ 1
+GETINFO
+LTEQ
+PUSHB_2
+ 64
+ 1
+GETINFO
+GTEQ
+AND
+IF
+PUSHB_2
+ 2
+ 0
+WS
+PUSHW_2
+ 4096
+ 32
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 1
+ 2
+RS
+ADD
+WS
+EIF
+PUSHB_2
+ 36
+ 1
+GETINFO
+LTEQ
+IF
+PUSHW_2
+ 8192
+ 64
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 2
+ 2
+RS
+ADD
+WS
+PUSHB_2
+ 36
+ 1
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 32
+ 2
+RS
+ADD
+WS
+SVTCA[y-axis]
+MPPEM
+SVTCA[x-axis]
+MPPEM
+GT
+IF
+PUSHB_3
+ 2
+ 8
+ 2
+RS
+ADD
+WS
+EIF
+ELSE
+PUSHW_2
+ 16384
+ 128
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 4
+ 2
+RS
+ADD
+WS
+EIF
+PUSHW_2
+ 16384
+ 128
+MUL
+PUSHW_1
+ 256
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 8
+ 2
+RS
+ADD
+WS
+EIF
+PUSHW_2
+ 16384
+ 256
+MUL
+PUSHW_1
+ 512
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 16
+ 2
+RS
+ADD
+WS
+EIF
+PUSHB_2
+ 38
+ 1
+GETINFO
+LTEQ
+IF
+PUSHW_2
+ 16384
+ 512
+MUL
+PUSHW_1
+ 1024
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 64
+ 2
+RS
+ADD
+WS
+EIF
+PUSHW_2
+ 16384
+ 1024
+MUL
+PUSHW_1
+ 2048
+GETINFO
+EQ
+IF
+PUSHB_3
+ 2
+ 128
+ 2
+RS
+ADD
+WS
+EIF
+EIF
+EIF
+EIF
+EIF
+EIF
+PUSHB_2
+ 0
+ 2
+RS
+EQ
+IF
+PUSHB_2
+ 2
+ 1
+WS
+EIF
+ENDF
+FDEF
+RCVT
+RTG
+ROUND[Grey]
+SWAP
+MPPEM
+LTEQ
+IF
+SWAP
+DUP
+RCVT
+DUP
+ABS
+PUSHB_1
+ 64
+LT
+IF
+RUTG
+EIF
+ROUND[Grey]
+ROLL
+ADD
+EIF
+WCVTP
+ENDF
+FDEF
+PUSHB_1
+ 0
+SZPS
+PUSHB_1
+ 2
+CINDEX
+PUSHB_1
+ 2
+CINDEX
+SVTCA[x-axis]
+PUSHB_1
+ 1
+SWAP
+MIAP[no-rnd]
+SVTCA[y-axis]
+PUSHB_1
+ 2
+SWAP
+MIAP[no-rnd]
+PUSHB_2
+ 1
+ 2
+SPVTL[parallel]
+GPV
+PUSHB_1
+ 10
+SWAP
+NEG
+WS
+PUSHB_1
+ 11
+SWAP
+WS
+SVTCA[x-axis]
+PUSHB_1
+ 1
+SWAP
+MIAP[rnd]
+SVTCA[y-axis]
+PUSHB_1
+ 2
+SWAP
+MIAP[rnd]
+PUSHB_2
+ 1
+ 2
+SPVTL[parallel]
+GPV
+PUSHB_1
+ 6
+SWAP
+NEG
+WS
+PUSHB_1
+ 7
+SWAP
+WS
+PUSHB_1
+ 1
+SZPS
+SVTCA[x-axis]
+ENDF
+FDEF
+PUSHB_1
+ 128
+PUSHB_1
+ 2
+RS
+LT
+PUSHB_1
+ 1
+PUSHB_1
+ 2
+RS
+EQ
+OR
+IF
+POP
+SWAP
+SRP0
+PUSHB_1
+ 32
+SMD
+MDRP[min,black]
+ELSE
+ROLL
+SRP0
+MIRP[min,rnd,black]
+EIF
+ENDF
+FDEF
+PUSHB_1
+ 89
+CALL
+ENDF
+FDEF
+ROLL
+SRP0
+MIRP[rnd,black]
+ENDF
+EndTTInstrs
+ShortTable: cvt  344
+  1484
+  1484
+  125
+  1349
+  21
+  96
+  1349
+  21
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  1082
+  20
+  119
+  0
+  -20
+  -133
+  0
+  -20
+  -161
+  0
+  -20
+  0
+  -425
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  2048
+  0
+  0
+  180
+  189
+  170
+  160
+  200
+  176
+  138
+  166
+  151
+  122
+  136
+  126
+  165
+  192
+  0
+  0
+  0
+  0
+  1484
+  288
+  191
+  201
+  171
+  140
+  188
+  155
+  141
+  129
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  1349
+  262
+  185
+  180
+  124
+  178
+  152
+  148
+  95
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  1349
+  262
+  111
+  124
+  136
+  149
+  201
+  383
+  141
+  187
+  94
+  445
+  259
+  96
+  121
+  129
+  184
+  192
+  80
+  1201
+  1219
+  -436
+  235
+  563
+  195
+  265
+  123
+  299
+  662
+  622
+  201
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  0
+  146
+  168
+  108
+  146
+  183
+  108
+  0
+  0
+  0
+  754
+  146
+  598
+  110
+  677
+  837
+  137
+  160
+  96
+  588
+  624
+  195
+  0
+  896
+  164
+  347
+  94
+  128
+  105
+  111
+  0
+  94
+  104
+  0
+  0
+  0
+  0
+  0
+  0
+  38
+  842
+  135
+  123
+  0
+  117
+  104
+  0
+  0
+  0
+  0
+  0
+  1410
+  -847
+  11
+  -12
+  131
+  138
+  147
+  153
+  105
+  113
+  91
+  82
+  0
+  128
+  80
+  184
+  598
+  0
+  141
+  799
+  187
+  181
+  0
+  0
+  177
+  139
+  0
+  0
+  0
+  0
+  1705
+  880
+  700
+  520
+  -615
+  145
+  145
+  77
+  77
+  100
+  100
+  0
+  0
+  0
+  -408
+  -360
+  0
+  325
+  325
+  144
+  -266
+  23
+  164
+  1349
+  -760
+  12
+  -18
+  1432
+  -781
+  160
+  132
+  168
+  150
+  115
+  125
+  1860
+  362
+  95
+  150
+  103
+  115
+  566
+  85
+  232
+  111
+  469
+  111
+  0
+  0
+  0
+  1484
+  15
+  -994
+  -14
+  763
+  14
+  1046
+  10
+  -301
+  191
+  0
+  0
+  0
+  0
+  859
+  16
+  -734
+  -20
+  -136
+  -16
+  -416
+  -429
+  763
+  14
+  1046
+  219
+  0
+  0
+  0
+  0
+  1665
+  1128
+  20
+  1227
+  0
+  -20
+  -45
+  -385
+  131
+  219
+  170
+  186
+  160
+  207
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  2385
+  290
+  72
+  99
+  6
+  2
+  16
+  47
+  92
+  0
+  1101
+  785
+  3
+  1
+EndShort
+LangName: 1033 "" "" "" "Monotype Imaging - Cousine Italic" "" "Version 1.21" "" "Cousine is a trademark of Google Inc. and may be registered in certain jurisdictions." "Monotype Imaging Inc." "Steve Matteson" "Cousine was designed by Steve Matteson as an innovative, refreshing sans serif design that is metrically compatible with Courier New+ISIA. Cousine offers improved on-screen readability characteristics and the pan-European WGL character set and solves the needs of developers looking for width-compatible fonts to address document portability across platforms." "http://www.monotypeimaging.com" "http://www.monotypeimaging.com/ProductsServices/TypeDesignerShowcase" "Licensed under the Apache License, Version 2.0" "http://www.apache.org/licenses/LICENSE-2.0" 
+GaspTable: 3 8 10 14 7 65535 15 1
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -24
+AntiAlias: 1
+FitToEm: 1
+AnchorClass2: "Anchor-0"  "'mark' Mark Positioning in Hebrew lookup 0 subtable" "Anchor-1"  "'mark' Mark Positioning in Hebrew lookup 1 subtable" "Anchor-2"  "'mark' Mark Positioning in Hebrew lookup 2 subtable" "Anchor-3"  "'mark' Mark Positioning in Hebrew lookup 3 subtable" "Anchor-4"  "'mark' Mark Positioning in Hebrew lookup 3 subtable" "Anchor-5"  "'mark' Mark Positioning in Hebrew lookup 4 subtable" "Anchor-6"  "'mark' Mark Positioning in Hebrew lookup 4 subtable" "Anchor-7"  "'mark' Mark Positioning in Hebrew lookup 9 subtable" "Anchor-8"  "'mark' Mark Positioning in Hebrew lookup 10 subtable" "Anchor-9"  "'mark' Mark Positioning in Hebrew lookup 11 subtable" "Anchor-10"  "Mark to base attachment lookup 15 subtable" "Anchor-11"  "Mark to base attachment lookup 16 subtable" "Anchor-12"  "Mark to base attachment lookup 17 subtable" "Anchor-13"  "Mark to base attachment lookup 18 subtable" 
+BeginChars: 65653 34
+
+StartChar: parenleft
+Encoding: 40 40 0
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_4
+ 11
+ 0
+ 3
+ 27
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+497 240 m 0,0,1
+ 497 71 497 71 545 -87 c 128,-1,2
+ 593 -245 593 -245 703 -425 c 1,3,-1
+ 513 -425 l 1,4,5
+ 408 -258 408 -258 358.5 -97 c 128,-1,6
+ 309 64 309 64 309 234 c 0,7,8
+ 309 433 309 433 368.5 657 c 128,-1,9
+ 428 881 428 881 547.5 1074.5 c 128,-1,10
+ 667 1268 667 1268 884 1484 c 1,11,-1
+ 1074 1484 l 1,12,13
+ 863 1275 863 1275 742 1082.5 c 128,-1,14
+ 621 890 621 890 559 666 c 128,-1,15
+ 497 442 497 442 497 240 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 1
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_4
+ 8
+ 0
+ 0
+ 27
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+340 -425 m 1,0,-1
+ 148 -425 l 1,1,2
+ 362 -213 362 -213 484 -19.5 c 128,-1,3
+ 606 174 606 174 667 397 c 128,-1,4
+ 728 620 728 620 728 816 c 0,5,6
+ 728 990 728 990 675.5 1154 c 128,-1,7
+ 623 1318 623 1318 519 1484 c 1,8,-1
+ 711 1484 l 1,9,10
+ 818 1314 818 1314 866.5 1156 c 128,-1,11
+ 915 998 915 998 915 832 c 0,12,13
+ 915 636 915 636 854.5 406.5 c 128,-1,14
+ 794 177 794 177 675 -16.5 c 128,-1,15
+ 556 -210 556 -210 340 -425 c 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: C
+Encoding: 67 67 2
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 35
+ 16
+ 22
+ 95
+ 89
+ 31
+ 19
+ 47
+ 19
+ 111
+ 19
+ 3
+ 19
+ 19
+ 16
+ 4
+ 0
+ 5
+ 16
+ 5
+ 32
+ 5
+ 80
+ 5
+ 4
+ 12
+ 3
+ 5
+ 5
+ 8
+ 8
+ 2
+ 95
+ 89
+ 8
+ 19
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+MIAP[rnd]
+SHP[rp1]
+MDAP[rnd]
+DELTAP1
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+316 452 m 0,0,1
+ 316 135 316 135 582 135 c 0,2,3
+ 685 135 685 135 782 206.5 c 128,-1,4
+ 879 278 879 278 959 417 c 1,5,-1
+ 1105 352 l 1,6,7
+ 882 -20 882 -20 550 -20 c 0,8,9
+ 338 -20 338 -20 227 98.5 c 128,-1,10
+ 116 217 116 217 116 447 c 0,11,12
+ 116 612 116 612 168 802 c 128,-1,13
+ 220 992 220 992 308.5 1117 c 128,-1,14
+ 397 1242 397 1242 523 1306 c 128,-1,15
+ 649 1370 649 1370 810 1370 c 0,16,17
+ 1145 1370 1145 1370 1211 1035 c 1,18,-1
+ 1031 970 l 1,19,20
+ 1013 1089 1013 1089 947 1151.5 c 128,-1,21
+ 881 1214 881 1214 781 1214 c 0,22,23
+ 673 1214 673 1214 591.5 1163 c 128,-1,24
+ 510 1112 510 1112 451.5 1009 c 128,-1,25
+ 393 906 393 906 354.5 742.5 c 128,-1,26
+ 316 579 316 579 316 452 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: E
+Encoding: 69 69 3
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 29
+ 5
+ 8
+ 95
+ 89
+ 28
+ 5
+ 1
+ 3
+ 13
+ 5
+ 1
+ 19
+ 4
+ 5
+ 5
+ 0
+ 1
+ 1
+ 4
+ 95
+ 89
+ 1
+ 3
+ 0
+ 9
+ 95
+ 89
+ 0
+ 18
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+SDS
+DELTAP1
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+57 0 m 1,0,-1
+ 319 1349 l 1,1,-1
+ 1238 1349 l 1,2,-1
+ 1208 1193 l 1,3,-1
+ 480 1193 l 1,4,-1
+ 398 771 l 1,5,-1
+ 1066 771 l 1,6,-1
+ 1036 617 l 1,7,-1
+ 368 617 l 1,8,-1
+ 278 156 l 1,9,-1
+ 1047 156 l 1,10,-1
+ 1017 0 l 1,11,-1
+ 57 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: N
+Encoding: 78 78 4
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 11
+ 123
+ 1
+ 139
+ 1
+ 2
+ 1
+ 6
+ 3
+ 116
+ 8
+ 132
+ 8
+ 2
+ 8
+ 0
+ 5
+ 18
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+DELTAP1
+MIAP[rnd]
+SHP[rp1]
+DELTAP1
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+731 0 m 1,0,-1
+ 431 1130 l 1,1,2
+ 416 969 416 969 397 876 c 2,3,-1
+ 227 0 l 1,4,-1
+ 57 0 l 1,5,-1
+ 319 1349 l 1,6,-1
+ 541 1349 l 1,7,-1
+ 848 211 l 1,8,9
+ 860 366 860 366 883 485 c 2,10,-1
+ 1051 1349 l 1,11,-1
+ 1223 1349 l 1,12,-1
+ 961 0 l 1,13,-1
+ 731 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: Q
+Encoding: 81 81 5
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 19
+ 29
+ 95
+ 89
+ 19
+ 4
+ 11
+ 35
+ 95
+ 89
+ 0
+ 11
+ 19
+ 8
+ 3
+ 96
+ 89
+ 95
+ 8
+ 1
+ 8
+SVTCA[y-axis]
+MDAP[rnd]
+DELTAP1
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+640 -4 m 1,0,1
+ 657 -130 657 -130 713 -187 c 128,-1,2
+ 769 -244 769 -244 870 -244 c 0,3,4
+ 925 -244 925 -244 987 -231 c 1,5,-1
+ 961 -365 l 1,6,7
+ 863 -387 863 -387 779 -387 c 0,8,9
+ 628 -387 628 -387 547 -301 c 128,-1,10
+ 466 -215 466 -215 443 -16 c 1,11,12
+ 272 1 272 1 187 116 c 128,-1,13
+ 102 231 102 231 102 430 c 0,14,15
+ 102 590 102 590 151.5 781 c 128,-1,16
+ 201 972 201 972 288.5 1104.5 c 128,-1,17
+ 376 1237 376 1237 498 1303.5 c 128,-1,18
+ 620 1370 620 1370 776 1370 c 0,19,20
+ 974 1370 974 1370 1077 1259.5 c 128,-1,21
+ 1180 1149 1180 1149 1180 928 c 0,22,23
+ 1180 795 1180 795 1141 623.5 c 128,-1,24
+ 1102 452 1102 452 1031 320 c 128,-1,25
+ 960 188 960 188 861 106 c 128,-1,26
+ 762 24 762 24 640 -4 c 1,0,1
+978 913 m 0,27,28
+ 978 1214 978 1214 746 1214 c 0,29,30
+ 610 1214 610 1214 514.5 1114.5 c 128,-1,31
+ 419 1015 419 1015 361.5 813 c 128,-1,32
+ 304 611 304 611 304 446 c 0,33,34
+ 304 135 304 135 535 135 c 0,35,36
+ 635 135 635 135 711 187 c 128,-1,37
+ 787 239 787 239 845.5 351 c 128,-1,38
+ 904 463 904 463 941 628.5 c 128,-1,39
+ 978 794 978 794 978 913 c 0,27,28
+EndSplineSet
+EndChar
+
+StartChar: c
+Encoding: 99 99 6
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 0
+ 18
+ 16
+ 18
+ 96
+ 18
+ 112
+ 18
+ 128
+ 18
+ 192
+ 18
+ 208
+ 18
+ 7
+ 9
+ 3
+ 18
+PUSHW_1
+ -64
+NPUSHB
+ 23
+ 27
+ 30
+ 72
+ 18
+ 18
+ 23
+ 23
+ 15
+ 80
+ 89
+ 23
+ 22
+ 0
+ 8
+ 80
+ 89
+ 223
+ 4
+ 1
+ 4
+ 4
+ 0
+ 16
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp2]
+MDAP[rnd]
+DELTAP1
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MDAP[rnd]
+CALL
+SDS
+SDB
+DELTAP1
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+741 1102 m 0,0,1
+ 922 1102 922 1102 1023 1015.5 c 128,-1,2
+ 1124 929 1124 929 1124 779 c 1,3,-1
+ 930 765 l 1,4,-1
+ 930 771 l 2,5,6
+ 930 857 930 857 877 909 c 128,-1,7
+ 824 961 824 961 706 961 c 0,8,9
+ 572 961 572 961 485 890.5 c 128,-1,10
+ 398 820 398 820 349.5 665 c 128,-1,11
+ 301 510 301 510 301 372 c 0,12,13
+ 301 241 301 241 361 180 c 128,-1,14
+ 421 119 421 119 541 119 c 0,15,16
+ 649 119 649 119 730.5 172 c 128,-1,17
+ 812 225 812 225 850 334 c 1,18,-1
+ 1038 322 l 1,19,20
+ 1006 226 1006 226 931.5 147.5 c 128,-1,21
+ 857 69 857 69 750.5 24.5 c 128,-1,22
+ 644 -20 644 -20 522 -20 c 0,23,24
+ 319 -20 319 -20 215.5 79 c 128,-1,25
+ 112 178 112 178 112 369 c 0,26,27
+ 112 496 112 496 153.5 639.5 c 128,-1,28
+ 195 783 195 783 277.5 889 c 128,-1,29
+ 360 995 360 995 476.5 1048.5 c 128,-1,30
+ 593 1102 593 1102 741 1102 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: e
+Encoding: 101 101 7
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 31
+ 8
+ 8
+ 0
+ 5
+ 29
+ 0
+ 80
+ 89
+ 13
+ 29
+ 29
+ 29
+ 2
+ 20
+ 4
+ 29
+ 29
+ 12
+ 20
+ 20
+ 26
+ 80
+ 89
+ 20
+ 16
+ 12
+ 5
+ 80
+ 89
+ 12
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+RTG
+MDAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+315 503 m 1,0,1
+ 302 434 302 434 302 382 c 0,2,3
+ 302 253 302 253 364.5 184 c 128,-1,4
+ 427 115 427 115 540 115 c 0,5,6
+ 642 115 642 115 728.5 159 c 128,-1,7
+ 815 203 815 203 857 281 c 1,8,-1
+ 1006 236 l 1,9,10
+ 937 112 937 112 807.5 46 c 128,-1,11
+ 678 -20 678 -20 514 -20 c 0,12,13
+ 320 -20 320 -20 218 80.5 c 128,-1,14
+ 116 181 116 181 116 370 c 0,15,16
+ 116 494 116 494 156 638.5 c 128,-1,17
+ 196 783 196 783 276 888.5 c 128,-1,18
+ 356 994 356 994 469 1048 c 128,-1,19
+ 582 1102 582 1102 726 1102 c 0,20,21
+ 1112 1102 1112 1102 1112 723 c 0,22,23
+ 1112 632 1112 632 1091 527 c 1,24,-1
+ 1087 503 l 1,25,-1
+ 315 503 l 1,0,1
+702 969 m 0,26,27
+ 569 969 569 969 474.5 882 c 128,-1,28
+ 380 795 380 795 344 641 c 1,29,-1
+ 928 641 l 1,30,-1
+ 932 713 l 1,31,32
+ 932 969 932 969 702 969 c 0,26,27
+EndSplineSet
+EndChar
+
+StartChar: g
+Encoding: 103 103 8
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 25
+ 28
+ 15
+ 21
+ 38
+ 80
+ 89
+ 24
+ 10
+ 13
+ 21
+ 16
+ 13
+ 46
+ 80
+ 89
+ 4
+ 4
+ 0
+ 13
+ 21
+ 0
+ 7
+ 80
+ 89
+ 0
+SVTCA[y-axis]
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP2
+IP
+IP
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+428 -424 m 0,0,1
+ 259 -424 259 -424 171 -355 c 128,-1,2
+ 83 -286 83 -286 79 -157 c 1,3,-1
+ 268 -132 l 1,4,5
+ 270 -207 270 -207 319 -247.5 c 128,-1,6
+ 368 -288 368 -288 460 -288 c 0,7,8
+ 710 -288 710 -288 769 27 c 1,9,-1
+ 807 221 l 1,10,-1
+ 805 221 l 1,11,12
+ 664 12 664 12 421 12 c 0,13,14
+ 265 12 265 12 192.5 90.5 c 128,-1,15
+ 120 169 120 169 120 328 c 0,16,17
+ 120 452 120 452 160 619.5 c 128,-1,18
+ 200 787 200 787 266 890.5 c 128,-1,19
+ 332 994 332 994 427.5 1046.5 c 128,-1,20
+ 523 1099 523 1099 652 1099 c 0,21,22
+ 765 1099 765 1099 838 1046.5 c 128,-1,23
+ 911 994 911 994 937 897 c 1,24,-1
+ 940 897 l 1,25,26
+ 947 934 947 934 965 1003.5 c 128,-1,27
+ 983 1073 983 1073 988 1082 c 1,28,-1
+ 1159 1082 l 1,29,-1
+ 1140 1000 l 1,30,-1
+ 1110 858 l 1,31,-1
+ 949 32 l 2,32,33
+ 905 -195 905 -195 777 -309.5 c 128,-1,34
+ 649 -424 649 -424 428 -424 c 0,0,1
+887 697 m 0,35,36
+ 887 823 887 823 830.5 894 c 128,-1,37
+ 774 965 774 965 671 965 c 0,38,39
+ 581 965 581 965 518 926 c 128,-1,40
+ 455 887 455 887 411 804 c 128,-1,41
+ 367 721 367 721 337.5 583.5 c 128,-1,42
+ 308 446 308 446 308 355 c 0,43,44
+ 308 245 308 245 354.5 195 c 128,-1,45
+ 401 145 401 145 508 145 c 0,46,47
+ 588 145 588 145 658.5 188 c 128,-1,48
+ 729 231 729 231 781 311.5 c 128,-1,49
+ 833 392 833 392 860 500.5 c 128,-1,50
+ 887 609 887 609 887 697 c 0,35,36
+EndSplineSet
+EndChar
+
+StartChar: i
+Encoding: 105 105 9
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 20
+ 11
+ 10
+ 83
+ 89
+ 11
+ 0
+ 9
+ 6
+ 80
+ 89
+ 9
+ 15
+ 0
+ 5
+ 3
+ 5
+ 80
+ 89
+ 3
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+RTG
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+668 142 m 1,0,-1
+ 1048 142 l 1,1,-1
+ 1020 0 l 1,2,-1
+ 38 0 l 1,3,-1
+ 66 142 l 1,4,-1
+ 488 142 l 1,5,-1
+ 643 940 l 1,6,-1
+ 324 940 l 1,7,-1
+ 351 1082 l 1,8,-1
+ 850 1082 l 1,9,-1
+ 668 142 l 1,0,-1
+691 1292 m 1,10,-1
+ 728 1484 l 1,11,-1
+ 928 1484 l 1,12,-1
+ 891 1292 l 1,13,-1
+ 691 1292 l 1,10,-1
+EndSplineSet
+EndChar
+
+StartChar: n
+Encoding: 110 110 10
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 21
+ 0
+ 25
+ 25
+ 6
+ 80
+ 89
+ 25
+ 16
+ 17
+ 15
+ 10
+ 0
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp2]
+MIAP[rnd]
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+763 0 m 1,0,-1
+ 898 695 l 2,1,2
+ 909 753 909 753 909 793 c 0,3,4
+ 909 881 909 881 865.5 922 c 128,-1,5
+ 822 963 822 963 730 963 c 0,6,7
+ 606 963 606 963 509.5 872.5 c 128,-1,8
+ 413 782 413 782 382 627 c 2,9,-1
+ 260 0 l 1,10,-1
+ 80 0 l 1,11,-1
+ 245 851 l 2,12,13
+ 252 885 252 885 258.5 922.5 c 128,-1,14
+ 265 960 265 960 270.5 993.5 c 128,-1,15
+ 276 1027 276 1027 280 1051 c 128,-1,16
+ 284 1075 284 1075 284 1082 c 1,17,-1
+ 454 1082 l 1,18,19
+ 454 1076 454 1076 445.5 1014.5 c 128,-1,20
+ 437 953 437 953 426 897 c 1,21,-1
+ 429 897 l 1,22,23
+ 497 992 497 992 590 1047 c 128,-1,24
+ 683 1102 683 1102 815 1102 c 0,25,26
+ 1098 1102 1098 1102 1098 848 c 0,27,28
+ 1098 791 1098 791 1084 721 c 2,29,-1
+ 944 0 l 1,30,-1
+ 763 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: o
+Encoding: 111 111 11
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 8
+ 19
+ 80
+ 89
+ 8
+ 16
+ 0
+ 25
+ 80
+ 89
+ 0
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+500 -20 m 0,0,1
+ 312 -20 312 -20 212 78.5 c 128,-1,2
+ 112 177 112 177 112 367 c 0,3,4
+ 112 446 112 446 130 542 c 0,5,6
+ 185 821 185 821 338.5 961.5 c 128,-1,7
+ 492 1102 492 1102 724 1102 c 0,8,9
+ 923 1102 923 1102 1020 1010 c 128,-1,10
+ 1117 918 1117 918 1117 732 c 0,11,12
+ 1117 597 1117 597 1075 447.5 c 128,-1,13
+ 1033 298 1033 298 952 192 c 128,-1,14
+ 871 86 871 86 756 33 c 128,-1,15
+ 641 -20 641 -20 500 -20 c 0,0,1
+928 720 m 0,16,17
+ 928 845 928 845 873.5 907 c 128,-1,18
+ 819 969 819 969 701 969 c 0,19,20
+ 569 969 569 969 482.5 892 c 128,-1,21
+ 396 815 396 815 348.5 662 c 128,-1,22
+ 301 509 301 509 301 373 c 0,23,24
+ 301 113 301 113 524 113 c 0,25,26
+ 625 113 625 113 696 154.5 c 128,-1,27
+ 767 196 767 196 818.5 283 c 128,-1,28
+ 870 370 870 370 899 498.5 c 128,-1,29
+ 928 627 928 627 928 720 c 0,16,17
+EndSplineSet
+EndChar
+
+StartChar: s
+Encoding: 115 115 12
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 23
+ 10
+ 34
+ 0
+ 23
+ 23
+ 31
+ 80
+ 89
+ 0
+ 27
+ 1
+ 18
+ 3
+ 27
+ 23
+ 16
+ 0
+ 7
+ 80
+ 89
+ 4
+ 0
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+MDRP[rnd,grey]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MDRP[rnd,grey]
+SDS
+SDB
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+512 -20 m 0,0,1
+ 307 -20 307 -20 212 43.5 c 128,-1,2
+ 117 107 117 107 110 248 c 1,3,-1
+ 275 279 l 1,4,5
+ 278 191 278 191 333.5 152.5 c 128,-1,6
+ 389 114 389 114 538 114 c 0,7,8
+ 690 114 690 114 767 169 c 128,-1,9
+ 844 224 844 224 844 315 c 0,10,11
+ 844 364 844 364 802.5 397 c 128,-1,12
+ 761 430 761 430 666 456 c 2,13,-1
+ 550 487 l 2,14,15
+ 418 523 418 523 364.5 552.5 c 128,-1,16
+ 311 582 311 582 281.5 624.5 c 128,-1,17
+ 252 667 252 667 252 728 c 0,18,19
+ 252 800 252 800 285 872 c 128,-1,20
+ 318 944 318 944 380.5 995 c 128,-1,21
+ 443 1046 443 1046 533 1072.5 c 128,-1,22
+ 623 1099 623 1099 732 1099 c 0,23,24
+ 908 1099 908 1099 1000.5 1032 c 128,-1,25
+ 1093 965 1093 965 1093 839 c 1,26,-1
+ 927 819 l 1,27,-1
+ 927 824 l 2,28,29
+ 927 894 927 894 875 929.5 c 128,-1,30
+ 823 965 823 965 706 965 c 0,31,32
+ 568 965 568 965 498 917 c 128,-1,33
+ 428 869 428 869 428 784 c 0,34,35
+ 428 738 428 738 463.5 708.5 c 128,-1,36
+ 499 679 499 679 585 657 c 0,37,38
+ 806 599 806 599 864 573 c 128,-1,39
+ 922 547 922 547 957 513.5 c 128,-1,40
+ 992 480 992 480 1006.5 445 c 128,-1,41
+ 1021 410 1021 410 1021 366 c 0,42,43
+ 1021 263 1021 263 958 170.5 c 128,-1,44
+ 895 78 895 78 779 29 c 128,-1,45
+ 663 -20 663 -20 512 -20 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: u
+Encoding: 117 117 13
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 22
+ 25
+ 0
+ 25
+ 6
+ 80
+ 89
+ 25
+ 22
+ 17
+ 21
+ 10
+ 0
+ 15
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp2]
+MIAP[rnd]
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+470 1082 m 1,0,-1
+ 337 396 l 2,1,2
+ 323 324 323 324 323 273 c 0,3,4
+ 323 189 323 189 365.5 154 c 128,-1,5
+ 408 119 408 119 507 119 c 0,6,7
+ 638 119 638 119 730 209 c 128,-1,8
+ 822 299 822 299 851 455 c 1,9,-1
+ 973 1082 l 1,10,-1
+ 1154 1082 l 1,11,-1
+ 989 231 l 2,12,13
+ 982 197 982 197 975.5 159.5 c 128,-1,14
+ 969 122 969 122 963.5 88.5 c 128,-1,15
+ 958 55 958 55 954 31 c 128,-1,16
+ 950 7 950 7 950 0 c 1,17,-1
+ 780 0 l 1,18,19
+ 780 11 780 11 790.5 77.5 c 128,-1,20
+ 801 144 801 144 808 185 c 1,21,-1
+ 805 185 l 1,22,23
+ 722 73 722 73 629.5 26.5 c 128,-1,24
+ 537 -20 537 -20 419 -20 c 0,25,26
+ 273 -20 273 -20 204 38 c 128,-1,27
+ 135 96 135 96 135 223 c 0,28,29
+ 135 283 135 283 150 361 c 2,30,-1
+ 290 1082 l 1,31,-1
+ 470 1082 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: v
+Encoding: 118 118 14
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_6
+ 11
+ 2
+ 15
+ 7
+ 1
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+610 0 m 1,0,-1
+ 397 0 l 1,1,-1
+ 174 1082 l 1,2,-1
+ 376 1082 l 1,3,-1
+ 507 378 l 1,4,5
+ 516 310 516 310 526 194 c 1,6,-1
+ 530 141 l 1,7,-1
+ 556 194 l 1,8,9
+ 594 274 594 274 650 376 c 1,10,-1
+ 1063 1082 l 1,11,-1
+ 1264 1082 l 1,12,-1
+ 610 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: alpha
+Encoding: 945 945 15
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 23
+ 21
+ 15
+ 15
+ 9
+ 36
+ 80
+ 89
+ 21
+ 0
+ 12
+ 0
+ 2
+ 9
+ 16
+ 2
+ 30
+ 80
+ 89
+ 2
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP2
+IP
+IP
+SRP1
+SHP[rp1]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+827 237 m 1,0,1
+ 662 -20 662 -20 418 -20 c 0,2,3
+ 257 -20 257 -20 180.5 63 c 128,-1,4
+ 104 146 104 146 104 317 c 0,5,6
+ 104 413 104 413 128 536 c 0,7,8
+ 240 1102 240 1102 664 1102 c 0,9,10
+ 787 1102 787 1102 864.5 1037 c 128,-1,11
+ 942 972 942 972 965 847 c 1,12,-1
+ 967 847 l 1,13,14
+ 1007 952 1007 952 1085 1082 c 1,15,-1
+ 1273 1082 l 1,16,17
+ 1211 989 1211 989 1139 839 c 128,-1,18
+ 1067 689 1067 689 1032 571 c 1,19,20
+ 1005 394 1005 394 1005 255 c 0,21,22
+ 1005 106 1005 106 1032 0 c 1,23,-1
+ 849 0 l 1,24,25
+ 831 84 831 84 831 237 c 1,26,-1
+ 827 237 l 1,0,1
+294 339 m 0,27,28
+ 294 224 294 224 339.5 171.5 c 128,-1,29
+ 385 119 385 119 482 119 c 0,30,31
+ 602 119 602 119 707.5 235 c 128,-1,32
+ 813 351 813 351 876 546 c 1,33,-1
+ 878 613 l 1,34,35
+ 878 969 878 969 658 969 c 0,36,37
+ 536 969 536 969 461 890 c 128,-1,38
+ 386 811 386 811 340 639 c 128,-1,39
+ 294 467 294 467 294 339 c 0,27,28
+EndSplineSet
+EndChar
+
+StartChar: epsilon
+Encoding: 949 949 16
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 42
+ 21
+ 28
+ 80
+ 89
+ 13
+ 34
+ 35
+ 34
+ 35
+ 80
+ 89
+ 112
+ 25
+ 128
+ 25
+ 192
+ 25
+ 208
+ 25
+ 4
+ 25
+ 21
+ 64
+ 3
+ 1
+ 3
+ 15
+ 34
+ 1
+ 11
+ 3
+ 34
+ 34
+ 6
+ 21
+ 16
+ 6
+ 0
+ 80
+ 89
+ 6
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SRP2
+IP
+MDAP[rnd]
+SDS
+SDB
+DELTAP1
+IP
+DELTAP2
+SRP2
+IP
+DELTAP1
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+538 114 m 0,0,1
+ 646 114 646 114 749.5 156.5 c 128,-1,2
+ 853 199 853 199 932 275 c 1,3,-1
+ 1018 175 l 1,4,5
+ 818 -20 818 -20 500 -20 c 0,6,7
+ 314 -20 314 -20 217 43.5 c 128,-1,8
+ 120 107 120 107 120 228 c 0,9,10
+ 120 322 120 322 165.5 394 c 128,-1,11
+ 211 466 211 466 288.5 511 c 128,-1,12
+ 366 556 366 556 454 564 c 1,13,-1
+ 454 566 l 1,14,15
+ 363 576 363 576 309.5 630 c 128,-1,16
+ 256 684 256 684 256 764 c 0,17,18
+ 256 856 256 856 316.5 936 c 128,-1,19
+ 377 1016 377 1016 490 1059 c 128,-1,20
+ 603 1102 603 1102 745 1102 c 0,21,22
+ 893 1102 893 1102 990.5 1059 c 128,-1,23
+ 1088 1016 1088 1016 1135 917 c 1,24,-1
+ 990 829 l 1,25,26
+ 957 900 957 900 891 934 c 128,-1,27
+ 825 968 825 968 720 968 c 0,28,29
+ 579 968 579 968 509 915.5 c 128,-1,30
+ 439 863 439 863 439 779 c 0,31,32
+ 439 705 439 705 530.5 669 c 128,-1,33
+ 622 633 622 633 836 633 c 1,34,-1
+ 810 498 l 1,35,36
+ 618 498 618 498 516 472.5 c 128,-1,37
+ 414 447 414 447 362.5 393 c 128,-1,38
+ 311 339 311 339 311 259 c 0,39,40
+ 311 114 311 114 538 114 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: kgreenlandic
+Encoding: 312 312 17
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 12
+ 9
+ 15
+ 2
+ 1
+ 7
+ 3
+ 5
+ 15
+ 4
+ 21
+ 0
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+SLOOP
+IP
+MIAP[rnd]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+809 0 m 1,0,-1
+ 539 494 l 1,1,-1
+ 388 396 l 1,2,-1
+ 311 0 l 1,3,-1
+ 131 0 l 1,4,-1
+ 341 1082 l 1,5,-1
+ 521 1082 l 1,6,-1
+ 417 544 l 1,7,-1
+ 996 1082 l 1,8,-1
+ 1207 1082 l 1,9,-1
+ 678 617 l 1,10,-1
+ 1020 0 l 1,11,-1
+ 809 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: tonos
+Encoding: 900 900 18
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_2
+ 5
+ 2
+PUSHW_1
+ 268
+PUSHB_3
+ 91
+ 5
+ 147
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+603 1201 m 1,0,-1
+ 610 1234 l 1,1,-1
+ 746 1526 l 1,2,-1
+ 943 1526 l 1,3,-1
+ 935 1489 l 1,4,-1
+ 708 1201 l 1,5,-1
+ 603 1201 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: Epsilon
+Encoding: 917 917 19
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 3 69 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: alphatonos
+Encoding: 940 940 20
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_4
+ 2
+ 45
+ 17
+ 38
+SVTCA[y-axis]
+CALL
+SHC[rp1]
+EndTTInstrs
+LayerCount: 2
+Fore
+Refer: 15 945 N 1 0 0 1 0 0 3
+Refer: 18 900 N 1 0 0 1 60 0 2
+EndChar
+
+StartChar: eta
+Encoding: 951 951 21
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 15
+ 21
+ 25
+ 11
+ 25
+ 6
+ 80
+ 89
+ 25
+ 16
+ 17
+ 15
+ 11
+ 21
+ 0
+ 27
+SVTCA[y-axis]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+MIAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+680 -425 m 1,0,-1
+ 898 695 l 2,1,2
+ 909 753 909 753 909 793 c 0,3,4
+ 909 881 909 881 865.5 922 c 128,-1,5
+ 822 963 822 963 730 963 c 0,6,7
+ 606 963 606 963 509.5 872.5 c 128,-1,8
+ 413 782 413 782 382 627 c 2,9,-1
+ 260 0 l 1,10,-1
+ 80 0 l 1,11,-1
+ 245 851 l 2,12,13
+ 252 885 252 885 258.5 922.5 c 128,-1,14
+ 265 960 265 960 270.5 993.5 c 128,-1,15
+ 276 1027 276 1027 280 1051 c 128,-1,16
+ 284 1075 284 1075 284 1082 c 1,17,-1
+ 454 1082 l 1,18,19
+ 454 1076 454 1076 445.5 1014.5 c 128,-1,20
+ 437 953 437 953 426 897 c 1,21,-1
+ 429 897 l 1,22,23
+ 497 992 497 992 590 1047 c 128,-1,24
+ 683 1102 683 1102 815 1102 c 0,25,26
+ 1098 1102 1098 1102 1098 848 c 0,27,28
+ 1098 791 1098 791 1084 721 c 2,29,-1
+ 861 -425 l 1,30,-1
+ 680 -425 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: iota
+Encoding: 953 953 22
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_8
+ 17
+ 14
+ 80
+ 89
+ 17
+ 15
+ 8
+ 3
+PUSHW_1
+ 282
+PUSHB_3
+ 89
+ 8
+ 22
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+CALL
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+601 266 m 0,0,1
+ 601 197 601 197 634 165.5 c 128,-1,2
+ 667 134 667 134 733 134 c 0,3,4
+ 842 134 842 134 965 240 c 1,5,-1
+ 1035 120 l 1,6,7
+ 882 -20 882 -20 702 -20 c 0,8,9
+ 552 -20 552 -20 484.5 40 c 128,-1,10
+ 417 100 417 100 417 221 c 0,11,12
+ 417 276 417 276 431 349 c 2,13,-1
+ 546 940 l 1,14,-1
+ 227 940 l 1,15,-1
+ 254 1082 l 1,16,-1
+ 753 1082 l 1,17,-1
+ 610 346 l 2,18,19
+ 601 301 601 301 601 266 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: kappa
+Encoding: 954 954 23
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+Refer: 17 312 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: lambda
+Encoding: 955 955 24
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 19
+ 160
+ 20
+ 1
+ 15
+ 20
+ 1
+ 14
+ 3
+ 20
+ 0
+ 17
+ 11
+ 17
+ 24
+ 23
+ 16
+ 21
+ 11
+ 5
+PUSHW_1
+ 282
+PUSHB_3
+ 89
+ 11
+ 0
+SVTCA[y-axis]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+SHP[rp1]
+SHP[rp1]
+SRP1
+SRP2
+IP
+IP
+SDS
+SDB
+DELTAP1
+DELTAP1
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+646 965 m 1,0,-1
+ 629 1064 l 2,1,2
+ 605 1206 605 1206 588.5 1254 c 128,-1,3
+ 572 1302 572 1302 546.5 1321 c 128,-1,4
+ 521 1340 521 1340 471 1340 c 0,5,6
+ 439 1340 439 1340 388 1328 c 1,7,-1
+ 379 1460 l 1,8,9
+ 405 1468 405 1468 458 1476 c 128,-1,10
+ 511 1484 511 1484 544 1484 c 0,11,12
+ 620 1484 620 1484 665 1455 c 128,-1,13
+ 710 1426 710 1426 739.5 1359 c 128,-1,14
+ 769 1292 769 1292 796 1141 c 2,15,-1
+ 1001 0 l 1,16,-1
+ 811 0 l 1,17,-1
+ 716 577 l 1,18,19
+ 696 721 696 721 693 791 c 1,20,21
+ 664 735 664 735 614 653.5 c 128,-1,22
+ 564 572 564 572 196 0 c 1,23,-1
+ 9 0 l 1,24,-1
+ 646 965 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: nu
+Encoding: 957 957 25
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_6
+ 9
+ 2
+ 15
+ 4
+ 1
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+567 0 m 1,0,-1
+ 397 0 l 1,1,-1
+ 197 1082 l 1,2,-1
+ 386 1082 l 1,3,-1
+ 537 154 l 1,4,5
+ 759 376 759 376 864 580 c 128,-1,6
+ 969 784 969 784 969 961 c 0,7,8
+ 969 1026 969 1026 954 1082 c 1,9,-1
+ 1131 1082 l 1,10,11
+ 1150 1027 1150 1027 1150 964 c 0,12,13
+ 1150 765 1150 765 997 514 c 128,-1,14
+ 844 263 844 263 567 0 c 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni041A
+Encoding: 1050 1050 26
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 22
+ 10
+ 13
+ 2
+ 15
+ 2
+ 15
+ 95
+ 89
+ 2
+ 2
+ 12
+ 16
+ 17
+ 3
+ 11
+ 18
+ 1
+ 5
+ 6
+ 3
+ 0
+ 3
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+SHP[rp2]
+MIAP[rnd]
+SLOOP
+SHP[rp1]
+IP
+MDAP[rnd]
+CALL
+SRP1
+SRP2
+SVTCA[y-axis]
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+325 1349 m 1,0,-1
+ 516 1349 l 1,1,-1
+ 402 760 l 1,2,3
+ 586 760 586 760 767 970 c 1,4,-1
+ 1091 1349 l 1,5,-1
+ 1293 1349 l 1,6,-1
+ 914 919 l 2,7,8
+ 864 862 864 862 816.5 818 c 128,-1,9
+ 769 774 769 774 710 735 c 1,10,-1
+ 1076 0 l 1,11,-1
+ 854 0 l 1,12,-1
+ 553 647 l 1,13,14
+ 450 609 450 609 372 609 c 1,15,-1
+ 254 0 l 1,16,-1
+ 63 0 l 1,17,-1
+ 325 1349 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni0430
+Encoding: 1072 1072 27
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1018 111 m 0
+ 1045 111 1045 111 1078 118 c 1
+ 1056 6 l 1
+ 986 -10 986 -10 914 -10 c 0
+ 827 -10 827 -10 790.5 28 c 0
+ 754 66 754 66 754 142 c 1
+ 759 207 l 1
+ 753 207 l 1
+ 664 85 664 85 564.5 32.5 c 0
+ 465 -20 465 -20 337 -20 c 0
+ 204 -20 204 -20 138.5 42 c 0
+ 73 104 73 104 73 213 c 0
+ 73 254 73 254 82 302 c 0
+ 150 651 150 651 605 656 c 1
+ 841 660 l 1
+ 858 741 858 741 860.5 762.5 c 0
+ 863 784 863 784 863 808 c 0
+ 863 893 863 893 817 929 c 0
+ 771 965 771 965 679 965 c 0
+ 563 965 563 965 503.5 925.5 c 0
+ 444 886 444 886 413 793 c 1
+ 228 810 l 1
+ 282 959 282 959 400.5 1030.5 c 0
+ 519 1102 519 1102 708 1102 c 0
+ 1048 1102 1048 1102 1048 835 c 0
+ 1048 790 1048 790 1038 738 c 2
+ 948 272 l 2
+ 939 229 939 229 939 196 c 0
+ 939 154 939 154 957 132.5 c 0
+ 975 111 975 111 1018 111 c 0
+410 117 m 0
+ 505 117 505 117 588 162.5 c 0
+ 671 208 671 208 727 285 c 0
+ 783 362 783 362 799 445 c 2
+ 817 534 l 1
+ 626 530 l 2
+ 491 528 491 528 416.5 494.5 c 0
+ 342 461 342 461 303.5 394.5 c 0
+ 265 328 265 328 265 251 c 0
+ 265 189 265 189 301.5 153 c 0
+ 338 117 338 117 410 117 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0438
+Encoding: 1080 1080 28
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 17
+ 8
+ 1
+ 12
+ 0
+ 4
+ 5
+ 10
+ 4
+ 13
+ 15
+ 3
+ 6
+ 7
+ 11
+ 4
+ 12
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+SHP[rp1]
+MIAP[rnd]
+SLOOP
+SHP[rp1]
+SRP2
+IP
+IP
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+464 1082 m 1,0,-1
+ 349 490 l 2,1,2
+ 344 460 344 460 285 213 c 1,3,-1
+ 953 1082 l 1,4,-1
+ 1150 1082 l 1,5,-1
+ 940 0 l 1,6,-1
+ 768 0 l 1,7,-1
+ 896 660 l 1,8,9
+ 924 793 924 793 948 873 c 1,10,-1
+ 272 0 l 1,11,-1
+ 80 0 l 1,12,-1
+ 290 1082 l 1,13,-1
+ 464 1082 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni043B
+Encoding: 1083 1083 29
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 18
+ 1
+ 2
+ 16
+ 2
+ 80
+ 89
+ 17
+ 16
+ 15
+ 7
+ 12
+ 80
+ 89
+ 7
+ 22
+ 18
+ 0
+ 21
+SVTCA[y-axis]
+MIAP[rnd]
+SHP[rp2]
+MIAP[rnd]
+CALL
+SVTCA[y-axis]
+RTG
+MIAP[rnd]
+SHP[rp1]
+CALL
+SRP1
+SVTCA[y-axis]
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+762 0 m 1,0,-1
+ 945 940 l 1,1,-1
+ 564 940 l 1,2,3
+ 416 494 416 494 357 347 c 128,-1,4
+ 298 200 298 200 247 124 c 128,-1,5
+ 196 48 196 48 136 14 c 128,-1,6
+ 76 -20 76 -20 -9 -20 c 0,7,8
+ -58 -20 -58 -20 -100 -7 c 1,9,-1
+ -75 122 l 1,10,11
+ -50 113 -50 113 -9 113 c 0,12,13
+ 45 113 45 113 94 179 c 128,-1,14
+ 143 245 143 245 205.5 401.5 c 128,-1,15
+ 268 558 268 558 443 1082 c 1,16,-1
+ 1153 1082 l 1,17,-1
+ 943 0 l 1,18,-1
+ 762 0 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni0440
+Encoding: 1088 1088 30
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+589 -20 m 0
+ 342 -20 342 -20 294 164 c 1
+ 289 164 l 1
+ 289 154 289 154 281 108 c 0
+ 273 62 273 62 178 -425 c 1
+ -3 -425 l 1
+ 247 858 l 2
+ 274 994 274 994 284 1082 c 1
+ 459 1082 l 1
+ 459 1062 459 1062 450 998.5 c 0
+ 441 935 441 935 435 904 c 1
+ 439 904 l 1
+ 509 1009 509 1009 596.5 1056.5 c 0
+ 684 1104 684 1104 808 1104 c 0
+ 1116 1104 1116 1104 1116 768 c 0
+ 1116 673 1116 673 1091 546 c 0
+ 981 -20 981 -20 589 -20 c 0
+928 743 m 0
+ 928 851 928 851 883.5 908 c 0
+ 839 965 839 965 734 965 c 0
+ 637 965 637 965 569.5 922.5 c 0
+ 502 880 502 880 452.5 791.5 c 0
+ 403 703 403 703 373 571.5 c 0
+ 343 440 343 440 343 350 c 0
+ 343 229 343 229 397 171 c 0
+ 451 113 451 113 566 113 c 0
+ 683 113 683 113 759.5 191 c 0
+ 836 269 836 269 882 444 c 0
+ 928 619 928 619 928 743 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni0446
+Encoding: 1094 1094 31
+Width: 1229
+GlyphClass: 2
+Flags: W
+TtInstrs:
+NPUSHB
+ 14
+ 2
+ 5
+ 6
+ 3
+ 1
+ 10
+ 1
+ 81
+ 89
+ 9
+ 10
+ 21
+ 7
+ 8
+PUSHW_1
+ 264
+PUSHB_6
+ 3
+ 4
+ 11
+ 3
+ 0
+ 15
+SVTCA[y-axis]
+MIAP[rnd]
+SLOOP
+SHP[rp2]
+MIAP[rnd]
+SHP[rp1]
+MIAP[rnd]
+SHP[rp1]
+CALL
+SRP1
+SVTCA[y-axis]
+SLOOP
+SHP[rp1]
+IUP[x]
+IUP[y]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+461 1082 m 1,0,-1
+ 276 131 l 1,1,-1
+ 783 131 l 1,2,-1
+ 968 1082 l 1,3,-1
+ 1148 1082 l 1,4,-1
+ 963 131 l 1,5,-1
+ 1110 131 l 1,6,-1
+ 1006 -408 l 1,7,-1
+ 843 -408 l 1,8,-1
+ 922 0 l 1,9,-1
+ 71 0 l 1,10,-1
+ 281 1082 l 1,11,-1
+ 461 1082 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: ocircumflexacute
+Encoding: 7889 7889 32
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1130 1574 m 1
+ 1347 1574 l 1
+ 1344 1562 l 1
+ 1084 1386 l 1
+ 988 1386 l 1
+ 990 1396 l 1
+ 1130 1574 l 1
+1072 1221 m 1
+ 1068 1201 l 1
+ 963 1201 l 1
+ 777 1370 l 1
+ 775 1370 l 1
+ 520 1201 l 1
+ 416 1201 l 1
+ 420 1221 l 1
+ 696 1491 l 1
+ 900 1491 l 1
+ 1072 1221 l 1
+EndSplineSet
+Refer: 11 111 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uhorntilde
+Encoding: 7919 7919 33
+Width: 1229
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+895 1201 m 0
+ 853 1201 853 1201 815 1219.5 c 0
+ 777 1238 777 1238 741 1260.5 c 0
+ 705 1283 705 1283 670.5 1301.5 c 0
+ 636 1320 636 1320 601 1320 c 0
+ 564 1320 564 1320 540 1296.5 c 0
+ 516 1273 516 1273 491 1201 c 1
+ 380 1201 l 1
+ 422 1338 422 1338 483.5 1393.5 c 0
+ 545 1449 545 1449 632 1449 c 0
+ 676 1449 676 1449 714.5 1430.5 c 0
+ 753 1412 753 1412 788.5 1389.5 c 0
+ 824 1367 824 1367 857.5 1348.5 c 0
+ 891 1330 891 1330 924 1330 c 0
+ 964 1330 964 1330 989 1357.5 c 0
+ 1014 1385 1014 1385 1034 1449 c 1
+ 1146 1449 l 1
+ 1115 1352 1115 1352 1082.5 1303.5 c 0
+ 1050 1255 1050 1255 1004 1228 c 0
+ 958 1201 958 1201 895 1201 c 0
+470 1082 m 1
+ 337 396 l 2
+ 321 311 321 311 321 258 c 0
+ 321 184 321 184 359 151.5 c 0
+ 397 119 397 119 487 119 c 0
+ 608 119 608 119 693.5 206 c 0
+ 779 293 779 293 811 455 c 2
+ 933 1082 l 1
+ 1114 1082 l 1
+ 1037 686 l 1
+ 1125 720 1125 720 1170.5 772 c 0
+ 1216 824 1216 824 1234 915 c 1
+ 1146 915 l 1
+ 1178 1082 l 1
+ 1374 1082 l 1
+ 1353 976 l 2
+ 1324 826 1324 826 1243.5 734 c 0
+ 1163 642 1163 642 1019 593 c 1
+ 935 159 935 159 923.5 88.5 c 0
+ 912 18 912 18 910 0 c 1
+ 740 0 l 1
+ 740 11 740 11 750.5 77.5 c 0
+ 761 144 761 144 768 185 c 1
+ 765 185 l 1
+ 680 71 680 71 595.5 25.5 c 0
+ 511 -20 511 -20 399 -20 c 0
+ 261 -20 261 -20 197 36.5 c 0
+ 133 93 133 93 133 213 c 0
+ 133 277 133 277 150 361 c 2
+ 290 1082 l 1
+ 470 1082 l 1
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
