@@ -20,6 +20,8 @@
 #
 # A script for subsetting a font, using FontForge. See README for details.
 
+# TODO 2013-04-08 ensure the menu files are as compact as possible by default, similar to subset.pl
+
 import fontforge
 import sys
 import getopt
