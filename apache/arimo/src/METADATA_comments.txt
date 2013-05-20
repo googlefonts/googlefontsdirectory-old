@@ -1,0 +1,26 @@
+for font in `ls *ttf`; do
+fontforge -lang=ff -script src/menusubset-arimo.ff $font;
+done;
+rename s/ttf.menu.ttf/menu/g *;
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *vietnamese; \
+cd ~/googlefontdirectory/apache/; \
+for family in arimo; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           latin latin-ext+latin \
+           cyrillic+latin cyrillic-ext+latin \
+           greek+latin greek-ext+latin \
+           vietnamese+latin; do \
+           echo subset.py --null --nmr --roundtrip --script \
+               --subset=$subset $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+               --null --nmr --roundtrip --script --subset=$subset \
+               $font.ttf $font.$subset >> $font.$subset.log \
+              # 2>> $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/apache/arimo/; \
+rename 's/([^+])\+latin$/$1/' *;
+
