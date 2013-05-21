@@ -459,9 +459,10 @@ def writeDescHtml(familydir):
         ftfont = fontToolsOpenFont(filepath)
         fontDesc = fontToolsGetDesc(ftfont)
       else:
-        string = "No Regular found, only " + f
+        string = "No Regular found. Ensure there is a file ending in -Regular.ttf"
         color = "red"
         ansiprint(string, color)
+        sys.exit()
     if isinstance(fontDesc, (str,unicode)):
       descHtml = "<p>" + fontDesc + "</p>"
     else:
