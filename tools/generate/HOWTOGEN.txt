@@ -86,7 +86,8 @@ cp ~/dcrossland-fontdirectory/INCOMING/METADATA_comments.txt .;
 gedit METADATA_comments.txt;
 
 # generate METADATA.json
-MYPWD=`pwd`; for dir in `ls -1`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd $MYPWD; done;
+# MYPWD=`pwd`; for dir in `ls -1`; do cd $dir; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; cd $MYPWD; done;
+cd ..; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; 
 
 # edit the METADATA, OFL and FONTLOG files
 for dir in `for i in `ls -1`; do if [ -d $i ]; then echo $i ; fi ; done`; do gedit $dir/METADATA.json; gedit $dir/*txt; done;
