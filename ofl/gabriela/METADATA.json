@@ -2,7 +2,7 @@
   "name": "Gabriela",
   "designer": "Eduardo Tunni",
   "license": "OFL",
-  "visibility": "Sandbox",
+  "visibility": "External",
   "category": "Serif",
   "size": 18144,
   "fonts": [
@@ -17,6 +17,7 @@
     }
   ],
   "subsets": [
+    "cyrillic",
     "latin",
     "latin-ext",
     "menu"
