@@ -56,10 +56,10 @@
       <point x="548" y="530" type="line"/>
     </contour>
     <contour>
-      <point x="573" y="0" type="move" name="ogonek"/>
+      <point x="323" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="323" y="0" type="move" name="bottom"/>
+      <point x="573" y="0" type="move" name="ogonek"/>
     </contour>
     <contour>
       <point x="295" y="514" type="move" name="top"/>

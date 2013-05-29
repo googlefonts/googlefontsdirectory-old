@@ -12,8 +12,10 @@
 	<integer>-251</integer>
 	<key>familyName</key>
 	<string>Playfair Display</string>
-	<key>italicAngle</key>
-	<real>0.0</real>
+	<key>fsType</key>
+	<array>
+		<integer>3</integer>
+	</array>
 	<key>note</key>
 	<string>Playfair Display is a transitional design. From the time of enlightenment in the late 18th century, the broad nib quills were replaced by pointed steel pens. This influenced typographical letterforms to become increasingly detached from the written ones. Developments in printing technology, ink and paper making, made it possible to print letterforms of high contrast and fine hairlines.
 
@@ -23,7 +25,7 @@ As the name indicates, Playfair Display is well suited for titling and headlines
 
 Playfair includes a full set of small-caps, common ligatures, and discretionary ligatures. For Polish, a set of alternate diacritical characters designed with ‘kreska’s are included. All European languages using the latin script are supported. A set of eight arrow devices are also included.</string>
 	<key>openTypeHeadCreated</key>
-	<string>2012/10/26 01:10:43</string>
+	<string>2013/04/21 17:11:20</string>
 	<key>openTypeNameDesigner</key>
 	<string>Claus Eggers Sørensen</string>
 	<key>openTypeNameDesignerURL</key>
@@ -71,8 +73,8 @@ Playfair includes a full set of small-caps, common ligatures, and discretionary 
 		<integer>23</integer>
 		<integer>90</integer>
 	</array>
-	<key>postscriptWeightName</key>
-	<string>Regular</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
@@ -82,7 +84,7 @@ Playfair includes a full set of small-caps, common ligatures, and discretionary 
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>2</integer>
+	<integer>3</integer>
 	<key>xHeight</key>
 	<integer>514</integer>
 </dict>

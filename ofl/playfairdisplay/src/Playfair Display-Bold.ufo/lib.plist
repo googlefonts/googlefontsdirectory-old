@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>GSDimensionPlugin.Dimensions</key>
+	<dict>
+		<key>UUID0</key>
+		<dict>
+	</dict>
+	</dict>
+	<key>com.schriftgestaltung.fontMasterID</key>
+	<string>39933D6F-F4A7-4C4E-8677-28C34DBED807</string>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<true/>
+	<key>com.schriftgestaltung.weight</key>
+	<string>Bold</string>
+	<key>com.schriftgestaltung.weightValue</key>
+	<real>180</real>
 	<key>public.glyphOrder</key>
 	<array>
 		<string>A</string>
@@ -98,12 +112,12 @@
 		<string>Scedilla</string>
 		<string>Scircumflex</string>
 		<string>Scommaaccent</string>
-		<string>Germandbls</string>
+		<string>uni1E9E</string>
 		<string>T</string>
 		<string>Tbar</string>
 		<string>Tcaron</string>
 		<string>Tcedilla</string>
-		<string>Tcommaaccent</string>
+		<string>uni021A</string>
 		<string>U</string>
 		<string>Uacute</string>
 		<string>Ubreve</string>
@@ -131,6 +145,11 @@
 		<string>Zacute</string>
 		<string>Zcaron</string>
 		<string>Zdotaccent</string>
+		<string>Cacute.loclPLK</string>
+		<string>Nacute.loclPLK</string>
+		<string>Oacute.loclPLK</string>
+		<string>Sacute.loclPLK</string>
+		<string>Zacute.loclPLK</string>
 		<string>a</string>
 		<string>aacute</string>
 		<string>abreve</string>
@@ -179,6 +198,7 @@
 		<string>ibreve</string>
 		<string>icircumflex</string>
 		<string>idieresis</string>
+		<string>i.loclTRK</string>
 		<string>igrave</string>
 		<string>ij</string>
 		<string>imacron</string>
@@ -233,7 +253,7 @@
 		<string>tbar</string>
 		<string>tcaron</string>
 		<string>tcedilla</string>
-		<string>tcommaaccent</string>
+		<string>uni021B</string>
 		<string>u</string>
 		<string>uacute</string>
 		<string>ubreve</string>
@@ -261,14 +281,6 @@
 		<string>zacute</string>
 		<string>zcaron</string>
 		<string>zdotaccent</string>
-		<string>fi</string>
-		<string>fl</string>
-		<string>Cacute.loclPLK</string>
-		<string>Nacute.loclPLK</string>
-		<string>Oacute.loclPLK</string>
-		<string>Sacute.loclPLK</string>
-		<string>Zacute.loclPLK</string>
-		<string>idotaccent</string>
 		<string>cacute.loclPLK</string>
 		<string>nacute.loclPLK</string>
 		<string>oacute.loclPLK</string>
@@ -281,19 +293,21 @@
 		<string>zacute.loclPLK</string>
 		<string>T_h</string>
 		<string>c_t</string>
+		<string>f_b.liga</string>
 		<string>f_f</string>
-		<string>f_idieresis.liga</string>
-		<string>f_igrave.liga</string>
 		<string>f_f_b.liga</string>
 		<string>f_f_h.liga</string>
 		<string>f_f_i</string>
 		<string>f_f_j.liga</string>
 		<string>f_f_k.liga</string>
-		<string>f_b.liga</string>
 		<string>f_f_l</string>
 		<string>f_h.liga</string>
+		<string>f_idieresis.liga</string>
+		<string>f_igrave.liga</string>
 		<string>f_j.liga</string>
 		<string>f_k.liga</string>
+		<string>fi</string>
+		<string>fl</string>
 		<string>s_p</string>
 		<string>s_t</string>
 		<string>a.smcp</string>
@@ -343,7 +357,7 @@
 		<string>ibreve.smcp</string>
 		<string>icircumflex.smcp</string>
 		<string>idieresis.smcp</string>
-		<string>idotaccent.smcp</string>
+		<string>i.loclTRK.smcp</string>
 		<string>igrave.smcp</string>
 		<string>ij.smcp</string>
 		<string>imacron.smcp</string>
@@ -395,7 +409,7 @@
 		<string>tbar.smcp</string>
 		<string>tcaron.smcp</string>
 		<string>tcedilla.smcp</string>
-		<string>tcommaaccent.smcp</string>
+		<string>uni021B.smcp</string>
 		<string>u.smcp</string>
 		<string>uacute.smcp</string>
 		<string>ubreve.smcp</string>
@@ -423,154 +437,154 @@
 		<string>zacute.smcp</string>
 		<string>zcaron.smcp</string>
 		<string>zdotaccent.smcp</string>
-		<string>A-cy</string>
-		<string>Be-cy</string>
-		<string>Ve-cy</string>
-		<string>Ge-cy</string>
-		<string>Gje-cy</string>
-		<string>Gheupturn-cy</string>
-		<string>De-cy</string>
-		<string>Ie-cy</string>
-		<string>Io-cy</string>
-		<string>Zhe-cy</string>
-		<string>Ze-cy</string>
-		<string>Ii-cy</string>
-		<string>ShortI-cy</string>
-		<string>Ka-cy</string>
-		<string>Kje-cy</string>
-		<string>El-cy</string>
-		<string>Em-cy</string>
-		<string>En-cy</string>
-		<string>O-cy</string>
-		<string>Pe-cy</string>
-		<string>Er-cy</string>
-		<string>Es-cy</string>
-		<string>Te-cy</string>
-		<string>U-cy</string>
-		<string>Ushort-cy</string>
-		<string>Ef-cy</string>
-		<string>Ha-cy</string>
-		<string>Che-cy</string>
-		<string>Tse-cy</string>
-		<string>Sha-cy</string>
-		<string>Shcha-cy</string>
-		<string>Dzhe-cy</string>
-		<string>Ia-cy</string>
-		<string>Softsign-cy</string>
-		<string>Hardsign-cy</string>
-		<string>Yeru-cy</string>
-		<string>Lje-cy</string>
-		<string>Nje-cy</string>
-		<string>Dze-cy</string>
-		<string>E-cy</string>
-		<string>Ereversed-cy</string>
-		<string>I-cy</string>
-		<string>Yi-cy</string>
-		<string>Je-cy</string>
-		<string>Tshe-cy</string>
-		<string>Iu-cy</string>
-		<string>Dje-cy</string>
-		<string>a-cy</string>
-		<string>be-cy</string>
-		<string>ve-cy</string>
-		<string>ge-cy</string>
-		<string>gje-cy</string>
-		<string>gheupturn-cy</string>
-		<string>de-cy</string>
-		<string>ie-cy</string>
-		<string>io-cy</string>
-		<string>zhe-cy</string>
-		<string>ze-cy</string>
-		<string>ii-cy</string>
-		<string>iishort-cy</string>
-		<string>ka-cy</string>
-		<string>kje-cy</string>
-		<string>el-cy</string>
-		<string>em-cy</string>
-		<string>en-cy</string>
-		<string>o-cy</string>
-		<string>pe-cy</string>
-		<string>er-cy</string>
-		<string>es-cy</string>
-		<string>te-cy</string>
-		<string>u-cy</string>
-		<string>ushort-cy</string>
-		<string>ef-cy</string>
-		<string>ha-cy</string>
-		<string>che-cy</string>
-		<string>tse-cy</string>
-		<string>sha-cy</string>
-		<string>shcha-cy</string>
-		<string>dzhe-cy</string>
-		<string>softsign-cy</string>
-		<string>hardsign-cy</string>
-		<string>yeru-cy</string>
-		<string>lje-cy</string>
-		<string>nje-cy</string>
-		<string>e-cy</string>
-		<string>ereversed-cy</string>
-		<string>iu-cy</string>
-		<string>ia-cy</string>
-		<string>dje-cy</string>
-		<string>dze-cy</string>
-		<string>i-cy</string>
-		<string>yi-cy</string>
-		<string>je-cy</string>
-		<string>tshe-cy</string>
-		<string>be-cy.srb</string>
-		<string>a-cy.smcp</string>
-		<string>be-cy.smcp</string>
-		<string>ve-cy.smcp</string>
-		<string>ge-cy.smcp</string>
-		<string>gje-cy.smcp</string>
-		<string>gheupturn-cy.smcp</string>
-		<string>de-cy.smcp</string>
-		<string>ie-cy.smcp</string>
-		<string>io-cy.smcp</string>
-		<string>zhe-cy.smcp</string>
-		<string>ze-cy.smcp</string>
-		<string>ii-cy.smcp</string>
-		<string>iishort-cy.smcp</string>
-		<string>ka-cy.smcp</string>
-		<string>kje-cy.smcp</string>
-		<string>el-cy.smcp</string>
-		<string>em-cy.smcp</string>
-		<string>en-cy.smcp</string>
-		<string>o-cy.smcp</string>
-		<string>pe-cy.smcp</string>
-		<string>er-cy.smcp</string>
-		<string>es-cy.smcp</string>
-		<string>te-cy.smcp</string>
-		<string>u-cy.smcp</string>
-		<string>ushort-cy.smcp</string>
-		<string>ef-cy.smcp</string>
-		<string>ha-cy.smcp</string>
-		<string>che-cy.smcp</string>
-		<string>tse-cy.smcp</string>
-		<string>sha-cy.smcp</string>
-		<string>shcha-cy.smcp</string>
-		<string>dzhe-cy.smcp</string>
-		<string>softsign-cy.smcp</string>
-		<string>hardsign-cy.smcp</string>
-		<string>yeru-cy.smcp</string>
-		<string>lje-cy.smcp</string>
-		<string>nje-cy.smcp</string>
-		<string>e-cy.smcp</string>
-		<string>ereversed-cy.smcp</string>
-		<string>iu-cy.smcp</string>
-		<string>ia-cy.smcp</string>
-		<string>dje-cy.smcp</string>
-		<string>dze-cy.smcp</string>
-		<string>i-cy.smcp</string>
-		<string>yi-cy.smcp</string>
-		<string>je-cy.smcp</string>
-		<string>tshe-cy.smcp</string>
+		<string>ordfeminine</string>
+		<string>ordmasculine</string>
+		<string>uni0410</string>
+		<string>uni0411</string>
+		<string>uni0412</string>
+		<string>uni0413</string>
+		<string>uni0403</string>
+		<string>uni0490</string>
+		<string>uni0414</string>
+		<string>uni0415</string>
+		<string>uni0401</string>
+		<string>uni0416</string>
+		<string>uni0417</string>
+		<string>uni0418</string>
+		<string>uni0419</string>
+		<string>uni041A</string>
+		<string>uni040C</string>
+		<string>uni041B</string>
+		<string>uni041C</string>
+		<string>uni041D</string>
+		<string>uni041E</string>
+		<string>uni041F</string>
+		<string>uni0420</string>
+		<string>uni0421</string>
+		<string>uni0422</string>
+		<string>uni0423</string>
+		<string>uni040E</string>
+		<string>uni0424</string>
+		<string>uni0425</string>
+		<string>uni0427</string>
+		<string>uni0426</string>
+		<string>uni0428</string>
+		<string>uni0429</string>
+		<string>uni040F</string>
+		<string>uni042F</string>
+		<string>uni042C</string>
+		<string>uni042A</string>
+		<string>uni042B</string>
+		<string>uni0409</string>
+		<string>uni040A</string>
+		<string>uni0405</string>
+		<string>uni0404</string>
+		<string>uni042D</string>
+		<string>uni0406</string>
+		<string>uni0407</string>
+		<string>uni0408</string>
+		<string>uni040B</string>
+		<string>uni042E</string>
+		<string>uni0402</string>
+		<string>uni0430</string>
+		<string>uni0431</string>
+		<string>uni0432</string>
+		<string>uni0433</string>
+		<string>uni0453</string>
+		<string>uni0491</string>
+		<string>uni0434</string>
+		<string>uni0435</string>
+		<string>uni0451</string>
+		<string>uni0436</string>
+		<string>uni0437</string>
+		<string>uni0438</string>
+		<string>uni0439</string>
+		<string>uni043A</string>
+		<string>uni045C</string>
+		<string>uni043B</string>
+		<string>uni043C</string>
+		<string>uni043D</string>
+		<string>uni043E</string>
+		<string>uni043F</string>
+		<string>uni0440</string>
+		<string>uni0441</string>
+		<string>uni0442</string>
+		<string>uni0443</string>
+		<string>uni045E</string>
+		<string>uni0444</string>
+		<string>uni0445</string>
+		<string>uni0447</string>
+		<string>uni0446</string>
+		<string>uni0448</string>
+		<string>uni0449</string>
+		<string>uni045F</string>
+		<string>uni044C</string>
+		<string>uni044A</string>
+		<string>uni044B</string>
+		<string>uni0459</string>
+		<string>uni045A</string>
+		<string>uni0454</string>
+		<string>uni044D</string>
+		<string>uni044E</string>
+		<string>uni044F</string>
+		<string>uni0452</string>
+		<string>uni0455</string>
+		<string>uni0456</string>
+		<string>uni0457</string>
+		<string>uni0458</string>
+		<string>uni045B</string>
+		<string>uni0431.srb</string>
+		<string>uni0430.smcp</string>
+		<string>uni0431.smcp</string>
+		<string>uni0432.smcp</string>
+		<string>uni0433.smcp</string>
+		<string>uni0453.smcp</string>
+		<string>uni0491.smcp</string>
+		<string>uni0434.smcp</string>
+		<string>uni0435.smcp</string>
+		<string>uni0451.smcp</string>
+		<string>uni0436.smcp</string>
+		<string>uni0437.smcp</string>
+		<string>uni0438.smcp</string>
+		<string>uni0439.smcp</string>
+		<string>uni043A.smcp</string>
+		<string>uni045C.smcp</string>
+		<string>uni043B.smcp</string>
+		<string>uni043C.smcp</string>
+		<string>uni043D.smcp</string>
+		<string>uni043E.smcp</string>
+		<string>uni043F.smcp</string>
+		<string>uni0440.smcp</string>
+		<string>uni0441.smcp</string>
+		<string>uni0442.smcp</string>
+		<string>uni0443.smcp</string>
+		<string>uni045E.smcp</string>
+		<string>uni0444.smcp</string>
+		<string>uni0445.smcp</string>
+		<string>uni0447.smcp</string>
+		<string>uni0446.smcp</string>
+		<string>uni0448.smcp</string>
+		<string>uni0449.smcp</string>
+		<string>uni045F.smcp</string>
+		<string>uni044C.smcp</string>
+		<string>uni044A.smcp</string>
+		<string>uni044B.smcp</string>
+		<string>uni0459.smcp</string>
+		<string>uni045A.smcp</string>
+		<string>uni0454.smcp</string>
+		<string>uni044D.smcp</string>
+		<string>uni044E.smcp</string>
+		<string>uni044F.smcp</string>
+		<string>uni0452.smcp</string>
+		<string>uni0455.smcp</string>
+		<string>uni0456.smcp</string>
+		<string>uni0457.smcp</string>
+		<string>uni0458.smcp</string>
+		<string>uni045B.smcp</string>
 		<string>Delta</string>
 		<string>Omega</string>
 		<string>mu</string>
 		<string>pi</string>
-		<string>ordfeminine</string>
-		<string>ordmasculine</string>
 		<string>zero</string>
 		<string>one</string>
 		<string>two</string>
@@ -581,6 +595,16 @@
 		<string>seven</string>
 		<string>eight</string>
 		<string>nine</string>
+		<string>zero.lf</string>
+		<string>one.lf</string>
+		<string>two.lf</string>
+		<string>three.lf</string>
+		<string>four.lf</string>
+		<string>five.lf</string>
+		<string>six.lf</string>
+		<string>seven.lf</string>
+		<string>eight.lf</string>
+		<string>nine.lf</string>
 		<string>zero.subs</string>
 		<string>one.subs</string>
 		<string>two.subs</string>
@@ -598,20 +622,10 @@
 		<string>seven.sups</string>
 		<string>eight.sups</string>
 		<string>nine.sups</string>
-		<string>zero.lf</string>
-		<string>one.lf</string>
-		<string>two.lf</string>
-		<string>three.lf</string>
-		<string>four.lf</string>
-		<string>five.lf</string>
-		<string>six.lf</string>
-		<string>seven.lf</string>
-		<string>eight.lf</string>
-		<string>nine.lf</string>
 		<string>fraction</string>
 		<string>onehalf</string>
-		<string>onethird</string>
-		<string>twothirds</string>
+		<string>uni2153</string>
+		<string>uni2154</string>
 		<string>onequarter</string>
 		<string>threequarters</string>
 		<string>zero.dnom</string>
@@ -640,10 +654,6 @@
 		<string>asterisk</string>
 		<string>backslash</string>
 		<string>bullet</string>
-		<string>bullet.case</string>
-		<string>exclamdown.case</string>
-		<string>periodcentered.case</string>
-		<string>questiondown.case</string>
 		<string>colon</string>
 		<string>comma</string>
 		<string>ellipsis</string>
@@ -659,29 +669,29 @@
 		<string>semicolon</string>
 		<string>slash</string>
 		<string>underscore</string>
+		<string>bullet.case</string>
+		<string>exclamdown.case</string>
+		<string>periodcentered.case</string>
+		<string>questiondown.case</string>
 		<string>braceleft</string>
 		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
+		<string>parenleft</string>
+		<string>parenright</string>
 		<string>braceleft.case</string>
 		<string>braceright.case</string>
 		<string>bracketleft.case</string>
 		<string>bracketright.case</string>
 		<string>parenleft.case</string>
 		<string>parenright.case</string>
-		<string>parenleft</string>
-		<string>parenright</string>
-		<string>emdash.case</string>
-		<string>endash.case</string>
-		<string>hyphen.case</string>
 		<string>emdash</string>
 		<string>endash</string>
 		<string>hyphen</string>
 		<string>softhyphen</string>
-		<string>guillemotleft.case</string>
-		<string>guillemotright.case</string>
-		<string>guilsinglleft.case</string>
-		<string>guilsinglright.case</string>
+		<string>emdash.case</string>
+		<string>endash.case</string>
+		<string>hyphen.case</string>
 		<string>guillemotleft</string>
 		<string>guillemotright</string>
 		<string>guilsinglleft</string>
@@ -692,6 +702,10 @@
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>quotesinglbase</string>
+		<string>guillemotleft.case</string>
+		<string>guillemotright.case</string>
+		<string>guilsinglleft.case</string>
+		<string>guilsinglright.case</string>
 		<string>braceleft.smcp</string>
 		<string>braceright.smcp</string>
 		<string>bracketleft.smcp</string>
@@ -712,8 +726,8 @@
 		<string>question.smcp</string>
 		<string>questiondown.smcp</string>
 		<string>space</string>
-		<string>nbspace</string>
-		<string>thinspace</string>
+		<string>uni00A0</string>
+		<string>uni2009</string>
 		<string>CR</string>
 		<string>.notdef</string>
 		<string>florin</string>
@@ -721,7 +735,8 @@
 		<string>cent</string>
 		<string>currency</string>
 		<string>dollar</string>
-		<string>rupeeIndian</string>
+		<string>Euro</string>
+		<string>uni20B9</string>
 		<string>sterling</string>
 		<string>yen</string>
 		<string>approxequal</string>
@@ -746,6 +761,7 @@
 		<string>product</string>
 		<string>radical</string>
 		<string>summation</string>
+		<string>asciitilde.case</string>
 		<string>arrowboth</string>
 		<string>arrowdown</string>
 		<string>arrowdownleft</string>
@@ -755,19 +771,25 @@
 		<string>arrowup</string>
 		<string>arrowupleft</string>
 		<string>arrowupright</string>
+		<string>blacksquare</string>
+		<string>lozenge</string>
+		<string>whitesquare</string>
+		<string>whitesquare.case</string>
 		<string>ampersand</string>
 		<string>asciicircum</string>
 		<string>at</string>
 		<string>bar</string>
 		<string>brokenbar</string>
+		<string>uni2105</string>
 		<string>copyright</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
 		<string>degree</string>
+		<string>uni2116</string>
 		<string>paragraph</string>
 		<string>registered</string>
 		<string>section</string>
-		<string>asciitilde.case</string>
+		<string>trademark</string>
 		<string>asciicircum.case</string>
 		<string>at.case</string>
 		<string>ampersand.smcp</string>
@@ -777,32 +799,30 @@
 		<string>cent.smcp</string>
 		<string>currency.smcp</string>
 		<string>dollar.smcp</string>
+		<string>Euro.smcp</string>
 		<string>paragraph.smcp</string>
-		<string>rupeeIndian.smcp</string>
+		<string>uni20B9.smcp</string>
 		<string>section.smcp</string>
 		<string>sterling.smcp</string>
-		<string>yen.smcp</string>
-		<string>euro</string>
-		<string>careof</string>
-		<string>numero</string>
-		<string>trademark</string>
-		<string>blacksquare</string>
-		<string>lozenge</string>
-		<string>whitesquare</string>
-		<string>whitesquare.case</string>
-		<string>euro.smcp</string>
 		<string>whitesquare.smcp</string>
-		<string>commaaccent.case</string>
-		<string>commaaccent</string>
-		<string>commaaccent.smcp</string>
+		<string>yen.smcp</string>
 		<string>acute</string>
 		<string>breve</string>
+		<string>breve-cy</string>
 		<string>caron</string>
-		<string>acute.loclPLK</string>
-		<string>acute.loclPLK.case</string>
-		<string>acute.loclPLK.smcp</string>
+		<string>cedilla</string>
+		<string>circumflex</string>
+		<string>dieresis</string>
+		<string>dotaccent</string>
+		<string>grave</string>
+		<string>hungarumlaut</string>
+		<string>macron</string>
+		<string>ogonek</string>
+		<string>ring</string>
+		<string>tilde</string>
 		<string>acute.case</string>
 		<string>breve.case</string>
+		<string>breve-cy.case</string>
 		<string>caron.case</string>
 		<string>cedilla.case</string>
 		<string>circumflex.case</string>
@@ -814,20 +834,18 @@
 		<string>ogonek.case</string>
 		<string>ring.case</string>
 		<string>tilde.case</string>
-		<string>cedilla</string>
-		<string>circumflex</string>
-		<string>dieresis</string>
-		<string>dotaccent</string>
-		<string>grave</string>
-		<string>hungarumlaut</string>
-		<string>macron</string>
-		<string>ogonek</string>
-		<string>ring</string>
+		<string>acute.loclPLK</string>
+		<string>acute.loclPLK.case</string>
+		<string>acute.loclPLK.smcp</string>
+		<string>commaaccentcomb</string>
+		<string>commaaccentcomb.case</string>
 		<string>acute.smcp</string>
 		<string>breve.smcp</string>
+		<string>breve-cy.smcp</string>
 		<string>caron.smcp</string>
 		<string>cedilla.smcp</string>
 		<string>circumflex.smcp</string>
+		<string>commaaccentcomb.smcp</string>
 		<string>dieresis.smcp</string>
 		<string>dotaccent.smcp</string>
 		<string>grave.smcp</string>
@@ -836,24 +854,12 @@
 		<string>ogonek.smcp</string>
 		<string>ring.smcp</string>
 		<string>tilde.smcp</string>
-		<string>tilde</string>
 		<string>NULL</string>
+		<string>hacek</string>
 		<string>blacksquare.case</string>
 		<string>blacksquare.smcp</string>
-		<string>breve-cy</string>
-		<string>breve-cy.case</string>
-		<string>breve-cy.smcp</string>
-		<string>hacek</string>
 		<string>hacek.case</string>
 		<string>hacek.smcp</string>
 	</array>
-	<key>com.schriftgestaltung.useNiceNames</key>
-	<true/>
-	<key>com.schriftgestaltung.weight</key>
-	<string>Bold</string>
-	<key>com.schriftgestaltung.weightValue</key>
-	<real>180</real>
-	<key>com.schriftgestaltung.fontMasterID</key>
-	<string>39933D6F-F4A7-4C4E-8677-28C34DBED807</string>
 </dict>
 </plist>

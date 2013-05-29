@@ -96,10 +96,10 @@
       <point x="471" y="782" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="422" y="514" type="move" name="top"/>
+      <point x="422" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
-      <point x="422" y="0" type="move" name="bottom"/>
+      <point x="422" y="514" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -376,8 +376,8 @@
 	<array>
 		<string>p</string>
 		<string>thorn</string>
-		<string>f_f_b.liga</string>
 		<string>f_b.liga</string>
+		<string>f_f_b.liga</string>
 		<string>s_p</string>
 	</array>
 	<key>@MMK_L_c</key>
@@ -491,6 +491,7 @@
 		<string>ibreve</string>
 		<string>icircumflex</string>
 		<string>idieresis</string>
+		<string>idotaccent</string>
 		<string>igrave</string>
 		<string>imacron</string>
 		<string>iogonek</string>
@@ -506,11 +507,10 @@
 		<string>uogonek</string>
 		<string>uring</string>
 		<string>utilde</string>
-		<string>fi</string>
-		<string>idotaccent</string>
+		<string>f_f_i</string>
 		<string>f_idieresis.liga</string>
 		<string>f_igrave.liga</string>
-		<string>f_f_i</string>
+		<string>fi</string>
 	</array>
 	<key>@MMK_L_j</key>
 	<array>
@@ -537,8 +537,8 @@
 		<string>lcaron</string>
 		<string>lcommaaccent</string>
 		<string>lslash</string>
-		<string>fl</string>
 		<string>f_f_l</string>
+		<string>fl</string>
 	</array>
 	<key>@MMK_L_l.smcp</key>
 	<array>
@@ -643,7 +643,7 @@
 	<key>@MMK_L_uni0418</key>
 	<array>
 		<string>Ii-cy</string>
-		<string>ShortI-cy</string>
+		<string>Iishort-cy</string>
 		<string>El-cy</string>
 		<string>Em-cy</string>
 		<string>En-cy</string>
@@ -1167,21 +1167,21 @@
 	<array>
 		<string>Germandbls</string>
 		<string>f</string>
-		<string>fi</string>
-		<string>fl</string>
+		<string>f_b.liga</string>
 		<string>f_f</string>
-		<string>f_idieresis.liga</string>
-		<string>f_igrave.liga</string>
 		<string>f_f_b.liga</string>
 		<string>f_f_h.liga</string>
 		<string>f_f_i</string>
 		<string>f_f_j.liga</string>
 		<string>f_f_k.liga</string>
-		<string>f_b.liga</string>
 		<string>f_f_l</string>
 		<string>f_h.liga</string>
+		<string>f_idieresis.liga</string>
+		<string>f_igrave.liga</string>
 		<string>f_j.liga</string>
 		<string>f_k.liga</string>
+		<string>fi</string>
+		<string>fl</string>
 	</array>
 	<key>@MMK_R_g</key>
 	<array>
@@ -1254,12 +1254,12 @@
 		<string>ibreve</string>
 		<string>icircumflex</string>
 		<string>idieresis</string>
+		<string>idotaccent</string>
 		<string>igrave</string>
 		<string>imacron</string>
 		<string>iogonek</string>
 		<string>itilde</string>
 		<string>kgreenlandic</string>
-		<string>idotaccent</string>
 	</array>
 	<key>@MMK_R_j</key>
 	<array>
@@ -1403,7 +1403,7 @@
 		<string>Ie-cy</string>
 		<string>Io-cy</string>
 		<string>Ii-cy</string>
-		<string>ShortI-cy</string>
+		<string>Iishort-cy</string>
 		<string>Ka-cy</string>
 		<string>Kje-cy</string>
 		<string>Em-cy</string>
@@ -1715,7 +1715,7 @@
 		<string>Zhe-cy</string>
 		<string>Ze-cy</string>
 		<string>Ii-cy</string>
-		<string>ShortI-cy</string>
+		<string>Iishort-cy</string>
 		<string>Ka-cy</string>
 		<string>Kje-cy</string>
 		<string>El-cy</string>

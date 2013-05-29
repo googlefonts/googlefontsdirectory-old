@@ -3,7 +3,7 @@ cd ~/googlefontdirectory/ofl/; \
     for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
       cd ~/src/font-optimizer; \
       ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt" \
+       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,locl,mark,case,cpsp" \
        --chars="Playfair Display" \
       ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
       cd ~/googlefontdirectory/ofl/; \

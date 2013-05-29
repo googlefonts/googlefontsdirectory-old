@@ -1,9 +1,9 @@
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
-languagesystem latn dflt;
-languagesystem grek dflt;
 languagesystem cyrl dflt;
+languagesystem grek dflt;
+languagesystem latn dflt;
 languagesystem latn TRK;
 languagesystem latn MOL;
 languagesystem latn ROM;
@@ -136,13 +136,13 @@ feature frac {
 lookup FRAC {
 	sub slash by fraction;
 } FRAC;
-lookup HOCH {
+lookup UP {
 	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} HOCH;
-lookup TIEF {
+} UP;
+lookup DOWN {
 	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} TIEF;
+} DOWN;
 } frac;
 feature ordn {
 # automatic
@@ -333,6 +333,7 @@ sub Io-cy by io-cy.smcp;
 sub Zhe-cy by zhe-cy.smcp;
 sub Ze-cy by ze-cy.smcp;
 sub Ii-cy by ii-cy.smcp;
+sub Iishort-cy by iishort-cy.smcp;
 sub Ka-cy by ka-cy.smcp;
 sub Kje-cy by kje-cy.smcp;
 sub El-cy by el-cy.smcp;
@@ -394,20 +395,21 @@ sub at by at.smcp;
 sub cent by cent.smcp;
 sub currency by currency.smcp;
 sub dollar by dollar.smcp;
+sub euro by euro.smcp;
 sub paragraph by paragraph.smcp;
 sub rupeeIndian by rupeeIndian.smcp;
 sub section by section.smcp;
 sub sterling by sterling.smcp;
-sub yen by yen.smcp;
-sub euro by euro.smcp;
 sub whitesquare by whitesquare.smcp;
-sub commaaccent by commaaccent.smcp;
+sub yen by yen.smcp;
 sub acute.loclPLK by acute.loclPLK.smcp;
 sub acute by acute.smcp;
 sub breve by breve.smcp;
+sub breve-cy by breve-cy.smcp;
 sub caron by caron.smcp;
 sub cedilla by cedilla.smcp;
 sub circumflex by circumflex.smcp;
+sub commaaccent by commaaccent.smcp;
 sub dieresis by dieresis.smcp;
 sub dotaccent by dotaccent.smcp;
 sub grave by grave.smcp;
@@ -417,7 +419,6 @@ sub ogonek by ogonek.smcp;
 sub ring by ring.smcp;
 sub tilde by tilde.smcp;
 sub blacksquare by blacksquare.smcp;
-sub breve-cy by breve-cy.smcp;
 sub hacek by hacek.smcp;
 } c2sc;
 feature smcp {
@@ -628,19 +629,20 @@ sub at by at.smcp;
 sub cent by cent.smcp;
 sub currency by currency.smcp;
 sub dollar by dollar.smcp;
+sub euro by euro.smcp;
 sub paragraph by paragraph.smcp;
 sub section by section.smcp;
 sub sterling by sterling.smcp;
-sub yen by yen.smcp;
-sub euro by euro.smcp;
 sub whitesquare by whitesquare.smcp;
-sub commaaccent by commaaccent.smcp;
+sub yen by yen.smcp;
 sub acute.loclPLK by acute.loclPLK.smcp;
 sub acute by acute.smcp;
 sub breve by breve.smcp;
+sub breve-cy by breve-cy.smcp;
 sub caron by caron.smcp;
 sub cedilla by cedilla.smcp;
 sub circumflex by circumflex.smcp;
+sub commaaccent by commaaccent.smcp;
 sub dieresis by dieresis.smcp;
 sub dotaccent by dotaccent.smcp;
 sub grave by grave.smcp;
@@ -650,7 +652,6 @@ sub ogonek by ogonek.smcp;
 sub ring by ring.smcp;
 sub tilde by tilde.smcp;
 sub blacksquare by blacksquare.smcp;
-sub breve-cy by breve-cy.smcp;
 sub hacek by hacek.smcp;
 } smcp;
 feature case {
@@ -673,13 +674,12 @@ sub guillemotright by guillemotright.case;
 sub guilsinglleft by guilsinglleft.case;
 sub guilsinglright by guilsinglright.case;
 sub asciitilde by asciitilde.case;
+sub whitesquare by whitesquare.case;
 sub asciicircum by asciicircum.case;
 sub at by at.case;
-sub whitesquare by whitesquare.case;
-sub commaaccent by commaaccent.case;
-sub acute.loclPLK by acute.loclPLK.case;
 sub acute by acute.case;
 sub breve by breve.case;
+sub breve-cy by breve-cy.case;
 sub caron by caron.case;
 sub cedilla by cedilla.case;
 sub circumflex by circumflex.case;
@@ -691,8 +691,9 @@ sub macron by macron.case;
 sub ogonek by ogonek.case;
 sub ring by ring.case;
 sub tilde by tilde.case;
+sub acute.loclPLK by acute.loclPLK.case;
+sub commaaccent by commaaccent.case;
 sub blacksquare by blacksquare.case;
-sub breve-cy by breve-cy.case;
 sub hacek by hacek.case;
 sub zero by zero.lf;
 sub one by one.lf;
@@ -716,19 +717,19 @@ feature liga {
 # automatic
 sub f f i by f_f_i;
 sub f f l by f_f_l;
+sub f f by f_f;
+sub f i by fi;
+sub f l by fl;
+sub f b by f_b.liga;
 sub f f b by f_f_b.liga;
 sub f f h by f_f_h.liga;
 sub f f j by f_f_j.liga;
 sub f f k by f_f_k.liga;
-sub f f by f_f;
+sub f h by f_h.liga;
 sub f idieresis by f_idieresis.liga;
 sub f igrave by f_igrave.liga;
-sub f b by f_b.liga;
-sub f h by f_h.liga;
 sub f j by f_j.liga;
 sub f k by f_k.liga;
-sub f i by fi;
-sub f l by fl;
 } liga;
 feature cpsp {
 pos @Uppercase <20 0 20 0>;

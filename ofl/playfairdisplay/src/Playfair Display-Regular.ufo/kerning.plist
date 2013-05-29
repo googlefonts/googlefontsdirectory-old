@@ -2614,13 +2614,13 @@
 		<key>@MMK_R_period</key>
 		<integer>-39</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-36</integer>
+		<integer>-76</integer>
 		<key>braceright</key>
 		<integer>-13</integer>
 		<key>bracketright</key>
 		<integer>-10</integer>
 		<key>de-cy</key>
-		<integer>-21</integer>
+		<integer>-51</integer>
 		<key>parenright</key>
 		<integer>-24</integer>
 		<key>slash</key>
@@ -2674,7 +2674,7 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-11</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-5</integer>
+		<integer>-25</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>-10</integer>
 		<key>backslash</key>
@@ -2686,7 +2686,7 @@
 		<key>che-cy</key>
 		<integer>-4</integer>
 		<key>de-cy</key>
-		<integer>-15</integer>
+		<integer>-35</integer>
 		<key>ha-cy</key>
 		<integer>-14</integer>
 		<key>parenright</key>
@@ -2709,6 +2709,8 @@
 	<dict>
 		<key>@MMK_R_hyphen</key>
 		<integer>-15</integer>
+		<key>be-cy</key>
+		<integer>-10</integer>
 		<key>parenright</key>
 		<integer>-14</integer>
 	</dict>
@@ -2760,9 +2762,9 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-18</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-9</integer>
+		<integer>-69</integer>
 		<key>@MMK_R_uni0443</key>
-		<integer>-9</integer>
+		<integer>-29</integer>
 		<key>backslash</key>
 		<integer>-21</integer>
 		<key>braceright</key>
@@ -2770,17 +2772,21 @@
 		<key>bracketright</key>
 		<integer>-16</integer>
 		<key>che-cy</key>
-		<integer>-9</integer>
+		<integer>-39</integer>
 		<key>de-cy</key>
-		<integer>-20</integer>
+		<integer>-60</integer>
 		<key>ha-cy</key>
-		<integer>-17</integer>
+		<integer>-47</integer>
+		<key>ia-cy</key>
+		<integer>-30</integer>
 		<key>parenright</key>
 		<integer>-29</integer>
 		<key>question</key>
 		<integer>-19</integer>
+		<key>ze-cy</key>
+		<integer>-10</integer>
 		<key>zhe-cy</key>
-		<integer>-16</integer>
+		<integer>-36</integer>
 	</dict>
 	<key>@MMK_L_uni043E.smcp</key>
 	<dict>
@@ -2834,7 +2840,7 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-15</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-11</integer>
+		<integer>-69</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>-12</integer>
 		<key>backslash</key>
@@ -2844,11 +2850,13 @@
 		<key>bracketright</key>
 		<integer>-16</integer>
 		<key>che-cy</key>
-		<integer>-7</integer>
+		<integer>-37</integer>
 		<key>de-cy</key>
 		<integer>-21</integer>
 		<key>ha-cy</key>
 		<integer>-18</integer>
+		<key>ia-cy</key>
+		<integer>-20</integer>
 		<key>parenright</key>
 		<integer>-29</integer>
 		<key>question</key>
@@ -2865,7 +2873,7 @@
 		<key>@MMK_R_period</key>
 		<integer>-46</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-46</integer>
+		<integer>-106</integer>
 		<key>@MMK_R_uni043E</key>
 		<integer>-13</integer>
 		<key>@MMK_R_uni045B</key>
@@ -2875,11 +2883,11 @@
 		<key>be-cy.srb</key>
 		<integer>-24</integer>
 		<key>de-cy</key>
-		<integer>-21</integer>
+		<integer>-71</integer>
 		<key>dze-cy</key>
 		<integer>-5</integer>
 		<key>ia-cy</key>
-		<integer>-16</integer>
+		<integer>-36</integer>
 		<key>parenright</key>
 		<integer>-22</integer>
 		<key>slash</key>
@@ -2921,7 +2929,7 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-61</integer>
 		<key>@MMK_R_uni0443</key>
-		<integer>-36</integer>
+		<integer>-106</integer>
 		<key>asterisk</key>
 		<integer>-44</integer>
 		<key>backslash</key>
@@ -2931,9 +2939,9 @@
 		<key>bracketright</key>
 		<integer>-14</integer>
 		<key>che-cy</key>
-		<integer>-29</integer>
+		<integer>-89</integer>
 		<key>de-cy</key>
-		<integer>-16</integer>
+		<integer>-36</integer>
 		<key>er-cy</key>
 		<integer>-5</integer>
 		<key>ha-cy</key>
@@ -4202,7 +4210,7 @@
 		<key>bracketright</key>
 		<integer>-10</integer>
 		<key>che-cy</key>
-		<integer>-13</integer>
+		<integer>-33</integer>
 		<key>parenright</key>
 		<integer>-17</integer>
 		<key>question</key>
@@ -5054,6 +5062,8 @@
 	<key>es-cy</key>
 	<dict>
 		<key>@MMK_R_hyphen</key>
+		<integer>-20</integer>
+		<key>@MMK_R_uni043B</key>
 		<integer>-20</integer>
 		<key>backslash</key>
 		<integer>-15</integer>
@@ -6191,10 +6201,12 @@
 		<key>@MMK_R_period</key>
 		<integer>-26</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-34</integer>
+		<integer>-84</integer>
 		<key>braceright</key>
 		<integer>-12</integer>
 		<key>de-cy</key>
+		<integer>-20</integer>
+		<key>ia-cy</key>
 		<integer>-20</integer>
 		<key>parenright</key>
 		<integer>-23</integer>
@@ -6413,7 +6425,7 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-8</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-7</integer>
+		<integer>-27</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>-11</integer>
 		<key>backslash</key>
@@ -6520,6 +6532,8 @@
 	<dict>
 		<key>@MMK_R_quoteright</key>
 		<integer>-11</integer>
+		<key>@MMK_R_uni043B</key>
+		<integer>-20</integer>
 		<key>backslash</key>
 		<integer>-19</integer>
 		<key>braceright</key>

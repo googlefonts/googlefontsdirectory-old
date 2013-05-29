@@ -3121,11 +3121,11 @@
 		<key>@MMK_R_period</key>
 		<integer>-34</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-39</integer>
+		<integer>-119</integer>
 		<key>braceright</key>
 		<integer>-17</integer>
 		<key>de-cy</key>
-		<integer>-43</integer>
+		<integer>-53</integer>
 		<key>parenright</key>
 		<integer>-27</integer>
 		<key>slash</key>
@@ -3229,7 +3229,7 @@
 		<key>braceright</key>
 		<integer>-23</integer>
 		<key>de-cy</key>
-		<integer>-31</integer>
+		<integer>-61</integer>
 		<key>ha-cy</key>
 		<integer>-16</integer>
 		<key>parenright</key>
@@ -3317,7 +3317,7 @@
 		<key>@MMK_R_quotesingle</key>
 		<integer>-26</integer>
 		<key>@MMK_R_uni0443</key>
-		<integer>-16</integer>
+		<integer>-26</integer>
 		<key>backslash</key>
 		<integer>-30</integer>
 		<key>braceright</key>
@@ -3325,9 +3325,9 @@
 		<key>che-cy</key>
 		<integer>-7</integer>
 		<key>de-cy</key>
-		<integer>-36</integer>
+		<integer>-66</integer>
 		<key>ha-cy</key>
-		<integer>-21</integer>
+		<integer>-31</integer>
 		<key>parenright</key>
 		<integer>-32</integer>
 		<key>question</key>
@@ -3416,9 +3416,9 @@
 		<key>@MMK_R_period</key>
 		<integer>-46</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-52</integer>
+		<integer>-112</integer>
 		<key>@MMK_R_uni043E</key>
-		<integer>-22</integer>
+		<integer>-42</integer>
 		<key>@MMK_R_uni045B</key>
 		<integer>-14</integer>
 		<key>a-cy</key>
@@ -3430,7 +3430,7 @@
 		<key>braceright</key>
 		<integer>-13</integer>
 		<key>de-cy</key>
-		<integer>-48</integer>
+		<integer>-98</integer>
 		<key>dze-cy</key>
 		<integer>-16</integer>
 		<key>ereversed-cy</key>
@@ -3441,6 +3441,8 @@
 		<integer>-28</integer>
 		<key>slash</key>
 		<integer>-34</integer>
+		<key>ze-cy</key>
+		<integer>-30</integer>
 		<key>zhe-cy</key>
 		<integer>-9</integer>
 	</dict>
@@ -3502,7 +3504,7 @@
 		<key>@MMK_R_uni0438</key>
 		<integer>-4</integer>
 		<key>@MMK_R_uni0443</key>
-		<integer>-53</integer>
+		<integer>-93</integer>
 		<key>@MMK_R_uni0456</key>
 		<integer>-4</integer>
 		<key>asterisk</key>
@@ -3512,9 +3514,9 @@
 		<key>braceright</key>
 		<integer>-22</integer>
 		<key>che-cy</key>
-		<integer>-24</integer>
+		<integer>-74</integer>
 		<key>de-cy</key>
-		<integer>-26</integer>
+		<integer>-46</integer>
 		<key>er-cy</key>
 		<integer>-6</integer>
 		<key>ereversed-cy</key>
@@ -7199,7 +7201,7 @@
 		<key>@MMK_R_period</key>
 		<integer>-34</integer>
 		<key>@MMK_R_uni043B</key>
-		<integer>-39</integer>
+		<integer>-99</integer>
 		<key>@MMK_R_uni0443</key>
 		<integer>9</integer>
 		<key>braceright</key>
