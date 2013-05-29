@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lje-cy.smcp" format="1">
+  <advance width="989"/>
+  <outline>
+    <contour>
+      <point x="567" y="362"/>
+      <point x="567" y="342"/>
+      <point x="567" y="342" type="curve"/>
+      <point x="643" y="342" type="line" smooth="yes"/>
+      <point x="745" y="342"/>
+      <point x="766" y="266"/>
+      <point x="766" y="179" type="curve" smooth="yes"/>
+      <point x="766" y="74"/>
+      <point x="742" y="19"/>
+      <point x="688" y="20" type="curve" smooth="yes"/>
+      <point x="665" y="20"/>
+      <point x="642" y="15"/>
+      <point x="640" y="10" type="curve" smooth="yes"/>
+      <point x="638" y="5"/>
+      <point x="670" y="0"/>
+      <point x="696" y="0" type="curve" smooth="yes"/>
+      <point x="881" y="0"/>
+      <point x="966" y="66"/>
+      <point x="966" y="190" type="curve" smooth="yes"/>
+      <point x="966" y="290"/>
+      <point x="900" y="362"/>
+      <point x="653" y="362" type="curve" smooth="yes"/>
+      <point x="567" y="362" type="line"/>
+    </contour>
+    <component base="el-cy.smcp"/>
+  </outline>
+</glyph>
