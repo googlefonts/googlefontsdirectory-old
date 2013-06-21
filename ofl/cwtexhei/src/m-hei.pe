@@ -1,0 +1,14 @@
+Open("cwTeXHei.ttf");
+Select(0u0020, 0u00FF); # delete latin-1 chars
+Cut();
+#Select(0u3040, 0u309F); # delete hiragana
+#Cut(); 
+#Select(0u30A0, 0u30FF); # delete katakana
+#Cut(); 
+Select(0u3130, 0u318F); # delete hangul_compatibility_jamo
+Cut(); 
+Select(0uAC00, 0uD7A3); # delete hangul_syllables
+Cut(); 
+Generate("cwTeXHei-zhonly.ttf", "", 4/* remove bitmap */);
+MergeFonts("Copse-Regular.ttf");
+Generate("cwTeXHei-ofl.ttf", "", 4/* remove bitmap */);
