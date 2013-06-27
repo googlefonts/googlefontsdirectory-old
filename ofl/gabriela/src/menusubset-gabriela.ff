@@ -34,4 +34,4 @@ SelectMore(0u0446) # afii10088 cyrillic
 SelectInvert()
 Clear()
 # This has to end in .ttf or it will not include all the needed glyphs
-Save($1 + ".menu.ttf")
+Generate($1 + ".menu.ttf")
