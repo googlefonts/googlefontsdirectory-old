@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python
 #
 # Copyright 2012, Steffen Hanikel (https://github.com/hanikesn)
 #
