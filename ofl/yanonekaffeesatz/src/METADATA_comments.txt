@@ -39,11 +39,11 @@ rename 's/([^+])\+latin$/$1/' *;
 
 
 cp YanoneKaffeesatz-Bold.ttf YanoneKaffeesatz-Bold.cyrillic 
-cp YanoneKaffeesatz-Thin.ttf YanoneKaffeesatz-ExtraLight.cyrillic 
+cp YanoneKaffeesatz-ExtraLight.ttf YanoneKaffeesatz-ExtraLight.cyrillic 
 cp YanoneKaffeesatz-Regular.ttf YanoneKaffeesatz-Regular.cyrillic
 cp YanoneKaffeesatz-Light.ttf YanoneKaffeesatz-Light.cyrillic 
 
 cp YanoneKaffeesatz-Bold.ttf YanoneKaffeesatz-Bold.latin-ext 
-cp YanoneKaffeesatz-Thin.ttf YanoneKaffeesatz-ExtraLight.latin-ext 
+cp YanoneKaffeesatz-ExtraLight.ttf YanoneKaffeesatz-ExtraLight.latin-ext 
 cp YanoneKaffeesatz-Regular.ttf YanoneKaffeesatz-Regular.latin-ext
 cp YanoneKaffeesatz-Light.ttf YanoneKaffeesatz-Light.latin-ext 
