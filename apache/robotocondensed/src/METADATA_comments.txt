@@ -1,9 +1,10 @@
-for font in `ls *ttf`; do
-fontforge -lang=ff -script src/menusubset-robotocondensed.ff $font;
-done;
+rm *.menu; \
+for font in `ls *ttf`; do \
+fontforge -lang=ff -script src/menusubset-robotocondensed.ff $font; \
+done; \
 rename s/ttf.menu.ttf/menu/g *;
 
-rm *.nam *.log *.latin* *.cyrillic* *.greek*; \
+rm *.nam *.latin* *.cyrillic* *.greek* *.vietn* *.log; \
 cd ~/googlefontdirectory/apache/; \
 for family in robotocondensed; do \
    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
@@ -23,4 +24,3 @@ for family in robotocondensed; do \
 done; \
 cd ~/googlefontdirectory/apache/robotocondensed/; \
 rename 's/([^+])\+latin$/$1/' *;
-
