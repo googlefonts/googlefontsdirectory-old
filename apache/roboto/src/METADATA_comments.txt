@@ -1,3 +1,7 @@
+# NOTE: When Google Fonts updates these fonts, the 
+# Android style guide page should also have its zipped
+# copies of Roboto fonts updated to match
+
 rm *.menu; \
 for font in `ls *ttf`; do \
 fontforge -lang=ff -script src/menusubset-roboto.ff $font; \
