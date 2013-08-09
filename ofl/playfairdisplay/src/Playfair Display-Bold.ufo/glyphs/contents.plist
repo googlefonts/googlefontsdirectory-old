@@ -212,8 +212,6 @@
 	<string>Scommaaccent_.glif</string>
 	<key>T</key>
 	<string>T_.glif</string>
-	<key>T_h</key>
-	<string>T__h.glif</string>
 	<key>Tbar</key>
 	<string>Tbar_.glif</string>
 	<key>Tcaron</key>
@@ -440,8 +438,6 @@
 	<string>c.glif</string>
 	<key>c.smcp</key>
 	<string>c.smcp.glif</string>
-	<key>c_t</key>
-	<string>c_t.glif</string>
 	<key>cacute</key>
 	<string>cacute.glif</string>
 	<key>cacute.loclPLK</key>
@@ -634,32 +630,12 @@
 	<string>f.glif</string>
 	<key>f.smcp</key>
 	<string>f.smcp.glif</string>
-	<key>f_b.liga</key>
-	<string>f_b.liga.glif</string>
 	<key>f_f</key>
 	<string>f_f.glif</string>
-	<key>f_f_b.liga</key>
-	<string>f_f_b.liga.glif</string>
-	<key>f_f_h.liga</key>
-	<string>f_f_h.liga.glif</string>
 	<key>f_f_i</key>
 	<string>f_f_i.glif</string>
-	<key>f_f_j.liga</key>
-	<string>f_f_j.liga.glif</string>
-	<key>f_f_k.liga</key>
-	<string>f_f_k.liga.glif</string>
 	<key>f_f_l</key>
 	<string>f_f_l.glif</string>
-	<key>f_h.liga</key>
-	<string>f_h.liga.glif</string>
-	<key>f_idieresis.liga</key>
-	<string>f_idieresis.liga.glif</string>
-	<key>f_igrave.liga</key>
-	<string>f_igrave.liga.glif</string>
-	<key>f_j.liga</key>
-	<string>f_j.liga.glif</string>
-	<key>f_k.liga</key>
-	<string>f_k.liga.glif</string>
 	<key>fi</key>
 	<string>fi.glif</string>
 	<key>five</key>
@@ -1118,8 +1094,6 @@
 	<string>s.glif</string>
 	<key>s.smcp</key>
 	<string>s.smcp.glif</string>
-	<key>s_p</key>
-	<string>s_p.glif</string>
 	<key>s_t</key>
 	<string>s_t.glif</string>
 	<key>sacute</key>
@@ -1276,6 +1250,32 @@
 	<string>umacron.smcp.glif</string>
 	<key>underscore</key>
 	<string>underscore.glif</string>
+	<key>uni00540068</key>
+	<string>uni00540068.glif</string>
+	<key>uni00630074</key>
+	<string>uni00630074.glif</string>
+	<key>uni00660062.liga</key>
+	<string>uni00660062.liga.glif</string>
+	<key>uni006600660062.liga</key>
+	<string>uni006600660062.liga.glif</string>
+	<key>uni006600660068.liga</key>
+	<string>uni006600660068.liga.glif</string>
+	<key>uni00660066006A.liga</key>
+	<string>uni00660066006A_.liga.glif</string>
+	<key>uni00660066006B.liga</key>
+	<string>uni00660066006B_.liga.glif</string>
+	<key>uni00660068.liga</key>
+	<string>uni00660068.liga.glif</string>
+	<key>uni0066006A.liga</key>
+	<string>uni0066006A_.liga.glif</string>
+	<key>uni0066006B.liga</key>
+	<string>uni0066006B_.liga.glif</string>
+	<key>uni006600EC.liga</key>
+	<string>uni006600EC_.liga.glif</string>
+	<key>uni006600EF.liga</key>
+	<string>uni006600EF_.liga.glif</string>
+	<key>uni00730070</key>
+	<string>uni00730070.glif</string>
 	<key>uni00A0</key>
 	<string>uni00A0_.glif</string>
 	<key>uni021A</key>
