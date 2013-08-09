@@ -28,7 +28,7 @@ a@cyreal.org
 .VBF Source files:
 Lora-[stylename]-OTF.vbf (Merged and optimized file, Postscript contours)
 Lora-[stylename]-TTF.vbf (Merged and optimized file, Truetype contours, Latin-1 range is manually hinted, 
-all other characters ttfautohinted)
+all other characters autohinted)
 [stylename] is the name of the style, i.e. Regular, Bold, RegularItalic, BoldItalic
 
 ChangeLog
@@ -46,6 +46,10 @@ Adobe Latin-3, and GWF Standard Cyrillic encodings.
 additional autohinted glyphs.
 — Improved kerning
 — Adjusted glyphs with caron accent
+
+26 June 2013 (Alexei Vanyashin) Lora v. 1013
+— Fixed hinting issue
+— Minor design fixes
 
 
 If you make modifications be sure to add your name (N), 

@@ -1,17 +1,24 @@
-cd ~/googlefontdirectory/ofl/; \
-  for family in lora; do \
-    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-      cd ~/src/font-optimizer; \
-      ./subset.pl -v --licensesubst="SIL OFL 1.1" \
-       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,liga,salt" \
-       --chars="Lora" \
-      ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
-      cd ~/googlefontdirectory/ofl/; \
-      ~/googlefontdirectory/tools/chars/showchars.py \
-       $font.menu; 
-    cd ~/googlefontdirectory/ofl/lora/; \
-  done;
+#cd ~/googlefontdirectory/ofl/; \
+#  for family in lora; do \
+#    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+#      cd ~/src/font-optimizer; \
+#      ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+#       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,liga,salt" \
+#       --chars="Lora" \
+#      ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
+#      cd ~/googlefontdirectory/ofl/; \
+#      ~/googlefontdirectory/tools/chars/showchars.py \
+#       $font.menu; 
+#    cd ~/googlefontdirectory/ofl/lora/; \
+#  done;
+#done;
+
+rm *menu
+for font in `ls *ttf`; do
+  echo $font;
+  fontforge -lang=ff -script src/menusubset-lora.ff $font;
 done;
+rename s/ttf.menu.ttf/menu/g *;
 
 rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *vietnamese; \
 cd ~/googlefontdirectory/ofl/; \
@@ -31,4 +38,3 @@ for family in lora; do \
 done; \
 cd ~/googlefontdirectory/ofl/lora/; \
 rename 's/([^+])\+latin$/$1/' *;
-
