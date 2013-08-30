@@ -24,7 +24,25 @@ for family in yanonekaffeesatz; do \
    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
        for subset in \
            latin latin-ext+latin \
-           cyrillic+latin; do \
+           cyrillic+latin menu; do \
+           echo subset.py --null --nmr --roundtrip --script \
+               --subset=$subset --opentype-features $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+               --null --nmr --roundtrip --script --subset=$subset --opentype-features \
+               $font.ttf $font.$subset >> $font.$subset.log \
+              # 2>> $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/ofl/yanonekaffeesatz/; \
+rename 's/([^+])\+latin$/$1/' *;
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *vietnamese; \
+cd ~/googlefontdirectory/ofl/; \
+for family in yanonekaffeesatz; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           menu; do \
            echo subset.py --null --nmr --roundtrip --script \
                --subset=$subset $font.ttf $font.$subset; \
            python ~/googlefontdirectory/tools/subset/subset.py \
@@ -36,6 +54,7 @@ for family in yanonekaffeesatz; do \
 done; \
 cd ~/googlefontdirectory/ofl/yanonekaffeesatz/; \
 rename 's/([^+])\+latin$/$1/' *;
+
 
 
 cp YanoneKaffeesatz-Bold.ttf YanoneKaffeesatz-Bold.cyrillic 
