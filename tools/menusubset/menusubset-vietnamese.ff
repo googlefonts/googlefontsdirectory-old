@@ -26,4 +26,4 @@ SelectMore(0x1eef) # ữ
 SelectInvert()
 Clear()
 # This has to end in .ttf or it will not include all the needed glyphs
-Save($1 + ".menu.ttf")
+Generate($1 + ".menu.ttf")
