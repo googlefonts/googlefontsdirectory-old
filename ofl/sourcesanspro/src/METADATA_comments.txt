@@ -35,3 +35,9 @@ cd ~/googlefontdirectory/ofl/sourcesanspro/; \
 rename 's/([^+])\+latin$/$1/' *;
 
 for font in `ls -1 *ttf | cut -d. -f1`; do cp $font.ttf $font.latin-ext; done
+
+rm *menu;
+for font in `ls *ttf`; do
+  fontforge -lang=ff -script src/menusubset-ssp.ff $font;
+done;
+rename s/ttf.menu.ttf/menu/g *;
