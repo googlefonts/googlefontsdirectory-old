@@ -1,0 +1,6 @@
+#!
+
+rm -f /tmp/foo.ppm
+~/garden/ppedit/ppedit $1.plate
+if [ -e plate ] ; then mv plate $1.plate; fi
+python mksfd.py @

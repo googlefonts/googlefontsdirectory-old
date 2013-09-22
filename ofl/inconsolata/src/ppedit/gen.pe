@@ -1,0 +1,61 @@
+tighten = 10
+
+Open("Inconsolata.sfd")
+
+Select("Aring")
+SelectMore("Ccedilla")
+SelectMore("Scedilla")
+SelectMore("Tcedilla")
+SelectMore("ccedilla")
+SelectMore("scedilla")
+SelectMore("tcedilla")
+UnlinkReference()
+
+SelectMore("Eth")
+SelectMore("currency")
+RemoveOverlap()
+
+Select("bracketright")
+SelectMore("braceright")
+SelectMore("bracketright")
+SelectMore("greater")
+SelectMore("backslash")
+SelectMore(0u2cb)
+SelectMore("guillemotright")
+SelectMore("guilsinglright")
+SelectMore("grave.cap")
+CorrectDirection()
+
+SelectAll()
+Move(-tighten, 0)
+
+Select("exclamdown")
+SelectMore("questiondown")
+SelectMore("caron")
+SelectMore("caron.cap")
+SelectMore("downarrow")
+SetRBearing(2 * tighten, 1)
+Move(-2 * tighten, 0)
+
+Select("grave")
+Move(Int(-tighten * 2 * .94), -.34 * tighten)
+SetRBearing(Int(tighten * 2 * .94), 1)
+
+SelectAll()
+SetRBearing(-tighten, 1)
+Scale(86.3, 86.3, 0, 0)
+//Scale(50, 50, 0, 0)
+
+//SelectAll()
+//RoundToInt(2)
+//AddExtrema()
+//SelectAll()
+//Simplify(0, .5)
+//AddExtrema()
+
+SetOS2Value("LineGap", 90)
+Generate("Inconsolata.otf")
+SetWidth(500)
+Generate("Inconsolata.pfa")
+Generate("Inconsolata.pfb")
+//Save("/tmp/quux.sfd")
