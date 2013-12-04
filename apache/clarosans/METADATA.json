@@ -1,0 +1,91 @@
+{
+  "name": "Claro Sans",
+  "designer": "Dan Rhatigan",
+  "license": "Apache2",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 197,
+  "fonts": [
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-Bold",
+      "fullName": "Claro Sans Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "ClaroSans-Bold.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-BoldItalic",
+      "fullName": "Claro Sans Bold Italic",
+      "style": "italic",
+      "weight": 700,
+      "filename": "ClaroSans-BoldItalic.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-Italic",
+      "fullName": "Claro Sans Italic",
+      "style": "italic",
+      "weight": 400,
+      "filename": "ClaroSans-Italic.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-Light",
+      "fullName": "Claro Sans Light",
+      "style": "normal",
+      "weight": 300,
+      "filename": "ClaroSans-Light.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-Medium",
+      "fullName": "Claro Sans Medium",
+      "style": "normal",
+      "weight": 500,
+      "filename": "ClaroSans-Medium.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-MediumItalic",
+      "fullName": "Claro Sans Medium Italic",
+      "style": "italic",
+      "weight": 500,
+      "filename": "ClaroSans-MediumItalic.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans",
+      "fullName": "Claro Sans",
+      "style": "normal",
+      "weight": 400,
+      "filename": "ClaroSans-Regular.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    },
+    {
+      "name": "Claro Sans",
+      "postScriptName": "ClaroSans-ExtraLight",
+      "fullName": "Claro Sans ExtraLight",
+      "style": "normal",
+      "weight": 200,
+      "filename": "ClaroSans-ExtraLight.ttf",
+      "copyright": "Font software Copyright (c) 2012 Intel Corporation. Licensed under the Apache License, Version 2.0.  http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "greek",
+    "latin",
+    "latin-ext",
+    "menu",
+    "vietnamese"
+  ],
+  "dateAdded": "2013-12-03"
+}
