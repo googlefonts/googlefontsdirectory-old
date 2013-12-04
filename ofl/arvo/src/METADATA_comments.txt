@@ -1,5 +1,35 @@
-# COMMENTS
-# profiledescriptionlicense: Creative Commons Attribution-ShareAlike 3.0
-# profiledescriptionlicenseurl: http://creativecommons.org/licenses/by-sa/3.0/
-# profile: <p>Anton Koovit was born in Tallinn, Estonia, in 1981. He studied graphic design in Estonian Academy of Arts, ESAG Paris and in Gerrit Rietveld Academy in Amsterdam, Holland. After completing graphic design studies in 2005 he continued to specialize in Type Design on a postgraduate course Type and Media (KABK) in The Hague, Holland. Since completing studies in 2006 Anton set up his own company Khork OÜ and is working on wide range of projects starting from exhibition design to designing logos, posters and typefaces.</p><p>Since 2007 he moved to Berlin, Germany. Besides typographic work he is teaching typography and giving type design workshops. Typefaces by Anton Koovit: Adam BP, Aleksei, GQ Slab, U8, Arvo.</p>
-# profile.de: <p>Geboren 1981 in Tallin, Estland, studierte Anton Grafikdesign an der Estländischen Kunstakademie, an der ESAG in Paris und an der Gerrit Rietveld Akademie in Amsterdam. Danach folgte 2005 ein Studium an der KABK in Den Haag. Seitdem arbeitet er an verschiedenen Projekten unter dem Namen Khork OÜ. Neben seiner Arbeit als Schriftgestalter entwirft Anton auch Plakate und konzipiert Austellungen.</p><p>Seit 2007 lebt Anton in Berlin. Im Zusammenhang mit seiner Arbeit lehrt er Typografie und Schriftgestaltung und verstanstaltet zudem diverse Workshops. Aktuelle Schriften sind: Adam BP, Aleksei, GQ Slab, U8 und Arvo.</p>
+cd ~/googlefontdirectory/ofl/; \
+  for family in arvo; do \
+    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+      cd ~/src/font-optimizer; \
+      ./subset.pl -v --licensesubst="SIL OFL 1.1" \
+       --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac,ss01,aalt,liga,salt" \
+       --chars="Arvo" \
+      ~/googlefontdirectory/ofl/$font.{ttf,menu}; \
+      cd ~/googlefontdirectory/ofl/; \
+      ~/googlefontdirectory/tools/chars/showchars.py \
+       $font.menu; 
+    cd ~/googlefontdirectory/ofl/arvo/; \
+  done;
+done;
+
+rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *vietnamese; \
+cd ~/googlefontdirectory/ofl/; \
+for family in arvo; do \
+   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+       for subset in \
+           latin latin-ext+latin \
+           cyrillic+latin; do \
+           echo subset.py --null --nmr --roundtrip --script \
+               --subset=$subset $font.ttf $font.$subset; \
+           python ~/googlefontdirectory/tools/subset/subset.py \
+             --opentype-features \
+             --null --nmr --roundtrip --script --subset=$subset \
+             $font.ttf $font.$subset >> $font.$subset.log \
+            # 2>> $font.$subset.log; \
+       done; \
+   done; \
+done; \
+cd ~/googlefontdirectory/ofl/arvo/; \
+rename 's/([^+])\+latin$/$1/' *;
+

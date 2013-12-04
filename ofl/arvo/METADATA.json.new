@@ -1,0 +1,53 @@
+{
+  "name": "Arvo",
+  "designer": "Anton Koovit",
+  "license": "OFL",
+  "visibility": "External",
+  "category": "Serif",
+  "size": 27039,
+  "fonts": [
+    {
+      "name": "Arvo",
+      "postScriptName": "Arvo-Bold",
+      "fullName": "Arvo Bold",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arvo-Bold.ttf",
+      "copyright": "Copyright (c) 2013 by Anton Koovit."
+    },
+    {
+      "name": "Arvo",
+      "postScriptName": "Arvo-BoldItalic",
+      "fullName": "Arvo Bold Italic",
+      "style": "normal",
+      "weight": 700,
+      "filename": "Arvo-BoldItalic.ttf",
+      "copyright": "Copyright 2013 Anton Koovit, Yassin Baggar."
+    },
+    {
+      "name": "Arvo",
+      "postScriptName": "Arvo-Italic",
+      "fullName": "Arvo Italic",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arvo-Italic.ttf",
+      "copyright": "Copyright 2013 Anton Koovit, Yassin Baggar."
+    },
+    {
+      "name": "Arvo",
+      "postScriptName": "Arvo",
+      "fullName": "Arvo",
+      "style": "normal",
+      "weight": 400,
+      "filename": "Arvo-Regular.ttf",
+      "copyright": "Copyright 2013 Anton Koovit."
+    }
+  ],
+  "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2010-11-17"
+}

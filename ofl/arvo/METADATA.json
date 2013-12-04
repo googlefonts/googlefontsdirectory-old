@@ -13,7 +13,7 @@
       "filename": "Arvo-Regular.ttf",
       "postScriptName": "Arvo",
       "fullName": "Arvo",
-      "copyright": "Copyright 2010 Anton Koovit (anton@fatype.com), Yassin Baggar."
+      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
     },
     {
       "name": "Arvo",
@@ -22,7 +22,7 @@
       "filename": "Arvo-Italic.ttf",
       "postScriptName": "Arvo-Italic",
       "fullName": "Arvo Italic",
-      "copyright": "Copyright 2010 Anton Koovit (anton@fatype.com), Yassin Baggar."
+      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
     },
     {
       "name": "Arvo",
@@ -31,7 +31,7 @@
       "filename": "Arvo-Bold.ttf",
       "postScriptName": "Arvo-Bold",
       "fullName": "Arvo Bold",
-      "copyright": "Copyright (c) 2010 by Anton Koovit (anton@fatype.com)."
+      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
     },
     {
       "name": "Arvo",
@@ -40,11 +40,13 @@
       "filename": "Arvo-BoldItalic.ttf",
       "postScriptName": "Arvo-BoldItalic",
       "fullName": "Arvo Bold Italic",
-      "copyright": "Copyright 2010 Anton Koovit (anton@fatype.com), Yassin Baggar."
+      "copyright": "Copyright (c) 2010-2013 Anton Koovit (anton@fatype.com), Yassin Baggar."
     }
   ],
   "subsets": [
+    "cyrillic",
     "latin",
+    "latin-ext",
     "menu"
   ],
   "dateAdded": "2010-11-17"
