@@ -25,11 +25,11 @@ for family in playfairdisplay; do \
    for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
        for subset in \
            latin latin-ext+latin \
-           cyrillic+latin cyrillic-ext+latin; do \
-           echo subset.py --null --nmr --roundtrip --script \
+           cyrillic+latin; do \
+           echo subset.py --null --nmr --roundtrip --script --opentype-features \
                --subset=$subset $font.ttf $font.$subset; \
            python ~/googlefontdirectory/tools/subset/subset.py \
-               --null --nmr --roundtrip --script --subset=$subset \
+               --null --nmr --roundtrip --script  --opentype-features --subset=$subset \
                $font.ttf $font.$subset >> $font.$subset.log \
               # 2>> $font.$subset.log; \
        done; \

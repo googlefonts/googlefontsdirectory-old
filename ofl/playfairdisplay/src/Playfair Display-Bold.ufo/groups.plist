@@ -40,13 +40,13 @@
 	</array>
 	<key>@MMK_L_C.smcp</key>
 	<array>
-		<string>cacute.loclPLK.smcp</string>
 		<string>c.smcp</string>
 		<string>cacute.smcp</string>
 		<string>ccaron.smcp</string>
 		<string>ccedilla.smcp</string>
 		<string>ccircumflex.smcp</string>
 		<string>cdotaccent.smcp</string>
+		<string>cacute.loclPLK.smcp</string>
 	</array>
 	<key>@MMK_L_D</key>
 	<array>
@@ -577,10 +577,10 @@
 	</array>
 	<key>@MMK_L_period</key>
 	<array>
-		<string>comma</string>
-		<string>period</string>
 		<string>quotedblbase</string>
 		<string>quotesinglbase</string>
+		<string>comma</string>
+		<string>period</string>
 	</array>
 	<key>@MMK_L_quoteleft</key>
 	<array>
@@ -644,6 +644,7 @@
 	<array>
 		<string>Ii-cy</string>
 		<string>Iishort-cy</string>
+		<string>Iigrave-cy</string>
 		<string>El-cy</string>
 		<string>Em-cy</string>
 		<string>En-cy</string>
@@ -715,6 +716,7 @@
 	<array>
 		<string>ii-cy</string>
 		<string>iishort-cy</string>
+		<string>iigrave-cy</string>
 		<string>el-cy</string>
 		<string>em-cy</string>
 		<string>en-cy</string>
@@ -729,6 +731,7 @@
 	<array>
 		<string>ii-cy.smcp</string>
 		<string>iishort-cy.smcp</string>
+		<string>iigrave-cy.smcp</string>
 		<string>el-cy.smcp</string>
 		<string>em-cy.smcp</string>
 		<string>en-cy.smcp</string>
@@ -910,7 +913,6 @@
 	</array>
 	<key>@MMK_R_I.smcp</key>
 	<array>
-		<string>nacute.loclPLK.smcp</string>
 		<string>b.smcp</string>
 		<string>d.smcp</string>
 		<string>eth.smcp</string>
@@ -948,6 +950,7 @@
 		<string>lcaron.smcp</string>
 		<string>lcommaaccent.smcp</string>
 		<string>ldot.smcp</string>
+		<string>nacute.loclPLK.smcp</string>
 		<string>lslash.smcp</string>
 		<string>m.smcp</string>
 		<string>n.smcp</string>
@@ -1004,8 +1007,6 @@
 	</array>
 	<key>@MMK_R_O.smcp</key>
 	<array>
-		<string>cacute.loclPLK.smcp</string>
-		<string>oacute.loclPLK.smcp</string>
 		<string>c.smcp</string>
 		<string>cacute.smcp</string>
 		<string>ccaron.smcp</string>
@@ -1018,6 +1019,8 @@
 		<string>gcircumflex.smcp</string>
 		<string>gcommaaccent.smcp</string>
 		<string>gdotaccent.smcp</string>
+		<string>cacute.loclPLK.smcp</string>
+		<string>oacute.loclPLK.smcp</string>
 		<string>o.smcp</string>
 		<string>oacute.smcp</string>
 		<string>obreve.smcp</string>
@@ -1337,11 +1340,11 @@
 	</array>
 	<key>@MMK_R_period</key>
 	<array>
+		<string>quotedblbase</string>
+		<string>quotesinglbase</string>
 		<string>comma</string>
 		<string>ellipsis</string>
 		<string>period</string>
-		<string>quotedblbase</string>
-		<string>quotesinglbase</string>
 	</array>
 	<key>@MMK_R_quoteleft</key>
 	<array>
@@ -1404,6 +1407,7 @@
 		<string>Io-cy</string>
 		<string>Ii-cy</string>
 		<string>Iishort-cy</string>
+		<string>Iigrave-cy</string>
 		<string>Ka-cy</string>
 		<string>Kje-cy</string>
 		<string>Em-cy</string>
@@ -1451,6 +1455,7 @@
 		<string>gheupturn-cy</string>
 		<string>ii-cy</string>
 		<string>iishort-cy</string>
+		<string>iigrave-cy</string>
 		<string>ka-cy</string>
 		<string>kje-cy</string>
 		<string>em-cy</string>
@@ -1476,6 +1481,7 @@
 		<string>io-cy.smcp</string>
 		<string>ii-cy.smcp</string>
 		<string>iishort-cy.smcp</string>
+		<string>iigrave-cy.smcp</string>
 		<string>ka-cy.smcp</string>
 		<string>kje-cy.smcp</string>
 		<string>em-cy.smcp</string>
@@ -1716,6 +1722,7 @@
 		<string>Ze-cy</string>
 		<string>Ii-cy</string>
 		<string>Iishort-cy</string>
+		<string>Iigrave-cy</string>
 		<string>Ka-cy</string>
 		<string>Kje-cy</string>
 		<string>El-cy</string>
