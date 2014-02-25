@@ -2,29 +2,51 @@
 # Android style guide page should also have its zipped
 # copies of Roboto fonts updated to match
 
-rm *.menu; \
-for font in `ls *ttf`; do \
-fontforge -lang=ff -script src/menusubset-roboto.ff $font; \
-done; \
-rename s/ttf.menu.ttf/menu/g *;
+# clear the old files \
+rm *.menu *.latin* *.cyrillic* *.greek* *.vietn* *.nam *.log; \
+# set present working directory \
+cd ~/googlefontdirectory/apache/roboto; \
+# for each font \
+for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+# basic subsets \
+    for subset in \
+          latin \
+          cyrillic \
+          greek \
+          vietnamese ; do \
+      pyftsubset $font.ttf \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
+        --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+        --notdef-glyph --notdef-outline --recommended-glyphs \
+        --name-IDs='*' --name-legacy --name-languages='*' \
+        --hinting; \
+      mv $font.ttf.subset $font.$subset; \
+    done; \
+# ext subsets
+      for subset in \
+            latin-ext \
+            cyrillic-ext \
+            greek-ext ; do \
+        pyftsubset $font.ttf \
+          $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+          $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
+          --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+          --notdef-glyph --notdef-outline --recommended-glyphs \
+          --name-IDs='*' --name-legacy --name-languages='*' \
+          --hinting; \
+        mv $font.ttf.subset $font.$subset; \
+      done; \
 
-rm *.nam *.latin* *.cyrillic* *.greek* *.vietn* *.log; \
-cd ~/googlefontdirectory/apache/; \
-for family in roboto; do \
-   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-       for subset in \
-           latin latin-ext+latin \
-           cyrillic+latin cyrillic-ext+latin \
-           greek+latin greek-ext+latin \
-           vietnamese+latin; do \
-           echo subset.py --null --nmr --roundtrip --script \
-               --subset=$subset $font.ttf $font.$subset; \
-           python ~/googlefontdirectory/tools/subset/subset.py \
-               --null --nmr --roundtrip --script --subset=$subset \
-               $font.ttf $font.$subset >> $font.$subset.log \
-              # 2>> $font.$subset.log; \
-       done; \
-   done; \
+# menu subsets \
+      pyftsubset $font.ttf \
+        # chars of name \
+        
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-menu.txt) \
+        --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+        --notdef-glyph --notdef-outline --recommended-glyphs \
+        --name-IDs='*' --name-legacy --name-languages='*' \
+        --hinting; \
+      mv $font.ttf.subset $font.$subset; \
+
 done; \
-cd ~/googlefontdirectory/apache/roboto/; \
-rename 's/([^+])\+latin$/$1/' *;
