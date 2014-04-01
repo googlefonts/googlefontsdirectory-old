@@ -2,51 +2,41 @@
 # Android style guide page should also have its zipped
 # copies of Roboto fonts updated to match
 
-# clear the old files \
-rm *.menu *.latin* *.cyrillic* *.greek* *.vietn* *.nam *.log; \
 # set present working directory \
 cd ~/googlefontdirectory/apache/roboto; \
+
+# clear the old files \
+rm *.menu *.latin* *.cyrillic* *.greek* *.vietn* *.nam *.log; \
+
 # for each font \
-for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
+for font in `ls -1 *ttf | cut -d. -f1`; do \
 # basic subsets \
     for subset in \
           latin \
+          latin-ext \
           cyrillic \
+          cyrillic-ext \
           greek \
+          greek-ext \
           vietnamese ; do \
       pyftsubset $font.ttf \
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-        $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset.txt) \
         --layout-features='' --glyph-names --symbol-cmap \
         --notdef-glyph --notdef-outline --recommended-glyphs \
         --name-IDs='*' --name-legacy --name-languages='*' \
         --hinting; \
       mv $font.ttf.subset $font.$subset; \
     done; \
-# ext subsets
-      for subset in \
-            latin-ext \
-            cyrillic-ext \
-            greek-ext ; do \
-        pyftsubset $font.ttf \
-          $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-          $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
-          --layout-features='' --glyph-names --symbol-cmap \
-          --notdef-glyph --notdef-outline --recommended-glyphs \
-          --name-IDs='*' --name-legacy --name-languages='*' \
-          --hinting; \
-        mv $font.ttf.subset $font.$subset; \
-      done; \
-
 # menu subsets \
       pyftsubset $font.ttf \
-        # chars of name \
-        
-        $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-menu.txt) \
+        --text=Roboto \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt) \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-menu.txt) \
+        $(<~/src/googlefontdirectory/tools/encodings/unicodes-vietnamese-menu.txt) \
         --layout-features='' --glyph-names --symbol-cmap \
         --notdef-glyph --notdef-outline --recommended-glyphs \
         --name-IDs='*' --name-legacy --name-languages='*' \
         --hinting; \
-      mv $font.ttf.subset $font.$subset; \
-
+      mv $font.ttf.subset $font.menu; \
 done; \
