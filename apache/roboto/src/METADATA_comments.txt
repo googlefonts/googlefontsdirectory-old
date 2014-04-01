@@ -17,7 +17,7 @@ for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
       pyftsubset $font.ttf \
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
-        --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+        --layout-features='' --glyph-names --symbol-cmap \
         --notdef-glyph --notdef-outline --recommended-glyphs \
         --name-IDs='*' --name-legacy --name-languages='*' \
         --hinting; \
@@ -31,7 +31,7 @@ for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
         pyftsubset $font.ttf \
           $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
           $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-gwf.txt) \
-          --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+          --layout-features='' --glyph-names --symbol-cmap \
           --notdef-glyph --notdef-outline --recommended-glyphs \
           --name-IDs='*' --name-legacy --name-languages='*' \
           --hinting; \
@@ -43,7 +43,7 @@ for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
         # chars of name \
         
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset-menu.txt) \
-        --layout-features='' --glyph-names --symbol-cmap --legacy-cmap \
+        --layout-features='' --glyph-names --symbol-cmap \
         --notdef-glyph --notdef-outline --recommended-glyphs \
         --name-IDs='*' --name-legacy --name-languages='*' \
         --hinting; \
