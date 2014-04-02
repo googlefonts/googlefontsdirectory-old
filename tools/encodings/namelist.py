@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 # Copyright 2010, Google Inc.
 # Author: Raph Levien (<firstname.lastname>@gmail.com)
 # Author: Dave Crossland (dave@understandinglimited.com)
@@ -21,13 +20,10 @@
 # Usage:
 #
 #   $ python namelist.py Font.ttf NameList.nam
-
 import fontforge
-
 def main(argv):
     font_in, namelist_out = argv
     font = fontforge.open(font_in)
     font.saveNamelist(namelist_out)
-
 if __name__ == '__main__':
     main(sys.argv[1:2])
