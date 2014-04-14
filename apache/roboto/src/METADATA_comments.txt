@@ -19,6 +19,7 @@ for font in `ls -1 *ttf | cut -d. -f1`; do \
           greek \
           greek-ext \
           vietnamese ; do \
+      echo pyftsubset $font.ttf latin+$subset;
       pyftsubset $font.ttf \
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
         $(<~/src/googlefontdirectory/tools/encodings/unicodes-$subset.txt) \
@@ -27,6 +28,13 @@ for font in `ls -1 *ttf | cut -d. -f1`; do \
         --name-IDs='*' --name-legacy --name-languages='*' \
         --hinting; \
       mv $font.ttf.subset $font.$subset; \
+      showttf $font.$subset | \
+        grep "name index" | cut -d ">" -f2 > \
+        $font.$subset.chars;
+      showttf ../roboto-prod/$font.$subset | \
+        grep "name index" | cut -d ">" -f2 > \
+        $font.$subset.chars.orig;
+      diff $font.$subset.chars.orig $font.$subset.chars > $font.$subset.chars.diff;
     done; \
 # menu subsets \
       pyftsubset $font.ttf \
