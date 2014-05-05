@@ -1,0 +1,51 @@
+# update the NAME table to be canonical, increment the version
+cd src;
+ttx ./RubikOne-Regular.otf;
+rm ./RubikOne-Regular.otf;
+# edit it
+ttx ./RubikOne-Regular.ttx;
+rm ./RubikOne-Regular.ttx;
+# convert to ttf, nonhinting
+for otf in `ls -1 *otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+cd ..;
+mv src/RubikOne-Regular-after-fonttools-prep-gasp.ttf ./RubikOne-Regular.ttf;
+rm src/*ttf;
+
+# fix nbsp
+~/src/fontbakery/scripts/fix-ttf-nbsp.py RubikOne-Regular.ttf;
+mv RubikOne-Regular.ttf-nbsp RubikOne-Regular.ttf;
+
+# check v metrics
+~/src/fontbakery/scripts/fix-ttf-vmet.py RubikOne-Regular.ttf;
+# they are ok
+
+# subset
+pyftsubset RubikOne-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.latin;
+
+pyftsubset RubikOne-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.latin-ext;
+
+pyftsubset RubikOne-Regular.ttf --text=\ Rubik\ One \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.menu;
+
+# metadata
+~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; 
+# correct by hand
+java -jar ~/googlefontdirectory/tools/lint/dist/lint.jar .;

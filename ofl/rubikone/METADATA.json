@@ -1,0 +1,25 @@
+{
+  "name": "Rubik One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 34513,
+  "fonts": [
+    {
+      "name": "Rubik One",
+      "postScriptName": "RubikOne-Regular",
+      "fullName": "Rubik One Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RubikOne-Regular.ttf",
+      "copyright": "Copyright (c) 2013, 2014, Philipp Hubert (philipp@visiotypen.com), Sebastian Fischer (sebastian@visiotypen.com), Elvire Volk Leonovitch (volkelvire@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-05-05"
+}
