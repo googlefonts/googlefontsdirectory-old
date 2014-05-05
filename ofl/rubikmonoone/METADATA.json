@@ -1,0 +1,25 @@
+{
+  "name": "Rubik Mono One",
+  "designer": "Multiple Designers",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Sans Serif",
+  "size": 22893,
+  "fonts": [
+    {
+      "name": "Rubik Mono One",
+      "postScriptName": "RubikMonoOne-Regular",
+      "fullName": "Rubik Mono One Regular",
+      "style": "normal",
+      "weight": 400,
+      "filename": "RubikMonoOne-Regular.ttf",
+      "copyright": "Copyright (c) 2013, 2014, Philipp Hubert (philipp@visiotypen.com), Sebastian Fischer (sebastian@visiotypen.com), Elvire Volk Leonovitch (volkelvire@gmail.com)"
+    }
+  ],
+  "subsets": [
+    "latin",
+    "latin-ext",
+    "menu"
+  ],
+  "dateAdded": "2014-05-05"
+}

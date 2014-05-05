@@ -1,0 +1,51 @@
+# update the NAME table to be canonical, increment the version
+cd src;
+ttx ./RubikOneMono-Regular.otf;
+rm ./RubikOneMono-Regular.otf;
+# edit it
+ttx ./RubikOneMono-Regular.ttx;
+rm ./RubikOneMono-Regular.ttx;
+# convert to ttf, nonhinting
+for otf in `ls -1 *otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+cd ..;
+mv src/RubikOneMono-Regular-after-fonttools-prep-gasp.ttf ./RubikOneMono-Regular.ttf;
+rm src/*ttf;
+
+# fix nbsp
+~/src/fontbakery/scripts/fix-ttf-nbsp.py RubikOneMono-Regular.ttf;
+mv RubikOneMono-Regular.ttf-nbsp RubikOneMono-Regular.ttf;
+
+# check v metrics
+~/src/fontbakery/scripts/fix-ttf-vmet.py RubikOneMono-Regular.ttf;
+# they are ok
+
+# subset
+pyftsubset RubikOneMono-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOneMono-Regular.ttf.subset RubikOneMono-Regular.latin;
+
+pyftsubset RubikOneMono-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOneMono-Regular.ttf.subset RubikOneMono-Regular.latin-ext;
+
+pyftsubset RubikOneMono-Regular.ttf --text=\ Rubik\ One\ Mono \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOneMono-Regular.ttf.subset RubikOneMono-Regular.menu;
+
+# metadata
+~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; 
+# correct by hand
+java -jar ~/googlefontdirectory/tools/lint/dist/lint.jar .;
