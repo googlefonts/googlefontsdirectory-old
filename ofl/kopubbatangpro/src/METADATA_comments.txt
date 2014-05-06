@@ -1,0 +1,30 @@
+ttx -s *.ttf;
+mv KoPubBatang-Bold.ttf KoPubBatang-Bold.ttf.orig;
+mv KoPubBatang-Light.ttf KoPubBatang-Light.ttf.orig;
+mv KoPubBatang-Regular.ttf KoPubBatang-Regular.ttf.orig;
+# name: all ok?
+# os_2: usWeightClass is 400?
+# os_2: fix fsType to 0
+# head: macStyle correct?
+# post: italicAngle 0
+ttx KoPubBatang-Bold.ttx;
+ttx KoPubBatang-Light.ttx;
+ttx KoPubBatang-Regular.ttx;
+rm *.ttx;
+
+~/googlefontdirectory/tools/bbox/vmet.sh KoPubBatang-Bold.ttf.orig;
+~/googlefontdirectory/tools/bbox/vmet.sh KoPubBatang-Light.ttf.orig;
+~/googlefontdirectory/tools/bbox/vmet.sh KoPubBatang-Regular.ttf.orig;
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 821 -d -273 -l 0 KoPubBatang-Bold.ttf;
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 821 -d -273 -l 0 KoPubBatang-Light.ttf;
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 821 -d -273 -l 0 KoPubBatang-Regular.ttf;
+mv KoPubBatang-Bold.ttf.fix KoPubBatang-Bold.ttf;
+mv KoPubBatang-Light.ttf.fix KoPubBatang-Light.ttf;
+mv KoPubBatang-Regular.ttf.fix KoPubBatang-Regular.ttf;
+
+~/src/fontbakery/scripts/fix-ttf-nbsp.py KoPubBatang-Bold.ttf;
+~/src/fontbakery/scripts/fix-ttf-nbsp.py KoPubBatang-Light.ttf;
+~/src/fontbakery/scripts/fix-ttf-nbsp.py KoPubBatang-Regular.ttf;
+mv KoPubBatang-Bold.ttf-nbsp KoPubBatang-Bold.ttf;
+mv KoPubBatang-Light.ttf-nbsp KoPubBatang-Light.ttf;
+mv KoPubBatang-Regular.ttf-nbsp KoPubBatang-Regular.ttf;
