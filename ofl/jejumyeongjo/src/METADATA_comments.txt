@@ -1,0 +1,16 @@
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 806 -d -200 -l 0 jejuhallasan/src/JejuHallasan-Regular.otf 
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 806 -d -200 -l 0 jejuhallasan/JejuHallasan-Regular.ttf 
+mv jejuhallasan/src/JejuHallasan-Regular.otf.fix jejuhallasan/src/JejuHallasan-Regular.otf 
+mv jejuhallasan/JejuHallasan-Regular.ttf.fix jejuhallasan/JejuHallasan-Regular.ttf 
+~/src/fontbakery/scripts/fix-ttf-nbsp.py jejuhallasan/src/JejuHallasan-Regular.otf;
+~/src/fontbakery/scripts/fix-ttf-nbsp.py jejuhallasan/JejuHallasan-Regular.ttf;
+mv jejuhallasan/src/JejuHallasan-Regular.otf-nbsp jejuhallasan/src/JejuHallasan-Regular.otf;
+mv jejuhallasan/JejuHallasan-Regular.ttf-nbsp jejuhallasan/JejuHallasan-Regular.ttf;
+ttx -s jejuhallasan/JejuHallasan-Regular.ttf;
+mv jejuhallasan/JejuHallasan-Regular.ttf jejuhallasan/JejuHallasan-Regular.ttf.orig;
+# usWeightClass is 400?
+# os_2: fix fsType to 0
+# head: macStyle 0
+# post: italicAngle 0
+ttx -s jejuhallasan/JejuHallasan-Regular.ttx;
+rm jejuhallasan/*.ttx;
