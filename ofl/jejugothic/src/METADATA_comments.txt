@@ -1,0 +1,16 @@
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 790 -d -295 -l 0 jejugothic/src/JejuGothic-Regular.otf;
+~/src/fontbakery/scripts/fix-ttf-vmet.py -a 790 -d -295 -l 0 jejugothic/JejuGothic-Regular.ttf;
+mv jejugothic/src/JejuGothic-Regular.otf.fix jejugothic/src/JejuGothic-Regular.otf;
+mv jejugothic/JejuGothic-Regular.ttf.fix jejugothic/JejuGothic-Regular.ttf;
+~/src/fontbakery/scripts/fix-ttf-nbsp.py jejugothic/src/JejuGothic-Regular.otf;
+~/src/fontbakery/scripts/fix-ttf-nbsp.py jejugothic/JejuGothic-Regular.ttf;
+mv jejugothic/src/JejuGothic-Regular.otf-nbsp jejugothic/src/JejuGothic-Regular.otf;
+mv jejugothic/JejuGothic-Regular.ttf-nbsp jejugothic/JejuGothic-Regular.ttf;
+ttx -s jejugothic/JejuGothic-Regular.ttf;
+mv jejugothic/JejuGothic-Regular.ttf jejugothic/JejuGothic-Regular.ttf.orig;
+# usWeightClass is 400?
+# os_2: fix fsType to 0
+# head: macStyle 0
+# post: italicAngle 0
+ttx jejugothic/JejuGothic-Regular.ttx;
+rm jejugothic/*.ttx;
