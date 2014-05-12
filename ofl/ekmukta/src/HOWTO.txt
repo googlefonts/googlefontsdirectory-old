@@ -29,6 +29,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --verbose --timing --hinting;
 mv EkMukta-Regular.ttf.subset EkMukta-Regular.latin-ext;
 
+pyftsubset EkMukta-Regular.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-Regular.ttf.subset EkMukta-Regular.menu;
+
 # subset the latin - Bold
 pyftsubset EkMukta-Bold.ttf \
 $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
@@ -45,6 +53,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --name-IDs='*' --name-languages='*' \
 --hinting;
 mv EkMukta-Bold.ttf.subset EkMukta-Bold.latin-ext;
+
+pyftsubset EkMukta-Bold.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-Bold.ttf.subset EkMukta-Bold.menu;
 
 ## subset the latin and latin-ext - ExtraBold
 pyftsubset EkMukta-ExtraBold.ttf \
@@ -64,6 +80,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --verbose --timing --hinting;
 mv EkMukta-ExtraBold.ttf.subset EkMukta-ExtraBold.latin-ext;
 
+pyftsubset EkMukta-ExtraBold.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-ExtraBold.ttf.subset EkMukta-ExtraBold.menu;
+
 ## subset the latin and latin-ext - ExtraLight
 pyftsubset EkMukta-ExtraLight.ttf \
 $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
@@ -81,6 +105,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --name-IDs='*' --name-languages='*' \
 --verbose --timing --hinting;
 mv EkMukta-ExtraLight.ttf.subset EkMukta-ExtraLight.latin-ext;
+
+pyftsubset EkMukta-ExtraLight.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-ExtraLight.ttf.subset EkMukta-ExtraLight.menu;
 
 ## subset the latin and latin-ext - Light
 pyftsubset EkMukta-Light.ttf \
@@ -100,6 +132,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --verbose --timing --hinting;
 mv EkMukta-Light.ttf.subset EkMukta-Light.latin-ext;
 
+pyftsubset EkMukta-Light.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-Light.ttf.subset EkMukta-Light.menu;
+
 ## subset the latin and latin-ext - Medium
 pyftsubset EkMukta-Medium.ttf \
 $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
@@ -117,6 +157,14 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --name-IDs='*' --name-languages='*' \
 --verbose --timing --hinting;
 mv EkMukta-Medium.ttf.subset EkMukta-Medium.latin-ext;
+
+pyftsubset EkMukta-Medium.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-Medium.ttf.subset EkMukta-Medium.menu;
 
 
 ## subset the latin and latin-ext - SemiBold
@@ -136,3 +184,11 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
 --name-IDs='*' --name-languages='*' \
 --verbose --timing --hinting;
 mv EkMukta-SemiBold.ttf.subset EkMukta-SemiBold.latin-ext;
+
+pyftsubset EkMukta-SemiBold.ttf \
+--text=\ Ek\ Mukta \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-languages='*' \
+--verbose --timing --hinting;
+mv EkMukta-SemiBold.ttf.subset EkMukta-SemiBold.menu;
