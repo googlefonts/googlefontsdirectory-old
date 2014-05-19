@@ -47,15 +47,6 @@ $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
 --hinting;
 mv RubikOne-Regular.ttf.subset RubikOne-Regular.cyrillic;
 
-pyftsubset RubikOne-Regular.ttf \
-$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-$(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-ext.txt) \
---layout-features='' --glyph-names --symbol-cmap \
---notdef-glyph --notdef-outline --recommended-glyphs \
---name-IDs='*' --name-legacy --name-languages='*' \
---hinting;
-mv RubikOne-Regular.ttf.subset RubikOne-Regular.cyrillic-ext;
-
 pyftsubset RubikOne-Regular.ttf --text=\ Rubik\ One \
 --layout-features='' --glyph-names --symbol-cmap \
 --notdef-glyph --notdef-outline --recommended-glyphs \
