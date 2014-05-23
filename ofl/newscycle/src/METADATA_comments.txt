@@ -1,32 +1,60 @@
-cd ~/src/font-optimizer; \
-./subset.pl -v --licensesubst="SIL OFL 1.1" \
- --exclude="c2sc,smcp,ordn,sups,sinf,subs,dlig,frac" \
- --chars="News Cycle" \
-~/googlefontdirectory/ofl/newscycle/NewsCycle-Regular.{ttf,menu}; \
-cd ~/googlefontdirectory/ofl/newscycle/; \
-~/googlefontdirectory/tools/chars/showchars.py \
- NewsCycle-Regular.menu; 
-cd ~/googlefontdirectory/ofl/newscycle/; \
+# update the NAME table to be canonical, increment the version
+cd src;
+ttx ./RubikOne-Regular.otf;
+rm ./RubikOne-Regular.otf;
+# edit it
+ttx ./RubikOne-Regular.ttx;
+rm ./RubikOne-Regular.ttx;
+# convert to ttf, nonhinting
+for otf in `ls -1 *otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+for ttf in `ls -1 *ttf`; do ~/googlefontdirectory/tools//nonhinting/setnonhinting-fonttools.py $ttf; done;
+cd ..;
+mv src/RubikOne-Regular-after-fonttools-prep-gasp.ttf ./RubikOne-Regular.ttf;
+rm src/*ttf;
 
-rm *.nam *.log *.latin *.latin-ext *.cyrillic *.cyrillic-ext *.greek *.greek-ext *.vietnamese; \
-cd ~/googlefontdirectory/ofl/; \
-for family in newscycle; do \
-   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-       for subset in \
-           latin latin-ext vietnamese+latin \
-           cyrillic+latin cyrillic-ext+latin \
-           greek+latin greek-ext+latin; do \
-           echo subset.py --null --nmr --roundtrip --script \
-               --subset=$subset $font.ttf $font.$subset; \
-           python ~/googlefontdirectory/tools/subset/subset.py \
-               --null --nmr --roundtrip --script --subset=$subset \
-               $font.ttf $font.$subset > $font.$subset.log; \
-       done; \
-   done; \
-done; \
-cd ~/googlefontdirectory/ofl/newscycle/; \
-rename s/cyrillic\\+latin/cyrillic/g *; \
-rename s/cyrillic-ext\\+latin/cyrillic-ext/g *; \
-rename s/greek\\+latin/greek/g *; \
-rename s/greek-ext\\+latin/greek-ext/g *; \
-rename s/vietnamese\\+latin/vietnamese/g *; \
+# fix nbsp
+~/src/fontbakery/scripts/fix-ttf-nbsp.py RubikOne-Regular.ttf;
+mv RubikOne-Regular.ttf-nbsp RubikOne-Regular.ttf;
+
+# check v metrics
+~/src/fontbakery/scripts/fix-ttf-vmet.py RubikOne-Regular.ttf;
+# they are ok
+
+# subset
+pyftsubset RubikOne-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.latin;
+
+pyftsubset RubikOne-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.latin-ext;
+
+pyftsubset RubikOne-Regular.ttf \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+$(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.cyrillic;
+
+pyftsubset RubikOne-Regular.ttf --text=\ Rubik\ One \
+--layout-features='' --glyph-names --symbol-cmap \
+--notdef-glyph --notdef-outline --recommended-glyphs \
+--name-IDs='*' --name-legacy --name-languages='*' \
+--hinting;
+mv RubikOne-Regular.ttf.subset RubikOne-Regular.menu;
+
+# metadata
+~/googlefontdirectory/tools/genmetadata/genmetadata.py .; ~/googlefontdirectory/tools/genmetadata/genmetadata.py .; mv METADATA.json.new METADATA.json; 
+# correct by hand
+java -jar ~/googlefontdirectory/tools/lint/dist/lint.jar .;
