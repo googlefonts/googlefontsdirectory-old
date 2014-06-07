@@ -1,0 +1,63 @@
+cd ~/src/googlefontdirectory/ofl/encodesans/;
+
+# fix filenames
+
+mv EncodeSansNormal-100-Thin.ttf        EncodeSans-Thin.ttf
+mv EncodeSansNormal-200-ExtraLight.ttf  EncodeSans-ExtraLight.ttf
+mv EncodeSansNormal-300-Light.ttf       EncodeSans-Light.ttf
+mv EncodeSansNormal-400-Regular.ttf     EncodeSans-Regular.ttf
+mv EncodeSansNormal-500-Medium.ttf      EncodeSans-Medium.ttf
+mv EncodeSansNormal-600-SemiBold.ttf    EncodeSans-SemiBold.ttf
+mv EncodeSansNormal-700-Bold.ttf        EncodeSans-Bold.ttf
+mv EncodeSansNormal-800-ExtraBold.ttf   EncodeSans-ExtraBold.ttf
+mv EncodeSansNormal-900-Black.ttf       EncodeSans-Black.ttf
+
+# fix name table to remove normal by hand
+# ttx *ttf;
+# rm *ttf;
+# mate *ttx;
+# ttx *ttx; 
+# rm *ttf; 
+
+# fix nbsp
+
+for font in `ls -1 *ttf`; do ~/src/fontbakery/scripts/fix-ttf-nbsp.py $font; done
+rm *ttf;
+rename s/\.fix//g *;
+
+family="EncodeSans"
+menutext="Encode Sans"
+
+for style in Thin ExtraLight Light Regular Medium SemiBold Bold ExtraBold Black; do 
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+    --text="$menutext" \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done;
+
+cp ../encodesanswide/DESC* .;
+
+~/src/fontbakery/scripts/genmetadata.py .;
+~/src/fontbakery/scripts/genmetadata.py .;
+mv METADATA.json.new METADATA.json;
+mate ../encodesanswide/METADATA.json METADATA.json DES*;
+
