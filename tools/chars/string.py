@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Copyright 2010-2012, Google Inc.
+# Copyright 2014, Google Inc.
 # Author: Dave Crossland (dave@understandinglimited.com)
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,6 +16,8 @@
 #   limitations under the License.
 #
 # A script for printing the Unicode chars in a given string
+# 
+# See also: http://rishida.net/tools/conversion/
 #
 # $ ~/googlefontdirectory/tools/chars/string.py hello
 # h U+0068
