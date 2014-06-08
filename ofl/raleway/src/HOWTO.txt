@@ -7,15 +7,15 @@ for style in Thin ThinItalic ExtraLight ExtraLightItalic Light LightItalic Regul
 
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
-    --hinting;
+    --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.latin;
 
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.latin-ext;
@@ -23,14 +23,14 @@ for style in Thin ThinItalic ExtraLight ExtraLightItalic Light LightItalic Regul
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.cyrillic;
     
     pyftsubset $family-$style.ttf \
     --text="$menutext" \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.menu;

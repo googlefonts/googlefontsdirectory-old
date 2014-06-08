@@ -32,22 +32,22 @@ for style in Thin ExtraLight Light Regular Medium SemiBold Bold ExtraBold Black;
 
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
-    --hinting;
+    --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.latin;
 
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.latin-ext;
 
     pyftsubset $family-$style.ttf \
     --text="$menutext" \
-    --notdef-outline --recommended-glyphs \
+    --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.menu;
