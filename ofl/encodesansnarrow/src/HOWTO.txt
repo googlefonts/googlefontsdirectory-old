@@ -27,4 +27,12 @@ for style in Thin ExtraLight Light Regular Medium SemiBold Bold ExtraBold Black;
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.menu;
 
-done
+done;
+
+cp ../encodesanswide/DESC* .;
+
+~/src/fontbakery/scripts/genmetadata.py .;
+~/src/fontbakery/scripts/genmetadata.py .;
+mv METADATA.json.new METADATA.json;
+mate ../encodesanswide/METADATA.json METADATA.json DES*;
+
