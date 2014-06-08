@@ -7,10 +7,9 @@ for style in Regular Bold SemiBold; do
 
     pyftsubset $family-$style.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-    --layout-features='' --glyph-names --symbol-cmap \
-    --notdef-glyph --notdef-outline \
-    --name-IDs='*' --name-languages='*' \
-    --hinting;
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.latin;
 
     pyftsubset $family-$style.ttf \
