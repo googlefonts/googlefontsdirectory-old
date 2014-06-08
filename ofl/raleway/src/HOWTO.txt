@@ -1,0 +1,30 @@
+cd ~/src/googlefontdirectory/ofl/raleway/;
+
+family="Raleway"
+menutext="Raleway"
+
+for style in Thin ThinItalic ExtraLight ExtraLightItalic Light LightItalic Regular Italic Medium MediumItalic SemiBold SemiBoldItalic Bold BoldItalic ExtraBold ExtraBoldItalic Black BlackItalic; do
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+    --text=" $menutext" \
+    --notdef-outline --recommended-glyphs \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done
