@@ -72,7 +72,7 @@
     {
       "name": "Raleway",
       "style": "italic",
-      "weight": 200,
+      "weight": 250,
       "filename": "Raleway-ExtraLightItalic.ttf",
       "postScriptName": "Raleway-ExtraLightItalic",
       "fullName": "Raleway ExtraLight Italic",
@@ -162,7 +162,7 @@
     {
       "name": "Raleway",
       "style": "italic",
-      "weight": 100,
+      "weight": 250,
       "filename": "Raleway-ThinItalic.ttf",
       "postScriptName": "Raleway-ThinItalic",
       "fullName": "Raleway Thin Italic",
@@ -170,6 +170,7 @@
     }
   ],
   "subsets": [
+    "cyrillic",
     "latin",
     "latin-ext",
     "menu"
