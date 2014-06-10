@@ -19,11 +19,12 @@
 #
 # Usage:
 #
-#   $ python namelist.py Font.ttf NameList.nam
-import fontforge
-def main(argv):
-    font_in, namelist_out = argv
-    font = fontforge.open(font_in)
-    font.saveNamelist(namelist_out)
+#   $ namelist.py Font.ttf NameList.nam
+import fontforge, sys
+def main(fontFile, namFile):
+    font = fontforge.open(fontFile)
+    font.saveNamelist(namFile)
 if __name__ == '__main__':
-    main(sys.argv[1:2])
+    print "Font: " + sys.argv[1]
+    print "Namelist: " + sys.argv[2]
+    main(sys.argv[1], sys.argv[2])
