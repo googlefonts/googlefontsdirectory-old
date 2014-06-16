@@ -1,0 +1,56 @@
+cd ~/src/googlefontdirectory/ofl/encodesanscompressed/;
+
+# fix filenames
+
+mv EncodeSansCompressed-100-Thin.ttf        EncodeSansCompressed-Thin.ttf
+mv EncodeSansCompressed-200-ExtraLight.ttf  EncodeSansCompressed-ExtraLight.ttf
+mv EncodeSansCompressed-300-Light.ttf       EncodeSansCompressed-Light.ttf
+mv EncodeSansCompressed-400-Regular.ttf     EncodeSansCompressed-Regular.ttf
+mv EncodeSansCompressed-500-Medium.ttf      EncodeSansCompressed-Medium.ttf
+mv EncodeSansCompressed-600-SemiBold.ttf    EncodeSansCompressed-SemiBold.ttf
+mv EncodeSansCompressed-700-Bold.ttf        EncodeSansCompressed-Bold.ttf
+mv EncodeSansCompressed-800-ExtraBold.ttf   EncodeSansCompressed-ExtraBold.ttf
+mv EncodeSansCompressed-900-Black.ttf       EncodeSansCompressed-Black.ttf
+
+# fix nbsp
+
+for font in `ls -1 *ttf`; do ~/src/fontbakery/scripts/fix-ttf-nbsp.py $font; done
+rm *ttf;
+rename s/\.fix//g *;
+
+family="EncodeSansCompressed"
+menutext="Encode Sans Compressed"
+
+for style in Thin ExtraLight Light Regular Medium SemiBold Bold ExtraBold Black; do 
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+    --text="$menutext" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done;
+
+cp ../encodesanswide/DESC* .;
+
+~/src/fontbakery/scripts/genmetadata.py .;
+~/src/fontbakery/scripts/genmetadata.py .;
+mv METADATA.json.new METADATA.json;
+mate ../encodesanswide/METADATA.json METADATA.json DES*;
+
