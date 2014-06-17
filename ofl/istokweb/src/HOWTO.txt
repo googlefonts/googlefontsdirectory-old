@@ -1,0 +1,49 @@
+cd ~/src/googlefontdirectory/ofl/istokweb/;
+
+family="IstokWeb"
+
+for style in Bold BoldItalic Regular Italic; do 
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic-ext;
+
+    pyftsubset $family-$style.ttf \
+    U+0049 U+006B U+006F U+0073 U+0074 U+0057 U+0062 U+0065 \
+    U+0028 U+0029 U+0052 U+006F U+0062 U+006F U+0074 U+006F \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-vietnamese-menu.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu
+
+done
