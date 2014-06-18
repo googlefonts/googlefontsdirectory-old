@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="1102"/>
+  <unicode hex="00C6"/>
+  <outline>
+    <contour>
+      <point x="393" y="700" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="180" y="0" type="line"/>
+      <point x="478" y="564" type="line"/>
+      <point x="770" y="564" type="line"/>
+      <point x="766" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="208" y="276" type="line"/>
+      <point x="204" y="148" type="line"/>
+      <point x="588" y="148" type="line"/>
+      <point x="592" y="276" type="line"/>
+    </contour>
+    <contour>
+      <point x="498" y="701" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="1057" y="0" type="line"/>
+      <point x="1057" y="140" type="line"/>
+      <point x="675" y="140" type="line"/>
+      <point x="675" y="282" type="line"/>
+      <point x="1010" y="282" type="line"/>
+      <point x="1010" y="421" type="line"/>
+      <point x="675" y="421" type="line"/>
+      <point x="675" y="560" type="line"/>
+      <point x="1046" y="560" type="line"/>
+      <point x="1046" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="1051" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="769" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="643" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

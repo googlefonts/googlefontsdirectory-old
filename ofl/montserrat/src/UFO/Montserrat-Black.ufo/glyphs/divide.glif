@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="520"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="30" y="399" type="line"/>
+      <point x="30" y="259" type="line"/>
+      <point x="490" y="259" type="line"/>
+      <point x="490" y="399" type="line"/>
+    </contour>
+    <component base="dotaccent" xOffset="111" yOffset="-54" xScale="0.80" yScale="0.80"/>
+    <component base="dotaccent" xOffset="111" yOffset="-414" xScale="0.80" yScale="0.80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dq.util" format="1">
+  <advance width="557"/>
+  <outline>
+    <contour>
+      <point x="136" y="536"/>
+      <point x="35" y="427"/>
+      <point x="35" y="268" type="curve" smooth="yes"/>
+      <point x="35" y="106"/>
+      <point x="137" y="-5"/>
+      <point x="290" y="-5" type="curve" smooth="yes"/>
+      <point x="436" y="-5"/>
+      <point x="520" y="97"/>
+      <point x="519" y="267" type="curve"/>
+      <point x="520" y="436"/>
+      <point x="434" y="538"/>
+      <point x="286" y="537" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="410" y="439"/>
+      <point x="476" y="367"/>
+      <point x="477" y="264" type="curve" smooth="yes"/>
+      <point x="476" y="163"/>
+      <point x="410" y="91"/>
+      <point x="314" y="91" type="curve" smooth="yes"/>
+      <point x="217" y="91"/>
+      <point x="151" y="163"/>
+      <point x="150" y="264" type="curve" smooth="yes"/>
+      <point x="151" y="366"/>
+      <point x="218" y="439"/>
+      <point x="314" y="439" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>0</integer>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

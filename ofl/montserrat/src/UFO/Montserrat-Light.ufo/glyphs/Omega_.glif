@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Omega" format="1">
+  <advance width="899"/>
+  <unicode hex="2126"/>
+  <outline>
+    <contour>
+      <point x="243" y="703"/>
+      <point x="91" y="559"/>
+      <point x="91" y="366" type="curve" smooth="yes"/>
+      <point x="91" y="255"/>
+      <point x="154" y="135"/>
+      <point x="243" y="72" type="curve"/>
+      <point x="11" y="72" type="line"/>
+      <point x="11" y="0" type="line"/>
+      <point x="333" y="0" type="line"/>
+      <point x="333" y="67" type="line"/>
+      <point x="234" y="122"/>
+      <point x="163" y="245"/>
+      <point x="163" y="359" type="curve" smooth="yes"/>
+      <point x="163" y="515"/>
+      <point x="284" y="629"/>
+      <point x="450" y="629" type="curve" smooth="yes"/>
+      <point x="616" y="629"/>
+      <point x="738" y="515"/>
+      <point x="738" y="359" type="curve" smooth="yes"/>
+      <point x="738" y="245"/>
+      <point x="666" y="122"/>
+      <point x="568" y="68" type="curve"/>
+      <point x="568" y="0" type="line"/>
+      <point x="889" y="0" type="line"/>
+      <point x="889" y="72" type="line"/>
+      <point x="658" y="72" type="line"/>
+      <point x="747" y="135"/>
+      <point x="810" y="256"/>
+      <point x="810" y="366" type="curve" smooth="yes"/>
+      <point x="810" y="559"/>
+      <point x="657" y="703"/>
+      <point x="450" y="703" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="20" y="700" type="move" name="topleft"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

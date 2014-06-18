@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J.ss01" format="1">
+  <advance width="499"/>
+  <outline>
+    <contour>
+      <point x="61" y="700" type="line"/>
+      <point x="61" y="594" type="line"/>
+      <point x="303" y="594" type="line"/>
+      <point x="303" y="120" type="line" smooth="yes"/>
+      <point x="303" y="48"/>
+      <point x="266" y="9"/>
+      <point x="203" y="9" type="curve" smooth="yes"/>
+      <point x="155" y="9"/>
+      <point x="100" y="36"/>
+      <point x="54" y="86" type="curve"/>
+      <point x="-2" y="-4" type="line"/>
+      <point x="50" y="-68"/>
+      <point x="120" y="-105"/>
+      <point x="203" y="-105" type="curve" smooth="yes"/>
+      <point x="339" y="-105"/>
+      <point x="422" y="-25"/>
+      <point x="422" y="116" type="curve" smooth="yes"/>
+      <point x="422" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

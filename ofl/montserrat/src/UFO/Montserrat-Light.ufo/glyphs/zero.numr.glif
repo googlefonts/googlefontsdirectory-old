@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero.numr" format="1">
+  <advance width="442"/>
+  <outline>
+    <contour>
+      <point x="109" y="701"/>
+      <point x="43" y="624"/>
+      <point x="43" y="494" type="curve" smooth="yes"/>
+      <point x="43" y="363"/>
+      <point x="109" y="287"/>
+      <point x="221" y="287" type="curve" smooth="yes"/>
+      <point x="333" y="287"/>
+      <point x="400" y="363"/>
+      <point x="400" y="494" type="curve" smooth="yes"/>
+      <point x="400" y="624"/>
+      <point x="333" y="701"/>
+      <point x="221" y="701" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="300" y="651"/>
+      <point x="344" y="594"/>
+      <point x="344" y="494" type="curve" smooth="yes"/>
+      <point x="344" y="394"/>
+      <point x="300" y="338"/>
+      <point x="221" y="338" type="curve" smooth="yes"/>
+      <point x="142" y="338"/>
+      <point x="98" y="394"/>
+      <point x="98" y="494" type="curve" smooth="yes"/>
+      <point x="98" y="594"/>
+      <point x="142" y="651"/>
+      <point x="221" y="651" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

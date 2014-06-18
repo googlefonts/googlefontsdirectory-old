@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="1">
+  <advance width="683"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="32" y="701" type="line"/>
+      <point x="32" y="523" type="line"/>
+      <point x="347" y="523" type="line"/>
+      <point x="20" y="145" type="line"/>
+      <point x="20" y="0" type="line"/>
+      <point x="663" y="0" type="line"/>
+      <point x="663" y="178" type="line"/>
+      <point x="329" y="178" type="line"/>
+      <point x="656" y="556" type="line"/>
+      <point x="656" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="362" y="701" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

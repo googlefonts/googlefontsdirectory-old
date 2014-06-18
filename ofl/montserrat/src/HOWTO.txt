@@ -1,0 +1,26 @@
+cd ~/src/googlefontdirectory/ofl/montserrat/;
+
+family="Montserrat"
+menutext="Montserrat"
+
+for style in Regular Italic SemiBold SemiBoldItalic Bold BoldItalic; do
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    --text="$menutext" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done;
+
+~/src/fontbakery/scripts/genmetadata.py .;
+~/src/fontbakery/scripts/genmetadata.py .;
+mv METADATA.json.new METADATA.json;

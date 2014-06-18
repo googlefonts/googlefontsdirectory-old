@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi" format="1">
+  <advance width="627"/>
+  <unicode hex="FB01"/>
+  <outline>
+    <contour>
+      <point x="201" y="747"/>
+      <point x="107" y="691"/>
+      <point x="107" y="564" type="curve"/>
+      <point x="107" y="0" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="221" y="575" type="line"/>
+      <point x="221" y="627"/>
+      <point x="252" y="646"/>
+      <point x="293" y="646" type="curve"/>
+      <point x="321" y="646"/>
+      <point x="354" y="637"/>
+      <point x="385" y="623" type="curve"/>
+      <point x="389" y="723" type="line"/>
+      <point x="361" y="739"/>
+      <point x="326" y="747"/>
+      <point x="290" y="747" type="curve"/>
+    </contour>
+    <contour>
+      <point x="37" y="513" type="line"/>
+      <point x="37" y="427" type="line"/>
+      <point x="360" y="427" type="line"/>
+      <point x="360" y="513" type="line"/>
+    </contour>
+    <component base="i" xOffset="343"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

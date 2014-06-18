@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE" format="1">
+  <advance width="987"/>
+  <unicode hex="00C6"/>
+  <outline>
+    <contour>
+      <point x="431" y="699" type="line"/>
+      <point x="10" y="0" type="line"/>
+      <point x="34" y="0" type="line"/>
+      <point x="442" y="679" type="line"/>
+      <point x="730" y="679" type="line"/>
+      <point x="736" y="699" type="line"/>
+    </contour>
+    <contour>
+      <point x="157" y="243" type="line"/>
+      <point x="156" y="223" type="line"/>
+      <point x="486" y="223" type="line"/>
+      <point x="487" y="243" type="line"/>
+    </contour>
+    <component base="E" xOffset="343"/>
+    <contour>
+      <point x="598" y="699" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

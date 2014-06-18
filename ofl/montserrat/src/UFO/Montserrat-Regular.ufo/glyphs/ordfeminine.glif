@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ordfeminine" format="1">
+  <advance width="385"/>
+  <unicode hex="00AA"/>
+  <outline>
+    <contour>
+      <point x="150" y="777"/>
+      <point x="100" y="763"/>
+      <point x="52" y="740" type="curve"/>
+      <point x="73" y="684" type="line"/>
+      <point x="110" y="703"/>
+      <point x="147" y="714"/>
+      <point x="180" y="714" type="curve"/>
+      <point x="230" y="714"/>
+      <point x="255" y="692"/>
+      <point x="255" y="655" type="curve"/>
+      <point x="256" y="458" type="line"/>
+      <point x="336" y="458" type="line"/>
+      <point x="335" y="664" type="line"/>
+      <point x="335" y="735"/>
+      <point x="285" y="777"/>
+      <point x="198" y="777" type="curve"/>
+    </contour>
+    <contour>
+      <point x="265" y="641" type="line"/>
+      <point x="159" y="641" type="line"/>
+      <point x="79" y="640"/>
+      <point x="33" y="608"/>
+      <point x="33" y="550" type="curve"/>
+      <point x="33" y="494"/>
+      <point x="75" y="455"/>
+      <point x="142" y="455" type="curve"/>
+      <point x="204" y="455"/>
+      <point x="249" y="482"/>
+      <point x="270" y="534" type="curve"/>
+      <point x="256" y="559" type="line"/>
+      <point x="238" y="524"/>
+      <point x="207" y="509"/>
+      <point x="169" y="509" type="curve"/>
+      <point x="132" y="509"/>
+      <point x="110" y="528"/>
+      <point x="110" y="557" type="curve"/>
+      <point x="110" y="585"/>
+      <point x="133" y="600"/>
+      <point x="175" y="600" type="curve"/>
+      <point x="265" y="600" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

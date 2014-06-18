@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z.ss01" format="1">
+  <advance width="666"/>
+  <outline>
+    <contour>
+      <point x="323" y="393" type="line"/>
+      <point x="323" y="299" type="line"/>
+      <point x="546" y="299" type="line"/>
+      <point x="546" y="393" type="line"/>
+    </contour>
+    <contour>
+      <point x="107" y="397" type="line"/>
+      <point x="107" y="302" type="line"/>
+      <point x="327" y="302" type="line"/>
+      <point x="327" y="397" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="700" type="line"/>
+      <point x="50" y="594" type="line"/>
+      <point x="464" y="594" type="line"/>
+      <point x="37" y="85" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="628" y="0" type="line"/>
+      <point x="628" y="106" type="line"/>
+      <point x="197" y="106" type="line"/>
+      <point x="623" y="615" type="line"/>
+      <point x="623" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="333" y="700" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

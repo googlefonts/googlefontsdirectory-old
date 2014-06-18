@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="N.ss01" format="1">
+  <advance width="792"/>
+  <outline>
+    <contour>
+      <point x="257" y="695"/>
+      <point x="129" y="580"/>
+      <point x="129" y="425" type="curve"/>
+      <point x="147" y="425" type="line"/>
+      <point x="147" y="568"/>
+      <point x="267" y="675"/>
+      <point x="432" y="679" type="curve"/>
+      <point x="565" y="679"/>
+      <point x="662" y="580"/>
+      <point x="662" y="445" type="curve"/>
+      <point x="662" y="0" type="line" smooth="yes"/>
+      <point x="682" y="0" type="line"/>
+      <point x="682" y="445" type="line"/>
+      <point x="682" y="592"/>
+      <point x="577" y="699"/>
+      <point x="432" y="699" type="curve"/>
+    </contour>
+    <contour>
+      <point x="128" y="699" type="line"/>
+      <point x="128" y="0" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="148" y="699" type="line"/>
+    </contour>
+    <contour>
+      <point x="206" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="396" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="396" y="699" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

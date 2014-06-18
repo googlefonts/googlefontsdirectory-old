@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="332"/>
+  <unicode hex="0049"/>
+  <outline>
+    <contour>
+      <point x="50" y="701" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="282" y="0" type="line"/>
+      <point x="282" y="701" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="166" y="701" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

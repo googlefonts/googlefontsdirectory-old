@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="1">
+  <advance width="590"/>
+  <unicode hex="0138"/>
+  <outline>
+    <contour>
+      <point x="230" y="111" type="move"/>
+    </contour>
+    <contour>
+      <point x="85" y="532" type="line"/>
+      <point x="85" y="0" type="line"/>
+      <point x="199" y="0" type="line"/>
+      <point x="199" y="532" type="line"/>
+    </contour>
+    <contour>
+      <point x="435" y="532" type="line"/>
+      <point x="191" y="286" type="line"/>
+      <point x="191" y="140" type="line"/>
+      <point x="567" y="532" type="line"/>
+    </contour>
+    <contour>
+      <point x="274" y="270" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="582" y="0" type="line"/>
+      <point x="359" y="343" type="line"/>
+    </contour>
+    <contour>
+      <point x="249" y="10" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="293" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="142" y="532" type="move" name="top"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

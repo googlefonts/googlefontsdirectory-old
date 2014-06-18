@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="mu" format="1">
+  <advance width="659"/>
+  <unicode hex="00B5"/>
+  <outline>
+    <contour>
+      <point x="115" y="517" type="line"/>
+      <point x="115" y="-194" type="line"/>
+      <point x="135" y="-194" type="line"/>
+      <point x="135" y="517" type="line"/>
+    </contour>
+    <contour>
+      <point x="145" y="36" type="move"/>
+    </contour>
+    <component base="u" xOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

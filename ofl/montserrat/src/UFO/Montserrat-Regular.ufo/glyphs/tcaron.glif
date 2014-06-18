@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tcaron" format="1">
+  <advance width="382"/>
+  <unicode hex="0165"/>
+  <outline>
+    <contour>
+      <point x="175" y="-103" type="move"/>
+    </contour>
+    <component base="t"/>
+    <component base="quoteright" xOffset="241" yOffset="89"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>8</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fi.ss01" format="1">
+  <advance width="661"/>
+  <outline>
+    <contour>
+      <point x="150" y="750"/>
+      <point x="59" y="686"/>
+      <point x="59" y="565" type="curve"/>
+      <point x="59" y="0" type="line"/>
+      <point x="231" y="0" type="line"/>
+      <point x="231" y="554" type="line"/>
+      <point x="231" y="595"/>
+      <point x="256" y="613"/>
+      <point x="292" y="613" type="curve"/>
+      <point x="314" y="613"/>
+      <point x="341" y="605"/>
+      <point x="365" y="592" type="curve"/>
+      <point x="370" y="729" type="line"/>
+      <point x="342" y="742"/>
+      <point x="303" y="750"/>
+      <point x="265" y="750" type="curve"/>
+    </contour>
+    <contour>
+      <point x="86" y="515" type="line"/>
+      <point x="86" y="401" type="line"/>
+      <point x="352" y="401" type="line"/>
+      <point x="352" y="515" type="line"/>
+    </contour>
+    <component base="i" xOffset="350"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

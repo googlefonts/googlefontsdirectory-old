@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="1">
+  <advance width="254"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="52" y="696" type="line"/>
+      <point x="52" y="518" type="line"/>
+      <point x="82" y="240" type="line"/>
+      <point x="187" y="240" type="line"/>
+      <point x="216" y="518" type="line"/>
+      <point x="216" y="696" type="line"/>
+    </contour>
+    <component base="period" xOffset="10.256"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
