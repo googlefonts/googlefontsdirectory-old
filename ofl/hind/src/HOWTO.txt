@@ -1,40 +1,41 @@
 cd ~/src/googlefontdirectory/ofl/hind/;
 
-family="Hind"
+# for otf in `ls -1 *otf`; do echo $otf && ~/googlefontdirectory/tools/nonhinting/setquadraticaddextremasimplify-fontforge.py $otf; done;
+
+# for i in `ls -1 *ttf`; do ttfautohint-111 -f deva -r 32 $i $i-ta; done; ls -l *ttf*; rm *ttf; rename s/ttf-ta/ttf/g *ta;
+
 menutext="Hind "
 
-for style in Regular Bold Light Medium Semibold; do 
+for ttf in `ls -1 *ttf | cut -d. -f1`; do 
 
-    pyftsubset $family-$style.ttf \
+    pyftsubset $ttf.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
-    mv $family-$style.ttf.subset $family-$style.latin;
+    mv $ttf.ttf.subset $ttf.latin;
 
-    pyftsubset $family-$style.ttf \
+    pyftsubset $ttf.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
-    mv $family-$style.ttf.subset $family-$style.latin-ext;
+    mv $ttf.ttf.subset $ttf.latin-ext;
 
-    pyftsubset $family-$style.ttf \
+    pyftsubset $ttf.ttf \
     --text="$menutext" \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
-    mv $family-$style.ttf.subset $family-$style.menu;
+    mv $ttf.ttf.subset $ttf.menu;
 
-    pyftsubset $family-$style.ttf \
+    pyftsubset $ttf.ttf \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-devanagari.txt) \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
-    mv $family-$style.ttf.subset $family-$style.devanagari;
+    mv $ttf.ttf.subset $ttf.devanagari;
 
 done
-
-# for i in `ls -1 *ttf`; do ttfautohint-111 -f deva -r 32 $i $i-ta; done

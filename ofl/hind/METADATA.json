@@ -1,5 +1,5 @@
 {
-  "name": "Hind Regular",
+  "name": "Hind",
   "designer": "Indian Type Foundry",
   "license": "OFL",
   "visibility": "Sandbox",
@@ -7,7 +7,7 @@
   "size": 79589,
   "fonts": [
     {
-      "name": "Hind Bold",
+      "name": "Hind",
       "style": "normal",
       "weight": 700,
       "filename": "Hind-Bold.ttf",
@@ -16,7 +16,7 @@
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind Light",
+      "name": "Hind",
       "style": "normal",
       "weight": 300,
       "filename": "Hind-Light.ttf",
@@ -25,7 +25,7 @@
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind Regular",
+      "name": "Hind",
       "style": "normal",
       "weight": 400,
       "filename": "Hind-Regular.ttf",
@@ -34,7 +34,7 @@
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind Semibold",
+      "name": "Hind",
       "style": "normal",
       "weight": 600,
       "filename": "Hind-Semibold.ttf",
@@ -43,7 +43,7 @@
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     },
     {
-      "name": "Hind Medium",
+      "name": "Hind",
       "style": "normal",
       "weight": 500,
       "filename": "Hind-Medium.ttf",
@@ -58,5 +58,5 @@
     "devanagari",
     "menu"
   ],
-  "dateAdded": "2014-06-19"
+  "dateAdded": "2014-06-25"
 }
