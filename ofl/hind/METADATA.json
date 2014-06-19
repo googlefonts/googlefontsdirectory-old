@@ -27,6 +27,15 @@
     {
       "name": "Hind",
       "style": "normal",
+      "weight": 500,
+      "filename": "Hind-Medium.ttf",
+      "postScriptName": "Hind-Medium",
+      "fullName": "Hind Medium",
+      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+    },
+    {
+      "name": "Hind",
+      "style": "normal",
       "weight": 400,
       "filename": "Hind-Regular.ttf",
       "postScriptName": "Hind-Regular",
@@ -40,15 +49,6 @@
       "filename": "Hind-Semibold.ttf",
       "postScriptName": "Hind-Semibold",
       "fullName": "Hind Semibold",
-      "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
-    },
-    {
-      "name": "Hind",
-      "style": "normal",
-      "weight": 500,
-      "filename": "Hind-Medium.ttf",
-      "postScriptName": "Hind-Medium",
-      "fullName": "Hind Medium",
       "copyright": "Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
     }
   ],
