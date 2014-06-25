@@ -32,6 +32,7 @@ for style in Regular Bold ExtraBold ExtraLight Light Medium SemiBold; do
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-devanagari.txt) \
     --notdef-outline \
     --name-IDs='*' \
+    --layout-features='*' \
     --verbose --timing --hinting;
     mv $family-$style.ttf.subset $family-$style.devanagari;
 
