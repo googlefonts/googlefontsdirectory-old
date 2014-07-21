@@ -1,0 +1,75 @@
+cd ~/src/googlefontdirectory/apache/notoserif/;
+
+family="NotoSerif"
+
+for style in Bold BoldItalic Regular Italic; do 
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-vietnamese.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.vietnamese;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic-ext;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.greek;
+
+    pyftsubset $family-$style.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.greek-ext;
+
+    pyftsubset $family-$style.ttf \
+    U+004e U+006f U+0074 U+006f U+0020 U+0053 U+0065 U+0072 U+0069 U+0066 \
+    U+0028 U+0029 U+0052 U+006F U+0062 U+006F U+0074 U+006F \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-vietnamese-menu.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu
+
+done
