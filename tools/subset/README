@@ -8,7 +8,7 @@ currently supports creating subsets of Latin, Extended Latin,
 Vietnamese, Greek, Extended Greek, Cyrillic and Extended Cyrillic
 and can be extended to other scripts.
 
-To use it, FontForge must be installed from CVS with the 
+To use it, FontForge must be installed from source with the 
 python extension enabled and installed:
 
     fontforge$ ./configure --enable-pyextension;
