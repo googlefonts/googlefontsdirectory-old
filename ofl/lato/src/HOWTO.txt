@@ -62,7 +62,7 @@ for style in Black BlackItalic Bold BoldItalic Hairline HairlineItalic Heavy Hea
     mv $family-$style.ttf.subset $family-$style.greek-ext;
 
     pyftsubset $family-$style.ttf \
-    U+004c U+0061 U+0074 U+006f \
+    U+004c U+0061 U+0074 U+006f U+0020 \
     U+0028 U+0029 U+0052 U+006F U+0062 U+006F U+0074 U+006F \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt) \
     $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-menu.txt) \
