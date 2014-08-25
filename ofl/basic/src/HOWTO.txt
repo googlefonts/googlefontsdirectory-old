@@ -1,0 +1,29 @@
+cd ~/src/googlefontdirectory/ofl/basic/;
+
+menutext="Basic "
+
+for ttf in `ls -1 *ttf | cut -d. -f1`; do 
+
+    pyftsubset $ttf.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $ttf.ttf.subset $ttf.latin;
+
+    pyftsubset $ttf.ttf \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt) \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $ttf.ttf.subset $ttf.latin-ext;
+
+    pyftsubset $ttf.ttf \
+    --text="$menutext" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $ttf.ttf.subset $ttf.menu;
+
+done
