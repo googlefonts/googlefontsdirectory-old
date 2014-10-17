@@ -1,0 +1,52 @@
+cd ~/src/googlefontdirectory/ofl/lobster/;
+
+family="Lobster"
+menutext="Lobster "
+
+for style in Regular; do
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin-ext.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-ext.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic-ext;
+    
+    pyftsubset $family-$style.ttf \
+    --unicodes="U+004c U+006f U+0062 U+0073 U+0074 U+0065 U+007 U+0020 U+0028 U+0029 \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done
