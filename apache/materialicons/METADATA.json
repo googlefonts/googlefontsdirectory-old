@@ -1,0 +1,24 @@
+{
+  "name": "Material Icons",
+  "designer": "Google",
+  "license": "Apache2",
+  "visibility": "Internal",
+  "category": "monospace",
+  "size": 51318,
+  "fonts": [
+    {
+      "name": "Material Icons",
+      "style": "normal",
+      "weight": 400,
+      "filename": "MaterialIcons-Regular.ttf",
+      "postScriptName": "MaterialIcons-Regular",
+      "fullName": "Material Icons",
+      "copyright": "Copyright 2014 Google, Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2014-10-17"
+}
