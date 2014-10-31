@@ -1,0 +1,10 @@
+commit: HEAD
+compiler: fontforge
+downstream: true
+license_file: OFL.txt
+newfamily: Bhavuka
+optimize: true
+process_files: [./sources/Bhavuka-Regular.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin, latin-ext, devanagari]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G" -D deva -f deva
