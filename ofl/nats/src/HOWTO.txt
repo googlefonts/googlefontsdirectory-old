@@ -1,0 +1,35 @@
+cd ~/src/googlefontdirectory/ofl/nats/;
+
+family="NATS"
+menuchars=`~/googlefontdirectory/tools/chars/string-line.py $family`
+
+for style in Regular; do
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-telugu.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.telugu;
+   
+    pyftsubset $family-$style.ttf \
+    --unicodes="U+0020 $menuchars \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-telugu-menu.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done
+
+
