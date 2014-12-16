@@ -1,0 +1,17 @@
+cd ~/src/googlefontdirectory/ofl/sreekrushnadevaraya/;
+
+family="SreeKrushnadevaraya"
+
+for style in Regular; do
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-telugu-sa.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.sa;
+   
+done
+
+
