@@ -7,7 +7,7 @@ for style in Regular; do
 
     pyftsubset $family-$style.ttf \
 	--unicodes=" \
-    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt)" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 )" \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
@@ -15,8 +15,8 @@ for style in Regular; do
 
     pyftsubset $family-$style.ttf \
 	--unicodes=" \
-    $(<~/src/googlefontdirectory/tools/encodings/unicodes-latin.txt) \
-    $(<~/src/googlefontdirectory/tools/encodings/unicodes-telugu.txt)" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/telugu_unique-glyphs.nam | cut -d\  -f1 )" \
     --notdef-outline \
     --name-IDs='*' \
     --verbose --timing --hinting;
