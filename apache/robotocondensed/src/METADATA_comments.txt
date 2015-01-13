@@ -1,26 +1,89 @@
-rm *.menu; \
-for font in `ls *ttf`; do \
-fontforge -lang=ff -script src/menusubset-robotocondensed.ff $font; \
-done; \
-rename s/ttf.menu.ttf/menu/g *;
+# NOTE: When Google Fonts updates these fonts, the 
+# Android style guide page should also have its zipped
+# copies of Roboto fonts updated to match
 
-rm *.nam *.latin* *.cyrillic* *.greek* *.vietn* *.log; \
-cd ~/googlefontdirectory/apache/; \
-for family in robotocondensed; do \
-   for font in `ls -1 $family/*ttf | cut -d. -f1`; do \
-       for subset in \
-           latin latin-ext+latin \
-           cyrillic+latin cyrillic-ext+latin \
-           greek+latin greek-ext+latin \
-           vietnamese+latin; do \
-           echo subset.py --null --nmr --roundtrip --script \
-               --subset=$subset $font.ttf $font.$subset; \
-           python ~/googlefontdirectory/tools/subset/subset.py \
-               --null --nmr --roundtrip --script --subset=$subset \
-               $font.ttf $font.$subset >> $font.$subset.log \
-              # 2>> $font.$subset.log; \
-       done; \
-   done; \
-done; \
-cd ~/googlefontdirectory/apache/robotocondensed/; \
-rename 's/([^+])\+latin$/$1/' *;
+# set present working directory \
+cd ~/googlefontdirectory/apache/robotocondensed; \
+family="RobotoCondensed"
+menuchars=`~/googlefontdirectory/tools/chars/string-line.py $family`
+
+# clear the old files \
+rm *.menu *.latin* *.cyrillic* *.greek* *.vietn* *.nam *.log; \
+
+for style in Regular Bold BoldItalic Italic Light LightItalic; do
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin-ext_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.latin-ext;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/cyrillic_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/cyrillic-ext_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/cyrillic_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.cyrillic-ext;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/greek_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.greek;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/greek-ext_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/greek_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.greek-ext;
+
+    pyftsubset $family-$style.ttf \
+	--unicodes=" \
+    $( cat ~/src/googlefontdirectory/tools/encodings/latin_unique-glyphs.nam | cut -d\  -f1 ) \
+    $( cat ~/src/googlefontdirectory/tools/encodings/vietnamese_unique-glyphs.nam | cut -d\  -f1 )" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.vietnamese;
+   
+    pyftsubset $family-$style.ttf \
+    --unicodes="U+0020 $menuchars \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-cyrillic-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-greek-menu.txt) \
+    $(<~/src/googlefontdirectory/tools/encodings/unicodes-vietnamese-menu.txt)" \
+    --notdef-outline \
+    --name-IDs='*' \
+    --verbose --timing --hinting;
+    mv $family-$style.ttf.subset $family-$style.menu;
+
+done
