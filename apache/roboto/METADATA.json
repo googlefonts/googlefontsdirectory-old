@@ -7,7 +7,7 @@
   "repository": "static",
   "experiments": ["enable_unicode_range", "enable_unique_glyphs_subset", "unicode_range_no_fallback" ],
   "category": "Sans Serif",
-  "size": 87630,
+  "size": 86523,
   "fonts": [
     {
       "name": "Roboto",
@@ -51,7 +51,7 @@
       "weight": 400,
       "filename": "Roboto-Regular.ttf",
       "postScriptName": "Roboto-Regular",
-      "fullName": "Roboto Regular",
+      "fullName": "Roboto",
       "copyright": "Copyright 2011 Google Inc. All Rights Reserved."
     },
     {
