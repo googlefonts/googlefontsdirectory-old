@@ -1,4 +1,9 @@
-# Google Fonts Files
+# OLD (2015) Google Fonts Files Archive
+
+**This is an archive of the 2015 mercurial repo that was hosted on code.google.com and replaced with [github.com/google/fonts](https://github.com/google/fonts).
+It contains 100s of source files (typically in VFB format) not available anywhere else.
+For any issues, please file at [github.com/google/fonts/issues](https://github.com/google/fonts/issues/new)**
+
 
 This project contains the binary font files served by Google Fonts: http://www.google.com/fonts
 
